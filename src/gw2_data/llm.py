@@ -110,12 +110,17 @@ def extract_acquisitions(
     cache: CacheClient,
     model: str | None = None,
 ) -> ExtractionResult:
+    settings = get_settings()
+    effective_model = model or settings.llm_model
+
     content_hash = hashlib.sha256(wiki_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
     cache_hash = f"{_PROMPT_HASH}:{content_hash}"
 
-    cached = cache.get_llm_extraction(item_id, item_name, cache_hash)
+    cached = cache.get_llm_extraction(item_id, item_name, cache_hash, effective_model)
     if cached is not None:
-        log.info("LLM extraction for '%s': using cached result", item_name)
+        log.info(
+            "LLM extraction for '%s': using cached result (model=%s)", item_name, effective_model
+        )
         return ExtractionResult(
             item_data=cached["item_data"],
             overall_confidence=cached["overall_confidence"],
@@ -123,14 +128,14 @@ def extract_acquisitions(
             notes=cached["notes"],
         )
 
-    log.info("LLM extraction for '%s': calling claude CLI", item_name)
+    log.info("LLM extraction for '%s': calling claude CLI (model=%s)", item_name, effective_model)
     llm_output = _call_llm(
         item_id=item_id,
         item_name=item_name,
         item_type=api_data["type"],
         rarity=api_data["rarity"],
         wiki_html=wiki_html,
-        model=model,
+        model=effective_model,
     )
 
     raw_acquisitions = llm_output.get("acquisitions", [])
@@ -160,7 +165,7 @@ def extract_acquisitions(
         "acquisition_confidences": confidences,
         "notes": notes,
     }
-    cache.set_llm_extraction(item_id, item_name, cache_hash, cache_entry)
+    cache.set_llm_extraction(item_id, item_name, cache_hash, effective_model, cache_entry)
 
     return ExtractionResult(
         item_data=item_data,

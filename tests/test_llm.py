@@ -217,6 +217,32 @@ class TestExtractAcquisitions:
         model_idx = cmd.index("--model")
         assert cmd[model_idx + 1] == "sonnet"
 
+    def test_different_models_use_different_cache(
+        self, mocker, cache_client, api_data, llm_response_json
+    ):
+        mock_run = _mock_claude_cli(mocker, llm_response_json)
+
+        llm.extract_acquisitions(
+            123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
+        )
+        llm.extract_acquisitions(
+            123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="sonnet"
+        )
+
+        assert mock_run.call_count == 2
+
+    def test_same_model_uses_cache(self, mocker, cache_client, api_data, llm_response_json):
+        mock_run = _mock_claude_cli(mocker, llm_response_json)
+
+        llm.extract_acquisitions(
+            123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
+        )
+        llm.extract_acquisitions(
+            123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
+        )
+
+        assert mock_run.call_count == 1
+
     def test_empty_acquisitions(self, mocker, cache_client, api_data):
         empty_response = json.dumps(
             {

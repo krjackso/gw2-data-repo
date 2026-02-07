@@ -85,8 +85,8 @@ def test_llm_extraction_cache_roundtrip(cache_client: CacheClient):
         "acquisitions": [],
     }
 
-    cache_client.set_llm_extraction(123, "Test Item", "abc123", extraction_data)
-    result = cache_client.get_llm_extraction(123, "Test Item", "abc123")
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", extraction_data)
+    result = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku")
 
     assert result == extraction_data
 
@@ -95,14 +95,28 @@ def test_llm_extraction_cache_includes_item_name_in_key(cache_client: CacheClien
     data1 = {"data": "first"}
     data2 = {"data": "second"}
 
-    cache_client.set_llm_extraction(123, "Item A", "hash1", data1)
-    cache_client.set_llm_extraction(123, "Item B", "hash1", data2)
+    cache_client.set_llm_extraction(123, "Item A", "hash1", "haiku", data1)
+    cache_client.set_llm_extraction(123, "Item B", "hash1", "haiku", data2)
 
-    result1 = cache_client.get_llm_extraction(123, "Item A", "hash1")
-    result2 = cache_client.get_llm_extraction(123, "Item B", "hash1")
+    result1 = cache_client.get_llm_extraction(123, "Item A", "hash1", "haiku")
+    result2 = cache_client.get_llm_extraction(123, "Item B", "hash1", "haiku")
 
     assert result1 == data1
     assert result2 == data2
+
+
+def test_llm_extraction_cache_includes_model_in_key(cache_client: CacheClient):
+    data_haiku = {"data": "haiku result"}
+    data_sonnet = {"data": "sonnet result"}
+
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", data_haiku)
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "sonnet", data_sonnet)
+
+    result_haiku = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku")
+    result_sonnet = cache_client.get_llm_extraction(123, "Test Item", "abc123", "sonnet")
+
+    assert result_haiku == data_haiku
+    assert result_sonnet == data_sonnet
 
 
 def test_clear_cache_by_tag(cache_client: CacheClient):

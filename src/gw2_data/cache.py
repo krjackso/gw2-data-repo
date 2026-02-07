@@ -44,14 +44,19 @@ class CacheClient:
     def set_wiki_page(self, page_name: str, content: str) -> None:
         self._cache.set(f"wiki:{page_name}", content, expire=None, tag="wiki")
 
-    def get_llm_extraction(self, item_id: int, item_name: str, content_hash: str) -> dict | None:
-        return self._cache.get(f"llm:{item_id}:{item_name}:{content_hash}")
+    def get_llm_extraction(
+        self, item_id: int, item_name: str, content_hash: str, model: str
+    ) -> dict | None:
+        return self._cache.get(f"llm:{item_id}:{item_name}:{content_hash}:{model}")
 
     def set_llm_extraction(
-        self, item_id: int, item_name: str, content_hash: str, data: dict
+        self, item_id: int, item_name: str, content_hash: str, model: str, data: dict
     ) -> None:
         self._cache.set(
-            f"llm:{item_id}:{item_name}:{content_hash}", data, expire=7 * 86400, tag="llm"
+            f"llm:{item_id}:{item_name}:{content_hash}:{model}",
+            data,
+            expire=7 * 86400,
+            tag="llm",
         )
 
     def clear_cache(self, tags: list[str] | None = None) -> None:
