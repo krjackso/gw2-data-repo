@@ -26,6 +26,7 @@ ACQUISITION_TYPE_ORDER = [
     "pvp_reward",
     "wizards_vault",
     "story",
+    "other",
 ]
 
 # Secondary sort keys per type (ordered list of dot-notation field paths)
@@ -69,6 +70,9 @@ ACQUISITION_SORT_FIELDS = {
     "story": [
         "metadata.expansion",
         "metadata.storyChapter",
+    ],
+    "other": [
+        "metadata.notes",
     ],
 }
 

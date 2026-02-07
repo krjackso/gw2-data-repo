@@ -25,6 +25,16 @@ Agaleus (heavy): 105738
 Agaleus (medium): 106400
 Agaleus (light): 105438
 
+# Ignore the container variant (95110, 95130)
+Eternity: 30689
+Eternity (container): 95110
+# Ignore the container variant (95119)
+Sunrise: 30703
+# Ignore the container variant (95129)
+Twilight: 30704
+
+Legendary Choice Box: 97889
+
 # ============================================================================
 # PvP Legendary Armor (Ardent Glorious) - Rarity Variants
 # ============================================================================

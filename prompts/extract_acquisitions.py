@@ -137,6 +137,13 @@ Story chapter completion reward.
 requirements: none
 metadata: { "storyChapter": "...", "expansion": "..." }
 
+### other
+Acquisition method that doesn't fit any of the above types. Use ONLY as a last resort \
+when no other type is applicable (e.g., adding a legendary to the Legendary Armory, \
+unique game mechanics with no standard category).
+requirements: none
+metadata: { "notes": "Human-readable description of how this item is obtained" }
+
 ## Confidence Scoring
 
 Rate each acquisition 0.0-1.0:
@@ -215,6 +222,12 @@ Look for these in table cells (<td> tags) adjacent to the vendor cost informatio
 
 If a vendor row has these conditions, the "notes" field in metadata is REQUIRED (not optional). \
 Keep the text verbatim from the wiki. If no special conditions exist, omit the notes field entirely.
+
+16. Do NOT include "Gathered from" or gathering/harvesting sources. Wiki pages often list \
+gathering nodes, resource nodes, or map-specific interactable objects (e.g., "Glorious Chest \
+(Super Adventure Box)") in a "Gathered from" section. These are NOT items in the GW2 API — \
+they are world objects — and cannot be tracked as requirements. Skip the entire "Gathered from" \
+section when extracting acquisitions.
 """
 
 

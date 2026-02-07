@@ -72,6 +72,15 @@ def populate_item(
     except ValidationError as e:
         raise ExtractionError(f"Validation failed for item {item_id}: {e}") from e
 
+    for acq in result.item_data.get("acquisitions", []):
+        if acq.get("type") == "other":
+            notes = (acq.get("metadata") or {}).get("notes", "no description")
+            print(
+                f"\n⚠ 'other' acquisition detected — unusual acquisition method:\n"
+                f'  "{notes}"\n'
+                f"  Consider whether a new acquisition type should be added."
+            )
+
     yaml_content = validated.model_dump(by_alias=True, exclude_none=True)
     new_yaml = yaml.dump(yaml_content, sort_keys=False, allow_unicode=True)
 
@@ -144,6 +153,8 @@ def _acquisition_label(acq: dict) -> str:
         return meta.get("rewardType", meta.get("regionName", "unknown reward"))
     if acq_type == "story":
         return meta.get("storyChapter", meta.get("expansion", "unknown story"))
+    if acq_type == "other":
+        return meta.get("notes", "no description")
     return ""
 
 

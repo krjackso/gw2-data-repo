@@ -25,6 +25,7 @@ gw2-data-repo/
 ├── scripts/
 │   ├── validate.py        # Validate all YAML files
 │   ├── populate.py        # Generate acquisition YAML from wiki
+│   ├── populate_tree.py   # Recursively populate crafting trees
 │   └── build_index.py     # Build item name-to-ID index
 ├── prompts/               # LLM prompt templates (future)
 └── tests/
@@ -56,6 +57,10 @@ uv run python -m scripts.build_index --currencies      # build currency index (<
 # Generate item data with acquisitions
 uv run python -m scripts.populate --item-id 19676 --dry-run
 uv run python -m scripts.populate --item-name "Gift of Metal" --dry-run
+
+# Recursively populate crafting tree (populates item + all dependencies)
+uv run python -m scripts.populate_tree --item-id 30689 --limit 10
+uv run python -m scripts.populate_tree --item-name "Eternity" --limit 5
 
 # Clear cache (all or by tag: api, wiki, llm)
 uv run python -m scripts.populate --clear-cache
@@ -187,7 +192,6 @@ The resolution process:
 | `crafting` | Standard crafting at a station | Items (ingredients) | `recipeType`, `disciplines`, `minRating` |
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | `recipeType` |
 | `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount`, `notes` |
-
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory`, `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
 | `container` | Obtained by opening a container | Item (the container) | `guaranteed`, `choice` |
@@ -196,6 +200,7 @@ The resolution process:
 | `pvp_reward` | PvP reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `seasonal` |
 | `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
+| `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | `notes` (description of method) |
 
 ### Vendor Notes
 
@@ -206,6 +211,10 @@ Vendor acquisitions may include a `notes` field in metadata to capture special c
 - `"Requires <rank> in <game mode>"` - WvW/PvP rank requirements
 
 These notes provide important context to users about prerequisites or restrictions for acquiring the item.
+
+### Excluded Sources
+
+**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes, resource nodes, or map-specific interactable objects (e.g., "Glorious Chest (Super Adventure Box)"). These are **not tracked** because they are world objects, not items in the GW2 API, and cannot be represented as item requirements.
 
 ## GW2 Domain Knowledge
 

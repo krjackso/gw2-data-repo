@@ -96,7 +96,8 @@
             "wvw_reward",
             "pvp_reward",
             "wizards_vault",
-            "story"
+            "story",
+            "other"
           ],
           "description": "The acquisition method type"
         },

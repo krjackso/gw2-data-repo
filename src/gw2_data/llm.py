@@ -97,7 +97,9 @@ def _call_llm(
 
     if result.returncode != 0:
         stderr = result.stderr.strip()
-        raise ExtractionError(f"claude CLI failed (exit {result.returncode}): {stderr}")
+        stdout = result.stdout.strip()
+        details = stderr or stdout or "(no output)"
+        raise ExtractionError(f"claude CLI failed (exit {result.returncode}): {details}")
 
     return _parse_llm_response(result.stdout)
 

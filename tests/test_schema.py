@@ -261,6 +261,7 @@ class TestPydanticModels:
             "pvp_reward",
             "wizards_vault",
             "story",
+            "other",
         ]:
             data = {
                 "id": 1,

@@ -27,6 +27,24 @@ class TestSortAcquisitions:
         assert result[1]["type"] == "vendor"
         assert result[2]["type"] == "achievement"
 
+    def test_sort_other_after_story(self):
+        acquisitions = [
+            {
+                "type": "other",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"notes": "test"},
+            },
+            {"type": "story", "outputQuantity": 1, "requirements": []},
+            {"type": "crafting", "outputQuantity": 1, "requirements": []},
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["type"] == "crafting"
+        assert result[1]["type"] == "story"
+        assert result[2]["type"] == "other"
+
     def test_sort_unknown_type_last(self):
         acquisitions = [
             {"type": "vendor", "outputQuantity": 1, "requirements": []},

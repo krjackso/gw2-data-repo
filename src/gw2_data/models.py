@@ -55,6 +55,7 @@ AcquisitionType = Literal[
     "pvp_reward",
     "wizards_vault",
     "story",
+    "other",
 ]
 
 
@@ -140,6 +141,10 @@ class StoryMetadata(BaseModel):
     expansion: str | None = None
 
 
+class OtherMetadata(BaseModel):
+    notes: str
+
+
 AcquisitionMetadata = (
     RecipeMetadata
     | VendorMetadata
@@ -150,6 +155,7 @@ AcquisitionMetadata = (
     | MapRewardMetadata
     | WizardsVaultMetadata
     | StoryMetadata
+    | OtherMetadata
 )
 
 _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
@@ -164,6 +170,7 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
     "pvp_reward": RewardTrackMetadata,
     "wizards_vault": WizardsVaultMetadata,
     "story": StoryMetadata,
+    "other": OtherMetadata,
 }
 
 
