@@ -5,7 +5,7 @@ Provides TypedDict structures matching the GW2 API schema to enable
 strict type checking and better IDE support.
 """
 
-from typing import NotRequired, TypedDict
+from typing import NamedTuple, NotRequired, TypedDict
 
 from gw2_data.models import ItemRarity, ItemType
 
@@ -36,3 +36,8 @@ class GW2Recipe(TypedDict):
     disciplines: list[str]
     ingredients: list[RecipeIngredient]
     flags: NotRequired[list[str]]
+
+
+class BulkResult(NamedTuple):
+    items: list[GW2Item]
+    from_cache: bool

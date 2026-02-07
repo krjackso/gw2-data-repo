@@ -9,6 +9,8 @@ gw2-data-repo/
 ├── data/
 │   ├── items/             # YAML files: one per item, API data + acquisitions
 │   │   └── {itemId}.yaml
+│   ├── index/
+│   │   └── item_names.yaml    # Name-to-ID index for lookups
 │   └── schema/
 │       └── item.schema.json   # JSON Schema for item files
 ├── src/gw2_data/
@@ -22,7 +24,8 @@ gw2-data-repo/
 │   └── exceptions.py      # Custom exceptions
 ├── scripts/
 │   ├── validate.py        # Validate all YAML files
-│   └── populate.py        # Generate acquisition YAML from wiki
+│   ├── populate.py        # Generate acquisition YAML from wiki
+│   └── build_index.py     # Build item name-to-ID index
 ├── prompts/               # LLM prompt templates (future)
 └── tests/
     └── test_*.py          # Comprehensive test suite
@@ -44,8 +47,13 @@ uv run ruff format --check .
 # Validate all item YAML files
 uv run python -m scripts.validate
 
+# Build item name-to-ID index (fetches all ~57k items from GW2 API)
+uv run python -m scripts.build_index
+uv run python -m scripts.build_index --force          # ignore cache
+
 # Generate item data with acquisitions
 uv run python -m scripts.populate --item-id 19676 --dry-run
+uv run python -m scripts.populate --item-name "Gift of Metal" --dry-run
 
 # Clear cache (all or by tag: api, wiki, llm)
 uv run python -m scripts.populate --clear-cache

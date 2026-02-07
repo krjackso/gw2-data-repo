@@ -130,7 +130,7 @@ def main() -> None:
     )
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--item-id", type=int, help="GW2 item ID (must be positive)")
-    group.add_argument("--item-name", type=str, help="GW2 item name (not yet supported)")
+    group.add_argument("--item-name", type=str, help="GW2 item name (resolved via index)")
     group.add_argument(
         "--clear-cache",
         nargs="*",
@@ -165,9 +165,18 @@ def main() -> None:
 
     try:
         if args.item_name:
-            print("Error: --item-name is not yet implemented", file=sys.stderr)
-            print("Please use --item-id instead", file=sys.stderr)
-            sys.exit(1)
+            index = api.load_item_name_index()
+            matches = index.get(args.item_name)
+            if not matches:
+                print(f"Error: No item found with name '{args.item_name}'", file=sys.stderr)
+                sys.exit(1)
+            if len(matches) > 1:
+                print(f"Multiple items match '{args.item_name}':", file=sys.stderr)
+                for mid in matches:
+                    print(f"  --item-id {mid}", file=sys.stderr)
+                sys.exit(1)
+            item_id = matches[0]
+            print(f"Resolved '{args.item_name}' to item ID {item_id}")
         else:
             item_id = args.item_id
 
