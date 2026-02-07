@@ -1,5 +1,9 @@
+import logging
+
 from gw2_data import api
 from gw2_data.exceptions import APIError
+
+log = logging.getLogger(__name__)
 
 
 def resolve_requirements(
@@ -9,6 +13,9 @@ def resolve_requirements(
 ) -> list[dict]:
     resolved = []
     for acq in acquisitions:
+        if acq.get("discontinued"):
+            log.info(f"Excluding discontinued {acq['type']} acquisition")
+            continue
         acq_copy = dict(acq)
         requirements = acq_copy.get("requirements", [])
         resolved_reqs = []
@@ -36,7 +43,9 @@ def resolve_requirements(
                             f"Failed to resolve requirement '{name}' in {acq_type} acquisition "
                             f"(not found in currency or item index). "
                             f"If this is a known variant, add to currency_name_overrides.yaml "
-                            f"or item_name_overrides.yaml: {e}"
+                            f"or item_name_overrides.yaml. "
+                            f"If this acquisition is discontinued, the LLM should mark it with "
+                            f"discontinued: true and it will be excluded: {e}"
                         ) from e
 
             resolved_reqs.append(req_copy)
