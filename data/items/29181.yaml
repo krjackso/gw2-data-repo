@@ -1,0 +1,67 @@
+id: 29181
+name: Zap
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4C4FDD15CE97DFD1F13F0BA9B7740FB110F00675/1206760.png
+description: '<c=@flavor>This weapon is used to craft the legendary sword Bolt.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Bolt
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Zap
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemName: Essence of Energy
+    quantity: 1
+  - itemName: Spirit of the Perfected Sword
+    quantity: 1
+  - itemName: Engraver's Tools
+    quantity: 1
+  - itemName: Energy Source
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  outputQuantity: 1
+  requirements:
+  - itemName: 'Starter Kit: Bolt'
+    quantity: 1
+  metadata:
+    guaranteed: true
+    choice: false
+- type: container
+  outputQuantity: 1
+  requirements:
+  - itemName: 'Tournament of Legends: Precursor Choice Box'
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  discontinued: true
+  outputQuantity: 1
+  requirements:
+  - itemName: 'Tournament of Legends: Second Place'
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true

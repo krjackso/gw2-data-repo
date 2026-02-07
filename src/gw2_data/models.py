@@ -47,7 +47,6 @@ AcquisitionType = Literal[
     "crafting",
     "mystic_forge",
     "vendor",
-    "trading_post",
     "achievement",
     "map_reward",
     "container",
@@ -72,8 +71,18 @@ class CurrencyRequirement(BaseModel):
     quantity: int = Field(ge=1)
 
 
+class ItemNameRequirement(BaseModel):
+    item_name: str = Field(alias="itemName", min_length=1)
+    quantity: int = Field(ge=1)
+
+
+class CurrencyNameRequirement(BaseModel):
+    currency_name: str = Field(alias="currencyName", min_length=1)
+    quantity: int = Field(ge=1)
+
+
 AcquisitionRequirement = Annotated[
-    ItemRequirement | CurrencyRequirement,
+    ItemRequirement | CurrencyRequirement | ItemNameRequirement | CurrencyNameRequirement,
     Field(discriminator=None),
 ]
 
@@ -85,12 +94,9 @@ class RecipeMetadata(BaseModel):
     recipe_type: str = Field(alias="recipeType")
     disciplines: list[str] | None = None
     min_rating: int | None = Field(default=None, alias="minRating")
-    recipe_sheet: str | None = Field(default=None, alias="recipeSheet")
 
 
 class VendorMetadata(BaseModel):
-    vendor_name: str = Field(alias="vendorName")
-    vendor_location: str | None = Field(default=None, alias="vendorLocation")
     map_id: int | None = Field(default=None, alias="mapId")
     limit_type: Literal["daily", "weekly", "season", "lifetime"] | None = Field(
         default=None, alias="limitType"
@@ -109,13 +115,14 @@ class AchievementMetadata(BaseModel):
 
 
 class ContainerMetadata(BaseModel):
-    container_item_id: int = Field(alias="containerItemId", gt=0)
+    container_item_id: int | None = Field(default=None, alias="containerItemId", gt=0)
     guaranteed: bool | None = None
+    choice: bool | None = None
 
 
 class SalvageMetadata(BaseModel):
-    source_item_id: int = Field(alias="sourceItemId", gt=0)
-    guaranteed: bool
+    source_item_id: int | None = Field(default=None, alias="sourceItemId", gt=0)
+    guaranteed: bool | None = None
 
 
 class RewardTrackMetadata(BaseModel):
@@ -134,8 +141,6 @@ class MapRewardMetadata(BaseModel):
 
 
 class WizardsVaultMetadata(BaseModel):
-    cost: int
-    currency_name: str = Field(default="Astral Acclaim", alias="currencyName")
     seasonal: bool = False
 
 
@@ -160,7 +165,6 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
     "crafting": RecipeMetadata,
     "mystic_forge": RecipeMetadata,
     "vendor": VendorMetadata,
-    "trading_post": BaseModel,
     "achievement": AchievementMetadata,
     "map_reward": MapRewardMetadata,
     "container": ContainerMetadata,
@@ -177,9 +181,11 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
 
 class Acquisition(BaseModel):
     type: AcquisitionType
+    vendor_name: str | None = Field(default=None, alias="vendorName")
+    discontinued: bool | None = None
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
-    metadata: AcquisitionMetadata | None = None
+    metadata: AcquisitionMetadata | dict | None = None
 
     model_config = {"populate_by_name": True}
 

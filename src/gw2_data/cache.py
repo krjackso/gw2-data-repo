@@ -50,7 +50,9 @@ class CacheClient:
     def set_llm_extraction(
         self, item_id: int, item_name: str, content_hash: str, data: dict
     ) -> None:
-        self._cache.set(f"llm:{item_id}:{item_name}:{content_hash}", data, expire=None, tag="llm")
+        self._cache.set(
+            f"llm:{item_id}:{item_name}:{content_hash}", data, expire=7 * 86400, tag="llm"
+        )
 
     def clear_cache(self, tags: list[str] | None = None) -> None:
         if tags:

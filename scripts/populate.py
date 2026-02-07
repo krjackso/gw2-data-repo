@@ -1,12 +1,6 @@
-"""
-CLI script for populating item data YAML files from GW2 API and wiki.
-
-Fetches item metadata from the GW2 API, acquisition info from the wiki,
-uses an LLM to extract structured data, validates against the schema, and
-writes the result to data/items/{itemId}.yaml.
-"""
-
 import argparse
+import difflib
+import logging
 import sys
 from pathlib import Path
 
@@ -21,7 +15,11 @@ from gw2_data.models import ItemFile
 
 
 def populate_item(
-    item_id: int, cache: CacheClient, overwrite: bool = False, dry_run: bool = False
+    item_id: int,
+    cache: CacheClient,
+    overwrite: bool = False,
+    dry_run: bool = False,
+    model: str | None = None,
 ) -> None:
     if item_id <= 0:
         raise ValueError(f"Item ID must be positive, got {item_id}")
@@ -32,38 +30,98 @@ def populate_item(
         print(f"Skipping {item_id}: file already exists (use --overwrite to replace)")
         return
 
-    print(f"Fetching item data for ID {item_id}...")
     item_data = api.get_item(item_id, cache=cache)
     item_name = item_data["name"]
-    print(f"Item: {item_name}")
+    print(f"Item: {item_name} (ID: {item_id})")
 
-    print(f"Fetching wiki page for {item_name}...")
     wiki_html = wiki.get_page_html(item_name, cache=cache)
-    print(f"Wiki page fetched ({len(wiki_html)} chars)")
+    print(f"Wiki page: {len(wiki_html):,} chars")
 
-    print("Extracting acquisition data with LLM...")
-    acquisition_data = llm.extract_acquisitions(
-        item_id, item_name, wiki_html, item_data, cache=cache
+    result = llm.extract_acquisitions(
+        item_id, item_name, wiki_html, item_data, cache=cache, model=model
     )
+
+    _print_extraction_summary(result)
 
     print("Validating against schema...")
     try:
-        validated = ItemFile.model_validate(acquisition_data)
+        validated = ItemFile.model_validate(result.item_data)
     except ValidationError as e:
         raise ExtractionError(f"Validation failed for item {item_id}: {e}") from e
 
     yaml_content = validated.model_dump(by_alias=True, exclude_none=True)
+    new_yaml = yaml.dump(yaml_content, sort_keys=False, allow_unicode=True)
+
+    if output_path.exists():
+        old_yaml = output_path.read_text()
+        diff = difflib.unified_diff(
+            old_yaml.splitlines(keepends=True),
+            new_yaml.splitlines(keepends=True),
+            fromfile=f"a/{output_path}",
+            tofile=f"b/{output_path}",
+        )
+        diff_text = "".join(diff)
+        if diff_text:
+            print(f"\n--- Diff from existing {output_path} ---")
+            print(diff_text)
+        else:
+            print("\nNo changes from existing file.")
 
     if dry_run:
-        print("\n--- DRY RUN: Would write to", output_path, "---")
-        print(yaml.dump(yaml_content, sort_keys=False, allow_unicode=True))
+        if not output_path.exists():
+            print("\n--- DRY RUN: Would write to", output_path, "---")
+            print(new_yaml)
         return
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w") as f:
-        yaml.dump(yaml_content, f, sort_keys=False, allow_unicode=True)
+        f.write(new_yaml)
 
-    print(f"✓ Written to {output_path}")
+    print(f"Written to {output_path}")
+
+
+def _print_extraction_summary(result: llm.ExtractionResult) -> None:
+    acqs = result.item_data.get("acquisitions", [])
+    print(
+        f"\nFound {len(acqs)} acquisition(s)  |  "
+        f"Overall confidence: {result.overall_confidence:.0%}"
+    )
+
+    for i, acq in enumerate(acqs):
+        conf = result.acquisition_confidences[i] if i < len(result.acquisition_confidences) else 0.0
+        acq_type = acq.get("type", "unknown")
+        label = _acquisition_label(acq)
+        print(f"  [{conf:.0%}] {acq_type}: {label}")
+
+    if result.notes:
+        print(f"\nNotes: {result.notes}")
+
+
+def _acquisition_label(acq: dict) -> str:
+    meta = acq.get("metadata", {}) or {}
+    acq_type = acq.get("type", "")
+    if acq_type == "vendor":
+        return acq.get("vendorName", "unknown vendor")
+    if acq_type in ("crafting", "mystic_forge"):
+        reqs = acq.get("requirements", [])
+        ingredients = [r.get("itemName", r.get("currencyName", "?")) for r in reqs]
+        return ", ".join(ingredients[:4]) + ("..." if len(ingredients) > 4 else "")
+    if acq_type == "achievement":
+        return meta.get("achievementName", "unknown achievement")
+    if acq_type in ("wvw_reward", "pvp_reward"):
+        return meta.get("trackName", "unknown track")
+    if acq_type == "wizards_vault":
+        reqs = acq.get("requirements", [])
+        cost = reqs[0].get("quantity", "?") if reqs else "?"
+        return f"{cost} Astral Acclaim"
+    if acq_type in ("container", "salvage"):
+        reqs = acq.get("requirements", [])
+        return reqs[0].get("itemName", "?") if reqs else "unknown"
+    if acq_type == "map_reward":
+        return meta.get("rewardType", meta.get("regionName", "unknown reward"))
+    if acq_type == "story":
+        return meta.get("storyChapter", meta.get("expansion", "unknown story"))
+    return ""
 
 
 def main() -> None:
@@ -82,17 +140,27 @@ def main() -> None:
 
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files")
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing files")
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=None,
+        help="Override LLM model (e.g. claude-sonnet-4-5-20250929)",
+    )
 
     args = parser.parse_args()
 
     settings = get_settings()
+    logging.basicConfig(
+        level=getattr(logging, settings.log_level.upper(), logging.INFO),
+        format="%(message)s",
+    )
     cache = CacheClient(settings.cache_dir)
 
     if args.clear_cache is not None:
         tags = args.clear_cache if args.clear_cache else None
         cache.clear_cache(tags)
         tag_str = f" ({', '.join(tags)})" if tags else " (all)"
-        print(f"✓ Cache cleared{tag_str}")
+        print(f"Cache cleared{tag_str}")
         return
 
     try:
@@ -103,7 +171,9 @@ def main() -> None:
         else:
             item_id = args.item_id
 
-        populate_item(item_id, cache, overwrite=args.overwrite, dry_run=args.dry_run)
+        populate_item(
+            item_id, cache, overwrite=args.overwrite, dry_run=args.dry_run, model=args.model
+        )
 
     except (APIError, WikiError, ExtractionError, ValueError) as e:
         print(f"Error: {e}", file=sys.stderr)

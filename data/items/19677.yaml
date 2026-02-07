@@ -1,0 +1,28 @@
+id: 19677
+name: Gift of Exploration
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B0051EB5FF730C9EF7C2A3781D3F9B732D4D1A55/455857.png
+description: 'A gift used to create legendary weapons.
+
+
+  Acquired from fully exploring all Central Tyrian maps.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Exploration
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: world_completion
+    regionName: Central Tyria
+    notes: 2 Gifts of Exploration are rewarded upon World completion – map completing
+      all explorable zones in Central Tyria. Each character can achieve world completion
+      only once and, therefore, can only earn two Gifts.

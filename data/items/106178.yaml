@@ -1,0 +1,25 @@
+id: 106178
+name: Selachimorpha
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/340AA29452C4AF96F8434AF323E3747AAE020B34/3710799.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Selachimorpha
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: container
+  outputQuantity: 1
+  requirements:
+  - itemName: Selachimorpha Container
+    quantity: 1
+  metadata:
+    guaranteed: true
+    choice: false

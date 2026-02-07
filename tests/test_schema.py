@@ -70,13 +70,11 @@ acquisitions:
       repeatable: false
       timeGated: false
   - type: vendor
+    vendorName: Miyani
     outputQuantity: 1
     requirements:
       - currencyId: 2
         quantity: 2100
-    metadata:
-      vendorName: Miyani
-      vendorLocation: Mystic Forge
 """
 
 VALID_WITH_VENDOR_LIMIT = """
@@ -88,13 +86,12 @@ level: 0
 lastUpdated: "2025-06-15"
 acquisitions:
   - type: vendor
+    vendorName: Miyani
     outputQuantity: 1
     requirements:
       - currencyId: 2
         quantity: 2100
     metadata:
-      vendorName: Miyani
-      vendorLocation: Mystic Forge
       limitType: daily
       limitAmount: 5
 """
@@ -256,7 +253,6 @@ class TestPydanticModels:
             "crafting",
             "mystic_forge",
             "vendor",
-            "trading_post",
             "achievement",
             "map_reward",
             "container",

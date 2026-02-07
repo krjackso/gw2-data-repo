@@ -6,12 +6,16 @@ error handling. All responses are cached indefinitely since game data
 rarely changes.
 """
 
+import logging
+
 import httpx
 
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import APIError
 from gw2_data.types import GW2Item, GW2Recipe
+
+log = logging.getLogger(__name__)
 
 _BASE_URL = "https://api.guildwars2.com/v2"
 
@@ -22,8 +26,10 @@ def get_item(item_id: int, cache: CacheClient) -> GW2Item:
 
     cached = cache.get_api_item(item_id)
     if cached is not None:
+        log.info("Item %d: using cached API data", item_id)
         return cached
 
+    log.info("Item %d: fetching from GW2 API", item_id)
     settings = get_settings()
     try:
         response = httpx.get(f"{_BASE_URL}/items/{item_id}", timeout=settings.api_timeout)
@@ -44,8 +50,10 @@ def get_recipe(recipe_id: int, cache: CacheClient) -> GW2Recipe:
 
     cached = cache.get_api_recipe(recipe_id)
     if cached is not None:
+        log.info("Recipe %d: using cached API data", recipe_id)
         return cached
 
+    log.info("Recipe %d: fetching from GW2 API", recipe_id)
     settings = get_settings()
     try:
         response = httpx.get(f"{_BASE_URL}/recipes/{recipe_id}", timeout=settings.api_timeout)
@@ -66,8 +74,10 @@ def search_recipes_by_output(item_id: int, cache: CacheClient) -> list[int]:
 
     cached = cache.get_api_recipes_search(item_id)
     if cached is not None:
+        log.info("Recipe search for item %d: using cached data", item_id)
         return cached
 
+    log.info("Recipe search for item %d: fetching from GW2 API", item_id)
     settings = get_settings()
     try:
         response = httpx.get(

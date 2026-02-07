@@ -88,7 +88,7 @@
             "crafting",
             "mystic_forge",
             "vendor",
-            "trading_post",
+
             "achievement",
             "map_reward",
             "container",
@@ -99,6 +99,14 @@
             "story"
           ],
           "description": "The acquisition method type"
+        },
+        "vendorName": {
+          "type": "string",
+          "description": "NPC vendor name (only for vendor type)"
+        },
+        "discontinued": {
+          "type": "boolean",
+          "description": "Whether this acquisition method is no longer available in game"
         },
         "outputQuantity": {
           "type": "integer",
@@ -139,6 +147,24 @@
           "required": ["currencyId", "quantity"],
           "properties": {
             "currencyId": { "type": "integer", "minimum": 1 },
+            "quantity": { "type": "integer", "minimum": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["itemName", "quantity"],
+          "properties": {
+            "itemName": { "type": "string", "minLength": 1 },
+            "quantity": { "type": "integer", "minimum": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["currencyName", "quantity"],
+          "properties": {
+            "currencyName": { "type": "string", "minLength": 1 },
             "quantity": { "type": "integer", "minimum": 1 }
           }
         }

@@ -24,6 +24,10 @@ class Settings(BaseSettings):
         description="Cache storage directory",
     )
     log_level: str = Field(default="INFO", description="Logging level")
+    llm_model: str = Field(
+        default="haiku",
+        description="Claude model for LLM extraction (e.g. haiku, sonnet, opus)",
+    )
 
 
 _settings: Settings | None = None

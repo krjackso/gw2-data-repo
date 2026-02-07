@@ -6,11 +6,15 @@ acquisition information. All pages are cached indefinitely to minimize
 load on the wiki servers.
 """
 
+import logging
+
 import httpx
 
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import WikiError
+
+log = logging.getLogger(__name__)
 
 _WIKI_API_URL = "https://wiki.guildwars2.com/api.php"
 
@@ -21,8 +25,10 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
 
     cached = cache.get_wiki_page(page_name)
     if cached is not None:
+        log.info("Wiki page '%s': using cached HTML", page_name)
         return cached
 
+    log.info("Wiki page '%s': fetching from wiki API", page_name)
     settings = get_settings()
     try:
         response = httpx.get(

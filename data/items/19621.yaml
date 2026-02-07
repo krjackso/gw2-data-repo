@@ -1,0 +1,52 @@
+id: 19621
+name: Gift of Metal
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/FADDF94DAD6721344F300405E725AC2624330339/455802.png
+description: 'A gift of metal used to create generation one and two legendary weapons
+  and the legendary back item Ad Infinitum.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a weaponsmith
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Metal
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemName: Glob of Ectoplasm
+    quantity: 5
+  - itemName: Darksteel Ingot
+    quantity: 250
+  - itemName: Mithril Ingot
+    quantity: 250
+  - itemName: Orichalcum Ingot
+    quantity: 250
+  - itemName: Platinum Ingot
+    quantity: 250
+  metadata: {}
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemName: Orichalcum Ingot
+    quantity: 250
+  - itemName: Mithril Ingot
+    quantity: 250
+  - itemName: Darksteel Ingot
+    quantity: 250
+  - itemName: Platinum Ingot
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 400

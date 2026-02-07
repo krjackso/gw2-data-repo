@@ -1,0 +1,41 @@
+id: 19676
+name: Icy Runestone
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/1AB22A149E9B807AA726CC6B1D7D0435A840A300/455856.png
+description: 'Used to create legendary weapon and trinket gift items.
+
+
+  Purchased from Rojan the Penitent in Frostgorge Sound after successfully defeating
+  the Claw of Jormag.'
+vendorValue: 1250
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Icy_Runestone
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: vendor
+  vendorName: Rojan the Penitent
+  outputQuantity: 1
+  requirements:
+  - currencyName: Coin
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Rojan the Penitent
+  outputQuantity: 1
+  requirements:
+  - itemName: Mystic Runestone
+    quantity: 1
+  metadata: {}
+- type: container
+  outputQuantity: 10
+  requirements:
+  - itemName: Jormag Defender's Kit
+    quantity: 1
+  metadata:
+    guaranteed: true

@@ -134,15 +134,15 @@ Two types of requirements (all resolved to IDs upfront):
 |------|-------------|-------------|--------------|
 | `crafting` | Standard crafting at a station | Items (ingredients) | `recipeType`, `disciplines`, `minRating` |
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | `recipeType` |
-| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName`, `vendorLocation`, `limitType`, `limitAmount` |
-| `trading_post` | Buy/sell on player marketplace | None (price is dynamic) | None |
+| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount` |
+
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory`, `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | Item (the container) | `containerItemId`, `guaranteed` |
-| `salvage` | Extracted by salvaging another item | Item (source) | `sourceItemId`, `guaranteed` |
+| `container` | Obtained by opening a container | Item (the container) | `guaranteed` |
+| `salvage` | Extracted by salvaging another item | Item (source) | `guaranteed` |
 | `wvw_reward` | WvW reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `pvp_reward` | PvP reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
-| `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `cost`, `seasonal` |
+| `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `seasonal` |
 | `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
 
 ## GW2 Domain Knowledge
@@ -233,3 +233,4 @@ Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{so
 - Use ruff for linting and formatting
 - Pydantic models use `alias` for camelCase YAML keys, snake_case Python attributes
 - Tests in `tests/` directory, fixtures inline in test files
+- **NEVER directly edit files in `data/items/`** — these are generated output from the populate script or hand-edited by the user. To change item data, update the schema, models, prompts, or scripts, then re-run `scripts.populate`.
