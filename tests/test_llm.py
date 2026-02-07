@@ -28,8 +28,11 @@ def test_extract_acquisitions_returns_valid_structure(cache_client: CacheClient)
 
     result = llm.extract_acquisitions(item_id, item_name, wiki_html, api_data, cache=cache_client)
 
-    assert result["itemId"] == item_id
-    assert result["itemName"] == item_name
+    assert result["id"] == item_id
+    assert result["name"] == item_name
+    assert result["type"] == "Weapon"
+    assert result["rarity"] == "Exotic"
+    assert result["level"] == 80
     assert result["wikiUrl"] == "https://wiki.guildwars2.com/wiki/Test_Item"
     assert "lastUpdated" in result
     assert "acquisitions" in result

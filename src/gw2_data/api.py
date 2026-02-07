@@ -26,14 +26,10 @@ def get_item(item_id: int, cache: CacheClient) -> GW2Item:
 
     settings = get_settings()
     try:
-        response = httpx.get(
-            f"{_BASE_URL}/items/{item_id}", timeout=settings.api_timeout
-        )
+        response = httpx.get(f"{_BASE_URL}/items/{item_id}", timeout=settings.api_timeout)
         response.raise_for_status()
     except httpx.HTTPStatusError as e:
-        raise APIError(
-            f"Failed to fetch item {item_id}: HTTP {e.response.status_code}"
-        ) from e
+        raise APIError(f"Failed to fetch item {item_id}: HTTP {e.response.status_code}") from e
     except httpx.RequestError as e:
         raise APIError(f"Network error fetching item {item_id}: {e}") from e
 
@@ -52,14 +48,10 @@ def get_recipe(recipe_id: int, cache: CacheClient) -> GW2Recipe:
 
     settings = get_settings()
     try:
-        response = httpx.get(
-            f"{_BASE_URL}/recipes/{recipe_id}", timeout=settings.api_timeout
-        )
+        response = httpx.get(f"{_BASE_URL}/recipes/{recipe_id}", timeout=settings.api_timeout)
         response.raise_for_status()
     except httpx.HTTPStatusError as e:
-        raise APIError(
-            f"Failed to fetch recipe {recipe_id}: HTTP {e.response.status_code}"
-        ) from e
+        raise APIError(f"Failed to fetch recipe {recipe_id}: HTTP {e.response.status_code}") from e
     except httpx.RequestError as e:
         raise APIError(f"Network error fetching recipe {recipe_id}: {e}") from e
 
@@ -89,9 +81,7 @@ def search_recipes_by_output(item_id: int, cache: CacheClient) -> list[int]:
             f"Failed to search recipes for item {item_id}: HTTP {e.response.status_code}"
         ) from e
     except httpx.RequestError as e:
-        raise APIError(
-            f"Network error searching recipes for item {item_id}: {e}"
-        ) from e
+        raise APIError(f"Network error searching recipes for item {item_id}: {e}") from e
 
     recipe_ids: list[int] = response.json()
     cache.set_api_recipes_search(item_id, recipe_ids)

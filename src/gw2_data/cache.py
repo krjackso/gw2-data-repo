@@ -36,9 +36,7 @@ class CacheClient:
         return self._cache.get(f"api:recipes_search:{item_id}")
 
     def set_api_recipes_search(self, item_id: int, recipe_ids: list[int]) -> None:
-        self._cache.set(
-            f"api:recipes_search:{item_id}", recipe_ids, expire=None, tag="api"
-        )
+        self._cache.set(f"api:recipes_search:{item_id}", recipe_ids, expire=None, tag="api")
 
     def get_wiki_page(self, page_name: str) -> str | None:
         return self._cache.get(f"wiki:{page_name}")
@@ -46,17 +44,13 @@ class CacheClient:
     def set_wiki_page(self, page_name: str, content: str) -> None:
         self._cache.set(f"wiki:{page_name}", content, expire=None, tag="wiki")
 
-    def get_llm_extraction(
-        self, item_id: int, item_name: str, content_hash: str
-    ) -> dict | None:
+    def get_llm_extraction(self, item_id: int, item_name: str, content_hash: str) -> dict | None:
         return self._cache.get(f"llm:{item_id}:{item_name}:{content_hash}")
 
     def set_llm_extraction(
         self, item_id: int, item_name: str, content_hash: str, data: dict
     ) -> None:
-        self._cache.set(
-            f"llm:{item_id}:{item_name}:{content_hash}", data, expire=None, tag="llm"
-        )
+        self._cache.set(f"llm:{item_id}:{item_name}:{content_hash}", data, expire=None, tag="llm")
 
     def clear_cache(self, tags: list[str] | None = None) -> None:
         if tags:

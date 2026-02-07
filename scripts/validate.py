@@ -1,4 +1,4 @@
-"""Validate all acquisition YAML files against the JSON Schema and Pydantic models."""
+"""Validate all item YAML files against the JSON Schema and Pydantic models."""
 
 import json
 import sys
@@ -8,11 +8,11 @@ import yaml
 from jsonschema import Draft202012Validator
 from pydantic import ValidationError as PydanticValidationError
 
-from src.gw2_data.models import AcquisitionFile
+from src.gw2_data.models import ItemFile
 
 REPO_ROOT = Path(__file__).parent.parent
-SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "acquisition.schema.json"
-ACQUISITIONS_DIR = REPO_ROOT / "data" / "acquisitions"
+SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "item.schema.json"
+ITEMS_DIR = REPO_ROOT / "data" / "items"
 
 
 def load_schema() -> dict:
@@ -40,7 +40,7 @@ def validate_file(filepath: Path, validator: Draft202012Validator) -> list[str]:
         errors.append(f"Schema: {error.message}{location}")
 
     try:
-        AcquisitionFile.model_validate(data)
+        ItemFile.model_validate(data)
     except PydanticValidationError as e:
         for err in e.errors():
             loc = " -> ".join(str(part) for part in err["loc"])
@@ -53,10 +53,10 @@ def main() -> int:
     schema = load_schema()
     validator = Draft202012Validator(schema)
 
-    yaml_files = sorted(ACQUISITIONS_DIR.glob("*.yaml"))
+    yaml_files = sorted(ITEMS_DIR.glob("*.yaml"))
 
     if not yaml_files:
-        print("No acquisition YAML files found. Nothing to validate.")
+        print("No item YAML files found. Nothing to validate.")
         return 0
 
     total_errors = 0

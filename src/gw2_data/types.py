@@ -7,12 +7,14 @@ strict type checking and better IDE support.
 
 from typing import NotRequired, TypedDict
 
+from gw2_data.models import ItemRarity, ItemType
+
 
 class GW2Item(TypedDict):
     id: int
     name: str
-    type: str
-    rarity: str
+    type: ItemType
+    rarity: ItemRarity
     level: int
     vendor_value: NotRequired[int]
     icon: NotRequired[str]

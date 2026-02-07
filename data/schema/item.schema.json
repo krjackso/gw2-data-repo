@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krjackso/gw2-data-repo/schema/item.schema.json",
+  "title": "GW2 Item Data with Acquisitions",
+  "description": "Complete item data including API properties and all acquisition methods",
+  "type": "object",
+  "required": ["id", "name", "type", "rarity", "level", "lastUpdated"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "GW2 API item ID"
+    },
+    "name": {
+      "type": "string",
+      "description": "Item name as it appears in game"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Armor", "Back", "Bag", "Consumable", "Container",
+        "CraftingMaterial", "Gathering", "Gizmo", "JadeTechModule",
+        "Key", "MiniPet", "PowerCore", "Relic", "Tool", "Trait",
+        "Trinket", "Trophy", "UpgradeComponent", "Weapon"
+      ],
+      "description": "Item type from GW2 API"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "Junk", "Basic", "Fine", "Masterwork",
+        "Rare", "Exotic", "Ascended", "Legendary"
+      ],
+      "description": "Item rarity from GW2 API"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Required level to use this item"
+    },
+    "icon": {
+      "type": "string",
+      "format": "uri",
+      "description": "Icon URL from GW2 API"
+    },
+    "description": {
+      "type": "string",
+      "description": "Item description from GW2 API"
+    },
+    "vendorValue": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Vendor sell value in copper"
+    },
+    "flags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Item flags from GW2 API (e.g., AccountBound, NoSell, Unique)"
+    },
+    "wikiUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "GW2 Wiki URL for this item"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this file was last verified (YYYY-MM-DD)"
+    },
+    "acquisitions": {
+      "type": "array",
+      "description": "All known ways to obtain this item",
+      "items": {
+        "$ref": "#/$defs/acquisition"
+      }
+    }
+  },
+  "$defs": {
+    "acquisition": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "crafting",
+            "mystic_forge",
+            "vendor",
+            "trading_post",
+            "achievement",
+            "map_reward",
+            "container",
+            "salvage",
+            "wvw_reward",
+            "pvp_reward",
+            "wizards_vault",
+            "story"
+          ],
+          "description": "The acquisition method type"
+        },
+        "outputQuantity": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1,
+          "description": "How many of this item you get from this acquisition"
+        },
+        "requirements": {
+          "type": "array",
+          "description": "Items or currencies needed for this acquisition",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Type-specific metadata for this acquisition method",
+          "additionalProperties": true
+        }
+      }
+    },
+    "requirement": {
+      "type": "object",
+      "required": ["quantity"],
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["itemId", "quantity"],
+          "properties": {
+            "itemId": { "type": "integer", "minimum": 1 },
+            "quantity": { "type": "integer", "minimum": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["currencyId", "quantity"],
+          "properties": {
+            "currencyId": { "type": "integer", "minimum": 1 },
+            "quantity": { "type": "integer", "minimum": 1 }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -7,11 +7,10 @@ Static dataset of all item acquisition methods for Guild Wars 2 legendary crafti
 ```
 gw2-data-repo/
 ├── data/
-│   ├── acquisitions/      # YAML files: one per item, all acquisition methods
+│   ├── items/             # YAML files: one per item, API data + acquisitions
 │   │   └── {itemId}.yaml
-│   ├── items/             # YAML files: item metadata from GW2 API (future)
 │   └── schema/
-│       └── acquisition.schema.json   # JSON Schema for acquisition files
+│       └── item.schema.json   # JSON Schema for item files
 ├── src/gw2_data/
 │   ├── models.py          # Pydantic models matching the schema
 │   ├── config.py          # Configuration management
@@ -42,10 +41,10 @@ uv run pytest
 uv run ruff check .
 uv run ruff format --check .
 
-# Validate all acquisition YAML files
+# Validate all item YAML files
 uv run python -m scripts.validate
 
-# Generate acquisition data for an item
+# Generate item data with acquisitions
 uv run python -m scripts.populate --item-id 19676 --dry-run
 
 # Clear cache (all or by tag: api, wiki, llm)
@@ -79,11 +78,18 @@ All settings are optional and have sensible defaults.
 
 ## YAML File Format
 
-Each file in `data/acquisitions/` represents all known ways to obtain one item:
+Each file in `data/items/` contains GW2 API item data plus all acquisition methods:
 
 ```yaml
-itemId: 19676
-itemName: Gift of Metal
+id: 19676
+name: Gift of Metal
+type: Component
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/...
+flags:
+  - AccountBound
+  - NoSell
 wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Metal
 lastUpdated: "2025-06-15"
 
@@ -91,13 +97,9 @@ acquisitions:
   - type: mystic_forge
     outputQuantity: 1
     requirements:
-      - type: item
-        itemId: 19684
-        name: Orichalcum Ingot
+      - itemId: 19684
         quantity: 250
-      - type: item
-        itemId: 19683
-        name: Mithril Ingot
+      - itemId: 19683
         quantity: 250
     metadata:
       recipeType: mystic_forge
@@ -114,25 +116,16 @@ acquisitions:
 
 ### Requirements
 
-Three types of requirements:
+Two types of requirements (all resolved to IDs upfront):
 
 ```yaml
 # Item requirement - requires another game item
-- type: item
-  itemId: 19684        # GW2 API item ID
-  name: Orichalcum Ingot
+- itemId: 19684        # GW2 API item ID
   quantity: 250
 
 # Currency requirement - requires a game currency
-- type: currency
-  currencyId: 2        # GW2 API currency ID
-  name: Karma
+- currencyId: 2        # GW2 API currency ID
   quantity: 2100
-
-# Unresolved - name known but ID not yet mapped
-- type: unresolved
-  name: Some Unknown Token
-  quantity: 50
 ```
 
 ## Acquisition Types
@@ -145,8 +138,8 @@ Three types of requirements:
 | `trading_post` | Buy/sell on player marketplace | None (price is dynamic) | None |
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory`, `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | Item (the container) | `containerItemId`, `containerName`, `guaranteed` |
-| `salvage` | Extracted by salvaging another item | Item (source) | `sourceItemName`, `guaranteed` |
+| `container` | Obtained by opening a container | Item (the container) | `containerItemId`, `guaranteed` |
+| `salvage` | Extracted by salvaging another item | Item (source) | `sourceItemId`, `guaranteed` |
 | `wvw_reward` | WvW reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `pvp_reward` | PvP reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `cost`, `seasonal` |

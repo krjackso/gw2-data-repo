@@ -1,9 +1,9 @@
 """
-CLI script for populating acquisition data YAML files from GW2 API and wiki.
+CLI script for populating item data YAML files from GW2 API and wiki.
 
 Fetches item metadata from the GW2 API, acquisition info from the wiki,
 uses an LLM to extract structured data, validates against the schema, and
-writes the result to data/acquisitions/{itemId}.yaml.
+writes the result to data/items/{itemId}.yaml.
 """
 
 import argparse
@@ -17,7 +17,7 @@ from gw2_data import api, llm, wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import APIError, ExtractionError, WikiError
-from gw2_data.models import AcquisitionFile
+from gw2_data.models import ItemFile
 
 
 def populate_item(
@@ -26,7 +26,7 @@ def populate_item(
     if item_id <= 0:
         raise ValueError(f"Item ID must be positive, got {item_id}")
 
-    output_path = Path("data/acquisitions") / f"{item_id}.yaml"
+    output_path = Path("data/items") / f"{item_id}.yaml"
 
     if output_path.exists() and not overwrite:
         print(f"Skipping {item_id}: file already exists (use --overwrite to replace)")
@@ -48,7 +48,7 @@ def populate_item(
 
     print("Validating against schema...")
     try:
-        validated = AcquisitionFile.model_validate(acquisition_data)
+        validated = ItemFile.model_validate(acquisition_data)
     except ValidationError as e:
         raise ExtractionError(f"Validation failed for item {item_id}: {e}") from e
 
@@ -68,13 +68,11 @@ def populate_item(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Populate acquisition data for GW2 items"
+        description="Populate item data with acquisitions for GW2 items"
     )
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--item-id", type=int, help="GW2 item ID (must be positive)")
-    group.add_argument(
-        "--item-name", type=str, help="GW2 item name (not yet supported)"
-    )
+    group.add_argument("--item-name", type=str, help="GW2 item name (not yet supported)")
     group.add_argument(
         "--clear-cache",
         nargs="*",
@@ -82,12 +80,8 @@ def main() -> None:
         help="Clear cache (optionally specify tags: api, wiki, llm)",
     )
 
-    parser.add_argument(
-        "--overwrite", action="store_true", help="Overwrite existing files"
-    )
-    parser.add_argument(
-        "--dry-run", action="store_true", help="Preview without writing files"
-    )
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing files")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without writing files")
 
     args = parser.parse_args()
 

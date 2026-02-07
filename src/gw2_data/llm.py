@@ -1,9 +1,9 @@
 """
-LLM extraction logic for parsing wiki pages into structured acquisition data.
+LLM extraction logic for parsing wiki pages into structured item data.
 
-Uses Claude to extract acquisition methods from wiki HTML and validate
-against the schema. Results are cached by content hash to avoid re-processing
-identical wiki content.
+Uses Claude to extract acquisition methods from wiki HTML, combines with
+GW2 API item data, and validates against the schema. Results are cached
+by content hash to avoid re-processing identical wiki content.
 """
 
 import hashlib
@@ -22,17 +22,22 @@ def extract_acquisitions(
     api_data: GW2Item,
     cache: CacheClient,
 ) -> dict:
-    content_hash = hashlib.sha256(wiki_html.encode()).hexdigest()[
-        :_CONTENT_HASH_LENGTH
-    ]
+    content_hash = hashlib.sha256(wiki_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
 
     cached = cache.get_llm_extraction(item_id, item_name, content_hash)
     if cached is not None:
         return cached
 
     result = {
-        "itemId": item_id,
-        "itemName": item_name,
+        "id": api_data["id"],
+        "name": api_data["name"],
+        "type": api_data["type"],
+        "rarity": api_data["rarity"],
+        "level": api_data["level"],
+        "icon": api_data.get("icon"),
+        "description": api_data.get("description"),
+        "vendorValue": api_data.get("vendor_value"),
+        "flags": api_data.get("flags", []),
         "wikiUrl": f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}",
         "lastUpdated": datetime.now(UTC).date().isoformat(),
         "acquisitions": [],
