@@ -6,11 +6,12 @@ Static dataset of all item acquisition methods for Guild Wars 2 legendary crafti
 
 ```
 gw2-data-repo/
-├── acquisitions/          # YAML files: one per item, all acquisition methods
-│   └── {itemId}.yaml
-├── items/                 # YAML files: item metadata from GW2 API (future)
-├── schema/
-│   └── acquisition.schema.json   # JSON Schema for acquisition files
+├── data/
+│   ├── acquisitions/      # YAML files: one per item, all acquisition methods
+│   │   └── {itemId}.yaml
+│   ├── items/             # YAML files: item metadata from GW2 API (future)
+│   └── schema/
+│       └── acquisition.schema.json   # JSON Schema for acquisition files
 ├── src/gw2_data/
 │   └── models.py          # Pydantic models matching the schema
 ├── scripts/
@@ -48,7 +49,7 @@ uv run python -m scripts.validate
 
 ## YAML File Format
 
-Each file in `acquisitions/` represents all known ways to obtain one item:
+Each file in `data/acquisitions/` represents all known ways to obtain one item:
 
 ```yaml
 itemId: 19676

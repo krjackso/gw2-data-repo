@@ -11,8 +11,8 @@ from pydantic import ValidationError as PydanticValidationError
 from src.gw2_data.models import AcquisitionFile
 
 REPO_ROOT = Path(__file__).parent.parent
-SCHEMA_PATH = REPO_ROOT / "schema" / "acquisition.schema.json"
-ACQUISITIONS_DIR = REPO_ROOT / "acquisitions"
+SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "acquisition.schema.json"
+ACQUISITIONS_DIR = REPO_ROOT / "data" / "acquisitions"
 
 
 def load_schema() -> dict:

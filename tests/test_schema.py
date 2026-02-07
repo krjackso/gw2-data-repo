@@ -9,7 +9,7 @@ from jsonschema import Draft202012Validator
 
 from src.gw2_data.models import AcquisitionFile
 
-SCHEMA_PATH = Path(__file__).parent.parent / "schema" / "acquisition.schema.json"
+SCHEMA_PATH = Path(__file__).parent.parent / "data" / "schema" / "acquisition.schema.json"
 
 
 @pytest.fixture
