@@ -19,39 +19,39 @@ acquisitions:
 - type: mystic_forge
   outputQuantity: 1
   requirements:
-  - itemName: Gift of the Survivors
+  - itemId: 105649
     quantity: 1
-  - itemName: Gift of the People
+  - itemId: 105738
     quantity: 1
-  - itemName: Gift of Castoran Mastery
+  - itemId: 105804
     quantity: 1
-  - itemName: Agaleus (heavy)
-    quantity: 1
-  metadata:
-    recipeType: mystic_forge
-- type: mystic_forge
-  outputQuantity: 1
-  requirements:
-  - itemName: Gift of the Survivors
-    quantity: 1
-  - itemName: Gift of the People
-    quantity: 1
-  - itemName: Gift of Castoran Mastery
-    quantity: 1
-  - itemName: Agaleus (medium)
+  - itemId: 106712
     quantity: 1
   metadata:
     recipeType: mystic_forge
 - type: mystic_forge
   outputQuantity: 1
   requirements:
-  - itemName: Gift of the Survivors
+  - itemId: 105649
     quantity: 1
-  - itemName: Gift of the People
+  - itemId: 105804
     quantity: 1
-  - itemName: Gift of Castoran Mastery
+  - itemId: 106400
     quantity: 1
-  - itemName: Agaleus (light)
+  - itemId: 106712
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 105438
+    quantity: 1
+  - itemId: 105649
+    quantity: 1
+  - itemId: 105804
+    quantity: 1
+  - itemId: 106712
     quantity: 1
   metadata:
     recipeType: mystic_forge

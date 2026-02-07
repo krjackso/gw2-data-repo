@@ -162,13 +162,24 @@ def clean_name(name: str) -> str:
 
 def load_item_name_index() -> dict[str, list[int]]:
     index_path = Path("data/index/item_names.yaml")
+    override_path = Path("data/index/item_name_overrides.yaml")
+
     if not index_path.exists():
         raise APIError(
             f"Item name index not found at {index_path}. "
             "Run 'uv run python -m scripts.build_index' first."
         )
+
     with index_path.open() as f:
-        return yaml.safe_load(f)
+        index: dict[str, list[int]] = yaml.safe_load(f)
+
+    if override_path.exists():
+        with override_path.open() as f:
+            overrides: dict[str, int] = yaml.safe_load(f) or {}
+        for name, item_id in overrides.items():
+            index[name] = [item_id]
+
+    return index
 
 
 def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:

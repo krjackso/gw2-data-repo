@@ -1,0 +1,19 @@
+# Manual semantic name→ID mappings for wiki names that differ from API names
+# These override the auto-generated item_names.yaml entries
+#
+# Common use cases:
+# - Armor weight variants: wiki uses "(heavy)", "(medium)", "(light)" suffixes
+# - Alternative wiki terminology that differs from API item names
+# - Disambiguation for items with semantic context
+#
+# Format: 'exact wiki name': itemId (single integer, not a list)
+#
+# To find the correct item ID:
+# 1. Search the item_names.yaml index for candidate IDs
+# 2. Check wiki or GW2 API to confirm which ID is correct
+# 3. Add the mapping here
+
+# Armor weight variants for Agaleus (legendary aquabreather precursor)
+Agaleus (heavy): 105738
+Agaleus (medium): 106400
+Agaleus (light): 105438

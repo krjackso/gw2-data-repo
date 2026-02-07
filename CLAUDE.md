@@ -86,6 +86,32 @@ All settings are optional and have sensible defaults.
 | **GW2 Wiki** (`wiki.guildwars2.com`) | Acquisition methods, vendor info, achievement details, containers | Medium (community-maintained) |
 | **LLM extraction** | Structured parsing of wiki pages into YAML | Good with validation |
 
+## Manual Name Overrides
+
+The file `data/index/item_name_overrides.yaml` contains manual mappings for item names that differ between the wiki and GW2 API. This is necessary when:
+
+- **Armor weight variants**: Wiki uses semantic suffixes like "(heavy)", "(medium)", "(light)" to distinguish armor pieces, but the API returns a single name for all variants
+- **Alternative terminology**: Wiki uses different names than the API for the same item
+- **Disambiguation**: Semantic context is needed to resolve ambiguous names
+
+### Adding a Manual Override
+
+1. Identify the wiki name that's failing resolution (e.g., from an error message)
+2. Find the correct item ID:
+   - Search `data/index/item_names.yaml` for candidate IDs
+   - Check the wiki or use `uv run python -m scripts.populate --item-id <ID> --dry-run` to verify
+3. Add to `data/index/item_name_overrides.yaml`:
+   ```yaml
+   Exact Wiki Name Here: 12345
+   ```
+4. Re-run populate - no index rebuild needed
+
+**Important:**
+- Overrides are merged with the auto-generated index at load time
+- Override entries take precedence over API names
+- Use single integer IDs (not lists) for override values
+- The override file is never touched by `scripts/build_index.py`
+
 ## YAML File Format
 
 Each file in `data/items/` contains GW2 API item data plus all acquisition methods:

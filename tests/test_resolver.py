@@ -121,9 +121,7 @@ def test_resolve_requirements_currency_not_found():
 def test_resolve_requirements_item_duplicate_names():
     item_index = {"Sword": [123, 456]}
     currency_index = {}
-    acquisitions = [
-        {"type": "crafting", "requirements": [{"itemName": "Sword", "quantity": 1}]}
-    ]
+    acquisitions = [{"type": "crafting", "requirements": [{"itemName": "Sword", "quantity": 1}]}]
 
     with pytest.raises(ValueError, match="Failed to resolve item 'Sword'"):
         with pytest.raises(APIError, match="matches multiple IDs"):
@@ -195,3 +193,33 @@ def test_resolve_requirements_error_includes_acquisition_type():
 
     with pytest.raises(ValueError, match="in mystic_forge acquisition"):
         resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+
+def test_resolve_requirements_with_name_overrides():
+    item_index = {
+        "Agaleus": [105438, 105738, 106400],
+        "Agaleus (heavy)": [105738],
+        "Agaleus (medium)": [106400],
+        "Agaleus (light)": [105438],
+        "Gift of Metal": [19676],
+    }
+    currency_index = {}
+    acquisitions = [
+        {
+            "type": "mystic_forge",
+            "outputQuantity": 1,
+            "requirements": [
+                {"itemName": "Agaleus (heavy)", "quantity": 1},
+                {"itemName": "Gift of Metal", "quantity": 1},
+            ],
+            "metadata": {"recipeType": "mystic_forge"},
+        }
+    ]
+
+    result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+    assert len(result) == 1
+    assert result[0]["requirements"][0]["itemId"] == 105738
+    assert result[0]["requirements"][1]["itemId"] == 19676
+    assert "itemName" not in result[0]["requirements"][0]
+    assert "itemName" not in result[0]["requirements"][1]

@@ -3,6 +3,7 @@
 from pathlib import Path
 
 import pytest
+import yaml
 from httpx import HTTPStatusError, Request, RequestError, Response
 
 from gw2_data import api
@@ -130,3 +131,58 @@ def test_search_recipes_by_output_caches_result(mocker, cache_client: CacheClien
 
     assert result1 == result2
     assert mock_get.call_count == 1
+
+
+def test_load_item_name_index_with_overrides(monkeypatch, tmp_path: Path):
+    index_data = {"Agaleus": [105438, 105738, 106400], "Sword": [123]}
+    override_data = {"Agaleus (heavy)": 105738, "Agaleus (light)": 105438}
+
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
+    (index_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_item_name_index()
+
+    assert result["Agaleus"] == [105438, 105738, 106400]
+    assert result["Agaleus (heavy)"] == [105738]
+    assert result["Agaleus (light)"] == [105438]
+    assert result["Sword"] == [123]
+
+
+def test_load_item_name_index_no_overrides(monkeypatch, tmp_path: Path):
+    index_data = {"Sword": [123]}
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_item_name_index()
+
+    assert result["Sword"] == [123]
+
+
+def test_load_item_name_index_override_replaces_ambiguous(monkeypatch, tmp_path: Path):
+    index_data = {"Duplicate Name": [111, 222, 333]}
+    override_data = {"Duplicate Name": 222}
+
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
+    (index_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_item_name_index()
+
+    assert result["Duplicate Name"] == [222]
+
+
+def test_resolve_item_name_to_id_with_override():
+    index = {"Agaleus": [105438, 105738, 106400], "Agaleus (heavy)": [105738]}
+
+    with pytest.raises(APIError, match="matches multiple IDs"):
+        api.resolve_item_name_to_id("Agaleus", index)
+
+    result = api.resolve_item_name_to_id("Agaleus (heavy)", index)
+    assert result == 105738
