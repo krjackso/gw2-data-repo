@@ -1,3 +1,16 @@
+"""
+CLI script for populating item acquisition data.
+
+Orchestrates the acquisition data pipeline:
+1. Fetch item data from GW2 API
+2. Fetch wiki page HTML
+3. Extract acquisitions via LLM
+4. Resolve item/currency names to IDs
+5. Sort acquisitions deterministically
+6. Validate against schema
+7. Write to YAML file
+"""
+
 import argparse
 import difflib
 import logging
@@ -7,7 +20,7 @@ from pathlib import Path
 import yaml
 from pydantic import ValidationError
 
-from gw2_data import api, llm, resolver, wiki
+from gw2_data import api, llm, resolver, sorter, wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import APIError, ExtractionError, WikiError
@@ -49,6 +62,9 @@ def populate_item(
     result.item_data["acquisitions"] = resolver.resolve_requirements(
         result.item_data["acquisitions"], item_name_index, currency_name_index
     )
+
+    print("Sorting acquisitions...")
+    result.item_data["acquisitions"] = sorter.sort_acquisitions(result.item_data["acquisitions"])
 
     print("Validating against schema...")
     try:

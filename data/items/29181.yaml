@@ -27,13 +27,13 @@ acquisitions:
 - type: crafting
   outputQuantity: 1
   requirements:
-  - itemName: Essence of Energy
+  - itemId: 70735
     quantity: 1
-  - itemName: Spirit of the Perfected Sword
+  - itemId: 72724
     quantity: 1
-  - itemName: Engraver's Tools
+  - itemId: 76269
     quantity: 1
-  - itemName: Energy Source
+  - itemId: 76380
     quantity: 1
   metadata:
     recipeType: crafting
@@ -43,7 +43,7 @@ acquisitions:
 - type: container
   outputQuantity: 1
   requirements:
-  - itemName: 'Starter Kit: Bolt'
+  - itemId: 97519
     quantity: 1
   metadata:
     guaranteed: true
@@ -51,7 +51,7 @@ acquisitions:
 - type: container
   outputQuantity: 1
   requirements:
-  - itemName: 'Tournament of Legends: Precursor Choice Box'
+  - itemId: 90018
     quantity: 1
   metadata:
     guaranteed: false
@@ -60,7 +60,7 @@ acquisitions:
   discontinued: true
   outputQuantity: 1
   requirements:
-  - itemName: 'Tournament of Legends: Second Place'
+  - itemId: 43633
     quantity: 1
   metadata:
     guaranteed: false

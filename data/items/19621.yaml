@@ -22,11 +22,11 @@ acquisitions:
 - type: crafting
   outputQuantity: 1
   requirements:
-  - itemId: 19685
+  - itemId: 19681
     quantity: 250
   - itemId: 19684
     quantity: 250
-  - itemId: 19681
+  - itemId: 19685
     quantity: 250
   - itemId: 19686
     quantity: 250
@@ -39,8 +39,6 @@ acquisitions:
   vendorName: Ward Crafter Lucirae
   outputQuantity: 1
   requirements:
-  - itemId: 19721
-    quantity: 5
   - itemId: 19681
     quantity: 250
   - itemId: 19684
@@ -49,4 +47,6 @@ acquisitions:
     quantity: 250
   - itemId: 19686
     quantity: 250
+  - itemId: 19721
+    quantity: 5
   metadata: {}

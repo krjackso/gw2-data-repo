@@ -18,7 +18,7 @@ acquisitions:
 - type: container
   outputQuantity: 1
   requirements:
-  - itemName: Selachimorpha Container
+  - itemId: 105743
     quantity: 1
   metadata:
     guaranteed: true

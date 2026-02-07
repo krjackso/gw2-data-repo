@@ -22,20 +22,21 @@ acquisitions:
   vendorName: Rojan the Penitent
   outputQuantity: 1
   requirements:
-  - currencyName: Coin
+  - currencyId: 1
     quantity: 10000
   metadata: {}
 - type: vendor
   vendorName: Rojan the Penitent
   outputQuantity: 1
   requirements:
-  - itemName: Mystic Runestone
+  - itemId: 79418
     quantity: 1
   metadata: {}
 - type: container
-  outputQuantity: 10
+  outputQuantity: 1
   requirements:
-  - itemName: Jormag Defender's Kit
+  - itemId: 67219
     quantity: 1
   metadata:
     guaranteed: true
+    choice: false

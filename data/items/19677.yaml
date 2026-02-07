@@ -23,6 +23,5 @@ acquisitions:
   metadata:
     rewardType: world_completion
     regionName: Central Tyria
-    notes: 2 Gifts of Exploration are rewarded upon World completion – map completing
-      all explorable zones in Central Tyria. Each character can achieve world completion
-      only once and, therefore, can only earn two Gifts.
+    notes: Rewarded upon completing all explorable zones in Central Tyria. Each character
+      can only earn this reward once, receiving 2 Gifts of Exploration.
