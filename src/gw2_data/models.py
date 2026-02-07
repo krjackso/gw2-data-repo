@@ -92,6 +92,7 @@ class VendorMetadata(BaseModel):
         default=None, alias="limitType"
     )
     limit_amount: int | None = Field(default=None, alias="limitAmount")
+    notes: str | None = None
 
 
 class AchievementMetadata(BaseModel):

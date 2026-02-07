@@ -115,8 +115,9 @@ def extract_acquisitions(
 
     content_hash = hashlib.sha256(wiki_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
     cache_hash = f"{_PROMPT_HASH}:{content_hash}"
+    rarity = api_data["rarity"]
 
-    cached = cache.get_llm_extraction(item_id, item_name, cache_hash, effective_model)
+    cached = cache.get_llm_extraction(item_id, item_name, cache_hash, effective_model, rarity)
     if cached is not None:
         log.info(
             "LLM extraction for '%s': using cached result (model=%s)", item_name, effective_model
@@ -165,7 +166,7 @@ def extract_acquisitions(
         "acquisition_confidences": confidences,
         "notes": notes,
     }
-    cache.set_llm_extraction(item_id, item_name, cache_hash, effective_model, cache_entry)
+    cache.set_llm_extraction(item_id, item_name, cache_hash, effective_model, rarity, cache_entry)
 
     return ExtractionResult(
         item_data=item_data,

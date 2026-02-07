@@ -127,7 +127,7 @@ def _acquisition_label(acq: dict) -> str:
         return acq.get("vendorName", "unknown vendor")
     if acq_type in ("crafting", "mystic_forge"):
         reqs = acq.get("requirements", [])
-        ingredients = [r.get("itemName", r.get("currencyName", "?")) for r in reqs]
+        ingredients = [r.get("requirementName", "?") for r in reqs]
         return ", ".join(ingredients[:4]) + ("..." if len(ingredients) > 4 else "")
     if acq_type == "achievement":
         return meta.get("achievementName", "unknown achievement")
@@ -139,7 +139,7 @@ def _acquisition_label(acq: dict) -> str:
         return f"{cost} Astral Acclaim"
     if acq_type in ("container", "salvage"):
         reqs = acq.get("requirements", [])
-        return reqs[0].get("itemName", "?") if reqs else "unknown"
+        return reqs[0].get("requirementName", "?") if reqs else "unknown"
     if acq_type == "map_reward":
         return meta.get("rewardType", meta.get("regionName", "unknown reward"))
     if acq_type == "story":

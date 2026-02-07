@@ -85,8 +85,8 @@ def test_llm_extraction_cache_roundtrip(cache_client: CacheClient):
         "acquisitions": [],
     }
 
-    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", extraction_data)
-    result = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku")
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", "Exotic", extraction_data)
+    result = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku", "Exotic")
 
     assert result == extraction_data
 
@@ -95,11 +95,11 @@ def test_llm_extraction_cache_includes_item_name_in_key(cache_client: CacheClien
     data1 = {"data": "first"}
     data2 = {"data": "second"}
 
-    cache_client.set_llm_extraction(123, "Item A", "hash1", "haiku", data1)
-    cache_client.set_llm_extraction(123, "Item B", "hash1", "haiku", data2)
+    cache_client.set_llm_extraction(123, "Item A", "hash1", "haiku", "Exotic", data1)
+    cache_client.set_llm_extraction(123, "Item B", "hash1", "haiku", "Exotic", data2)
 
-    result1 = cache_client.get_llm_extraction(123, "Item A", "hash1", "haiku")
-    result2 = cache_client.get_llm_extraction(123, "Item B", "hash1", "haiku")
+    result1 = cache_client.get_llm_extraction(123, "Item A", "hash1", "haiku", "Exotic")
+    result2 = cache_client.get_llm_extraction(123, "Item B", "hash1", "haiku", "Exotic")
 
     assert result1 == data1
     assert result2 == data2
@@ -109,11 +109,11 @@ def test_llm_extraction_cache_includes_model_in_key(cache_client: CacheClient):
     data_haiku = {"data": "haiku result"}
     data_sonnet = {"data": "sonnet result"}
 
-    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", data_haiku)
-    cache_client.set_llm_extraction(123, "Test Item", "abc123", "sonnet", data_sonnet)
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", "Exotic", data_haiku)
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "sonnet", "Exotic", data_sonnet)
 
-    result_haiku = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku")
-    result_sonnet = cache_client.get_llm_extraction(123, "Test Item", "abc123", "sonnet")
+    result_haiku = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku", "Exotic")
+    result_sonnet = cache_client.get_llm_extraction(123, "Test Item", "abc123", "sonnet", "Exotic")
 
     assert result_haiku == data_haiku
     assert result_sonnet == data_sonnet
@@ -151,3 +151,52 @@ def test_clear_cache_all(cache_client: CacheClient):
 
     assert cache_client.get_api_item(1) is None
     assert cache_client.get_wiki_page("Wiki Page") is None
+
+
+def test_llm_extraction_cache_includes_rarity_in_key(cache_client: CacheClient):
+    legendary_data = {"acquisitions": [{"type": "mystic_forge"}]}
+    ascended_data = {"acquisitions": [{"type": "vendor"}]}
+
+    cache_client.set_llm_extraction(
+        83162, "Ardent Glorious Armguards", "abc123", "haiku", "Legendary", legendary_data
+    )
+    cache_client.set_llm_extraction(
+        67131, "Ardent Glorious Armguards", "abc123", "haiku", "Ascended", ascended_data
+    )
+
+    result_legendary = cache_client.get_llm_extraction(
+        83162, "Ardent Glorious Armguards", "abc123", "haiku", "Legendary"
+    )
+    result_ascended = cache_client.get_llm_extraction(
+        67131, "Ardent Glorious Armguards", "abc123", "haiku", "Ascended"
+    )
+
+    assert result_legendary == legendary_data
+    assert result_ascended == ascended_data
+
+
+def test_llm_extraction_cache_miss_on_different_rarity(cache_client: CacheClient):
+    data = {"acquisitions": []}
+
+    cache_client.set_llm_extraction(123, "Test Item", "abc123", "haiku", "Exotic", data)
+    result = cache_client.get_llm_extraction(123, "Test Item", "abc123", "haiku", "Rare")
+
+    assert result is None
+
+
+def test_llm_extraction_cache_hit_requires_exact_rarity_match(cache_client: CacheClient):
+    legendary_data = {"acquisitions": [{"type": "mystic_forge"}]}
+
+    cache_client.set_llm_extraction(
+        83162, "Ardent Glorious Armguards", "abc123", "haiku", "Legendary", legendary_data
+    )
+
+    result = cache_client.get_llm_extraction(
+        83162, "Ardent Glorious Armguards", "abc123", "haiku", "Legendary"
+    )
+    assert result == legendary_data
+
+    miss_result = cache_client.get_llm_extraction(
+        83162, "Ardent Glorious Armguards", "abc123", "haiku", "Ascended"
+    )
+    assert miss_result is None

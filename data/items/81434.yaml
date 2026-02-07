@@ -1,0 +1,76 @@
+id: 81434
+name: Triumphant Hero's Brigandine
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
+description: Central Tyrian and Maguuma Ascended Brigandine
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: container
+  discontinued: true
+  outputQuantity: 1
+  requirements:
+  - itemId: 95080
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  discontinued: true
+  outputQuantity: 1
+  requirements:
+  - itemId: 95087
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true

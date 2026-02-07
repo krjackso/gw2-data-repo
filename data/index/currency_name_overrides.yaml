@@ -1,0 +1,16 @@
+# Manual currency name overrides for singular/plural variations
+# These override the auto-generated currency_names.yaml entries
+#
+# Common use cases:
+# - Singular/plural variations: wiki uses "Shard" vs "Shards"
+# - Alternative terminology that differs from API currency names
+#
+# Format: 'exact wiki name': currencyId (single integer)
+#
+# To find the correct currency ID:
+# 1. Search the currency_names.yaml index
+# 2. Check the GW2 API /v2/currencies endpoint
+# 3. Add the mapping here
+
+# Singular form of "Ascended Shards of Glory" (PvP currency)
+Ascended Shard of Glory: 33

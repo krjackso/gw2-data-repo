@@ -45,15 +45,15 @@ class CacheClient:
         self._cache.set(f"wiki:{page_name}", content, expire=None, tag="wiki")
 
     def get_llm_extraction(
-        self, item_id: int, item_name: str, content_hash: str, model: str
+        self, item_id: int, item_name: str, content_hash: str, model: str, rarity: str
     ) -> dict | None:
-        return self._cache.get(f"llm:{item_id}:{item_name}:{content_hash}:{model}")
+        return self._cache.get(f"llm:{item_id}:{item_name}:{content_hash}:{model}:{rarity}")
 
     def set_llm_extraction(
-        self, item_id: int, item_name: str, content_hash: str, model: str, data: dict
+        self, item_id: int, item_name: str, content_hash: str, model: str, rarity: str, data: dict
     ) -> None:
         self._cache.set(
-            f"llm:{item_id}:{item_name}:{content_hash}:{model}",
+            f"llm:{item_id}:{item_name}:{content_hash}:{model}:{rarity}",
             data,
             expire=7 * 86400,
             tag="llm",

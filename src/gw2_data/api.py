@@ -182,6 +182,27 @@ def load_item_name_index() -> dict[str, list[int]]:
     return index
 
 
+def load_currency_name_index() -> dict[str, int]:
+    index_path = Path("data/index/currency_names.yaml")
+    override_path = Path("data/index/currency_name_overrides.yaml")
+
+    if not index_path.exists():
+        raise APIError(
+            f"Currency name index not found at {index_path}. "
+            "Run 'uv run python -m scripts.build_index --currencies' first."
+        )
+
+    with index_path.open() as f:
+        index: dict[str, int] = yaml.safe_load(f)
+
+    if override_path.exists():
+        with override_path.open() as f:
+            overrides: dict[str, int] = yaml.safe_load(f) or {}
+        index.update(overrides)
+
+    return index
+
+
 def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:
     cleaned = clean_name(name)
     matches = index.get(cleaned)
@@ -192,17 +213,6 @@ def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:
             f"Item name '{name}' matches multiple IDs: {matches}. Cannot resolve automatically."
         )
     return matches[0]
-
-
-def load_currency_name_index() -> dict[str, int]:
-    index_path = Path("data/index/currency_names.yaml")
-    if not index_path.exists():
-        raise APIError(
-            f"Currency name index not found at {index_path}. "
-            "Run 'uv run python -m scripts.build_index' first."
-        )
-    with index_path.open() as f:
-        return yaml.safe_load(f)
 
 
 def resolve_currency_name_to_id(name: str, index: dict[str, int]) -> int:

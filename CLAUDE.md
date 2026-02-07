@@ -91,6 +91,7 @@ All settings are optional and have sensible defaults.
 The file `data/index/item_name_overrides.yaml` contains manual mappings for item names that differ between the wiki and GW2 API. This is necessary when:
 
 - **Armor weight variants**: Wiki uses semantic suffixes like "(heavy)", "(medium)", "(light)" to distinguish armor pieces, but the API returns a single name for all variants
+- **Rarity variants**: When items share a name but differ by rarity (Exotic/Ascended/Legendary), the LLM automatically appends rarity qualifiers like "(Ascended)" to disambiguate. These qualified names must be mapped to the correct item IDs.
 - **Alternative terminology**: Wiki uses different names than the API for the same item
 - **Disambiguation**: Semantic context is needed to resolve ambiguous names
 
@@ -105,6 +106,13 @@ The file `data/index/item_name_overrides.yaml` contains manual mappings for item
    Exact Wiki Name Here: 12345
    ```
 4. Re-run populate - no index rebuild needed
+
+**Rarity Qualifiers:**
+When the LLM encounters items with multiple rarity variants on a shared wiki page (e.g., Legendary and Ascended versions of the same armor piece), it will automatically append the rarity in parentheses to requirement names. For example:
+- `Triumphant Hero's Brigandine (Ascended)` → maps to ID 81434
+- `Triumphant Hero's Brigandine (Legendary)` → maps to ID 84578
+
+This ensures that Mystic Forge recipes and vendor costs correctly reference the intended variant.
 
 **Important:**
 - Overrides are merged with the auto-generated index at load time
@@ -178,16 +186,26 @@ The resolution process:
 |------|-------------|-------------|--------------|
 | `crafting` | Standard crafting at a station | Items (ingredients) | `recipeType`, `disciplines`, `minRating` |
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | `recipeType` |
-| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount` |
+| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount`, `notes` |
 
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory`, `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | Item (the container) | `guaranteed` |
+| `container` | Obtained by opening a container | Item (the container) | `guaranteed`, `choice` |
 | `salvage` | Extracted by salvaging another item | Item (source) | `guaranteed` |
 | `wvw_reward` | WvW reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `pvp_reward` | PvP reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
 | `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `seasonal` |
 | `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
+
+### Vendor Notes
+
+Vendor acquisitions may include a `notes` field in metadata to capture special conditions from the wiki, such as:
+- `"Requires the skin <item name>"` - Purchase requires unlocking a specific skin first
+- `"Available after completing <achievement>"` - Vendor becomes available after an achievement
+- `"Only available during <event>"` - Seasonal or event-limited availability
+- `"Requires <rank> in <game mode>"` - WvW/PvP rank requirements
+
+These notes provide important context to users about prerequisites or restrictions for acquiring the item.
 
 ## GW2 Domain Knowledge
 

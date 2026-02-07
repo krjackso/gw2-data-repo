@@ -1,0 +1,48 @@
+id: 84578
+name: Triumphant Hero's Brigandine
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 81434
+    quantity: 1
+  - itemId: 82746
+    quantity: 1
+  - itemId: 83259
+    quantity: 1
+  - itemId: 84168
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  discontinued: true
+  outputQuantity: 1
+  requirements:
+  - itemId: 95080
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  discontinued: true
+  outputQuantity: 1
+  requirements:
+  - itemId: 95087
+    quantity: 1
+  metadata:
+    guaranteed: false
+    choice: true

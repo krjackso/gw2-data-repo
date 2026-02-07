@@ -186,3 +186,57 @@ def test_resolve_item_name_to_id_with_override():
 
     result = api.resolve_item_name_to_id("Agaleus (heavy)", index)
     assert result == 105738
+
+
+def test_load_currency_name_index_with_overrides(monkeypatch, tmp_path: Path):
+    index_data = {"Ascended Shards of Glory": 33, "Coin": 1}
+    override_data = {"Ascended Shard of Glory": 33}
+
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
+    (index_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_currency_name_index()
+
+    assert result["Ascended Shards of Glory"] == 33
+    assert result["Ascended Shard of Glory"] == 33
+    assert result["Coin"] == 1
+
+
+def test_load_currency_name_index_no_overrides(monkeypatch, tmp_path: Path):
+    index_data = {"Coin": 1}
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_currency_name_index()
+
+    assert result["Coin"] == 1
+
+
+def test_load_currency_name_index_override_replaces_base(monkeypatch, tmp_path: Path):
+    index_data = {"Karma": 2}
+    override_data = {"Karma": 999}
+
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
+    (index_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_currency_name_index()
+
+    assert result["Karma"] == 999
+
+
+def test_resolve_currency_name_to_id_with_override():
+    index = {"Ascended Shards of Glory": 33, "Ascended Shard of Glory": 33}
+
+    result = api.resolve_currency_name_to_id("Ascended Shard of Glory", index)
+    assert result == 33
+
+    result = api.resolve_currency_name_to_id("Ascended Shards of Glory", index)
+    assert result == 33

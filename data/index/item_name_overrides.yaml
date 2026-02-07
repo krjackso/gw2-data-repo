@@ -3,6 +3,8 @@
 #
 # Common use cases:
 # - Armor weight variants: wiki uses "(heavy)", "(medium)", "(light)" suffixes
+# - Rarity variants: when items share a name but differ by rarity (Exotic/Ascended/Legendary)
+#   The LLM adds rarity qualifiers like "(Ascended)" to disambiguate
 # - Alternative wiki terminology that differs from API item names
 # - Disambiguation for items with semantic context
 #
@@ -12,8 +14,147 @@
 # 1. Search the item_names.yaml index for candidate IDs
 # 2. Check wiki or GW2 API to confirm which ID is correct
 # 3. Add the mapping here
+#
+# Rarity qualifiers:
+# When the LLM encounters items with multiple rarity variants on the wiki, it will
+# automatically append the rarity in parentheses (e.g., "Item Name (Ascended)").
+# Add these qualified names here to map them to the correct item IDs.
 
 # Armor weight variants for Agaleus (legendary aquabreather precursor)
 Agaleus (heavy): 105738
 Agaleus (medium): 106400
 Agaleus (light): 105438
+
+# ============================================================================
+# PvP Legendary Armor (Ardent Glorious) - Rarity Variants
+# ============================================================================
+
+Ardent Glorious Armguards (Ascended): 67131
+Ardent Glorious Armguards (Legendary): 83162
+
+Ardent Glorious Breastplate (Ascended): 67143
+Ardent Glorious Breastplate (Legendary): 83348
+
+Ardent Glorious Brigandine (Ascended): 67115
+Ardent Glorious Brigandine (Legendary): 82670
+
+Ardent Glorious Cap (Ascended): 67156
+Ardent Glorious Cap (Legendary): 84643
+
+Ardent Glorious Crown (Ascended): 67141
+Ardent Glorious Crown (Legendary): 84633
+
+Ardent Glorious Epaulets (Ascended): 67152
+Ardent Glorious Epaulets (Legendary): 83595
+
+Ardent Glorious Footgear (Ascended): 67148
+Ardent Glorious Footgear (Legendary): 82519
+
+Ardent Glorious Gauntlets (Ascended): 67144
+Ardent Glorious Gauntlets (Legendary): 82465
+
+Ardent Glorious Leggings (Ascended): 67151
+Ardent Glorious Leggings (Legendary): 84546
+
+Ardent Glorious Legguards (Ascended): 67157
+Ardent Glorious Legguards (Legendary): 82512
+
+Ardent Glorious Legplates (Ascended): 67146
+Ardent Glorious Legplates (Legendary): 83323
+
+Ardent Glorious Pauldrons (Ascended): 67147
+Ardent Glorious Pauldrons (Legendary): 83127
+
+Ardent Glorious Plate Helm (Ascended): 67145
+Ardent Glorious Plate Helm (Legendary): 83921
+
+Ardent Glorious Raiment (Ascended): 67118
+Ardent Glorious Raiment (Legendary): 83113
+
+Ardent Glorious Shinplates (Ascended): 67128
+Ardent Glorious Shinplates (Legendary): 82214
+
+Ardent Glorious Shoulderguards (Ascended): 67158
+Ardent Glorious Shoulderguards (Legendary): 83929
+
+Ardent Glorious Wargreaves (Ascended): 67142
+Ardent Glorious Wargreaves (Legendary): 84655
+
+Ardent Glorious Wristplates (Ascended): 67117
+Ardent Glorious Wristplates (Legendary): 82245
+
+# ============================================================================
+# WvW Legendary Armor (Triumphant Hero's) - Rarity Variants
+# ============================================================================
+
+Triumphant Hero's Armguards (Exotic): 6604
+Triumphant Hero's Armguards (Ascended): 81428
+Triumphant Hero's Armguards (Legendary): 84629
+
+Triumphant Hero's Breastplate (Exotic): 6615
+Triumphant Hero's Breastplate (Ascended): 81304
+Triumphant Hero's Breastplate (Legendary): 83394
+
+Triumphant Hero's Brigandine (Exotic): 6609
+Triumphant Hero's Brigandine (Ascended): 81434
+Triumphant Hero's Brigandine (Legendary): 84578
+
+Triumphant Hero's Epaulets (Exotic): 6607
+Triumphant Hero's Epaulets (Ascended): 81285
+Triumphant Hero's Epaulets (Legendary): 82173
+
+Triumphant Hero's Faceguard (Exotic): 6611
+Triumphant Hero's Faceguard (Ascended): 81315
+Triumphant Hero's Faceguard (Legendary): 82437
+
+Triumphant Hero's Footgear (Exotic): 6602
+Triumphant Hero's Footgear (Ascended): 81500
+Triumphant Hero's Footgear (Legendary): 83289
+
+Triumphant Hero's Gauntlets (Exotic): 6616
+Triumphant Hero's Gauntlets (Ascended): 81349
+Triumphant Hero's Gauntlets (Legendary): 82456
+
+Triumphant Hero's Leggings (Exotic): 6606
+Triumphant Hero's Leggings (Ascended): 81279
+Triumphant Hero's Leggings (Legendary): 83497
+
+Triumphant Hero's Legguards (Exotic): 6612
+Triumphant Hero's Legguards (Ascended): 81386
+Triumphant Hero's Legguards (Legendary): 82903
+
+Triumphant Hero's Legplates (Exotic): 6618
+Triumphant Hero's Legplates (Ascended): 81418
+Triumphant Hero's Legplates (Legendary): 82196
+
+Triumphant Hero's Masque (Exotic): 6605
+Triumphant Hero's Masque (Ascended): 81476
+Triumphant Hero's Masque (Legendary): 82902
+
+Triumphant Hero's Pauldrons (Exotic): 6619
+Triumphant Hero's Pauldrons (Ascended): 81333
+Triumphant Hero's Pauldrons (Legendary): 82963
+
+Triumphant Hero's Raiment (Exotic): 6603
+Triumphant Hero's Raiment (Ascended): 81338
+Triumphant Hero's Raiment (Legendary): 83036
+
+Triumphant Hero's Shinplates (Exotic): 6608
+Triumphant Hero's Shinplates (Ascended): 81420
+Triumphant Hero's Shinplates (Legendary): 82093
+
+Triumphant Hero's Shoulderguards (Exotic): 6613
+Triumphant Hero's Shoulderguards (Ascended): 81446
+Triumphant Hero's Shoulderguards (Legendary): 82994
+
+Triumphant Hero's Wargreaves (Exotic): 6614
+Triumphant Hero's Wargreaves (Ascended): 81336
+Triumphant Hero's Wargreaves (Legendary): 82801
+
+Triumphant Hero's Warhelm (Exotic): 6617
+Triumphant Hero's Warhelm (Ascended): 81330
+Triumphant Hero's Warhelm (Legendary): 84176
+
+Triumphant Hero's Wristplates (Exotic): 6610
+Triumphant Hero's Wristplates (Ascended): 81489
+Triumphant Hero's Wristplates (Legendary): 84110

@@ -22,9 +22,7 @@ Each acquisition object:
   "vendorName": "<vendor NPC name, only for vendor type>",
   "discontinued": <true if no longer available in game, omit if current>,
   "requirements": [
-    {"itemName": "<exact name>", "quantity": <int>}
-    or
-    {"currencyName": "<exact name>", "quantity": <int>}
+    {"requirementName": "<exact name>", "quantity": <int>}
   ],
   "metadata": { <type-specific fields> }
 }
@@ -34,20 +32,52 @@ Each acquisition object:
 ### crafting
 Standard crafting at a discipline station.
 metadata: { "recipeType": "crafting", "disciplines": ["Weaponsmith"], "minRating": 400 }
-requirements: list all ingredients as {itemName, quantity}
+requirements: list all ingredients as {requirementName, quantity}
 
 ### mystic_forge
 Combine items in the Mystic Forge (usually exactly 4 items).
 metadata: { "recipeType": "mystic_forge" }
-requirements: list all ingredients as {itemName, quantity}
+requirements: list all ingredients as {requirementName, quantity}
 
 ### vendor
 Purchase from an NPC. Create a SEPARATE acquisition for EACH vendor.
 vendorName: the NPC's name (top-level field, NOT in metadata)
-requirements: item costs as {itemName, quantity} and/or currency costs as {currencyName, quantity}
+requirements: costs as {requirementName, quantity}
 metadata: {
-  "limitType": "daily" | "weekly" | "season" | "lifetime" | null,
-  "limitAmount": <int> | null
+  "limitType": "daily" | "weekly" | "season" | "lifetime" (omit if no limit),
+  "limitAmount": <int> (omit if no limit),
+  "notes": "<special conditions>" (omit if none)
+}
+IMPORTANT: Only include metadata fields that have actual values. Omit fields rather than setting them to null.
+
+Example vendor with daily limit and notes:
+{
+  "type": "vendor",
+  "vendorName": "League Vendor",
+  "outputQuantity": 1,
+  "requirements": [
+    {"requirementName": "Grandmaster Mark", "quantity": 5},
+    {"requirementName": "Ascended Shards of Glory", "quantity": 350},
+    {"requirementName": "Coin", "quantity": 20000}
+  ],
+  "metadata": {
+    "limitType": "daily",
+    "limitAmount": 1,
+    "notes": "Requires the skin Ardent Glorious Armguards"
+  }
+}
+
+Example vendor with notes but no limit:
+{
+  "type": "vendor",
+  "vendorName": "Skirmish Supervisor",
+  "outputQuantity": 1,
+  "requirements": [
+    {"requirementName": "Memory of Battle", "quantity": 250}
+  ],
+  "metadata": {
+    "notes": "Requires the skin Triumphant Brigandine"
+  }
 }
 
 ### achievement
@@ -71,7 +101,7 @@ metadata: {
 
 ### container
 Obtained by opening another item (container/bag/chest).
-requirements: the container item as {itemName, quantity: 1}
+requirements: the container item as {requirementName, quantity: 1}
 metadata: {
   "guaranteed": true | false,
   "choice": true | false
@@ -82,7 +112,7 @@ Both should not be true at the same time. If neither applies, set both to false.
 
 ### salvage
 Obtained by salvaging another item.
-requirements: the source item as {itemName, quantity: 1}
+requirements: the source item as {requirementName, quantity: 1}
 metadata: {
   "guaranteed": true | false
 }
@@ -99,7 +129,7 @@ metadata: { "trackName": "...", "trackType": "pvp" }
 
 ### wizards_vault
 Wizard's Vault seasonal/weekly shop.
-requirements: currency cost as {currencyName: "Astral Acclaim", quantity: <int>}
+requirements: currency cost as {requirementName: "Astral Acclaim", quantity: <int>}
 metadata: { "seasonal": true | false }
 
 ### story
@@ -123,11 +153,11 @@ Rate overallConfidence based on how well you understood the page:
 ## Rules
 
 1. Only extract acquisition methods explicitly described on the wiki page.
-2. Use exact item and currency names as they appear on the wiki.
+2. Use exact item and currency names as they appear on the wiki (in requirementName field).
 3. If an item is sold by multiple vendors, create a SEPARATE acquisition for each vendor.
 4. For recipes with random/RNG output, add "rng": true to metadata.
 5. For Mystic Forge recipes, always use type "mystic_forge" (not "crafting").
-6. Gold costs should use currencyName "Coin" with quantity in copper (1 gold = 10000 copper, \
+6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
 1 silver = 100 copper).
 7. If no acquisition info is found, return {"acquisitions": [], "overallConfidence": 1.0}.
 8. Do NOT invent acquisition methods that aren't on the page.
@@ -143,6 +173,48 @@ would be below 0.8, reconsider whether it is specific enough to include.
 12. If an acquisition method was available in the past but is no longer obtainable (e.g. \
 removed items, discontinued events, retired reward tracks, historical promotions), still \
 include it but set "discontinued": true at the top level of the acquisition object.
+13. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
+but different rarities (e.g., Legendary vs Ascended vs Exotic). Each acquisition method on the \
+wiki will indicate which variant it applies to through:
+   - Section headers: "Legendary variant", "Ascended version"
+   - Table rows/columns: Look for "Rarity" columns showing <span class="rarity-ascended">Ascended</span>, \
+<span class="rarity-legendary">Legendary</span>, etc.
+   - Explicit text: "The ascended version is sold by...", "The legendary can be crafted via..."
+
+CRITICAL RARITY FILTERING:
+- ONLY extract acquisitions where the rarity in the wiki HTML matches the rarity provided above
+- If a vendor table row shows a different rarity (e.g., row has "Ascended" but item is "Legendary"), SKIP that vendor
+- If a container or source explicitly mentions a different rarity, SKIP it
+- Legendary items are typically NOT sold by vendors - they're crafted via Mystic Forge from Ascended precursors
+- When uncertain, look for rarity markers in the HTML: <span class="rarity-legendary">, <span class="rarity-ascended">, etc.
+
+Examples:
+- Rarity is "Legendary", vendor table row shows <span class="rarity-ascended">Ascended</span> → SKIP (vendor sells Ascended, not Legendary)
+- Rarity is "Legendary", Mystic Forge recipe shows no rarity qualifier → INCLUDE (likely upgrades Ascended to Legendary)
+- Rarity is "Ascended", vendor table row shows <span class="rarity-ascended">Ascended</span> → INCLUDE (exact match)
+
+14. RARITY QUALIFIERS IN REQUIREMENTS: When an ingredient appears in multiple rarities on the wiki, \
+append the rarity as a qualifier in parentheses to disambiguate. This applies to ALL requirement types.
+
+Examples:
+- Mystic Forge recipe uses the Ascended version: "Triumphant Hero's Brigandine (Ascended)"
+- Vendor costs include an Exotic material: "Mystic Curio (Exotic)"
+- Container requires opening a Rare chest: "Exotic Armor Chest (Rare)"
+
+When to add rarity qualifiers:
+- If the wiki shows multiple rarity variants of the same item name, ALWAYS add the rarity qualifier
+- If the recipe/vendor table explicitly shows rarity (HTML span tags, rarity column), include it
+- If only one rarity exists for that item, DO NOT add a qualifier (keep the name clean)
+
+15. VENDOR NOTES: ALWAYS extract special conditions from vendor table rows into metadata.notes. \
+Look for these in table cells (<td> tags) adjacent to the vendor cost information:
+- "Requires the skin <item name>" → Extract as notes: "Requires the skin <item name>"
+- "Available after completing <achievement>" → Extract as notes: "Available after completing <achievement>"
+- "Only available during <event>" → Extract as notes: "Only available during <event>"
+- "Requires <rank> in <game mode>" → Extract as notes: "Requires <rank> in <game mode>"
+
+If a vendor row has these conditions, the "notes" field in metadata is REQUIRED (not optional). \
+Keep the text verbatim from the wiki. If no special conditions exist, omit the notes field entirely.
 """
 
 
