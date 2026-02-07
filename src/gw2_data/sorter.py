@@ -2,8 +2,8 @@
 Acquisition and requirement sorting for deterministic YAML output.
 
 Sorts acquisitions by type priority, then by type-specific metadata fields,
-then by discontinued status, and finally by output quantity. Also sorts
-requirements within each acquisition by ID for maximum diff stability.
+and finally by output quantity. Also sorts requirements within each
+acquisition by ID for maximum diff stability.
 
 Configuration-driven design allows easy modification of sort priorities by
 updating ACQUISITION_TYPE_ORDER and ACQUISITION_SORT_FIELDS constants.
@@ -79,7 +79,7 @@ ACQUISITION_SORT_FIELDS = {
 
 def sort_acquisitions(acquisitions: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """
-    Sort acquisitions deterministically by type, metadata, discontinued status, and output quantity.
+    Sort acquisitions deterministically by type, metadata, and output quantity.
     Also sorts requirements within each acquisition.
     """
     sorted_acqs = []
@@ -141,7 +141,7 @@ def _extract_field_value(data: dict[str, Any], field_path: str) -> Any:
     return value
 
 
-def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int, int]:
+def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int]:
     """Extract compound sort key from acquisition for deterministic ordering."""
     acq_type = acq["type"]
 
@@ -162,7 +162,6 @@ def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int, int]:
 
         secondary_values.append(value)
 
-    discontinued = 1 if acq.get("discontinued") else 0
     output_qty = acq.get("outputQuantity", 1)
 
-    return (type_priority, tuple(secondary_values), discontinued, output_qty)
+    return (type_priority, tuple(secondary_values), output_qty)

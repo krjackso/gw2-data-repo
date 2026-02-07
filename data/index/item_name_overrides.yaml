@@ -30,8 +30,10 @@ Eternity: 30689
 Eternity (container): 95110
 # Ignore the container variant (95119)
 Sunrise: 30703
+Sunrise (container): 95119
 # Ignore the container variant (95129)
 Twilight: 30704
+Twilight (container): 95129
 
 Legendary Choice Box: 97889
 
@@ -168,3 +170,185 @@ Triumphant Hero's Warhelm (Legendary): 84176
 Triumphant Hero's Wristplates (Exotic): 6610
 Triumphant Hero's Wristplates (Ascended): 81489
 Triumphant Hero's Wristplates (Legendary): 84110
+
+# ============================================================================
+# Superior Sigils - Exotic variants (Legendary variants are API-only for
+# display inside legendary sigil items and cannot be acquired)
+# ============================================================================
+
+Superior Sigil of Absorption: 72872
+Superior Sigil of Accuracy: 24618
+Superior Sigil of Agility: 72092
+Superior Sigil of Agony: 24612
+Superior Sigil of Air: 24554
+Superior Sigil of Battle: 24601
+Superior Sigil of Benevolence: 24584
+Superior Sigil of Blight: 67913
+Superior Sigil of Blood: 24570
+Superior Sigil of Bloodlust: 24575
+Superior Sigil of Bounty: 81045
+Superior Sigil of Bursting: 44944
+Superior Sigil of Celerity: 24865
+Superior Sigil of Centaur Slaying: 24645
+Superior Sigil of Chilling: 24630
+Superior Sigil of Cleansing: 67340
+Superior Sigil of Concentration: 72339
+Superior Sigil of Corruption: 24578
+Superior Sigil of Cruelty: 67341
+Superior Sigil of Debility: 24636
+Superior Sigil of Demon Slaying: 24664
+Superior Sigil of Demons: 24583
+Superior Sigil of Destroyer Slaying: 24654
+Superior Sigil of Doom: 24609
+Superior Sigil of Draining: 70825
+Superior Sigil of Dreams: 24681
+Superior Sigil of Earth: 24560
+Superior Sigil of Elemental Slaying: 24661
+Superior Sigil of Energy: 24607
+Superior Sigil of Fire: 24548
+Superior Sigil of Force: 24615
+Superior Sigil of Frailty: 24567
+Superior Sigil of Frenzy: 82876
+Superior Sigil of Generosity: 38294
+Superior Sigil of Geomancy: 24605
+Superior Sigil of Ghost Slaying: 24809
+Superior Sigil of Grawl Slaying: 24648
+Superior Sigil of Hobbling: 24627
+Superior Sigil of Hologram Slaying: 91339
+Superior Sigil of Hydromancy: 24597
+Superior Sigil of Ice: 24555
+Superior Sigil of Icebrood Slaying: 24651
+Superior Sigil of Impact: 24868
+Superior Sigil of Incapacitation: 67343
+Superior Sigil of Justice: 24678
+Superior Sigil of Karka Slaying: 37912
+Superior Sigil of Leeching: 24599
+Superior Sigil of Life: 24582
+Superior Sigil of Luck: 24591
+Superior Sigil of Mad Scientists: 24672
+Superior Sigil of Malice: 44950
+Superior Sigil of Mischief: 68436
+Superior Sigil of Momentum: 49457
+Superior Sigil of Nullification: 24572
+Superior Sigil of Ogre Slaying: 24655
+Superior Sigil of Paralyzation: 24639
+Superior Sigil of Perception: 24580
+Superior Sigil of Peril: 24621
+Superior Sigil of Purity: 24571
+Superior Sigil of Rage: 24561
+Superior Sigil of Rending: 73532
+Superior Sigil of Renewal: 44947
+Superior Sigil of Restoration: 24594
+Superior Sigil of Ruthlessness: 71130
+Superior Sigil of Serpent Slaying: 24658
+Superior Sigil of Severance: 84505
+Superior Sigil of Smoldering: 24624
+Superior Sigil of Smothering: 24675
+Superior Sigil of Sorrow: 24684
+Superior Sigil of Speed: 24589
+Superior Sigil of Stamina: 24592
+Superior Sigil of Strength: 24562
+Superior Sigil of Torment: 48911
+Superior Sigil of Transference: 74326
+Superior Sigil of Undead Slaying: 24642
+Superior Sigil of Venom: 24632
+Superior Sigil of Vision: 24600
+Superior Sigil of Water: 24551
+Superior Sigil of Wrath: 24667
+Superior Sigil of the Night: 36053
+Superior Sigil of the Stars: 86170
+
+# ============================================================================
+# Relics - Exotic variants (Legendary variants are API-only for display
+# inside legendary relic items and cannot be acquired)
+# ============================================================================
+
+Relic of Akeem: 100432
+Relic of Altruism: 104256
+Relic of Antitoxin: 100390
+Relic of Atrocity: 102245
+Relic of Cerus: 100074
+Relic of Dagda: 100942
+Relic of Durability: 100455
+Relic of Dwayna: 100442
+Relic of Evasion: 100614
+Relic of Febe: 101116
+Relic of Fire: 104501
+Relic of Fireworks: 100947
+Relic of Geysers: 103763
+Relic of Isgarren: 99997
+Relic of Karakosa: 101268
+Relic of Leadership: 100625
+Relic of Lyhr: 100461
+Relic of Mabon: 100115
+Relic of Mercy: 100429
+Relic of Mosyn: 101801
+Relic of Mount Balrior: 103872
+Relic of Nayos: 101198
+Relic of Nourys: 101191
+Relic of Peitha: 100177
+Relic of Resistance: 100794
+Relic of Reunification: 103984
+Relic of Rivers: 103015
+Relic of Sorrow: 103424
+Relic of Speed: 100148
+Relic of Surging: 100063
+Relic of Thorns: 104424
+Relic of Vampirism: 100676
+Relic of Vass: 100775
+Relic of Zakiros: 101955
+Relic of the Adventurer: 100561
+Relic of the Afflicted: 100693
+Relic of the Aristocracy: 100849
+Relic of the Astral Ward: 100388
+Relic of the Beehive: 103977
+Relic of the Blightbringer: 102199
+Relic of the Brawler: 100527
+Relic of the Cavalier: 100542
+Relic of the Centaur: 100385
+Relic of the Chronomancer: 100450
+Relic of the Citadel: 100448
+Relic of the Claw: 103574
+Relic of the Daredevil: 100345
+Relic of the Deadeye: 100924
+Relic of the Defender: 100934
+Relic of the Demon Queen: 101166
+Relic of the Dragonhunter: 100090
+Relic of the Eagle: 104241
+Relic of the Earth: 100435
+Relic of the Firebrand: 100453
+Relic of the Flock: 99965
+Relic of the Founding: 101737
+Relic of the Fractal: 100153
+Relic of the Golemancer: 100403
+Relic of the Herald: 100219
+Relic of the Holosmith: 100908
+Relic of the Ice: 100048
+Relic of the Krait: 100230
+Relic of the Lich: 100238
+Relic of the Living City: 104938
+Relic of the Midnight King: 101139
+Relic of the Mirage: 100158
+Relic of the Mists Tide: 103901
+Relic of the Monk: 100031
+Relic of the Necromancer: 100580
+Relic of the Nightmare: 100579
+Relic of the Ogre: 100311
+Relic of the Pack: 100752
+Relic of the Privateer: 100479
+Relic of the Reaper: 100739
+Relic of the Scourge: 100368
+Relic of the Sorcerer: 101863
+Relic of the Steamshrieker: 104022
+Relic of the Stormsinger: 102595
+Relic of the Sunless: 100400
+Relic of the Thief: 100916
+Relic of the Trooper: 100411
+Relic of the Twin Generals: 101767
+Relic of the Unseen Invasion: 100694
+Relic of the Warrior: 100144
+Relic of the Water: 100659
+Relic of the Wayfinder: 101943
+Relic of the Weaver: 100194
+Relic of the Wizard's Tower: 100557
+Relic of the Zephyrite: 100893

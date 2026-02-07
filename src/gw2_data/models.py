@@ -180,7 +180,6 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
 class Acquisition(BaseModel):
     type: AcquisitionType
     vendor_name: str | None = Field(default=None, alias="vendorName")
-    discontinued: bool | None = None
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
     metadata: AcquisitionMetadata | dict | None = None

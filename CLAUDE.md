@@ -45,8 +45,12 @@ uv run pytest
 uv run ruff check .
 uv run ruff format --check .
 
-# Validate all item YAML files
+# Validate all item YAML files (also runs automatically on commit via pre-commit hook)
 uv run python -m scripts.validate
+
+# Setup pre-commit hook (one-time setup)
+pip install pre-commit
+pre-commit install
 
 # Build item or currency name-to-ID index
 # IMPORTANT: NEVER run this command yourself - always ask the user to run it
@@ -186,6 +190,8 @@ The resolution process:
 4. Only IDs are written to the YAML file for efficient tree traversal
 
 ## Acquisition Types
+
+**Important**: YAML files contain only currently obtainable acquisition paths. Discontinued or historical acquisition methods (removed items, retired reward tracks, past events) are not tracked in this dataset. The focus is on methods that are actively available in the game.
 
 | Type | Description | Requirements | Key Metadata |
 |------|-------------|-------------|--------------|

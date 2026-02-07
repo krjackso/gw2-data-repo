@@ -20,7 +20,6 @@ Each acquisition object:
   "confidence": <0.0-1.0>,
   "outputQuantity": <int, default 1>,
   "vendorName": "<vendor NPC name, only for vendor type>",
-  "discontinued": <true if no longer available in game, omit if current>,
   "requirements": [
     {"requirementName": "<exact name>", "quantity": <int>}
   ],
@@ -177,9 +176,10 @@ include Mystic Forge recipes with specific named ingredients.
 11. Focus on DETERMINISTIC acquisition methods — crafting recipes, specific vendors, specific \
 achievement rewards, specific named containers that guarantee this item. If a confidence \
 would be below 0.8, reconsider whether it is specific enough to include.
-12. If an acquisition method was available in the past but is no longer obtainable (e.g. \
-removed items, discontinued events, retired reward tracks, historical promotions), still \
-include it but set "discontinued": true at the top level of the acquisition object.
+12. Do NOT include acquisition methods that were available in the past but are no longer \
+obtainable (e.g. removed items, discontinued events, retired reward tracks, historical \
+promotions). Skip any method marked as discontinued, historical, or no longer available. \
+Only extract currently active acquisition methods.
 13. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
 but different rarities (e.g., Legendary vs Ascended vs Exotic). Each acquisition method on the \
 wiki will indicate which variant it applies to through:

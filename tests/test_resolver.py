@@ -220,3 +220,49 @@ def test_resolve_requirement_error_message_includes_hint():
         ValueError, match="currency_name_overrides.yaml or item_name_overrides.yaml"
     ):
         resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+
+def test_filter_discontinued_acquisitions():
+    item_index = {"Valid Item": [123]}
+    currency_index = {}
+
+    acquisitions = [
+        {
+            "type": "vendor",
+            "requirements": [{"requirementName": "Valid Item", "quantity": 1}],
+        },
+        {
+            "type": "container",
+            "discontinued": True,
+            "requirements": [{"requirementName": "Tournament of Glory: Fourth Place", "quantity": 1}],
+        },
+        {
+            "type": "crafting",
+            "requirements": [{"requirementName": "Valid Item", "quantity": 2}],
+        },
+    ]
+
+    result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+    assert len(result) == 2
+    assert result[0]["type"] == "vendor"
+    assert result[0]["requirements"][0]["itemId"] == 123
+    assert result[1]["type"] == "crafting"
+    assert result[1]["requirements"][0]["itemId"] == 123
+
+
+def test_discontinued_acquisition_not_raise_error_for_unresolvable():
+    item_index = {}
+    currency_index = {}
+
+    acquisitions = [
+        {
+            "type": "container",
+            "discontinued": True,
+            "requirements": [{"requirementName": "Removed Item From API", "quantity": 1}],
+        }
+    ]
+
+    result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+    assert len(result) == 0

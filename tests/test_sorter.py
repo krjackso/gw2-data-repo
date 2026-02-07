@@ -214,38 +214,6 @@ class TestSortByMetadata:
         assert result[1]["metadata"]["achievementName"] == "Zeta Achievement"
 
 
-class TestSortByDiscontinued:
-    def test_sort_active_before_discontinued(self):
-        acquisitions = [
-            {
-                "type": "vendor",
-                "vendorName": "Test",
-                "discontinued": True,
-                "outputQuantity": 1,
-                "requirements": [],
-            },
-            {
-                "type": "vendor",
-                "vendorName": "Test",
-                "outputQuantity": 1,
-                "requirements": [],
-            },
-            {
-                "type": "vendor",
-                "vendorName": "Test",
-                "discontinued": False,
-                "outputQuantity": 1,
-                "requirements": [],
-            },
-        ]
-
-        result = sorter.sort_acquisitions(acquisitions)
-
-        assert result[0].get("discontinued") is None
-        assert result[1].get("discontinued") is False
-        assert result[2]["discontinued"] is True
-
-
 class TestSortByOutputQuantity:
     def test_sort_by_output_quantity(self):
         acquisitions = [
