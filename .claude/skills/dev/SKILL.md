@@ -87,6 +87,47 @@ def validate_mystic_forge(cls, v: list, info: ValidationInfo) -> list:
 data = AcquisitionFile.model_validate_json(json_string)
 ```
 
+### Dependency Injection
+
+**Always use dependency injection for resources like cache, database, HTTP clients, etc.**
+
+This makes code testable and avoids global state issues.
+
+```python
+# Bad: Hidden dependency on global state
+def get_item(item_id: int) -> GW2Item:
+    cache = get_global_cache()  # Hidden dependency
+    cached = cache.get(...)
+    ...
+
+# Good: Explicit dependency injection
+def get_item(item_id: int, cache: CacheClient) -> GW2Item:
+    cached = cache.get_api_item(item_id)
+    ...
+
+# Tests can now inject a test cache
+def test_get_item(tmp_path):
+    test_cache = CacheClient(tmp_path / "cache")
+    result = get_item(123, cache=test_cache)
+    assert result["id"] == 123
+```
+
+**Pattern for initialization:**
+- Create resources once at the application entry point
+- Pass them down through the call chain
+- Never use global singletons for stateful resources
+
+```python
+# In main script
+def main():
+    settings = get_settings()
+    cache = CacheClient(settings.cache_dir)
+
+    # Pass cache to functions that need it
+    item_data = api.get_item(item_id, cache=cache)
+    wiki_html = wiki.get_page_html(item_name, cache=cache)
+```
+
 ### DRY and Refactoring
 
 ```python

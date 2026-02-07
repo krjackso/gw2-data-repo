@@ -13,13 +13,20 @@ gw2-data-repo/
 │   └── schema/
 │       └── acquisition.schema.json   # JSON Schema for acquisition files
 ├── src/gw2_data/
-│   └── models.py          # Pydantic models matching the schema
+│   ├── models.py          # Pydantic models matching the schema
+│   ├── config.py          # Configuration management
+│   ├── cache.py           # Persistent cache client
+│   ├── api.py             # GW2 API client
+│   ├── wiki.py            # Wiki API client
+│   ├── llm.py             # LLM extraction logic
+│   ├── types.py           # TypedDict definitions
+│   └── exceptions.py      # Custom exceptions
 ├── scripts/
 │   ├── validate.py        # Validate all YAML files
-│   └── (future: populate.py, diff.py, export.py)
+│   └── populate.py        # Generate acquisition YAML from wiki
 ├── prompts/               # LLM prompt templates (future)
 └── tests/
-    └── test_schema.py     # Schema and model tests
+    └── test_*.py          # Comprehensive test suite
 ```
 
 ## Commands
@@ -37,7 +44,30 @@ uv run ruff format --check .
 
 # Validate all acquisition YAML files
 uv run python -m scripts.validate
+
+# Generate acquisition data for an item
+uv run python -m scripts.populate --item-id 19676 --dry-run
+
+# Clear cache (all or by tag: api, wiki, llm)
+uv run python -m scripts.populate --clear-cache
+uv run python -m scripts.populate --clear-cache api wiki
 ```
+
+## Configuration
+
+Settings can be customized via environment variables or a `.env` file:
+
+```bash
+# Copy the example file
+cp .env.example .env
+
+# Edit with your preferences
+GW2_API_TIMEOUT=60.0        # Request timeout in seconds (default: 30.0)
+GW2_CACHE_DIR=/tmp/cache    # Cache directory (default: .cache/gw2)
+GW2_LOG_LEVEL=DEBUG         # Logging level (default: INFO)
+```
+
+All settings are optional and have sensible defaults.
 
 ## Data Sources
 
