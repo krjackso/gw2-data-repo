@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 from pydantic import ValidationError
 
-from gw2_data import api, llm, wiki
+from gw2_data import api, llm, resolver, wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import APIError, ExtractionError, WikiError
@@ -42,6 +42,13 @@ def populate_item(
     )
 
     _print_extraction_summary(result)
+
+    print("Resolving item/currency names to IDs...")
+    item_name_index = api.load_item_name_index()
+    currency_name_index = api.load_currency_name_index()
+    result.item_data["acquisitions"] = resolver.resolve_requirements(
+        result.item_data["acquisitions"], item_name_index, currency_name_index
+    )
 
     print("Validating against schema...")
     try:
@@ -166,9 +173,11 @@ def main() -> None:
     try:
         if args.item_name:
             index = api.load_item_name_index()
-            matches = index.get(args.item_name)
+            cleaned_name = api.clean_name(args.item_name)
+            matches = index.get(cleaned_name)
             if not matches:
                 print(f"Error: No item found with name '{args.item_name}'", file=sys.stderr)
+                print(f"Searched for cleaned name: '{cleaned_name}'", file=sys.stderr)
                 sys.exit(1)
             if len(matches) > 1:
                 print(f"Multiple items match '{args.item_name}':", file=sys.stderr)

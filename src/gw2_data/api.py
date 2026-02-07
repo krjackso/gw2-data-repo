@@ -7,6 +7,7 @@ rarely changes.
 """
 
 import logging
+import re
 from pathlib import Path
 
 import httpx
@@ -155,6 +156,10 @@ def get_items_bulk(item_ids: list[int], cache: CacheClient, *, force: bool = Fal
     return BulkResult(items=items, from_cache=False)
 
 
+def clean_name(name: str) -> str:
+    return re.sub(r"\s+", " ", name.replace("\n", " ").replace("\r", " ")).strip()
+
+
 def load_item_name_index() -> dict[str, list[int]]:
     index_path = Path("data/index/item_names.yaml")
     if not index_path.exists():
@@ -164,3 +169,34 @@ def load_item_name_index() -> dict[str, list[int]]:
         )
     with index_path.open() as f:
         return yaml.safe_load(f)
+
+
+def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:
+    cleaned = clean_name(name)
+    matches = index.get(cleaned)
+    if not matches:
+        raise APIError(f"Item name '{name}' not found in index (cleaned: '{cleaned}')")
+    if len(matches) > 1:
+        raise APIError(
+            f"Item name '{name}' matches multiple IDs: {matches}. Cannot resolve automatically."
+        )
+    return matches[0]
+
+
+def load_currency_name_index() -> dict[str, int]:
+    index_path = Path("data/index/currency_names.yaml")
+    if not index_path.exists():
+        raise APIError(
+            f"Currency name index not found at {index_path}. "
+            "Run 'uv run python -m scripts.build_index' first."
+        )
+    with index_path.open() as f:
+        return yaml.safe_load(f)
+
+
+def resolve_currency_name_to_id(name: str, index: dict[str, int]) -> int:
+    cleaned = clean_name(name)
+    currency_id = index.get(cleaned)
+    if currency_id is None:
+        raise APIError(f"Currency name '{name}' not found in index (cleaned: '{cleaned}')")
+    return currency_id

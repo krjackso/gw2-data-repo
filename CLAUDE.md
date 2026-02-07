@@ -47,9 +47,11 @@ uv run ruff format --check .
 # Validate all item YAML files
 uv run python -m scripts.validate
 
-# Build item name-to-ID index (fetches all ~57k items from GW2 API)
-uv run python -m scripts.build_index
-uv run python -m scripts.build_index --force          # ignore cache
+# Build item or currency name-to-ID index
+# IMPORTANT: NEVER run this command yourself - always ask the user to run it
+uv run python -m scripts.build_index --items           # build item index (~5 min, ~57k API calls)
+uv run python -m scripts.build_index --items --force   # ignore cache
+uv run python -m scripts.build_index --currencies      # build currency index (< 1 sec)
 
 # Generate item data with acquisitions
 uv run python -m scripts.populate --item-id 19676 --dry-run
@@ -124,7 +126,9 @@ acquisitions:
 
 ### Requirements
 
-Two types of requirements (all resolved to IDs upfront):
+**IMPORTANT**: All requirements MUST use IDs only (never names). The LLM extraction uses names, but the populate script automatically resolves them to IDs before writing YAML.
+
+Two types of requirements:
 
 ```yaml
 # Item requirement - requires another game item
@@ -135,6 +139,12 @@ Two types of requirements (all resolved to IDs upfront):
 - currencyId: 2        # GW2 API currency ID
   quantity: 2100
 ```
+
+The resolution process:
+1. LLM extracts acquisition data with item/currency names (human-readable)
+2. `resolver.resolve_requirements()` uses the item name index to convert names → IDs
+3. If a name matches multiple IDs or doesn't exist, an error is raised
+4. Only IDs are written to the YAML file for efficient tree traversal
 
 ## Acquisition Types
 
@@ -242,3 +252,4 @@ Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{so
 - Pydantic models use `alias` for camelCase YAML keys, snake_case Python attributes
 - Tests in `tests/` directory, fixtures inline in test files
 - **NEVER directly edit files in `data/items/`** — these are generated output from the populate script or hand-edited by the user. To change item data, update the schema, models, prompts, or scripts, then re-run `scripts.populate`.
+- **NEVER run `scripts.build_index`** — always instruct the user to run it. The index takes ~5 minutes to build and makes ~57k API calls.

@@ -19,34 +19,34 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Metal
 lastUpdated: '2026-02-07'
 acquisitions:
-- type: vendor
-  vendorName: Ward Crafter Lucirae
-  outputQuantity: 1
-  requirements:
-  - itemName: Glob of Ectoplasm
-    quantity: 5
-  - itemName: Darksteel Ingot
-    quantity: 250
-  - itemName: Mithril Ingot
-    quantity: 250
-  - itemName: Orichalcum Ingot
-    quantity: 250
-  - itemName: Platinum Ingot
-    quantity: 250
-  metadata: {}
 - type: crafting
   outputQuantity: 1
   requirements:
-  - itemName: Orichalcum Ingot
+  - itemId: 19685
     quantity: 250
-  - itemName: Mithril Ingot
+  - itemId: 19684
     quantity: 250
-  - itemName: Darksteel Ingot
+  - itemId: 19681
     quantity: 250
-  - itemName: Platinum Ingot
+  - itemId: 19686
     quantity: 250
   metadata:
     recipeType: crafting
     disciplines:
     - Weaponsmith
     minRating: 400
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19681
+    quantity: 250
+  - itemId: 19684
+    quantity: 250
+  - itemId: 19685
+    quantity: 250
+  - itemId: 19686
+    quantity: 250
+  metadata: {}

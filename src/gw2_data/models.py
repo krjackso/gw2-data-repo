@@ -71,18 +71,8 @@ class CurrencyRequirement(BaseModel):
     quantity: int = Field(ge=1)
 
 
-class ItemNameRequirement(BaseModel):
-    item_name: str = Field(alias="itemName", min_length=1)
-    quantity: int = Field(ge=1)
-
-
-class CurrencyNameRequirement(BaseModel):
-    currency_name: str = Field(alias="currencyName", min_length=1)
-    quantity: int = Field(ge=1)
-
-
 AcquisitionRequirement = Annotated[
-    ItemRequirement | CurrencyRequirement | ItemNameRequirement | CurrencyNameRequirement,
+    ItemRequirement | CurrencyRequirement,
     Field(discriminator=None),
 ]
 

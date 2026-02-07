@@ -137,7 +137,7 @@
           "additionalProperties": false,
           "required": ["itemId", "quantity"],
           "properties": {
-            "itemId": { "type": "integer", "minimum": 1 },
+            "itemId": { "type": "integer", "minimum": 1, "description": "GW2 API item ID" },
             "quantity": { "type": "integer", "minimum": 1 }
           }
         },
@@ -146,25 +146,7 @@
           "additionalProperties": false,
           "required": ["currencyId", "quantity"],
           "properties": {
-            "currencyId": { "type": "integer", "minimum": 1 },
-            "quantity": { "type": "integer", "minimum": 1 }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["itemName", "quantity"],
-          "properties": {
-            "itemName": { "type": "string", "minLength": 1 },
-            "quantity": { "type": "integer", "minimum": 1 }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["currencyName", "quantity"],
-          "properties": {
-            "currencyName": { "type": "string", "minLength": 1 },
+            "currencyId": { "type": "integer", "minimum": 1, "description": "GW2 API currency ID" },
             "quantity": { "type": "integer", "minimum": 1 }
           }
         }

@@ -161,7 +161,7 @@ def test_load_item_name_index_missing(monkeypatch, tmp_path: Path):
 
 
 def test_build_index_writes_sorted_yaml(mocker, tmp_path: Path):
-    from scripts.build_index import build_index
+    from scripts.build_index import build_item_index
 
     cache = CacheClient(tmp_path / "cache")
     mocker.patch.object(api, "get_all_item_ids", return_value=[1, 2, 3])
@@ -173,10 +173,10 @@ def test_build_index_writes_sorted_yaml(mocker, tmp_path: Path):
 
     index_path = tmp_path / "index" / "item_names.yaml"
     mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
-    mocker.patch("scripts.build_index.INDEX_PATH", index_path)
+    mocker.patch("scripts.build_index.ITEM_NAMES_PATH", index_path)
     mocker.patch("scripts.build_index.BATCH_DELAY", 0)
 
-    build_index(cache)
+    build_item_index(cache)
 
     assert index_path.exists()
     index = yaml.safe_load(index_path.read_text())
@@ -186,7 +186,7 @@ def test_build_index_writes_sorted_yaml(mocker, tmp_path: Path):
 
 
 def test_build_index_retries_failed_batches(mocker, tmp_path: Path):
-    from scripts.build_index import build_index
+    from scripts.build_index import build_item_index
 
     cache = CacheClient(tmp_path / "cache")
     mocker.patch.object(api, "get_all_item_ids", return_value=[1, 2])
@@ -204,10 +204,10 @@ def test_build_index_retries_failed_batches(mocker, tmp_path: Path):
 
     index_path = tmp_path / "index" / "item_names.yaml"
     mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
-    mocker.patch("scripts.build_index.INDEX_PATH", index_path)
+    mocker.patch("scripts.build_index.ITEM_NAMES_PATH", index_path)
     mocker.patch("scripts.build_index.BATCH_DELAY", 0)
 
-    build_index(cache)
+    build_item_index(cache)
 
     assert index_path.exists()
     index = yaml.safe_load(index_path.read_text())
@@ -216,7 +216,7 @@ def test_build_index_retries_failed_batches(mocker, tmp_path: Path):
 
 
 def test_build_index_uses_flow_style_lists(mocker, tmp_path: Path):
-    from scripts.build_index import build_index
+    from scripts.build_index import build_item_index
 
     cache = CacheClient(tmp_path / "cache")
     mocker.patch.object(api, "get_all_item_ids", return_value=[1, 2, 3])
@@ -228,10 +228,10 @@ def test_build_index_uses_flow_style_lists(mocker, tmp_path: Path):
 
     index_path = tmp_path / "index" / "item_names.yaml"
     mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
-    mocker.patch("scripts.build_index.INDEX_PATH", index_path)
+    mocker.patch("scripts.build_index.ITEM_NAMES_PATH", index_path)
     mocker.patch("scripts.build_index.BATCH_DELAY", 0)
 
-    build_index(cache)
+    build_item_index(cache)
 
     raw = index_path.read_text()
     assert "[1, 3]" in raw
@@ -359,10 +359,13 @@ def test_index_item_cleans_multiline_name():
 
 def test_item_name_resolution_single_match(mocker, monkeypatch, tmp_path: Path, capsys):
     index_data = {"Gift of Metal": [19676]}
+    currency_data = {"Coin": 1}
     index_dir = tmp_path / "data" / "index"
     index_dir.mkdir(parents=True)
     index_file = index_dir / "item_names.yaml"
     index_file.write_text(yaml.dump(index_data))
+    currency_file = index_dir / "currency_names.yaml"
+    currency_file.write_text(yaml.dump(currency_data))
 
     monkeypatch.chdir(tmp_path)
 
@@ -432,3 +435,152 @@ def test_item_name_resolution_multiple_matches(monkeypatch, tmp_path: Path):
 
     assert matches == [1, 3]
     assert len(matches) > 1
+
+
+def test_clean_name_normalizes_whitespace():
+    assert api.clean_name("  Item Name  ") == "Item Name"
+    assert api.clean_name("Item\nName") == "Item Name"
+    assert api.clean_name("Item   Name") == "Item Name"
+    assert api.clean_name("  Item  \n  Name  \r\n  Test  ") == "Item Name Test"
+
+
+# --- build_currency_index ---
+
+
+def test_build_currency_index_success(mocker, tmp_path: Path):
+    from scripts.build_index import build_currency_index
+
+    mock_currencies = [
+        {"id": 1, "name": "Coin"},
+        {"id": 2, "name": "Karma"},
+        {"id": 3, "name": "Laurel"},
+    ]
+
+    mock_get = mocker.patch("httpx.get")
+    mock_response = mocker.Mock()
+    mock_response.json.return_value = mock_currencies
+    mock_response.raise_for_status = mocker.Mock()
+    mock_get.return_value = mock_response
+
+    index_path = tmp_path / "index" / "currency_names.yaml"
+    mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
+    mocker.patch("scripts.build_index.CURRENCY_NAMES_PATH", index_path)
+
+    build_currency_index()
+
+    assert index_path.exists()
+    index = yaml.safe_load(index_path.read_text())
+    assert index == {"Coin": 1, "Karma": 2, "Laurel": 3}
+
+
+def test_build_currency_index_skips_empty_names(mocker, tmp_path: Path):
+    from scripts.build_index import build_currency_index
+
+    mock_currencies = [
+        {"id": 1, "name": "Coin"},
+        {"id": 74, "name": ""},
+        {"id": 2, "name": "Karma"},
+    ]
+
+    mock_get = mocker.patch("httpx.get")
+    mock_response = mocker.Mock()
+    mock_response.json.return_value = mock_currencies
+    mock_response.raise_for_status = mocker.Mock()
+    mock_get.return_value = mock_response
+
+    index_path = tmp_path / "index" / "currency_names.yaml"
+    mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
+    mocker.patch("scripts.build_index.CURRENCY_NAMES_PATH", index_path)
+
+    build_currency_index()
+
+    assert index_path.exists()
+    index = yaml.safe_load(index_path.read_text())
+    assert index == {"Coin": 1, "Karma": 2}
+    assert 74 not in index.values()
+
+
+def test_build_currency_index_http_error(mocker):
+
+    from gw2_data.exceptions import APIError
+    from scripts.build_index import build_currency_index
+
+    mock_get = mocker.patch("httpx.get")
+    mock_response = Response(500, request=Request("GET", "http://test.com"))
+    mock_get.return_value.raise_for_status.side_effect = HTTPStatusError(
+        "Server error", request=mock_response.request, response=mock_response
+    )
+
+    with pytest.raises(APIError, match="Failed to fetch currencies"):
+        build_currency_index()
+
+
+def test_build_currency_index_sorts_alphabetically(mocker, tmp_path: Path):
+    from scripts.build_index import build_currency_index
+
+    mock_currencies = [
+        {"id": 3, "name": "Zebra Coin"},
+        {"id": 1, "name": "Apple Coin"},
+        {"id": 2, "name": "Banana Coin"},
+    ]
+
+    mock_get = mocker.patch("httpx.get")
+    mock_response = mocker.Mock()
+    mock_response.json.return_value = mock_currencies
+    mock_response.raise_for_status = mocker.Mock()
+    mock_get.return_value = mock_response
+
+    index_path = tmp_path / "index" / "currency_names.yaml"
+    mocker.patch("scripts.build_index.INDEX_DIR", tmp_path / "index")
+    mocker.patch("scripts.build_index.CURRENCY_NAMES_PATH", index_path)
+
+    build_currency_index()
+
+    index = yaml.safe_load(index_path.read_text())
+    keys = list(index.keys())
+    assert keys == ["Apple Coin", "Banana Coin", "Zebra Coin"]
+
+
+# --- API resolution functions ---
+
+
+def test_resolve_item_name_to_id_success():
+    index = {"Sword": [123]}
+    result = api.resolve_item_name_to_id("Sword", index)
+    assert result == 123
+
+
+def test_resolve_item_name_to_id_cleans_name():
+    index = {"Sword": [123]}
+    result = api.resolve_item_name_to_id("  Sword  ", index)
+    assert result == 123
+
+
+def test_resolve_item_name_to_id_not_found():
+    index = {"Sword": [123]}
+    with pytest.raises(APIError, match="Item name 'Shield' not found"):
+        api.resolve_item_name_to_id("Shield", index)
+
+
+def test_resolve_item_name_to_id_multiple_matches():
+    index = {"Sword": [123, 456]}
+    with pytest.raises(APIError, match="matches multiple IDs"):
+        api.resolve_item_name_to_id("Sword", index)
+
+
+def test_resolve_currency_name_to_id_success():
+    index = {"Coin": 1}
+    result = api.resolve_currency_name_to_id("Coin", index)
+    assert result == 1
+
+
+def test_resolve_currency_name_to_id_cleans_name():
+    index = {"Coin": 1}
+    result = api.resolve_currency_name_to_id("  Coin  ", index)
+    assert result == 1
+
+
+def test_resolve_currency_name_to_id_not_found():
+    index = {"Coin": 1}
+    with pytest.raises(APIError, match="Currency name 'Karma' not found"):
+        api.resolve_currency_name_to_id("Karma", index)

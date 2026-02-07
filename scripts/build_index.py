@@ -1,6 +1,5 @@
 import argparse
 import logging
-import re
 import sys
 import time
 from collections import defaultdict
@@ -17,7 +16,8 @@ from gw2_data.types import GW2Item
 log = logging.getLogger(__name__)
 
 INDEX_DIR = Path("data/index")
-INDEX_PATH = INDEX_DIR / "item_names.yaml"
+ITEM_NAMES_PATH = INDEX_DIR / "item_names.yaml"
+CURRENCY_NAMES_PATH = INDEX_DIR / "currency_names.yaml"
 BATCH_SIZE = 200
 BATCH_DELAY = 0.1
 
@@ -31,10 +31,6 @@ def _list_representer(dumper: yaml.Dumper, data: list) -> yaml.Node:
 
 
 _IndexDumper.add_representer(list, _list_representer)
-
-
-def _clean_name(name: str) -> str:
-    return re.sub(r"\s+", " ", name.replace("\n", " ").replace("\r", " ")).strip()
 
 
 def _index_item(
@@ -53,11 +49,59 @@ def _index_item(
     if "\n" in name or "\r" in name:
         cleaned_newlines.append((item_id, repr(name)))
 
-    name = _clean_name(name)
+    name = api.clean_name(name)
     name_index[name].append(item_id)
 
 
-def build_index(cache: CacheClient, *, force: bool = False) -> None:
+def build_currency_index() -> None:
+    import httpx
+
+    from gw2_data.config import get_settings
+    from gw2_data.exceptions import APIError
+
+    print("Fetching all currencies from GW2 API...")
+    settings = get_settings()
+
+    try:
+        response = httpx.get(
+            "https://api.guildwars2.com/v2/currencies",
+            params={"ids": "all"},
+            timeout=settings.api_timeout,
+        )
+        response.raise_for_status()
+    except httpx.HTTPStatusError as e:
+        raise APIError(f"Failed to fetch currencies: HTTP {e.response.status_code}") from e
+    except httpx.RequestError as e:
+        raise APIError(f"Network error fetching currencies: {e}") from e
+
+    currencies: list[dict] = response.json()
+    print(f"Total currencies in GW2 API: {len(currencies)}")
+
+    currency_index: dict[str, int] = {}
+    skipped_empty = []
+    for curr in currencies:
+        name = curr["name"]
+        if not name or not name.strip():
+            skipped_empty.append(curr["id"])
+            continue
+        cleaned = api.clean_name(name)
+        currency_index[cleaned] = curr["id"]
+
+    if skipped_empty:
+        print(f"Skipped {len(skipped_empty)} currency(ies) with empty names: {skipped_empty}")
+
+    sorted_index = dict(sorted(currency_index.items()))
+
+    INDEX_DIR.mkdir(parents=True, exist_ok=True)
+
+    with CURRENCY_NAMES_PATH.open("w") as f:
+        yaml.dump(sorted_index, f, allow_unicode=True, sort_keys=False)
+
+    print(f"\nCurrency index written to {CURRENCY_NAMES_PATH}")
+    print(f"  Total currencies indexed: {len(sorted_index)}")
+
+
+def build_item_index(cache: CacheClient, *, force: bool = False) -> None:
     all_ids = api.get_all_item_ids()
     print(f"Total items in GW2 API: {len(all_ids):,}")
 
@@ -128,10 +172,10 @@ def build_index(cache: CacheClient, *, force: bool = False) -> None:
 
     INDEX_DIR.mkdir(parents=True, exist_ok=True)
 
-    with INDEX_PATH.open("w") as f:
+    with ITEM_NAMES_PATH.open("w") as f:
         yaml.dump(sorted_index, f, Dumper=_IndexDumper, allow_unicode=True, sort_keys=False)
 
-    print(f"\nIndex written to {INDEX_PATH}")
+    print(f"\nItem index written to {ITEM_NAMES_PATH}")
     print(f"  Unique names: {len(sorted_index):,}")
     print(f"  Total items indexed: {fetched_count:,}")
     duplicate_names = sum(1 for ids in sorted_index.values() if len(ids) > 1)
@@ -140,8 +184,16 @@ def build_index(cache: CacheClient, *, force: bool = False) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build item name-to-ID index from the GW2 API")
-    parser.add_argument("--force", action="store_true", help="Ignore cache and re-fetch all items")
+    parser = argparse.ArgumentParser(
+        description="Build item or currency name-to-ID index from the GW2 API"
+    )
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--items", action="store_true", help="Build item name index")
+    group.add_argument("--currencies", action="store_true", help="Build currency name index")
+
+    parser.add_argument(
+        "--force", action="store_true", help="Ignore cache and re-fetch all items (items only)"
+    )
     args = parser.parse_args()
 
     settings = get_settings()
@@ -149,10 +201,14 @@ def main() -> None:
         level=getattr(logging, settings.log_level.upper(), logging.INFO),
         format="%(message)s",
     )
-    cache = CacheClient(settings.cache_dir)
 
     try:
-        build_index(cache, force=args.force)
+        if args.currencies:
+            build_currency_index()
+        else:
+            cache = CacheClient(settings.cache_dir)
+            build_item_index(cache, force=args.force)
+
     except APIError as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
