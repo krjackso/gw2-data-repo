@@ -6,6 +6,16 @@ from gw2_data.exceptions import APIError
 log = logging.getLogger(__name__)
 
 
+def _is_chance_drop(acq: dict) -> bool:
+    acq_type = acq.get("type")
+    metadata = acq.get("metadata", {})
+    if acq_type == "container":
+        return not metadata.get("guaranteed") and not metadata.get("choice")
+    if acq_type == "salvage":
+        return not metadata.get("guaranteed")
+    return False
+
+
 def _resolve_single_acquisition(
     acq: dict,
     item_name_index: dict[str, list[int]],
@@ -23,8 +33,7 @@ def _resolve_single_acquisition(
         except (APIError, KeyError) as e:
             if not strict:
                 log.warning(
-                    f"Skipping unresolvable source item '{name}' "
-                    f"in {acq_type} acquisition: {e}"
+                    f"Skipping unresolvable source item '{name}' in {acq_type} acquisition: {e}"
                 )
                 return None
             else:
@@ -90,6 +99,11 @@ def resolve_requirements(
     for acq in acquisitions:
         if acq.get("discontinued"):
             log.info(f"Excluding discontinued {acq['type']} acquisition")
+            continue
+
+        if _is_chance_drop(acq):
+            name = acq.get("requirementName", acq.get("itemId", "unknown"))
+            log.info(f"Excluding chance-based {acq['type']} acquisition: {name}")
             continue
 
         resolved_acq = _resolve_single_acquisition(

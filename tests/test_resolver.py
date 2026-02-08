@@ -291,13 +291,152 @@ def test_lenient_mode_skips_unresolvable():
 
     item_index["Amnytas Gear Box"] = [100372, 100500]
 
-    result = resolver.resolve_requirements(
-        acquisitions, item_index, currency_index, strict=False
-    )
+    result = resolver.resolve_requirements(acquisitions, item_index, currency_index, strict=False)
 
     assert len(result) == 2
     assert result[0]["type"] == "vendor"
     assert result[1]["type"] == "crafting"
+
+
+class TestIsChanceDrop:
+    def test_container_guaranteed(self):
+        acq = {"type": "container", "metadata": {"guaranteed": True, "choice": False}}
+        assert not resolver._is_chance_drop(acq)
+
+    def test_container_choice(self):
+        acq = {"type": "container", "metadata": {"guaranteed": False, "choice": True}}
+        assert not resolver._is_chance_drop(acq)
+
+    def test_container_chance(self):
+        acq = {"type": "container", "metadata": {"guaranteed": False, "choice": False}}
+        assert resolver._is_chance_drop(acq)
+
+    def test_container_no_metadata(self):
+        acq = {"type": "container", "metadata": {}}
+        assert resolver._is_chance_drop(acq)
+
+    def test_container_missing_metadata(self):
+        acq = {"type": "container"}
+        assert resolver._is_chance_drop(acq)
+
+    def test_salvage_guaranteed(self):
+        acq = {"type": "salvage", "metadata": {"guaranteed": True}}
+        assert not resolver._is_chance_drop(acq)
+
+    def test_salvage_chance(self):
+        acq = {"type": "salvage", "metadata": {"guaranteed": False}}
+        assert resolver._is_chance_drop(acq)
+
+    def test_salvage_no_metadata(self):
+        acq = {"type": "salvage", "metadata": {}}
+        assert resolver._is_chance_drop(acq)
+
+    def test_salvage_missing_metadata(self):
+        acq = {"type": "salvage"}
+        assert resolver._is_chance_drop(acq)
+
+    def test_other_types_not_affected(self):
+        for acq_type in ("crafting", "mystic_forge", "vendor", "achievement", "other"):
+            acq = {"type": acq_type, "metadata": {}}
+            assert not resolver._is_chance_drop(acq)
+
+
+class TestChanceDropFiltering:
+    def test_filter_chance_containers(self):
+        item_index = {"Guaranteed Box": [100], "Choice Box": [200], "Valid Item": [300]}
+        currency_index = {}
+
+        acquisitions = [
+            {
+                "type": "container",
+                "requirementName": "Guaranteed Box",
+                "requirements": [],
+                "metadata": {"guaranteed": True, "choice": False},
+            },
+            {
+                "type": "container",
+                "requirementName": "Choice Box",
+                "requirements": [],
+                "metadata": {"guaranteed": False, "choice": True},
+            },
+            {
+                "type": "container",
+                "requirementName": "Random Drop Box",
+                "requirements": [],
+                "metadata": {"guaranteed": False, "choice": False},
+            },
+            {
+                "type": "crafting",
+                "requirements": [{"requirementName": "Valid Item", "quantity": 1}],
+            },
+        ]
+
+        result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+        assert len(result) == 3
+        assert result[0]["type"] == "container"
+        assert result[0]["itemId"] == 100
+        assert result[1]["type"] == "container"
+        assert result[1]["itemId"] == 200
+        assert result[2]["type"] == "crafting"
+
+    def test_filter_chance_containers_no_metadata(self):
+        item_index = {}
+        currency_index = {}
+
+        acquisitions = [
+            {
+                "type": "container",
+                "requirementName": "Some Box",
+                "requirements": [],
+                "metadata": {},
+            },
+        ]
+
+        result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+        assert len(result) == 0
+
+    def test_filter_chance_salvage(self):
+        item_index = {"Guaranteed Source": [400]}
+        currency_index = {}
+
+        acquisitions = [
+            {
+                "type": "salvage",
+                "requirementName": "Guaranteed Source",
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "salvage",
+                "requirementName": "Chance Source",
+                "requirements": [],
+                "metadata": {"guaranteed": False},
+            },
+        ]
+
+        result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+        assert len(result) == 1
+        assert result[0]["itemId"] == 400
+
+    def test_filter_chance_salvage_no_metadata(self):
+        item_index = {}
+        currency_index = {}
+
+        acquisitions = [
+            {
+                "type": "salvage",
+                "requirementName": "Some Item",
+                "requirements": [],
+                "metadata": {},
+            },
+        ]
+
+        result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
+
+        assert len(result) == 0
 
 
 def test_strict_mode_fails_on_unresolvable():

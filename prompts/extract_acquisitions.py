@@ -136,15 +136,19 @@ metadata: {
 }
 "guaranteed" means the item always drops from this container. \
 "choice" means the player can select this item from a list of options. \
-Both should not be true at the same time. If neither applies, set both to false.
+Both should not be true at the same time.
+
+IMPORTANT: Only include containers where the item is GUARANTEED or a CHOICE. \
+Do NOT include containers where the item is merely a chance drop (guaranteed=false, choice=false). \
+Random/chance containers are not useful for deterministic acquisition tracking.
 
 Example container acquisition:
 {
   "type": "container",
-  "requirementName": "Black Lion Chest",
+  "requirementName": "Chest of Legendary Armor",
   "outputQuantity": 1,
   "requirements": [],
-  "metadata": {"guaranteed": false, "choice": false}
+  "metadata": {"guaranteed": true, "choice": false}
 }
 
 ### salvage
@@ -154,6 +158,10 @@ requirements: none (source item is in requirementName field, not requirements ar
 metadata: {
   "guaranteed": true | false
 }
+
+IMPORTANT: Only include salvage sources where the item is GUARANTEED to drop. \
+Do NOT include salvage sources where the item is merely a chance/possible drop (guaranteed=false). \
+Random salvage results are not useful for deterministic acquisition tracking.
 
 ### wvw_reward
 WvW reward track completion.
@@ -221,18 +229,21 @@ Rate overallConfidence based on how well you understood the page:
 infer methods that aren't present.
 2. Use exact item and currency names as they appear on the wiki (in requirementName field).
 3. If an item is sold by multiple vendors, create a SEPARATE acquisition for each vendor.
-4. For recipes with random/RNG output counts, use outputQuantityMin and outputQuantityMax to \
-express the range. For non-deterministic drops (where you might get nothing), add "rng": true \
-to metadata.
+4. For recipes with variable output counts, use outputQuantityMin and outputQuantityMax to \
+express the range. Do NOT include recipes where the item is only a chance/random drop — \
+only include recipes that always produce this item (even if the quantity varies).
 5. For Mystic Forge recipes, always use type "mystic_forge" (not "crafting").
 6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
 1 silver = 100 copper).
 7. If no acquisition info is found, return {"acquisitions": [], "overallConfidence": 1.0}.
-8. Focus on DETERMINISTIC acquisition methods with specific named sources. Skip generic loot \
-sources where this item is one of many possible random drops, generic containers like \
-"Unidentified Gear" or "Chest of Exotic Equipment", and generic Mystic Forge recipes like \
-"combine 4 rare/exotic items". If a confidence would be below 0.8, reconsider whether it \
-is specific enough to include.
+8. Focus on DETERMINISTIC acquisition methods with specific named sources. Do NOT include any \
+acquisition where the item is only a CHANCE or RANDOM outcome. Specifically exclude:
+- Generic loot sources where this item is one of many possible random drops
+- Generic containers like "Unidentified Gear" or "Chest of Exotic Equipment"
+- Generic Mystic Forge recipes like "combine 4 rare/exotic items"
+- Mystic Forge recipes described as having a "rare chance", "possible output", "random result", \
+or similar probabilistic language — these are NOT deterministic and must be excluded
+- Any acquisition with confidence below 0.8 — do not include it at all
 
 IMPORTANT: Mystic Forge promotion recipes (upgrading material tiers, e.g., converting dust/ingots \
 to higher rarities) ARE deterministic — they always produce output, just in variable quantities. \
