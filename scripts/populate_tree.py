@@ -3,7 +3,7 @@ Recursively populate item acquisition data by traversing the crafting tree.
 
 Starting from a root item, populates that item's data, then discovers all
 referenced item IDs in its requirements and populates those recursively.
-Skips items that already have YAML files in data/items/.
+Skips items that already have YAML files in data/items/ (unless --force is used).
 
 Features:
 - Cycle/duplicate detection to avoid infinite loops
@@ -81,11 +81,12 @@ def populate_tree(
     limit: int | None = None,
     dry_run: bool = False,
     model: str | None = None,
+    force: bool = False,
 ) -> None:
     global _interrupted
     _interrupted = False
 
-    existing = _get_existing_item_ids()
+    existing = set[int]() if force else _get_existing_item_ids()
 
     queue: deque[int] = deque()
     seen: set[int] = set()
@@ -205,6 +206,11 @@ def main() -> None:
         help="Maximum number of new items to populate (default: unlimited)",
     )
     parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Re-populate all items in the tree, even if YAML files already exist",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Preview without writing files (NOTE: will not traverse children)",
@@ -245,7 +251,14 @@ def main() -> None:
         else:
             root_id = args.item_id
 
-        populate_tree(root_id, cache, limit=args.limit, dry_run=args.dry_run, model=args.model)
+        populate_tree(
+            root_id,
+            cache,
+            limit=args.limit,
+            dry_run=args.dry_run,
+            model=args.model,
+            force=args.force,
+        )
 
     except KeyboardInterrupt:
         terminal.warning("\nAborted.")
