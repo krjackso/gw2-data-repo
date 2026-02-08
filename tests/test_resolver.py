@@ -298,6 +298,43 @@ def test_lenient_mode_skips_unresolvable():
     assert result[1]["type"] == "crafting"
 
 
+class TestInvalidTypeFiltering:
+    def test_filters_invalid_type(self):
+        acquisitions = [
+            {"type": "dropped_by", "requirements": []},
+            {"type": "crafting", "requirements": []},
+        ]
+        result = resolver.resolve_requirements(acquisitions, {}, {})
+        assert len(result) == 1
+        assert result[0]["type"] == "crafting"
+
+    def test_filters_multiple_invalid_types(self):
+        acquisitions = [
+            {"type": "dropped_by", "requirements": []},
+            {"type": "gathered_from", "requirements": []},
+            {"type": "vendor", "vendorName": "Test", "requirements": []},
+        ]
+        result = resolver.resolve_requirements(acquisitions, {}, {})
+        assert len(result) == 1
+        assert result[0]["type"] == "vendor"
+
+    def test_all_valid_types_pass(self):
+        guaranteed_metadata = {"guaranteed": True, "choice": False}
+        for valid_type in resolver._VALID_TYPES:
+            acq: dict = {"type": valid_type, "requirements": []}
+            if valid_type in ("container", "salvage"):
+                acq["metadata"] = guaranteed_metadata
+            result = resolver.resolve_requirements(
+                acquisitions=[acq], item_name_index={}, currency_name_index={}
+            )
+            assert len(result) == 1, f"Valid type '{valid_type}' was incorrectly filtered"
+
+    def test_missing_type_filtered(self):
+        acquisitions = [{"requirements": []}]
+        result = resolver.resolve_requirements(acquisitions, {}, {})
+        assert len(result) == 0
+
+
 class TestIsChanceDrop:
     def test_container_guaranteed(self):
         acq = {"type": "container", "metadata": {"guaranteed": True, "choice": False}}

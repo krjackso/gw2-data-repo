@@ -5,6 +5,21 @@ from gw2_data.exceptions import APIError
 
 log = logging.getLogger(__name__)
 
+_VALID_TYPES: set[str] = {
+    "crafting",
+    "mystic_forge",
+    "vendor",
+    "achievement",
+    "map_reward",
+    "container",
+    "salvage",
+    "wvw_reward",
+    "pvp_reward",
+    "wizards_vault",
+    "story",
+    "other",
+}
+
 
 def _is_chance_drop(acq: dict) -> bool:
     acq_type = acq.get("type")
@@ -97,8 +112,14 @@ def resolve_requirements(
 ) -> list[dict]:
     resolved = []
     for acq in acquisitions:
+        acq_type = acq.get("type", "unknown")
+
+        if acq_type not in _VALID_TYPES:
+            log.warning("Excluding invalid acquisition type: %s", acq_type)
+            continue
+
         if acq.get("discontinued"):
-            log.info(f"Excluding discontinued {acq['type']} acquisition")
+            log.info(f"Excluding discontinued {acq_type} acquisition")
             continue
 
         if _is_chance_drop(acq):

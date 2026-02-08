@@ -49,7 +49,8 @@ def populate_item(
     print(f"Item: {item_name} (ID: {item_id})")
 
     wiki_html = wiki.get_page_html(item_name, cache=cache)
-    print(f"Wiki page: {len(wiki_html):,} chars")
+    wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
+    print(f"Wiki page: {len(wiki_html):,} chars — {wiki_url}")
 
     result = llm.extract_acquisitions(
         item_id, item_name, wiki_html, item_data, cache=cache, model=model
