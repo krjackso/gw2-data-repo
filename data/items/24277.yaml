@@ -8,10 +8,12 @@ vendorValue: 37
 flags:
 - NoSalvage
 wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Crystalline_Dust
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: mystic_forge
   outputQuantity: 6
+  outputQuantityMin: 6
+  outputQuantityMax: 40
   requirements:
   - itemId: 20796
     quantity: 5
@@ -23,18 +25,32 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 19721
+- type: container
+  itemId: 67217
+  containerName: Hylek Maintenance Kit
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67218
+  containerName: Krait Tuning Kit
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 66904
+  containerName: Last Good-Bye
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: false
-- type: map_reward
-  outputQuantity: 2
+  metadata: {}
+- type: container
+  itemId: 67220
+  containerName: Ogre Sharpening Kit
+  outputQuantity: 3
   requirements: []
-  metadata:
-    notes: Week 1 - Straits of Devastation; Week 2 - Malchor's Leap and Fireheart Rise; Week 3 - Straits of Devastation and Cursed Shore; Week 4 - Fireheart Rise and Frostgorge Sound; Week 5 - Mount Maelstrom and Cursed Shore; Week 6 - Frostgorge Sound; Week 7 - Mount Maelstrom and Malchor's Leap; Week 8 - Straits of Devastation
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Phoenix Rank Reward Track
   outputQuantity: 5
   requirements: []
+  metadata: {}

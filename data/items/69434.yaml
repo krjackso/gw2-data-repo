@@ -1,0 +1,138 @@
+id: 69434
+name: Bottle of Airship Oil
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/0ECB0DB23BF2E0F0FE2103044D5AB06748772CB8/1204962.png
+description: Used in crafting ascended and legendary gear.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Airship_Oil
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: 'Dragon''s Stand: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Verdant Brink: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104894
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104687
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 78617
+  containerName: 'Dragon''s Stand: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Wyvern Matriarch)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 11
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78171
+  containerName: 'Verdant Brink: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75365
+  containerName: Veteran Wyvern Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70694
+  containerName: Wyvern Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}

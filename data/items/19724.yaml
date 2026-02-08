@@ -30,5 +30,4 @@ acquisitions:
   itemId: 79423
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true

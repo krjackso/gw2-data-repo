@@ -45,14 +45,12 @@ acquisitions:
   containerName: 'Starter Kit: Bolt'
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  guaranteed: true
+  choice: false
 - type: container
   itemId: 90018
   containerName: 'Tournament of Legends: Precursor Choice Box'
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: false
-    choice: true
+  guaranteed: false
+  choice: true

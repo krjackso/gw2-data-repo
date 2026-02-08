@@ -10,48 +10,13 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Barbed_Thorn
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: map_reward
-  outputQuantity: 30
+- type: container
+  containerName: 'Verdant Brink: Commander''s Choice Chest'
+  outputQuantity: 5
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Auric Basin
-- type: map_reward
-  outputQuantity: 34
+  metadata: {}
+- type: container
+  containerName: 'Verdant Brink: Hero''s Choice Chest'
+  outputQuantity: 5
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Auric Basin
-    notes: Map Bonus Reward - Week 3, 6
-- type: map_reward
-  outputQuantity: 30
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Dragon's Stand
-- type: map_reward
-  outputQuantity: 30
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Tangled Depths
-- type: map_reward
-  outputQuantity: 34
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Tangled Depths
-    notes: Map Bonus Reward - Week 2, 5
-- type: map_reward
-  outputQuantity: 30
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Verdant Brink
-- type: map_reward
-  outputQuantity: 34
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Verdant Brink
-    notes: Map Bonus Reward - Week 1, 4
+  metadata: {}

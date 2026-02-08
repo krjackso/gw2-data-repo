@@ -26,21 +26,48 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
+- type: container
+  containerName: Black Lion Delivery Box (Season 3)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 63691
+  containerName: Master's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Orichalcum Ore (node)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Orichalcum Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Somnorite Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Somnorite Ore
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
 - type: map_reward
   outputQuantity: 40
   requirements: []
   metadata:
     rewardType: map_completion
-    regionName: Cursed Shore
-- type: map_reward
-  outputQuantity: 40
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-- type: map_reward
-  outputQuantity: 40
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
+    regionName: Cursed Shore, Malchor's Leap, or Frostgorge Sound

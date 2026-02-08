@@ -13,14 +13,20 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Quartz_Crystal
 lastUpdated: '2026-02-08'
 acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 43773
+    quantity: 25
+  metadata:
+    recipeType: crafting
 - type: achievement
   achievementName: Labyrinth Runner
   achievementCategory: Tangled Paths
   outputQuantity: 5
   requirements: []
   metadata:
-    repeatable: false
-    timeGated: false
+    notes: Complete 'Into the Labyrinth' instance within 20 minutes
 - type: achievement
   achievementName: Stormcaller Armsmaster
   achievementCategory: No Quarter
@@ -29,10 +35,3 @@ acquisitions:
   metadata:
     repeatable: false
     timeGated: false
-- type: other
-  outputQuantity: 1
-  requirements:
-  - itemId: 43773
-    quantity: 25
-  metadata:
-    notes: Transform 25 Quartz at a place of power. Time-gated daily.

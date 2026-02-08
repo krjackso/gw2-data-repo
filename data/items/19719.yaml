@@ -16,92 +16,22 @@ acquisitions:
   containerName: Beginner's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 39095
   containerName: Huntsman Starter Kit
   outputQuantity: 24
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 39098
   containerName: Leatherworker Starter Kit
   outputQuantity: 180
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 39099
   containerName: Tailor Starter Kit
   outputQuantity: 100
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 6270
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 6321
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21653
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21654
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21661
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21664
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21684
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21685
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 68448
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 79213
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 80681
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

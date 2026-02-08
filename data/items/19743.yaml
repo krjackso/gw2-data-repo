@@ -30,44 +30,37 @@ acquisitions:
   itemId: 21663
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21665
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21673
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21674
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22328
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22329
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 79138
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: map_reward
   outputQuantity: 60
   requirements: []

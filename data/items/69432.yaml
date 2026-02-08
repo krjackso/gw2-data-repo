@@ -1,0 +1,135 @@
+id: 69432
+name: Pile of Auric Dust
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/FDC53CC11B9AB85DB076EDB07AF3D274BF47BC3D/1204963.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Auric_Dust
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: 'Auric Basin: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Dragon''s Stand: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 78650
+  containerName: 'Auric Basin: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78617
+  containerName: 'Dragon''s Stand: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Veteran Saurian Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73350
+  containerName: Vinetooth Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}

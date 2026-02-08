@@ -25,58 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Blazeridge Steppes
-    notes: Week 7 Map Bonus Reward - 17 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Bloodtide Coast
-    notes: Week 8 Map Bonus Reward - 15 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Dredgehaunt Cliffs
-    notes: Week 6 Map Bonus Reward - 22 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Harathi Hinterlands
-    notes: Week 5 Map Bonus Reward - 13 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Iron Marches
-    notes: Week 2 Map Bonus Reward - 22 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Sparkfly Fen
-    notes: Week 3 Map Bonus Reward - 15 total available
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Timberline Falls
-    notes: Week 1 Map Bonus Reward - 22 total available
 - type: pvp_reward
   trackName: Jungle Bear Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 5th reward (30th of 40)
+  metadata: {}

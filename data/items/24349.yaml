@@ -25,44 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 19
-  requirements: []
-  metadata:
-    notes: Week 5 - 19 total
-- type: map_reward
-  outputQuantity: 24
-  requirements: []
-  metadata:
-    notes: Week 6 - 24 total
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    notes: Week 4 - 22 total (current week)
-- type: map_reward
-  outputQuantity: 20
-  requirements: []
-  metadata:
-    notes: Week 3 - 20 total
-- type: map_reward
-  outputQuantity: 12
-  requirements: []
-  metadata:
-    notes: Week 8 - 12 total
-- type: map_reward
-  outputQuantity: 25
-  requirements: []
-  metadata:
-    notes: Week 1 - 25 total
-- type: map_reward
-  outputQuantity: 11
-  requirements: []
-  metadata:
-    notes: Week 7 - 11 total
 - type: pvp_reward
   trackName: Jungle Tiger Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 5th reward (30th of 40)
+  metadata: {}

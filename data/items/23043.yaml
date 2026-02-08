@@ -20,7 +20,7 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 153600
+    quantity: 1536
   metadata: {}
 - type: vendor
   vendorName: Cin Fursarai
@@ -36,7 +36,7 @@ acquisitions:
   - currencyId: 2
     quantity: 5600
   metadata:
-    notes: Requires the achievement Putting Out Fires
+    notes: Requires the achievement Putting Out Fires.
 - type: vendor
   vendorName: King Reza
   outputQuantity: 1
@@ -58,7 +58,7 @@ acquisitions:
   - currencyId: 2
     quantity: 5600
   metadata:
-    notes: Requires the achievement Cutting Weeds
+    notes: Requires the achievement Cutting Weeds.
 - type: vendor
   vendorName: Noran
   outputQuantity: 1
@@ -73,7 +73,7 @@ acquisitions:
   - currencyId: 2
     quantity: 5600
   metadata:
-    notes: Requires the achievement Life in the Underworld
+    notes: Requires the achievement Life in the Underworld.
 - type: vendor
   vendorName: Priest Sazeer
   outputQuantity: 1
@@ -135,7 +135,7 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 80000
+    quantity: 800
   - currencyId: 25
     quantity: 10
   metadata: {}

@@ -20,6 +20,134 @@ acquisitions:
     quantity: 1
   metadata: {}
 - type: achievement
+  achievementName: League Slayer—2v2 Season Eight
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Five
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Four
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Nine
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season One
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Seven
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Ten
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—2v2 Season Three
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Eight
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Five
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Four
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Nine
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season One
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Ten
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Three
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—3v3 Season Two
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
   achievementName: League Slayer—Conquest
   achievementCategory: PvP Season
   outputQuantity: 25
@@ -28,9 +156,201 @@ acquisitions:
     repeatable: false
     timeGated: false
 - type: achievement
+  achievementName: League Slayer—Conquest Season Forty
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Forty-Five
+  achievementCategory: PvP Season
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Forty-Four
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Forty-One
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Forty-Two
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Eight
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Five
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Four
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Nine
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-One
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Seven
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Six
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Three
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Thirty-Two
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Eight
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Five
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Four
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Nine
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-One
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Seven
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Six
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Three
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: League Slayer—Conquest Season Twenty-Two
+  achievementCategory: Legacy PvP Seasons
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
   achievementName: PvP Rush Champion
   achievementCategory: Player vs. Player Rush
-  outputQuantity: 50
+  outputQuantity: 150
   requirements: []
   metadata:
     repeatable: false

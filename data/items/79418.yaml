@@ -21,7 +21,7 @@ acquisitions:
   - currencyId: 1
     quantity: 10000
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.
 - type: vendor
   vendorName: Miyani
   outputQuantity: 1
@@ -29,7 +29,7 @@ acquisitions:
   - itemId: 19676
     quantity: 1
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.
 - type: vendor
   vendorName: Mystic Forge Attendant
   outputQuantity: 1
@@ -37,7 +37,7 @@ acquisitions:
   - currencyId: 1
     quantity: 10000
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.
 - type: vendor
   vendorName: Mystic Forge Attendant
   outputQuantity: 1
@@ -45,7 +45,7 @@ acquisitions:
   - itemId: 19676
     quantity: 1
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.
 - type: vendor
   vendorName: Mystic Forge Keeper
   outputQuantity: 1
@@ -53,7 +53,7 @@ acquisitions:
   - currencyId: 1
     quantity: 10000
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.
 - type: vendor
   vendorName: Mystic Forge Keeper
   outputQuantity: 1
@@ -61,4 +61,4 @@ acquisitions:
   - itemId: 19676
     quantity: 1
   metadata:
-    notes: Requires the mastery Scholar of Secrets
+    notes: Requires the mastery Scholar of Secrets.

@@ -25,64 +25,13 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 17
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Blazeridge Steppes
-    notes: Week 8 map bonus reward
-- type: map_reward
-  outputQuantity: 17
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Bloodtide Coast
-    notes: Week 1 map bonus reward
-- type: map_reward
-  outputQuantity: 20
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Dredgehaunt Cliffs
-    notes: Week 7 map bonus reward
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Harathi Hinterlands
-    notes: Week 6 map bonus reward
-- type: map_reward
-  outputQuantity: 13
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Iron Marches
-    notes: Week 3 map bonus reward
-- type: map_reward
-  outputQuantity: 24
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Sparkfly Fen
-    notes: Week 4 map bonus reward
-- type: map_reward
-  outputQuantity: 24
-  requirements: []
-  metadata:
-    rewardType: region_completion
-    regionName: Timberline Falls
-    notes: Week 2 map bonus reward
 - type: pvp_reward
   trackName: Jungle Dolyak Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 2nd reward (27th of 40 total)
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Rabbit Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 2nd reward (27th of 40 total)
+  metadata: {}

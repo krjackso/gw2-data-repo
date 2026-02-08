@@ -1,0 +1,35 @@
+id: 84335
+name: Treasure Hunting Kit
+type: Gizmo
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D048B33A0266139B6A9C9ECA18C2BCADB91C9D34/1766401.png
+description: 'Double-click to activate a Scan special-action skill and a blue map
+  circle to help find Buried Treasure. Consumed upon interacting with Buried Treasure.
+
+  <c=@Flavor>Elonians and Tyrians both seek historic artifacts.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Treasure_Hunting_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Priory Historian Elisa
+  outputQuantity: 1
+  requirements:
+  - itemId: 83284
+    quantity: 1
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: container
+  itemId: 85279
+  containerName: Desert Explorer Kit
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

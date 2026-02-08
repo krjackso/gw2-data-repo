@@ -1,0 +1,640 @@
+id: 94163
+name: Prismaticite Crystal
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/9DDB1C7505A90302C2071E1A680C0057B900C62C/2351828.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Prismaticite_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 3
+  requirements:
+  - itemId: 94163
+    quantity: 3
+  - currencyId: 2
+    quantity: 70
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 5
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Icebrood Saga Material
+  outputQuantity: 5
+  requirements:
+  - itemId: 92069
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 3
+  requirements:
+  - itemId: 94163
+    quantity: 3
+  - currencyId: 2
+    quantity: 70
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 5
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 25
+  requirements:
+  - itemId: 94163
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Axe
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Dagger
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Focus
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Greatsword
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Hammer
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Longbow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Mace
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Pistol
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Rifle
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Scepter
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Shield
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Short
+      Bow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Staff
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Sword
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Torch
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 2
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Blade of Prophecy and the skin Dragon Slayer Warhorn
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Axe
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Dagger
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Focus
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Greatsword
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Hammer
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Longbow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Mace
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Pistol
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Rifle
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Scepter
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Shield
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Short Bow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Staff
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Sword
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Torch
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Crimson Dragon Slayer
+      Warhorn
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Axe
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Dagger
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Focus
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Greatsword
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Hammer
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Longbow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Mace
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Pistol
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Rifle
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Scepter
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Shield
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Short
+      Bow
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Staff
+- type: vendor
+  vendorName: Tactician Erlandson
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 60
+    quantity: 5
+  metadata:
+    notes: Requires the mastery Reins of Power and the skin Azure Dragon Slayer Sword
+- type: vendor
+  vendorName: Tyrn Ironmaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 60
+    quantity: 10
+  metadata:
+    notes: Requires the mastery Shining Champion. Limit 10 per day. Limit 50 per week.
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 60
+    quantity: 10
+  metadata:
+    notes: Requires the mastery Shining Champion. Limit 10 per day. Limit 50 per week.
+- type: achievement
+  achievementName: Daily Dragon Responder
+  achievementCategory: Daily Icebrood Saga
+  outputQuantity: 15
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dragon Fire Infuser
+  achievementCategory: Rare Collections
+  outputQuantity: 85
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dragon Ice Infuser
+  achievementCategory: Rare Collections
+  outputQuantity: 85
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dragon Slayer Arms Master
+  achievementCategory: Champions
+  outputQuantity: 27
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Forger of Draconic Fire
+  achievementCategory: Rare Collections
+  outputQuantity: 100
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Forger of Draconic Ice
+  achievementCategory: Rare Collections
+  outputQuantity: 100
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bronze Rank Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata:
+    notes: depending on Dragon Slayer mastery level and active Dragon Boons
+- type: container
+  containerName: Dragons' Hoard
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Gold Rank Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata:
+    notes: depending on Dragon Slayer mastery level and active Dragon Boons
+- type: container
+  containerName: Prismaticite
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Prismaticite
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Prismaticite
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Silver Rank Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata:
+    notes: depending on Dragon Slayer mastery level and active Dragon Boons

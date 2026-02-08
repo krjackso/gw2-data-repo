@@ -1,0 +1,24 @@
+id: 46508
+name: King Toad Z-2
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/6CE4AC53C0FC9F602ADF247460F77CFDCBA95E7E/631281.png
+description: Combine King Toad Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/King_Toad_Z-2
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: Super Adventure Box World 1-Zone2 (Tribulation Mode)
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward for completing Super Adventure Box Dark Woods (World 1-Zone2) in
+      Tribulation Mode

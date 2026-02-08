@@ -25,15 +25,6 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Available in Gendarran Fields (Week 1, 26 total), Lornar's Pass (Week 2,
-      16 total), Fields of Ruin (Week 3, 13 total), Snowden Drifts (Week 5, 15 total),
-      Diessa Plateau (Week 6, 20 total), Kessex Hills (Week 7, 18 total), Brisban
-      Wildlands (Week 8, 24 total). Currently Week 4 (no Small Scale available this
-      week).
 - type: pvp_reward
   trackName: Jungle Shark Rank Reward Track
   outputQuantity: 5

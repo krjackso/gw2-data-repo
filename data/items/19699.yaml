@@ -26,3 +26,21 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 63680
+  containerName: Novice's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Iron Ore
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Iron Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}

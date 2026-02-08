@@ -25,58 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 1 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 6 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Southsun Cove
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 7 bonus reward
 - type: pvp_reward
   trackName: Jungle Bear Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 8, 3rd reward (38th of 40)
+  metadata: {}

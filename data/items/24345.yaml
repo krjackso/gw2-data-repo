@@ -25,58 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 21
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Blazeridge Steppes
-    notes: Week 4 bonus reward (current)
-- type: map_reward
-  outputQuantity: 21
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Bloodtide Coast
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 21
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Dredgehaunt Cliffs
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 16
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Harathi Hinterlands
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 13
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Iron Marches
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Sparkfly Fen
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 16
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Timberline Falls
-    notes: Week 6 bonus reward
 - type: pvp_reward
   trackName: Jungle Deer Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 5th reward (30th of 40)
+  metadata: {}

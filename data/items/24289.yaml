@@ -25,58 +25,14 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 44
+- type: container
+  itemId: 67218
+  containerName: Krait Tuning Kit
+  outputQuantity: 1
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 6 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 1 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Southsun Cove
-    notes: Week 4 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 8 bonus reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Shark Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 8, 3rd reward (38th of 40)
+  metadata: {}

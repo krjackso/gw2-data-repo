@@ -25,17 +25,6 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Harathi Hinterlands, Dredgehaunt Cliffs, Blazeridge Steppes, Bloodtide
-      Coast, Timberline Falls, Iron Marches, Sparkfly Fen
-    notes: Weekly rotating map bonus reward (27 total in Harathi Hinterlands Week
-      1, 26 in Dredgehaunt Cliffs Week 2, 24 in Blazeridge Steppes Week 3, 17 in Bloodtide
-      Coast Week 4, 23 in Timberline Falls Week 5, 22 in Iron Marches Week 6, 21 in
-      Sparkfly Fen Week 7)
 - type: pvp_reward
   trackName: Jungle Wolf Rank Reward Track
   outputQuantity: 5

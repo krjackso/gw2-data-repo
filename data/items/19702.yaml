@@ -42,69 +42,19 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 21681
+- type: container
+  itemId: 63690
+  containerName: Journeyman's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Platinum Ore
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21682
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Platinum Vein
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21693
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21694
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41735
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41736
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43554
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43555
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45041
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45042
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 79079
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

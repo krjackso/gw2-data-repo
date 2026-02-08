@@ -1,0 +1,15 @@
+id: 46646
+name: Princess Miya's Tiara
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/DCF5DD1E4D0BBD027D08237CDCB00791A29DC33C/631436.png
+description: Combine Princess Miya's Wig, Dress, and Tiara with Mini Moto in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Princess_Miya's_Tiara
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -21,7 +21,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Only available during Super Adventure Festival
+    notes: During Super Adventure Festival
 - type: achievement
   achievementName: Dragon Slayer Arms Master
   achievementCategory: Champions
@@ -30,25 +30,112 @@ acquisitions:
   metadata:
     repeatable: false
     timeGated: false
-- type: achievement
-  achievementName: Dragon Slayer Arms Master
-  achievementCategory: Champions
-  outputQuantity: 2
+- type: container
+  itemId: 100193
+  containerName: 'Amnytas: Hero''s Choice Chest'
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
-- type: achievement
-  achievementName: Dragon Slayer Arms Master
-  achievementCategory: Champions
-  outputQuantity: 3
+  metadata: {}
+- type: container
+  containerName: 'Auric Basin: Hero''s Choice Chest'
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
-- type: pvp_reward
+  metadata: {}
+- type: container
+  itemId: 101748
+  containerName: 'Citadel of Zakiros: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101185
+  containerName: 'Convergence: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90958
+  containerName: 'Crystal Oasis: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83035
+  containerName: 'Domain of Vabbi: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97896
+  containerName: 'Dragon''s End: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78783
+  containerName: 'Dragon''s Stand: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97894
+  containerName: 'Echovald Wilds: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 91039
+  containerName: 'Elon Riverlands: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 99704
+  containerName: 'Gyala Delve: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101195
+  containerName: 'Inner Nayos: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97901
+  containerName: 'New Kaineng City: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97895
+  containerName: 'Seitung Province: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100547
+  containerName: 'Skywatch Archipelago: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Tangled Depths: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'The Desolation: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Verdant Brink: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
   trackName: Gift of Battle Item Reward Track
   outputQuantity: 1
   requirements: []
-  metadata:
-    notes: WvW only - Tier 5, 5th reward (25th of 40)
+  metadata: {}

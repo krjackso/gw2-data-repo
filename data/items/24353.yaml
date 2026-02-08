@@ -25,44 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 4 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 6 bonus reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 1 bonus reward
 - type: pvp_reward
   trackName: Jungle Wolf Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 4, 2nd reward, 17th of 40
+  metadata: {}

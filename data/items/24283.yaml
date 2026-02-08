@@ -25,64 +25,19 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 44
+- type: container
+  itemId: 67217
+  containerName: Hylek Maintenance Kit
+  outputQuantity: 1
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 6 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Southsun Cove
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 44
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 4 bonus reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Dolyak Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 8, 3rd reward, 38th of 40
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Rabbit Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 8, 3rd reward, 38th of 40
+  metadata: {}

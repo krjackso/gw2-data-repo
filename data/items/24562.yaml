@@ -24,3 +24,6 @@ acquisitions:
     quantity: 15
   metadata:
     recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 400

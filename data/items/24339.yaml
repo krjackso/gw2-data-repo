@@ -36,55 +36,16 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
+- type: container
+  containerName: Fractals of the Mists
   outputQuantity: 1
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 2 Map Bonus Reward - 5 total
-- type: map_reward
+  metadata: {}
+- type: container
+  containerName: Honor of the Waves (explorable)
   outputQuantity: 1
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 7 Map Bonus Reward - 7 total
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 4 Map Bonus Reward - 3 total
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 3 Map Bonus Reward - 6 total
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 6 Map Bonus Reward - 4 total
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Southsun Cove
-    notes: Week 1 Map Bonus Reward - 4 total
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 5 Map Bonus Reward - 6 total
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Dragon Rank Reward Track
   outputQuantity: 5

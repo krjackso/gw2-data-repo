@@ -1,0 +1,17 @@
+id: 71994
+name: Ball of Dark Energy
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/073D6BA90E2434B02CDEC736AEA252202FA0BA71/1200192.png
+description: Salvaged from ascended gear. Use Stabilizing Matrices to create Cubes
+  of Stabilized Dark Energy, used to build the legendary backpack Ad Infinitum.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ball_of_Dark_Energy
+lastUpdated: '2026-02-08'
+acquisitions: []

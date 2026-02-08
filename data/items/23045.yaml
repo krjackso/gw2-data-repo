@@ -28,3 +28,9 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 78586
+  containerName: Level-80 Boost Package
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

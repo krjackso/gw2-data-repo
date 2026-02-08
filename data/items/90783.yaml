@@ -34,7 +34,7 @@ acquisitions:
   metadata:
     limitType: daily
     limitAmount: 5
-    notes: Requires the achievement Putting Out Fires.
+    notes: Requires the achievement Putting Out Fires
 - type: vendor
   vendorName: Dragon Bash Merchant
   outputQuantity: 50
@@ -44,7 +44,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Dragon Bash.
+    notes: Requires the festival Dragon Bash
 - type: vendor
   vendorName: Humble Stone
   outputQuantity: 10
@@ -71,8 +71,39 @@ acquisitions:
     quantity: 2
   metadata: {}
 - type: achievement
-  achievementName: Return to War Eternal
+  achievementName: Return to Dragonfall
   achievementCategory: Return to War Eternal
+  outputQuantity: 250
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90187
+  containerName: Chest of the Mistborn Hero
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90468
+  containerName: Dragonfall Cache
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90468
+  containerName: Dragonfall Cache
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90193
+  containerName: Dragonfall Coffer
   outputQuantity: 1
   requirements: []
   metadata: {}
@@ -80,14 +111,28 @@ acquisitions:
   containerName: Mistborn Coffer
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
+- type: container
+  itemId: 92311
+  containerName: Season 4 Currency Box
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
 - type: resource_node
   nodeName: Mistborn Mote
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: resource_node
   nodeName: Mistborn Mote
   outputQuantity: 3

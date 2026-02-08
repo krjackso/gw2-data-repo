@@ -1,0 +1,23 @@
+id: 46506
+name: King Toad Z-1
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/0844635EDFBF68F1BA74EE1B6E097D935472E354/631279.png
+description: Combine King Toad Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/King_Toad_Z-1
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward for completing Super Adventure Box Sunny Glade World 1-Zone 1 in
+      Tribulation Mode

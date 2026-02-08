@@ -1,0 +1,74 @@
+id: 72205
+name: Chak Egg
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/4A58480BE6669B605E909F44EAE64896DB030CDD/62389.png
+description: Found on chak and in their caches. Can be traded in to Nuhoch vendors
+  for chak weapons.
+vendorValue: 198
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chak_Egg
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104884
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104884
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Supply Assistant
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 1
+  metadata:
+    limitAmount: 7
+    notes: Limit 7 per week.
+- type: vendor
+  vendorName: 'Tangled Depths: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104884
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104884
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 78332
+  containerName: 'Tangled Depths: Hero''s Choice Chest'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76610
+  containerName: Veteran Chak Cache
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Gerent's Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 10
+  requirements: []
+  metadata: {}

@@ -20,6 +20,5 @@ acquisitions:
   containerName: Selachimorpha Container
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  guaranteed: true
+  choice: false

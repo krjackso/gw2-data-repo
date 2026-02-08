@@ -36,35 +36,3 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 43555
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43556
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45042
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45043
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: 'Weekly rotating map bonus reward: Week 1 - Malchor''s Leap (5 total),
-      Week 2 - Frostgorge Sound (3 total), Week 3 - Straits of Devastation (3 total),
-      Week 4 - Mount Maelstrom (5 total), Week 5 - Fireheart Rise (2 total), Week
-      6 - none, Week 7 - Southsun Cove (6 total), Week 8 - Cursed Shore (2 total)'

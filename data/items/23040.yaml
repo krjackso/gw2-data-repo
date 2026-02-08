@@ -45,7 +45,7 @@ acquisitions:
     quantity: 77
   metadata: {}
 - type: vendor
-  vendorName: Master Craftsman
+  vendorName: Master craftsman
   outputQuantity: 1
   requirements:
   - currencyId: 1
@@ -145,7 +145,7 @@ acquisitions:
     quantity: 77
   metadata: {}
 - type: vendor
-  vendorName: Zephyrite Merchant
+  vendorName: Zephyrite merchants
   outputQuantity: 1
   requirements:
   - currencyId: 1

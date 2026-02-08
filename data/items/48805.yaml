@@ -26,5 +26,4 @@ acquisitions:
   requirements:
   - itemId: 36059
     quantity: 1000
-  metadata:
-    notes: Requires the festival Halloween
+  metadata: {}

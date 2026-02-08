@@ -30,3 +30,26 @@ acquisitions:
   - currencyId: 4
     quantity: 450
   metadata: {}
+- type: container
+  containerName: Achievement Chest
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 43762
+  containerName: Heavy Achievement Chest
+  outputQuantity: 15
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 43761
+  containerName: Large Achievement Chest
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 43763
+  containerName: Massive Achievement Chest
+  outputQuantity: 25
+  requirements: []
+  metadata: {}

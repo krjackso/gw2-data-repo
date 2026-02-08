@@ -26,3 +26,21 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 63677
+  containerName: Apprentice's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Gold Ore
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Gold Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}

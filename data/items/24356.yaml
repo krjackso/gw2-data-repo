@@ -25,6 +25,14 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 67980
+  containerName: The Master of Peace's Bequest
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  requirements: []
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Wolf Rank Reward Track
   outputQuantity: 5

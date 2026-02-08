@@ -42,3 +42,9 @@ acquisitions:
   - itemId: 45176
     quantity: 100
   metadata: {}
+- type: container
+  itemId: 63862
+  containerName: Ornate Watchwork Box
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,15 @@
+id: 38133
+name: Unique Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/74D6ABFA685AB25923B20100FBD6C5FD0CD55915/526243.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 18
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Unique_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

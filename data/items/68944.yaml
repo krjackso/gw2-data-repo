@@ -1,0 +1,101 @@
+id: 68944
+name: Auric Sliver
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/38C83A6073EADFF39E0FA0AE59C822A79DBEF6E1/1202990.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Sliver
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: 'Auric Basin: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Bulk Exchanges vendor at Outer Ring, The Wizard's Tower
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Dragon's Stand Exchanges vendor at Pact Base Camp, Dragon's Stand
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Bulk Exchanges
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Heart of Maguuma Exchanges
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Heart of Maguuma
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104944
+    quantity: 1
+  metadata:
+    notes: Horn of Maguuma/Bulk Exchanges
+- type: container
+  itemId: 75062
+  containerName: Arrowhead Cache
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78650
+  containerName: 'Auric Basin: Hero''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Mordrem Guard Cache
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Exalted Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73675
+  containerName: Luminate's Cache
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73350
+  containerName: Vinetooth Cache
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

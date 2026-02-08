@@ -11,69 +11,15 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Silver_Ore
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: salvage
-  itemId: 21679
+- type: resource_node
+  nodeName: Rich Silver Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Silver Ore
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21680
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21691
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21692
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41733
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41734
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43552
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43553
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43555
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45039
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45040
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

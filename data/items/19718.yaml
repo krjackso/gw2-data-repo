@@ -24,75 +24,64 @@ acquisitions:
   containerName: Armorsmith Starter Kit
   outputQuantity: 120
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
-- type: container
-  itemId: 39098
-  containerName: Leatherworker Starter Kit
-  outputQuantity: 120
-  requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
-- type: container
-  itemId: 39099
-  containerName: Tailor Starter Kit
-  outputQuantity: 200
-  requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  guaranteed: true
+  choice: false
 - type: container
   itemId: 63662
   containerName: Beginner's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  guaranteed: true
+  choice: false
+- type: container
+  itemId: 39098
+  containerName: Leatherworker Starter Kit
+  outputQuantity: 120
+  requirements: []
+  guaranteed: true
+  choice: false
+- type: container
+  itemId: 39099
+  containerName: Tailor Starter Kit
+  outputQuantity: 200
+  requirements: []
+  guaranteed: true
+  choice: false
 - type: salvage
   itemId: 21659
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21660
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21669
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21671
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22325
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22326
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 79138
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: map_reward
   outputQuantity: 45
   requirements: []

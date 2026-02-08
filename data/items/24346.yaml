@@ -10,44 +10,44 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Claw
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: map_reward
-  outputQuantity: 16
+- type: container
+  itemId: 39091
+  containerName: Armorsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 7 map bonus reward
-- type: map_reward
-  outputQuantity: 20
+  metadata: {}
+- type: container
+  itemId: 39092
+  containerName: Artificer Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 5 map bonus reward
-- type: map_reward
-  outputQuantity: 24
+  metadata: {}
+- type: container
+  itemId: 39095
+  containerName: Huntsman Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 2 map bonus reward
-- type: map_reward
-  outputQuantity: 21
+  metadata: {}
+- type: container
+  itemId: 39098
+  containerName: Leatherworker Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 8 map bonus reward
-- type: map_reward
-  outputQuantity: 25
+  metadata: {}
+- type: container
+  itemId: 39099
+  containerName: Tailor Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 6 map bonus reward
-- type: map_reward
-  outputQuantity: 21
+  metadata: {}
+- type: container
+  itemId: 39100
+  containerName: Weaponsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 1 map bonus reward
-- type: map_reward
-  outputQuantity: 23
-  requirements: []
-  metadata:
-    notes: Week 4 map bonus reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Tiger Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 2, 5th reward (10th of 40)
+  metadata: {}

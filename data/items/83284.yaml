@@ -1,0 +1,51 @@
+id: 83284
+name: Ley-Infused Sand
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/DFA737F4360575AFCF7BDD470B9DF3140EF45530/1767170.png
+description: 'Used in crafting rare Crystal Desert gear and components.
+
+  Also sought after by Priory Researcher Elisa.'
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ley-Infused_Sand
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 82735
+  containerName: Chest of the Bounty Hunter's Boots
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82355
+  containerName: Chest of the Bounty Hunter's Breeches
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83637
+  containerName: Chest of the Bounty Hunter's Coat
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84600
+  containerName: Chest of the Bounty Hunter's Helm
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82929
+  containerName: Chest of the Bounty Hunter's Pauldrons
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85624
+  containerName: Legendary Belongings of the Great Zehtuka
+  outputQuantity: 50
+  requirements: []
+  metadata: {}

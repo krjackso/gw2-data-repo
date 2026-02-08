@@ -25,48 +25,22 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
+- type: container
+  itemId: 66904
+  containerName: Last Good-Bye
   outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 10
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 3, 5 bonus reward
-- type: map_reward
-  outputQuantity: 2
+  metadata: {}
+- type: container
+  itemId: 67789
+  containerName: Ogden's Gratitude
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 2, 4 bonus reward
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 4, 6 bonus reward
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 2, 7 bonus reward
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 5, 7 bonus reward
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 1, 3, 8 bonus reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Phoenix Rank Reward Track
   outputQuantity: 5

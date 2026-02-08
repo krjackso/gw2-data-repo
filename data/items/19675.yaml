@@ -56,6 +56,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 5
+    notes: does not require Spirit Shard
 - type: vendor
   vendorName: League Vendor
   outputQuantity: 1
@@ -71,6 +72,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 5
+    notes: combined limit with Emblem of Tournament Victory option
 - type: vendor
   vendorName: League Vendor
   outputQuantity: 1
@@ -86,6 +88,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 5
+    notes: combined limit with PvP League Ticket option
 - type: vendor
   vendorName: Lyhr
   outputQuantity: 1
@@ -129,6 +132,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 10
+    notes: combined weekly limit with Mystic Forge Attendants
 - type: vendor
   vendorName: Mystic Forge Attendant
   outputQuantity: 1
@@ -144,6 +148,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 10
+    notes: combined weekly limit with Miyani
 - type: vendor
   vendorName: Mystic Forge Keeper
   outputQuantity: 1
@@ -200,7 +205,7 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Bastion of the Penitent)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -215,7 +220,7 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Hall of Chains)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -230,7 +235,7 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Mount Balrior)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -245,7 +250,7 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Mythwright Gambit)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -260,7 +265,7 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Salvation Pass)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -275,7 +280,37 @@ acquisitions:
     limitType: weekly
     limitAmount: 10
 - type: vendor
-  vendorName: Scholar Glenna
+  vendorName: Scholar Glenna (Spirit Vale)
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Scholar Glenna (Stronghold of the Faithful)
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Scholar Glenna (The Key of Ahdashim)
   outputQuantity: 1
   requirements:
   - itemId: 19721
@@ -337,517 +372,756 @@ acquisitions:
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Amnytas Gear Box
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 65404
   containerName: Ascalon Weapon Skins Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93574
   containerName: Ash Legion Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 74214
   containerName: Auric Weapon Crate
   outputQuantity: 7
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 65640
   containerName: Balthazar Backpack Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 79911
   containerName: Bitterfrost Frontier Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Bladed Glove Box
   outputQuantity: 7
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93485
   containerName: Blood Legion Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 79193
   containerName: Bloodstone Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 103799
   containerName: Box of Purified Rift Essence Components
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Canthan Armor Box
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Canthan Armor Box
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 90096
   containerName: Carapace Armor Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Castoran Gear Box
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Castoran Gear Box
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 75314
   containerName: Chak Gerent Cache
   outputQuantity: 7
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93494
   containerName: Charr Legions Backpack Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 68352
   containerName: Chest of Legendary Crafting Materials
   outputQuantity: 7
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Desert Armor Box
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Desert Armor Box
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 93870
   containerName: Dominion Spoils Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 81126
   containerName: Draconis Mons Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 90468
   containerName: Dragonfall Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Dragonjade-Tier Reward Package
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Dragonjade-Tier Reward Package
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 93560
   containerName: Drizzlewood Coast Supply Drop
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 104545
   containerName: Dungeon Armor Container
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 79607
   containerName: Ember Bay Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93543
   containerName: Flame Legion Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93794
   containerName: Frost Legion Spoils Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Glorious Armor Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 92040
   containerName: Grand Icebrood Saga Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 92080
   containerName: Grothmar Legionnaire Banner Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 91895
   containerName: Grothmar Legionnaire Weapons Cache
   outputQuantity: 5
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 77160
   containerName: Grymm Mini Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 71829
   containerName: Grymm Svaard Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 78961
   containerName: Hero Weapon Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 93508
   containerName: Iron Legion Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 86132
   containerName: Istan Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 88594
   containerName: Jahai Bluffs Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Janthir Wilds Gear Box
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Janthir Wilds Gear Box
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 92342
   containerName: Jora's Weapons Cache
   outputQuantity: 5
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 70778
   containerName: Jungle Bear Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 73424
   containerName: Jungle Deer Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 74904
   containerName: Jungle Dolyak Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 73076
   containerName: Jungle Dragon Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 71966
   containerName: Jungle Phoenix Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 77044
   containerName: Jungle Rabbit Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 74658
   containerName: Jungle Shark Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 77014
   containerName: Jungle Tiger Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 76057
   containerName: Jungle Wolf Finisher Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 87886
   containerName: Kournan Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 65312
   containerName: Kryta Weapon Skins Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 80097
   containerName: Lake Doric Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 79004
   containerName: Legacy Armor Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Long-Lost Tahkayun's Weapon Bag
   outputQuantity: 2
   requirements: []
   metadata:
-    guaranteed: true
+    notes: repeatable version
 - type: container
   containerName: Long-Lost Tahkayun's Weapon Bag
   outputQuantity: 7
   requirements: []
   metadata:
-    guaranteed: true
+    notes: unrepeatable version
 - type: container
   itemId: 77772
   containerName: Mini Tybalt Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 74365
   containerName: Mordremoth Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 73014
   containerName: Nika Mini Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 70067
   containerName: Nika Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 67084
   containerName: Pristine Sand-Carved Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 92376
   containerName: Raven's Gift
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 65268
   containerName: Ruins of Orr Weapon Skins Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 87247
   containerName: Sandswept Isles Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 65453
   containerName: Shiverpeak Mountains Weapon Skins Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 81614
   containerName: Siren's Landing Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 65367
   containerName: Tarnished Coast Weapon Skins Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 89913
   containerName: Thunderhead Peaks Cache
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 78494
   containerName: Triumphant Armor Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 89972
   containerName: Turai Ossa Mini Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 77696
   containerName: Tybalt Reward Box
   outputQuantity: 2
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   itemId: 68029
   containerName: Warclaw Armor Box
   outputQuantity: 7
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
+- type: wvw_reward
+  trackName: Ascalon Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Auric Basin Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bitterfrost Frontier Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bjora Marches Reward Track
+  outputQuantity: 11
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bloodstone Fen Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bonus Mist Champion—Grymm Svaard Miniature Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bonus Mist Champion—Nika Miniature Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bonus Mist Champion—Turai Ossa Mini Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bonus Mist Champion—Tybalt Miniature Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Canthan Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Crystal Desert Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Domain of Istan Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Domain of Kourna Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Draconis Mons Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Dragonfall Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Drizzlewood Coast Reward Track
+  outputQuantity: 14
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ember Bay Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: End of Dragons Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
 - type: wvw_reward
   trackName: Gift of Battle Item Reward Track
   outputQuantity: 2
   requirements: []
   metadata: {}
 - type: wvw_reward
+  trackName: Glorious Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Grothmar Valley Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}
+- type: wvw_reward
   trackName: Guildrider Warclaw Skin Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Heart of Maguuma Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Hero Weapon Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Icebrood Saga Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jahai Bluffs Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Janthir Wilds Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Bear Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Deer Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Dolyak Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Phoenix Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Rabbit Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Shark Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jungle Wolf Rank Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Kryta Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Lake Doric Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Legacy Armor Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Long-Lost Tahkayun Weapons Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Maguuma Jungle Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Maguuma Wastes Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Mist Champion—Grymm Svaard Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Mist Champion—Nika Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Mist Champion—Tybalt Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Regions of Tyria Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ruins of Orr Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Sandswept Isles Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Secrets of the Obscure Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Shiver Emote Tome Reward Track
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Shiverpeak Mountains Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Silverwastes Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Siren's Landing Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Tangled Depths Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Thunderhead Peaks Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Triumphant Armor Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Tyrian Dungeon Explorer Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Verdant Brink Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Visions of Eternity Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Warclaw Reward Track
+  outputQuantity: 7
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Xunlai Customer Loyalty Perks Program
   outputQuantity: 7
   requirements: []
   metadata: {}

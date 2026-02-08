@@ -1,0 +1,23 @@
+id: 46509
+name: King Toad Z-3
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/6CDBF115DD29B3C26BAFB90121A11E27CC953B19/631282.png
+description: Combine King Toad Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/King_Toad_Z-3
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Chest reward for completing Super Adventure Box World 1-Zone3 in Tribulation
+      Mode

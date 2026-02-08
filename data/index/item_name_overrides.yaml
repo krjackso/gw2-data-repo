@@ -359,7 +359,6 @@ Magic-Warped Bundle: 79186
 # Pick the newer one
 Box of Super Adventure Box Goods: 80862
 Ornate Watchwork Box: 63862
-'Dragon''s Stand: Hero''s Choice Chest': 78783
 Bone: 24344
 
 # Actual material (46742) vs. container (103867)
@@ -372,3 +371,40 @@ Sesame Seed: 12342
 Mint Leaf: 12536
 Clove: 12534
 Black Peppercorn: 12236
+
+# Pick the one the wiki says
+Veteran Vined Cache: 75678
+Chak Crown Cache: 71648
+Wyvern Cache: 70694
+Chak Egg: 72205
+
+# ============================================================================
+# Map Reward Chests - Container type preferred over Gizmo type
+# These items have two variants in the API: Container (used for acquisition
+# tracking) and Gizmo (used for UI display). We always pick the Container type.
+# ============================================================================
+
+'Amnytas: Commander''s Choice Chest': 104730
+'Auric Basin: Commander''s Choice Chest': 104944
+'Auric Basin: Hero''s Choice Chest': 78650
+'Citadel of Zakiros: Commander''s Choice Chest': 104783
+'Convergence: Outer Nayos: Commander''s Choice Chest': 104710
+'Crystal Oasis: Commander''s Choice Chest': 104798
+'Domain of Vabbi: Commander''s Choice Chest': 104803
+'Dragon''s End: Commander''s Choice Chest': 104910
+'Dragon''s Stand: Commander''s Choice Chest': 104894
+'Dragon''s Stand: Hero''s Choice Chest': 78617
+'Echovald Wilds: Commander''s Choice Chest': 104885
+'Elon Riverlands: Commander''s Choice Chest': 104943
+'Gyala Delve: Commander''s Choice Chest': 104738
+'Inner Nayos: Commander''s Choice Chest': 104929
+'Janthir Syntri: Commander''s Choice Chest': 104832
+'New Kaineng City: Commander''s Choice Chest': 104988
+'Seitung Province: Commander''s Choice Chest': 104973
+'Skywatch Archipelago: Commander''s Choice Chest': 104686
+'Tangled Depths: Commander''s Choice Chest': 104884
+'Tangled Depths: Hero''s Choice Chest': 78332
+'The Desolation: Commander''s Choice Chest': 104748
+'Verdant Brink: Commander''s Choice Chest': 104687
+'Verdant Brink: Hero''s Choice Chest': 78171
+

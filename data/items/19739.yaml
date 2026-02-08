@@ -31,51 +31,43 @@ acquisitions:
   containerName: Novice's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  guaranteed: true
+  choice: false
 - type: salvage
   itemId: 21660
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21662
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21671
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 21672
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22326
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 22327
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: salvage
   itemId: 79138
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  guaranteed: true
 - type: map_reward
   outputQuantity: 75
   requirements: []

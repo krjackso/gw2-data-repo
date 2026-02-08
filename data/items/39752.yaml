@@ -14,4 +14,430 @@ flags:
 - AccountBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Bauble
 lastUpdated: '2026-02-08'
-acquisitions: []
+acquisitions:
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 5
+  requirements:
+  - itemId: 46644
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 5
+  requirements:
+  - itemId: 46645
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 5
+  requirements:
+  - itemId: 46646
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 10
+  requirements:
+  - itemId: 41824
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46506
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46508
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46509
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46507
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46510
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 16
+  requirements:
+  - itemId: 46511
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 250
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Academic Probation
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Adventuring 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Color Guard
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dean of Students
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Environmental Science 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Interior Design 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Locksmithing 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mineral Resource Extraction 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 101
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 102
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 103
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 201
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 202
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ooze Transportation 203
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Race to the Skies
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Study Aids
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Study Group
+  achievementCategory: Daily Super Adventure Festival
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 1 Bauble
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 10 Bauble
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 20 Bauble
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 5 Bauble
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 50 Bauble
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80962
+  containerName: Banana Loot Box
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bauble (node)
+  outputQuantity: 8
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80936
+  containerName: Bee Dog Loot Box
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80862
+  containerName: Box of Super Adventure Box Goods
+  outputQuantity: 8
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80938
+  containerName: King Toad Loot Box
+  outputQuantity: 8
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80882
+  containerName: Monkey Loot Box
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80875
+  containerName: Storm Wizard Loot Box
+  outputQuantity: 16
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90090
+  containerName: 'Super Adventure Bonus: Bronze'
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90106
+  containerName: 'Super Adventure Bonus: Gold'
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    notes: as three drops of 5
+- type: container
+  itemId: 90110
+  containerName: 'Super Adventure Bonus: Silver'
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: as two drops of 5
+- type: container
+  containerName: Super Weapon Box
+  outputQuantity: 32
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80914
+  containerName: Yeti Loot Box
+  outputQuantity: 4
+  requirements: []
+  metadata: {}

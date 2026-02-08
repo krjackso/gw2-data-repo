@@ -39,15 +39,7 @@ acquisitions:
 - type: achievement
   achievementName: Stormcaller Armsmaster
   achievementCategory: No Quarter
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
-- type: achievement
-  achievementName: Stormcaller Armsmaster
-  achievementCategory: No Quarter
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
   metadata:
     repeatable: false
@@ -57,53 +49,4 @@ acquisitions:
   containerName: Bag of Lodestones
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
-- type: salvage
-  itemId: 43556
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45043
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
-  outputQuantity: 8
-  requirements: []
-  metadata:
-    notes: Week 8 bonus reward (8 total)
-- type: map_reward
-  outputQuantity: 8
-  requirements: []
-  metadata:
-    notes: Week 5 bonus reward (8 total)
-- type: map_reward
-  outputQuantity: 7
-  requirements: []
-  metadata:
-    notes: Week 2 bonus reward (7 total)
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: Week 1 bonus reward (5 total)
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: Week 4 bonus reward (5 total) - Currently active
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 7 bonus reward (4 total)
-- type: map_reward
-  outputQuantity: 7
-  requirements: []
-  metadata:
-    notes: Week 3 bonus reward (7 total)
+  metadata: {}

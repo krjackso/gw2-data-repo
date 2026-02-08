@@ -1,0 +1,127 @@
+id: 86601
+name: Snowflake
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/F3023510F5EDEC640CA619BF3A74C3240BCFD129/1914828.png
+description: Used to craft Wintersday items and purchase rewards from Wintersday vendors
+  in Divinity's Reach.
+vendorValue: 25
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Snowflake
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 1
+  requirements:
+  - itemId: 38130
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 1
+  requirements:
+  - itemId: 38131
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 3
+  requirements:
+  - itemId: 38132
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 5
+  requirements:
+  - itemId: 38133
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 7
+  requirements:
+  - itemId: 38134
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 10
+  requirements:
+  - itemId: 38135
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday
+- type: container
+  itemId: 99293
+  containerName: Jolly Wintersday Gift
+  outputQuantity: 25
+  outputQuantityMin: 25
+  outputQuantityMax: 30
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Personalized Wintersday Gift
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92558
+  containerName: Snowflake Gobbler Pack
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 86710
+  containerName: The Evon Gnashblade Wintersday Gift
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 10
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: By converting via double clicking
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Using Frostbitten gathering tools will generate them when used

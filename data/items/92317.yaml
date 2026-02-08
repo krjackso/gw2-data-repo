@@ -1,0 +1,94 @@
+id: 92317
+name: Eitrite Ingot
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C6C44ED5740BBEBA332DBC5A3558930A6A765611/2220625.png
+description: Used for crafting Restored Boreal weapons.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Eitrite_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 2
+  - itemId: 24320
+    quantity: 1
+  - itemId: 24340
+    quantity: 1
+  - itemId: 92272
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 400
+- type: vendor
+  vendorName: Wintersday Trader
+  outputQuantity: 5
+  requirements:
+  - itemId: 86627
+    quantity: 1
+  metadata:
+    notes: Requires the festival Wintersday. Limit 1 per week.
+- type: achievement
+  achievementName: Ancient Weaponeer
+  achievementCategory: Whisper in the Dark
+  outputQuantity: 19
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Illuminated Boreal Weapons
+  achievementCategory: Rare Collections
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: The Hunger
+  achievementCategory: Whisper in the Dark
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 92342
+  containerName: Jora's Weapons Cache
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Large Chest of Resilience'
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Medium Chest of Resilience'
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Small Chest of Resilience'
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Salvaging Restored Boreal weapons yields 1-2 Eitrite Ingots

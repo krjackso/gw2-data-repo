@@ -26,3 +26,45 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 63713
+  containerName: Adept's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 4
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: This is a tree!
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Mithril Ore
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Mithril Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Vesperite Vein
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Vesperite Ore
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

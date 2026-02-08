@@ -19,14 +19,10 @@ acquisitions:
   containerName: Box of Super Adventure Box Goods
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}
 - type: container
   itemId: 78039
   containerName: Super Adventure Weapon Box
-  outputQuantity: 1
+  outputQuantity: 8
   requirements: []
-  metadata:
-    guaranteed: false
-    choice: true
+  metadata: {}

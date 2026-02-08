@@ -27,11 +27,19 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 500
 - type: achievement
   achievementName: Migraine
   achievementCategory: 'Heart of Thorns: Act 4'
   outputQuantity: 1
   requirements: []
   metadata:
-    repeatable: false
-    timeGated: false
+    notes: Complete the mission while Challenge Mode is active. (Challenge Mode is
+      intended for parties of 5.)

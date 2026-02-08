@@ -1,0 +1,160 @@
+id: 87645
+name: Inscribed Shard
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F5D7B94E53F8B380497CADDE2A562222B30EB793/1998867.png
+description: Can be traded with vendors in the Domain of Kourna or consumed for volatile
+  magic.
+vendorValue: 128
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Inscribed_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 50
+  requirements:
+  - itemId: 43320
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Dragon Bash. Limit 1 per week.
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Traveling Elonian Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 20
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Limit 5 per day.
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 2
+  metadata: {}
+- type: achievement
+  achievementName: Return to the Domain of Kourna
+  achievementCategory: Return to Long Live the Lich
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: container
+  containerName: Awakened Chest (Gandara)
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box (Season 4)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bundle of Inscribed Shards
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87935
+  containerName: Chest of the Kournan Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87886
+  containerName: Kournan Cache
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Kournan Chest
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Found throughout Domain of Kourna
+- type: container
+  containerName: Kournan Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: From End the plague experiments
+- type: container
+  itemId: 87950
+  containerName: Kournan Coffer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Kournan Supply Cache
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Kournan Supply Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: In home instances
+- type: container
+  itemId: 92311
+  containerName: Season 4 Currency Box
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest (Raid)
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Domain of Kourna Reward Track
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    notes: From Kournan Cache in reward track

@@ -20,6 +20,4 @@ acquisitions:
   containerName: Chest of Illumination
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}

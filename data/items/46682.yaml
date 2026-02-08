@@ -1,0 +1,282 @@
+id: 46682
+name: Crystalline Ore
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/1BE52D559C4196100120ADF3E91AC0CC08F4FEF2/631469.png
+description: Refine into crystalline ingots.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystalline_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 76254
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 76254
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 76254
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: achievement
+  achievementName: Air Superiority
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dream Warrior
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Flights of Fancy
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Line of Fire
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Untethered
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74365
+  containerName: Mordremoth Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75678
+  containerName: Veteran Vined Cache
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72715
+  containerName: Victor's Cache
+  outputQuantity: 15
+  requirements: []
+  metadata: {}

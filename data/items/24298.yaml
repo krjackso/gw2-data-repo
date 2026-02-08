@@ -25,44 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 27
-  requirements: []
-  metadata:
-    notes: Week 7 - 27 total
-- type: map_reward
-  outputQuantity: 15
-  requirements: []
-  metadata:
-    notes: Week 8 - 15 total
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    notes: Week 6 - 22 total
-- type: map_reward
-  outputQuantity: 17
-  requirements: []
-  metadata:
-    notes: Week 5 - 17 total
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    notes: Week 2 - 22 total
-- type: map_reward
-  outputQuantity: 15
-  requirements: []
-  metadata:
-    notes: Week 3 - 15 total
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    notes: Week 1 - 22 total
 - type: pvp_reward
   trackName: Jungle Bear Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 2nd reward, 27th of 40
+  metadata: {}

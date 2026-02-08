@@ -1,0 +1,34 @@
+id: 73248
+name: Stabilizing Matrix
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/1995007E91F8EE320FBA5805AEF27EECCF9CD3A0/1200208.png
+description: Found in Chests of the Mists and salvaged from ascended rings. Used to
+  stabilize dark energy for the safe construction of items. Can also be traded for
+  Fractal Encryptions.
+vendorValue: 1000
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Stabilizing_Matrix
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 76466
+  containerName: 'Proof: Finite Result'
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72116
+  containerName: 'Proof: Unbound'
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73527
+  containerName: 'Proof: Upper Bound'
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

@@ -42,8 +42,15 @@ acquisitions:
   - itemId: 45177
     quantity: 100
   metadata: {}
-- type: achievement
-  achievementName: Shing Jea Fishing Tournament
+- type: container
+  itemId: 67229
+  containerName: Grawl Supply Sack
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 63847
+  containerName: Liberator of Lion's Arch Chest
   outputQuantity: 1
   requirements: []
   metadata: {}

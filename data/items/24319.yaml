@@ -22,7 +22,7 @@ acquisitions:
   - itemId: 24318
     quantity: 2
   metadata:
-    recipeType: mystic_forge
+    recipeType: Promotion
 - type: mystic_forge
   outputQuantity: 2
   requirements:
@@ -35,65 +35,4 @@ acquisitions:
   - itemId: 39125
     quantity: 1
   metadata:
-    recipeType: mystic_forge
-- type: salvage
-  itemId: 41736
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41737
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Map Bonus Reward - Week 7
-- type: map_reward
-  outputQuantity: 6
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Map Bonus Reward - Week 4
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Map Bonus Reward - Week 1
-- type: map_reward
-  outputQuantity: 6
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Map Bonus Reward - Week 8
-- type: map_reward
-  outputQuantity: 7
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Map Bonus Reward - Week 3
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Southsun Cove
-    notes: Map Bonus Reward - Week 6
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Map Bonus Reward - Week 2
+    recipeType: Promotion

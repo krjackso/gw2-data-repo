@@ -26,75 +26,9 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 21658
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21689
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 22331
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 79213
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 80681
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
+- type: container
+  itemId: 63691
+  containerName: Master's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore
-    notes: Week 6
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Fireheart Rise
-    notes: Week 5
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Frostgorge Sound
-    notes: Week 7
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Malchor's Leap
-    notes: Week 3
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Mount Maelstrom
-    notes: Week 1 and Week 8
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Straits of Devastation
-    notes: Week 4
+  metadata: {}

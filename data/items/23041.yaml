@@ -16,6 +16,13 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Fine_Salvage_Kit
 lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
+  vendorName: Any merchant or Master craftsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 288
+  metadata: {}
+- type: vendor
   vendorName: Armis Slapsharp
   outputQuantity: 1
   requirements:
@@ -71,20 +78,6 @@ acquisitions:
   requirements:
   - currencyId: 2
     quantity: 252
-  metadata: {}
-- type: vendor
-  vendorName: Master craftsman
-  outputQuantity: 1
-  requirements:
-  - currencyId: 1
-    quantity: 28800
-  metadata: {}
-- type: vendor
-  vendorName: Merchant
-  outputQuantity: 1
-  requirements:
-  - currencyId: 1
-    quantity: 28800
   metadata: {}
 - type: vendor
   vendorName: Merchant
@@ -194,16 +187,16 @@ acquisitions:
     quantity: 252
   metadata: {}
 - type: vendor
-  vendorName: Zephyrite merchant
+  vendorName: Zephyrite merchants
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 14400
+    quantity: 144
   - currencyId: 25
     quantity: 6
   metadata: {}
-- type: achievement
-  achievementName: Level rewards
+- type: other
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata:
+    notes: Upon reaching level 44

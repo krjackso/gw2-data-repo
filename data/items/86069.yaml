@@ -1,0 +1,177 @@
+id: 86069
+name: Kralkatite Ore
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/380A7E3B250B050C2C39B1106CA39AED65C8396B/1894933.png
+description: Can be traded with vendors in the Domain of Istan, used for crafting,
+  or consumed for Volatile Magic.
+vendorValue: 128
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Kralkatite_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 25
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Archivist Salwa
+  outputQuantity: 25
+  requirements:
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 50
+  requirements:
+  - itemId: 43320
+    quantity: 1
+  metadata:
+    notes: Requires the festival Dragon Bash. Limit 1 per week.
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 25
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 25
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Priest Sazeer
+  outputQuantity: 25
+  requirements:
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Shipmate Hadhi
+  outputQuantity: 25
+  requirements:
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Traveling Elonian Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 4
+  metadata:
+    notes: Limit 5 per day.
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 2
+  requirements:
+  - currencyId: 28
+    quantity: 3
+  metadata: {}
+- type: achievement
+  achievementName: Bookworm
+  achievementCategory: Daybreak
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Brandstone Research
+  achievementCategory: Daybreak
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Return to the Domain of Istan
+  achievementCategory: Return to Daybreak
+  outputQuantity: 250
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: That Belongs in a Museum
+  achievementCategory: Daybreak
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 7
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bundle of Kralkatite
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 86293
+  containerName: Chest of the Istani Hero
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Istani Chest
+  outputQuantity: 15
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85747
+  containerName: Istani Strongbox
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 86351
+  containerName: Sack of Kralkatite Ore
+  outputQuantity: 250
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92311
+  containerName: Season 4 Currency Box
+  outputQuantity: 25
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 12
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    notes: Raid version
+- type: container
+  containerName: Sunspear Cache
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Brandstone
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}

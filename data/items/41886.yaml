@@ -61,6 +61,254 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 128
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 1
+  - itemId: 41886
+    quantity: 1
+  - currencyId: 1
+    quantity: 256
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 20
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 50000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 32
+  - itemId: 41886
+    quantity: 32
+  - currencyId: 1
+    quantity: 640000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 32
+  - itemId: 41886
+    quantity: 32
+  - currencyId: 1
+    quantity: 640000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  - currencyId: 1
+    quantity: 48
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  - currencyId: 1
+    quantity: 2400
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 64
+  - currencyId: 1
+    quantity: 50000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 8
+  - currencyId: 1
+    quantity: 50000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 50000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 8
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 3
+  - currencyId: 1
+    quantity: 64
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 25
+  - currencyId: 1
+    quantity: 5000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 6
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  - currencyId: 1
+    quantity: 288
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
   outputQuantity: 250
   requirements:
   - itemId: 41886
@@ -80,7 +328,277 @@ acquisitions:
   - itemId: 41886
     quantity: 16
   - currencyId: 1
-    quantity: 200000
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 257
+  - currencyId: 1
+    quantity: 100000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 35
+  - currencyId: 1
+    quantity: 10000
   metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
@@ -125,7 +643,7 @@ acquisitions:
   - itemId: 41886
     quantity: 16
   - currencyId: 1
-    quantity: 800000
+    quantity: 80000
   metadata:
     limitType: weekly
     limitAmount: 1
@@ -136,7 +654,7 @@ acquisitions:
   - itemId: 41886
     quantity: 16
   - currencyId: 1
-    quantity: 800000
+    quantity: 80000
   metadata:
     limitType: weekly
     limitAmount: 1
@@ -165,7 +683,7 @@ acquisitions:
   - itemId: 41886
     quantity: 64
   - currencyId: 1
-    quantity: 500000
+    quantity: 50000
   metadata: {}
 - type: achievement
   achievementName: (Annual) Flight of the Bumble Pugs
@@ -173,7 +691,7 @@ acquisitions:
   outputQuantity: 2
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 1 Challenge
@@ -181,7 +699,7 @@ acquisitions:
   outputQuantity: 3
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 1 Classic
@@ -189,7 +707,7 @@ acquisitions:
   outputQuantity: 2
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 1 Warm-Up
@@ -197,7 +715,7 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 2 Challenge
@@ -205,7 +723,7 @@ acquisitions:
   outputQuantity: 3
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 2 Classic
@@ -213,7 +731,7 @@ acquisitions:
   outputQuantity: 2
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 2 Warm-Up
@@ -221,7 +739,7 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) World 3 Testing
@@ -229,7 +747,7 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: (Annual) Zone Runner
@@ -237,7 +755,7 @@ acquisitions:
   outputQuantity: 3
   requirements: []
   metadata:
-    repeatable: true
+    repeatable: false
     timeGated: true
 - type: achievement
   achievementName: Catch and Release
@@ -264,13 +782,13 @@ acquisitions:
   requirements: []
   metadata: {}
 - type: container
-  containerName: Glorious Chest (Super Adventure Box)
+  containerName: Glorious Chest
   outputQuantity: 2
   requirements: []
   metadata:
     notes: normal mode, once per account per day per zone
 - type: container
-  containerName: Glorious Chest (Super Adventure Box)
+  containerName: Glorious Chest
   outputQuantity: 2
   outputQuantityMin: 2
   outputQuantityMax: 4
@@ -283,12 +801,14 @@ acquisitions:
   containerName: Super Adventure Weapon Box
   outputQuantity: 8
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: true
+  metadata: {}
 - type: other
   outputQuantity: 1
   requirements: []
   metadata:
-    notes: One earned from completing a Bonus round, Cart or Robbers, once per day
-      each
+    notes: One earned from completing a Bonus round (Cart), once per day
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: One earned from completing a Bonus round (Robbers), once per day

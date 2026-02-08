@@ -20,13 +20,22 @@ acquisitions:
   - itemId: 43319
     quantity: 1000
   metadata:
-    notes: Requires the festival Dragon Bash.
+    notes: Requires the festival Dragon Bash
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 43319
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Dragon Bash
 - type: vendor
   vendorName: Dragon Bash Vendor
   outputQuantity: 1
   requirements:
   - itemId: 43319
     quantity: 1000
+  metadata: {}
 - type: achievement
   achievementName: (Weekly) Dragon Bash Festivities
   achievementCategory: Dragon Bash Feats
@@ -51,3 +60,9 @@ acquisitions:
   metadata:
     repeatable: true
     timeGated: true
+- type: container
+  itemId: 91309
+  containerName: Dragon Bash Victory Coffer
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

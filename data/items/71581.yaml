@@ -15,11 +15,11 @@ acquisitions:
 - type: achievement
   achievementName: World vs. World Rush Champion
   achievementCategory: World vs. World Rush
-  outputQuantity: 10
+  outputQuantity: 20
   requirements: []
   metadata:
-    repeatable: false
-    timeGated: false
+    notes: Meta achievement with multiple tiers rewarding 10 Memories at Tier 3 and
+      10 Memories at Tier 8
 - type: achievement
   achievementName: WvW Rush Camp Capturer 2
   achievementCategory: World vs. World Rush
@@ -89,17 +89,16 @@ acquisitions:
   outputQuantity: 15
   requirements: []
   metadata:
-    notes: Usually 5 at 2nd reward and 10 at 22nd reward per track. Gift of Battle
-      Item Reward Track gives 25, Guildrider Warclaw Skin Reward Track gives 50. Dragon
+    notes: Usually 2nd reward (5) and 22nd reward (10) per track. Gift of Battle Item
+      Reward Track gives 25. Guildrider Warclaw Skin Reward Track gives 50. Dragon
       Bash, Halloween, and Festival of the Four Winds Reward Tracks give 10 each.
-- type: pvp_reward
-  trackName: Skirmish Reward Track
+- type: other
   outputQuantity: 104
   requirements: []
   metadata:
-    notes: 'Grand total for completing Diamond tier first time per week. Wood: 5 total
-      (1 per minor tier, 2 final), Bronze: 6 total (1 per minor tier, 3 final), Silver:
-      12 total (2 per minor tier, 4 final), Gold: 13 total (2 per minor tier, 5 final),
-      Platinum: 18 total (3 per minor tier, 6 final), Mithril: 22 total (3 per minor
-      tier, 7 final), Diamond: 24 first completion or 28 total (4 per minor tier,
-      8 final, 4 repeatable)'
+    notes: 'Wood tier: 5 total (1 per minor tier + 2 final). Bronze: 6 total (1 per
+      minor + 3 final). Silver: 12 total (2 per minor + 4 final). Gold: 13 total (2
+      per minor + 5 final). Platinum: 18 total (3 per minor + 6 final). Mithril: 22
+      total (3 per minor + 7 final). Diamond: 24 for repeatable or 28 first completion
+      (4 per minor + 8 final + 4 repeatable final). Grand total: 104 for Diamond tier
+      first completion.'

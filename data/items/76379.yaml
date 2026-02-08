@@ -20,5 +20,4 @@ acquisitions:
   containerName: Chest of Gloom
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

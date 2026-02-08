@@ -43,5 +43,4 @@ acquisitions:
   containerName: 'Starter Kit: Sunrise'
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

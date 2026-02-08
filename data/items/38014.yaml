@@ -41,6 +41,4 @@ acquisitions:
   containerName: Fractal Fighter's Cache
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}

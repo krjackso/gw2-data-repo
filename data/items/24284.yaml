@@ -10,41 +10,42 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Scale
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: map_reward
-  outputQuantity: 20
+- type: container
+  itemId: 39091
+  containerName: Armorsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 8 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 24
+  metadata: {}
+- type: container
+  itemId: 39092
+  containerName: Artificer Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 6 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 17
+  metadata: {}
+- type: container
+  itemId: 39095
+  containerName: Huntsman Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 3 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 18
+  metadata: {}
+- type: container
+  itemId: 39098
+  containerName: Leatherworker Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 1 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 12
+  metadata: {}
+- type: container
+  itemId: 39099
+  containerName: Tailor Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 7 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 28
+  metadata: {}
+- type: container
+  itemId: 39100
+  containerName: Weaponsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 2 Map Bonus Reward
-- type: map_reward
-  outputQuantity: 29
-  requirements: []
-  metadata:
-    notes: Week 5 Map Bonus Reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Shark Rank Reward Track
   outputQuantity: 5

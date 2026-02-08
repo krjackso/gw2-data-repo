@@ -16,11 +16,11 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Journeyman's_Salvage_Kit
 lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
-  vendorName: Any merchant or Master craftsman
+  vendorName: Any Merchant or Master craftsman
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 80000
+    quantity: 800
   metadata: {}
 - type: vendor
   vendorName: Cin Fursarai
@@ -135,12 +135,12 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 40000
+    quantity: 400
   - currencyId: 25
     quantity: 8
   metadata: {}
-- type: achievement
-  achievementName: Level rewards
+- type: other
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata:
+    notes: Obtained upon reaching level 61

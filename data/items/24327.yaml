@@ -36,38 +36,3 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    notes: Week 3 - 3 total
-- type: map_reward
-  outputQuantity: 6
-  requirements: []
-  metadata:
-    notes: Week 2 - 6 total
-- type: map_reward
-  outputQuantity: 6
-  requirements: []
-  metadata:
-    notes: Week 4 - 6 total (currently active)
-- type: map_reward
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    notes: Week 5 - 3 total
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 8 - 4 total
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: Week 7 - 5 total
-- type: map_reward
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    notes: Week 1 - 3 total

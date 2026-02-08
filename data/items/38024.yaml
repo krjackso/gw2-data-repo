@@ -31,14 +31,8 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 28800
+    quantity: 288
   - currencyId: 7
     quantity: 300
   metadata:
-    notes: Requires the mastery Follows Advice
-- type: other
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Possible reward upon completing Nightmare Fractal (Challenge Mode) or Shattered
-      Observatory Fractal (Challenge Mode)
+    notes: Requires the mastery Follows Advice.

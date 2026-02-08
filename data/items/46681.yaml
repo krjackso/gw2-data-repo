@@ -13,4 +13,10 @@ flags:
 - AccountBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Dark_Matter
 lastUpdated: '2026-02-08'
-acquisitions: []
+acquisitions:
+- type: container
+  itemId: 67222
+  containerName: Regal Bag of Goods
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

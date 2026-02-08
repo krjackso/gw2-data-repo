@@ -1,0 +1,60 @@
+id: 41824
+name: Continue Coin
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/669B427B9735DC61EF3A566064083F1DC37E9D5A/561825.png
+description: Grants a player five lives inside the Super Adventure Box. See Moto in
+  Rata Sum for details on how to play.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Continue_Coin
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Coin Machine
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Moto
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 10
+  metadata: {}
+- type: container
+  itemId: 80862
+  containerName: Box of Super Adventure Box Goods
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glitched Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: normal and Tribulation modes
+- type: wvw_reward
+  trackName: Super Adventure Reward Track
+  outputQuantity: 9
+  requirements: []
+  metadata: {}

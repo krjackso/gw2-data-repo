@@ -25,4 +25,4 @@ acquisitions:
   requirements: []
   metadata:
     repeatable: false
-    timeGated: false
+    timeGated: true

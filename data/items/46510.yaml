@@ -1,0 +1,22 @@
+id: 46510
+name: Storm Wizard Z-2
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/B0C90A4D3BB7E51B02A178F1275DEA40C801C176/631283.png
+description: Combine Storm Wizard Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Storm_Wizard_Z-2
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward for completing Super Adventure Box Pain Cliffs in Tribulation Mode

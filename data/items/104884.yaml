@@ -1,0 +1,28 @@
+id: 104884
+name: 'Tangled Depths: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2127D47C74BCCC26AA2DB5DFA75DBF7B4D42D43F/1424067.png
+description: 'Contains leaf fossils and a chest from which to pick your choice of
+  items.
+
+
+  <c=@flavor>While you''re waiting for the wall to be blasted, use the time to hydrate
+  and stretch. Or open Crystalized Supply Caches.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tangled_Depths:_Commander's_Choice_Chest
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 104884
+  containerName: 'Tangled Depths: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

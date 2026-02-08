@@ -16,19 +16,19 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 250004
+    quantity: 2504
   metadata: {}
 - type: vendor
   vendorName: Mystic Forge Attendant
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 250004
+    quantity: 2504
   metadata: {}
 - type: vendor
   vendorName: Mystic Forge Keeper
   outputQuantity: 1
   requirements:
   - currencyId: 1
-    quantity: 250004
+    quantity: 2504
   metadata: {}

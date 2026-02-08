@@ -32,16 +32,8 @@ acquisitions:
   - currencyId: 16
     quantity: 1
   metadata: {}
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    notes: Available multiple weeks throughout the 8-week rotation in Bloodtide Coast,
-      Dredgehaunt Cliffs, Iron Marches, Blazeridge Steppes, Sparkfly Fen, Harathi
-      Hinterlands, and Timberline Falls
 - type: pvp_reward
   trackName: Jungle Phoenix Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 5th reward (30th of 40)
+  metadata: {}

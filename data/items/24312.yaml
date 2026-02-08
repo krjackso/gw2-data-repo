@@ -36,22 +36,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 41734
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    notes: Available as map bonus reward in Iron Marches (6), Timberline Falls (5),
-      Bloodtide Coast (7), Blazeridge Steppes (4), Dredgehaunt Cliffs (4), Harathi
-      Hinterlands (5), and Sparkfly Fen (7). Currently Week 4.
 - type: pvp_reward
   trackName: Balthazar Back Item Reward Track
-  outputQuantity: 1
+  outputQuantity: 4
   requirements: []
   metadata: {}

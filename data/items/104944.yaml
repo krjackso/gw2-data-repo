@@ -1,0 +1,26 @@
+id: 104944
+name: 'Auric Basin: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6FD4060277D5E7CF024DF43872B7D1095C10F8D8/1424066.png
+description: 'Contains a Maguuma burl and a chest from which to pick your choice of
+  items.
+
+
+  <c=@flavor>Maybe you should help out at that octovine instead of standing around.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Basin:_Commander's_Choice_Chest
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  containerName: 'Auric Basin: Commander''s Choice Chest (container)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

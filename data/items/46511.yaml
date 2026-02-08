@@ -1,0 +1,22 @@
+id: 46511
+name: Storm Wizard Z-3
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/B8F87E1734E2C6D4CA971395A0314E46AB68015C/631284.png
+description: Combine Storm Wizard Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Storm_Wizard_Z-3
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward for completing Storm Top (World 2-Zone 3) in Tribulation Mode

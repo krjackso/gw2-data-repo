@@ -1,0 +1,23 @@
+id: 46507
+name: Storm Wizard Z-1
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/CF45EC0C201F1694E51968399C56AF73F4790CD0/631280.png
+description: Combine Storm Wizard Z-1, Z-2, Z-3, and a Moto Weapon Design in the Mystic
+  Forge.
+vendorValue: 20
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Storm_Wizard_Z-1
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward for completing Super Adventure Box Rapids (World 2-Zone 1) in Tribulation
+      Mode

@@ -1,0 +1,73 @@
+id: 86627
+name: Snow Diamond
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4E72696614D536500D093EE6C95FA9DD650E913B/1914827.png
+description: Used to purchase rewards from Wintersday vendors in Divinity's Reach.
+vendorValue: 49
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Snow_Diamond
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 1
+  requirements:
+  - itemId: 86601
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Sarettokk
+  outputQuantity: 1
+  requirements:
+  - itemId: 86627
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Sparking Stone
+  outputQuantity: 1
+  requirements:
+  - itemId: 86627
+    quantity: 10
+  - currencyId: 1
+    quantity: 40000
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Sven Edson
+  outputQuantity: 1
+  requirements:
+  - itemId: 86627
+    quantity: 10
+  - currencyId: 2
+    quantity: 21000
+  metadata: {}
+- type: vendor
+  vendorName: Wintersday Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 86627
+    quantity: 5
+  - currencyId: 1
+    quantity: 50000
+  metadata:
+    notes: Requires the festival Wintersday. Limit 1 per week
+- type: vendor
+  vendorName: Wintersday Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 86601
+    quantity: 1000
+  metadata: {}
+- type: achievement
+  achievementName: (Weekly) Wintersday Festivities
+  achievementCategory: Wintersday Traditions
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

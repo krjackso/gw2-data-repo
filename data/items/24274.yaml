@@ -25,19 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 2
-  requirements: []
-  metadata:
-    notes: 'Map Bonus Reward on rotating schedule. Week 1: Bloodtide Coast (2 total),
-      Week 2: Iron Marches and Dredgehaunt Cliffs (2 each), Week 3: Bloodtide Coast
-      (2 total), Week 4: Iron Marches and Dredgehaunt Cliffs (2 each), Week 5: Blazeridge
-      Steppes and Sparkfly Fen (2 each), Week 6: Harathi Hinterlands and Timberline
-      Falls (2 each), Week 7: Sparkfly Fen and Blazeridge Steppes (2 each), Week 8:
-      Harathi Hinterlands and Timberline Falls (2 each)'
 - type: pvp_reward
   trackName: Jungle Phoenix Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: PvP reward track only. Tier 6, 2nd reward, 27th of 40
+  metadata: {}

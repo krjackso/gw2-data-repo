@@ -14,10 +14,4 @@ flags:
 - AccountBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Nightsword
 lastUpdated: '2026-02-08'
-acquisitions:
-- type: salvage
-  itemId: 75618
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
+acquisitions: []

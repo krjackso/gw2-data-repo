@@ -1,0 +1,15 @@
+id: 38134
+name: Pristine Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/6E9809B82F370D7E73F7971AE49D3F034D0CB348/526244.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 21
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Pristine_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

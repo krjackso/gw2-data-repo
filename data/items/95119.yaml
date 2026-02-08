@@ -33,6 +33,5 @@ acquisitions:
   containerName: Legendary Choice Box
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: false
-    choice: true
+  guaranteed: false
+  choice: true

@@ -15,41 +15,4 @@ acquisitions:
   achievementCategory: Transfer Chaser
   outputQuantity: 5
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 1 bonus reward
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    notes: Week 4 bonus reward (currently active)
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 6 bonus reward
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 10
-  requirements: []
-  metadata:
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    notes: Week 2 bonus reward
+  metadata: {}

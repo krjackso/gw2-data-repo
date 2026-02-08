@@ -83,14 +83,16 @@ acquisitions:
   requirements:
   - currencyId: 1
     quantity: 200
-  metadata: {}
+  metadata:
+    notes: Mori Village location
 - type: vendor
   vendorName: Merchant
   outputQuantity: 1
   requirements:
   - currencyId: 1
     quantity: 200
-  metadata: {}
+  metadata:
+    notes: Untamed Crags location
 - type: vendor
   vendorName: Peddler
   outputQuantity: 1

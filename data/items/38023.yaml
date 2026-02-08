@@ -40,6 +40,13 @@ acquisitions:
   metadata:
     recipeType: mystic_forge
 - type: vendor
+  vendorName: Black Lion Commemorative Sprocket
+  outputQuantity: 1
+  requirements:
+  - itemId: 84438
+    quantity: 3
+  metadata: {}
+- type: vendor
   vendorName: INFUZ-5959
   outputQuantity: 1
   requirements:
@@ -48,4 +55,4 @@ acquisitions:
   - currencyId: 7
     quantity: 100
   metadata:
-    notes: Requires the mastery Follows Advice.
+    notes: Requires the mastery Follows Advice

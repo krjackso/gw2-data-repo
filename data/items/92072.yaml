@@ -1,0 +1,125 @@
+id: 92072
+name: Hatched Chili
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/410EE218CCA01BB60A0BE00D0BA076B1DCCFD648/2199299.png
+description: 'Can be used in crafting or traded with vendors in Grothmar Valley.
+
+
+  <c=@Flavor>Grown over devourer nests, these peppers are particularly piquant.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Hatched_Chili
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: Grothmar Legionnaire
+  achievementCategory: Daily Icebrood Saga
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Return to A Race to Arms
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bad Blood
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Coming Home
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Deeper and Deeper
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Grothmar Valley
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  containerName: Chest (Khan-Ur's Gauntlet)
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92085
+  containerName: Chest of the Grothmar Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of the Khan-Ur
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92080
+  containerName: Grothmar Legionnaire Banner Cache
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 91905
+  containerName: Grothmar Legionnaire Weapon Requisition
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 91895
+  containerName: Grothmar Legionnaire Weapons Cache
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 91895
+  containerName: Grothmar Legionnaire Weapons Cache
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92097
+  containerName: Grothmar Warchest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Hatched Chili Pepper Bush
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 4
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Icebrood Saga Reward Track
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

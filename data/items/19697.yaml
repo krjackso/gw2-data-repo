@@ -11,57 +11,53 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Copper_Ore
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: salvage
-  itemId: 21678
-  outputQuantity: 1
+- type: container
+  itemId: 39091
+  containerName: Armorsmith Starter Kit
+  outputQuantity: 180
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21679
-  outputQuantity: 1
+  metadata: {}
+- type: container
+  itemId: 39092
+  containerName: Artificer Starter Kit
+  outputQuantity: 30
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21690
-  outputQuantity: 1
+  metadata: {}
+- type: container
+  itemId: 63662
+  containerName: Beginner's Bag of Crafting Supplies
+  outputQuantity: 10
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 21691
-  outputQuantity: 1
+  metadata: {}
+- type: container
+  itemId: 39095
+  containerName: Huntsman Starter Kit
+  outputQuantity: 80
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41733
-  outputQuantity: 1
+  metadata: {}
+- type: container
+  itemId: 39096
+  containerName: Jeweler Starter Kit
+  outputQuantity: 250
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 41736
-  outputQuantity: 1
+  metadata: {}
+- type: container
+  itemId: 39100
+  containerName: Weaponsmith Starter Kit
+  outputQuantity: 150
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 43552
+  metadata: {}
+- type: resource_node
+  nodeName: Copper Ore
   outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 45039
+  metadata: {}
+- type: resource_node
+  nodeName: Rich Copper Vein
   outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
   requirements: []
-  metadata:
-    guaranteed: true
-- type: salvage
-  itemId: 79079
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

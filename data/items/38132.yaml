@@ -1,0 +1,15 @@
+id: 38132
+name: Glittering Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/624467FA340D2461C95F1168D765901BAFFBBEA8/526242.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 14
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Glittering_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

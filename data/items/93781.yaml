@@ -1,0 +1,18 @@
+id: 93781
+name: Boneskinner Ritual Vial
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/06C7050937E91E1D97F4A0F27618744B5C50B4C0/2314490.png
+description: A ritual vial used to convert kodan into boneskinners. Combine this with
+  a Boneskinner Weapon, Amalgamated Draconic Lodestones, and Gifts of Bones in the
+  Mystic Forge to unleash their full potential.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Boneskinner_Ritual_Vial
+lastUpdated: '2026-02-08'
+acquisitions: []

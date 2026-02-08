@@ -1,0 +1,35 @@
+id: 73537
+name: Auric Ingot
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/19D0522B1EEF07A6FD94285167F14CD1AC6FCE6B/1202988.png
+description: Used to craft Exalted weapon cores for use in Auric weapons.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 68944
+    quantity: 30
+  - itemId: 69432
+    quantity: 30
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: achievement
+  achievementName: Wild Dragon Chase
+  achievementCategory: 'Heart of Thorns: Act 2'
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

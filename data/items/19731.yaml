@@ -26,52 +26,9 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 65
+- type: container
+  itemId: 63690
+  containerName: Journeyman's Bag of Crafting Supplies
+  outputQuantity: 10
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Blazeridge Steppes
-    notes: Week 1 reward
-- type: map_reward
-  outputQuantity: 60
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Bloodtide Coast
-    notes: Week 8 reward
-- type: map_reward
-  outputQuantity: 30
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Dredgehaunt Cliffs
-    notes: Week 5 reward
-- type: map_reward
-  outputQuantity: 70
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Harathi Hinterlands
-    notes: Week 2 reward
-- type: map_reward
-  outputQuantity: 55
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Iron Marches
-    notes: Week 7 reward
-- type: map_reward
-  outputQuantity: 75
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Sparkfly Fen
-    notes: Week 3 reward
-- type: map_reward
-  outputQuantity: 70
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Timberline Falls
-    notes: Week 4 reward
+  metadata: {}

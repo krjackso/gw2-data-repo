@@ -12,31 +12,69 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Candy Corn Vendor
-  outputQuantity: 1
+  outputQuantity: 5
   requirements:
   - itemId: 48807
-    quantity: 5
+    quantity: 1
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween
+    notes: Requires the festival Halloween.
 - type: vendor
   vendorName: Candy Corn Vendor
-  outputQuantity: 1
+  outputQuantity: 5
   requirements:
   - itemId: 48806
-    quantity: 5
+    quantity: 1
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween
+    notes: Requires the festival Halloween.
 - type: vendor
   vendorName: Candy Corn Vendor
-  outputQuantity: 1
+  outputQuantity: 5
   requirements:
   - itemId: 48805
-    quantity: 5
+    quantity: 1
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween
+    notes: Requires the festival Halloween.
+- type: achievement
+  achievementName: Alpha Crafter
+  achievementCategory: Basic Collections
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70023
+  containerName: Clump of Destabilized Ectoplasm
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 90
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67790
+  containerName: Ghostly Bag of Loot
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Massive Glob of Ectoplasm
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Massive Glob of Ectoplasm (Ascended)
+  outputQuantity: 500
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84588
+  containerName: Sandstorm Trump Hand
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 50
+  requirements: []
+  metadata: {}

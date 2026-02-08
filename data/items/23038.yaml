@@ -23,6 +23,13 @@ acquisitions:
     quantity: 28
   metadata: {}
 - type: vendor
+  vendorName: Any Master craftsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 32
+  metadata: {}
+- type: vendor
   vendorName: Any Merchant
   outputQuantity: 1
   requirements:
@@ -304,7 +311,7 @@ acquisitions:
     quantity: 28
   metadata: {}
 - type: vendor
-  vendorName: Merchant
+  vendorName: Merchant (Adamant Guard weapons)
   outputQuantity: 1
   requirements:
   - currencyId: 2
@@ -453,21 +460,21 @@ acquisitions:
     quantity: 28
   metadata: {}
 - type: vendor
-  vendorName: Seraph Outfitter
+  vendorName: Seraph Outfitter (tier 1)
   outputQuantity: 1
   requirements:
   - currencyId: 2
     quantity: 28
   metadata: {}
 - type: vendor
-  vendorName: Seraph Outfitter
+  vendorName: Seraph Outfitter (tier 2)
   outputQuantity: 1
   requirements:
   - currencyId: 2
     quantity: 28
   metadata: {}
 - type: vendor
-  vendorName: Seraph Outfitter [Cultural Weaponsmith Tier 3]
+  vendorName: Seraph Outfitter (tier 3)
   outputQuantity: 1
   requirements:
   - currencyId: 2
@@ -503,34 +510,6 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Shengra the Stalker
-  outputQuantity: 1
-  requirements:
-  - currencyId: 2
-    quantity: 28
-  metadata: {}
-- type: vendor
-  vendorName: Skritt Weapons Collector
-  outputQuantity: 1
-  requirements:
-  - currencyId: 2
-    quantity: 28
-  metadata: {}
-- type: vendor
-  vendorName: Skritt Weapons Collector
-  outputQuantity: 1
-  requirements:
-  - currencyId: 2
-    quantity: 28
-  metadata: {}
-- type: vendor
-  vendorName: Skritt Weapons Collector
-  outputQuantity: 1
-  requirements:
-  - currencyId: 2
-    quantity: 28
-  metadata: {}
-- type: vendor
-  vendorName: Skritt Weapons Collector
   outputQuantity: 1
   requirements:
   - currencyId: 2
@@ -643,10 +622,8 @@ acquisitions:
   - currencyId: 2
     quantity: 28
   metadata: {}
-- type: achievement
-  achievementName: Reaching Level 12
+- type: other
   outputQuantity: 1
   requirements: []
   metadata:
-    repeatable: false
-    timeGated: false
+    notes: Level rewards upon reaching level 12

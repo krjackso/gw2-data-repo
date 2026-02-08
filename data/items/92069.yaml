@@ -1,0 +1,21 @@
+id: 92069
+name: Icebrood Saga Material
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7831B7AAA991211EE604A2ADB3C80E1F575E6C03/1451156.png
+description: Double-click to choose a Living World Icebrood Saga material.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Icebrood_Saga_Material
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 92040
+  containerName: Grand Icebrood Saga Cache
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

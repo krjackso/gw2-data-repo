@@ -34,7 +34,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Dragon Bash.
+    notes: Requires the festival Dragon Bash. Limit 1 per week.
 - type: vendor
   vendorName: Dredge Supplier Yuliya
   outputQuantity: 1
@@ -113,20 +113,73 @@ acquisitions:
   metadata:
     repeatable: false
     timeGated: false
-- type: map_reward
-  outputQuantity: 25
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Thunderhead Peaks)
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 89574
+  containerName: Chest of the Iceblown Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dwarven Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Hidden Chest (Thunderhead Peaks)
+  outputQuantity: 5
   requirements: []
   metadata:
-    rewardType: map_completion
-    regionName: Thunderhead Peaks
-- type: other
+    notes: resplendent Hidden Chest
+- type: container
+  itemId: 92311
+  containerName: Season 4 Currency Box
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
   outputQuantity: 50
   requirements: []
   metadata:
-    notes: From Thunderhead Peaks Cache in the Thunderhead Peaks Reward Track (67
-      maximum from the track)
-- type: other
+    notes: Raid
+- type: container
+  itemId: 89913
+  containerName: Thunderhead Peaks Cache
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 89913
+  containerName: Thunderhead Peaks Cache
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Dragon Crystal Node
   outputQuantity: 1
   requirements: []
   metadata:
-    notes: From the Thunderhead Peaks map bonus reward
+    notes: home instances
+- type: wvw_reward
+  trackName: Thunderhead Peaks Reward Track
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    notes: 67 maximum from the track

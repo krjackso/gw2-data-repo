@@ -1,0 +1,509 @@
+id: 76254
+name: Shimmering Crystal
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/F3A0EB937F0FFF0A51C9530BF8BB5A03E7D74AB0/1202685.png
+description: Created by ore synthesizers in Lost Precipice. Used to craft guild weapons
+  and armor.
+vendorValue: 16
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shimmering_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 70718
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 46682
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69392
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 73537
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69432
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 74356
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 69434
+    quantity: 10
+  - currencyId: 2
+    quantity: 150
+  metadata: {}

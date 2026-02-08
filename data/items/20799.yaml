@@ -14,7 +14,7 @@ flags:
 - NoSell
 - AccountBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Crystal
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Miyani
@@ -22,18 +22,21 @@ acquisitions:
   requirements:
   - currencyId: 23
     quantity: 3
+  metadata: {}
 - type: vendor
   vendorName: Mystic Forge Attendant
   outputQuantity: 5
   requirements:
   - currencyId: 23
     quantity: 3
+  metadata: {}
 - type: vendor
   vendorName: Mystic Forge Keeper
   outputQuantity: 5
   requirements:
   - currencyId: 23
     quantity: 3
+  metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -42,3 +45,4 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 48
+  metadata: {}

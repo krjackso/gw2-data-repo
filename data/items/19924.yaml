@@ -13,7 +13,7 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Lump_of_Primordium
 lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
-  vendorName: Master Craftsman
+  vendorName: Master craftsman
   outputQuantity: 10
   requirements:
   - currencyId: 1

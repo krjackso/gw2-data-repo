@@ -41,3 +41,9 @@ acquisitions:
     quantity: 5
   metadata:
     recipeType: mystic_forge
+- type: container
+  itemId: 67220
+  containerName: Ogre Sharpening Kit
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

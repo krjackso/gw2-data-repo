@@ -16,7 +16,7 @@ flags:
 - AccountBindOnUse
 - DeleteWarning
 wikiUrl: https://wiki.guildwars2.com/wiki/Icy_Runestone
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Rojan the Penitent
@@ -24,7 +24,9 @@ acquisitions:
   requirements:
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata:
+    notes: Available only after successfully defeating the Claw of Jormag meta event
+      in Frostgorge Sound
 - type: vendor
   vendorName: Rojan the Penitent
   outputQuantity: 1
@@ -35,8 +37,6 @@ acquisitions:
 - type: container
   itemId: 67219
   containerName: Jormag Defender's Kit
-  outputQuantity: 1
+  outputQuantity: 10
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}

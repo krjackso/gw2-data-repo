@@ -23,6 +23,7 @@ acquisitions:
     quantity: 75
   - currencyId: 2
     quantity: 2688
+  metadata: {}
 - type: vendor
   vendorName: Dragon Bash Merchant
   outputQuantity: 50
@@ -30,9 +31,7 @@ acquisitions:
   - itemId: 43320
     quantity: 1
   metadata:
-    limitType: weekly
-    limitAmount: 1
-    notes: Requires the festival Dragon Bash
+    notes: Requires the festival Dragon Bash. Limit 1 per week.
 - type: vendor
   vendorName: Humble Stone
   outputQuantity: 10
@@ -41,6 +40,7 @@ acquisitions:
     quantity: 75
   - currencyId: 2
     quantity: 2688
+  metadata: {}
 - type: vendor
   vendorName: Kjep Corrson
   outputQuantity: 10
@@ -49,6 +49,7 @@ acquisitions:
     quantity: 75
   - currencyId: 2
     quantity: 2688
+  metadata: {}
 - type: vendor
   vendorName: Shadows Agent Kito
   outputQuantity: 1
@@ -73,6 +74,7 @@ acquisitions:
   requirements:
   - currencyId: 28
     quantity: 2
+  metadata: {}
 - type: vendor
   vendorName: Village Head Azi
   outputQuantity: 1
@@ -96,80 +98,67 @@ acquisitions:
   achievementCategory: A Star to Guide Us
   outputQuantity: 5
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Jahai Bluffs
   achievementCategory: Return to A Star to Guide Us
   outputQuantity: 250
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
-- type: map_reward
-  outputQuantity: 25
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box (Season 4)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Jahai Bluffs
-- type: other
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    notes: From home instance Mistonium - once per account, per day
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: Guaranteed reward from Dragon Chest (Death-Branded Shatterer) - once per
-      character, per day
-- type: other
+  metadata: {}
+- type: container
+  itemId: 88747
+  containerName: Blessed Coffer of the Sun
   outputQuantity: 50
   requirements: []
-  metadata:
-    notes: Reward from Jahai Bluffs Cache in the Jahai Bluffs Reward Track
-- type: other
+  metadata: {}
+- type: container
+  itemId: 88477
+  containerName: Chest of the Jahai Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragon Chest (Death-Branded Shatterer)
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 88594
+  containerName: Jahai Bluffs Cache
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92311
+  containerName: Season 4 Currency Box
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Season 4 Material Chest (Raid)
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Mistonium
   outputQuantity: 1
   requirements: []
   metadata:
-    notes: Reward from Jahai Bluffs Legendary Bounties (per bounty)
-- type: other
-  outputQuantity: 1
+    notes: home instances
+- type: wvw_reward
+  trackName: Jahai Bluffs Reward Track
+  outputQuantity: 50
   requirements: []
-  metadata:
-    notes: Reward from Jahai Bluffs map bonus
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: 'Reward from completing dynamic event: Defeat the Branded djinn Vemyen'
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: 'Reward from completing dynamic event: Repel the Branded invasion and close
-      the rifts'
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: 'Reward from completing group event: Defeat the Branded djinn Vemyen (Chest)'
-- type: other
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: 'Reward from completing group event: Reach the treasure inside the labyrinthine
-      Inner Keep (Iberu''s Treasure)'
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: 'Reward from completing group event: Repel the Branded invasion and close
-      the rifts (Chest)'
-- type: other
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    notes: 'Reward from completing group event: Stop "Joko" from recruiting the Awakened!
-      (Chest)'
+  metadata: {}

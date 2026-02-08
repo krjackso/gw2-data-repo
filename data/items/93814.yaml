@@ -1,0 +1,39 @@
+id: 93814
+name: Memory of Otter
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/DF720660E9FDEED4BDFB50D27233F3EB0FDF459A/2314412.png
+description: 'Grants progress toward the Significant Otter achievement. If the achievement
+  is complete, reveals a vision of Otter.
+
+  <c=@flavor>The norn may have fled these lands, but their memories remain.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Otter
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Icebrood Saga Material
+  outputQuantity: 5
+  requirements:
+  - itemId: 92069
+    quantity: 1
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Claw of Jormag)
+  outputQuantity: 4
+  outputQuantityMin: 4
+  outputQuantityMax: 9
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Tribune's Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  requirements: []
+  metadata: {}

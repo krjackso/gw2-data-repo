@@ -25,14 +25,6 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: Week 1 - Bloodtide Coast (27 total), Week 2 - Timberline Falls (20 total),
-      Week 3 - Iron Marches (17 total), Week 4 - Sparkfly Fen (20 total), Week 6 -
-      Harathi Hinterlands (22 total), Week 7 - Dredgehaunt Cliffs (24 total), Week
-      8 - Blazeridge Steppes (13 total)
 - type: pvp_reward
   trackName: Jungle Dolyak Rank Reward Track
   outputQuantity: 5

@@ -33,45 +33,9 @@ acquisitions:
   - currencyId: 1
     quantity: 248
   metadata: {}
-- type: map_reward
+- type: container
+  itemId: 99961
+  containerName: Wizard's Vault Daily Completion Chest
   outputQuantity: 1
   requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Dragon's End
-    notes: Map Bonus Reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Gyala Delve
-    notes: Map Bonus Reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: New Kaineng City
-    notes: Map Bonus Reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Seitung Province
-    notes: Map Bonus Reward
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: The Echovald Wilds
-    notes: Map Bonus Reward
-- type: wizards_vault
-  outputQuantity: 1
-  requirements:
-  - currencyId: 63
-    quantity: 6
-  metadata:
-    limitAmount: 40
+  metadata: {}

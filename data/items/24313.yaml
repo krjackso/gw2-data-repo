@@ -36,57 +36,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: salvage
-  itemId: 41735
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-- type: map_reward
-  outputQuantity: 6
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Blazeridge Steppes
-    notes: Week 4 (current) - 6 total
-- type: map_reward
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Bloodtide Coast
-    notes: Week 3 - 3 total
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Harathi Hinterlands
-    notes: Week 6 - 5 total
-- type: map_reward
-  outputQuantity: 4
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Iron Marches
-    notes: Week 1 - 4 total
-- type: map_reward
-  outputQuantity: 3
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Sparkfly Fen
-    notes: Week 8 - 3 total
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Timberline Falls
-    notes: Week 2 - 5 total
 - type: pvp_reward
   trackName: Balthazar Back Item Reward Track
   outputQuantity: 3
   requirements: []
-  metadata:
-    notes: Tier 6, 5th reward, 30th of 40
+  metadata: {}

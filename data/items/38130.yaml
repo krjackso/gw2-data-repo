@@ -1,0 +1,15 @@
+id: 38130
+name: Tiny Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/99E8B669F94A3ED511B84AEDDF970E3A6057EDC2/526240.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 6
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

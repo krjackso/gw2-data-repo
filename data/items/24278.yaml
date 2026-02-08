@@ -10,41 +10,36 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Venom_Sac
 lastUpdated: '2026-02-08'
 acquisitions:
-- type: map_reward
-  outputQuantity: 25
+- type: container
+  itemId: 39091
+  containerName: Armorsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 1 bonus reward
-- type: map_reward
-  outputQuantity: 20
+  metadata: {}
+- type: container
+  itemId: 39092
+  containerName: Artificer Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 23
+  metadata: {}
+- type: container
+  itemId: 39095
+  containerName: Huntsman Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 4 bonus reward
-- type: map_reward
-  outputQuantity: 25
+  metadata: {}
+- type: container
+  itemId: 39098
+  containerName: Leatherworker Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 18
+  metadata: {}
+- type: container
+  itemId: 39100
+  containerName: Weaponsmith Starter Kit
+  outputQuantity: 9
   requirements: []
-  metadata:
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 14
-  requirements: []
-  metadata:
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 24
-  requirements: []
-  metadata:
-    notes: Week 6 bonus reward
+  metadata: {}
 - type: pvp_reward
   trackName: Jungle Dolyak Rank Reward Track
   outputQuantity: 5

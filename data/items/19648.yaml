@@ -43,5 +43,4 @@ acquisitions:
   containerName: 'Starter Kit: Twilight'
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}

@@ -25,44 +25,8 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: map_reward
-  outputQuantity: 23
-  requirements: []
-  metadata:
-    notes: Week 4 bonus reward
-- type: map_reward
-  outputQuantity: 23
-  requirements: []
-  metadata:
-    notes: Week 5 bonus reward
-- type: map_reward
-  outputQuantity: 23
-  requirements: []
-  metadata:
-    notes: Week 3 bonus reward
-- type: map_reward
-  outputQuantity: 14
-  requirements: []
-  metadata:
-    notes: Week 2 bonus reward
-- type: map_reward
-  outputQuantity: 17
-  requirements: []
-  metadata:
-    notes: Week 7 bonus reward
-- type: map_reward
-  outputQuantity: 22
-  requirements: []
-  metadata:
-    notes: Week 8 bonus reward
-- type: map_reward
-  outputQuantity: 28
-  requirements: []
-  metadata:
-    notes: Week 6 bonus reward
 - type: pvp_reward
   trackName: Jungle Deer Rank Reward Track
   outputQuantity: 5
   requirements: []
-  metadata:
-    notes: Tier 6, 2nd reward, 27th of 40
+  metadata: {}

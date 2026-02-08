@@ -17,7 +17,7 @@ flags:
 - AccountBindOnUse
 - DeleteWarning
 wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Metal
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: crafting
   outputQuantity: 1

@@ -1,0 +1,15 @@
+id: 38135
+name: Flawless Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/D5763C0411E0DDB5634260D3E05E07DF2459641D/526245.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 25
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Flawless_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

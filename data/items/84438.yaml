@@ -20,14 +20,10 @@ acquisitions:
   containerName: Season 1 Memory Box—Flame and Festivals
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}
 - type: container
   itemId: 83517
   containerName: Season 1 Memory Box—Scarlet vs. Lion's Arch
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
+  metadata: {}

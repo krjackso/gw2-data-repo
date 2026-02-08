@@ -101,6 +101,5 @@ acquisitions:
   containerName: 'Dragon''s Stand: Hero''s Choice Chest'
   outputQuantity: 1
   requirements: []
-  metadata:
-    guaranteed: false
-    choice: true
+  guaranteed: false
+  choice: true

@@ -1,0 +1,24 @@
+id: 104687
+name: 'Verdant Brink: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/08DC26975002D02B68BEF2A46EF2A89E7243FD63/1424065.png
+description: Contains barbed thorns and a chest from which to pick your choice of
+  items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Verdant_Brink:_Commander's_Choice_Chest
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 104687
+  containerName: 'Verdant Brink: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

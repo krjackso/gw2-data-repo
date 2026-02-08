@@ -1,0 +1,15 @@
+id: 38131
+name: Delicate Snowflake
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/29FFF132F428A46D0F64DF31720A3E574E5DA177/526241.png
+description: Double-click to convert into Snowflakes.
+vendorValue: 10
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Delicate_Snowflake
+lastUpdated: '2026-02-08'
+acquisitions: []

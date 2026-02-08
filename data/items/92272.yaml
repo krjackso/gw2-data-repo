@@ -314,9 +314,7 @@ acquisitions:
   - itemId: 86627
     quantity: 1
   metadata:
-    limitType: weekly
-    limitAmount: 1
-    notes: Requires the festival Wintersday
+    notes: Requires the festival Wintersday. Limit 1 per week.
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
@@ -433,121 +431,145 @@ acquisitions:
     quantity: 5
   - currencyId: 2
     quantity: 105
-  metadata: {}
-- type: vendor
-  vendorName: Wizard's Gobbler
-  outputQuantity: 1
-  requirements:
-  - currencyId: 2
-    quantity: 105
-  - currencyId: 35
-    quantity: 5
   metadata: {}
 - type: achievement
   achievementName: Ancient Weaponeer
   achievementCategory: Whisper in the Dark
   outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Illuminated Boreal Weapons
   achievementCategory: Rare Collections
-  outputQuantity: 100
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Master of the Ancestral Forge
   achievementCategory: Whisper in the Dark
   outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Bjora Marches 1
   achievementCategory: Return to Whisper in the Dark
-  outputQuantity: 250
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Bjora Marches 2
   achievementCategory: Return to Shadow in the Ice
-  outputQuantity: 250
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Chasing Ghosts
   achievementCategory: Return to Shadow in the Ice
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Silence
   achievementCategory: Return to Whisper in the Dark
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to The Invitation
   achievementCategory: Return to Whisper in the Dark
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to Voice in the Deep
   achievementCategory: Return to Shadow in the Ice
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Return to What's Left Behind
   achievementCategory: Return to Whisper in the Dark
-  outputQuantity: 10
+  outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
+- type: container
+  itemId: 92241
+  containerName: Ancient Boreal Weapon Skin Container
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92291
+  containerName: Bjora Marches Chest
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92746
+  containerName: Chest of the Bjora Marches Explorer
+  outputQuantity: 30
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92338
+  containerName: Chest of the Raven's Hero
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92742
+  containerName: Gilded Reliquary of the Raven
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
 - type: container
   containerName: Glorious Norn Chest
   outputQuantity: 2
   outputQuantityMin: 2
   outputQuantityMax: 8
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: container
   containerName: Norn Chest
   outputQuantity: 2
   requirements: []
-  metadata:
-    notes: in Bjora Marches
+  metadata: {}
+- type: container
+  itemId: 92376
+  containerName: Raven's Gift
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92376
+  containerName: Raven's Gift
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Large Chest of Resilience'
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Medium Chest of Resilience'
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'Strike Mission: Lost Small Chest of Resilience'
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
 - type: container
   containerName: Training Chest of Valor
   outputQuantity: 5
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 - type: resource_node
   nodeName: Eternal Ice
   outputQuantity: 1
   outputQuantityMin: 1
   outputQuantityMax: 8
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
