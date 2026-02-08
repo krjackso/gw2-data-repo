@@ -158,10 +158,12 @@ def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int]:
         value = _extract_field_value(acq, field_path)
 
         if value is None:
-            if field_path in ["metadata.minRating", "metadata.limitAmount", "metadata.estimatedHours"]:
-                value = float("inf")
-            else:
-                value = ""
+            numeric_fields = [
+                "metadata.minRating",
+                "metadata.limitAmount",
+                "metadata.estimatedHours",
+            ]
+            value = float("inf") if field_path in numeric_fields else ""
 
         if field_path == "metadata.guaranteed" and isinstance(value, bool):
             value = not value

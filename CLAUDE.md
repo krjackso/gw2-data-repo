@@ -41,9 +41,9 @@ uv sync
 # Run tests
 uv run pytest
 
-# Lint
-uv run ruff check .
-uv run ruff format --check .
+# Lint (exclude prompts/ which contains long-line prompt strings)
+uv run ruff check --exclude prompts/ .
+uv run ruff format --check --exclude prompts/ .
 
 # Validate all item YAML files (also runs automatically on commit via pre-commit hook)
 uv run python -m scripts.validate
@@ -231,7 +231,7 @@ The resolution process:
 | `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId` (top-level), `guaranteed` |
 | `wvw_reward` | WvW reward track completion | None | `trackName` (top-level), `wikiUrl` |
 | `pvp_reward` | PvP reward track completion | None | `trackName` (top-level), `wikiUrl` |
-| `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `seasonal` |
+| `wizards_vault` | Wizard's Vault shop | Currency (Astral Acclaim) | `limitAmount` |
 | `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
 | `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | `notes` (description of method) |
 
@@ -333,6 +333,7 @@ Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{so
 
 ## Code Style
 
+- **Always use the `/dev` skill when writing or modifying Python code** — it enforces type safety, testability, and project conventions
 - No explanatory comments or docstrings unless explicitly instructed
 - Use ruff for linting and formatting
 - Pydantic models use `alias` for camelCase YAML keys, snake_case Python attributes
