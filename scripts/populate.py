@@ -20,10 +20,10 @@ from pathlib import Path
 import yaml
 from pydantic import ValidationError
 
-from gw2_data import api, llm, resolver, sorter, wiki
+from gw2_data import api, llm, resolver, sorter, terminal, wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
-from gw2_data.exceptions import APIError, ExtractionError, WikiError
+from gw2_data.exceptions import APIError, ExtractionError, MultipleItemMatchError, WikiError
 from gw2_data.models import ItemFile
 
 
@@ -41,16 +41,17 @@ def populate_item(
     output_path = Path("data/items") / f"{item_id}.yaml"
 
     if output_path.exists() and not overwrite:
-        print(f"Skipping {item_id}: file already exists (use --overwrite to replace)")
+        terminal.warning(f"Skipping {item_id}: file already exists (use --overwrite to replace)")
         return
 
     item_data = api.get_item(item_id, cache=cache)
     item_name = item_data["name"]
-    print(f"Item: {item_name} (ID: {item_id})")
+    terminal.section_header(f"Item: {item_name} (ID: {item_id})")
 
     wiki_html = wiki.get_page_html(item_name, cache=cache)
     wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
-    print(f"Wiki page: {len(wiki_html):,} chars — {wiki_url}")
+    terminal.debug(f"Wiki page: {len(wiki_html):,} chars")
+    terminal.info(f"  {terminal.link(wiki_url, 'View on Wiki')}")
 
     result = llm.extract_acquisitions(
         item_id, item_name, wiki_html, item_data, cache=cache, model=model
@@ -58,17 +59,17 @@ def populate_item(
 
     _print_extraction_summary(result)
 
-    print("Resolving item/currency names to IDs...")
+    terminal.subsection("Resolving item/currency names to IDs")
     item_name_index = api.load_item_name_index()
     currency_name_index = api.load_currency_name_index()
     result.item_data["acquisitions"] = resolver.resolve_requirements(
         result.item_data["acquisitions"], item_name_index, currency_name_index, strict=strict
     )
 
-    print("Sorting acquisitions...")
+    terminal.debug("Sorting acquisitions...")
     result.item_data["acquisitions"] = sorter.sort_acquisitions(result.item_data["acquisitions"])
 
-    print("Validating against schema...")
+    terminal.debug("Validating against schema...")
     try:
         validated = ItemFile.model_validate(result.item_data)
     except ValidationError as e:
@@ -77,11 +78,9 @@ def populate_item(
     for acq in result.item_data.get("acquisitions", []):
         if acq.get("type") == "other":
             notes = (acq.get("metadata") or {}).get("notes", "no description")
-            print(
-                f"\n⚠ 'other' acquisition detected — unusual acquisition method:\n"
-                f'  "{notes}"\n'
-                f"  Consider whether a new acquisition type should be added."
-            )
+            terminal.warning("'other' acquisition detected — unusual acquisition method")
+            terminal.bullet(f'"{notes}"', indent=4)
+            terminal.debug("  Consider whether a new acquisition type should be added.")
 
     yaml_content = validated.model_dump(by_alias=True, exclude_none=True)
     new_yaml = yaml.dump(yaml_content, sort_keys=False, allow_unicode=True)
@@ -96,39 +95,71 @@ def populate_item(
         )
         diff_text = "".join(diff)
         if diff_text:
-            print(f"\n--- Diff from existing {output_path} ---")
-            print(diff_text)
+            terminal.subsection(f"Diff from existing {output_path}")
+            terminal.code_block(diff_text)
         else:
-            print("\nNo changes from existing file.")
+            terminal.info("No changes from existing file.")
 
     if dry_run:
         if not output_path.exists():
-            print("\n--- DRY RUN: Would write to", output_path, "---")
-            print(new_yaml)
+            terminal.subsection(f"DRY RUN: Would write to {output_path}")
+            terminal.code_block(new_yaml)
         return
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w") as f:
         f.write(new_yaml)
 
-    print(f"Written to {output_path}")
+    terminal.success(f"✓ Written to {output_path}")
 
 
 def _print_extraction_summary(result: llm.ExtractionResult) -> None:
     acqs = result.item_data.get("acquisitions", [])
-    print(
-        f"\nFound {len(acqs)} acquisition(s)  |  "
-        f"Overall confidence: {result.overall_confidence:.0%}"
+    terminal.subsection(
+        f"Found {len(acqs)} acquisition(s)  |  Confidence: {result.overall_confidence:.0%}"
     )
 
     for i, acq in enumerate(acqs):
         conf = result.acquisition_confidences[i] if i < len(result.acquisition_confidences) else 0.0
         acq_type = acq.get("type", "unknown")
         label = _acquisition_label(acq)
-        print(f"  [{conf:.0%}] {acq_type}: {label}")
+        conf_str = f"[{conf:.0%}]"
+        terminal.bullet(f"{conf_str} {acq_type}: {label}", indent=2)
 
     if result.notes:
-        print(f"\nNotes: {result.notes}")
+        terminal.debug(f"Notes: {result.notes}")
+
+
+def _handle_multiple_matches_interactive(
+    name: str, item_ids: list[int], cache: CacheClient
+) -> None:
+    terminal.error(f"Item name '{name}' matches multiple IDs")
+    terminal.info("\nFetching item details to help you choose...\n")
+
+    wiki_url = f"https://wiki.guildwars2.com/wiki/{name.replace(' ', '_')}"
+    ids_param = ",".join(str(id) for id in item_ids)
+    api_url = f"https://api.guildwars2.com/v2/items?ids={ids_param}"
+
+    terminal.key_value("Wiki page", terminal.link(wiki_url))
+    terminal.key_value("API comparison", terminal.link(api_url))
+
+    terminal.subsection("Matching items")
+    for item_id in item_ids:
+        try:
+            item_data = api.get_item(item_id, cache=cache)
+            rarity = item_data.get("rarity", "Unknown")
+            item_type = item_data.get("type", "Unknown")
+            level = item_data.get("level", 0)
+            terminal.bullet(
+                f"ID {item_id}: {item_data['name']} ({rarity} {item_type}, Lv{level})",
+                indent=2,
+            )
+        except Exception:
+            terminal.bullet(f"ID {item_id}: (error fetching details)", indent=2)
+
+    terminal.info("\nTo resolve this, either:")
+    terminal.bullet("Add a manual override to data/index/item_name_overrides.yaml", indent=2)
+    terminal.bullet("Use --item-id with the specific ID you want", indent=2)
 
 
 def _acquisition_label(acq: dict) -> str:
@@ -210,7 +241,7 @@ def main() -> None:
         tags = args.clear_cache if args.clear_cache else None
         cache.clear_cache(tags)
         tag_str = f" ({', '.join(tags)})" if tags else " (all)"
-        print(f"Cache cleared{tag_str}")
+        terminal.success(f"Cache cleared{tag_str}")
         return
 
     try:
@@ -219,16 +250,14 @@ def main() -> None:
             cleaned_name = api.clean_name(args.item_name)
             matches = index.get(cleaned_name)
             if not matches:
-                print(f"Error: No item found with name '{args.item_name}'", file=sys.stderr)
-                print(f"Searched for cleaned name: '{cleaned_name}'", file=sys.stderr)
+                terminal.error(f"No item found with name '{args.item_name}'")
+                terminal.debug(f"Searched for cleaned name: '{cleaned_name}'")
                 sys.exit(1)
             if len(matches) > 1:
-                print(f"Multiple items match '{args.item_name}':", file=sys.stderr)
-                for mid in matches:
-                    print(f"  --item-id {mid}", file=sys.stderr)
+                _handle_multiple_matches_interactive(args.item_name, matches, cache)
                 sys.exit(1)
             item_id = matches[0]
-            print(f"Resolved '{args.item_name}' to item ID {item_id}")
+            terminal.info(f"Resolved '{args.item_name}' to item ID {item_id}")
         else:
             item_id = args.item_id
 
@@ -241,11 +270,14 @@ def main() -> None:
             strict=args.strict,
         )
 
+    except MultipleItemMatchError as e:
+        _handle_multiple_matches_interactive(e.name, e.item_ids, cache)
+        sys.exit(1)
     except (APIError, WikiError, ExtractionError, ValueError) as e:
-        print(f"Error: {e}", file=sys.stderr)
+        terminal.error(str(e))
         sys.exit(1)
     except Exception as e:
-        print(f"Unexpected error: {e}", file=sys.stderr)
+        terminal.error(f"Unexpected error: {e}")
         sys.exit(1)
 
 

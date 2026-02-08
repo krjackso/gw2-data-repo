@@ -1,0 +1,100 @@
+id: 24324
+name: Destroyer Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/D59CDF80A1C9C061ED729C78BAA5980DAC75BE4C/66975.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Destroyer_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24323
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24323
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Sensor Scouter—Bloodtide Coast
+  achievementCategory: Transfer Chaser
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 6 bonus reward
+- type: pvp_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

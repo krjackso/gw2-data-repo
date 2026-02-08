@@ -1,0 +1,92 @@
+id: 24339
+name: Corrupted Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/31E8DC797FD7369A2824AAB76D414350FFABED95/66985.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Corrupted_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24338
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24338
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 2 Map Bonus Reward - 5 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 7 Map Bonus Reward - 7 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 4 Map Bonus Reward - 3 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 3 Map Bonus Reward - 6 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 6 Map Bonus Reward - 4 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 1 Map Bonus Reward - 4 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 5 Map Bonus Reward - 6 total
+- type: pvp_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

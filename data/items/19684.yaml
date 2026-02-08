@@ -1,0 +1,59 @@
+id: 19684
+name: Mithril Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7B0701F4092237431EDC72340BC89AA126EA4EF0/65913.png
+description: Refined from Ore.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19700
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 300
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19681
+    quantity: 250
+  - itemId: 19684
+    quantity: 1
+  - itemId: 20796
+    quantity: 6
+  - itemId: 24275
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 19686
+    quantity: 250
+  - itemId: 20796
+    quantity: 8
+  - itemId: 24276
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

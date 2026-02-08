@@ -1,0 +1,293 @@
+id: 103049
+name: Refined Homestead Wood
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FC97AA54142A91B4CC0F39C178E55D41DD242A3A/3375063.png
+description: Obtained by refining basic log materials at the Homestead Wood Refiner.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Homestead_Wood
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19726
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19725
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19722
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19724
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19727
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19723
+    quantity: 20
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19723
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19725
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19722
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19724
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19727
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19726
+    quantity: 6
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19723
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19726
+    quantity: 3
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19724
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19727
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 1
+  requirements:
+  - itemId: 19722
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Wood Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 662656
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 657200
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 651920
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 646640
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 641440
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 636240
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 631120
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 626096
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Lumber Mill
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 621600
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: achievement
+  achievementName: Autumn's Vale Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Autumn's Vale Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Forager's Hunt Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Forager's Hunt Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

@@ -1,0 +1,27 @@
+id: 70714
+name: Sheet of Fine Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/674D5BE1181B05FB64B638FD4702DC7CCBB4060F/1201916.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Fine_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19742
+    quantity: 1
+  - itemId: 76411
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 150

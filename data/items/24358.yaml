@@ -1,0 +1,82 @@
+id: 24358
+name: Ancient Bone
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/0EE45FBB1E1A004600E9BAA7097830B2DE08587D/66828.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ancient_Bone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 12
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  - itemId: 24341
+    quantity: 50
+  - itemId: 24358
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 5 bonus reward
+- type: pvp_reward
+  trackName: Jungle Deer Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 8, 3rd reward (38th of 40)

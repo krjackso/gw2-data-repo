@@ -1,0 +1,23 @@
+id: 73193
+name: Spirit of the Perfected Nightsword
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6B5DD09DA341926E63CAD639047F36D8B14EE7DD/1205607.png
+description: Salvaged from the Perfected Nightsword. Used to craft Dusk.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Nightsword
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 75618
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

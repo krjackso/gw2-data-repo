@@ -1,0 +1,54 @@
+id: 19672
+name: Gift of Might
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/2F41032550D4024E184FAD6C1C0C14E53A09BCEA/455852.png
+description: 'A gift used to create legendary weapons.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 250 Vicious Fangs
+
+  • 250 Armored Scales
+
+  • 250 Vicious Claws
+
+  • 250 Ancient Bones'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Might
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24289
+    quantity: 250
+  - itemId: 24351
+    quantity: 250
+  - itemId: 24357
+    quantity: 250
+  - itemId: 24358
+    quantity: 250
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 103820
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  itemId: 90017
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true

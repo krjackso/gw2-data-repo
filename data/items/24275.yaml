@@ -1,0 +1,47 @@
+id: 24275
+name: Pile of Luminous Dust
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/DDCA6504E718CA6DFF08F1483A2F356D0F4AEB4A/434535.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Luminous_Dust
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 20799
+    quantity: 3
+  - itemId: 24274
+    quantity: 250
+  - itemId: 24275
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Available multiple weeks throughout the 8-week rotation in Bloodtide Coast,
+      Dredgehaunt Cliffs, Iron Marches, Blazeridge Steppes, Sparkfly Fen, Harathi
+      Hinterlands, and Timberline Falls
+- type: pvp_reward
+  trackName: Jungle Phoenix Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 5th reward (30th of 40)

@@ -1,0 +1,24 @@
+id: 72142
+name: Essence of Illumination
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B364E3DFA7610BE5CB303F0AA8D55AB73DC1A77A/1205249.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Illumination
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 74499
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

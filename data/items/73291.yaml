@@ -1,0 +1,33 @@
+id: 73291
+name: Mirror
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2D4AB2CEB5E81567EDDFF7C5FA97F864491F2E1C/1205376.png
+description: Used to craft Dusk and Dawn.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mirror
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19687
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

@@ -1,0 +1,348 @@
+id: 102205
+name: Refined Homestead Metal
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A1762DE4A21C1423BEF644BDC17F5E0ACCBB4F43/3375057.png
+description: Obtained by refining basic ore materials at the Homestead Metal Refiner.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Homestead_Metal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19703
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19700
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19698
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19703
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19699
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19697
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19701
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19700
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19702
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19698
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19697
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19701
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19700
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19702
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19698
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19703
+    quantity: 20
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 19699
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 19701
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 19702
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires two Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 19699
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 250
+    notes: 'Requires one Homestead Upgrade: Ore Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 61600
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 62096
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 62600
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 63112
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 63624
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 64144
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 64664
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 65192
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 65720
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Metal Forge
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 66256
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: achievement
+  achievementName: Harvest Den Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Harvest Den Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 30
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Mistburned Barrens Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Mistburned Barrens Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Stricken Plains Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Stricken Plains Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

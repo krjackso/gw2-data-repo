@@ -1,0 +1,27 @@
+id: 71702
+name: Sheet of Smooth Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/03463D0F2AD8440EA20D3C18B45809C10973A52C/1201917.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Smooth_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19744
+    quantity: 1
+  - itemId: 75739
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

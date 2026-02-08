@@ -1,0 +1,39 @@
+id: 19686
+name: Platinum Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3F08D6044B2268BE57972DCB1F0424B5A60F2AEC/65914.png
+description: Refined from Ore.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Platinum_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19702
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    - Scribe
+    minRating: 225
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19682
+    quantity: 250
+  - itemId: 19686
+    quantity: 1
+  - itemId: 20796
+    quantity: 6
+  - itemId: 24275
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

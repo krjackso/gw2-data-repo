@@ -1,0 +1,32 @@
+id: 75322
+name: Charged Thorn
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/01F5F32D4B793A3F59CA5EC91A260ADEE22FDFF9/1203086.png
+vendorValue: 37
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Thorn
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 43772
+    quantity: 1
+  - itemId: 74202
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    - Weaponsmith
+    - Armorsmith
+    - Artificer
+    - Tailor
+    - Huntsman
+    - Leatherworker
+    minRating: 400

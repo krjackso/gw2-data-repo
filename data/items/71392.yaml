@@ -1,0 +1,23 @@
+id: 71392
+name: Spirit of the Perfected Daysword
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F27AB5EC7F783F31E105D703B1F3B637CCEF0898/1205601.png
+description: Salvaged from the Perfected Daysword. Used to craft Dawn.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Daysword
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 75163
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

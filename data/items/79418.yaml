@@ -1,0 +1,64 @@
+id: 79418
+name: Mystic Runestone
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/04296A0273A1DB6866E5180B73F5A3E59E2A0C95/1493223.png
+description: Used in the Mystic Forge to create legendary weapons.
+vendorValue: 660
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Runestone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  metadata:
+    notes: Requires the mastery Scholar of Secrets
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 1
+  metadata:
+    notes: Requires the mastery Scholar of Secrets
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  metadata:
+    notes: Requires the mastery Scholar of Secrets
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 1
+  metadata:
+    notes: Requires the mastery Scholar of Secrets
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  metadata:
+    notes: Requires the mastery Scholar of Secrets
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 1
+  metadata:
+    notes: Requires the mastery Scholar of Secrets

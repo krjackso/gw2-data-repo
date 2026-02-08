@@ -56,21 +56,3 @@ acquisitions:
     quantity: 350
   metadata:
     notes: Requires the skin Triumphant Brigandine
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95080
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95087
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true

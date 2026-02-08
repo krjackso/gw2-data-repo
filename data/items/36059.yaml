@@ -1,0 +1,103 @@
+id: 36059
+name: Plastic Fangs
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/CF1CF7199B7EF969937A7A4E2D3A2652931C5D07/499397.png
+vendorValue: 25
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Plastic_Fangs
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 23038
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 2
+  - itemId: 36061
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 23040
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 2
+  - itemId: 36061
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 7
+  requirements:
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 5
+  - itemId: 36061
+    quantity: 5
+  - itemId: 95906
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 8
+  requirements:
+  - itemId: 23041
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 5
+  - itemId: 36061
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 18
+  requirements:
+  - itemId: 23042
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 11
+  - itemId: 36061
+    quantity: 11
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 45
+  requirements:
+  - itemId: 23043
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 26
+  - itemId: 36061
+    quantity: 26
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 45
+  requirements:
+  - itemId: 23045
+    quantity: 1
+  - itemId: 36038
+    quantity: 1
+  - itemId: 36060
+    quantity: 26
+  - itemId: 36061
+    quantity: 26
+  metadata:
+    recipeType: mystic_forge

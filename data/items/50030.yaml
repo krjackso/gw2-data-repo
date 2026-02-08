@@ -1,0 +1,33 @@
+id: 50030
+name: Found Belonging
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/9E730AACF1D51352E4660A2C924306695795104E/740222.png
+description: Can be consumed for karma or exchanged for goods from Heirloom Lost and
+  Found merchants in the Battle for Lion's Arch or the Durmand Priory in Lornar's
+  Pass.
+vendorValue: 6
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Found_Belonging
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 50071
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: container
+  itemId: 50073
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

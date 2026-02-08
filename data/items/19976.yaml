@@ -1,0 +1,239 @@
+id: 19976
+name: Mystic Coin
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/AB0317DF5B0E1BA47436A5420248660765154C08/62864.png
+description: "Coins are used to create high-level weapons at the Mystic Forge in Lion's\
+  \ Arch. \nPart of Zommoros's favorite trades."
+vendorValue: 50
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Coin
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 1
+  - currencyId: 28
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Wizard's Vault
+  outputQuantity: 1
+  requirements:
+  - currencyId: 63
+    quantity: 9
+  metadata:
+    limitType: season
+    limitAmount: 60
+- type: achievement
+  achievementName: Four Winds Zephyr
+  achievementCategory: Daily Festival of the Four Winds
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bitterfrost Frontier
+  achievementCategory: Return to A Crack in the Ice
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bjora Marches 1
+  achievementCategory: Return to Whisper in the Dark
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bjora Marches 2
+  achievementCategory: Return to Shadow in the Ice
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bloodstone Fen
+  achievementCategory: Return to Out of the Shadows
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Draconis Mons
+  achievementCategory: Return to Flashpoint
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Dragonfall
+  achievementCategory: Return to War Eternal
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Drizzlewood Coast 1
+  achievementCategory: Return to No Quarter
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Drizzlewood Coast 2
+  achievementCategory: Return to Jormag Rising
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Dry Top 1
+  achievementCategory: Return to Gates of Maguuma and Entanglement
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Dry Top 2
+  achievementCategory: Return to The Dragon's Reach
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Ember Bay
+  achievementCategory: Return to Rising Flames
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Grothmar Valley
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Jahai Bluffs
+  achievementCategory: Return to A Star to Guide Us
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Lake Doric
+  achievementCategory: Return to The Head of the Snake
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Silverwastes 1
+  achievementCategory: Return to Echoes of the Past and Tangled Paths
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Silverwastes 2
+  achievementCategory: Return to Seeds of Truth and Point of No Return
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Siren's Landing
+  achievementCategory: Return to One Path Ends
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Thunderhead Peaks
+  achievementCategory: Return to All or Nothing
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to the Domain of Istan
+  achievementCategory: Return to Daybreak
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to the Domain of Kourna
+  achievementCategory: Return to Long Live the Lich
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to the Dragonstorm
+  achievementCategory: Return to Champions
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to the Sandswept Isles
+  achievementCategory: Return to A Bug in the System
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: wvw_reward
+  trackName: Diamond
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Gold
+  outputQuantity: 2
+  requirements: []
+  metadata: {}

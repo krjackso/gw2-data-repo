@@ -1,0 +1,47 @@
+id: 19648
+name: Gift of Twilight
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/01D07FABAE26C0E5240892B00DA7AF90AB0EA022/455828.png
+description: 'A gift used to create the legendary greatsword Twilight.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Gift of Darkness
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Blood'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Twilight
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19631
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24570
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 95957
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

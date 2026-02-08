@@ -1,0 +1,82 @@
+id: 24289
+name: Armored Scale
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/7061C82F4F9D0C585742F545C40A0F06BE0154DC/66527.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Armored_Scale
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 12
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  - itemId: 24288
+    quantity: 50
+  - itemId: 24289
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 8 bonus reward
+- type: pvp_reward
+  trackName: Jungle Shark Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 8, 3rd reward (38th of 40)

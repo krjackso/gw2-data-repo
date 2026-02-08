@@ -1,0 +1,126 @@
+id: 19739
+name: Wool Scrap
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/4F4E176F0B5B040F690AB7AE7B7A6844C83F2D0D/65956.png
+description: Refine into Bolts.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Wool_Scrap
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19718
+    quantity: 250
+  - itemId: 19739
+    quantity: 1
+  - itemId: 20796
+    quantity: 1
+  - itemId: 24273
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 63680
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: salvage
+  itemId: 21660
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21662
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21671
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21672
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 22326
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 22327
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79138
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 75
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Brisban Wildlands
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 60
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Diessa Plateau
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 60
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fields of Ruin
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 60
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Gendarran Fields
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 60
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Kessex Hills
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 80
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Lornar's Pass
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 65
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Snowden Drifts
+    notes: Week 8 bonus reward

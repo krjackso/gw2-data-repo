@@ -1,0 +1,108 @@
+id: 24305
+name: Charged Lodestone
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/02EFB1C5E11B2FF4B4AC25A84E2302D244C82AA3/66958.png
+vendorValue: 63
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Lodestone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24304
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24304
+    quantity: 2
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Stormcaller Armsmaster
+  achievementCategory: No Quarter
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Stormcaller Armsmaster
+  achievementCategory: No Quarter
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 88954
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: salvage
+  itemId: 43556
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45043
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward (8 total)
+- type: map_reward
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    notes: Week 5 bonus reward (8 total)
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward (7 total)
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward (5 total)
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Week 4 bonus reward (5 total) - Currently active
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward (4 total)
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: Week 3 bonus reward (7 total)

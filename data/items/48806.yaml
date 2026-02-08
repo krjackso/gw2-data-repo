@@ -1,0 +1,30 @@
+id: 48806
+name: Tyria's Best Nougat Center
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/5C04007291E2AA26AEA65FB0D62E7303B303B45F/648143.png
+description: Used in the creation of the crafting recipe for Gift of Souls.
+vendorValue: 37
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Tyria's_Best_Nougat_Center
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Candy Corn Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 36061
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Halloween
+- type: vendor
+  vendorName: Halloween Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 36061
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Halloween

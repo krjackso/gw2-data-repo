@@ -1,0 +1,39 @@
+id: 19687
+name: Silver Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/33150406A468526276071A0D0AD678B9F1D6EDCA/65915.png
+description: Refined from Ore.
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Silver_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19703
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    - Scribe
+    minRating: 75
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19680
+    quantity: 250
+  - itemId: 19687
+    quantity: 1
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24273
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

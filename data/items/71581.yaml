@@ -1,0 +1,105 @@
+id: 71581
+name: Memory of Battle
+type: CraftingMaterial
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/E4D0455D2EFDB0DFC008F4564B38D6545901A05B/1206833.png
+description: Found in World vs. World reward tracks.
+vendorValue: 50
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Battle
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: World vs. World Rush Champion
+  achievementCategory: World vs. World Rush
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Camp Capturer 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Caravan Disruptor 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Castle Capturer
+  achievementCategory: World vs. World Rush
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Guard Killer 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Keep Capturer 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Land Claimer 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Player vs. Player 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: WvW Rush Tower Capturer 2
+  achievementCategory: World vs. World Rush
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: wvw_reward
+  trackName: WvW Reward Track
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    notes: Usually 5 at 2nd reward and 10 at 22nd reward per track. Gift of Battle
+      Item Reward Track gives 25, Guildrider Warclaw Skin Reward Track gives 50. Dragon
+      Bash, Halloween, and Festival of the Four Winds Reward Tracks give 10 each.
+- type: pvp_reward
+  trackName: Skirmish Reward Track
+  outputQuantity: 104
+  requirements: []
+  metadata:
+    notes: 'Grand total for completing Diamond tier first time per week. Wood: 5 total
+      (1 per minor tier, 2 final), Bronze: 6 total (1 per minor tier, 3 final), Silver:
+      12 total (2 per minor tier, 4 final), Gold: 13 total (2 per minor tier, 5 final),
+      Platinum: 18 total (3 per minor tier, 6 final), Mithril: 22 total (3 per minor
+      tier, 7 final), Diamond: 24 first completion or 28 total (4 per minor tier,
+      8 final, 4 repeatable)'

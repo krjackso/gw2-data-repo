@@ -1,0 +1,79 @@
+id: 24329
+name: Crystal Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/D75C7D66B6589636E00AA45B20EB061305B5C52B/66979.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24328
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24328
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 5 bonus
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: Week 2 bonus
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 7 bonus
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 6 bonus
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Week 1 bonus
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 4 bonus
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Week 8 bonus
+- type: pvp_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 4, 2nd reward (17th of 40)

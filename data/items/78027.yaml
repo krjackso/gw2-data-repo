@@ -1,0 +1,32 @@
+id: 78027
+name: Super Cloud
+type: Gizmo
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D92DD6C5A40EF5042A98C54F78759FA5EE06B9FB/1418355.png
+description: Deposit this decoration in the guild's decoration storage.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Super_Cloud
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Fion
+  outputQuantity: 1
+  requirements:
+  - itemId: 78062
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata:
+    notes: Requires the festival Super Adventure Festival

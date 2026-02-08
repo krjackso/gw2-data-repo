@@ -1,0 +1,27 @@
+id: 93012
+name: Emblem of Tournament Victory
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C959D395C4EAE74CCFC62831D450DBA3B0A37855/2270826.png
+description: In the Mystic Forge, combine Slumbering Transcendence, 250 Unidentified
+  Dyes, an Emblem of Tournament Victory, and an Essence of Llamatic Elegance to create
+  Transcendence.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Emblem_of_Tournament_Victory
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: Emblem of Tournament Victory
+  achievementCategory: PvP Conqueror
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

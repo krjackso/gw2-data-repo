@@ -1,0 +1,42 @@
+id: 19721
+name: Glob of Ectoplasm
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/18CE5D78317265000CF3C23ED76AB3CEE86BA60E/65941.png
+description: Salvage Item
+vendorValue: 256
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Ectoplasm
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Candy Corn Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 48807
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Halloween
+- type: vendor
+  vendorName: Candy Corn Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 48806
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Halloween
+- type: vendor
+  vendorName: Candy Corn Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 48805
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Halloween

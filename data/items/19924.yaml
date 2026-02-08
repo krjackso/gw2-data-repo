@@ -1,0 +1,21 @@
+id: 19924
+name: Lump of Primordium
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3728DC6E10FA4DADCD3B0918A70FAE9DEA96BDD4/65962.png
+description: Used with Platinum to refine Darksteel. Can be purchased from Master
+  Craftsmen.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lump_of_Primordium
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Master Craftsman
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  metadata: {}

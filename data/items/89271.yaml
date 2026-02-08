@@ -1,0 +1,38 @@
+id: 89271
+name: Pile of Lucent Crystal
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/607AA1A4574FA66006FFB57C0B2DDBAAFDE50CD6/2063471.png
+description: Refined from lucent motes. Used to craft runes and sigils.
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Lucent_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 89140
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Scribe
+    - Huntsman
+    minRating: 0
+- type: container
+  itemId: 105332
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 20
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

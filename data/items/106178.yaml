@@ -16,10 +16,9 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Selachimorpha
 lastUpdated: '2026-02-07'
 acquisitions:
 - type: container
+  itemId: 105743
   outputQuantity: 1
-  requirements:
-  - itemId: 105743
-    quantity: 1
+  requirements: []
   metadata:
     guaranteed: true
     choice: false

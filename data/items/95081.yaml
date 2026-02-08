@@ -1,0 +1,31 @@
+id: 95081
+name: Memory of Sunrise
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7160900270BB9FF5FBBFD5A85F4E0750EFB32256/2467755.png
+description: 'Can be used in the Mystic Forge in place of Sunrise to add the greatsword
+  Eternity to your Legendary Armory.
+
+  <c=@warning>If you have two instances of Eternity unlocked in the armory, please
+  contact Customer Support.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Sunrise
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements:
+  - itemId: 30703
+    quantity: 1
+  metadata:
+    notes: Automatically obtained when adding Sunrise to your Legendary Armory. This
+      includes when Sunrise is automatically added to the Armory when logging in on
+      a character with Sunrise equipped or account-bounded in the inventory for the
+      first time after the release of the Legendary Armory on July 13, 2021.

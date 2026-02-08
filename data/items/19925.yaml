@@ -1,0 +1,526 @@
+id: 19925
+name: Obsidian Shard
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/AE16FCC326D80A3906B17B6A75E8A91980BE4670/434362.png
+vendorValue: 300
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Alaleh
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: BUY-4373
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 7
+    quantity: 30
+  metadata: {}
+- type: vendor
+  vendorName: Brass Nettlemoor
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Putting Out Fires.
+- type: vendor
+  vendorName: Ethall
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Exalted Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 22
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Exalted Acceptance.
+- type: vendor
+  vendorName: Exalted Mastery Vendor
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 22
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Exalted Acceptance.
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 50
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Four Winds Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 50
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Fractal Reliquary
+  outputQuantity: 3
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Guest Elder
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Heirloom Lost and Found
+  outputQuantity: 1
+  requirements:
+  - itemId: 50030
+    quantity: 50
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Itzel Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 19
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Itzel Language.
+- type: vendor
+  vendorName: Itzel Mastery Vendor
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 19
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Itzel Language.
+- type: vendor
+  vendorName: Jale
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Jocasta
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Karnn Fallenskull
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Kriss
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Kynon
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Laurel Merchant
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 15
+  requirements:
+  - itemId: 71581
+    quantity: 20
+  - currencyId: 26
+    quantity: 45
+  metadata: {}
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 15
+  requirements:
+  - itemId: 71581
+    quantity: 20
+  - currencyId: 26
+    quantity: 45
+  metadata: {}
+- type: vendor
+  vendorName: Merit Professor Rizzak
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Nalar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Natto
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 32
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Nicola
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Nuhoch Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 20
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Nuhoch Mastery Vendor
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 20
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Nuhoch Stomper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 20
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Nuhoch Stomper
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 20
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Priory Historian
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 27
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Priory Historian
+  outputQuantity: 5
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  - currencyId: 27
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Provisioner Anlana
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 32
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Ferraro
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 27
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Ferraro
+  outputQuantity: 5
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  - currencyId: 27
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Hitchens
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 32
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Melyn
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 27
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Melyn
+  outputQuantity: 5
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  - currencyId: 27
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Munitius
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 27
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Munitius
+  outputQuantity: 5
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  - currencyId: 27
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Seppa
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 27
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Seppa
+  outputQuantity: 5
+  requirements:
+  - currencyId: 1
+    quantity: 480
+  - currencyId: 27
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Rally Provisioner
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 5
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 15
+  requirements:
+  - itemId: 71581
+    quantity: 20
+  - currencyId: 26
+    quantity: 45
+  metadata: {}
+- type: vendor
+  vendorName: Slooshoo
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 32
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  - currencyId: 1
+    quantity: 2400
+  metadata: {}
+- type: vendor
+  vendorName: Supplymaster Hanjo
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 32
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Suspicious Heirloom Lost and Found
+  outputQuantity: 1
+  requirements:
+  - itemId: 50030
+    quantity: 50
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Tactician Deathstrider
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 2100
+  metadata: {}
+- type: vendor
+  vendorName: Tactician Deathstrider
+  outputQuantity: 10
+  requirements:
+  - currencyId: 2
+    quantity: 21000
+  metadata: {}
+- type: vendor
+  vendorName: Tenoch
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 20
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Tenoch
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 20
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Nuhoch Language.
+- type: vendor
+  vendorName: Trader Hyacinth
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 96
+  - currencyId: 45
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Varka
+  outputQuantity: 3
+  requirements:
+  - currencyId: 3
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 3
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Xochitl
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  - currencyId: 19
+    quantity: 25
+  metadata:
+    notes: Requires the mastery Itzel Language.
+- type: vendor
+  vendorName: Xochitl
+  outputQuantity: 5
+  requirements:
+  - currencyId: 2
+    quantity: 5250
+  - currencyId: 19
+    quantity: 125
+  metadata:
+    notes: Requires the mastery Itzel Language.
+- type: wizards_vault
+  outputQuantity: 1
+  requirements:
+  - currencyId: 63
+    quantity: 30
+  metadata:
+    limitAmount: 20

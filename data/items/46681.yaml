@@ -1,0 +1,16 @@
+id: 46681
+name: Glob of Dark Matter
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/2C3CCBD8A8C7B97F1BB0D4EA30D447130E01160C/631468.png
+description: Used in crafting Ascended items.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Dark_Matter
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,13 @@
+id: 89098
+name: Symbol of Control
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/BF26E2BE4C6F3F0F24194A0B0209800DB9E8D118/2063469.png
+description: Used to craft sigils.
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Symbol_of_Control
+lastUpdated: '2026-02-08'
+acquisitions: []

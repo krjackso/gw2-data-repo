@@ -28,21 +28,3 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95080
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95087
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true

@@ -1,0 +1,275 @@
+id: 41886
+name: Bauble Bubble
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/231E351E042921F8BE94B2E3717D2DF734D4B9F4/561863.png
+description: A bubble of compressed baubles from Super Adventure Box. Trade these
+  with Super Adventure Festival merchants.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bauble_Bubble
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Coin Machine
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Moto
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Sarettokk
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  metadata:
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Sparking Stone
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 30
+  - currencyId: 1
+    quantity: 40000
+  metadata:
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 80890
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 15
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 6
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 80000
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 80000
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Super Adventure Festival
+- type: vendor
+  vendorName: Sven Edson
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 64
+  - currencyId: 1
+    quantity: 50000
+  metadata: {}
+- type: achievement
+  achievementName: (Annual) Flight of the Bumble Pugs
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 1 Challenge
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 1 Classic
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 1 Warm-Up
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 2 Challenge
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 2 Classic
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 2 Warm-Up
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) World 3 Testing
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Zone Runner
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Catch and Release
+  achievementCategory: 'Super Adventure Box: Quality Testing'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Ooze Herding
+  achievementCategory: 'Super Adventure Box: Nostalgia'
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: The Glitched Adventure
+  achievementCategory: Festival Collections
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: The Super Adventure
+  achievementCategory: Festival Collections
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Completing the dynamic event Cut ooze cake! (once per day)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: One earned from completing a bonus round (Cart), once per day
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: One earned from completing a bonus round (Robbers), once per day

@@ -1,0 +1,45 @@
+id: 20797
+name: Bloodstone Shard
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D9F626FA79AA0C49436337B1C767023CCF14EFF9/434426.png
+description: A shard of pure power used to create legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bloodstone_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 200
+  metadata: {}

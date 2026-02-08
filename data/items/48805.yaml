@@ -1,0 +1,30 @@
+id: 48805
+name: High-Quality Plastic Fangs
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/F13AC2EC1990C5D97DFCF547D30CCA06340EB20E/648142.png
+description: Used in the creation of the crafting recipe for Gift of Spiders.
+vendorValue: 37
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/High-Quality_Plastic_Fangs
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Candy Corn Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 36059
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Halloween
+- type: vendor
+  vendorName: Halloween Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 36059
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Halloween

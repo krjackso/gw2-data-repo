@@ -1,0 +1,53 @@
+id: 20796
+name: Philosopher's Stone
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/68FF9617BA1BE1AD58E83E4209AEF0FB58950702/434425.png
+description: Used by the Mystic Forge to change one material into another.
+vendorValue: 6
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Philosopher's_Stone
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Rift Researcher Adam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 6
+  - currencyId: 1
+    quantity: 288
+  metadata: {}

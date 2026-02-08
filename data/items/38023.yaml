@@ -1,0 +1,51 @@
+id: 38023
+name: Glob of Coagulated Mists Essence
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/7159DCB9BA92C064A4E6699B42225EAAC3B31F2B/512006.png
+description: Earned by playing Fractals of the Mists scales 21–50.
+vendorValue: 79
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Coagulated_Mists_Essence
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19976
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 38014
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 19976
+    quantity: 1
+  - itemId: 23043
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 38024
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: INFUZ-5959
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 9600
+  - currencyId: 7
+    quantity: 100
+  metadata:
+    notes: Requires the mastery Follows Advice.

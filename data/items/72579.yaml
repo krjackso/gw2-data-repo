@@ -1,0 +1,34 @@
+id: 72579
+name: Sheet of Coarse Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/3E3CB8B5ED53AA4E099BE4F40160E45A2859F173/1201914.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 4
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Coarse_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19720
+    quantity: 1
+  - itemId: 76708
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0
+- type: container
+  itemId: 78884
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

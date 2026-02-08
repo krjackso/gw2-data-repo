@@ -1,0 +1,22 @@
+id: 90021
+name: 'Tournament of Legends: Mastery or Fortune'
+type: Container
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png
+description: Double-click to receive your rewards.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tournament_of_Legends:_Mastery_or_Fortune
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Obtained by placing third or fourth in the Tournament of Legends (Automated
+      Tournaments). Contains a choice between Gift of Mastery or Gift of Fortune.

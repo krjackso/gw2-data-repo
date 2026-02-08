@@ -1,0 +1,141 @@
+id: 23043
+name: Master's Salvage Kit
+type: Tool
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/75FB93F7EA0D3CFC0E023D1C72BE205457F905F7/66768.png
+description: Double-click to salvage crafting materials from an item in your inventory.
+  25% chance of rarer materials. 80% chance of salvaging upgrades.
+vendorValue: 192
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Master's_Salvage_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Any merchant or Master craftsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 153600
+  metadata: {}
+- type: vendor
+  vendorName: Cin Fursarai
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata:
+    notes: Requires the achievement Putting Out Fires
+- type: vendor
+  vendorName: King Reza
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Milin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Mist Warden Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata:
+    notes: Requires the achievement Cutting Weeds
+- type: vendor
+  vendorName: Noran
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata:
+    notes: Requires the achievement Life in the Underworld
+- type: vendor
+  vendorName: Priest Sazeer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Akina
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Queen Mahtab
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Queen Yasamin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Researcher Thale
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Scientist Vratt
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Second-to-Last-Or-So Mate Bowz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Svanir Seer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 5600
+  metadata: {}
+- type: vendor
+  vendorName: Zephyrite merchants
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 80000
+  - currencyId: 25
+    quantity: 10
+  metadata: {}

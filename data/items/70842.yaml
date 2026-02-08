@@ -1,0 +1,45 @@
+id: 70842
+name: Mordrem Lodestone
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1ABBBC6D026544723A9D001DC41757746206C5F7/1203019.png
+vendorValue: 63
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mordrem_Lodestone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 66932
+    quantity: 2
+  metadata:
+    recipeType: crafting
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Verdant Brink
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dropped by Veteran Void Thornheart (The Jade Whirl, Dragon's End)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dropped by Void Stormseer (Dragon's End)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dropped by Void Worm (Dragon's End)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Received after completion of Blighting Tower events in Dragon's Stand

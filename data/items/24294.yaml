@@ -1,0 +1,27 @@
+id: 24294
+name: Vial of Potent Blood
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/99AAE49EABF9A2415940FDB83CA1CE5E6E256020/66949.png
+vendorValue: 11
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Potent_Blood
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 6
+  outputQuantityMin: 6
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24293
+    quantity: 50
+  - itemId: 24294
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

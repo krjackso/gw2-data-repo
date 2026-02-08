@@ -7,8 +7,7 @@ icon: https://render.guildwars2.com/file/1AB22A149E9B807AA726CC6B1D7D0435A840A30
 description: 'Used to create legendary weapon and trinket gift items.
 
 
-  Purchased from Rojan the Penitent in Frostgorge Sound after successfully defeating
-  the Claw of Jormag.'
+  Purchased from Rojan the Penitent in Frostgorge Sound after successfully defeating the Claw of Jormag.'
 vendorValue: 1250
 flags:
 - AccountBound
@@ -33,10 +32,9 @@ acquisitions:
     quantity: 1
   metadata: {}
 - type: container
+  itemId: 67219
   outputQuantity: 1
-  requirements:
-  - itemId: 67219
-    quantity: 1
+  requirements: []
   metadata:
     guaranteed: true
     choice: false

@@ -15,7 +15,7 @@ flags:
 - AccountBindOnUse
 - DeleteWarning
 wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Exploration
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: map_reward
   outputQuantity: 2
@@ -23,5 +23,6 @@ acquisitions:
   metadata:
     rewardType: world_completion
     regionName: Central Tyria
-    notes: Rewarded upon completing all explorable zones in Central Tyria. Each character
-      can only earn this reward once, receiving 2 Gifts of Exploration.
+    notes: Awarded upon completing World Completion (map completing all explorable
+      zones in Central Tyria). Each character can achieve this only once and therefore
+      can only earn two Gifts of Exploration.

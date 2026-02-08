@@ -40,21 +40,3 @@ acquisitions:
   - currencyId: 33
     quantity: 100
   metadata: {}
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95080
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 95087
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true

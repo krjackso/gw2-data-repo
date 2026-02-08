@@ -1,0 +1,31 @@
+id: 24350
+name: Large Claw
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/3A4D64F4CE2951F358DE0AFCEA6551050FB4B4A7/66420.png
+vendorValue: 11
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Large_Claw
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24349
+    quantity: 50
+  - itemId: 24350
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: pvp_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 5
+  requirements: []

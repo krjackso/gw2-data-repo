@@ -1,0 +1,32 @@
+id: 24341
+name: Large Bone
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/13F077BA5D5C6324CFCB0A2E39050F24A441190B/66987.png
+vendorValue: 11
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Large_Bone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24341
+    quantity: 1
+  - itemId: 24345
+    quantity: 50
+  metadata:
+    recipeType: mystic_forge
+- type: pvp_reward
+  trackName: Jungle Deer Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

@@ -15,7 +15,7 @@ import yaml
 
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
-from gw2_data.exceptions import APIError
+from gw2_data.exceptions import APIError, MultipleItemMatchError
 from gw2_data.types import BulkResult, GW2Item, GW2Recipe
 
 log = logging.getLogger(__name__)
@@ -209,9 +209,7 @@ def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:
     if not matches:
         raise APIError(f"Item name '{name}' not found in index (cleaned: '{cleaned}')")
     if len(matches) > 1:
-        raise APIError(
-            f"Item name '{name}' matches multiple IDs: {matches}. Cannot resolve automatically."
-        )
+        raise MultipleItemMatchError(name, matches)
     return matches[0]
 
 

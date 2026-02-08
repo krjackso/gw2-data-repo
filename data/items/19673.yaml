@@ -1,0 +1,54 @@
+id: 19673
+name: Gift of Magic
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/992EC43FA1317BED252DB9D09905C601160B0E01/455853.png
+description: 'A gift used to create legendary weapons.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 250 Vials of Powerful Blood
+
+  • 250 Powerful Venom Sacs
+
+  • 250 Elaborate Totems
+
+  • 250 Piles of Crystalline Dust'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Magic
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 250
+  - itemId: 24283
+    quantity: 250
+  - itemId: 24295
+    quantity: 250
+  - itemId: 24300
+    quantity: 250
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 103820
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  itemId: 90017
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true

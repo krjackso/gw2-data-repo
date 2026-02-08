@@ -1,0 +1,55 @@
+id: 19674
+name: Gift of Mastery
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D4E560D3197437F0010DB4B6B2DBEA7D58E9DC27/455854.png
+description: 'A gift used to create legendary weapons.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Bloodstone Shard
+
+  • 250 Obsidian Shards
+
+  • 1 Gift of Exploration
+
+  • 1 Gift of Battle'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Mastery
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19677
+    quantity: 1
+  - itemId: 19678
+    quantity: 1
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Tournament of Legends
+  achievementCategory: Automated Tournaments
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 90021
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true

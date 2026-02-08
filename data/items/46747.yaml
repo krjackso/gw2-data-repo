@@ -1,0 +1,23 @@
+id: 46747
+name: Thermocatalytic Reagent
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/090DF0E7AFD6AD9A6C9FC31CCE510A05663D0A0E/631495.png
+description: Used in the crafting of ascended items. Can be purchased from master
+  craftsmen.
+vendorValue: 80
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Thermocatalytic_Reagent
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Master craftsman
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 1496
+  metadata:
+    notes: Only at master craftsmen for weaponsmith, huntsman, artificer, armorsmith,
+      leatherworker, and tailor.

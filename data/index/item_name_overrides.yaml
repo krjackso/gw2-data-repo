@@ -352,3 +352,12 @@ Relic of the Wayfinder: 101943
 Relic of the Weaver: 100194
 Relic of the Wizard's Tower: 100557
 Relic of the Zephyrite: 100893
+
+# The two are identical, so just pick the first one
+Magic-Warped Bundle: 79186
+
+# Pick the newer one since it contains an extra item
+Box of Super Adventure Box Goods: 80862
+
+# Pick the newer one
+Ornate Watchwork Box: 63862

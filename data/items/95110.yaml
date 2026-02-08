@@ -1,0 +1,43 @@
+id: 95110
+name: Eternity
+type: Container
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A30DA1A1EF05BD080C95AE2EF0067BADCDD0D89D/456014.png
+description: Double click to receive your returned legendary weapon.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Eternity
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20796
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  - itemId: 30703
+    quantity: 1
+  - itemId: 30704
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20796
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  - itemId: 95081
+    quantity: 1
+  - itemId: 95086
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

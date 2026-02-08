@@ -1,0 +1,43 @@
+id: 19685
+name: Orichalcum Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D1941454313ACCB234906840E1FB401D49091B96/220460.png
+description: Refined from Ore.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Orichalcum_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19701
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Scribe
+    - Weaponsmith
+    minRating: 400
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19684
+    quantity: 250
+  - itemId: 19685
+    quantity: 1
+  - itemId: 20796
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

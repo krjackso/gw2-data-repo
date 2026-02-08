@@ -1,0 +1,56 @@
+id: 29169
+name: Dawn
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/3FFD779A1401D250E6FBAABB1E544DF5FFB3C9DD/1202490.png
+description: '<c=@flavor>This weapon is used to craft the legendary greatsword Sunrise.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Sunrise
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dawn
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71392
+    quantity: 1
+  - itemId: 72142
+    quantity: 1
+  - itemId: 73291
+    quantity: 1
+  - itemId: 73411
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 96861
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: container
+  itemId: 90018
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true

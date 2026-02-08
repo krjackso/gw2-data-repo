@@ -41,27 +41,16 @@ acquisitions:
     - Weaponsmith
     minRating: 500
 - type: container
+  itemId: 97519
   outputQuantity: 1
-  requirements:
-  - itemId: 97519
-    quantity: 1
+  requirements: []
   metadata:
     guaranteed: true
     choice: false
 - type: container
+  itemId: 90018
   outputQuantity: 1
-  requirements:
-  - itemId: 90018
-    quantity: 1
-  metadata:
-    guaranteed: false
-    choice: true
-- type: container
-  discontinued: true
-  outputQuantity: 1
-  requirements:
-  - itemId: 43633
-    quantity: 1
+  requirements: []
   metadata:
     guaranteed: false
     choice: true

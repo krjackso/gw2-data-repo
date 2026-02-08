@@ -1,0 +1,45 @@
+id: 38014
+name: Vial of Condensed Mists Essence
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/471602ACD77D69F968156F01F1D872237703C043/512001.png
+description: Earned by playing Fractals of the Mists scales 1–20.
+vendorValue: 79
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Condensed_Mists_Essence
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 19976
+    quantity: 1
+  - itemId: 23043
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 38023
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: INFUZ-5959
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 3200
+  - currencyId: 7
+    quantity: 30
+  metadata:
+    notes: Requires the mastery Follows Advice.
+- type: container
+  itemId: 94013
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

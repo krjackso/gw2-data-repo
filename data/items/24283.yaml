@@ -1,0 +1,88 @@
+id: 24283
+name: Powerful Venom Sac
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/543EC37900EA2A57E77FA891193A48D66AA224AB/66939.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Powerful_Venom_Sac
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 12
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  - itemId: 24282
+    quantity: 50
+  - itemId: 24283
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 4 bonus reward
+- type: pvp_reward
+  trackName: Jungle Dolyak Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 8, 3rd reward, 38th of 40
+- type: pvp_reward
+  trackName: Jungle Rabbit Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 8, 3rd reward, 38th of 40

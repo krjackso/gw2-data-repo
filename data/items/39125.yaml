@@ -1,0 +1,80 @@
+id: 39125
+name: Mystic Binding Agent
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/2CB9736615E23CC0630B09B774CAA20FE9639906/534216.png
+description: Replaces Elonian wine in some Mystic Forge recipes involving slivers,
+  fragments, shards, and cores.
+vendorValue: 16
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Binding_Agent
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Brass Nettlemoor
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Guest Elder
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Jale
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Jocasta
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Kriss
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Laurel Merchant
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Merit Professor Rizzak
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Nicola
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Varka
+  outputQuantity: 10
+  requirements:
+  - currencyId: 3
+    quantity: 10
+  metadata: {}

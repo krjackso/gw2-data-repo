@@ -1,0 +1,33 @@
+id: 19678
+name: Gift of Battle
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/EB593444A3ED065F7BE3EC71713CF80D145EABCB/455858.png
+description: 'A gift used in legendary crafting.
+
+
+  Acquired from the WvW Gift of Battle Item Reward Track.
+
+
+  To create the Gift of War Prosperity, combine this in the Mystic Forge with:
+
+  • 15 Mystic Clovers
+
+  • 1 Gift of Condensed Might
+
+  • 1 Gift of Condensed Magic'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Battle
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: wvw_reward
+  trackName: Gift of Battle Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

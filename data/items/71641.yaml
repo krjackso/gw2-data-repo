@@ -1,0 +1,542 @@
+id: 71641
+name: Pile of Coarse Sand
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/D838CB1BF7D49E1725EBB1F3ABD00C55EB67CE1E/1205401.png
+description: Filtered out of Silky Sand.
+vendorValue: 13
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Coarse_Sand
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 72579
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 1
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 1
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 68952
+    quantity: 3
+  - itemId: 71641
+    quantity: 10
+  - itemId: 102306
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 75
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 74852
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24306
+    quantity: 2
+  - itemId: 71641
+    quantity: 5
+  - itemId: 103049
+    quantity: 24
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 150
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 75762
+    quantity: 1
+  - itemId: 102205
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 150
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 69466
+    quantity: 2
+  - itemId: 71641
+    quantity: 5
+  - itemId: 102306
+    quantity: 24
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 150
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19718
+    quantity: 10
+  - itemId: 71641
+    quantity: 1
+  - itemId: 103049
+    quantity: 28
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 150
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 70714
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 150
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19924
+    quantity: 16
+  - itemId: 70926
+    quantity: 1
+  - itemId: 71641
+    quantity: 8
+  - itemId: 78027
+    quantity: 16
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 200
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 75762
+    quantity: 1
+  - itemId: 103049
+    quantity: 26
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 68955
+    quantity: 2
+  - itemId: 71641
+    quantity: 9
+  - itemId: 102306
+    quantity: 28
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 66929
+    quantity: 2
+  - itemId: 71641
+    quantity: 8
+  - itemId: 102306
+    quantity: 26
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24307
+    quantity: 2
+  - itemId: 71641
+    quantity: 10
+  - itemId: 102205
+    quantity: 27
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19739
+    quantity: 10
+  - itemId: 71641
+    quantity: 10
+  - itemId: 103049
+    quantity: 26
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 71702
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24314
+    quantity: 1
+  - itemId: 71641
+    quantity: 3
+  - itemId: 102205
+    quantity: 28
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 300
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24314
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  - itemId: 102205
+    quantity: 32
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    minRating: 300
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71136
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 300
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 10
+  - itemId: 19709
+    quantity: 10
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 300
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24305
+    quantity: 1
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24339
+    quantity: 10
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24329
+    quantity: 10
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24324
+    quantity: 10
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 46747
+    quantity: 1
+  - itemId: 70842
+    quantity: 2
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24319
+    quantity: 10
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 1
+  - itemId: 24334
+    quantity: 10
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 350
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46747
+    quantity: 1
+  - itemId: 71641
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71148
+    quantity: 1
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 400
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24277
+    quantity: 25
+  - itemId: 46738
+    quantity: 3
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19680
+    quantity: 250
+  - itemId: 24277
+    quantity: 15
+  - itemId: 49782
+    quantity: 1
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19683
+    quantity: 250
+  - itemId: 19684
+    quantity: 150
+  - itemId: 46738
+    quantity: 5
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 10
+  - itemId: 76491
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19687
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 10
+  - itemId: 24315
+    quantity: 5
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 50
+  - itemId: 24522
+    quantity: 10
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

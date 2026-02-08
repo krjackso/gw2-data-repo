@@ -1,0 +1,29 @@
+id: 95086
+name: Memory of Twilight
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B8B40BED28CCA6D3C979F8FEC117507423B4560E/2467756.png
+description: 'Can be used in the Mystic Forge in place of Twilight to add the greatsword
+  Eternity to your Legendary Armory.
+
+  <c=@warning>If you have two instances of Eternity unlocked in the armory, please
+  contact Customer Support.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Twilight
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: achievement
+  achievementName: Adding Twilight to the Legendary Armory
+  achievementCategory: Legendary Armory
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

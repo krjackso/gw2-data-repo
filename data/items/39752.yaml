@@ -1,0 +1,17 @@
+id: 39752
+name: Bauble
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/AE5AE77B1B291BA6A418B9F80B43CF3D437D0806/561983.png
+description: Spend these in shops inside the Super Adventure Box.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bauble
+lastUpdated: '2026-02-08'
+acquisitions: []

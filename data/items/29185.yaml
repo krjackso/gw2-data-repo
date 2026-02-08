@@ -1,0 +1,161 @@
+id: 29185
+name: Dusk
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/6BE1D2BE3BAE4A9B08CF6EB1AFFFA4F20D7F9091/1202492.png
+description: '<c=@flavor>This weapon is used to craft the legendary greatsword Twilight.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Twilight
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dusk
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73193
+    quantity: 1
+  - itemId: 73291
+    quantity: 1
+  - itemId: 73411
+    quantity: 1
+  - itemId: 76379
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 95957
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: container
+  itemId: 90018
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true
+- type: container
+  itemId: 77661
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93051
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93038
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93004
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93035
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93211
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93230
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93195
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93273
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 107137
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93786
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93222
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93221
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93131
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 93158
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false

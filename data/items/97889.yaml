@@ -1,0 +1,21 @@
+id: 97889
+name: Legendary Choice Box
+type: Container
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6E9FA3C99A223677280CD9154A3FB50E2B43AE5B/66895.png
+description: Double-click to receive your rewards.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Choice_Box
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: pvp_reward
+  trackName: Tournament of Legends
+  outputQuantity: 1
+  requirements: []

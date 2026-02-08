@@ -1,0 +1,40 @@
+id: 24277
+name: Pile of Crystalline Dust
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/080D00670558CD9E580D5662030394B2206E92A6/434537.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Crystalline_Dust
+lastUpdated: '2026-02-07'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 6
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 20799
+    quantity: 5
+  - itemId: 24276
+    quantity: 250
+  - itemId: 24277
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 19721
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 1 - Straits of Devastation; Week 2 - Malchor's Leap and Fireheart Rise; Week 3 - Straits of Devastation and Cursed Shore; Week 4 - Fireheart Rise and Frostgorge Sound; Week 5 - Mount Maelstrom and Cursed Shore; Week 6 - Frostgorge Sound; Week 7 - Mount Maelstrom and Malchor's Leap; Week 8 - Straits of Devastation
+- type: pvp_reward
+  trackName: Jungle Phoenix Rank Reward Track
+  outputQuantity: 5
+  requirements: []

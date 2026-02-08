@@ -1,0 +1,42 @@
+id: 19737
+name: Cured Hardened Leather Square
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/BB34A319132236042659CE7B31DF6FA890FF6501/65954.png
+description: Refined from Sections.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cured_Hardened_Leather_Square
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19732
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Armorsmith
+    minRating: 400
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19735
+    quantity: 250
+  - itemId: 19737
+    quantity: 1
+  - itemId: 20796
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

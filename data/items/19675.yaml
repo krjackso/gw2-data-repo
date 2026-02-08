@@ -1,0 +1,324 @@
+id: 19675
+name: Mystic Clover
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/FE9DC3E10D4B2AE16DADEB07CF28A058570E2EF3/455855.png
+description: 'Used to create legendary equipment.
+
+
+  Can be purchased from some vendors, earned from some reward tracks, and randomly
+  made in the Mystic Forge by combining:
+
+  • Obsidian Shards
+
+  • Mystic Coins
+
+  • Globs of Ectoplasm
+
+  • Philosopher''s Stones or Mystic Crystals'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Clover
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 19976
+    quantity: 1
+  - itemId: 20796
+    quantity: 6
+  metadata: {}
+- type: mystic_forge
+  outputQuantity: 10
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 10
+  - itemId: 19976
+    quantity: 10
+  - itemId: 20799
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: BUY-4373
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 7
+    quantity: 150
+  - currencyId: 23
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Dugan
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 15
+    quantity: 10
+  - currencyId: 26
+    quantity: 20
+  metadata:
+    limitType: weekly
+    limitAmount: 5
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 30
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 5
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - itemId: 93012
+    quantity: 1
+  - currencyId: 23
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 5
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 3
+  - itemId: 19976
+    quantity: 3
+  - currencyId: 23
+    quantity: 3
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 15
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 3
+  - itemId: 19976
+    quantity: 3
+  - currencyId: 23
+    quantity: 3
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 3
+  - itemId: 19976
+    quantity: 3
+  - currencyId: 23
+    quantity: 3
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 3
+  - itemId: 19976
+    quantity: 3
+  - currencyId: 23
+    quantity: 3
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: New Year Rewards
+  outputQuantity: 1
+  requirements:
+  - itemId: 45178
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Lunar New Year
+- type: vendor
+  vendorName: Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Qadim's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Titan Specialist Tante
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 3
+  - itemId: 19976
+    quantity: 3
+  - currencyId: 23
+    quantity: 3
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 2
+  - itemId: 19976
+    quantity: 2
+  - currencyId: 23
+    quantity: 2
+  - currencyId: 28
+    quantity: 30
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: achievement
+  achievementName: Chest of Legendary Crafting Materials
+  outputQuantity: 35
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Glory to the Legions
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 79186
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: container
+  itemId: 81524
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: false
+- type: wvw_reward
+  trackName: WvW Reward Track
+  outputQuantity: 1
+  requirements: []
+- type: pvp_reward
+  trackName: PvP Reward Track
+  outputQuantity: 1
+  requirements: []
+- type: wizards_vault
+  outputQuantity: 1
+  requirements:
+  - currencyId: 63
+    quantity: 60
+  metadata:
+    limitAmount: 20

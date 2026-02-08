@@ -1,0 +1,29 @@
+id: 70926
+name: Simple Finishing Kit
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/22680E4D9D0A3A5A24644DD2132370592A3570DD/1201941.png
+description: Used to craft decorations.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Simple_Finishing_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73034
+    quantity: 1
+  - itemId: 76518
+    quantity: 1
+  - itemId: 76876
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0

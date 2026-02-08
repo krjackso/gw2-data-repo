@@ -25,7 +25,7 @@ from pathlib import Path
 
 import yaml
 
-from gw2_data import api
+from gw2_data import api, terminal
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import APIError, ExtractionError, WikiError
@@ -41,7 +41,7 @@ def _handle_sigint(signum: int, frame: object) -> None:
     if _interrupted:
         sys.exit(1)
     _interrupted = True
-    print("\nInterrupt received — finishing current item, then stopping...")
+    terminal.warning("Interrupt received — finishing current item, then stopping...")
 
 
 def _get_existing_item_ids() -> set[int]:
@@ -122,23 +122,18 @@ def populate_tree(
             for notes in notes_list:
                 other_types.append((item_id, notes))
             skipped += 1
-            items_left_str = f" | {queued_new} new item(s) in queue" if queued_new else ""
-            print(
-                f"[skip] {item_id} already exists"
-                f" — discovered {new_children} child(ren){items_left_str}"
-            )
+            items_left_str = f" | {queued_new} new in queue" if queued_new else ""
+            msg = f"[skip] {item_id} already exists — discovered {new_children} child(ren)"
+            terminal.debug(f"{msg}{items_left_str}")
             continue
 
         queued_new -= 1
-        budget_str = ""
         if limit is not None:
-            budget_str = f" | budget: {processed + 1}/{limit}"
-        print(
-            f"\n{'=' * 60}\n"
-            f"[{processed + 1}] Populating item {item_id}"
-            f" | {queued_new} new item(s) queued{budget_str}\n"
-            f"{'=' * 60}"
-        )
+            msg = f"Processing item {item_id} ({queued_new} queued)"
+            terminal.progress(processed + 1, limit, msg)
+        else:
+            msg = f"[{processed + 1}] Processing item {item_id} ({queued_new} queued)"
+            terminal.info(f"\n{msg}")
 
         try:
             populate_item(item_id, cache, dry_run=dry_run, model=model)
@@ -154,46 +149,45 @@ def populate_tree(
             for notes in notes_list:
                 other_types.append((item_id, notes))
             if new_children:
-                print(f"Discovered {new_children} new item(s) in requirements")
+                terminal.debug(f"  → Discovered {new_children} new requirement(s)")
 
         except KeyboardInterrupt:
             _interrupted = True
-            print("\nInterrupt received — stopping after current item.")
+            terminal.warning("Interrupt received — stopping after current item.")
             break
         except (APIError, WikiError, ExtractionError, ValueError) as e:
             errors.append((item_id, str(e)))
-            print(f"Error processing item {item_id}: {e}", file=sys.stderr)
+            terminal.error(f"Failed to process item {item_id}: {e}")
         except Exception as e:
             errors.append((item_id, str(e)))
-            print(f"Unexpected error processing item {item_id}: {e}", file=sys.stderr)
+            terminal.error(f"Unexpected error processing item {item_id}: {e}")
 
     remaining_total = len(queue)
 
-    print(f"\n{'=' * 60}")
-    print("Tree traversal summary")
-    print(f"{'=' * 60}")
-    print(f"  New items populated: {processed}")
-    print(f"  Existing items skipped: {skipped}")
-    print(f"  Errors: {len(errors)}")
-    print(f"  Items remaining in queue: {remaining_total} ({queued_new} new)")
+    terminal.section_header("Tree Traversal Summary")
+    terminal.key_value("New items populated", str(processed))
+    terminal.key_value("Existing items skipped", str(skipped))
+    terminal.key_value("Errors", str(len(errors)))
+    terminal.key_value("Items remaining in queue", f"{remaining_total} ({queued_new} new)")
 
     if other_types:
-        print(f"\n⚠ Items with 'other' acquisition type ({len(other_types)}):")
+        terminal.warning(f"Items with 'other' acquisition type ({len(other_types)})")
         for oid, notes in other_types:
-            print(f"  {oid}: {notes}")
+            terminal.bullet(f"{oid}: {notes}", indent=2)
 
     if errors:
-        print("\nFailed items:")
+        terminal.subsection("Failed items")
         for eid, msg in errors:
-            print(f"  {eid}: {msg}")
+            terminal.bullet(f"{eid}: {msg}", indent=2, symbol="✗")
+            terminal.info(f"    Debug with: uv run python -m scripts.populate --item-id {eid}")
 
     if _interrupted:
-        print("\nStopped early due to interrupt.")
+        terminal.warning("Stopped early due to interrupt.")
     elif limit is not None and processed >= limit:
-        print(f"\nStopped after reaching limit of {limit} new item(s).")
+        terminal.info(f"Stopped after reaching limit of {limit} new item(s).")
 
     if queued_new > 0:
-        print(f"\nRe-run to continue processing {queued_new} remaining new item(s).")
+        terminal.info(f"\nRe-run to continue processing {queued_new} remaining new item(s).")
 
 
 def main() -> None:
@@ -239,22 +233,22 @@ def main() -> None:
             cleaned_name = api.clean_name(args.item_name)
             matches = index.get(cleaned_name)
             if not matches:
-                print(f"Error: No item found with name '{args.item_name}'", file=sys.stderr)
+                terminal.error(f"No item found with name '{args.item_name}'")
                 sys.exit(1)
             if len(matches) > 1:
-                print(f"Multiple items match '{args.item_name}':", file=sys.stderr)
+                terminal.error(f"Multiple items match '{args.item_name}':")
                 for mid in matches:
-                    print(f"  --item-id {mid}", file=sys.stderr)
+                    terminal.bullet(f"--item-id {mid}", indent=2)
                 sys.exit(1)
             root_id = matches[0]
-            print(f"Resolved '{args.item_name}' to item ID {root_id}")
+            terminal.info(f"Resolved '{args.item_name}' to item ID {root_id}\n")
         else:
             root_id = args.item_id
 
         populate_tree(root_id, cache, limit=args.limit, dry_run=args.dry_run, model=args.model)
 
     except KeyboardInterrupt:
-        print("\nAborted.")
+        terminal.warning("\nAborted.")
         sys.exit(1)
 
 

@@ -1,0 +1,68 @@
+id: 24357
+name: Vicious Fang
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/F2050EE1A7A43EDCDCB1E971FDA608AD0566E4DA/66998.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vicious_Fang
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 12
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  - itemId: 24356
+    quantity: 50
+  - itemId: 24357
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 44
+  requirements: []
+  metadata:
+    notes: Week 6 bonus reward
+- type: pvp_reward
+  trackName: Jungle Wolf Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 8, 3rd reward (38th of 40)

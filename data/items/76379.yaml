@@ -1,0 +1,24 @@
+id: 76379
+name: Essence of Gloom
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3C0A612D5570076C3C5BA3A9975464427BF90ADE/1205283.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Gloom
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 76511
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
