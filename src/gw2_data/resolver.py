@@ -13,6 +13,29 @@ def _resolve_single_acquisition(
     strict: bool,
 ) -> dict | None:
     acq_copy = dict(acq)
+    acq_type = acq["type"]
+
+    if "requirementName" in acq_copy and acq_type in ("container", "salvage"):
+        name = acq_copy.pop("requirementName")
+        try:
+            item_id = api.resolve_item_name_to_id(name, item_name_index)
+            acq_copy["itemId"] = item_id
+        except (APIError, KeyError) as e:
+            if not strict:
+                log.warning(
+                    f"Skipping unresolvable source item '{name}' "
+                    f"in {acq_type} acquisition: {e}"
+                )
+                return None
+            else:
+                raise ValueError(
+                    f"Failed to resolve source item '{name}' in {acq_type} acquisition "
+                    f"(not found in item index). "
+                    f"If this is a known variant, add to item_name_overrides.yaml. "
+                    f"If this acquisition is discontinued, the LLM should mark it with "
+                    f"discontinued: true and it will be excluded: {e}"
+                ) from e
+
     requirements = acq_copy.get("requirements", [])
     resolved_reqs = []
 

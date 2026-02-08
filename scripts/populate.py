@@ -140,16 +140,15 @@ def _acquisition_label(acq: dict) -> str:
         ingredients = [r.get("requirementName", "?") for r in reqs]
         return ", ".join(ingredients[:4]) + ("..." if len(ingredients) > 4 else "")
     if acq_type == "achievement":
-        return meta.get("achievementName", "unknown achievement")
+        return acq.get("achievementName", "unknown achievement")
     if acq_type in ("wvw_reward", "pvp_reward"):
-        return meta.get("trackName", "unknown track")
+        return acq.get("trackName", "unknown track")
     if acq_type == "wizards_vault":
         reqs = acq.get("requirements", [])
         cost = reqs[0].get("quantity", "?") if reqs else "?"
         return f"{cost} Astral Acclaim"
     if acq_type in ("container", "salvage"):
-        reqs = acq.get("requirements", [])
-        return reqs[0].get("requirementName", "?") if reqs else "unknown"
+        return acq.get("requirementName", "unknown")
     if acq_type == "map_reward":
         return meta.get("rewardType", meta.get("regionName", "unknown reward"))
     if acq_type == "story":

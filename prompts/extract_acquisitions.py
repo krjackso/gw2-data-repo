@@ -20,6 +20,10 @@ Each acquisition object:
   "confidence": <0.0-1.0>,
   "outputQuantity": <int, default 1>,
   "vendorName": "<vendor NPC name, only for vendor type>",
+  "achievementName": "<achievement name, only for achievement type>",
+  "achievementCategory": "<category, only for achievement type>",
+  "trackName": "<track name, only for wvw_reward/pvp_reward types>",
+  "requirementName": "<item name, only for container/salvage types>",
   "requirements": [
     {"requirementName": "<exact name>", "quantity": <int>}
   ],
@@ -100,8 +104,8 @@ metadata: {
 
 ### container
 Obtained by opening another item (container/bag/chest).
-itemId: <container_item_id> (required - place at top level)
-requirements: none (source item is in itemId, not requirements)
+requirementName: "<exact container item name>" (required - place at top level, will be resolved to itemId)
+requirements: none (source item is in requirementName field, not requirements array)
 metadata: {
   "guaranteed": true | false,
   "choice": true | false
@@ -110,10 +114,19 @@ metadata: {
 "choice" means the player can select this item from a list of options. \
 Both should not be true at the same time. If neither applies, set both to false.
 
+Example container acquisition:
+{
+  "type": "container",
+  "requirementName": "Black Lion Chest",
+  "outputQuantity": 1,
+  "requirements": [],
+  "metadata": {"guaranteed": false, "choice": false}
+}
+
 ### salvage
 Extracted by salvaging another item.
-itemId: <source_item_id> (required - place at top level)
-requirements: none (source item is in itemId, not requirements)
+requirementName: "<exact source item name>" (required - place at top level, will be resolved to itemId)
+requirements: none (source item is in requirementName field, not requirements array)
 metadata: {
   "guaranteed": true | false
 }
