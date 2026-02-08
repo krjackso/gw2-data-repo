@@ -9,6 +9,78 @@ from gw2_data import wiki
 from gw2_data.cache import CacheClient
 from gw2_data.exceptions import WikiError
 
+# --- extract_acquisition_sections tests ---
+
+
+def _make_large_html(sections: list[str]) -> str:
+    # Bulk content inside an excluded h2 section so the page exceeds
+    # _MAX_HTML_LENGTH (200K) but filtering removes it, keeping the
+    # test sections small enough to avoid truncation.
+    excluded_bulk = '<h2><span id="Gallery">Gallery</span></h2>' + "<p>" + "g" * 250_000 + "</p>"
+    return "\n".join(sections) + excluded_bulk
+
+
+class TestExtractAcquisitionSections:
+    def test_small_html_returned_unchanged(self):
+        html = "<p>Small page</p>"
+        assert wiki.extract_acquisition_sections(html) == html
+
+    def test_excluded_h3_does_not_swallow_sibling_h3(self):
+        html = _make_large_html(
+            [
+                '<h2><span id="Acquisition">Acquisition</span></h2>',
+                "<p>Intro text</p>",
+                '<h3><span id="Dropped_by">Dropped by</span></h3>',
+                "<p>Monster drop table with lots of data</p>",
+                '<h3><span id="Recipe">Recipe</span></h3>',
+                "<p>Mystic Forge promotion recipe</p>",
+                '<h2><span id="Used_in">Used in</span></h2>',
+                "<p>Crafting recipes</p>",
+            ]
+        )
+        result = wiki.extract_acquisition_sections(html)
+        assert "Recipe" in result
+        assert "Mystic Forge promotion recipe" in result
+        assert "Monster drop table" not in result
+
+    def test_excluded_h3_contained_in_does_not_swallow_siblings(self):
+        html = _make_large_html(
+            [
+                '<h2><span id="Acquisition">Acquisition</span></h2>',
+                '<h3><span id="Contained_in">Contained in</span></h3>',
+                "<p>Container list</p>",
+                '<h3><span id="Map_Bonus_Reward">Map Bonus Reward</span></h3>',
+                "<p>Map reward info</p>",
+                '<h3><span id="Reward_tracks">Reward tracks</span></h3>',
+                "<p>Reward track info</p>",
+                '<h3><span id="Recipe">Recipe</span></h3>',
+                "<p>Recipe data</p>",
+                '<h2><span id="Used_in">Used in</span></h2>',
+            ]
+        )
+        result = wiki.extract_acquisition_sections(html)
+        assert "Container list" not in result
+        assert "Map reward info" in result
+        assert "Reward track info" in result
+        assert "Recipe data" in result
+
+    def test_h2_used_in_still_fully_excluded(self):
+        html = _make_large_html(
+            [
+                '<h2><span id="Acquisition">Acquisition</span></h2>',
+                "<p>Acquisition info</p>",
+                '<h2><span id="Used_in">Used in</span></h2>',
+                '<h3><span id="Mystic_Forge">Mystic Forge</span></h3>',
+                "<p>Used in recipes</p>",
+                '<h3><span id="Armorsmith">Armorsmith</span></h3>',
+                "<p>Armorsmith recipes</p>",
+            ]
+        )
+        result = wiki.extract_acquisition_sections(html)
+        assert "Acquisition info" in result
+        assert "Used in recipes" not in result
+        assert "Armorsmith recipes" not in result
+
 
 @pytest.fixture
 def cache_client(tmp_path: Path) -> CacheClient:

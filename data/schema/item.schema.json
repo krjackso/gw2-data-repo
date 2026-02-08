@@ -126,7 +126,17 @@
           "type": "integer",
           "minimum": 1,
           "default": 1,
-          "description": "How many of this item you get from this acquisition"
+          "description": "How many of this item you get from this acquisition. For variable outputs, this is the minimum."
+        },
+        "outputQuantityMin": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Minimum output quantity for variable-output acquisitions (e.g., Mystic Forge promotions). Equals outputQuantity when present."
+        },
+        "outputQuantityMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Maximum output quantity for variable-output acquisitions. Must be >= outputQuantityMin."
         },
         "requirements": {
           "type": "array",

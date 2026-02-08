@@ -130,6 +130,81 @@ acquisitions:
       guaranteed: false
 """
 
+VALID_WITH_OUTPUT_RANGE = """
+id: 24276
+name: Pile of Incandescent Dust
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 40
+    outputQuantityMin: 40
+    outputQuantityMax: 200
+    requirements:
+      - itemId: 20796
+        quantity: 4
+      - itemId: 20799
+        quantity: 4
+      - itemId: 24562
+        quantity: 250
+      - itemId: 24276
+        quantity: 1
+    metadata:
+      recipeType: mystic_forge
+"""
+
+INVALID_OUTPUT_RANGE_MAX_LT_MIN = """
+id: 24276
+name: Test Item
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 200
+    outputQuantityMin: 200
+    outputQuantityMax: 40
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
+INVALID_OUTPUT_RANGE_MAX_WITHOUT_MIN = """
+id: 24276
+name: Test Item
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 40
+    outputQuantityMax: 200
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
+INVALID_OUTPUT_RANGE_QUANTITY_NE_MIN = """
+id: 24276
+name: Test Item
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 50
+    outputQuantityMin: 40
+    outputQuantityMax: 200
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
 
 class TestJsonSchema:
     def test_valid_minimal(self, validator):
@@ -149,6 +224,11 @@ class TestJsonSchema:
 
     def test_valid_with_container(self, validator):
         data = yaml.safe_load(VALID_WITH_CONTAINER)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_output_range(self, validator):
+        data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE)
         errors = list(validator.iter_errors(data))
         assert errors == []
 
@@ -274,3 +354,26 @@ class TestPydanticModels:
             }
             result = ItemFile.model_validate(data)
             assert result.acquisitions[0].type == acq_type
+
+    def test_valid_output_range(self):
+        data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.output_quantity == 40
+        assert acq.output_quantity_min == 40
+        assert acq.output_quantity_max == 200
+
+    def test_invalid_output_range_max_lt_min(self):
+        data = yaml.safe_load(INVALID_OUTPUT_RANGE_MAX_LT_MIN)
+        with pytest.raises(Exception, match="outputQuantityMax.*must be >=.*outputQuantityMin"):
+            ItemFile.model_validate(data)
+
+    def test_invalid_output_range_max_without_min(self):
+        data = yaml.safe_load(INVALID_OUTPUT_RANGE_MAX_WITHOUT_MIN)
+        with pytest.raises(Exception, match="outputQuantityMin is required when outputQuantityMax"):
+            ItemFile.model_validate(data)
+
+    def test_invalid_output_range_quantity_ne_min(self):
+        data = yaml.safe_load(INVALID_OUTPUT_RANGE_QUANTITY_NE_MIN)
+        with pytest.raises(Exception, match="outputQuantity.*must equal.*outputQuantityMin"):
+            ItemFile.model_validate(data)

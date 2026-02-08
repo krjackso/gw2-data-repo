@@ -125,16 +125,16 @@ def extract_acquisition_sections(html: str) -> str:
         return html
 
     excluded_sections = [
-        r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Contained_in"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Currency_for"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Salvage_results"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Trivia"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Gallery"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="Notes"[^>]*>.*?(?=<h[12]|$)',
-        r'<span[^>]*id="External_links"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Contained_in"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="Currency_for"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Salvage_results"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Trivia"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="Gallery"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="Notes"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="External_links"[^>]*>.*?(?=<h[12][ >]|$)',
     ]
 
     filtered_html = html

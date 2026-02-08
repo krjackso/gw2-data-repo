@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Annotated, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 # --- GW2 API Enums ---
 
@@ -179,10 +179,35 @@ class Acquisition(BaseModel):
     track_name: str | None = Field(default=None, alias="trackName")
     item_id: int | None = Field(default=None, alias="itemId", gt=0)
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
+    output_quantity_min: int | None = Field(default=None, ge=1, alias="outputQuantityMin")
+    output_quantity_max: int | None = Field(default=None, ge=1, alias="outputQuantityMax")
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
     metadata: AcquisitionMetadata | dict | None = None
 
     model_config = {"populate_by_name": True}
+
+    @model_validator(mode="after")
+    def _validate_output_quantity_range(self) -> Acquisition:
+        if self.output_quantity_max is not None and self.output_quantity_min is None:
+            raise ValueError("outputQuantityMin is required when outputQuantityMax is present")
+        if (
+            self.output_quantity_min is not None
+            and self.output_quantity != self.output_quantity_min
+        ):
+            raise ValueError(
+                f"outputQuantity ({self.output_quantity}) must equal "
+                f"outputQuantityMin ({self.output_quantity_min}) when range is specified"
+            )
+        if (
+            self.output_quantity_min is not None
+            and self.output_quantity_max is not None
+            and self.output_quantity_max < self.output_quantity_min
+        ):
+            raise ValueError(
+                f"outputQuantityMax ({self.output_quantity_max}) must be >= "
+                f"outputQuantityMin ({self.output_quantity_min})"
+            )
+        return self
 
 
 # --- Item File ---

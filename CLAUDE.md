@@ -194,6 +194,36 @@ acquisitions:
       timeGated: false
 ```
 
+### Output Quantity Ranges
+
+Some acquisitions produce a variable number of items (e.g., Mystic Forge promotion recipes that upgrade material tiers). These use three fields together:
+
+- `outputQuantity`: The minimum output (always present, integer ≥ 1)
+- `outputQuantityMin`: Same as outputQuantity, signals this is a range (optional)
+- `outputQuantityMax`: The maximum output (optional, must be ≥ outputQuantityMin)
+
+**Fixed output:** Only `outputQuantity` is present.
+**Range output:** All three fields are present.
+
+Example with variable output:
+```yaml
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+    - itemId: 20796
+      quantity: 4
+    - itemId: 20799
+      quantity: 4
+    - itemId: 24562
+      quantity: 250
+    - itemId: 24276
+      quantity: 1
+  metadata:
+    recipeType: mystic_forge
+```
+
 ### Requirements
 
 **IMPORTANT**: All requirements MUST use IDs only (never names). The LLM extraction uses names, but the populate script automatically resolves them to IDs before writing YAML.

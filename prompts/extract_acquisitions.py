@@ -19,6 +19,8 @@ Each acquisition object:
   "type": "<acquisition_type>",
   "confidence": <0.0-1.0>,
   "outputQuantity": <int, default 1>,
+  "outputQuantityMin": <int, only for variable outputs>,
+  "outputQuantityMax": <int, only for variable outputs>,
   "vendorName": "<vendor NPC name, only for vendor type>",
   "achievementName": "<achievement name, only for achievement type>",
   "achievementCategory": "<category, only for achievement type>",
@@ -41,6 +43,28 @@ requirements: list all ingredients as {requirementName, quantity}
 Combine items in the Mystic Forge (usually exactly 4 items).
 metadata: { "recipeType": "mystic_forge" }
 requirements: list all ingredients as {requirementName, quantity}
+
+For Mystic Forge promotion recipes (upgrading lower-tier materials to higher-tier), the output \
+quantity is variable (e.g., "40 to 200"). Express this as a range:
+- Set "outputQuantity" to the minimum value
+- Set "outputQuantityMin" to the minimum value
+- Set "outputQuantityMax" to the maximum value
+
+Example Mystic Forge promotion with variable output:
+{
+  "type": "mystic_forge",
+  "confidence": 1.0,
+  "outputQuantity": 40,
+  "outputQuantityMin": 40,
+  "outputQuantityMax": 200,
+  "requirements": [
+    {"requirementName": "Philosopher's Stone", "quantity": 4},
+    {"requirementName": "Mystic Crystal", "quantity": 4},
+    {"requirementName": "Pile of Luminous Dust", "quantity": 250},
+    {"requirementName": "Pile of Incandescent Dust", "quantity": 1}
+  ],
+  "metadata": {"recipeType": "mystic_forge"}
+}
 
 ### vendor
 Purchase from an NPC. Create a SEPARATE acquisition for EACH vendor.
@@ -197,7 +221,9 @@ Rate overallConfidence based on how well you understood the page:
 infer methods that aren't present.
 2. Use exact item and currency names as they appear on the wiki (in requirementName field).
 3. If an item is sold by multiple vendors, create a SEPARATE acquisition for each vendor.
-4. For recipes with random/RNG output, add "rng": true to metadata.
+4. For recipes with random/RNG output counts, use outputQuantityMin and outputQuantityMax to \
+express the range. For non-deterministic drops (where you might get nothing), add "rng": true \
+to metadata.
 5. For Mystic Forge recipes, always use type "mystic_forge" (not "crafting").
 6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
 1 silver = 100 copper).
@@ -207,6 +233,11 @@ sources where this item is one of many possible random drops, generic containers
 "Unidentified Gear" or "Chest of Exotic Equipment", and generic Mystic Forge recipes like \
 "combine 4 rare/exotic items". If a confidence would be below 0.8, reconsider whether it \
 is specific enough to include.
+
+IMPORTANT: Mystic Forge promotion recipes (upgrading material tiers, e.g., converting dust/ingots \
+to higher rarities) ARE deterministic — they always produce output, just in variable quantities. \
+These should be included with high confidence (0.9-1.0), using outputQuantityMin/outputQuantityMax \
+to express the range.
 9. Do NOT include acquisition methods that were available in the past but are no longer \
 obtainable (e.g. removed items, discontinued events, retired reward tracks, historical \
 promotions). Only extract currently active and available acquisition methods.
