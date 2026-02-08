@@ -20,7 +20,9 @@ import argparse
 import logging
 import signal
 import sys
+import threading
 from collections import deque
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import yaml
@@ -34,6 +36,7 @@ from scripts.populate import populate_item
 ITEMS_DIR = Path("data/items")
 
 _interrupted = False
+_state_lock = threading.Lock()
 
 
 def _handle_sigint(signum: int, frame: object) -> None:
@@ -82,6 +85,7 @@ def populate_tree(
     dry_run: bool = False,
     model: str | None = None,
     force: bool = False,
+    workers: int = 1,
 ) -> None:
     global _interrupted
     _interrupted = False
@@ -94,26 +98,17 @@ def populate_tree(
 
     def enqueue(item_id: int) -> None:
         nonlocal queued_new
-        if item_id not in seen:
-            seen.add(item_id)
-            queue.append(item_id)
-            if item_id not in existing:
-                queued_new += 1
+        with _state_lock:
+            if item_id not in seen:
+                seen.add(item_id)
+                queue.append(item_id)
+                if item_id not in existing:
+                    queued_new += 1
 
-    enqueue(root_id)
-
-    processed = 0
-    skipped = 0
-    errors: list[tuple[int, str]] = []
-    other_types: list[tuple[int, str]] = []
-
-    while queue and not _interrupted:
-        if limit is not None and processed >= limit:
-            break
-
-        item_id = queue.popleft()
-
-        if item_id in existing:
+    def _skip_existing() -> None:
+        nonlocal skipped
+        while queue and queue[0] in existing:
+            item_id = queue.popleft()
             child_ids, notes_list = _analyze_item_file(item_id)
             new_children = 0
             for cid in child_ids:
@@ -126,42 +121,97 @@ def populate_tree(
             items_left_str = f" | {queued_new} new in queue" if queued_new else ""
             msg = f"[skip] {item_id} already exists — discovered {new_children} child(ren)"
             terminal.debug(f"{msg}{items_left_str}")
-            continue
 
-        queued_new -= 1
-        if limit is not None:
-            msg = f"Processing item {item_id} ({queued_new} queued)"
-            terminal.progress(processed + 1, limit, msg)
-        else:
-            msg = f"[{processed + 1}] Processing item {item_id} ({queued_new} queued)"
-            terminal.info(f"\n{msg}")
+    def _drain_batch() -> list[int]:
+        nonlocal queued_new, skipped
+        batch: list[int] = []
+        remaining = (limit - processed) if limit is not None else None
+        while queue and len(batch) < workers:
+            if remaining is not None and len(batch) >= remaining:
+                break
+            item_id = queue.popleft()
+            if item_id in existing:
+                child_ids, notes_list = _analyze_item_file(item_id)
+                new_children = 0
+                for cid in child_ids:
+                    if cid not in seen:
+                        enqueue(cid)
+                        new_children += 1
+                for notes in notes_list:
+                    other_types.append((item_id, notes))
+                skipped += 1
+                continue
+            queued_new -= 1
+            batch.append(item_id)
+        return batch
 
-        try:
-            populate_item(item_id, cache, dry_run=dry_run, model=model)
+    def _handle_result(item_id: int) -> None:
+        nonlocal processed
+        child_ids, notes_list = _analyze_item_file(item_id)
+        new_children = 0
+        for cid in child_ids:
+            if cid not in seen:
+                enqueue(cid)
+                new_children += 1
+        with _state_lock:
             existing.add(item_id)
             processed += 1
-
-            child_ids, notes_list = _analyze_item_file(item_id)
-            new_children = 0
-            for cid in child_ids:
-                if cid not in seen:
-                    enqueue(cid)
-                    new_children += 1
             for notes in notes_list:
                 other_types.append((item_id, notes))
-            if new_children:
-                terminal.debug(f"  → Discovered {new_children} new requirement(s)")
+        if new_children:
+            terminal.debug(f"  → Discovered {new_children} new requirement(s)")
 
-        except KeyboardInterrupt:
-            _interrupted = True
-            terminal.warning("Interrupt received — stopping after current item.")
+    enqueue(root_id)
+
+    processed = 0
+    skipped = 0
+    errors: list[tuple[int, str]] = []
+    other_types: list[tuple[int, str]] = []
+
+    def _run_item(iid: int) -> None:
+        with terminal.buffered():
+            populate_item(iid, cache, overwrite=force, dry_run=dry_run, model=model)
+
+    _skip_existing()
+
+    while queue and not _interrupted:
+        if limit is not None and processed >= limit:
             break
-        except (APIError, WikiError, ExtractionError, ValueError) as e:
-            errors.append((item_id, str(e)))
-            terminal.error(f"Failed to process item {item_id}: {e}")
-        except Exception as e:
-            errors.append((item_id, str(e)))
-            terminal.error(f"Unexpected error processing item {item_id}: {e}")
+
+        batch = _drain_batch()
+        if not batch:
+            break
+
+        with _state_lock:
+            current_processed = processed
+            current_queued = queued_new
+        batch_ids = ", ".join(str(i) for i in batch)
+        if limit is not None:
+            terminal.progress(
+                current_processed + len(batch),
+                limit,
+                f"Processing {batch_ids} ({current_queued} queued)",
+            )
+        else:
+            terminal.info(
+                f"\n[{current_processed + 1}] Processing {batch_ids} ({current_queued} queued)"
+            )
+
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {executor.submit(_run_item, item_id): item_id for item_id in batch}
+            for future in as_completed(futures):
+                item_id = futures[future]
+                try:
+                    future.result()
+                    _handle_result(item_id)
+                except (APIError, WikiError, ExtractionError, ValueError) as e:
+                    errors.append((item_id, str(e)))
+                    terminal.error(f"Failed to process item {item_id}: {e}")
+                except Exception as e:
+                    errors.append((item_id, str(e)))
+                    terminal.error(f"Unexpected error processing item {item_id}: {e}")
+
+        _skip_existing()
 
     remaining_total = len(queue)
 
@@ -216,6 +266,12 @@ def main() -> None:
         help="Preview without writing files (NOTE: will not traverse children)",
     )
     parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of items to process concurrently (default: 1)",
+    )
+    parser.add_argument(
         "--model",
         type=str,
         default=None,
@@ -258,6 +314,7 @@ def main() -> None:
             dry_run=args.dry_run,
             model=args.model,
             force=args.force,
+            workers=args.workers,
         )
 
     except KeyboardInterrupt:

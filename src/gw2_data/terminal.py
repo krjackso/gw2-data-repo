@@ -3,10 +3,21 @@ Terminal output formatting utilities with ANSI color support.
 
 Provides colored output functions optimized for dark terminal backgrounds,
 progress indicators, and structured error messages for the populate scripts.
+
+Thread safety: All print functions acquire _lock to prevent interleaved lines.
+For concurrent workers, use `buffered()` to capture an entire section of output
+and flush it atomically, preventing interleaved sections across threads.
 """
 
 import sys
+import threading
+from collections.abc import Iterator
+from contextlib import contextmanager
 from enum import Enum
+from io import StringIO
+
+_lock = threading.RLock()
+_thread_local = threading.local()
 
 
 class Color(Enum):
@@ -37,6 +48,32 @@ def _supports_color() -> bool:
     return hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
 
 
+def _print(*args: object, file: object = None, **kwargs: object) -> None:
+    buf = getattr(_thread_local, "buffer", None)
+    if buf is not None:
+        # When buffering, capture everything (including stderr) to the buffer
+        print(*args, **kwargs, file=buf)
+    elif file is sys.stderr:
+        print(*args, file=sys.stderr, **kwargs)
+    else:
+        print(*args, **kwargs)
+
+
+@contextmanager
+def buffered() -> Iterator[None]:
+    buf = StringIO()
+    _thread_local.buffer = buf
+    try:
+        yield
+    finally:
+        _thread_local.buffer = None
+        output = buf.getvalue()
+        if output:
+            with _lock:
+                sys.stdout.write(output)
+                sys.stdout.flush()
+
+
 def colorize(text: str, *colors: Color) -> str:
     if not _supports_color():
         return text
@@ -45,54 +82,65 @@ def colorize(text: str, *colors: Color) -> str:
 
 
 def debug(message: str) -> None:
-    print(colorize(message, Color.DIM, Color.BRIGHT_BLACK))
+    with _lock:
+        _print(colorize(message, Color.DIM, Color.BRIGHT_BLACK))
 
 
 def info(message: str) -> None:
-    print(message)
+    with _lock:
+        _print(message)
 
 
 def success(message: str) -> None:
-    print(colorize(message, Color.BRIGHT_GREEN))
+    with _lock:
+        _print(colorize(message, Color.BRIGHT_GREEN))
 
 
 def warning(message: str) -> None:
-    print(colorize(f"⚠ {message}", Color.BRIGHT_YELLOW))
+    with _lock:
+        _print(colorize(f"⚠ {message}", Color.BRIGHT_YELLOW))
 
 
 def error(message: str) -> None:
-    print(colorize(f"✗ {message}", Color.BRIGHT_RED), file=sys.stderr)
+    with _lock:
+        _print(colorize(f"✗ {message}", Color.BRIGHT_RED), file=sys.stderr)
 
 
 def section_header(title: str) -> None:
     separator = "=" * 60
-    print(f"\n{colorize(separator, Color.BRIGHT_BLUE)}")
-    print(colorize(title, Color.BOLD, Color.BRIGHT_CYAN))
-    print(colorize(separator, Color.BRIGHT_BLUE))
+    with _lock:
+        _print(f"\n{colorize(separator, Color.BRIGHT_BLUE)}")
+        _print(colorize(title, Color.BOLD, Color.BRIGHT_CYAN))
+        _print(colorize(separator, Color.BRIGHT_BLUE))
 
 
 def subsection(title: str) -> None:
-    print(f"\n{colorize(title, Color.BOLD)}")
+    with _lock:
+        _print(f"\n{colorize(title, Color.BOLD)}")
 
 
 def progress(current: int, total: int, message: str = "") -> None:
     prefix = colorize(f"[{current}/{total}]", Color.BRIGHT_CYAN)
-    print(f"{prefix} {message}")
+    with _lock:
+        _print(f"{prefix} {message}")
 
 
 def key_value(key: str, value: str, indent: int = 0) -> None:
     spaces = " " * indent
     colored_key = colorize(f"{key}:", Color.BRIGHT_WHITE)
-    print(f"{spaces}{colored_key} {value}")
+    with _lock:
+        _print(f"{spaces}{colored_key} {value}")
 
 
 def bullet(message: str, indent: int = 2, symbol: str = "•") -> None:
     spaces = " " * indent
-    print(f"{spaces}{colorize(symbol, Color.BRIGHT_BLUE)} {message}")
+    with _lock:
+        _print(f"{spaces}{colorize(symbol, Color.BRIGHT_BLUE)} {message}")
 
 
 def code_block(content: str) -> None:
-    print(colorize(content, Color.DIM))
+    with _lock:
+        _print(colorize(content, Color.DIM))
 
 
 def link(url: str, label: str | None = None) -> str:
@@ -108,15 +156,16 @@ def error_with_context(
     context: dict[str, str] | None = None,
     suggestions: list[str] | None = None,
 ) -> None:
-    error(error_msg)
+    with _lock:
+        error(error_msg)
 
-    if context:
-        print()
-        for key, value in context.items():
-            key_value(key, value, indent=2)
+        if context:
+            _print()
+            for key, value in context.items():
+                key_value(key, value, indent=2)
 
-    if suggestions:
-        print()
-        print(colorize("Suggestions:", Color.BRIGHT_YELLOW))
-        for suggestion in suggestions:
-            bullet(suggestion, indent=2, symbol="→")
+        if suggestions:
+            _print()
+            _print(colorize("Suggestions:", Color.BRIGHT_YELLOW))
+            for suggestion in suggestions:
+                bullet(suggestion, indent=2, symbol="→")
