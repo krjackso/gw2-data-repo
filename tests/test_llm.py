@@ -312,6 +312,20 @@ class TestExtractAcquisitions:
         cmd = mock_run.call_args[0][0]
         assert cmd[-1] == "-"
 
+    def test_model_sets_html_limit(self, mocker, cache_client, api_data, llm_response_json):
+        _mock_claude_cli(mocker, llm_response_json)
+        mock_extract = mocker.patch(
+            "gw2_data.llm.wiki.extract_acquisition_sections",
+            return_value="<html>small</html>",
+        )
+        mocker.patch("gw2_data.llm.wiki.get_html_limit_for_model", return_value=600_000)
+
+        llm.extract_acquisitions(
+            123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="sonnet"
+        )
+
+        mock_extract.assert_called_once_with("<html>test</html>", max_length=600_000)
+
     def test_prompt_change_busts_cache(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 

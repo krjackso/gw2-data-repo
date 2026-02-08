@@ -12,11 +12,8 @@ from gw2_data.exceptions import WikiError
 # --- extract_acquisition_sections tests ---
 
 
-def _make_large_html(sections: list[str]) -> str:
-    # Bulk content inside an excluded h2 section so the page exceeds
-    # _MAX_HTML_LENGTH (200K) but filtering removes it, keeping the
-    # test sections small enough to avoid truncation.
-    excluded_bulk = '<h2><span id="Gallery">Gallery</span></h2>' + "<p>" + "g" * 250_000 + "</p>"
+def _make_large_html(sections: list[str], bulk_size: int = 400_000) -> str:
+    excluded_bulk = '<h2><span id="Gallery">Gallery</span></h2>' + "<p>" + "g" * bulk_size + "</p>"
     return "\n".join(sections) + excluded_bulk
 
 
@@ -80,6 +77,48 @@ class TestExtractAcquisitionSections:
         assert "Acquisition info" in result
         assert "Used in recipes" not in result
         assert "Armorsmith recipes" not in result
+
+
+class TestGetHtmlLimitForModel:
+    def test_haiku_limit(self):
+        assert wiki.get_html_limit_for_model("haiku") == 300_000
+
+    def test_sonnet_limit(self):
+        assert wiki.get_html_limit_for_model("sonnet") == 600_000
+
+    def test_opus_limit(self):
+        assert wiki.get_html_limit_for_model("opus") == 600_000
+
+    def test_full_model_name_haiku(self):
+        assert wiki.get_html_limit_for_model("claude-haiku-4-5-20250929") == 300_000
+
+    def test_full_model_name_sonnet(self):
+        assert wiki.get_html_limit_for_model("claude-sonnet-4-5-20250929") == 600_000
+
+    def test_full_model_name_opus(self):
+        assert wiki.get_html_limit_for_model("claude-opus-4-6") == 600_000
+
+    def test_unknown_model_uses_default(self):
+        assert wiki.get_html_limit_for_model("unknown-model") == 300_000
+
+
+class TestExtractAcquisitionSectionsMaxLength:
+    def test_larger_limit_preserves_more_content(self):
+        large_content = "<p>" + "x" * 500_000 + "</p>"
+        result_default = wiki.extract_acquisition_sections(large_content)
+        result_large = wiki.extract_acquisition_sections(large_content, max_length=600_000)
+        assert len(result_default) == 300_000
+        assert len(result_large) == len(large_content)
+
+    def test_truncation_respects_custom_limit(self):
+        large_content = "<p>" + "x" * 500_000 + "</p>"
+        result = wiki.extract_acquisition_sections(large_content, max_length=300_000)
+        assert len(result) == 300_000
+
+    def test_default_limit_unchanged(self):
+        large_content = "<p>" + "x" * 400_000 + "</p>"
+        result = wiki.extract_acquisition_sections(large_content)
+        assert len(result) == 300_000
 
 
 @pytest.fixture

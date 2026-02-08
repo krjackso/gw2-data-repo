@@ -116,7 +116,8 @@ def extract_acquisitions(
     settings = get_settings()
     effective_model = model or settings.llm_model
 
-    processed_html = wiki.extract_acquisition_sections(wiki_html)
+    html_limit = wiki.get_html_limit_for_model(effective_model)
+    processed_html = wiki.extract_acquisition_sections(wiki_html, max_length=html_limit)
 
     content_hash = hashlib.sha256(processed_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
     cache_hash = f"{_PROMPT_HASH}:{content_hash}"

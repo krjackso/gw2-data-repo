@@ -19,7 +19,20 @@ from gw2_data.exceptions import WikiError
 log = logging.getLogger(__name__)
 
 _WIKI_API_URL = "https://wiki.guildwars2.com/api.php"
-_MAX_HTML_LENGTH = 200_000
+_DEFAULT_HTML_LIMIT = 300_000
+
+MODEL_HTML_LIMITS: dict[str, int] = {
+    "haiku": 300_000,
+    "sonnet": 600_000,
+    "opus": 600_000,
+}
+
+
+def get_html_limit_for_model(model: str) -> int:
+    for key, limit in MODEL_HTML_LIMITS.items():
+        if key in model:
+            return limit
+    return _DEFAULT_HTML_LIMIT
 
 
 def _fetch_wiki_page(page_name: str) -> str:
@@ -106,7 +119,7 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
     return html_content
 
 
-def extract_acquisition_sections(html: str) -> str:
+def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMIT) -> str:
     """
     Extract only acquisition-relevant sections from wiki HTML.
 
@@ -119,9 +132,9 @@ def extract_acquisition_sections(html: str) -> str:
     item or every vendor that accepts it as currency. We exclude these since
     the LLM should focus on direct acquisition methods, not reverse dependencies.
 
-    If the result is still too large, truncates to _MAX_HTML_LENGTH characters.
+    If the result is still too large, truncates to max_length characters.
     """
-    if len(html) <= _MAX_HTML_LENGTH:
+    if len(html) <= max_length:
         return html
 
     excluded_sections = [
@@ -135,19 +148,20 @@ def extract_acquisition_sections(html: str) -> str:
         r'<span[^>]*id="Gallery"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Notes"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="External_links"[^>]*>.*?(?=<h[12][ >]|$)',
+        r'<span[^>]*id="Guild_upgrades"[^>]*>.*?(?=<h[12][ >]|$)',
     ]
 
     filtered_html = html
     for pattern in excluded_sections:
         filtered_html = re.sub(pattern, "", filtered_html, flags=re.DOTALL | re.IGNORECASE)
 
-    if len(filtered_html) > _MAX_HTML_LENGTH:
+    if len(filtered_html) > max_length:
         log.warning(
             "Filtered HTML still too large (%d chars), truncating to %d",
             len(filtered_html),
-            _MAX_HTML_LENGTH,
+            max_length,
         )
-        filtered_html = filtered_html[:_MAX_HTML_LENGTH]
+        filtered_html = filtered_html[:max_length]
 
     log.info("Filtered acquisition HTML: %d chars (from %d)", len(filtered_html), len(html))
     return filtered_html
