@@ -224,6 +224,31 @@ Example with variable output:
     recipeType: mystic_forge
 ```
 
+### Container Acquisitions
+
+Container acquisitions have a **required** `containerName` field and an optional `itemId` field:
+
+```yaml
+# Container with both name and resolved item ID
+- type: container
+  containerName: Chest of Legendary Armor
+  itemId: 67219
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+
+# Name-only container (world object, no item ID in API)
+- type: container
+  containerName: Mistborn Coffer
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+```
+
+The `containerName` is the human-readable source name. When the container exists as an item in the GW2 API, `itemId` is also populated for efficient tree traversal.
+
 ### Requirements
 
 **IMPORTANT**: All requirements MUST use IDs only (never names). The LLM extraction uses names, but the populate script automatically resolves them to IDs before writing YAML.
@@ -241,8 +266,8 @@ Two types of requirements:
 ```
 
 The resolution process:
-1. LLM extracts acquisition data with item/currency names (human-readable)
-2. `resolver.resolve_requirements()` uses the item name index to convert names → IDs
+1. LLM extracts raw entries from wiki HTML, tagged with wiki section (e.g., `recipe`, `vendor`, `gathered_from`)
+2. `resolver.classify_and_resolve()` classifies entries into acquisition types and resolves names → IDs
 3. If a name matches multiple IDs or doesn't exist, an error is raised
 4. Only IDs are written to the YAML file for efficient tree traversal
 
@@ -257,12 +282,12 @@ The resolution process:
 | `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount`, `notes` |
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level), `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | None (source in `itemId`) | `itemId` (top-level), `guaranteed`, `choice` |
+| `container` | Obtained by opening a container | None (source in `containerName` + optional `itemId`) | `containerName` (top-level, required), `itemId` (top-level, optional), `guaranteed`, `choice` |
 | `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId` (top-level), `guaranteed` |
+| `resource_node` | Gathered from a resource node | None (source in `nodeName`) | `nodeName` (top-level, required), `guaranteed` |
 | `wvw_reward` | WvW reward track completion | None | `trackName` (top-level), `wikiUrl` |
 | `pvp_reward` | PvP reward track completion | None | `trackName` (top-level), `wikiUrl` |
 | `wizards_vault` | Wizard's Vault shop | Currency (Astral Acclaim) | `limitAmount` |
-| `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
 | `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | `notes` (description of method) |
 
 ### Vendor Notes
@@ -277,7 +302,9 @@ These notes provide important context to users about prerequisites or restrictio
 
 ### Excluded Sources
 
-**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes, resource nodes, or map-specific interactable objects (e.g., "Glorious Chest (Super Adventure Box)"). These are **not tracked** because they are world objects, not items in the GW2 API, and cannot be represented as item requirements.
+**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes and resource nodes (e.g., "Rich Iron Vein", "Herb Patch"). These gathering mechanics are **not tracked** as they are not items in the GW2 API.
+
+**Note on Containers from "Gathered from"**: Named chests, coffers, and containers in "Gathered from" sections (e.g., "Mistborn Coffer", "Exalted Chest") **are tracked** as `container` type acquisitions with `containerName` set to the container's name. These containers may or may not have GW2 API item IDs — when an ID is available, it's stored in the optional `itemId` field alongside `containerName`.
 
 ## GW2 Domain Knowledge
 

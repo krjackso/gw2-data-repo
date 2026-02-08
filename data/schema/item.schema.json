@@ -93,10 +93,10 @@
             "map_reward",
             "container",
             "salvage",
+            "resource_node",
             "wvw_reward",
             "pvp_reward",
             "wizards_vault",
-            "story",
             "other"
           ],
           "description": "The acquisition method type"
@@ -121,6 +121,16 @@
           "type": "integer",
           "minimum": 1,
           "description": "Source item ID (only for container/salvage types)"
+        },
+        "containerName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Source container name (required for container type). itemId may also be present if resolved."
+        },
+        "nodeName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Gathering node name (required for resource_node type)"
         },
         "outputQuantity": {
           "type": "integer",

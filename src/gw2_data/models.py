@@ -51,10 +51,10 @@ AcquisitionType = Literal[
     "map_reward",
     "container",
     "salvage",
+    "resource_node",
     "wvw_reward",
     "pvp_reward",
     "wizards_vault",
-    "story",
     "other",
 ]
 
@@ -113,6 +113,10 @@ class SalvageMetadata(BaseModel):
     guaranteed: bool | None = None
 
 
+class ResourceNodeMetadata(BaseModel):
+    guaranteed: bool | None = None
+
+
 class RewardTrackMetadata(BaseModel):
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
 
@@ -130,11 +134,6 @@ class WizardsVaultMetadata(BaseModel):
     limit_amount: int | None = Field(default=None, alias="limitAmount")
 
 
-class StoryMetadata(BaseModel):
-    story_chapter: str | None = Field(default=None, alias="storyChapter")
-    expansion: str | None = None
-
-
 class OtherMetadata(BaseModel):
     notes: str
 
@@ -145,10 +144,10 @@ AcquisitionMetadata = (
     | AchievementMetadata
     | ContainerMetadata
     | SalvageMetadata
+    | ResourceNodeMetadata
     | RewardTrackMetadata
     | MapRewardMetadata
     | WizardsVaultMetadata
-    | StoryMetadata
     | OtherMetadata
 )
 
@@ -160,10 +159,10 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
     "map_reward": MapRewardMetadata,
     "container": ContainerMetadata,
     "salvage": SalvageMetadata,
+    "resource_node": ResourceNodeMetadata,
     "wvw_reward": RewardTrackMetadata,
     "pvp_reward": RewardTrackMetadata,
     "wizards_vault": WizardsVaultMetadata,
-    "story": StoryMetadata,
     "other": OtherMetadata,
 }
 
@@ -178,6 +177,8 @@ class Acquisition(BaseModel):
     achievement_category: str | None = Field(default=None, alias="achievementCategory")
     track_name: str | None = Field(default=None, alias="trackName")
     item_id: int | None = Field(default=None, alias="itemId", gt=0)
+    container_name: str | None = Field(default=None, alias="containerName", min_length=1)
+    node_name: str | None = Field(default=None, alias="nodeName", min_length=1)
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
     output_quantity_min: int | None = Field(default=None, ge=1, alias="outputQuantityMin")
     output_quantity_max: int | None = Field(default=None, ge=1, alias="outputQuantityMax")
@@ -207,6 +208,18 @@ class Acquisition(BaseModel):
                 f"outputQuantityMax ({self.output_quantity_max}) must be >= "
                 f"outputQuantityMin ({self.output_quantity_min})"
             )
+        return self
+
+    @model_validator(mode="after")
+    def _validate_container_name(self) -> Acquisition:
+        if self.type == "container" and self.container_name is None:
+            raise ValueError("containerName is required for container acquisitions")
+        return self
+
+    @model_validator(mode="after")
+    def _validate_node_name(self) -> Acquisition:
+        if self.type == "resource_node" and self.node_name is None:
+            raise ValueError("nodeName is required for resource_node acquisitions")
         return self
 
 

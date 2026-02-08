@@ -1,6 +1,5 @@
 import json
 import subprocess
-from datetime import UTC, datetime
 from pathlib import Path
 from unittest.mock import MagicMock
 
@@ -9,7 +8,7 @@ import pytest
 from gw2_data import llm
 from gw2_data.cache import CacheClient
 from gw2_data.exceptions import ExtractionError
-from gw2_data.llm import ExtractionResult, _parse_llm_response, _strip_confidence_fields
+from gw2_data.llm import ExtractionResult, _parse_llm_response
 
 
 @pytest.fixture
@@ -32,16 +31,18 @@ def api_data() -> dict:
 def llm_response_json() -> str:
     return json.dumps(
         {
-            "acquisitions": [
+            "entries": [
                 {
-                    "type": "mystic_forge",
+                    "name": "Test Item",
+                    "wikiSection": "recipe",
+                    "wikiSubsection": "mystic_forge",
                     "confidence": 0.95,
-                    "outputQuantity": 1,
-                    "requirements": [
-                        {"itemName": "Mystic Coin", "quantity": 1},
-                        {"itemName": "Glob of Ectoplasm", "quantity": 1},
+                    "quantity": 1,
+                    "ingredients": [
+                        {"name": "Mystic Coin", "quantity": 1},
+                        {"name": "Glob of Ectoplasm", "quantity": 1},
                     ],
-                    "metadata": {"recipeType": "mystic_forge"},
+                    "metadata": {},
                 }
             ],
             "overallConfidence": 0.9,
@@ -62,91 +63,67 @@ def _mock_claude_cli(mocker, stdout: str, returncode: int = 0, stderr: str = "")
 
 class TestParseLlmResponse:
     def test_parses_plain_json(self):
-        text = '{"acquisitions": [], "overallConfidence": 1.0}'
+        text = '{"entries": [], "overallConfidence": 1.0}'
         result = _parse_llm_response(text)
-        assert result == {"acquisitions": [], "overallConfidence": 1.0}
+        assert result == {"entries": [], "overallConfidence": 1.0}
 
     def test_parses_json_with_code_fences(self):
-        text = '```json\n{"acquisitions": [], "overallConfidence": 1.0}\n```'
+        text = '```json\n{"entries": [], "overallConfidence": 1.0}\n```'
         result = _parse_llm_response(text)
-        assert result == {"acquisitions": [], "overallConfidence": 1.0}
+        assert result == {"entries": [], "overallConfidence": 1.0}
 
     def test_parses_json_with_bare_code_fences(self):
-        text = '```\n{"acquisitions": []}\n```'
+        text = '```\n{"entries": []}\n```'
         result = _parse_llm_response(text)
-        assert result == {"acquisitions": []}
+        assert result == {"entries": []}
 
     def test_raises_on_invalid_json(self):
         with pytest.raises(ExtractionError, match="Failed to parse LLM response"):
             _parse_llm_response("not json at all")
 
     def test_handles_whitespace(self):
-        text = '  \n  {"acquisitions": []}  \n  '
+        text = '  \n  {"entries": []}  \n  '
         result = _parse_llm_response(text)
-        assert result == {"acquisitions": []}
+        assert result == {"entries": []}
 
 
-class TestStripConfidenceFields:
-    def test_strips_confidence_and_returns_values(self):
-        acqs = [
-            {"type": "vendor", "confidence": 0.9, "outputQuantity": 1},
-            {"type": "crafting", "confidence": 0.7, "outputQuantity": 2},
-        ]
-        stripped, confidences = _strip_confidence_fields(acqs)
-        assert confidences == [0.9, 0.7]
-        assert all("confidence" not in a for a in stripped)
-        assert stripped[0]["type"] == "vendor"
-        assert stripped[1]["outputQuantity"] == 2
-
-    def test_defaults_missing_confidence_to_zero(self):
-        acqs = [{"type": "vendor", "outputQuantity": 1}]
-        stripped, confidences = _strip_confidence_fields(acqs)
-        assert confidences == [0.0]
-
-    def test_does_not_mutate_original(self):
-        acqs = [{"type": "vendor", "confidence": 0.9}]
-        _strip_confidence_fields(acqs)
-        assert "confidence" in acqs[0]
-
-
-class TestExtractAcquisitions:
+class TestExtractEntries:
     def test_returns_extraction_result(self, mocker, cache_client, api_data, llm_response_json):
         _mock_claude_cli(mocker, llm_response_json)
 
-        result = llm.extract_acquisitions(
+        result = llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
         assert isinstance(result, ExtractionResult)
-        assert len(result.acquisitions) == 1
-        assert result.acquisitions[0]["type"] == "mystic_forge"
+        assert len(result.entries) == 1
+        assert result.entries[0]["wikiSection"] == "recipe"
         assert result.overall_confidence == 0.9
-        assert result.acquisition_confidences == [0.95]
+        assert result.entry_confidences == [0.95]
         assert result.notes == "Test note"
 
-    def test_acquisitions_have_correct_fields(self, mocker, cache_client, api_data, llm_response_json):
+    def test_entries_have_correct_fields(self, mocker, cache_client, api_data, llm_response_json):
         _mock_claude_cli(mocker, llm_response_json)
 
-        result = llm.extract_acquisitions(
+        result = llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        assert len(result.acquisitions) == 1
-        assert result.acquisitions[0]["type"] == "mystic_forge"
-        assert "confidence" not in result.acquisitions[0]
-
+        assert len(result.entries) == 1
+        assert result.entries[0]["wikiSection"] == "recipe"
+        assert result.entries[0]["confidence"] == 0.95
 
     def test_caches_result(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        result1 = llm.extract_acquisitions(
+        result1 = llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
-        result2 = llm.extract_acquisitions(
+        result2 = llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        assert result1.acquisitions == result2.acquisitions
+        assert result1.entries == result2.entries
         assert result1.overall_confidence == result2.overall_confidence
         assert mock_run.call_count == 1
 
@@ -156,23 +133,18 @@ class TestExtractAcquisitions:
         mock_cache = MagicMock()
         mock_cache.get_llm_extraction.return_value = None
 
-        llm.extract_acquisitions(
-            123, "Test Item", "<html>Version 1</html>", api_data, cache=mock_cache
-        )
-        llm.extract_acquisitions(
-            123, "Test Item", "<html>Version 2</html>", api_data, cache=mock_cache
-        )
+        llm.extract_entries(123, "Test Item", "<html>Version 1</html>", api_data, cache=mock_cache)
+        llm.extract_entries(123, "Test Item", "<html>Version 2</html>", api_data, cache=mock_cache)
 
         assert mock_cache.set_llm_extraction.call_count == 2
         call1_hash = mock_cache.set_llm_extraction.call_args_list[0][0][2]
         call2_hash = mock_cache.set_llm_extraction.call_args_list[1][0][2]
         assert call1_hash != call2_hash
 
-
     def test_passes_model_override(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123,
             "Test Item",
             "<html>test</html>",
@@ -190,10 +162,10 @@ class TestExtractAcquisitions:
     ):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
         )
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="sonnet"
         )
 
@@ -202,48 +174,44 @@ class TestExtractAcquisitions:
     def test_same_model_uses_cache(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
         )
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="haiku"
         )
 
         assert mock_run.call_count == 1
 
-    def test_empty_acquisitions(self, mocker, cache_client, api_data):
+    def test_empty_entries(self, mocker, cache_client, api_data):
         empty_response = json.dumps(
             {
-                "acquisitions": [],
+                "entries": [],
                 "overallConfidence": 1.0,
             }
         )
         _mock_claude_cli(mocker, empty_response)
 
-        result = llm.extract_acquisitions(
+        result = llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        assert result.acquisitions == []
+        assert result.entries == []
         assert result.overall_confidence == 1.0
-        assert result.acquisition_confidences == []
+        assert result.entry_confidences == []
         assert result.notes is None
 
     def test_raises_on_bad_llm_response(self, mocker, cache_client, api_data):
         _mock_claude_cli(mocker, "not valid json")
 
         with pytest.raises(ExtractionError, match="Failed to parse LLM response"):
-            llm.extract_acquisitions(
-                123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-            )
+            llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
 
     def test_raises_on_cli_failure(self, mocker, cache_client, api_data):
         _mock_claude_cli(mocker, "", returncode=1, stderr="auth error")
 
         with pytest.raises(ExtractionError, match="claude CLI failed"):
-            llm.extract_acquisitions(
-                123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-            )
+            llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
 
     def test_raises_on_cli_not_found(self, mocker, cache_client, api_data):
         mocker.patch(
@@ -252,9 +220,7 @@ class TestExtractAcquisitions:
         )
 
         with pytest.raises(ExtractionError, match="claude CLI not found"):
-            llm.extract_acquisitions(
-                123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-            )
+            llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
 
     def test_raises_on_timeout(self, mocker, cache_client, api_data):
         mocker.patch(
@@ -263,16 +229,12 @@ class TestExtractAcquisitions:
         )
 
         with pytest.raises(ExtractionError, match="timed out"):
-            llm.extract_acquisitions(
-                123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-            )
+            llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
 
     def test_pipes_prompt_via_stdin(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        llm.extract_acquisitions(
-            123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-        )
+        llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
 
         call_kwargs = mock_run.call_args[1]
         assert "input" in call_kwargs
@@ -288,7 +250,7 @@ class TestExtractAcquisitions:
         )
         mocker.patch("gw2_data.llm.wiki.get_html_limit_for_model", return_value=600_000)
 
-        llm.extract_acquisitions(
+        llm.extract_entries(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client, model="sonnet"
         )
 
@@ -297,17 +259,13 @@ class TestExtractAcquisitions:
     def test_prompt_change_busts_cache(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
 
-        llm.extract_acquisitions(
-            123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-        )
+        llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
         assert mock_run.call_count == 1
 
         original_hash = llm._PROMPT_HASH
         mocker.patch.object(llm, "_PROMPT_HASH", "different_prompt_hash")
 
-        llm.extract_acquisitions(
-            123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-        )
+        llm.extract_entries(123, "Test Item", "<html>test</html>", api_data, cache=cache_client)
         assert mock_run.call_count == 2
 
         mocker.patch.object(llm, "_PROMPT_HASH", original_hash)

@@ -13,19 +13,19 @@ from typing import Any
 
 # Acquisition type order: most direct/deterministic methods first
 # (crafting, mystic_forge, vendor) → gameplay methods (achievement, container)
-# → region/track methods (map_reward, wvw_reward) → seasonal (wizards_vault, story)
+# → region/track methods (map_reward, wvw_reward) → seasonal (wizards_vault)
 ACQUISITION_TYPE_ORDER = [
     "crafting",
     "mystic_forge",
     "vendor",
     "achievement",
     "container",
+    "resource_node",
     "salvage",
     "map_reward",
     "wvw_reward",
     "pvp_reward",
     "wizards_vault",
-    "story",
     "other",
 ]
 
@@ -51,7 +51,11 @@ ACQUISITION_SORT_FIELDS = {
     ],
     "container": [
         "metadata.guaranteed",
-        "itemId",
+        "containerName",
+    ],
+    "resource_node": [
+        "metadata.guaranteed",
+        "nodeName",
     ],
     "salvage": [
         "metadata.guaranteed",
@@ -69,10 +73,6 @@ ACQUISITION_SORT_FIELDS = {
     ],
     "wizards_vault": [
         "metadata.limitAmount",
-    ],
-    "story": [
-        "metadata.expansion",
-        "metadata.storyChapter",
     ],
     "other": [
         "metadata.notes",

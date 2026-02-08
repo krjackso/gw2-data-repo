@@ -58,7 +58,7 @@ def populate_item(
         terminal.info("Basic ingredient - skipping wiki/LLM extraction")
         acquisitions = []
         overall_confidence = 1.0
-        acquisition_confidences: list[float] = []
+        entry_confidences: list[float] = []
         notes = None
     else:
         wiki_html = wiki.get_page_html(item_name, cache=cache)
@@ -66,15 +66,26 @@ def populate_item(
         terminal.debug(f"Wiki page: {len(wiki_html):,} chars")
         terminal.info(f"  {terminal.link(wiki_url, 'View on Wiki')}")
 
-        result = llm.extract_acquisitions(
+        result = llm.extract_entries(
             item_id, item_name, wiki_html, item_data_api, cache=cache, model=model
         )
-        acquisitions = result.acquisitions
         overall_confidence = result.overall_confidence
-        acquisition_confidences = result.acquisition_confidences
+        entry_confidences = result.entry_confidences
         notes = result.notes
 
-        _print_extraction_summary(acquisitions, overall_confidence, acquisition_confidences, notes)
+        _print_extraction_summary(result.entries, overall_confidence, entry_confidences, notes)
+
+        terminal.subsection("Classifying and resolving acquisitions")
+        item_name_index = api.load_item_name_index()
+        currency_name_index = api.load_currency_name_index()
+        gathering_node_index = api.load_gathering_node_index()
+        acquisitions = resolver.classify_and_resolve(
+            result.entries,
+            item_name_index,
+            currency_name_index,
+            gathering_node_index,
+            strict=strict,
+        )
 
     item_data = {
         "id": item_data_api["id"],
@@ -90,13 +101,6 @@ def populate_item(
         "lastUpdated": datetime.now(UTC).date().isoformat(),
         "acquisitions": acquisitions,
     }
-
-    terminal.subsection("Resolving item/currency names to IDs")
-    item_name_index = api.load_item_name_index()
-    currency_name_index = api.load_currency_name_index()
-    item_data["acquisitions"] = resolver.resolve_requirements(
-        item_data["acquisitions"], item_name_index, currency_name_index, strict=strict
-    )
 
     terminal.debug("Sorting acquisitions...")
     item_data["acquisitions"] = sorter.sort_acquisitions(item_data["acquisitions"])
@@ -146,21 +150,23 @@ def populate_item(
 
 
 def _print_extraction_summary(
-    acquisitions: list[dict],
+    entries: list[dict],
     overall_confidence: float,
-    acquisition_confidences: list[float],
+    entry_confidences: list[float],
     notes: str | None,
 ) -> None:
     terminal.subsection(
-        f"Found {len(acquisitions)} acquisition(s)  |  Confidence: {overall_confidence:.0%}"
+        f"Found {len(entries)} raw entry(ies)  |  Confidence: {overall_confidence:.0%}"
     )
 
-    for i, acq in enumerate(acquisitions):
-        conf = acquisition_confidences[i] if i < len(acquisition_confidences) else 0.0
-        acq_type = acq.get("type", "unknown")
-        label = _acquisition_label(acq)
+    for i, entry in enumerate(entries):
+        conf = entry_confidences[i] if i < len(entry_confidences) else 0.0
+        wiki_section = entry.get("wikiSection", "unknown")
+        wiki_subsection = entry.get("wikiSubsection")
+        name = entry.get("name", "unknown")
+        section_label = f"{wiki_section}/{wiki_subsection}" if wiki_subsection else wiki_section
         conf_str = f"[{conf:.0%}]"
-        terminal.bullet(f"{conf_str} {acq_type}: {label}", indent=2)
+        terminal.bullet(f"{conf_str} {section_label}: {name}", indent=2)
 
     if notes:
         terminal.debug(f"Notes: {notes}")
@@ -215,12 +221,14 @@ def _acquisition_label(acq: dict) -> str:
         reqs = acq.get("requirements", [])
         cost = reqs[0].get("quantity", "?") if reqs else "?"
         return f"{cost} Astral Acclaim"
-    if acq_type in ("container", "salvage"):
+    if acq_type == "container":
+        return acq.get("containerName", "unknown")
+    if acq_type == "salvage":
         return acq.get("requirementName", "unknown")
+    if acq_type == "resource_node":
+        return acq.get("nodeName", "unknown")
     if acq_type == "map_reward":
         return meta.get("rewardType", meta.get("regionName", "unknown reward"))
-    if acq_type == "story":
-        return meta.get("storyChapter", meta.get("expansion", "unknown story"))
     if acq_type == "other":
         return meta.get("notes", "no description")
     return ""

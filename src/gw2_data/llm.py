@@ -20,9 +20,9 @@ _PROMPT_HASH = hashlib.sha256(SYSTEM_PROMPT.encode()).hexdigest()[:_CONTENT_HASH
 
 @dataclass
 class ExtractionResult:
-    acquisitions: list[dict]
+    entries: list[dict]
     overall_confidence: float
-    acquisition_confidences: list[float]
+    entry_confidences: list[float]
     notes: str | None
 
 
@@ -35,16 +35,6 @@ def _parse_llm_response(text: str) -> dict:
         return json.loads(cleaned)
     except json.JSONDecodeError as e:
         raise ExtractionError(f"Failed to parse LLM response as JSON: {e}") from e
-
-
-def _strip_confidence_fields(acquisitions: list[dict]) -> tuple[list[dict], list[float]]:
-    confidences = []
-    stripped = []
-    for acq in acquisitions:
-        acq_copy = dict(acq)
-        confidences.append(acq_copy.pop("confidence", 0.0))
-        stripped.append(acq_copy)
-    return stripped, confidences
 
 
 def _call_llm(
@@ -104,7 +94,7 @@ def _call_llm(
     return _parse_llm_response(result.stdout)
 
 
-def extract_acquisitions(
+def extract_entries(
     item_id: int,
     item_name: str,
     wiki_html: str,
@@ -128,9 +118,9 @@ def extract_acquisitions(
             "LLM extraction for '%s': using cached result (model=%s)", item_name, effective_model
         )
         return ExtractionResult(
-            acquisitions=cached["acquisitions"],
+            entries=cached["entries"],
             overall_confidence=cached["overall_confidence"],
-            acquisition_confidences=cached["acquisition_confidences"],
+            entry_confidences=cached["entry_confidences"],
             notes=cached["notes"],
         )
 
@@ -144,23 +134,23 @@ def extract_acquisitions(
         model=effective_model,
     )
 
-    raw_acquisitions = llm_output.get("acquisitions", [])
+    entries = llm_output.get("entries", [])
     overall_confidence = llm_output.get("overallConfidence", 0.0)
     notes = llm_output.get("notes")
 
-    acquisitions, confidences = _strip_confidence_fields(raw_acquisitions)
+    entry_confidences = [e.get("confidence", 0.0) for e in entries]
 
     cache_entry = {
-        "acquisitions": acquisitions,
+        "entries": entries,
         "overall_confidence": overall_confidence,
-        "acquisition_confidences": confidences,
+        "entry_confidences": entry_confidences,
         "notes": notes,
     }
     cache.set_llm_extraction(item_id, item_name, cache_hash, effective_model, rarity, cache_entry)
 
     return ExtractionResult(
-        acquisitions=acquisitions,
+        entries=entries,
         overall_confidence=overall_confidence,
-        acquisition_confidences=confidences,
+        entry_confidences=entry_confidences,
         notes=notes,
     )

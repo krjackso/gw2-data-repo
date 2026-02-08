@@ -124,7 +124,7 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
     Extract only acquisition-relevant sections from wiki HTML.
 
     Reduces HTML size for LLM processing by removing irrelevant sections
-    (Dropped by, Used in, Contained in, Currency for, etc.) while keeping
+    (Dropped by, Used in, Contained in, Currency for, Rewarded by, etc.) while keeping
     core acquisition information (Acquisition, Sold by, Vendor, Recipe, etc.).
 
     For commonly used items, "Contained in" and "Currency for" sections can be
@@ -141,6 +141,8 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
         r'<span[^>]*id="Currency_for"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[1-3][ >]|$)',
         r'<span[^>]*id="Salvage_results"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Map_Bonus_Reward"[^>]*>.*?(?=<h[1-3][ >]|$)',
+        r'<span[^>]*id="Rewarded_by"[^>]*>.*?(?=<h[1-3][ >]|$)',
         r'<span[^>]*id="Trivia"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Gallery"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Notes"[^>]*>.*?(?=<h[12][ >]|$)',

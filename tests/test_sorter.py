@@ -27,7 +27,7 @@ class TestSortAcquisitions:
         assert result[1]["type"] == "vendor"
         assert result[2]["type"] == "achievement"
 
-    def test_sort_other_after_story(self):
+    def test_sort_other_after_wizards_vault(self):
         acquisitions = [
             {
                 "type": "other",
@@ -35,14 +35,14 @@ class TestSortAcquisitions:
                 "requirements": [],
                 "metadata": {"notes": "test"},
             },
-            {"type": "story", "outputQuantity": 1, "requirements": []},
+            {"type": "wizards_vault", "outputQuantity": 1, "requirements": []},
             {"type": "crafting", "outputQuantity": 1, "requirements": []},
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
 
         assert result[0]["type"] == "crafting"
-        assert result[1]["type"] == "story"
+        assert result[1]["type"] == "wizards_vault"
         assert result[2]["type"] == "other"
 
     def test_sort_unknown_type_last(self):
@@ -194,21 +194,21 @@ class TestSortByMetadata:
         acquisitions = [
             {
                 "type": "container",
-                "itemId": 200,
+                "containerName": "Zeta Container",
                 "outputQuantity": 1,
                 "requirements": [],
                 "metadata": {"guaranteed": False},
             },
             {
                 "type": "container",
-                "itemId": 100,
+                "containerName": "Alpha Container",
                 "outputQuantity": 1,
                 "requirements": [],
                 "metadata": {"guaranteed": True},
             },
             {
                 "type": "container",
-                "itemId": 150,
+                "containerName": "Beta Container",
                 "outputQuantity": 1,
                 "requirements": [],
                 "metadata": {"guaranteed": True},
@@ -218,10 +218,146 @@ class TestSortByMetadata:
         result = sorter.sort_acquisitions(acquisitions)
 
         assert result[0]["metadata"]["guaranteed"] is True
-        assert result[0]["itemId"] == 100
+        assert result[0]["containerName"] == "Alpha Container"
         assert result[1]["metadata"]["guaranteed"] is True
-        assert result[1]["itemId"] == 150
+        assert result[1]["containerName"] == "Beta Container"
         assert result[2]["metadata"]["guaranteed"] is False
+        assert result[2]["containerName"] == "Zeta Container"
+
+    def test_sort_container_alphabetically_by_name(self):
+        acquisitions = [
+            {
+                "type": "container",
+                "containerName": "Zephyr Chest",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "container",
+                "containerName": "Alpha Coffer",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "container",
+                "containerName": "Mistborn Coffer",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["containerName"] == "Alpha Coffer"
+        assert result[1]["containerName"] == "Mistborn Coffer"
+        assert result[2]["containerName"] == "Zephyr Chest"
+
+    def test_sort_container_with_both_name_and_id(self):
+        acquisitions = [
+            {
+                "type": "container",
+                "containerName": "Zeta Box",
+                "itemId": 100,
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "container",
+                "containerName": "Alpha Box",
+                "itemId": 200,
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["containerName"] == "Alpha Box"
+        assert result[1]["containerName"] == "Zeta Box"
+
+    def test_sort_resource_node_guaranteed_first(self):
+        acquisitions = [
+            {
+                "type": "resource_node",
+                "nodeName": "Zeta Node",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": False},
+            },
+            {
+                "type": "resource_node",
+                "nodeName": "Alpha Node",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["nodeName"] == "Alpha Node"
+        assert result[1]["metadata"]["guaranteed"] is False
+        assert result[1]["nodeName"] == "Zeta Node"
+
+    def test_sort_resource_node_alphabetically(self):
+        acquisitions = [
+            {
+                "type": "resource_node",
+                "nodeName": "Rich Orichalcum Vein",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "resource_node",
+                "nodeName": "Herb Patch",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "resource_node",
+                "nodeName": "Ancient Sapling",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["nodeName"] == "Ancient Sapling"
+        assert result[1]["nodeName"] == "Herb Patch"
+        assert result[2]["nodeName"] == "Rich Orichalcum Vein"
+
+    def test_sort_resource_node_after_container(self):
+        acquisitions = [
+            {
+                "type": "resource_node",
+                "nodeName": "Herb Patch",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+            {
+                "type": "container",
+                "containerName": "Zeta Container",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"guaranteed": True},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["type"] == "container"
+        assert result[1]["type"] == "resource_node"
 
     def test_sort_achievement_by_name(self):
         acquisitions = [

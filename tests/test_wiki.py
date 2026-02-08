@@ -57,7 +57,7 @@ class TestExtractAcquisitionSections:
         )
         result = wiki.extract_acquisition_sections(html)
         assert "Container list" not in result
-        assert "Map reward info" in result
+        assert "Map reward info" not in result
         assert "Reward track info" in result
         assert "Recipe data" in result
 

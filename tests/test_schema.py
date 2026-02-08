@@ -123,11 +123,60 @@ level: 80
 lastUpdated: "2025-06-15"
 acquisitions:
   - type: container
+    containerName: Chest of Legendary Armor
     itemId: 105743
     outputQuantity: 1
     requirements: []
     metadata:
       guaranteed: false
+"""
+
+VALID_WITH_CONTAINER_NAME_ONLY = """
+id: 90783
+name: Mistborn Mote
+type: CraftingMaterial
+rarity: Rare
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: container
+    containerName: Mistborn Coffer
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      guaranteed: true
+"""
+
+VALID_WITH_CONTAINER_BOTH = """
+id: 67219
+name: Test Item
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: container
+    containerName: Some Container
+    itemId: 12345
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      guaranteed: true
+"""
+
+INVALID_CONTAINER_MISSING_NAME = """
+id: 90783
+name: Test Item
+type: CraftingMaterial
+rarity: Rare
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: container
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      guaranteed: true
 """
 
 VALID_WITH_OUTPUT_RANGE = """
@@ -188,6 +237,39 @@ acquisitions:
       recipeType: mystic_forge
 """
 
+VALID_WITH_RESOURCE_NODE = """
+id: 90783
+name: Mistborn Mote
+type: CraftingMaterial
+rarity: Rare
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: resource_node
+    nodeName: Mistborn Mote node
+    outputQuantity: 1
+    outputQuantityMin: 1
+    outputQuantityMax: 3
+    requirements: []
+    metadata:
+      guaranteed: true
+"""
+
+INVALID_RESOURCE_NODE_MISSING_NAME = """
+id: 90783
+name: Test Item
+type: CraftingMaterial
+rarity: Rare
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: resource_node
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      guaranteed: true
+"""
+
 INVALID_OUTPUT_RANGE_QUANTITY_NE_MIN = """
 id: 24276
 name: Test Item
@@ -224,6 +306,21 @@ class TestJsonSchema:
 
     def test_valid_with_container(self, validator):
         data = yaml.safe_load(VALID_WITH_CONTAINER)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_container_name_only(self, validator):
+        data = yaml.safe_load(VALID_WITH_CONTAINER_NAME_ONLY)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_container_both(self, validator):
+        data = yaml.safe_load(VALID_WITH_CONTAINER_BOTH)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_resource_node(self, validator):
+        data = yaml.safe_load(VALID_WITH_RESOURCE_NODE)
         errors = list(validator.iter_errors(data))
         assert errors == []
 
@@ -320,8 +417,30 @@ class TestPydanticModels:
         result = ItemFile.model_validate(data)
         acq = result.acquisitions[0]
         assert acq.type == "container"
+        assert acq.container_name == "Chest of Legendary Armor"
         assert acq.item_id == 105743
         assert acq.requirements == []
+
+    def test_parse_container_name_only(self):
+        data = yaml.safe_load(VALID_WITH_CONTAINER_NAME_ONLY)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.type == "container"
+        assert acq.container_name == "Mistborn Coffer"
+        assert acq.item_id is None
+
+    def test_parse_container_both_name_and_id(self):
+        data = yaml.safe_load(VALID_WITH_CONTAINER_BOTH)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.type == "container"
+        assert acq.container_name == "Some Container"
+        assert acq.item_id == 12345
+
+    def test_container_missing_name_raises(self):
+        data = yaml.safe_load(INVALID_CONTAINER_MISSING_NAME)
+        with pytest.raises(Exception, match="containerName is required"):
+            ItemFile.model_validate(data)
 
     def test_missing_required_field_raises(self):
         data = {"id": 123}
@@ -337,12 +456,17 @@ class TestPydanticModels:
             "map_reward",
             "container",
             "salvage",
+            "resource_node",
             "wvw_reward",
             "pvp_reward",
             "wizards_vault",
-            "story",
             "other",
         ]:
+            acq: dict = {"type": acq_type}
+            if acq_type == "container":
+                acq["containerName"] = "Test Container"
+            if acq_type == "resource_node":
+                acq["nodeName"] = "Test Node"
             data = {
                 "id": 1,
                 "name": "Test",
@@ -350,10 +474,25 @@ class TestPydanticModels:
                 "rarity": "Legendary",
                 "level": 0,
                 "lastUpdated": "2025-01-01",
-                "acquisitions": [{"type": acq_type}],
+                "acquisitions": [acq],
             }
             result = ItemFile.model_validate(data)
             assert result.acquisitions[0].type == acq_type
+
+    def test_parse_resource_node(self):
+        data = yaml.safe_load(VALID_WITH_RESOURCE_NODE)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.type == "resource_node"
+        assert acq.node_name == "Mistborn Mote node"
+        assert acq.output_quantity == 1
+        assert acq.output_quantity_min == 1
+        assert acq.output_quantity_max == 3
+
+    def test_resource_node_missing_name_raises(self):
+        data = yaml.safe_load(INVALID_RESOURCE_NODE_MISSING_NAME)
+        with pytest.raises(Exception, match="nodeName is required"):
+            ItemFile.model_validate(data)
 
     def test_valid_output_range(self):
         data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE)

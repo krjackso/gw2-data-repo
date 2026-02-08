@@ -1,137 +1,279 @@
 import logging
+from typing import Any
 
 from gw2_data import api
 from gw2_data.exceptions import APIError
 
 log = logging.getLogger(__name__)
 
-_VALID_TYPES: set[str] = {
-    "crafting",
-    "mystic_forge",
-    "vendor",
-    "achievement",
-    "map_reward",
-    "container",
-    "salvage",
-    "wvw_reward",
-    "pvp_reward",
-    "wizards_vault",
-    "story",
-    "other",
-}
 
-
-def _is_chance_drop(acq: dict) -> bool:
-    acq_type = acq.get("type")
-    metadata = acq.get("metadata", {})
-    if acq_type == "container":
-        return not metadata.get("guaranteed") and not metadata.get("choice")
-    if acq_type == "salvage":
-        return not metadata.get("guaranteed")
-    return False
-
-
-def _resolve_single_acquisition(
-    acq: dict,
+def _resolve_ingredient_list(
+    ingredients: list[dict[str, Any]],
     item_name_index: dict[str, list[int]],
     currency_name_index: dict[str, int],
     strict: bool,
-) -> dict | None:
-    acq_copy = dict(acq)
-    acq_type = acq["type"]
+) -> list[dict[str, Any]] | None:
+    resolved = []
+    for ingredient in ingredients:
+        name = ingredient["name"]
+        quantity = ingredient["quantity"]
 
-    if "requirementName" in acq_copy and acq_type in ("container", "salvage"):
-        name = acq_copy.pop("requirementName")
+        currency_id = None
         try:
-            item_id = api.resolve_item_name_to_id(name, item_name_index)
-            acq_copy["itemId"] = item_id
-        except (APIError, KeyError) as e:
-            if not strict:
-                log.warning(
-                    f"Skipping unresolvable source item '{name}' in {acq_type} acquisition: {e}"
-                )
-                return None
-            else:
+            currency_id = api.resolve_currency_name_to_id(name, currency_name_index)
+        except (APIError, KeyError):
+            pass
+
+        if currency_id is not None:
+            resolved.append({"currencyId": currency_id, "quantity": quantity})
+        else:
+            try:
+                item_id = api.resolve_item_name_to_id(name, item_name_index)
+                resolved.append({"itemId": item_id, "quantity": quantity})
+            except (APIError, KeyError) as e:
+                if not strict:
+                    log.warning(f"Skipping unresolvable ingredient '{name}': {e}")
+                    return None
                 raise ValueError(
-                    f"Failed to resolve source item '{name}' in {acq_type} acquisition "
-                    f"(not found in item index). "
-                    f"If this is a known variant, add to item_name_overrides.yaml. "
-                    f"If this acquisition is discontinued, the LLM should mark it with "
-                    f"discontinued: true and it will be excluded: {e}"
+                    f"Failed to resolve ingredient '{name}' "
+                    f"(not found in currency or item index). "
+                    f"If this is a known variant, add to currency_name_overrides.yaml "
+                    f"or item_name_overrides.yaml: {e}"
                 ) from e
 
-    requirements = acq_copy.get("requirements", [])
-    resolved_reqs = []
-
-    for req in requirements:
-        req_copy = dict(req)
-
-        if "requirementName" in req_copy:
-            name = req_copy.pop("requirementName")
-            acq_type = acq["type"]
-
-            currency_id = None
-            try:
-                currency_id = api.resolve_currency_name_to_id(name, currency_name_index)
-                req_copy["currencyId"] = currency_id
-            except (APIError, KeyError):
-                pass
-
-            if currency_id is None:
-                try:
-                    item_id = api.resolve_item_name_to_id(name, item_name_index)
-                    req_copy["itemId"] = item_id
-                except (APIError, KeyError) as e:
-                    if not strict:
-                        log.warning(
-                            f"Skipping unresolvable requirement '{name}' "
-                            f"in {acq_type} acquisition: {e}"
-                        )
-                        return None
-                    else:
-                        raise ValueError(
-                            f"Failed to resolve requirement '{name}' in {acq_type} acquisition "
-                            f"(not found in currency or item index). "
-                            f"If this is a known variant, add to currency_name_overrides.yaml "
-                            f"or item_name_overrides.yaml. "
-                            f"If this acquisition is discontinued, the LLM should mark it with "
-                            f"discontinued: true and it will be excluded: {e}"
-                        ) from e
-
-        resolved_reqs.append(req_copy)
-
-    acq_copy["requirements"] = resolved_reqs
-    return acq_copy
+    return resolved
 
 
-def resolve_requirements(
-    acquisitions: list[dict],
+def _classify_entry(
+    entry: dict[str, Any],
     item_name_index: dict[str, list[int]],
     currency_name_index: dict[str, int],
-    strict: bool = True,
-) -> list[dict]:
-    resolved = []
-    for acq in acquisitions:
-        acq_type = acq.get("type", "unknown")
+    gathering_node_index: set[str],
+    strict: bool,
+) -> dict[str, Any] | None:
+    wiki_section = entry["wikiSection"]
+    wiki_subsection = entry.get("wikiSubsection")
+    name = entry["name"]
+    quantity = entry.get("quantity", 1)
+    quantity_min = entry.get("quantityMin")
+    quantity_max = entry.get("quantityMax")
+    ingredients = entry.get("ingredients", [])
+    metadata = entry.get("metadata", {})
 
-        if acq_type not in _VALID_TYPES:
-            log.warning("Excluding invalid acquisition type: %s", acq_type)
-            continue
+    if wiki_section == "recipe":
+        if wiki_subsection == "mystic_forge":
+            acq_type = "mystic_forge"
+            recipe_type = "mystic_forge"
+        else:
+            acq_type = "crafting"
+            recipe_type = "crafting"
 
-        if acq.get("discontinued"):
-            log.info(f"Excluding discontinued {acq_type} acquisition")
-            continue
-
-        if _is_chance_drop(acq):
-            name = acq.get("requirementName", acq.get("itemId", "unknown"))
-            log.info(f"Excluding chance-based {acq['type']} acquisition: {name}")
-            continue
-
-        resolved_acq = _resolve_single_acquisition(
-            acq, item_name_index, currency_name_index, strict
+        requirements = _resolve_ingredient_list(
+            ingredients, item_name_index, currency_name_index, strict
         )
+        if requirements is None:
+            return None
 
-        if resolved_acq is not None:
-            resolved.append(resolved_acq)
+        acq: dict[str, Any] = {
+            "type": acq_type,
+            "outputQuantity": quantity,
+            "requirements": requirements,
+            "metadata": {"recipeType": recipe_type, **metadata},
+        }
 
-    return resolved
+        if quantity_min is not None:
+            acq["outputQuantityMin"] = quantity_min
+        if quantity_max is not None:
+            acq["outputQuantityMax"] = quantity_max
+
+        return acq
+
+    if wiki_section == "vendor":
+        requirements = _resolve_ingredient_list(
+            ingredients, item_name_index, currency_name_index, strict
+        )
+        if requirements is None:
+            return None
+
+        return {
+            "type": "vendor",
+            "vendorName": name,
+            "outputQuantity": quantity,
+            "requirements": requirements,
+            "metadata": metadata,
+        }
+
+    if wiki_section == "gathered_from":
+        cleaned_name = api.clean_name(name)
+        if cleaned_name in gathering_node_index:
+            acq_type = "resource_node"
+            acq = {
+                "type": acq_type,
+                "nodeName": name,
+                "outputQuantity": quantity,
+                "requirements": [],
+                "metadata": metadata,
+            }
+        else:
+            acq_type = "container"
+            acq = {
+                "type": acq_type,
+                "containerName": name,
+                "outputQuantity": quantity,
+                "requirements": [],
+                "metadata": metadata,
+            }
+            try:
+                item_id = api.resolve_item_name_to_id(name, item_name_index)
+                acq["itemId"] = item_id
+            except (APIError, KeyError) as e:
+                log.info(f"Container '{name}' has no item ID: {e}")
+
+        if metadata.get("guaranteed") is False and metadata.get("choice") is False:
+            log.info(f"Excluding chance-based {acq_type} from gathered_from: {name}")
+            return None
+
+        if quantity_min is not None:
+            acq["outputQuantityMin"] = quantity_min
+        if quantity_max is not None:
+            acq["outputQuantityMax"] = quantity_max
+
+        return acq
+
+    if wiki_section == "contained_in":
+        if wiki_subsection == "chance":
+            log.info(f"Excluding chance-based container from contained_in: {name}")
+            return None
+
+        acq = {
+            "type": "container",
+            "containerName": name,
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": metadata,
+        }
+
+        if wiki_subsection == "guaranteed":
+            acq["metadata"]["guaranteed"] = True
+
+        try:
+            item_id = api.resolve_item_name_to_id(name, item_name_index)
+            acq["itemId"] = item_id
+        except (APIError, KeyError) as e:
+            log.info(f"Container '{name}' has no item ID: {e}")
+
+        if quantity_min is not None:
+            acq["outputQuantityMin"] = quantity_min
+        if quantity_max is not None:
+            acq["outputQuantityMax"] = quantity_max
+
+        return acq
+
+    if wiki_section == "salvaged_from":
+        if not metadata.get("guaranteed"):
+            log.info(f"Excluding chance-based salvage: {name}")
+            return None
+
+        try:
+            item_id = api.resolve_item_name_to_id(name, item_name_index)
+        except (APIError, KeyError) as e:
+            if not strict:
+                log.warning(f"Skipping unresolvable salvage source '{name}': {e}")
+                return None
+            raise ValueError(
+                f"Failed to resolve salvage source '{name}' "
+                f"(not found in item index). "
+                f"If this is a known variant, add to item_name_overrides.yaml: {e}"
+            ) from e
+
+        return {
+            "type": "salvage",
+            "itemId": item_id,
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": metadata,
+        }
+
+    if wiki_section == "achievement":
+        return {
+            "type": "achievement",
+            "achievementName": name,
+            "achievementCategory": metadata.get("achievementCategory"),
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": {k: v for k, v in metadata.items() if k not in ("achievementCategory",)},
+        }
+
+    if wiki_section == "reward_track":
+        if wiki_subsection == "wvw":
+            acq_type = "wvw_reward"
+        elif wiki_subsection == "pvp":
+            acq_type = "pvp_reward"
+        else:
+            acq_type = "wvw_reward"
+
+        return {
+            "type": acq_type,
+            "trackName": name,
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": metadata,
+        }
+
+    if wiki_section == "map_reward":
+        return {
+            "type": "map_reward",
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": metadata,
+        }
+
+    if wiki_section == "wizards_vault":
+        requirements = _resolve_ingredient_list(
+            ingredients, item_name_index, currency_name_index, strict
+        )
+        if requirements is None:
+            return None
+
+        return {
+            "type": "wizards_vault",
+            "outputQuantity": quantity,
+            "requirements": requirements,
+            "metadata": metadata,
+        }
+
+    if wiki_section == "other":
+        return {
+            "type": "other",
+            "outputQuantity": quantity,
+            "requirements": [],
+            "metadata": metadata,
+        }
+
+    log.warning(f"Unknown wiki section '{wiki_section}' for entry: {name}")
+    return None
+
+
+def classify_and_resolve(
+    raw_entries: list[dict[str, Any]],
+    item_name_index: dict[str, list[int]],
+    currency_name_index: dict[str, int],
+    gathering_node_index: set[str],
+    strict: bool = True,
+) -> list[dict[str, Any]]:
+    acquisitions = []
+
+    for entry in raw_entries:
+        confidence = entry.get("confidence", 0.0)
+        if confidence < 0.8:
+            name = entry.get("name", "unknown")
+            log.info(f"Excluding low-confidence entry ({confidence:.0%}): {name}")
+            continue
+
+        acq = _classify_entry(
+            entry, item_name_index, currency_name_index, gathering_node_index, strict
+        )
+        if acq is not None:
+            acquisitions.append(acq)
+
+    return acquisitions

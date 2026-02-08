@@ -240,3 +240,38 @@ def test_resolve_currency_name_to_id_with_override():
 
     result = api.resolve_currency_name_to_id("Ascended Shards of Glory", index)
     assert result == 33
+
+
+def test_load_gathering_node_index(monkeypatch, tmp_path: Path):
+    nodes = ["Rich Iron Vein", "Herb Patch", "Aspen Sapling"]
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_gathering_node_index()
+
+    assert isinstance(result, set)
+    assert "Rich Iron Vein" in result
+    assert "Herb Patch" in result
+    assert "Aspen Sapling" in result
+    assert len(result) == 3
+
+
+def test_load_gathering_node_index_cleans_names(monkeypatch, tmp_path: Path):
+    nodes = ["Rich  Iron  Vein", "Herb\nPatch"]
+    index_dir = tmp_path / "data" / "index"
+    index_dir.mkdir(parents=True)
+    (index_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
+
+    monkeypatch.chdir(tmp_path)
+    result = api.load_gathering_node_index()
+
+    assert "Rich Iron Vein" in result
+    assert "Herb Patch" in result
+
+
+def test_load_gathering_node_index_missing_file(monkeypatch, tmp_path: Path):
+    monkeypatch.chdir(tmp_path)
+    with pytest.raises(APIError, match="Gathering node index not found"):
+        api.load_gathering_node_index()

@@ -379,14 +379,15 @@ def test_item_name_resolution_single_match(mocker, monkeypatch, tmp_path: Path, 
     mocker.patch.object(api, "get_item", return_value=mock_item)
     mocker.patch("scripts.populate.wiki.get_page_html", return_value="<html>test</html>")
     mocker.patch(
-        "scripts.populate.llm.extract_acquisitions",
+        "scripts.populate.llm.extract_entries",
         return_value=mocker.Mock(
-            acquisitions=[],
+            entries=[],
             overall_confidence=1.0,
-            acquisition_confidences=[],
+            entry_confidences=[],
             notes="",
         ),
     )
+    mocker.patch.object(api, "load_gathering_node_index", return_value=set())
 
     from scripts import populate
 

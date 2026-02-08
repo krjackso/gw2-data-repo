@@ -203,6 +203,21 @@ def load_currency_name_index() -> dict[str, int]:
     return index
 
 
+def load_gathering_node_index() -> set[str]:
+    index_path = Path("data/index/gathering_nodes.yaml")
+
+    if not index_path.exists():
+        raise APIError(
+            f"Gathering node index not found at {index_path}. "
+            "Run 'uv run python -m scripts.build_gathering_index' first."
+        )
+
+    with index_path.open() as f:
+        nodes: list[str] = yaml.safe_load(f)
+
+    return {clean_name(n) for n in nodes}
+
+
 def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:
     cleaned = clean_name(name)
     matches = index.get(cleaned)
