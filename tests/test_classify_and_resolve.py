@@ -354,6 +354,76 @@ class TestClassifyAndResolveContainedIn:
 
         assert len(result) == 0
 
+    def test_contained_in_inline_choice(self):
+        item_index = {"Legendary Gift Starter Kit": [103820]}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Legendary Gift Starter Kit",
+                "wikiSection": "contained_in",
+                "wikiSubsection": "inline",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {"choice": True},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "container"
+        assert result[0]["containerName"] == "Legendary Gift Starter Kit"
+        assert result[0]["itemId"] == 103820
+        assert result[0]["outputQuantity"] == 1
+        assert result[0]["metadata"]["choice"] is True
+
+    def test_contained_in_inline_chance_filtered(self):
+        item_index = {}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Random Box",
+                "wikiSection": "contained_in",
+                "wikiSubsection": "inline",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {"guaranteed": False, "choice": False},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 0
+
+    def test_contained_in_inline_guaranteed(self):
+        item_index = {"Some Container": [999]}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Some Container",
+                "wikiSection": "contained_in",
+                "wikiSubsection": "inline",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {"guaranteed": True},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "container"
+        assert result[0]["metadata"]["guaranteed"] is True
+
 
 class TestClassifyAndResolveSalvage:
     def test_salvage_guaranteed(self):

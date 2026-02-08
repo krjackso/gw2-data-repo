@@ -44,7 +44,6 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    guaranteed: false
     choice: true
 - type: container
   itemId: 90017
@@ -52,5 +51,4 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    guaranteed: false
     choice: true

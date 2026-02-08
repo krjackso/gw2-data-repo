@@ -181,40 +181,66 @@ Only include entries where guaranteed=true or choice=true. Skip chance-only drop
 ]
 
 ### wikiSection: "contained_in"
-For entries found in "Contained in" sections. These use h4 sub-headings to separate \
-Guaranteed from Chance drops.
+For entries found in "Contained in" sections. These can use EITHER h4 sub-headings OR \
+inline `<small>` tags to indicate guaranteed/chance/choice status.
 
-**How guaranteed/chance is indicated here:** The h4 heading `<span id="Guaranteed">` or \
-`<span id="Chance">` determines the type for ALL entries under that heading. This is \
-different from "gathered_from" which uses inline `<small>` tags per entry.
-
+**Pattern 1 - h4 sub-headings (older wiki pages):**
+The h4 heading `<span id="Guaranteed">` or `<span id="Chance">` determines the type \
+for ALL entries under that heading.
 - Use wikiSubsection: "guaranteed" for entries under a "Guaranteed" h4 heading
 - Use wikiSubsection: "chance" for entries under a "Chance" h4 heading
+- No metadata field needed (use wikiSubsection instead)
+
+**Pattern 2 - inline tags (newer wiki pages):**
+Each entry has an inline `<small>` tag indicating its status:
+- `<small>(guaranteed)</small>` → metadata: {"guaranteed": true}
+- `<small>(chance)</small>` → metadata: {"guaranteed": false}
+- `<small>(choice)</small>` → metadata: {"choice": true}
+- `<small>(<b>choice</b>)</small>` → metadata: {"choice": true}
+- No tag → assume metadata: {"guaranteed": true}
+- Use wikiSubsection: "inline" when inline tags are present
+
+**Important:** Choice containers allow the player to SELECT the item from multiple \
+options (reward boxes where you pick 1 of N items). These should be marked with \
+choice=true even if guaranteed=false.
+
 - name: the container/source name (from the link text)
 - No ingredients field
-- No metadata needed (guaranteed/chance is captured in wikiSubsection)
 
-Only include entries from the "Guaranteed" sub-heading. Skip "Chance" entries entirely.
+Only include entries where guaranteed=true OR choice=true. Skip chance-only drops.
 
-**Example input:**
+**Example input (h4 pattern):**
 ```html
 <h3><span id="Contained_in">Contained in</span></h3>
 <h4><span id="Guaranteed">Guaranteed</span></h4>
 <ul class="smw-format ul-format">
   <li class="smw-row">...<a href="/wiki/Bag_of_Obsidian">Bag of Obsidian</a> (3) </li>
-  <li class="smw-row">...<a href="/wiki/Amnytas_Gear_Box">Amnytas Gear Box</a> (15) </li>
 </ul>
 <h4><span id="Chance">Chance</span></h4>
 <ul class="smw-format ul-format">
   <li class="smw-row">...<a href="/wiki/Buried_Treasure">Buried Treasure</a> (1, 3) </li>
 </ul>
 ```
-**Example output** (only Guaranteed entries):
+**Example output:**
 [
   {"name": "Bag of Obsidian", "wikiSection": "contained_in", \
-"wikiSubsection": "guaranteed", "confidence": 1.0, "quantity": 3},
-  {"name": "Amnytas Gear Box", "wikiSection": "contained_in", \
-"wikiSubsection": "guaranteed", "confidence": 1.0, "quantity": 15}
+"wikiSubsection": "guaranteed", "confidence": 1.0, "quantity": 3}
+]
+
+**Example input (inline pattern):**
+```html
+<h3><span id="Contained_in">Contained in</span></h3>
+<ul class="smw-format ul-format">
+  <li class="smw-row">...<a href="/wiki/Legendary_Gift_Starter_Kit">\
+Legendary Gift Starter Kit</a> <small>(<b>choice</b>)</small></li>
+  <li class="smw-row">...<a href="/wiki/Random_Box">Random Box</a> \
+<small>(chance)</small></li>
+</ul>
+```
+**Example output** (Random Box skipped because it's chance):
+[
+  {"name": "Legendary Gift Starter Kit", "wikiSection": "contained_in", \
+"wikiSubsection": "inline", "confidence": 1.0, "quantity": 1, "metadata": {"choice": true}}
 ]
 
 ### wikiSection: "salvaged_from"

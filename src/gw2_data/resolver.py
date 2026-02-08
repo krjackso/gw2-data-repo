@@ -155,6 +155,10 @@ def _classify_entry(
 
         if wiki_subsection == "guaranteed":
             acq["metadata"]["guaranteed"] = True
+        elif wiki_subsection == "inline":
+            if metadata.get("guaranteed") is False and metadata.get("choice") is False:
+                log.info(f"Excluding chance-based container from contained_in: {name}")
+                return None
 
         try:
             item_id = api.resolve_item_name_to_id(name, item_name_index)
