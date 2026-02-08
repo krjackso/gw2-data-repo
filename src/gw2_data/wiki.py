@@ -7,6 +7,7 @@ load on the wiki servers.
 """
 
 import logging
+import re
 
 import httpx
 
@@ -17,6 +18,7 @@ from gw2_data.exceptions import WikiError
 log = logging.getLogger(__name__)
 
 _WIKI_API_URL = "https://wiki.guildwars2.com/api.php"
+_MAX_HTML_LENGTH = 200_000
 
 
 def get_page_html(page_name: str, cache: CacheClient) -> str:
@@ -64,3 +66,49 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
     html_content: str = data["parse"]["text"]["*"]
     cache.set_wiki_page(page_name, html_content)
     return html_content
+
+
+def extract_acquisition_sections(html: str) -> str:
+    """
+    Extract only acquisition-relevant sections from wiki HTML.
+
+    Reduces HTML size for LLM processing by removing irrelevant sections
+    (Dropped by, Used in, Contained in, etc.) while keeping core acquisition
+    information (Acquisition, Sold by, Vendor, Recipe, Crafted from, etc.).
+
+    For commonly used items, "Contained in" sections can be massive (hundreds
+    of KB), listing every recipe/container that outputs this item. We exclude
+    this since the LLM should focus on direct acquisition methods, not reverse
+    dependencies.
+
+    If the result is still too large, truncates to _MAX_HTML_LENGTH characters.
+    """
+    if len(html) <= _MAX_HTML_LENGTH:
+        return html
+
+    excluded_sections = [
+        r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Contained_in"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Salvage_results"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Trivia"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Gallery"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="Notes"[^>]*>.*?(?=<h[12]|$)',
+        r'<span[^>]*id="External_links"[^>]*>.*?(?=<h[12]|$)',
+    ]
+
+    filtered_html = html
+    for pattern in excluded_sections:
+        filtered_html = re.sub(pattern, "", filtered_html, flags=re.DOTALL | re.IGNORECASE)
+
+    if len(filtered_html) > _MAX_HTML_LENGTH:
+        log.warning(
+            "Filtered HTML still too large (%d chars), truncating to %d",
+            len(filtered_html),
+            _MAX_HTML_LENGTH,
+        )
+        filtered_html = filtered_html[:_MAX_HTML_LENGTH]
+
+    log.info("Filtered acquisition HTML: %d chars (from %d)", len(filtered_html), len(html))
+    return filtered_html

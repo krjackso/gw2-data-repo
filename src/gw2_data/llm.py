@@ -6,6 +6,7 @@ import subprocess
 from dataclasses import dataclass
 from datetime import UTC, datetime
 
+from gw2_data import wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import ExtractionError
@@ -115,7 +116,9 @@ def extract_acquisitions(
     settings = get_settings()
     effective_model = model or settings.llm_model
 
-    content_hash = hashlib.sha256(wiki_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
+    processed_html = wiki.extract_acquisition_sections(wiki_html)
+
+    content_hash = hashlib.sha256(processed_html.encode()).hexdigest()[:_CONTENT_HASH_LENGTH]
     cache_hash = f"{_PROMPT_HASH}:{content_hash}"
     rarity = api_data["rarity"]
 
@@ -137,7 +140,7 @@ def extract_acquisitions(
         item_name=item_name,
         item_type=api_data["type"],
         rarity=api_data["rarity"],
-        wiki_html=wiki_html,
+        wiki_html=processed_html,
         model=effective_model,
     )
 
