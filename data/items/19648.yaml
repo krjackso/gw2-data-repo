@@ -40,6 +40,7 @@ acquisitions:
     recipeType: mystic_forge
 - type: container
   itemId: 95957
+  containerName: 'Starter Kit: Twilight'
   outputQuantity: 1
   requirements: []
   metadata:

@@ -30,6 +30,7 @@ acquisitions:
     recipeType: mystic_forge
 - type: container
   itemId: 97889
+  containerName: Legendary Choice Box
   outputQuantity: 1
   requirements: []
   metadata:

@@ -19,6 +19,7 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: container
   itemId: 50071
+  containerName: Ultimate Citizen's Rescue Bag
   outputQuantity: 10
   requirements: []
   metadata:
@@ -26,6 +27,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 50073
+  containerName: Standard Citizen's Rescue Bag
   outputQuantity: 5
   requirements: []
   metadata:

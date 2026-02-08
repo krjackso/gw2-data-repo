@@ -124,19 +124,21 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
     Extract only acquisition-relevant sections from wiki HTML.
 
     Reduces HTML size for LLM processing by removing irrelevant sections
-    (Dropped by, Used in, Contained in, Currency for, Rewarded by, etc.) while keeping
-    core acquisition information (Acquisition, Sold by, Vendor, Recipe, etc.).
+    (Dropped by, Used in, Currency for, Rewarded by, etc.) while keeping
+    core acquisition information (Acquisition, Sold by, Vendor, Recipe,
+    Contained in, etc.).
 
-    For commonly used items, "Contained in" and "Currency for" sections can be
-    massive (hundreds of KB), listing every recipe/container that outputs this
-    item or every vendor that accepts it as currency. We exclude these since
-    the LLM should focus on direct acquisition methods, not reverse dependencies.
+    For commonly used items, "Currency for" sections can be massive
+    (hundreds of KB). We exclude these since the LLM should focus on
+    direct acquisition methods, not reverse dependencies.
+
+    "Contained in" is kept because it lists containers that guarantee
+    this item as output — a direct acquisition source.
 
     If the result is still too large, truncates to max_length characters.
     """
     excluded_sections = [
         r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[1-3][ >]|$)',
-        r'<span[^>]*id="Contained_in"[^>]*>.*?(?=<h[1-3][ >]|$)',
         r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Currency_for"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[1-3][ >]|$)',

@@ -21,6 +21,7 @@ acquisitions:
     notes: Requires the festival Festival of the Four Winds
 - type: container
   itemId: 39091
+  containerName: Armorsmith Starter Kit
   outputQuantity: 120
   requirements: []
   metadata:
@@ -28,6 +29,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 39098
+  containerName: Leatherworker Starter Kit
   outputQuantity: 120
   requirements: []
   metadata:
@@ -35,6 +37,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 39099
+  containerName: Tailor Starter Kit
   outputQuantity: 200
   requirements: []
   metadata:
@@ -42,6 +45,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 63662
+  containerName: Beginner's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
   metadata:

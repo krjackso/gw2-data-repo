@@ -48,6 +48,7 @@ acquisitions:
     timeGated: false
 - type: container
   itemId: 90021
+  containerName: 'Tournament of Legends: Mastery or Fortune'
   outputQuantity: 1
   requirements: []
   metadata:

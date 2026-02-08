@@ -22,7 +22,7 @@ flags:
 - DeleteWarning
 - SoulBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Dusk
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: crafting
   outputQuantity: 1
@@ -42,120 +42,15 @@ acquisitions:
     minRating: 500
 - type: container
   itemId: 95957
+  containerName: 'Starter Kit: Twilight'
   outputQuantity: 1
   requirements: []
   metadata:
     guaranteed: true
-    choice: false
 - type: container
   itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
   outputQuantity: 1
   requirements: []
   metadata:
-    guaranteed: false
-    choice: true
-- type: container
-  itemId: 77661
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93051
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93038
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93004
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93035
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93211
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93230
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93195
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93273
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 107137
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93786
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93222
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93221
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93131
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
-- type: container
-  itemId: 93158
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: false
-    choice: false
+    guaranteed: true

@@ -38,6 +38,7 @@ acquisitions:
     notes: Requires the mastery Follows Advice.
 - type: container
   itemId: 94013
+  containerName: Fractal Fighter's Cache
   outputQuantity: 1
   requirements: []
   metadata:

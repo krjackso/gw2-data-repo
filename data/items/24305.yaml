@@ -54,6 +54,7 @@ acquisitions:
     timeGated: false
 - type: container
   itemId: 88954
+  containerName: Bag of Lodestones
   outputQuantity: 1
   requirements: []
   metadata:

@@ -30,6 +30,7 @@ acquisitions:
     notes: Requires the festival Halloween
 - type: container
   itemId: 48795
+  containerName: Bag of Confiscated Treats
   outputQuantity: 5
   requirements: []
   metadata:

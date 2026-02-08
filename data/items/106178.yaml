@@ -17,6 +17,7 @@ lastUpdated: '2026-02-07'
 acquisitions:
 - type: container
   itemId: 105743
+  containerName: Selachimorpha Container
   outputQuantity: 1
   requirements: []
   metadata:

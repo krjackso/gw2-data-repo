@@ -1,0 +1,553 @@
+id: 92272
+name: Eternal Ice Shard
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D40CAAE1BEE9C8B3606534F501A244E5E3149852/2220776.png
+description: Can be traded with camp vendors in Bjora Marches.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Eternal_Ice_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 2668
+  metadata:
+    limitType: daily
+    limitAmount: 10
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 2668
+  metadata:
+    limitType: daily
+    limitAmount: 10
+- type: vendor
+  vendorName: Icebrood Saga Material
+  outputQuantity: 10
+  requirements:
+  - itemId: 92069
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 2668
+  metadata:
+    limitType: daily
+    limitAmount: 10
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Wintersday Trader
+  outputQuantity: 50
+  requirements:
+  - itemId: 86627
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 93814
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 93781
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 94163
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 92317
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 92072
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 84335
+    quantity: 5
+  - currencyId: 2
+    quantity: 105
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 105
+  - currencyId: 35
+    quantity: 5
+  metadata: {}
+- type: achievement
+  achievementName: Ancient Weaponeer
+  achievementCategory: Whisper in the Dark
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Illuminated Boreal Weapons
+  achievementCategory: Rare Collections
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Master of the Ancestral Forge
+  achievementCategory: Whisper in the Dark
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bjora Marches 1
+  achievementCategory: Return to Whisper in the Dark
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Bjora Marches 2
+  achievementCategory: Return to Shadow in the Ice
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Chasing Ghosts
+  achievementCategory: Return to Shadow in the Ice
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Silence
+  achievementCategory: Return to Whisper in the Dark
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to The Invitation
+  achievementCategory: Return to Whisper in the Dark
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Voice in the Deep
+  achievementCategory: Return to Shadow in the Ice
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to What's Left Behind
+  achievementCategory: Return to Whisper in the Dark
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  containerName: Glorious Norn Chest
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Norn Chest
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: in Bjora Marches
+- type: container
+  containerName: Training Chest of Valor
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: resource_node
+  nodeName: Eternal Ice
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 8
+  requirements: []
+  metadata:
+    guaranteed: true

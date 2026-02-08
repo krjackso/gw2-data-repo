@@ -40,7 +40,7 @@ class TestExtractAcquisitionSections:
         assert "Mystic Forge promotion recipe" in result
         assert "Monster drop table" not in result
 
-    def test_excluded_h3_contained_in_does_not_swallow_siblings(self):
+    def test_contained_in_preserved_while_map_bonus_excluded(self):
         html = _make_large_html(
             [
                 '<h2><span id="Acquisition">Acquisition</span></h2>',
@@ -56,7 +56,7 @@ class TestExtractAcquisitionSections:
             ]
         )
         result = wiki.extract_acquisition_sections(html)
-        assert "Container list" not in result
+        assert "Container list" in result
         assert "Map reward info" not in result
         assert "Reward track info" in result
         assert "Recipe data" in result
@@ -78,7 +78,7 @@ class TestExtractAcquisitionSections:
         assert "Used in recipes" not in result
         assert "Armorsmith recipes" not in result
 
-    def test_medium_html_filters_used_in_without_truncation(self):
+    def test_medium_html_filters_used_in_but_keeps_contained_in(self):
         html = (
             '<h2><span id="Acquisition">Acquisition</span></h2>'
             "<p>Get from vendor or salvage</p>"
@@ -93,6 +93,7 @@ class TestExtractAcquisitionSections:
         assert len(html) < 300_000
         result = wiki.extract_acquisition_sections(html)
         assert "Get from vendor or salvage" in result
+        assert "Pile of Silky Sand" in result
         assert "Weaponsmith" not in result
         assert "Scribe" not in result
         assert "x" * 50_000 not in result

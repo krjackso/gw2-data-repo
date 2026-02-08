@@ -28,6 +28,7 @@ acquisitions:
     recipeType: mystic_forge
 - type: container
   itemId: 63680
+  containerName: Novice's Bag of Crafting Supplies
   outputQuantity: 10
   requirements: []
   metadata:

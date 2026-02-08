@@ -295,6 +295,7 @@ acquisitions:
     timeGated: false
 - type: container
   itemId: 79186
+  containerName: Magic-Warped Bundle
   outputQuantity: 1
   requirements: []
   metadata:
@@ -302,6 +303,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 81524
+  containerName: Mist-Warped Bundle
   outputQuantity: 1
   requirements: []
   metadata:

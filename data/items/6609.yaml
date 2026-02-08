@@ -11,7 +11,7 @@ flags:
 - NoSell
 - SoulBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Lionguard
@@ -22,7 +22,7 @@ acquisitions:
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Brigandine (skin)
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
@@ -32,7 +32,7 @@ acquisitions:
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Brigandine (skin)
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
@@ -42,4 +42,4 @@ acquisitions:
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Brigandine (skin)

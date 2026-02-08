@@ -1,0 +1,96 @@
+id: 90783
+name: Mistborn Mote
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E76806D6DF4E27C70EA70A9FAC1F0D036C18659E/2140686.png
+description: Can be traded with camp vendors in Dragonfall or consumed for volatile
+  magic.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mistborn_Mote
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 2688
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the achievement Putting Out Fires.
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 50
+  requirements:
+  - itemId: 43320
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Dragon Bash.
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 2
+  metadata: {}
+- type: achievement
+  achievementName: Return to War Eternal
+  achievementCategory: Return to War Eternal
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Mistborn Coffer
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: resource_node
+  nodeName: Mistborn Mote
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: resource_node
+  nodeName: Mistborn Mote
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: home instances

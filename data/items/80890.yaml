@@ -16,6 +16,7 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: container
   itemId: 80862
+  containerName: Box of Super Adventure Box Goods
   outputQuantity: 1
   requirements: []
   metadata:
@@ -23,6 +24,7 @@ acquisitions:
     choice: false
 - type: container
   itemId: 78039
+  containerName: Super Adventure Weapon Box
   outputQuantity: 1
   requirements: []
   metadata:

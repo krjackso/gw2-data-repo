@@ -27,6 +27,7 @@ acquisitions:
     minRating: 0
 - type: container
   itemId: 78884
+  containerName: Satchel of Poster-Making Supplies
   outputQuantity: 1
   requirements: []
   metadata:

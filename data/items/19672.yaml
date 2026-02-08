@@ -40,6 +40,7 @@ acquisitions:
     recipeType: mystic_forge
 - type: container
   itemId: 103820
+  containerName: Legendary Gift Starter Kit
   outputQuantity: 1
   requirements: []
   metadata:
@@ -47,6 +48,7 @@ acquisitions:
     choice: true
 - type: container
   itemId: 90017
+  containerName: 'Tournament of Legends: Magic or Might'
   outputQuantity: 1
   requirements: []
   metadata:

@@ -42,22 +42,3 @@ acquisitions:
   - itemId: 45176
     quantity: 100
   metadata: {}
-- type: container
-  itemId: 63862
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    guaranteed: true
-    choice: false
-- type: story
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    storyChapter: A Light in the Darkness
-    expansion: Personal Story
-- type: story
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    storyChapter: What the Eye Beholds
-    expansion: Personal Story
