@@ -8,6 +8,7 @@ load on the wiki servers.
 
 import logging
 import re
+from typing import Any
 
 import httpx
 
@@ -21,16 +22,7 @@ _WIKI_API_URL = "https://wiki.guildwars2.com/api.php"
 _MAX_HTML_LENGTH = 200_000
 
 
-def get_page_html(page_name: str, cache: CacheClient) -> str:
-    if not page_name or not page_name.strip():
-        raise WikiError("Page name cannot be empty")
-
-    cached = cache.get_wiki_page(page_name)
-    if cached is not None:
-        log.info("Wiki page '%s': using cached HTML", page_name)
-        return cached
-
-    log.info("Wiki page '%s': fetching from wiki API", page_name)
+def _fetch_wiki_page(page_name: str) -> str:
     settings = get_settings()
     try:
         response = httpx.get(
@@ -52,8 +44,8 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
         raise WikiError(f"Network error fetching wiki page '{page_name}': {e}") from e
 
     try:
-        data = response.json()
-    except Exception as e:
+        data: dict[str, Any] = response.json()
+    except (ValueError, TypeError) as e:
         raise WikiError(f"Invalid JSON response for wiki page '{page_name}'") from e
 
     if "error" in data:
@@ -63,7 +55,53 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
     if "parse" not in data or "text" not in data["parse"]:
         raise WikiError(f"Unexpected wiki API response format for '{page_name}'")
 
-    html_content: str = data["parse"]["text"]["*"]
+    return data["parse"]["text"]["*"]
+
+
+_DISAMBIG_MARKER = "Disambig_icon.png"
+
+
+def _find_item_disambiguation(html: str, page_name: str) -> str | None:
+    if _DISAMBIG_MARKER not in html:
+        return None
+
+    underscored = page_name.replace(" ", "_")
+    pattern = rf'href="/wiki/{re.escape(underscored)}_\(item\)"'
+    if re.search(pattern, html):
+        redirected = f"{page_name} (item)"
+        log.warning(
+            "Wiki page '%s' is a disambiguation page; redirecting to '%s'",
+            page_name,
+            redirected,
+        )
+        return redirected
+
+    return None
+
+
+def get_page_html(page_name: str, cache: CacheClient) -> str:
+    if not page_name or not page_name.strip():
+        raise WikiError("Page name cannot be empty")
+
+    cached = cache.get_wiki_page(page_name)
+    if cached is not None:
+        log.info("Wiki page '%s': using cached HTML", page_name)
+        return cached
+
+    log.info("Wiki page '%s': fetching from wiki API", page_name)
+    html_content = _fetch_wiki_page(page_name)
+
+    redirect = _find_item_disambiguation(html_content, page_name)
+    if redirect:
+        cached_redirect = cache.get_wiki_page(redirect)
+        if cached_redirect is not None:
+            log.info("Wiki page '%s': using cached HTML", redirect)
+            cache.set_wiki_page(page_name, cached_redirect)
+            return cached_redirect
+
+        html_content = _fetch_wiki_page(redirect)
+        cache.set_wiki_page(redirect, html_content)
+
     cache.set_wiki_page(page_name, html_content)
     return html_content
 

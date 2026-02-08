@@ -95,3 +95,131 @@ def test_get_page_html_unexpected_format(mocker, cache_client: CacheClient):
 
     with pytest.raises(WikiError, match="Unexpected wiki API response format"):
         wiki.get_page_html("Test_Page", cache=cache_client)
+
+
+# --- Disambiguation detection tests ---
+
+_DISAMBIG_IMG = (
+    '<img alt="Disambig icon.png"'
+    ' src="/images/thumb/6/67/Disambig_icon.png/19px-Disambig_icon.png" />'
+)
+_DISAMBIG_HTML = (
+    '<div class="noexcerpt"><div style="margin-left:1.6em;">'
+    f"{_DISAMBIG_IMG}"
+    " <i>This article is about the skill. "
+    "For the item, see "
+    '<a href="/wiki/Mirror_(item)" title="Mirror (item)">'
+    "Mirror (item)</a>."
+    "</i></div></div>"
+    "<p>Mirror is a mesmer skill...</p>"
+)
+
+
+def test_find_item_disambiguation_detects_redirect():
+    result = wiki._find_item_disambiguation(_DISAMBIG_HTML, "Mirror")
+    assert result == "Mirror (item)"
+
+
+def test_find_item_disambiguation_no_disambig_marker():
+    html = "<p>Normal page content about Mirror</p>"
+    result = wiki._find_item_disambiguation(html, "Mirror")
+    assert result is None
+
+
+def test_find_item_disambiguation_no_item_link():
+    html = (
+        f"{_DISAMBIG_IMG}"
+        " <i>For the other thing, see "
+        '<a href="/wiki/Mirror_(skill)">Mirror (skill)</a>.</i>'
+    )
+    result = wiki._find_item_disambiguation(html, "Mirror")
+    assert result is None
+
+
+def test_find_item_disambiguation_multi_word_name():
+    html = (
+        f"{_DISAMBIG_IMG}"
+        " <i>For the item, see "
+        '<a href="/wiki/Pile_of_Sand_(item)">'
+        "Pile of Sand (item)</a>.</i>"
+    )
+    result = wiki._find_item_disambiguation(html, "Pile of Sand")
+    assert result == "Pile of Sand (item)"
+
+
+def test_get_page_html_follows_disambiguation(mocker, cache_client: CacheClient):
+    item_html = "<p>Mirror is a crafting material...</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": _DISAMBIG_HTML}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": item_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    result = wiki.get_page_html("Mirror", cache=cache_client)
+
+    assert result == item_html
+    assert mock_get.call_count == 2
+
+
+def test_get_page_html_no_redirect_for_normal_page(mocker, cache_client: CacheClient):
+    normal_html = "<p>Normal item page</p>"
+    mock_get = mocker.patch("httpx.get")
+    mock_get.return_value.json.return_value = {"parse": {"text": {"*": normal_html}}}
+    mock_get.return_value.raise_for_status = lambda: None
+
+    result = wiki.get_page_html("Normal Item", cache=cache_client)
+
+    assert result == normal_html
+    assert mock_get.call_count == 1
+
+
+def test_get_page_html_caches_both_names_on_redirect(mocker, cache_client: CacheClient):
+    item_html = "<p>Mirror is a crafting material...</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": _DISAMBIG_HTML}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": item_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    wiki.get_page_html("Mirror", cache=cache_client)
+
+    assert cache_client.get_wiki_page("Mirror") == item_html
+    assert cache_client.get_wiki_page("Mirror (item)") == item_html
+
+    result = wiki.get_page_html("Mirror", cache=cache_client)
+    assert result == item_html
+    assert mock_get.call_count == 2
+
+
+def test_get_page_html_uses_cached_redirect_target(mocker, cache_client: CacheClient):
+    item_html = "<p>Mirror is a crafting material...</p>"
+    cache_client.set_wiki_page("Mirror (item)", item_html)
+
+    mock_get = mocker.patch("httpx.get")
+    mock_get.return_value.json.return_value = {"parse": {"text": {"*": _DISAMBIG_HTML}}}
+    mock_get.return_value.raise_for_status = lambda: None
+
+    result = wiki.get_page_html("Mirror", cache=cache_client)
+
+    assert result == item_html
+    assert mock_get.call_count == 1
+    assert cache_client.get_wiki_page("Mirror") == item_html
+    assert cache_client.get_wiki_page("Mirror (item)") == item_html
