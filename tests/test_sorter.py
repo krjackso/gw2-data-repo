@@ -197,31 +197,31 @@ class TestSortByMetadata:
                 "containerName": "Zeta Container",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": False},
+                "guaranteed": False,
             },
             {
                 "type": "container",
                 "containerName": "Alpha Container",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "container",
                 "containerName": "Beta Container",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
 
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
         assert result[0]["containerName"] == "Alpha Container"
-        assert result[1]["metadata"]["guaranteed"] is True
+        assert result[1]["guaranteed"] is True
         assert result[1]["containerName"] == "Beta Container"
-        assert result[2]["metadata"]["guaranteed"] is False
+        assert result[2]["guaranteed"] is False
         assert result[2]["containerName"] == "Zeta Container"
 
     def test_sort_container_alphabetically_by_name(self):
@@ -231,21 +231,21 @@ class TestSortByMetadata:
                 "containerName": "Zephyr Chest",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "container",
                 "containerName": "Alpha Coffer",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "container",
                 "containerName": "Mistborn Coffer",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
@@ -263,7 +263,7 @@ class TestSortByMetadata:
                 "itemId": 100,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "container",
@@ -271,7 +271,7 @@ class TestSortByMetadata:
                 "itemId": 200,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
@@ -287,22 +287,22 @@ class TestSortByMetadata:
                 "nodeName": "Zeta Node",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": False},
+                "guaranteed": False,
             },
             {
                 "type": "resource_node",
                 "nodeName": "Alpha Node",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
 
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
         assert result[0]["nodeName"] == "Alpha Node"
-        assert result[1]["metadata"]["guaranteed"] is False
+        assert result[1]["guaranteed"] is False
         assert result[1]["nodeName"] == "Zeta Node"
 
     def test_sort_resource_node_alphabetically(self):
@@ -312,21 +312,21 @@ class TestSortByMetadata:
                 "nodeName": "Rich Orichalcum Vein",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "resource_node",
                 "nodeName": "Herb Patch",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "resource_node",
                 "nodeName": "Ancient Sapling",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
@@ -343,14 +343,14 @@ class TestSortByMetadata:
                 "nodeName": "Herb Patch",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
             {
                 "type": "container",
                 "containerName": "Zeta Container",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
             },
         ]
 
@@ -559,12 +559,46 @@ class TestEdgeCases:
                 "itemId": None,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": None},
+                "guaranteed": None,
             }
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
         assert len(result) == 1
+
+    def test_container_missing_guaranteed_field(self):
+        """Test that containers without guaranteed field can be sorted with those that have it"""
+        acquisitions = [
+            {
+                "type": "container",
+                "containerName": "Starter Kit: Sunrise",
+                "outputQuantity": 1,
+                "requirements": [],
+                "choice": True,
+            },
+            {
+                "type": "container",
+                "containerName": "Tournament Box",
+                "outputQuantity": 1,
+                "requirements": [],
+                "guaranteed": True,
+            },
+            {
+                "type": "container",
+                "containerName": "Alpha Box",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert len(result) == 3
+        assert result[0]["guaranteed"] is True
+        assert result[0]["containerName"] == "Tournament Box"
+        assert result[1]["containerName"] == "Alpha Box"
+        assert result[2]["containerName"] == "Starter Kit: Sunrise"
 
 
 class TestComplexScenarios:
@@ -577,14 +611,16 @@ class TestComplexScenarios:
                 "discontinued": True,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": False, "choice": True},
+                "guaranteed": False,
+                "choice": True,
             },
             {
                 "type": "container",
                 "itemId": 88590,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True, "choice": False},
+                "guaranteed": True,
+                "choice": False,
             },
             {
                 "type": "crafting",
@@ -606,7 +642,8 @@ class TestComplexScenarios:
                 "itemId": 82898,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": False, "choice": True},
+                "guaranteed": False,
+                "choice": True,
             },
         ]
 
@@ -614,14 +651,14 @@ class TestComplexScenarios:
 
         assert result[0]["type"] == "crafting"
         assert result[1]["type"] == "container"
-        assert result[1]["metadata"]["guaranteed"] is True
+        assert result[1]["guaranteed"] is True
         assert result[1]["itemId"] == 88590
         assert result[2]["type"] == "container"
-        assert result[2]["metadata"]["guaranteed"] is False
+        assert result[2]["guaranteed"] is False
         assert result[2]["itemId"] == 67410
         assert result[2]["discontinued"] is True
         assert result[3]["type"] == "container"
-        assert result[3]["metadata"]["guaranteed"] is False
+        assert result[3]["guaranteed"] is False
         assert result[3]["itemId"] == 82898
         assert result[3].get("discontinued") is not True
 

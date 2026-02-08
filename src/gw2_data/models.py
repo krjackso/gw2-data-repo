@@ -105,16 +105,15 @@ class AchievementMetadata(BaseModel):
 
 
 class ContainerMetadata(BaseModel):
-    guaranteed: bool | None = None
-    choice: bool | None = None
+    pass
 
 
 class SalvageMetadata(BaseModel):
-    guaranteed: bool | None = None
+    pass
 
 
 class ResourceNodeMetadata(BaseModel):
-    guaranteed: bool | None = None
+    pass
 
 
 class RewardTrackMetadata(BaseModel):
@@ -182,6 +181,8 @@ class Acquisition(BaseModel):
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
     output_quantity_min: int | None = Field(default=None, ge=1, alias="outputQuantityMin")
     output_quantity_max: int | None = Field(default=None, ge=1, alias="outputQuantityMax")
+    guaranteed: bool | None = None
+    choice: bool | None = None
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
     metadata: AcquisitionMetadata | dict | None = None
 

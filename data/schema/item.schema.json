@@ -148,6 +148,14 @@
           "minimum": 1,
           "description": "Maximum output quantity for variable-output acquisitions. Must be >= outputQuantityMin."
         },
+        "guaranteed": {
+          "type": "boolean",
+          "description": "If true, this acquisition method always yields the item (not chance-based). Applies to container, salvage, and resource_node types."
+        },
+        "choice": {
+          "type": "boolean",
+          "description": "If true, the player can choose this item from multiple options (e.g., reward boxes). Primarily applies to container type."
+        },
         "requirements": {
           "type": "array",
           "description": "Items or currencies needed for this acquisition",

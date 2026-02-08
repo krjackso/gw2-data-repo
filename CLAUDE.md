@@ -234,17 +234,17 @@ Container acquisitions have a **required** `containerName` field and an optional
   containerName: Chest of Legendary Armor
   itemId: 67219
   outputQuantity: 1
+  guaranteed: true
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 
 # Name-only container (world object, no item ID in API)
 - type: container
   containerName: Mistborn Coffer
   outputQuantity: 1
+  guaranteed: true
   requirements: []
-  metadata:
-    guaranteed: true
+  metadata: {}
 ```
 
 The `containerName` is the human-readable source name. When the container exists as an item in the GW2 API, `itemId` is also populated for efficient tree traversal.
@@ -276,20 +276,20 @@ The resolution process:
 
 **Important**: YAML files contain only currently obtainable acquisition paths. Discontinued or historical acquisition methods (removed items, retired reward tracks, past events) are not tracked in this dataset. The focus is on methods that are actively available in the game.
 
-| Type | Description | Requirements | Key Metadata |
-|------|-------------|-------------|--------------|
-| `crafting` | Standard crafting at a station | Items (ingredients) | `recipeType`, `disciplines`, `minRating` |
-| `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | `recipeType` |
-| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount`, `notes` |
-| `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level), `repeatable`, `timeGated` |
-| `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | None (source in `containerName` + optional `itemId`) | `containerName` (top-level, required), `itemId` (top-level, optional), `guaranteed`, `choice` |
-| `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId` (top-level), `guaranteed` |
-| `resource_node` | Gathered from a resource node | None (source in `nodeName`) | `nodeName` (top-level, required), `guaranteed` |
-| `wvw_reward` | WvW reward track completion | None | `trackName` (top-level), `wikiUrl` |
-| `pvp_reward` | PvP reward track completion | None | `trackName` (top-level), `wikiUrl` |
-| `wizards_vault` | Wizard's Vault shop | Currency (Astral Acclaim) | `limitAmount` |
-| `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | `notes` (description of method) |
+| Type | Description | Requirements | Key Fields |
+|------|-------------|-------------|------------|
+| `crafting` | Standard crafting at a station | Items (ingredients) | metadata: `recipeType`, `disciplines`, `minRating` |
+| `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | metadata: `recipeType` |
+| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level); metadata: `limitType`, `limitAmount`, `notes` |
+| `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level); metadata: `repeatable`, `timeGated` |
+| `map_reward` | World/map completion reward | None | metadata: `rewardType`, `regionName`, `estimatedHours`, `notes` |
+| `container` | Obtained by opening a container | None (source in `containerName` + optional `itemId`) | `containerName`, `itemId`, `guaranteed`, `choice` (all top-level) |
+| `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId`, `guaranteed` (both top-level) |
+| `resource_node` | Gathered from a resource node | None (source in `nodeName`) | `nodeName`, `guaranteed` (both top-level) |
+| `wvw_reward` | WvW reward track completion | None | `trackName` (top-level); metadata: `wikiUrl` |
+| `pvp_reward` | PvP reward track completion | None | `trackName` (top-level); metadata: `wikiUrl` |
+| `wizards_vault` | Wizard's Vault shop | Currency (Astral Acclaim) | metadata: `limitAmount` |
+| `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | metadata: `notes` (description of method) |
 
 ### Vendor Notes
 

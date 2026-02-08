@@ -149,11 +149,12 @@ lists. Report ALL entries — both gathering nodes and containers. Do NOT try to
 between them; just report the name as it appears.
 - name: the exact name from the wiki link text
 - No ingredients field
-- metadata: extract guaranteed/choice status
+- guaranteed: true|false (top-level field, not in metadata)
+- choice: true|false (top-level field, not in metadata)
 
 **How guaranteed/chance is indicated:** Look for `<small>(guaranteed)</small>`, \
 `<small>(chance)</small>`, or `<small>(choice)</small>` inline after each entry name. \
-If no tag is present, assume guaranteed.
+If no tag is present, assume guaranteed=true.
 
 For variable quantities shown as parenthetical (e.g., `(1-3)`, `(2, 8)`):
 - Set "quantity" to the minimum, "quantityMin" to the minimum, "quantityMax" to the maximum
@@ -175,9 +176,9 @@ Only include entries where guaranteed=true or choice=true. Skip chance-only drop
 **Example output** (Buried Locked Chest skipped because it's chance):
 [
   {"name": "Mistborn Coffer", "wikiSection": "gathered_from", "confidence": 1.0, \
-"quantity": 3, "metadata": {"guaranteed": true}},
+"quantity": 3, "guaranteed": true, "metadata": {}},
   {"name": "Rich Iron Vein", "wikiSection": "gathered_from", "confidence": 1.0, \
-"quantity": 1, "quantityMin": 1, "quantityMax": 3, "metadata": {"guaranteed": true}}
+"quantity": 1, "quantityMin": 1, "quantityMax": 3, "guaranteed": true, "metadata": {}}
 ]
 
 ### wikiSection: "contained_in"
@@ -189,15 +190,15 @@ The h4 heading `<span id="Guaranteed">` or `<span id="Chance">` determines the t
 for ALL entries under that heading.
 - Use wikiSubsection: "guaranteed" for entries under a "Guaranteed" h4 heading
 - Use wikiSubsection: "chance" for entries under a "Chance" h4 heading
-- No metadata field needed (use wikiSubsection instead)
+- No guaranteed/choice fields needed (wikiSubsection signals guaranteed status)
 
 **Pattern 2 - inline tags (newer wiki pages):**
 Each entry has an inline `<small>` tag indicating its status:
-- `<small>(guaranteed)</small>` → metadata: {"guaranteed": true}
-- `<small>(chance)</small>` → metadata: {"guaranteed": false}
-- `<small>(choice)</small>` → metadata: {"choice": true}
-- `<small>(<b>choice</b>)</small>` → metadata: {"choice": true}
-- No tag → assume metadata: {"guaranteed": true}
+- `<small>(guaranteed)</small>` → guaranteed: true (top-level, not in metadata)
+- `<small>(chance)</small>` → guaranteed: false (top-level, not in metadata)
+- `<small>(choice)</small>` → choice: true (top-level, not in metadata)
+- `<small>(<b>choice</b>)</small>` → choice: true (top-level, not in metadata)
+- No tag → assume guaranteed: true (top-level, not in metadata)
 - Use wikiSubsection: "inline" when inline tags are present
 
 **Important:** Choice containers allow the player to SELECT the item from multiple \
@@ -224,7 +225,7 @@ Only include entries where guaranteed=true OR choice=true. Skip chance-only drop
 **Example output:**
 [
   {"name": "Bag of Obsidian", "wikiSection": "contained_in", \
-"wikiSubsection": "guaranteed", "confidence": 1.0, "quantity": 3}
+"wikiSubsection": "guaranteed", "confidence": 1.0, "quantity": 3, "metadata": {}}
 ]
 
 **Example input (inline pattern):**
@@ -240,14 +241,14 @@ Legendary Gift Starter Kit</a> <small>(<b>choice</b>)</small></li>
 **Example output** (Random Box skipped because it's chance):
 [
   {"name": "Legendary Gift Starter Kit", "wikiSection": "contained_in", \
-"wikiSubsection": "inline", "confidence": 1.0, "quantity": 1, "metadata": {"choice": true}}
+"wikiSubsection": "inline", "confidence": 1.0, "quantity": 1, "choice": true, "metadata": {}}
 ]
 
 ### wikiSection: "salvaged_from"
 For entries found in "Salvaged from" sections.
 - name: the source item name
 - No ingredients field
-- metadata: {"guaranteed": true | false} — same inline `<small>` pattern as gathered_from
+- guaranteed: true|false (top-level, not in metadata) — same inline `<small>` pattern as gathered_from
 
 Only include entries where guaranteed=true.
 

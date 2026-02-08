@@ -236,7 +236,7 @@ class TestClassifyAndResolveGatheredFrom:
         assert result[0]["outputQuantity"] == 1
         assert result[0]["outputQuantityMin"] == 1
         assert result[0]["outputQuantityMax"] == 3
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
 
     def test_gathered_from_container(self):
         item_index = {"Mistborn Coffer": [90783]}
@@ -260,7 +260,7 @@ class TestClassifyAndResolveGatheredFrom:
         assert result[0]["type"] == "container"
         assert result[0]["containerName"] == "Mistborn Coffer"
         assert result[0]["itemId"] == 90783
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
 
     def test_gathered_from_container_no_item_id(self):
         item_index = {}
@@ -331,7 +331,7 @@ class TestClassifyAndResolveContainedIn:
         assert result[0]["containerName"] == "Bag of Obsidian"
         assert result[0]["itemId"] == 100
         assert result[0]["outputQuantity"] == 3
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
 
     def test_contained_in_chance_filtered(self):
         item_index = {}
@@ -378,7 +378,7 @@ class TestClassifyAndResolveContainedIn:
         assert result[0]["containerName"] == "Legendary Gift Starter Kit"
         assert result[0]["itemId"] == 103820
         assert result[0]["outputQuantity"] == 1
-        assert result[0]["metadata"]["choice"] is True
+        assert result[0]["choice"] is True
 
     def test_contained_in_inline_chance_filtered(self):
         item_index = {}
@@ -422,7 +422,7 @@ class TestClassifyAndResolveContainedIn:
 
         assert len(result) == 1
         assert result[0]["type"] == "container"
-        assert result[0]["metadata"]["guaranteed"] is True
+        assert result[0]["guaranteed"] is True
 
 
 class TestClassifyAndResolveSalvage:
@@ -532,7 +532,7 @@ class TestClassifyAndResolveSalvage:
         assert all(r["type"] == "salvage" for r in result)
         assert [r["itemId"] for r in result] == [11111, 22222, 33333]
         assert all(r["outputQuantity"] == 1 for r in result)
-        assert all(r["metadata"]["guaranteed"] is True for r in result)
+        assert all(r["guaranteed"] is True for r in result)
 
     def test_salvage_multiple_ids_metadata_isolation(self):
         item_index = {"Armor": [100, 200]}

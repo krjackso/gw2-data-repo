@@ -50,15 +50,15 @@ ACQUISITION_SORT_FIELDS = {
         "achievementCategory",
     ],
     "container": [
-        "metadata.guaranteed",
+        "guaranteed",
         "containerName",
     ],
     "resource_node": [
-        "metadata.guaranteed",
+        "guaranteed",
         "nodeName",
     ],
     "salvage": [
-        "metadata.guaranteed",
+        "guaranteed",
         "itemId",
     ],
     "map_reward": [
@@ -163,9 +163,16 @@ def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int]:
                 "metadata.limitAmount",
                 "metadata.estimatedHours",
             ]
-            value = float("inf") if field_path in numeric_fields else ""
+            boolean_fields = ["guaranteed"]
 
-        if field_path == "metadata.guaranteed" and isinstance(value, bool):
+            if field_path in numeric_fields:
+                value = float("inf")
+            elif field_path in boolean_fields:
+                value = False
+            else:
+                value = ""
+
+        if field_path == "guaranteed" and isinstance(value, bool):
             value = not value
 
         secondary_values.append(value)
