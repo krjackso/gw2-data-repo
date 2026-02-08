@@ -18,8 +18,8 @@ def _make_large_html(sections: list[str], bulk_size: int = 400_000) -> str:
 
 
 class TestExtractAcquisitionSections:
-    def test_small_html_returned_unchanged(self):
-        html = "<p>Small page</p>"
+    def test_small_html_without_excluded_sections_returned_unchanged(self):
+        html = "<p>Small page with no excluded sections</p>"
         assert wiki.extract_acquisition_sections(html) == html
 
     def test_excluded_h3_does_not_swallow_sibling_h3(self):
@@ -77,6 +77,27 @@ class TestExtractAcquisitionSections:
         assert "Acquisition info" in result
         assert "Used in recipes" not in result
         assert "Armorsmith recipes" not in result
+
+    def test_medium_html_filters_used_in_without_truncation(self):
+        html = (
+            '<h2><span id="Acquisition">Acquisition</span></h2>'
+            "<p>Get from vendor or salvage</p>"
+            '<h3><span id="Contained_in">Contained in</span></h3>'
+            "<p>Pile of Silky Sand (chance)</p>"
+            '<h2><span id="Used_in">Used in</span></h2>'
+            '<h3><span id="Weaponsmith">Weaponsmith</span></h3>'
+            "<p>" + "x" * 50_000 + "</p>"
+            '<h3><span id="Scribe">Scribe</span></h3>'
+            "<p>" + "y" * 50_000 + "</p>"
+        )
+        assert len(html) < 300_000
+        result = wiki.extract_acquisition_sections(html)
+        assert "Get from vendor or salvage" in result
+        assert "Weaponsmith" not in result
+        assert "Scribe" not in result
+        assert "x" * 50_000 not in result
+        assert "y" * 50_000 not in result
+        assert len(result) < len(html)
 
 
 class TestGetHtmlLimitForModel:

@@ -229,30 +229,28 @@ Rate overallConfidence based on how well you understood the page:
 infer methods that aren't present.
 2. Use exact item and currency names as they appear on the wiki (in requirementName field).
 3. If an item is sold by multiple vendors, create a SEPARATE acquisition for each vendor.
-4. For recipes with variable output counts, use outputQuantityMin and outputQuantityMax to \
-express the range. Do NOT include recipes where the item is only a chance/random drop — \
-only include recipes that always produce this item (even if the quantity varies).
-5. For Mystic Forge recipes, always use type "mystic_forge" (not "crafting").
-6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
-1 silver = 100 copper).
-7. If no acquisition info is found, return {"acquisitions": [], "overallConfidence": 1.0}.
-8. Focus on DETERMINISTIC acquisition methods with specific named sources. Do NOT include any \
-acquisition where the item is only a CHANCE or RANDOM outcome. Specifically exclude:
+4. Focus on DETERMINISTIC acquisition methods with specific named sources. Specifically exclude:
 - Generic loot sources where this item is one of many possible random drops
 - Generic containers like "Unidentified Gear" or "Chest of Exotic Equipment"
 - Generic Mystic Forge recipes like "combine 4 rare/exotic items"
 - Mystic Forge recipes described as having a "rare chance", "possible output", "random result", \
 or similar probabilistic language — these are NOT deterministic and must be excluded
+- Recipes where the item is only a chance/random drop — only include recipes that always produce \
+this item (even if the quantity varies)
 - Any acquisition with confidence below 0.8 — do not include it at all
 
 IMPORTANT: Mystic Forge promotion recipes (upgrading material tiers, e.g., converting dust/ingots \
 to higher rarities) ARE deterministic — they always produce output, just in variable quantities. \
-These should be included with high confidence (0.9-1.0), using outputQuantityMin/outputQuantityMax \
-to express the range.
-9. Do NOT include acquisition methods that were available in the past but are no longer \
+These should be included with high confidence (0.9-1.0). For variable outputs, use outputQuantityMin \
+and outputQuantityMax to express the range.
+5. For Mystic Forge recipes, always use type "mystic_forge" (not "crafting").
+6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
+1 silver = 100 copper).
+7. If no acquisition info is found, return {"acquisitions": [], "overallConfidence": 1.0}.
+8. Do NOT include acquisition methods that were available in the past but are no longer \
 obtainable (e.g. removed items, discontinued events, retired reward tracks, historical \
 promotions). Only extract currently active and available acquisition methods.
-10. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
+9. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
 but different rarities (e.g., Legendary vs Ascended vs Exotic). Each acquisition method on the \
 wiki will indicate which variant it applies to through:
    - Section headers: "Legendary variant", "Ascended version"
@@ -272,7 +270,7 @@ Examples:
 - Rarity is "Legendary", Mystic Forge recipe shows no rarity qualifier → INCLUDE (likely upgrades Ascended to Legendary)
 - Rarity is "Ascended", vendor table row shows <span class="rarity-ascended">Ascended</span> → INCLUDE (exact match)
 
-11. RARITY QUALIFIERS IN REQUIREMENTS: When an ingredient appears in multiple rarities on the wiki, \
+10. RARITY QUALIFIERS IN REQUIREMENTS: When an ingredient appears in multiple rarities on the wiki, \
 append the rarity as a qualifier in parentheses to disambiguate. This applies to ALL requirement types.
 
 Examples:
@@ -285,7 +283,7 @@ When to add rarity qualifiers:
 - If the recipe/vendor table explicitly shows rarity (HTML span tags, rarity column), include it
 - If only one rarity exists for that item, DO NOT add a qualifier (keep the name clean)
 
-12. VENDOR NOTES: ALWAYS extract special conditions from vendor table rows into metadata.notes. \
+11. VENDOR NOTES: ALWAYS extract special conditions from vendor table rows into metadata.notes. \
 Look for these in table cells (<td> tags) adjacent to the vendor cost information:
 - "Requires the skin <item name>" → Extract as notes: "Requires the skin <item name>"
 - "Available after completing <achievement>" → Extract as notes: "Available after completing <achievement>"
@@ -295,11 +293,17 @@ Look for these in table cells (<td> tags) adjacent to the vendor cost informatio
 If a vendor row has these conditions, the "notes" field in metadata is REQUIRED (not optional). \
 Keep the text verbatim from the wiki. If no special conditions exist, omit the notes field entirely.
 
-13. Do NOT include "Gathered from" or gathering/harvesting sources. Wiki pages often list \
+12. Do NOT include "Gathered from" or gathering/harvesting sources. Wiki pages often list \
 gathering nodes, resource nodes, or map-specific interactable objects (e.g., "Glorious Chest \
 (Super Adventure Box)") in a "Gathered from" section. These are NOT items in the GW2 API — \
 they are world objects — and cannot be tracked as requirements. Skip the entire "Gathered from" \
 section when extracting acquisitions.
+13. IGNORE "Used in" SECTIONS: Wiki pages often contain a "Used in" section listing recipes \
+where this item appears as an INGREDIENT in other crafting recipes. These are NOT acquisition \
+methods — they show what the item is used FOR, not how to OBTAIN it. If you see recipe tables \
+under a "Used in" heading (with subsections like "Mystic Forge", "Weaponsmith", "Artificer", etc.), \
+skip them entirely. Only extract recipes where this item is the OUTPUT, not where it appears as \
+an input ingredient.
 """
 
 

@@ -134,9 +134,6 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
 
     If the result is still too large, truncates to max_length characters.
     """
-    if len(html) <= max_length:
-        return html
-
     excluded_sections = [
         r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[1-3][ >]|$)',
         r'<span[^>]*id="Contained_in"[^>]*>.*?(?=<h[1-3][ >]|$)',
@@ -163,5 +160,4 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
         )
         filtered_html = filtered_html[:max_length]
 
-    log.info("Filtered acquisition HTML: %d chars (from %d)", len(filtered_html), len(html))
     return filtered_html
