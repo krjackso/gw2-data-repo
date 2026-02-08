@@ -62,11 +62,11 @@ acquisitions:
     metadata:
       recipeType: mystic_forge
   - type: achievement
+    achievementName: Lessons in Metallurgy
+    achievementCategory: Collections
     outputQuantity: 1
     requirements: []
     metadata:
-      achievementName: Lessons in Metallurgy
-      achievementCategory: Collections
       repeatable: false
       timeGated: false
   - type: vendor
@@ -123,12 +123,11 @@ level: 80
 lastUpdated: "2025-06-15"
 acquisitions:
   - type: container
+    itemId: 105743
     outputQuantity: 1
-    requirements:
-      - itemId: 105743
-        quantity: 1
+    requirements: []
     metadata:
-      containerItemId: 105743
+      guaranteed: false
 """
 
 
@@ -241,7 +240,8 @@ class TestPydanticModels:
         result = ItemFile.model_validate(data)
         acq = result.acquisitions[0]
         assert acq.type == "container"
-        assert acq.requirements[0].item_id == 105743
+        assert acq.item_id == 105743
+        assert acq.requirements == []
 
     def test_missing_required_field_raises(self):
         data = {"id": 123}

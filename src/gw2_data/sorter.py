@@ -44,25 +44,26 @@ ACQUISITION_SORT_FIELDS = {
         "vendorName",
     ],
     "achievement": [
-        "metadata.achievementName",
+        "achievementName",
+        "achievementCategory",
     ],
     "container": [
         "metadata.guaranteed",
-        "metadata.containerItemId",
+        "itemId",
     ],
     "salvage": [
         "metadata.guaranteed",
-        "metadata.sourceItemId",
+        "itemId",
     ],
     "map_reward": [
         "metadata.rewardType",
         "metadata.regionName",
     ],
     "wvw_reward": [
-        "metadata.trackName",
+        "trackName",
     ],
     "pvp_reward": [
-        "metadata.trackName",
+        "trackName",
     ],
     "wizards_vault": [
         "metadata.seasonal",

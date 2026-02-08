@@ -81,10 +81,10 @@ Example vendor with notes but no limit:
 
 ### achievement
 Reward from completing an achievement or collection.
+achievementName: "..." (required - place at top level like vendorName)
+achievementCategory: "..." (optional - place at top level)
 requirements: none
 metadata: {
-  "achievementName": "...",
-  "achievementCategory": "...",
   "repeatable": true | false,
   "timeGated": true | false
 }
@@ -100,7 +100,8 @@ metadata: {
 
 ### container
 Obtained by opening another item (container/bag/chest).
-requirements: the container item as {requirementName, quantity: 1}
+itemId: <container_item_id> (required - place at top level)
+requirements: none (source item is in itemId, not requirements)
 metadata: {
   "guaranteed": true | false,
   "choice": true | false
@@ -110,21 +111,28 @@ metadata: {
 Both should not be true at the same time. If neither applies, set both to false.
 
 ### salvage
-Obtained by salvaging another item.
-requirements: the source item as {requirementName, quantity: 1}
+Extracted by salvaging another item.
+itemId: <source_item_id> (required - place at top level)
+requirements: none (source item is in itemId, not requirements)
 metadata: {
   "guaranteed": true | false
 }
 
 ### wvw_reward
 WvW reward track completion.
+trackName: "..." (required - place at top level like vendorName)
 requirements: none
-metadata: { "trackName": "...", "trackType": "wvw" }
+metadata: {
+  "wikiUrl": "..." (optional)
+}
 
 ### pvp_reward
 PvP reward track completion.
+trackName: "..." (required - place at top level like vendorName)
 requirements: none
-metadata: { "trackName": "...", "trackType": "pvp" }
+metadata: {
+  "wikiUrl": "..." (optional)
+}
 
 ### wizards_vault
 Wizard's Vault seasonal/weekly shop.

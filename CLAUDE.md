@@ -185,11 +185,11 @@ acquisitions:
       recipeType: mystic_forge
 
   - type: achievement
+    achievementName: Lessons in Metallurgy
+    achievementCategory: Collections
     outputQuantity: 1
     requirements: []
     metadata:
-      achievementName: Lessons in Metallurgy
-      achievementCategory: Collections
       repeatable: false
       timeGated: false
 ```
@@ -225,12 +225,12 @@ The resolution process:
 | `crafting` | Standard crafting at a station | Items (ingredients) | `recipeType`, `disciplines`, `minRating` |
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | `recipeType` |
 | `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level), `limitType`, `limitAmount`, `notes` |
-| `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory`, `repeatable`, `timeGated` |
+| `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level), `repeatable`, `timeGated` |
 | `map_reward` | World/map completion reward | None | `rewardType`, `regionName`, `estimatedHours`, `notes` |
-| `container` | Obtained by opening a container | Item (the container) | `guaranteed`, `choice` |
-| `salvage` | Extracted by salvaging another item | Item (source) | `guaranteed` |
-| `wvw_reward` | WvW reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
-| `pvp_reward` | PvP reward track completion | None | `trackName`, `trackType`, `wikiUrl` |
+| `container` | Obtained by opening a container | None (source in `itemId`) | `itemId` (top-level), `guaranteed`, `choice` |
+| `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId` (top-level), `guaranteed` |
+| `wvw_reward` | WvW reward track completion | None | `trackName` (top-level), `wikiUrl` |
+| `pvp_reward` | PvP reward track completion | None | `trackName` (top-level), `wikiUrl` |
 | `wizards_vault` | Wizard's Vault seasonal shop | Currency (Astral Acclaim) | `seasonal` |
 | `story` | Story chapter completion reward | None | `storyChapter`, `expansion` |
 | `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | `notes` (description of method) |

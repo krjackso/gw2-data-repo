@@ -105,6 +105,23 @@
           "type": "string",
           "description": "NPC vendor name (only for vendor type)"
         },
+        "achievementName": {
+          "type": "string",
+          "description": "Achievement name (only for achievement type)"
+        },
+        "achievementCategory": {
+          "type": "string",
+          "description": "Achievement category (only for achievement type)"
+        },
+        "trackName": {
+          "type": "string",
+          "description": "Reward track name (only for wvw_reward/pvp_reward types)"
+        },
+        "itemId": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Source item ID (only for container/salvage types)"
+        },
         "outputQuantity": {
           "type": "integer",
           "minimum": 1,

@@ -166,52 +166,57 @@ class TestSortByMetadata:
         acquisitions = [
             {
                 "type": "container",
+                "itemId": 200,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": False, "containerItemId": 200},
+                "metadata": {"guaranteed": False},
             },
             {
                 "type": "container",
+                "itemId": 100,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True, "containerItemId": 100},
+                "metadata": {"guaranteed": True},
             },
             {
                 "type": "container",
+                "itemId": 150,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": True, "containerItemId": 150},
+                "metadata": {"guaranteed": True},
             },
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
 
         assert result[0]["metadata"]["guaranteed"] is True
-        assert result[0]["metadata"]["containerItemId"] == 100
+        assert result[0]["itemId"] == 100
         assert result[1]["metadata"]["guaranteed"] is True
-        assert result[1]["metadata"]["containerItemId"] == 150
+        assert result[1]["itemId"] == 150
         assert result[2]["metadata"]["guaranteed"] is False
 
     def test_sort_achievement_by_name(self):
         acquisitions = [
             {
                 "type": "achievement",
+                "achievementName": "Zeta Achievement",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"achievementName": "Zeta Achievement"},
+                "metadata": {},
             },
             {
                 "type": "achievement",
+                "achievementName": "Alpha Achievement",
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"achievementName": "Alpha Achievement"},
+                "metadata": {},
             },
         ]
 
         result = sorter.sort_acquisitions(acquisitions)
 
-        assert result[0]["metadata"]["achievementName"] == "Alpha Achievement"
-        assert result[1]["metadata"]["achievementName"] == "Zeta Achievement"
+        assert result[0]["achievementName"] == "Alpha Achievement"
+        assert result[1]["achievementName"] == "Zeta Achievement"
 
 
 class TestSortByOutputQuantity:
@@ -359,9 +364,10 @@ class TestEdgeCases:
         acquisitions = [
             {
                 "type": "container",
+                "itemId": None,
                 "outputQuantity": 1,
                 "requirements": [],
-                "metadata": {"guaranteed": None, "containerItemId": None},
+                "metadata": {"guaranteed": None},
             }
         ]
 
@@ -375,16 +381,18 @@ class TestComplexScenarios:
         acquisitions = [
             {
                 "type": "container",
+                "itemId": 67410,
                 "discontinued": True,
                 "outputQuantity": 1,
-                "requirements": [{"itemId": 67410, "quantity": 1}],
-                "metadata": {"guaranteed": False, "choice": True, "containerItemId": 67410},
+                "requirements": [],
+                "metadata": {"guaranteed": False, "choice": True},
             },
             {
                 "type": "container",
+                "itemId": 88590,
                 "outputQuantity": 1,
-                "requirements": [{"itemId": 88590, "quantity": 1}],
-                "metadata": {"guaranteed": True, "choice": False, "containerItemId": 88590},
+                "requirements": [],
+                "metadata": {"guaranteed": True, "choice": False},
             },
             {
                 "type": "crafting",
@@ -403,9 +411,10 @@ class TestComplexScenarios:
             },
             {
                 "type": "container",
+                "itemId": 82898,
                 "outputQuantity": 1,
-                "requirements": [{"itemId": 82898, "quantity": 1}],
-                "metadata": {"guaranteed": False, "choice": True, "containerItemId": 82898},
+                "requirements": [],
+                "metadata": {"guaranteed": False, "choice": True},
             },
         ]
 
@@ -414,14 +423,14 @@ class TestComplexScenarios:
         assert result[0]["type"] == "crafting"
         assert result[1]["type"] == "container"
         assert result[1]["metadata"]["guaranteed"] is True
-        assert result[1]["metadata"]["containerItemId"] == 88590
+        assert result[1]["itemId"] == 88590
         assert result[2]["type"] == "container"
         assert result[2]["metadata"]["guaranteed"] is False
-        assert result[2]["metadata"]["containerItemId"] == 67410
+        assert result[2]["itemId"] == 67410
         assert result[2]["discontinued"] is True
         assert result[3]["type"] == "container"
         assert result[3]["metadata"]["guaranteed"] is False
-        assert result[3]["metadata"]["containerItemId"] == 82898
+        assert result[3]["itemId"] == 82898
         assert result[3].get("discontinued") is not True
 
     def test_requirements_sorting_within_acquisition(self):

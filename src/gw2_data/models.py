@@ -98,8 +98,6 @@ class VendorMetadata(BaseModel):
 
 class AchievementMetadata(BaseModel):
     achievement_id: int | None = Field(default=None, alias="achievementId")
-    achievement_name: str = Field(alias="achievementName")
-    achievement_category: str | None = Field(default=None, alias="achievementCategory")
     description: str | None = None
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
     repeatable: bool = False
@@ -107,19 +105,15 @@ class AchievementMetadata(BaseModel):
 
 
 class ContainerMetadata(BaseModel):
-    container_item_id: int | None = Field(default=None, alias="containerItemId", gt=0)
     guaranteed: bool | None = None
     choice: bool | None = None
 
 
 class SalvageMetadata(BaseModel):
-    source_item_id: int | None = Field(default=None, alias="sourceItemId", gt=0)
     guaranteed: bool | None = None
 
 
 class RewardTrackMetadata(BaseModel):
-    track_name: str = Field(alias="trackName")
-    track_type: Literal["wvw", "pvp"] = Field(alias="trackType")
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
 
 
@@ -180,6 +174,10 @@ _METADATA_BY_ACQUISITION_TYPE: dict[str, type[BaseModel]] = {
 class Acquisition(BaseModel):
     type: AcquisitionType
     vendor_name: str | None = Field(default=None, alias="vendorName")
+    achievement_name: str | None = Field(default=None, alias="achievementName")
+    achievement_category: str | None = Field(default=None, alias="achievementCategory")
+    track_name: str | None = Field(default=None, alias="trackName")
+    item_id: int | None = Field(default=None, alias="itemId", gt=0)
     output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
     metadata: AcquisitionMetadata | dict | None = None
