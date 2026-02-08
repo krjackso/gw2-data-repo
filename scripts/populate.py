@@ -15,6 +15,7 @@ import argparse
 import difflib
 import logging
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
 
 import yaml
@@ -44,42 +45,73 @@ def populate_item(
         terminal.warning(f"Skipping {item_id}: file already exists (use --overwrite to replace)")
         return
 
-    item_data = api.get_item(item_id, cache=cache)
-    item_name = item_data["name"]
+    item_data_api = api.get_item(item_id, cache=cache)
+    item_name = item_data_api["name"]
     terminal.section_header(f"Item: {item_name} (ID: {item_id})")
 
-    wiki_html = wiki.get_page_html(item_name, cache=cache)
-    wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
-    terminal.debug(f"Wiki page: {len(wiki_html):,} chars")
-    terminal.info(f"  {terminal.link(wiki_url, 'View on Wiki')}")
-
-    result = llm.extract_acquisitions(
-        item_id, item_name, wiki_html, item_data, cache=cache, model=model
+    is_basic_ingredient = (
+        item_data_api["type"] == "CraftingMaterial"
+        and item_data_api.get("description") == "Ingredient"
     )
 
-    _print_extraction_summary(result)
+    if is_basic_ingredient:
+        terminal.info("Basic ingredient - skipping wiki/LLM extraction")
+        acquisitions = []
+        overall_confidence = 1.0
+        acquisition_confidences: list[float] = []
+        notes = None
+    else:
+        wiki_html = wiki.get_page_html(item_name, cache=cache)
+        wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
+        terminal.debug(f"Wiki page: {len(wiki_html):,} chars")
+        terminal.info(f"  {terminal.link(wiki_url, 'View on Wiki')}")
+
+        result = llm.extract_acquisitions(
+            item_id, item_name, wiki_html, item_data_api, cache=cache, model=model
+        )
+        acquisitions = result.acquisitions
+        overall_confidence = result.overall_confidence
+        acquisition_confidences = result.acquisition_confidences
+        notes = result.notes
+
+        _print_extraction_summary(acquisitions, overall_confidence, acquisition_confidences, notes)
+
+    item_data = {
+        "id": item_data_api["id"],
+        "name": item_data_api["name"],
+        "type": item_data_api["type"],
+        "rarity": item_data_api["rarity"],
+        "level": item_data_api["level"],
+        "icon": item_data_api.get("icon"),
+        "description": item_data_api.get("description"),
+        "vendorValue": item_data_api.get("vendor_value"),
+        "flags": item_data_api.get("flags", []),
+        "wikiUrl": f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}",
+        "lastUpdated": datetime.now(UTC).date().isoformat(),
+        "acquisitions": acquisitions,
+    }
 
     terminal.subsection("Resolving item/currency names to IDs")
     item_name_index = api.load_item_name_index()
     currency_name_index = api.load_currency_name_index()
-    result.item_data["acquisitions"] = resolver.resolve_requirements(
-        result.item_data["acquisitions"], item_name_index, currency_name_index, strict=strict
+    item_data["acquisitions"] = resolver.resolve_requirements(
+        item_data["acquisitions"], item_name_index, currency_name_index, strict=strict
     )
 
     terminal.debug("Sorting acquisitions...")
-    result.item_data["acquisitions"] = sorter.sort_acquisitions(result.item_data["acquisitions"])
+    item_data["acquisitions"] = sorter.sort_acquisitions(item_data["acquisitions"])
 
     terminal.debug("Validating against schema...")
     try:
-        validated = ItemFile.model_validate(result.item_data)
+        validated = ItemFile.model_validate(item_data)
     except ValidationError as e:
         raise ExtractionError(f"Validation failed for item {item_id}: {e}") from e
 
-    for acq in result.item_data.get("acquisitions", []):
+    for acq in item_data.get("acquisitions", []):
         if acq.get("type") == "other":
-            notes = (acq.get("metadata") or {}).get("notes", "no description")
+            notes_text = (acq.get("metadata") or {}).get("notes", "no description")
             terminal.warning("'other' acquisition detected — unusual acquisition method")
-            terminal.bullet(f'"{notes}"', indent=4)
+            terminal.bullet(f'"{notes_text}"', indent=4)
             terminal.debug("  Consider whether a new acquisition type should be added.")
 
     yaml_content = validated.model_dump(by_alias=True, exclude_none=True)
@@ -113,21 +145,25 @@ def populate_item(
     terminal.success(f"✓ Written to {output_path}")
 
 
-def _print_extraction_summary(result: llm.ExtractionResult) -> None:
-    acqs = result.item_data.get("acquisitions", [])
+def _print_extraction_summary(
+    acquisitions: list[dict],
+    overall_confidence: float,
+    acquisition_confidences: list[float],
+    notes: str | None,
+) -> None:
     terminal.subsection(
-        f"Found {len(acqs)} acquisition(s)  |  Confidence: {result.overall_confidence:.0%}"
+        f"Found {len(acquisitions)} acquisition(s)  |  Confidence: {overall_confidence:.0%}"
     )
 
-    for i, acq in enumerate(acqs):
-        conf = result.acquisition_confidences[i] if i < len(result.acquisition_confidences) else 0.0
+    for i, acq in enumerate(acquisitions):
+        conf = acquisition_confidences[i] if i < len(acquisition_confidences) else 0.0
         acq_type = acq.get("type", "unknown")
         label = _acquisition_label(acq)
         conf_str = f"[{conf:.0%}]"
         terminal.bullet(f"{conf_str} {acq_type}: {label}", indent=2)
 
-    if result.notes:
-        terminal.debug(f"Notes: {result.notes}")
+    if notes:
+        terminal.debug(f"Notes: {notes}")
 
 
 def _handle_multiple_matches_interactive(

@@ -118,38 +118,23 @@ class TestExtractAcquisitions:
         )
 
         assert isinstance(result, ExtractionResult)
-        assert result.item_data["id"] == 123
-        assert result.item_data["name"] == "Test Item"
-        assert result.item_data["type"] == "Weapon"
+        assert len(result.acquisitions) == 1
+        assert result.acquisitions[0]["type"] == "mystic_forge"
         assert result.overall_confidence == 0.9
         assert result.acquisition_confidences == [0.95]
         assert result.notes == "Test note"
 
-    def test_item_data_has_correct_fields(self, mocker, cache_client, api_data, llm_response_json):
+    def test_acquisitions_have_correct_fields(self, mocker, cache_client, api_data, llm_response_json):
         _mock_claude_cli(mocker, llm_response_json)
 
         result = llm.extract_acquisitions(
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        data = result.item_data
-        assert data["rarity"] == "Exotic"
-        assert data["level"] == 80
-        assert data["wikiUrl"] == "https://wiki.guildwars2.com/wiki/Test_Item"
-        assert "lastUpdated" in data
-        assert len(data["acquisitions"]) == 1
-        assert data["acquisitions"][0]["type"] == "mystic_forge"
-        assert "confidence" not in data["acquisitions"][0]
+        assert len(result.acquisitions) == 1
+        assert result.acquisitions[0]["type"] == "mystic_forge"
+        assert "confidence" not in result.acquisitions[0]
 
-    def test_uses_current_date(self, mocker, cache_client, api_data, llm_response_json):
-        _mock_claude_cli(mocker, llm_response_json)
-
-        result = llm.extract_acquisitions(
-            123, "Test Item", "<html>test</html>", api_data, cache=cache_client
-        )
-
-        expected_date = datetime.now(UTC).date().isoformat()
-        assert result.item_data["lastUpdated"] == expected_date
 
     def test_caches_result(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
@@ -161,7 +146,7 @@ class TestExtractAcquisitions:
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        assert result1.item_data == result2.item_data
+        assert result1.acquisitions == result2.acquisitions
         assert result1.overall_confidence == result2.overall_confidence
         assert mock_run.call_count == 1
 
@@ -183,23 +168,6 @@ class TestExtractAcquisitions:
         call2_hash = mock_cache.set_llm_extraction.call_args_list[1][0][2]
         assert call1_hash != call2_hash
 
-    def test_wiki_url_handles_spaces(self, mocker, cache_client, llm_response_json):
-        _mock_claude_cli(mocker, llm_response_json)
-        api_data = {
-            "id": 123,
-            "name": "Test Item With Spaces",
-            "type": "Weapon",
-            "rarity": "Exotic",
-            "level": 80,
-        }
-
-        result = llm.extract_acquisitions(
-            123, "Test Item With Spaces", "<html>test</html>", api_data, cache=cache_client
-        )
-
-        assert (
-            result.item_data["wikiUrl"] == "https://wiki.guildwars2.com/wiki/Test_Item_With_Spaces"
-        )
 
     def test_passes_model_override(self, mocker, cache_client, api_data, llm_response_json):
         mock_run = _mock_claude_cli(mocker, llm_response_json)
@@ -256,7 +224,7 @@ class TestExtractAcquisitions:
             123, "Test Item", "<html>test</html>", api_data, cache=cache_client
         )
 
-        assert result.item_data["acquisitions"] == []
+        assert result.acquisitions == []
         assert result.overall_confidence == 1.0
         assert result.acquisition_confidences == []
         assert result.notes is None

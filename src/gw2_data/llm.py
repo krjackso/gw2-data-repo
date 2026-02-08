@@ -4,7 +4,6 @@ import logging
 import re
 import subprocess
 from dataclasses import dataclass
-from datetime import UTC, datetime
 
 from gw2_data import wiki
 from gw2_data.cache import CacheClient
@@ -21,7 +20,7 @@ _PROMPT_HASH = hashlib.sha256(SYSTEM_PROMPT.encode()).hexdigest()[:_CONTENT_HASH
 
 @dataclass
 class ExtractionResult:
-    item_data: dict
+    acquisitions: list[dict]
     overall_confidence: float
     acquisition_confidences: list[float]
     notes: str | None
@@ -129,7 +128,7 @@ def extract_acquisitions(
             "LLM extraction for '%s': using cached result (model=%s)", item_name, effective_model
         )
         return ExtractionResult(
-            item_data=cached["item_data"],
+            acquisitions=cached["acquisitions"],
             overall_confidence=cached["overall_confidence"],
             acquisition_confidences=cached["acquisition_confidences"],
             notes=cached["notes"],
@@ -151,23 +150,8 @@ def extract_acquisitions(
 
     acquisitions, confidences = _strip_confidence_fields(raw_acquisitions)
 
-    item_data = {
-        "id": api_data["id"],
-        "name": api_data["name"],
-        "type": api_data["type"],
-        "rarity": api_data["rarity"],
-        "level": api_data["level"],
-        "icon": api_data.get("icon"),
-        "description": api_data.get("description"),
-        "vendorValue": api_data.get("vendor_value"),
-        "flags": api_data.get("flags", []),
-        "wikiUrl": f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}",
-        "lastUpdated": datetime.now(UTC).date().isoformat(),
-        "acquisitions": acquisitions,
-    }
-
     cache_entry = {
-        "item_data": item_data,
+        "acquisitions": acquisitions,
         "overall_confidence": overall_confidence,
         "acquisition_confidences": confidences,
         "notes": notes,
@@ -175,7 +159,7 @@ def extract_acquisitions(
     cache.set_llm_extraction(item_id, item_name, cache_hash, effective_model, rarity, cache_entry)
 
     return ExtractionResult(
-        item_data=item_data,
+        acquisitions=acquisitions,
         overall_confidence=overall_confidence,
         acquisition_confidences=confidences,
         notes=notes,

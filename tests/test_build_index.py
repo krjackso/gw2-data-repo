@@ -381,15 +381,7 @@ def test_item_name_resolution_single_match(mocker, monkeypatch, tmp_path: Path, 
     mocker.patch(
         "scripts.populate.llm.extract_acquisitions",
         return_value=mocker.Mock(
-            item_data={
-                "id": 19676,
-                "name": "Gift of Metal",
-                "type": "Trophy",
-                "rarity": "Legendary",
-                "level": 0,
-                "lastUpdated": "2025-01-01",
-                "acquisitions": [],
-            },
+            acquisitions=[],
             overall_confidence=1.0,
             acquisition_confidences=[],
             notes="",

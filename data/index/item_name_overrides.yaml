@@ -356,8 +356,19 @@ Relic of the Zephyrite: 100893
 # The two are identical, so just pick the first one
 Magic-Warped Bundle: 79186
 
-# Pick the newer one since it contains an extra item
-Box of Super Adventure Box Goods: 80862
-
 # Pick the newer one
+Box of Super Adventure Box Goods: 80862
 Ornate Watchwork Box: 63862
+'Dragon''s Stand: Hero''s Choice Chest': 78783
+Bone: 24344
+
+# Actual material (46742) vs. container (103867)
+Lump of Mithrillium: 46742
+
+# Cooking Ingredients - CraftingMaterial vs. Container/Trophy/Consumable
+Seaweed: 12509
+Mushroom: 12147
+Sesame Seed: 12342
+Mint Leaf: 12536
+Clove: 12534
+Black Peppercorn: 12236
