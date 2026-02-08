@@ -234,7 +234,9 @@ def test_filter_discontinued_acquisitions():
         {
             "type": "container",
             "discontinued": True,
-            "requirements": [{"requirementName": "Tournament of Glory: Fourth Place", "quantity": 1}],
+            "requirements": [
+                {"requirementName": "Tournament of Glory: Fourth Place", "quantity": 1}
+            ],
         },
         {
             "type": "crafting",
@@ -266,3 +268,51 @@ def test_discontinued_acquisition_not_raise_error_for_unresolvable():
     result = resolver.resolve_requirements(acquisitions, item_index, currency_index)
 
     assert len(result) == 0
+
+
+def test_lenient_mode_skips_unresolvable():
+    item_index = {"Valid Item": [123]}
+    currency_index = {}
+
+    acquisitions = [
+        {
+            "type": "vendor",
+            "requirements": [{"requirementName": "Valid Item", "quantity": 1}],
+        },
+        {
+            "type": "pvp_reward",
+            "requirements": [{"requirementName": "Amnytas Gear Box", "quantity": 1}],
+        },
+        {
+            "type": "crafting",
+            "requirements": [{"requirementName": "Valid Item", "quantity": 2}],
+        },
+    ]
+
+    item_index["Amnytas Gear Box"] = [100372, 100500]
+
+    result = resolver.resolve_requirements(
+        acquisitions, item_index, currency_index, strict=False
+    )
+
+    assert len(result) == 2
+    assert result[0]["type"] == "vendor"
+    assert result[1]["type"] == "crafting"
+
+
+def test_strict_mode_fails_on_unresolvable():
+    item_index = {"Amnytas Gear Box": [100372, 100500]}
+    currency_index = {}
+
+    acquisitions = [
+        {
+            "type": "pvp_reward",
+            "requirements": [{"requirementName": "Amnytas Gear Box", "quantity": 1}],
+        }
+    ]
+
+    with pytest.raises(ValueError, match="matches multiple IDs"):
+        resolver.resolve_requirements(acquisitions, item_index, currency_index, strict=True)
+
+    with pytest.raises(ValueError, match="matches multiple IDs"):
+        resolver.resolve_requirements(acquisitions, item_index, currency_index)

@@ -33,6 +33,7 @@ def populate_item(
     overwrite: bool = False,
     dry_run: bool = False,
     model: str | None = None,
+    strict: bool = True,
 ) -> None:
     if item_id <= 0:
         raise ValueError(f"Item ID must be positive, got {item_id}")
@@ -60,7 +61,7 @@ def populate_item(
     item_name_index = api.load_item_name_index()
     currency_name_index = api.load_currency_name_index()
     result.item_data["acquisitions"] = resolver.resolve_requirements(
-        result.item_data["acquisitions"], item_name_index, currency_name_index
+        result.item_data["acquisitions"], item_name_index, currency_name_index, strict=strict
     )
 
     print("Sorting acquisitions...")
@@ -181,6 +182,21 @@ def main() -> None:
         help="Override LLM model (e.g. claude-sonnet-4-5-20250929)",
     )
 
+    strict_group = parser.add_mutually_exclusive_group()
+    strict_group.add_argument(
+        "--strict",
+        dest="strict",
+        action="store_true",
+        default=True,
+        help="Fail on unresolvable requirements (default)",
+    )
+    strict_group.add_argument(
+        "--no-strict",
+        dest="strict",
+        action="store_false",
+        help="Skip acquisitions with unresolvable requirements instead of failing",
+    )
+
     args = parser.parse_args()
 
     settings = get_settings()
@@ -217,7 +233,12 @@ def main() -> None:
             item_id = args.item_id
 
         populate_item(
-            item_id, cache, overwrite=args.overwrite, dry_run=args.dry_run, model=args.model
+            item_id,
+            cache,
+            overwrite=args.overwrite,
+            dry_run=args.dry_run,
+            model=args.model,
+            strict=args.strict,
         )
 
     except (APIError, WikiError, ExtractionError, ValueError) as e:

@@ -178,8 +178,7 @@ achievement rewards, specific named containers that guarantee this item. If a co
 would be below 0.8, reconsider whether it is specific enough to include.
 12. Do NOT include acquisition methods that were available in the past but are no longer \
 obtainable (e.g. removed items, discontinued events, retired reward tracks, historical \
-promotions). Skip any method marked as discontinued, historical, or no longer available. \
-Only extract currently active acquisition methods.
+promotions). Only extract currently active and available acquisition methods.
 13. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
 but different rarities (e.g., Legendary vs Ascended vs Exotic). Each acquisition method on the \
 wiki will indicate which variant it applies to through:

@@ -62,6 +62,9 @@ uv run python -m scripts.build_index --currencies      # build currency index (<
 uv run python -m scripts.populate --item-id 19676 --dry-run
 uv run python -m scripts.populate --item-name "Gift of Metal" --dry-run
 
+# Use --no-strict to skip unresolvable requirements (useful for items with ambiguous names)
+uv run python -m scripts.populate --item-id 19721 --no-strict --dry-run
+
 # Recursively populate crafting tree (populates item + all dependencies)
 uv run python -m scripts.populate_tree --item-id 30689 --limit 10
 uv run python -m scripts.populate_tree --item-name "Eternity" --limit 5
@@ -128,6 +131,30 @@ This ensures that Mystic Forge recipes and vendor costs correctly reference the 
 - Override entries take precedence over API names
 - Use single integer IDs (not lists) for override values
 - The override file is never touched by `scripts/build_index.py`
+
+## Strict vs Lenient Mode
+
+By default, populate runs in **strict mode** and fails if any acquisition has unresolvable requirements. This catches typos and data quality issues.
+
+Some items have ambiguous names that cannot be automatically resolved:
+- Reward track containers with multiple variants (e.g., "Amnytas Gear Box")
+- Discontinued items no longer in the API
+- Other edge cases
+
+Use `--no-strict` to skip these acquisitions instead of failing:
+
+```bash
+# Strict mode (default): fails on unresolvable
+uv run python -m scripts.populate --item-name "Mystic Clover" --dry-run
+
+# Lenient mode: skips unresolvable, continues with rest
+uv run python -m scripts.populate --item-name "Mystic Clover" --no-strict --dry-run
+```
+
+In lenient mode:
+- Warnings are logged for skipped acquisitions
+- Only resolvable acquisitions appear in YAML
+- Processing continues even with problematic items
 
 ## YAML File Format
 
