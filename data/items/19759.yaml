@@ -1,0 +1,26 @@
+id: 19759
+name: Hard Wood Dowel
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/0ED51B6C95431412A501BD9A79CBF22346C2E2B1/455861.png
+description: Fashioned from Wood Planks and used to craft Inscriptions.
+vendorValue: 11
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Hard_Wood_Dowel
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19711
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 225

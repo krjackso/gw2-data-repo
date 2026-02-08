@@ -1,0 +1,64 @@
+id: 71123
+name: Gift of Bones
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7254B1CD565840690A9E66FD02B462A834334779/1302177.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Bones
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24341
+    quantity: 250
+  - itemId: 24344
+    quantity: 50
+  - itemId: 24345
+    quantity: 50
+  - itemId: 24358
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24341
+    quantity: 250
+  - itemId: 24344
+    quantity: 50
+  - itemId: 24345
+    quantity: 50
+  - itemId: 24358
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24341
+    quantity: 250
+  - itemId: 24344
+    quantity: 50
+  - itemId: 24345
+    quantity: 50
+  - itemId: 24358
+    quantity: 100
+  metadata: {}

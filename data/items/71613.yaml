@@ -1,0 +1,25 @@
+id: 71613
+name: Platinum Nib
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/47D3C3B672804FB99CCFE61A9592A7E593FDBD3A/1201920.png
+description: ''
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Platinum_Nib
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19686
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

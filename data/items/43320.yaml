@@ -1,0 +1,53 @@
+id: 43320
+name: Jorbreaker
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D1679CEA0B0207B8D196F1F39C913C14CB282901/591443.png
+description: A sweet candy with a hard shell.
+vendorValue: 16
+flags:
+- NoMysticForge
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Jorbreaker
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 43319
+    quantity: 1000
+  metadata:
+    notes: Requires the festival Dragon Bash.
+- type: vendor
+  vendorName: Dragon Bash Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 43319
+    quantity: 1000
+- type: achievement
+  achievementName: (Weekly) Dragon Bash Festivities
+  achievementCategory: Dragon Bash Feats
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Weekly) Dragon Bash Festivities 2023
+  achievementCategory: Dragon Bash Feats
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Weekly) Dragon Bash Festivities 2024
+  achievementCategory: Dragon Bash Feats
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true

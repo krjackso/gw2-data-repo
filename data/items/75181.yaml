@@ -1,0 +1,25 @@
+id: 75181
+name: Silver Nib
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/EDA81A471F7E6A0BABE66406E1B2AE05D7F3EBD6/1201948.png
+description: ''
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Silver_Nib
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19687
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

@@ -1,0 +1,28 @@
+id: 91035
+name: Glimpse
+type: Trinket
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/012A1A5D2F555F04AA1F215DC9D923901313C568/2149862.png
+description: <c=@flavor>This trinket is used to craft the legendary accessory Vision.</c>
+vendorValue: 413
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glimpse
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: 'Vision II: Farsight'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

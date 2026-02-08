@@ -1,0 +1,24 @@
+id: 91010
+name: Shattered Gift of Prescience
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0A672B01C2B3042D1A626803193ED7A70007F06D/2149898.png
+description: This could use some repairs...
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shattered_Gift_of_Prescience
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: 'Vision I: Awakening'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

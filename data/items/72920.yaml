@@ -1,0 +1,27 @@
+id: 72920
+name: Sheet of Coarse Sandpaper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/0C960D7320F29E5050CC295CCD7D289C03BFEADF/1204186.png
+description: Used to craft decorations.
+vendorValue: 6
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Coarse_Sandpaper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71641
+    quantity: 10
+  - itemId: 74852
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

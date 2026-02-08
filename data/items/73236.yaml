@@ -1,0 +1,64 @@
+id: 73236
+name: Gift of Totems
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0DFC0F6DF2BEE3C83DB2EA28150FEB7A94FEA9F6/1302185.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Totems
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24298
+    quantity: 50
+  - itemId: 24299
+    quantity: 250
+  - itemId: 24300
+    quantity: 100
+  - itemId: 24363
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24298
+    quantity: 50
+  - itemId: 24299
+    quantity: 250
+  - itemId: 24300
+    quantity: 100
+  - itemId: 24363
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24298
+    quantity: 50
+  - itemId: 24299
+    quantity: 250
+  - itemId: 24300
+    quantity: 100
+  - itemId: 24363
+    quantity: 50
+  metadata: {}

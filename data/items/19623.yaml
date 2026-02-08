@@ -1,0 +1,37 @@
+id: 19623
+name: Gift of Energy
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/3D0EF516072931651F7F430B0C6BD8D6FE38E1C7/455804.png
+description: 'A gift of energy used to create generation one and two legendary weapons
+  and the legendary trinkets Vision and Aurora.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach an artificer
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Energy
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24274
+    quantity: 250
+  - itemId: 24275
+    quantity: 250
+  - itemId: 24276
+    quantity: 250
+  - itemId: 24277
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 400

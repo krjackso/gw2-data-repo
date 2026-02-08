@@ -1,0 +1,27 @@
+id: 73471
+name: Bag of Shimmering Blotting Powder
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/0429DC7FC613524B690739FB76350F39D2ABD625/1201861.png
+description: Used to make scribing kits.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Shimmering_Blotting_Powder
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24273
+    quantity: 5
+  - itemId: 71428
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

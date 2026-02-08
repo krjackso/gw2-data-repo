@@ -1,0 +1,29 @@
+id: 72955
+name: Basic Scribing Kit
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/C34F4C0994BCE405A4DD7CE0BEB35CFF09674CF9/1201936.png
+description: ''
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Basic_Scribing_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 70670
+    quantity: 1
+  - itemId: 72349
+    quantity: 1
+  - itemId: 73471
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

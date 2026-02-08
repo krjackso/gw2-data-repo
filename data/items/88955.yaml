@@ -1,0 +1,175 @@
+id: 88955
+name: Lump of Mistonium
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0D75705348E1AE54CF0679FA65C24E0739A3B79F/2038791.png
+description: Can be traded with vendors in Jahai Bluffs or consumed for volatile magic.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lump_of_Mistonium
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 50
+  requirements:
+  - itemId: 43320
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Dragon Bash
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+- type: vendor
+  vendorName: Shadows Agent Kito
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Traveling Elonian Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 20
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 2
+- type: vendor
+  vendorName: Village Head Azi
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Warmaster Steelburn
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: achievement
+  achievementName: Exhibit Aye
+  achievementCategory: A Star to Guide Us
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Return to Jahai Bluffs
+  achievementCategory: Return to A Star to Guide Us
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Jahai Bluffs
+- type: other
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: From home instance Mistonium - once per account, per day
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Guaranteed reward from Dragon Chest (Death-Branded Shatterer) - once per
+      character, per day
+- type: other
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    notes: Reward from Jahai Bluffs Cache in the Jahai Bluffs Reward Track
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward from Jahai Bluffs Legendary Bounties (per bounty)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Reward from Jahai Bluffs map bonus
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: 'Reward from completing dynamic event: Defeat the Branded djinn Vemyen'
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: 'Reward from completing dynamic event: Repel the Branded invasion and close
+      the rifts'
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: 'Reward from completing group event: Defeat the Branded djinn Vemyen (Chest)'
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Reward from completing group event: Reach the treasure inside the labyrinthine
+      Inner Keep (Iberu''s Treasure)'
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: 'Reward from completing group event: Repel the Branded invasion and close
+      the rifts (Chest)'
+- type: other
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: 'Reward from completing group event: Stop "Joko" from recruiting the Awakened!
+      (Chest)'

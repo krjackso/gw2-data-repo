@@ -1,0 +1,67 @@
+id: 70867
+name: Gift of Condensed Might
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/CCA4C2F8AF79D2EB0CFF381E3DDA3EA792BA7412/1302180.png
+description: 'Created in the Mystic Forge by combining:
+
+  • 1 Gift of Fangs
+
+  • 1 Gift of Scales
+
+  • 1 Gift of Claws
+
+  •1 Gift of Bones'
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Condensed_Might
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 70801
+    quantity: 1
+  - itemId: 71123
+    quantity: 1
+  - itemId: 75299
+    quantity: 1
+  - itemId: 75744
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 70801
+    quantity: 1
+  - itemId: 71123
+    quantity: 1
+  - itemId: 75299
+    quantity: 1
+  - itemId: 75744
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 6
+  - itemId: 70801
+    quantity: 1
+  - itemId: 71123
+    quantity: 1
+  - itemId: 75299
+    quantity: 1
+  - itemId: 75744
+    quantity: 1
+  metadata: {}

@@ -1,0 +1,37 @@
+id: 46683
+name: Crystalline Ingot
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/09B8304C6AEE96A6C25DA57BFA03EBFCC66A0B60/631470.png
+description: Refined from ore.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystalline_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46682
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - itemId: 76933
+    quantity: 1
+  metadata:
+    recipeType: crafting
+- type: achievement
+  achievementName: Migraine
+  achievementCategory: 'Heart of Thorns: Act 4'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

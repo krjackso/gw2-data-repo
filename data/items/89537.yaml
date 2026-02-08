@@ -1,0 +1,132 @@
+id: 89537
+name: Branded Mass
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0C2FD403DACFABF74B9E3824914FB60B3C285804/2083245.png
+description: Can be traded with vendors in Thunderhead Peaks or consumed for volatile
+  magic.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Branded_Mass
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Anette Eymundrdottir
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Dragon Bash Merchant
+  outputQuantity: 50
+  requirements:
+  - itemId: 43320
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Dragon Bash.
+- type: vendor
+  vendorName: Dredge Supplier Yuliya
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Gorrik
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Humble Stone
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Kjep Corrson
+  outputQuantity: 10
+  requirements:
+  - itemId: 92272
+    quantity: 75
+  - currencyId: 2
+    quantity: 2688
+  metadata: {}
+- type: vendor
+  vendorName: Rhoban
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Sayida the Sly
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 455
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Traveling Elonian Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 20
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Vigil Emissary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 2
+  metadata: {}
+- type: achievement
+  achievementName: Return to Thunderhead Peaks
+  achievementCategory: Return to All or Nothing
+  outputQuantity: 250
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Thunderhead Peaks
+- type: other
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    notes: From Thunderhead Peaks Cache in the Thunderhead Peaks Reward Track (67
+      maximum from the track)
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: From the Thunderhead Peaks map bonus reward

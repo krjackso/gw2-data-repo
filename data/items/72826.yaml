@@ -1,0 +1,27 @@
+id: 72826
+name: Bag of Luminous Blotting Powder
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/202A0A013C647251689A04D8EBA0621200007B2E/1201859.png
+description: Used to make scribing kits.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Luminous_Blotting_Powder
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24275
+    quantity: 5
+  - itemId: 71428
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

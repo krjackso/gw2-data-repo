@@ -1,0 +1,42 @@
+id: 70820
+name: Shard of Glory
+type: CraftingMaterial
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/6BBA010474B8CCE22392E71EF81E5FDB662BC32F/1206834.png
+description: Rewarded through PvP reward tracks and PvP dailies.
+vendorValue: 50
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Glory
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 10
+  requirements:
+  - currencyId: 30
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: League Slayer—Conquest
+  achievementCategory: PvP Season
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: PvP Rush Champion
+  achievementCategory: Player vs. Player Rush
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: pvp_reward
+  trackName: PvP Reward Track
+  outputQuantity: 15
+  requirements: []
+  metadata: {}

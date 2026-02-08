@@ -1,0 +1,55 @@
+id: 73137
+name: Cube of Stabilized Dark Energy
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/411E3F3A0B029113093E31530AAF022E7DDE241A/1200194.png
+description: Used to craft pristine mist essence, a key component in legendary backpacks.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Cube_of_Stabilized_Dark_Energy
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 1
+  - itemId: 73248
+    quantity: 75
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Weaponsmith
+    - Tailor
+    - Artificer
+    - Leatherworker
+    - Huntsman
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 71994
+    quantity: 1
+  - itemId: 73248
+    quantity: 75
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 71994
+    quantity: 1
+  - itemId: 73248
+    quantity: 75
+  metadata: {}

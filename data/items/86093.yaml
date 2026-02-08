@@ -1,0 +1,172 @@
+id: 86093
+name: Funerary Incense
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/18E7F86FAFFA1FEBB53E0101C4F807724B7709BA/1894675.png
+description: In the Mystic Forge, combine a Gift of the Desert, a Gift of the Rider,
+  a Bloodstone Shard, and 250 Funerary Incenses to create the Gift of Desert Mastery.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Funerary_Incense
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Amusement Adjunct Cagri
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Awakened Servant Tooraj
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Director Abioye Bayu
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Distinguished Professor Nazimi
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Embalmer Boran
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Fallen Awakened Soldier
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Primeval Steward
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 35
+    quantity: 3
+  metadata: {}
+- type: vendor
+  vendorName: Primeval Steward
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Primeval Steward
+  outputQuantity: 1
+  requirements:
+  - itemId: 46683
+    quantity: 1
+  metadata:
+    limitType: daily
+    limitAmount: 5
+- type: vendor
+  vendorName: Prince Bakkal
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Supreme Training Specialist Tozan
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19925
+    quantity: 1
+  - itemId: 68063
+    quantity: 1
+  - currencyId: 34
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1

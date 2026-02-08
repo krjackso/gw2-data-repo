@@ -1,0 +1,12 @@
+id: 75694
+name: Pouch of Blue Pigment
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/B7A7BC319AE979B3F40B3776FC66F91692694446/1200709.png
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pouch_of_Blue_Pigment
+lastUpdated: '2026-02-08'
+acquisitions: []

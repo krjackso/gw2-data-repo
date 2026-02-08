@@ -1,0 +1,37 @@
+id: 71820
+name: Mystic Tribute
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/62A0F109C444E275E966B9A903D63FFE99540BAD/455807.png
+description: 'Made by combining these items in the Mystic Forge:
+
+  • 2 Gifts of Condensed Magic
+
+  • 2 Gifts of Condensed Might
+
+  • 77 Mystic Clovers
+
+  • 250 Mystic Coins'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Tribute
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 77
+  - itemId: 19976
+    quantity: 250
+  - itemId: 70867
+    quantity: 2
+  - itemId: 76530
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,29 @@
+id: 70647
+name: Crystalline Bottle
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/660E0F806B5377E90843276A02B71CFBFB3FB464/1201862.png
+description: Used to make ink sets. Purchased from master scribes.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystalline_Bottle
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 32
+  metadata: {}
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 320
+  metadata: {}

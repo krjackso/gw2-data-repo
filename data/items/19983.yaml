@@ -1,0 +1,32 @@
+id: 19983
+name: Mystic Forge Stone
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/033CAC7DB2DE70BF39DA10D061375BA2B9BD6FA9/220548.png
+description: Take this stone to the Mystic Forge to have Zommoros forge something
+  special for you.
+vendorValue: 192
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Forge_Stone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Gem Store
+  outputQuantity: 5
+  requirements:
+  - currencyId: 4
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Gem Store
+  outputQuantity: 10
+  requirements:
+  - currencyId: 4
+    quantity: 450
+  metadata: {}

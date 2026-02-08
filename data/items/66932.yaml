@@ -1,0 +1,28 @@
+id: 66932
+name: Mordrem Core
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/9A0BDB2C2EC97E6242DE039C0DC5DAC6E52BD855/1203017.png
+description: Double-click to combine into a higher-tier trophy.
+vendorValue: 168
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mordrem_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 66931
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Handiworker
+    - Huntsman
+    - Weaponsmith
+    minRating: 150

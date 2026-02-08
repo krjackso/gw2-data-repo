@@ -1,0 +1,67 @@
+id: 76530
+name: Gift of Condensed Magic
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/09F42753049B20A54F6017B1F26A9447613016FE/1302179.png
+description: 'Created in the Mystic Forge by combining:
+
+  • 1 Gift of Blood
+
+  • 1 Gift of Venom
+
+  • 1 Gift of Totems
+
+  • 1 Gift of Dust'
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Condensed_Magic
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71655
+    quantity: 1
+  - itemId: 71787
+    quantity: 1
+  - itemId: 73196
+    quantity: 1
+  - itemId: 73236
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 71655
+    quantity: 1
+  - itemId: 71787
+    quantity: 1
+  - itemId: 73196
+    quantity: 1
+  - itemId: 73236
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 6
+  - itemId: 71655
+    quantity: 1
+  - itemId: 71787
+    quantity: 1
+  - itemId: 73196
+    quantity: 1
+  - itemId: 73236
+    quantity: 1
+  metadata: {}

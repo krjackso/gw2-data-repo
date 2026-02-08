@@ -1,0 +1,64 @@
+id: 75299
+name: Gift of Scales
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2CB33CA326C61A5350B4E40C0C621605CB456C25/1302184.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Scales
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24286
+    quantity: 50
+  - itemId: 24287
+    quantity: 50
+  - itemId: 24288
+    quantity: 250
+  - itemId: 24289
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24286
+    quantity: 50
+  - itemId: 24287
+    quantity: 50
+  - itemId: 24288
+    quantity: 250
+  - itemId: 24289
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24286
+    quantity: 50
+  - itemId: 24287
+    quantity: 50
+  - itemId: 24288
+    quantity: 250
+  - itemId: 24289
+    quantity: 100
+  metadata: {}

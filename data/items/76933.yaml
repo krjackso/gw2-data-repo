@@ -1,0 +1,37 @@
+id: 76933
+name: Fulgurite
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/C00CF0A5804C7794EEE7605945A66098B302D00E/1204964.png
+description: Used to refine Crystalline Ore into Crystalline Ingots. Crafted from
+  Obsidian Shards, Airship Oil, Auric Dust and Ley Line Sparks.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fulgurite
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 1
+  - itemId: 69392
+    quantity: 1
+  - itemId: 69432
+    quantity: 1
+  - itemId: 69434
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 500

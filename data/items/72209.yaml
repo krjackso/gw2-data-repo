@@ -1,0 +1,27 @@
+id: 72209
+name: Hard Wood Pen
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/6858F291ED484C6FD792F091F6CFDEF0B30D219E/1201955.png
+description: Crafted from dowels and nibs.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Hard_Wood_Pen
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19759
+    quantity: 1
+  - itemId: 71613
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

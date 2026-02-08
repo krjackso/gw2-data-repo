@@ -1,0 +1,38 @@
+id: 24311
+name: Molten Sliver
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/0B55A8510D75CBF6DF6BEF4FD3D52C349B1C4129/66964.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Sliver
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 41733
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41736
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    notes: Week 1 - Kessex Hills (4 total), Week 2 - Diessa Plateau (10 total), Week
+      3 - Snowden Drifts (10 total), Week 5 - Fields of Ruin (4 total), Week 6 - Lornar's
+      Pass (4 total), Week 7 - Gendarran Fields (10 total), Week 8 - Brisban Wildlands
+      (10 total). Currently Week 4.
+- type: pvp_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

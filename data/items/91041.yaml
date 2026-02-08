@@ -1,0 +1,29 @@
+id: 91041
+name: Gift of Arid Mastery
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/23731409412B1A9DC64B02D1C00C136B3A597EC0/2149861.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Arid_Mastery
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20797
+    quantity: 1
+  - itemId: 86093
+    quantity: 100
+  - itemId: 91112
+    quantity: 1
+  - itemId: 91124
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

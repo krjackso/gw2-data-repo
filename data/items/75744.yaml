@@ -1,0 +1,64 @@
+id: 75744
+name: Gift of Fangs
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A1275A0309ADB2AA6024974C353170E0D2364DCB/1302182.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Fangs
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24354
+    quantity: 50
+  - itemId: 24355
+    quantity: 50
+  - itemId: 24356
+    quantity: 250
+  - itemId: 24357
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24354
+    quantity: 50
+  - itemId: 24355
+    quantity: 50
+  - itemId: 24356
+    quantity: 250
+  - itemId: 24357
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24354
+    quantity: 50
+  - itemId: 24355
+    quantity: 50
+  - itemId: 24356
+    quantity: 250
+  - itemId: 24357
+    quantity: 100
+  metadata: {}

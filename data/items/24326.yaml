@@ -1,0 +1,47 @@
+id: 24326
+name: Crystal Sliver
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/044EFF43FF7DF27C0C542AAA4E064E0F533E782E/66977.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Sliver
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 4 bonus reward

@@ -1,0 +1,26 @@
+id: 19758
+name: Green Wood Dowel
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/0C6871D2069E2C074A93E205C9C7097DBF0E9D13/65963.png
+description: Fashioned from Wood Planks and used to craft Inscriptions.
+vendorValue: 4
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Green_Wood_Dowel
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19710
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 0

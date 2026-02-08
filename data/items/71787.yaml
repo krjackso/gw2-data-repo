@@ -1,0 +1,64 @@
+id: 71787
+name: Gift of Venom
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7A58234EAA165603433A0B37E0E7CEB8C455E600/1302186.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Venom
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24280
+    quantity: 50
+  - itemId: 24281
+    quantity: 50
+  - itemId: 24282
+    quantity: 250
+  - itemId: 24283
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24280
+    quantity: 50
+  - itemId: 24281
+    quantity: 50
+  - itemId: 24282
+    quantity: 250
+  - itemId: 24283
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24280
+    quantity: 50
+  - itemId: 24281
+    quantity: 50
+  - itemId: 24282
+    quantity: 250
+  - itemId: 24283
+    quantity: 100
+  metadata: {}

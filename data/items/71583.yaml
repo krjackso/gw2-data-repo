@@ -1,0 +1,25 @@
+id: 71583
+name: Copper Nib
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/7B75593F05E0E5B6D9F8B0674B0F794DE5473065/1201889.png
+description: ''
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Copper_Nib
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19680
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0

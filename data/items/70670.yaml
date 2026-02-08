@@ -1,0 +1,27 @@
+id: 70670
+name: Soft Wood Pen
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/E7210668273A9C27AD48E0CAF79FBEDDF2203E02/1201953.png
+description: Crafted from dowels and nibs.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Soft_Wood_Pen
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19761
+    quantity: 1
+  - itemId: 75181
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

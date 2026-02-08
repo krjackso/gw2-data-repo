@@ -1,0 +1,22 @@
+id: 66931
+name: Mordrem Shard
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/A0904209A1D0E0A5A1E8F55BEEDCFEBDD721E938/1203020.png
+description: Double-click to combine into a higher-tier trophy.
+vendorValue: 126
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mordrem_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 66929
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge

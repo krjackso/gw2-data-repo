@@ -1,0 +1,64 @@
+id: 70801
+name: Gift of Claws
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E0EE103FD3B8D1A83926BEFDDA7D5AFBE3946ED1/1302178.png
+description: Purchase this recipe from Miyani.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Claws
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24348
+    quantity: 50
+  - itemId: 24349
+    quantity: 50
+  - itemId: 24350
+    quantity: 250
+  - itemId: 24351
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24348
+    quantity: 50
+  - itemId: 24349
+    quantity: 50
+  - itemId: 24350
+    quantity: 250
+  - itemId: 24351
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24348
+    quantity: 50
+  - itemId: 24349
+    quantity: 50
+  - itemId: 24350
+    quantity: 250
+  - itemId: 24351
+    quantity: 100
+  metadata: {}

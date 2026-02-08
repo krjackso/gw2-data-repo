@@ -1,0 +1,38 @@
+id: 70528
+name: Gift of Glory
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6D09364B7B3D423AA15375AE60723993B0C56C75/1302183.png
+description: Combine with the Gift of War, Gift of Battle, and a Cube of Stabilized
+  Dark Energy in the Mystic Forge to create the Gift of the Mists.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Glory
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  metadata: {}

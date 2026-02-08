@@ -1,0 +1,55 @@
+id: 24321
+name: Destroyer Sliver
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/5CBA53FEA2210EC074E33D650D6E3FDCCB252B2C/66972.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Destroyer_Sliver
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: Sensor Scouter—Frostgorge Sound
+  achievementCategory: Transfer Chaser
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 4 bonus reward (currently active)
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward

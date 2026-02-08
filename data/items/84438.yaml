@@ -1,0 +1,31 @@
+id: 84438
+name: Black Lion Commemorative Sprocket
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/AB7D723231106C11A173ECF1CC2D947EEEA1796C/1767458.png
+description: Double-click to exchange for Living World Season 1 items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Black_Lion_Commemorative_Sprocket
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 83073
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false
+- type: container
+  itemId: 83517
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: false

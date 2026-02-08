@@ -1,0 +1,29 @@
+id: 73964
+name: Journeyman's Ink Set
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/242F7556484A9649FD272E5ABC4213B7385FE4F0/1201906.png
+description: Created with crystal bottles and pigments.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Journeyman's_Ink_Set
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 70647
+    quantity: 2
+  - itemId: 75694
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

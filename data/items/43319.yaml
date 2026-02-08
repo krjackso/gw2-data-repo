@@ -1,0 +1,102 @@
+id: 43319
+name: Piece of Zhaitaffy
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/1A53C833985AF29F60470C5DEEA61704F6B97E1E/591442.png
+description: A sugary, delicious, chewy treat.
+vendorValue: 2
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Zhaitaffy
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Black Lion Commemorative Sprocket
+  outputQuantity: 1
+  requirements:
+  - itemId: 84438
+    quantity: 400
+  metadata: {}
+- type: achievement
+  achievementName: Aim for the Sky
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Arena Gladiator
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Burn Them All
+  achievementCategory: Dragon Bash
+  outputQuantity: 30
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: 'Daily Bonus Rewards: Piñata Smashing'
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Dragon Slapper
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Holo Wrangler
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Minion Masher
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Moa Master
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Mount Master
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Paper Smasher
+  achievementCategory: Daily Dragon Bash
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true

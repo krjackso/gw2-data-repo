@@ -1,0 +1,57 @@
+id: 24278
+name: Tiny Venom Sac
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/C40532E544D99B9A92B703131409390EF36E513A/66934.png
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Venom_Sac
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: map_reward
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 23
+  requirements: []
+  metadata:
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 18
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 14
+  requirements: []
+  metadata:
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 24
+  requirements: []
+  metadata:
+    notes: Week 6 bonus reward
+- type: pvp_reward
+  trackName: Jungle Dolyak Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Rabbit Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

@@ -1,0 +1,52 @@
+id: 24284
+name: Tiny Scale
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/129C3E6801966212018033D29B23ABAF5A712615/66940.png
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Tiny_Scale
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: map_reward
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    notes: Week 8 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 24
+  requirements: []
+  metadata:
+    notes: Week 6 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 17
+  requirements: []
+  metadata:
+    notes: Week 3 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 18
+  requirements: []
+  metadata:
+    notes: Week 1 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 12
+  requirements: []
+  metadata:
+    notes: Week 7 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 28
+  requirements: []
+  metadata:
+    notes: Week 2 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 29
+  requirements: []
+  metadata:
+    notes: Week 5 Map Bonus Reward
+- type: pvp_reward
+  trackName: Jungle Shark Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

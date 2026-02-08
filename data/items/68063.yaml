@@ -1,0 +1,54 @@
+id: 68063
+name: Amalgamated Gemstone
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/35BC2D35511C806348730A5E63152B2E260D4A5C/919363.png
+description: Used in the Mystic Forge to create the Eternal Sands focus and to make
+  Polish, used in precursor crafting.
+vendorValue: 200
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Amalgamated_Gemstone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Only available during Super Adventure Festival
+- type: achievement
+  achievementName: Dragon Slayer Arms Master
+  achievementCategory: Champions
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Dragon Slayer Arms Master
+  achievementCategory: Champions
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Dragon Slayer Arms Master
+  achievementCategory: Champions
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: pvp_reward
+  trackName: Gift of Battle Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: WvW only - Tier 5, 5th reward (25th of 40)
