@@ -178,21 +178,22 @@ def _classify_entry(
             log.info(f"Excluding chance-based salvage: {name}")
             return None
 
-        try:
-            item_id = api.resolve_item_name_to_id(name, item_name_index)
-        except (APIError, KeyError) as e:
+        cleaned_name = api.clean_name(name)
+        matches = item_name_index.get(cleaned_name)
+
+        if not matches:
             if not strict:
-                log.warning(f"Skipping unresolvable salvage source '{name}': {e}")
+                log.warning(f"Skipping unresolvable salvage source '{name}': not found in index")
                 return None
             raise ValueError(
                 f"Failed to resolve salvage source '{name}' "
                 f"(not found in item index). "
-                f"If this is a known variant, add to item_name_overrides.yaml: {e}"
-            ) from e
+                f"If this is a known variant, add to item_name_overrides.yaml"
+            )
 
         return {
             "type": "salvage",
-            "itemId": item_id,
+            "itemIds": matches,
             "outputQuantity": quantity,
             "requirements": [],
             "metadata": metadata,
@@ -278,6 +279,12 @@ def classify_and_resolve(
             entry, item_name_index, currency_name_index, gathering_node_index, strict
         )
         if acq is not None:
-            acquisitions.append(acq)
+            if acq["type"] == "salvage":
+                item_ids = acq.pop("itemIds")
+                for item_id in item_ids:
+                    salvage_acq = {**acq, "itemId": item_id, "metadata": {**acq["metadata"]}}
+                    acquisitions.append(salvage_acq)
+            else:
+                acquisitions.append(acq)
 
     return acquisitions

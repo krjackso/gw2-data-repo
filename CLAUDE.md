@@ -268,8 +268,9 @@ Two types of requirements:
 The resolution process:
 1. LLM extracts raw entries from wiki HTML, tagged with wiki section (e.g., `recipe`, `vendor`, `gathered_from`)
 2. `resolver.classify_and_resolve()` classifies entries into acquisition types and resolves names → IDs
-3. If a name matches multiple IDs or doesn't exist, an error is raised
-4. Only IDs are written to the YAML file for efficient tree traversal
+3. For most acquisition types, if a name matches multiple IDs, an error is raised
+4. **Exception for salvage acquisitions**: When a salvage source name matches multiple item IDs (e.g., armor with different weight variants), one salvage acquisition is created for each item ID. This represents items with variable costs where users can later choose the cheapest option.
+5. Only IDs are written to the YAML file for efficient tree traversal
 
 ## Acquisition Types
 

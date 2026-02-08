@@ -510,6 +510,51 @@ class TestClassifyAndResolveSalvage:
                 entries, item_index, currency_index, node_index, strict=True
             )
 
+    def test_salvage_multiple_item_ids(self):
+        item_index = {"Salvageable Armor": [11111, 22222, 33333]}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Salvageable Armor",
+                "wikiSection": "salvaged_from",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {"guaranteed": True},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 3
+        assert all(r["type"] == "salvage" for r in result)
+        assert [r["itemId"] for r in result] == [11111, 22222, 33333]
+        assert all(r["outputQuantity"] == 1 for r in result)
+        assert all(r["metadata"]["guaranteed"] is True for r in result)
+
+    def test_salvage_multiple_ids_metadata_isolation(self):
+        item_index = {"Armor": [100, 200]}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Armor",
+                "wikiSection": "salvaged_from",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {"guaranteed": True},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        result[0]["metadata"]["extra"] = "test"
+        assert "extra" not in result[1]["metadata"]
+
     def test_salvage_unresolvable_lenient_skips(self):
         item_index = {}
         currency_index = {}
