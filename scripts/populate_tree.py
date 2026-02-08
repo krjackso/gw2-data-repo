@@ -19,6 +19,7 @@ Use --dry-run only for previewing a single item's data.
 import argparse
 import logging
 import signal
+import subprocess
 import sys
 import threading
 from collections import deque
@@ -76,6 +77,17 @@ def _analyze_item_file(item_id: int) -> tuple[set[int], list[str]]:
                 item_ids.add(req["itemId"])
 
     return item_ids, other_notes
+
+
+def _play_completion_sound() -> None:
+    try:
+        subprocess.run(
+            ["afplay", "/System/Library/Sounds/Glass.aiff"],
+            check=False,
+            capture_output=True,
+        )
+    except Exception:
+        pass
 
 
 def populate_tree(
@@ -230,6 +242,13 @@ def populate_tree(
         terminal.subsection("Failed items")
         for eid, msg in errors:
             terminal.bullet(f"{eid}: {msg}", indent=2, symbol="✗")
+            try:
+                item = api.get_item(eid, cache)
+                item_name = item.get("name", "Unknown")
+                wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
+                terminal.info(f"    Wiki: {wiki_url}")
+            except Exception:
+                pass
             terminal.info(f"    Debug with: uv run python -m scripts.populate --item-id {eid}")
 
     if _interrupted:
@@ -239,6 +258,8 @@ def populate_tree(
 
     if queued_new > 0:
         terminal.info(f"\nRe-run to continue processing {queued_new} remaining new item(s).")
+
+    _play_completion_sound()
 
 
 def main() -> None:

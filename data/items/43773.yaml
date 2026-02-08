@@ -1,0 +1,40 @@
+id: 43773
+name: Quartz Crystal
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/6D0737BD7FC3E270D67A9C0D214CCAB70A4C1B74/603252.png
+description: Transform 25 Quartz into a Charged Quartz Crystal at a place of power.
+vendorValue: 20
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Quartz_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  containerName: Kite Basket Supplies
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 88145
+  containerName: Zephyrite Supply Box
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: resource_node
+  nodeName: Quartz Crystal Formation
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: resource_node
+  nodeName: Rich Quartz Crystal Formation
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

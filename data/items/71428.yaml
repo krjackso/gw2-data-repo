@@ -1,0 +1,114 @@
+id: 71428
+name: Resonating Sliver
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/97BF4A30AE0F43EFF6A444013F9040A60D48E6BB/1201931.png
+description: Earned by completing guild missions and dailies, and by mining the ore
+  node in guild halls.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Resonating_Sliver
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 78614
+  containerName: Box of Adept Scribing Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78380
+  containerName: Box of Apprentice Scribing Supplies
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78437
+  containerName: Box of Initiate Scribing Supplies
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78713
+  containerName: Box of Journeyman Scribing Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78264
+  containerName: Box of Master Scribing Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Chest of Lumber
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Chest of Ore
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Chest of Plants
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Chest of the Adventurer
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78260
+  containerName: Fractal Adept's Chest
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78613
+  containerName: Fractal Expert's Chest
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78200
+  containerName: Fractal Initiate's Chest
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78572
+  containerName: Fractal Master's Chest
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Transcendent Chest
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

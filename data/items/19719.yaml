@@ -1,0 +1,107 @@
+id: 19719
+name: Rawhide Leather Section
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png
+description: Refine into Squares.
+vendorValue: 2
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Rawhide_Leather_Section
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 63662
+  containerName: Beginner's Bag of Crafting Supplies
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 39095
+  containerName: Huntsman Starter Kit
+  outputQuantity: 24
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 39098
+  containerName: Leatherworker Starter Kit
+  outputQuantity: 180
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 39099
+  containerName: Tailor Starter Kit
+  outputQuantity: 100
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 6270
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 6321
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21653
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21654
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21661
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21664
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21684
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21685
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 68448
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79213
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 80681
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

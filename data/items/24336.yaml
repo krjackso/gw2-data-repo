@@ -1,0 +1,12 @@
+id: 24336
+name: Corrupted Sliver
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/19AA3BEF089B72F09D80E43A210FF4FCF9369345/66982.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Corrupted_Sliver
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,12 @@
+id: 71692
+name: Pouch of Red Pigment
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/56BB44D10201E6B51772FBA99BB6BEFECB40A674/1200714.png
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pouch_of_Red_Pigment
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -12,7 +12,6 @@ Orchestrates the acquisition data pipeline:
 """
 
 import argparse
-import difflib
 import logging
 import sys
 from datetime import UTC, datetime
@@ -122,19 +121,7 @@ def populate_item(
     new_yaml = yaml.dump(yaml_content, sort_keys=False, allow_unicode=True)
 
     if output_path.exists():
-        old_yaml = output_path.read_text()
-        diff = difflib.unified_diff(
-            old_yaml.splitlines(keepends=True),
-            new_yaml.splitlines(keepends=True),
-            fromfile=f"a/{output_path}",
-            tofile=f"b/{output_path}",
-        )
-        diff_text = "".join(diff)
-        if diff_text:
-            terminal.subsection(f"Diff from existing {output_path}")
-            terminal.code_block(diff_text)
-        else:
-            terminal.info("No changes from existing file.")
+        terminal.info("File already exists and will be overwritten.")
 
     if dry_run:
         if not output_path.exists():

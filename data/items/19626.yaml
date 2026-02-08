@@ -44,10 +44,9 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    guaranteed: false
-    choice: true
+    guaranteed: true
 - type: other
   outputQuantity: 1
   requirements: []
   metadata:
-    notes: Placing second in the Tournament of Legends
+    notes: Placing second in the Automated Tournaments Tournament of Legends

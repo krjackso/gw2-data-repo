@@ -48,7 +48,7 @@ acquisitions:
   - currencyId: 45
     quantity: 100
   metadata:
-    notes: Requires the achievement Putting Out Fires.
+    notes: Requires the achievement Putting Out Fires
 - type: vendor
   vendorName: Ethall
   outputQuantity: 1
@@ -67,7 +67,7 @@ acquisitions:
   - currencyId: 22
     quantity: 25
   metadata:
-    notes: Requires the mastery Exalted Acceptance.
+    notes: Requires the mastery Exalted Acceptance
 - type: vendor
   vendorName: Exalted Mastery Vendor
   outputQuantity: 5
@@ -77,7 +77,7 @@ acquisitions:
   - currencyId: 22
     quantity: 125
   metadata:
-    notes: Requires the mastery Exalted Acceptance.
+    notes: Requires the mastery Exalted Acceptance
 - type: vendor
   vendorName: Festival Rewards Vendor
   outputQuantity: 1
@@ -124,7 +124,7 @@ acquisitions:
   - currencyId: 19
     quantity: 25
   metadata:
-    notes: Requires the mastery Itzel Language.
+    notes: Requires the mastery Itzel Language
 - type: vendor
   vendorName: Itzel Mastery Vendor
   outputQuantity: 5
@@ -134,7 +134,7 @@ acquisitions:
   - currencyId: 19
     quantity: 125
   metadata:
-    notes: Requires the mastery Itzel Language.
+    notes: Requires the mastery Itzel Language
 - type: vendor
   vendorName: Jale
   outputQuantity: 3
@@ -240,7 +240,7 @@ acquisitions:
   - currencyId: 20
     quantity: 25
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Nuhoch Mastery Vendor
   outputQuantity: 5
@@ -250,7 +250,7 @@ acquisitions:
   - currencyId: 20
     quantity: 125
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Nuhoch Stomper
   outputQuantity: 1
@@ -260,7 +260,7 @@ acquisitions:
   - currencyId: 20
     quantity: 25
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Nuhoch Stomper
   outputQuantity: 5
@@ -270,7 +270,7 @@ acquisitions:
   - currencyId: 20
     quantity: 125
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Priory Historian
   outputQuantity: 1
@@ -463,7 +463,7 @@ acquisitions:
   - currencyId: 20
     quantity: 25
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Tenoch
   outputQuantity: 5
@@ -473,7 +473,7 @@ acquisitions:
   - currencyId: 20
     quantity: 125
   metadata:
-    notes: Requires the mastery Nuhoch Language.
+    notes: Requires the mastery Nuhoch Language
 - type: vendor
   vendorName: Trader Hyacinth
   outputQuantity: 1
@@ -506,7 +506,7 @@ acquisitions:
   - currencyId: 19
     quantity: 25
   metadata:
-    notes: Requires the mastery Itzel Language.
+    notes: Requires the mastery Itzel Language
 - type: vendor
   vendorName: Xochitl
   outputQuantity: 5
@@ -516,7 +516,1040 @@ acquisitions:
   - currencyId: 19
     quantity: 125
   metadata:
-    notes: Requires the mastery Itzel Language.
+    notes: Requires the mastery Itzel Language
+- type: container
+  containerName: Amnytas Gear Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65404
+  containerName: Ascalon Weapon Skins Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93574
+  containerName: Ash Legion Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 74214
+  containerName: Auric Weapon Crate
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Bag of Obsidian
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65640
+  containerName: Balthazar Backpack Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 79911
+  containerName: Bitterfrost Frontier Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Bladed Glove Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93485
+  containerName: Blood Legion Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 79193
+  containerName: Bloodstone Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Canthan Armor Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 90096
+  containerName: Carapace Armor Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Castoran Gear Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 75314
+  containerName: Chak Gerent Cache
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93494
+  containerName: Charr Legions Backpack Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 68352
+  containerName: Chest of Legendary Crafting Materials
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Desert Armor Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93870
+  containerName: Dominion Spoils Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 81126
+  containerName: Draconis Mons Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 90468
+  containerName: Dragonfall Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Dragonjade-Tier Reward Package
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93560
+  containerName: Drizzlewood Coast Supply Drop
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67221
+  containerName: Dwayna's Reliquary
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Elaborate Fur Pouch
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 79607
+  containerName: Ember Bay Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93543
+  containerName: Flame Legion Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93794
+  containerName: Frost Legion Spoils Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 68505
+  containerName: Gilded Chest
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Gilded Strongbox
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Glorious Armor Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 92040
+  containerName: Grand Icebrood Saga Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67229
+  containerName: Grawl Supply Sack
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 92080
+  containerName: Grothmar Legionnaire Banner Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 91895
+  containerName: Grothmar Legionnaire Weapons Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 77160
+  containerName: Grymm Mini Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71829
+  containerName: Grymm Svaard Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78961
+  containerName: Hero Weapon Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 93508
+  containerName: Iron Legion Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 86132
+  containerName: Istan Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 88594
+  containerName: Jahai Bluffs Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Janthir Wilds Gear Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 92342
+  containerName: Jora's Weapons Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67219
+  containerName: Jormag Defender's Kit
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 70778
+  containerName: Jungle Bear Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73424
+  containerName: Jungle Deer Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 74904
+  containerName: Jungle Dolyak Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73076
+  containerName: Jungle Dragon Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71966
+  containerName: Jungle Phoenix Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 77044
+  containerName: Jungle Rabbit Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 74658
+  containerName: Jungle Shark Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 77014
+  containerName: Jungle Tiger Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76057
+  containerName: Jungle Wolf Finisher Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 80938
+  containerName: King Toad Loot Box
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 87886
+  containerName: Kournan Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65312
+  containerName: Kryta Weapon Skins Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 80097
+  containerName: Lake Doric Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Large Bag of Obsidian
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 66904
+  containerName: Last Good-Bye
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 79004
+  containerName: Legacy Armor Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 63847
+  containerName: Liberator of Lion's Arch Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Long-Lost Tahkayun's Weapon Bag
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 79186
+  containerName: Magic-Warped Bundle
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Magic-Warped Packet
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67240
+  containerName: Magnificent Ascalonian Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67239
+  containerName: Magnificent Dredge Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67242
+  containerName: Magnificent Flame Legion Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67243
+  containerName: Magnificent Inquest Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67241
+  containerName: Magnificent Kodan Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67236
+  containerName: Magnificent Nightmare Court Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67238
+  containerName: Magnificent Nobleman's Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67237
+  containerName: Magnificent Orrian Chest
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Medium Bag of Obsidian
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 77772
+  containerName: Mini Tybalt Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 74365
+  containerName: Mordremoth Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 68040
+  containerName: Nekhii's Dust-Covered Saddlebag
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73014
+  containerName: Nika Mini Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 70067
+  containerName: Nika Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67789
+  containerName: Ogden's Gratitude
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 63862
+  containerName: Ornate Watchwork Box
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67084
+  containerName: Pristine Sand-Carved Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 92376
+  containerName: Raven's Gift
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67222
+  containerName: Regal Bag of Goods
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65268
+  containerName: Ruins of Orr Weapon Skins Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 87247
+  containerName: Sandswept Isles Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 66611
+  containerName: Scarlet's Box of Desert Knickknacks
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65453
+  containerName: Shiverpeak Mountains Weapon Skins Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 81614
+  containerName: Siren's Landing Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 66977
+  containerName: Summit Hero's Reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65367
+  containerName: Tarnished Coast Weapon Skins Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 67980
+  containerName: The Master of Peace's Bequest
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 89913
+  containerName: Thunderhead Peaks Cache
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 66760
+  containerName: Token of Taimi's Gratitude
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 78494
+  containerName: Triumphant Armor Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 89972
+  containerName: Turai Ossa Mini Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 77696
+  containerName: Tybalt Reward Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65395
+  containerName: Veteran Air Elemental Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71492
+  containerName: Veteran Anchor the Gold Shark Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Arid Inquest Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Arid Inquest Cache
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Arid Skritt Cache
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 6
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Arid Skritt Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 70678
+  containerName: Veteran Banjo the Brown Bear Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76828
+  containerName: Veteran Blu the Brown Shark Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65377
+  containerName: Veteran Branded Minion Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76610
+  containerName: Veteran Chak Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Destroyer Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Destroyer Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Dust Mite Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76264
+  containerName: Veteran Dusty the Gold Bear Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Earth Elemental Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71041
+  containerName: Veteran Erico the Brown Dolyak Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65290
+  containerName: Veteran Ettin Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 70745
+  containerName: Veteran Fang the Brown Wolf Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Fire Elemental Loot Box
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Fire Elemental Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76041
+  containerName: Veteran Fye the Brown Phoenix Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76438
+  containerName: Veteran Gloss the Gold Phoenix Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 74884
+  containerName: Veteran Gudbrand the Gold Dolyak Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Ice Elemental Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Ice Elemental Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65261
+  containerName: Veteran Inquest Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73128
+  containerName: Veteran Jormag the Ice Dragon Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71095
+  containerName: Veteran Judah the Brown Deer Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65435
+  containerName: Veteran Kodan Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65330
+  containerName: Veteran Krait Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65249
+  containerName: Veteran Largos Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71464
+  containerName: Veteran Marcus the Gold Tiger Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73433
+  containerName: Veteran Mordrem Guard Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Mushroom Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Mushroom Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 76102
+  containerName: Veteran Narf the Gold Wolf Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65336
+  containerName: Veteran Nightmare Court Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65387
+  containerName: Veteran Ogre Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65250
+  containerName: Veteran Ooze Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 75462
+  containerName: Veteran Primordus the Fire Dragon Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71719
+  containerName: Veteran Professor Whiskers the Gold Rabbit Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73747
+  containerName: Veteran Quetzal Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 73511
+  containerName: Veteran Quintly the Brown Tiger Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Saurian Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Saurian Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Saurian Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 72292
+  containerName: Veteran Sergeant Carrot Brown Rabbit Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 71389
+  containerName: Veteran Smokey the White-Tailed Gold Deer Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Vined Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Vined Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Vined Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  containerName: Veteran Vined Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 65302
+  containerName: Veteran Wurm Loot Box
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 75365
+  containerName: Veteran Wyvern Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 72648
+  containerName: Veteran Zintl Cache
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: container
+  itemId: 68029
+  containerName: Warclaw Armor Box
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: wvw_reward
+  trackName: Gift of Battle Item Reward Track
+  outputQuantity: 12
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Guildrider Warclaw Skin Reward Track
+  outputQuantity: 15
+  requirements: []
+  metadata: {}
 - type: wizards_vault
   outputQuantity: 1
   requirements:

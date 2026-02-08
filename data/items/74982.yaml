@@ -1,0 +1,12 @@
+id: 74982
+name: Pouch of Brown Pigment
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/5850B133731AA03A17D7F6A9542D29517ED53298/1200710.png
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pouch_of_Brown_Pigment
+lastUpdated: '2026-02-08'
+acquisitions: []

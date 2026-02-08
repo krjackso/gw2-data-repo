@@ -35,8 +35,7 @@ acquisitions:
   requirements:
   - itemId: 41886
     quantity: 1
-  metadata:
-    notes: Requires the festival Super Adventure Festival
+  metadata: {}
 - type: vendor
   vendorName: Sparking Stone
   outputQuantity: 1
@@ -44,9 +43,8 @@ acquisitions:
   - itemId: 41886
     quantity: 30
   - currencyId: 1
-    quantity: 40000
-  metadata:
-    notes: Requires the festival Super Adventure Festival
+    quantity: 400000
+  metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -55,11 +53,34 @@ acquisitions:
     quantity: 250
   metadata: {}
 - type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 32
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 250
+  requirements:
+  - itemId: 41886
+    quantity: 1
+  metadata: {}
+- type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
   requirements:
   - itemId: 80890
     quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Super Adventure Box Weaponsmith
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 16
+  - currencyId: 1
+    quantity: 200000
   metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
@@ -70,7 +91,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -80,7 +100,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -90,7 +109,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -100,7 +118,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -108,11 +125,10 @@ acquisitions:
   - itemId: 41886
     quantity: 16
   - currencyId: 1
-    quantity: 80000
+    quantity: 800000
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -120,11 +136,10 @@ acquisitions:
   - itemId: 41886
     quantity: 16
   - currencyId: 1
-    quantity: 80000
+    quantity: 800000
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -134,7 +149,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -144,7 +158,6 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Super Adventure Festival
 - type: vendor
   vendorName: Sven Edson
   outputQuantity: 1
@@ -152,7 +165,7 @@ acquisitions:
   - itemId: 41886
     quantity: 64
   - currencyId: 1
-    quantity: 50000
+    quantity: 500000
   metadata: {}
 - type: achievement
   achievementName: (Annual) Flight of the Bumble Pugs
@@ -231,45 +244,51 @@ acquisitions:
   achievementCategory: 'Super Adventure Box: Quality Testing'
   outputQuantity: 1
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: Ooze Herding
   achievementCategory: 'Super Adventure Box: Nostalgia'
   outputQuantity: 8
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: The Glitched Adventure
   achievementCategory: Festival Collections
   outputQuantity: 50
   requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
+  metadata: {}
 - type: achievement
   achievementName: The Super Adventure
   achievementCategory: Festival Collections
   outputQuantity: 50
   requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Super Adventure Box)
+  outputQuantity: 2
+  requirements: []
   metadata:
-    repeatable: false
-    timeGated: false
+    notes: normal mode, once per account per day per zone
+- type: container
+  containerName: Glorious Chest (Super Adventure Box)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 4
+  requirements: []
+  metadata:
+    notes: tribulation mode (2 in World 1, 4 in World 2), once per account per day
+      per zone
+- type: container
+  itemId: 78039
+  containerName: Super Adventure Weapon Box
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    guaranteed: true
+    choice: true
 - type: other
   outputQuantity: 1
   requirements: []
   metadata:
-    notes: Completing the dynamic event Cut ooze cake! (once per day)
-- type: other
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: One earned from completing a bonus round (Cart), once per day
-- type: other
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    notes: One earned from completing a bonus round (Robbers), once per day
+    notes: One earned from completing a Bonus round, Cart or Robbers, once per day
+      each

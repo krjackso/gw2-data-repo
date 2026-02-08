@@ -1,0 +1,27 @@
+id: 19738
+name: Stretched Rawhide Leather Square
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/6E0F2811CBEA77DF5344499E6B4C01673EE6DAC9/65955.png
+description: Refined from Sections.
+vendorValue: 2
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Stretched_Rawhide_Leather_Square
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19719
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    minRating: 0

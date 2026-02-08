@@ -17,15 +17,12 @@ flags:
 - DeleteWarning
 - AccountBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Sunrise
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: other
   outputQuantity: 1
-  requirements:
-  - itemId: 30703
-    quantity: 1
+  requirements: []
   metadata:
-    notes: Automatically obtained when adding Sunrise to your Legendary Armory. This
-      includes when Sunrise is automatically added to the Armory when logging in on
-      a character with Sunrise equipped or account-bounded in the inventory for the
-      first time after the release of the Legendary Armory on July 13, 2021.
+    notes: Acquired by adding Sunrise to your account's Legendary Armory. Automatically
+      added when logging in on a character with Sunrise equipped or account-bounded
+      for the first time after July 13, 2021.

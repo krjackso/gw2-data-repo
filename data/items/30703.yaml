@@ -20,7 +20,7 @@ flags:
 - AccountBindOnUse
 - DeleteWarning
 wikiUrl: https://wiki.guildwars2.com/wiki/Sunrise
-lastUpdated: '2026-02-07'
+lastUpdated: '2026-02-08'
 acquisitions:
 - type: mystic_forge
   outputQuantity: 1
@@ -41,5 +41,4 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata:
-    guaranteed: false
-    choice: true
+    guaranteed: true

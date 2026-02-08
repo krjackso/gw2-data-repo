@@ -38,19 +38,14 @@ acquisitions:
     quantity: 1
   metadata:
     recipeType: mystic_forge
-- type: achievement
-  achievementName: Tournament of Legends
-  achievementCategory: Automated Tournaments
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    repeatable: false
-    timeGated: false
 - type: container
   itemId: 90021
   containerName: 'Tournament of Legends: Mastery or Fortune'
   outputQuantity: 1
   requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1
+  requirements: []
   metadata:
-    guaranteed: false
-    choice: true
+    notes: Placing second in the Tournament of Legends

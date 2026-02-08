@@ -1,0 +1,13 @@
+id: 24503
+name: Sunstone Lump
+type: UpgradeComponent
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/4F9B09A85A77B6C356F4D15FF6F9FB4DF90BACCE/220943.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 34
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sunstone_Lump
+lastUpdated: '2026-02-08'
+acquisitions: []
