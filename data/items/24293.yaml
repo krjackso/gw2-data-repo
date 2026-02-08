@@ -1,0 +1,76 @@
+id: 24293
+name: Vial of Thick Blood
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/5103E44DB05DE7A9579C98037332294DB209CB72/66948.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Thick_Blood
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 24275
+    quantity: 5
+  - itemId: 24292
+    quantity: 50
+  - itemId: 24293
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 1 - 18 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 2 - 22 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 8 - 25 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 7 - 19 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 4 - 24 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 5 - 25 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 3 - 20 total

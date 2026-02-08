@@ -1,0 +1,13 @@
+id: 12253
+name: Strawberry
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/FA03EA4891609320A6CE08069EABE7F65465EC09/63330.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Strawberry
+lastUpdated: '2026-02-08'
+acquisitions: []

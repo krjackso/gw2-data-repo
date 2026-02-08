@@ -1,0 +1,27 @@
+id: 72433
+name: Bag of Glittering Blotting Powder
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/7F60E57D1A649809F30CC1B12DFB03CDF8809339/1201857.png
+description: Used to make scribing kits.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Glittering_Blotting_Powder
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24272
+    quantity: 5
+  - itemId: 71428
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0

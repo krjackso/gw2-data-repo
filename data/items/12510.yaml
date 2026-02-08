@@ -1,0 +1,13 @@
+id: 12510
+name: Lotus Root
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/2BCA0A07077D3899C3F601AF1FAEFB18C67FB30F/219470.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lotus_Root
+lastUpdated: '2026-02-08'
+acquisitions: []

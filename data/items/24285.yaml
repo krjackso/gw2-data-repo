@@ -1,0 +1,41 @@
+id: 24285
+name: Small Scale
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/EE0C5C5917BE5B0F1569134E40E80399FFC73E17/66941.png
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Small_Scale
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 1
+  - itemId: 24273
+    quantity: 5
+  - itemId: 24284
+    quantity: 50
+  - itemId: 24285
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Available in Gendarran Fields (Week 1, 26 total), Lornar's Pass (Week 2,
+      16 total), Fields of Ruin (Week 3, 13 total), Snowden Drifts (Week 5, 15 total),
+      Diessa Plateau (Week 6, 20 total), Kessex Hills (Week 7, 18 total), Brisban
+      Wildlands (Week 8, 24 total). Currently Week 4 (no Small Scale available this
+      week).
+- type: pvp_reward
+  trackName: Jungle Shark Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

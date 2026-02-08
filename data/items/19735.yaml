@@ -1,0 +1,44 @@
+id: 19735
+name: Cured Thick Leather Square
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/12B5A77DE31564F344BFD46875C3200E9105E0A8/65952.png
+description: Refined from Sections.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cured_Thick_Leather_Square
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19729
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Weaponsmith
+    minRating: 300
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19735
+    quantity: 1
+  - itemId: 19736
+    quantity: 250
+  - itemId: 20796
+    quantity: 8
+  - itemId: 24276
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

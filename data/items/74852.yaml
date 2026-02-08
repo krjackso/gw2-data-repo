@@ -1,0 +1,27 @@
+id: 74852
+name: Sheet of Rough Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/E60F80EC16026306F8B397CE4D0555A8DFAABDA6/1201915.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Rough_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19740
+    quantity: 1
+  - itemId: 70437
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 75

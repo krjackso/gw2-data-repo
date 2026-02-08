@@ -1,0 +1,79 @@
+id: 19703
+name: Silver Ore
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/DA1D9FCF3006222DEE691016EFF8AEE162C3431D/65931.png
+description: Refine into Ingots.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Silver_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 21679
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21680
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21691
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21692
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41733
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41734
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43552
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43553
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43555
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45039
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45040
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

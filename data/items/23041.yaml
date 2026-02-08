@@ -1,0 +1,209 @@
+id: 23041
+name: Fine Salvage Kit
+type: Tool
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/CA01D91B20EB19359FFF313C6DC5C2480A0872B0/66766.png
+description: Double-click to salvage crafting materials from an item in your inventory.
+  15% chance of rarer materials. 40% chance of salvaging upgrades.
+vendorValue: 36
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fine_Salvage_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Armis Slapsharp
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Beva
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Cin Fursarai
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata:
+    notes: Requires the achievement Putting Out Fires
+- type: vendor
+  vendorName: Culis Cannonbite
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Illa
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: King Reza
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Mala Greenbow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Master craftsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 28800
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 28800
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Milin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Mist Warden Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata:
+    notes: Requires the achievement Cutting Weeds
+- type: vendor
+  vendorName: Noran
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata:
+    notes: Requires the achievement Life in the Underworld
+- type: vendor
+  vendorName: Priest Sazeer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Akina
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Queen Mahtab
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Queen Yasamin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Rass
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Researcher Thale
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Scientist Vratt
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Second-to-Last-Or-So Mate Bowz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Svanir Seer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 252
+  metadata: {}
+- type: vendor
+  vendorName: Zephyrite merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 14400
+  - currencyId: 25
+    quantity: 6
+  metadata: {}
+- type: achievement
+  achievementName: Level rewards
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

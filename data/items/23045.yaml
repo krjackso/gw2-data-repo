@@ -1,0 +1,30 @@
+id: 23045
+name: Mystic Salvage Kit
+type: Tool
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/5FE549CF38CE536D730631CE2EDEC7F95575B3DB/2699840.png
+description: Double-click to salvage crafting materials from an item in your inventory.
+  25% chance of rarer materials. 80% chance of salvaging upgrades.
+vendorValue: 192
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Salvage_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19983
+    quantity: 3
+  - itemId: 23041
+    quantity: 1
+  - itemId: 23042
+    quantity: 1
+  - itemId: 23043
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

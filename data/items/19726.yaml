@@ -1,0 +1,34 @@
+id: 19726
+name: Soft Wood Log
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/AB6C5501209B91D9B890B1F84B29BC0142CB59D8/65943.png
+description: Refine into Planks.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Soft_Wood_Log
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19723
+    quantity: 250
+  - itemId: 19726
+    quantity: 1
+  - itemId: 20796
+    quantity: 1
+  - itemId: 24273
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 79423
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

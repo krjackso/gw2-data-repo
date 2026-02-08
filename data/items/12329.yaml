@@ -1,0 +1,13 @@
+id: 12329
+name: Yam
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/A20171F1CF0AD20AB2C0430AF573F09ED8D4CAD3/63366.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Yam
+lastUpdated: '2026-02-08'
+acquisitions: []

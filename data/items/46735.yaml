@@ -1,0 +1,16 @@
+id: 46735
+name: Empyreal Fragment
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/DE4779014F27DE027BDBE761607B220923DB03D5/631484.png
+description: Refine into empyreal stars.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Empyreal_Fragment
+lastUpdated: '2026-02-08'
+acquisitions: []

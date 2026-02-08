@@ -1,0 +1,30 @@
+id: 49782
+name: Watchwork Mechanism
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/5E979AEEF7D092DCFEF9ADA527BB61F6FF03E811/711882.png
+description: Refined from Watchwork Sprockets.
+vendorValue: 50
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Watchwork_Mechanism
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 44941
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 400

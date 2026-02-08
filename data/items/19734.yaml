@@ -1,0 +1,44 @@
+id: 19734
+name: Cured Coarse Leather Square
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/060124C6B61BBFD79333E063AA28E37B300F210A/65951.png
+description: Refined from Sections.
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cured_Coarse_Leather_Square
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19730
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Weaponsmith
+    minRating: 150
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19733
+    quantity: 250
+  - itemId: 19734
+    quantity: 1
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,13 @@
+id: 12535
+name: Rutabaga
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/900364553607A5BCA06370F8B320B00A0A19ABD7/63390.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Rutabaga
+lastUpdated: '2026-02-08'
+acquisitions: []

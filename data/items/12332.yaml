@@ -1,0 +1,13 @@
+id: 12332
+name: Head of Cabbage
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/3343B0E5B72DDDC1432F4C4A629D77F5A03B269E/63369.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Head_of_Cabbage
+lastUpdated: '2026-02-08'
+acquisitions: []

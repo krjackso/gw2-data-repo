@@ -1,0 +1,652 @@
+id: 23038
+name: Crude Salvage Kit
+type: Tool
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/9F09ACD431CE4906631E271E650ABB0454F90705/63123.png
+description: Double-click to salvage crafting materials from an item in your inventory.
+  Has a small chance of salvaging upgrades.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Crude_Salvage_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Androchus the Hidden
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Any Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 32
+  metadata: {}
+- type: vendor
+  vendorName: Armis Slapsharp
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Beva
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Bulsa the Elder
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Cin Fursarai
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata:
+    notes: Requires the achievement Putting Out Fires
+- type: vendor
+  vendorName: Culis Cannonbite
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Deputy Jenks
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Doolsileep
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Engineer Gilli
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Explorer Bink
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Farmer Nel
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Fealla
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Fyra Redtail
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Ghyrtratus Fiendmauler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Gon Rageshot
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Guard Barnaby
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Guard Lugung
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Historian Garrod
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Hunter Glynis
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Illa
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Kastaz Strongpaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: King Reza
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Kona Timberrend
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Krug
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lahri
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lakor Grizzlemouth
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lanirse
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Leika the Crafter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard Auda
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard Haral
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard Micah
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard Nadel
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Lionscout Alli
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Mala Greenbow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Mara Ripsaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Matlal
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Mayor Trisk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Mei Hawkslayer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Meinolf Njordson
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Milin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Mist Warden Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata:
+    notes: Requires the achievement Cutting Weeds
+- type: vendor
+  vendorName: Naama
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Noran
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata:
+    notes: Requires the achievement Life in the Underworld
+- type: vendor
+  vendorName: Paden
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Priest Sazeer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Akina
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Queen Mahtab
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Queen Yasamin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Rak Deathmane
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Rass
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Remaris Earshot
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Researcher Irkz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Researcher Thale
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Rhiogheil
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Sangdo Swiftwing
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Scientist Vratt
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Second-to-Last-Or-So Mate Bowz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Archer Brian
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Outfitter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Outfitter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Outfitter [Cultural Weaponsmith Tier 3]
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Soldier Dianna
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Soldier Tripp
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Sergeant Rane
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Sergeant Yarbrough
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Shengra the Stalker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Weapons Collector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Stout Darkmind
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Svanir Seer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Tamor Woodreave
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Tiga Fierceblade
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Tredd
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Undercover Agent Tulfar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Vasher Shadowsinner
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Veska Bladesinger
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Wagh Nearshot
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Waldo Flood
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Warden Caedmon
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Zalvax Brokenclaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: vendor
+  vendorName: Zephyrite merchants
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  - currencyId: 25
+    quantity: 2
+  metadata: {}
+- type: vendor
+  vendorName: Zort
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 28
+  metadata: {}
+- type: achievement
+  achievementName: Reaching Level 12
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

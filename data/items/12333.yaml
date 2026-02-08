@@ -1,0 +1,13 @@
+id: 12333
+name: Kale Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/B27FE2990ADC0B65E7C5A811F9C20DB676EC3305/63370.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Kale_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

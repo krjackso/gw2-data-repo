@@ -1,0 +1,86 @@
+id: 24308
+name: Onyx Shard
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/F0C133B3E8FADB3C070DA35C015551A7E50692F8/66961.png
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Onyx_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24307
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24307
+    quantity: 6
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 45041
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 2
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 1
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 3
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 4
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 6
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 8

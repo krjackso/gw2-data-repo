@@ -1,0 +1,100 @@
+id: 19732
+name: Hardened Leather Section
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/C4600FB8F97F2618F4DFA2CE9FD2C669FAE9DE6F/65949.png
+description: Refine into Squares.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Hardened_Leather_Section
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19729
+    quantity: 250
+  - itemId: 19732
+    quantity: 1
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 21658
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21689
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 22331
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79213
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 80681
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 6
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 5
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 7
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 3
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 1 and Week 8
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 4

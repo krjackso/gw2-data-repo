@@ -1,0 +1,13 @@
+id: 12532
+name: Head of Cauliflower
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/327E15CA0B5D069908C8F96E0AA335140BD302CD/219482.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Head_of_Cauliflower
+lastUpdated: '2026-02-08'
+acquisitions: []

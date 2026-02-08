@@ -1,0 +1,13 @@
+id: 73504
+name: Sawgill Mushroom
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/AAFF3F76320FCB0177550F2D6CBA22334D935AF1/1203082.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sawgill_Mushroom
+lastUpdated: '2026-02-08'
+acquisitions: []

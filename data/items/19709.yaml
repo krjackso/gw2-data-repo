@@ -1,0 +1,41 @@
+id: 19709
+name: Elder Wood Plank
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/DB5C0A4EB6E7F730DAC3B3DE7032482792E76FA7/220462.png
+description: Refined from Logs.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elder_Wood_Plank
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19722
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 300
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19709
+    quantity: 1
+  - itemId: 19711
+    quantity: 250
+  - itemId: 20796
+    quantity: 8
+  - itemId: 24276
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,26 @@
+id: 19720
+name: Bolt of Jute
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png
+description: Refined from Scraps.
+vendorValue: 2
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Jute
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19718
+    quantity: 2
+  metadata:
+    recipeType: refinement
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Scribe
+    - Tailor
+    minRating: 0

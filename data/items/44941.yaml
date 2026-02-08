@@ -1,0 +1,88 @@
+id: 44941
+name: Watchwork Sprocket
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/F996013B7E4AB74F0D73EE38723521BEA9B8D67F/619700.png
+vendorValue: 13
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Watchwork_Sprocket
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Heirloom Lost and Found
+  outputQuantity: 10
+  requirements:
+  - itemId: 50030
+    quantity: 10
+  - currencyId: 1
+    quantity: 104
+  metadata: {}
+- type: vendor
+  vendorName: Suspicious Heirloom Lost and Found
+  outputQuantity: 10
+  requirements:
+  - itemId: 50030
+    quantity: 10
+  - currencyId: 1
+    quantity: 104
+  metadata: {}
+- type: achievement
+  achievementName: Wrath of the Twisted Marionette Avenger
+  achievementCategory: Wrath of the Twisted Marionette
+  outputQuantity: 50
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 3 bonus reward

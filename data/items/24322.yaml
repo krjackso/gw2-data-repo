@@ -1,0 +1,95 @@
+id: 24322
+name: Destroyer Fragment
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/EF65D6D16101C608709619BAE2045E00511E7CD5/66973.png
+vendorValue: 21
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Destroyer_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24321
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 4
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24321
+    quantity: 8
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Sensor Scouter—Snowden Drifts
+  achievementCategory: Transfer Chaser
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 5 map bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 4 map bonus reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 6 map bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 7 map bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 2 map bonus reward
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 1 map bonus reward
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 3 map bonus reward

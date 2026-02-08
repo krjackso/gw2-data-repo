@@ -1,0 +1,342 @@
+id: 36038
+name: Trick-or-Treat Bag
+type: Container
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E6017363449406DEE3DD3B80263AA2A91716F1DE/499375.png
+description: Double-click to open.
+vendorValue: 18
+flags:
+- NoSalvage
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Trick-or-Treat_Bag
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: (Annual) A Royal Tradition
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Ancient Grudge
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Arguably Foodlike
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Ascent to Madness
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Courtly Service
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Lunatic Racer
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Mad King's Clock Tower
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Masters of the Labyrinth
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Pumpkin Carving
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: (Annual) Raceway Regular
+  achievementCategory: Halloween Rituals
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: true
+- type: achievement
+  achievementName: Against the King
+  achievementCategory: Halloween Daily
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Ancient Grudge
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Arguably Foodlike
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Candy Craver
+  achievementCategory: Halloween Daily
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Carving Across Tyria
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Champion of the Labyrinth
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Clocktower's Champion
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Courtly Service
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Festive Feud
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Grim Reaper of Grunts
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Halloween Costume Brawl Champion
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Jumping Mad
+  achievementCategory: Halloween Daily
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Knock Down the Doors
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Mad Drifter
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Mad King's Herald (Intern)
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Mad King's Herald-in-Training
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Mad Memories
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: New Afterlife for Quaggan
+  achievementCategory: Halloween Rituals
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: Pumpkin Carving
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Pumpkin Hacker
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Reaper's Return
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Routing the Rebel Rabble
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Royal Racer
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Shut and Locked
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Shut the Doors
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Terror of the Labyrinth
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: The Mad Inquisition
+  achievementCategory: Halloween Daily
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Time Unmoving
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Time Unwaiting
+  achievementCategory: Shadow of the Mad King
+  outputQuantity: 12
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Tour of the Labyrinth
+  achievementCategory: Halloween Daily
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true
+- type: achievement
+  achievementName: Trick-or-Treater
+  achievementCategory: Halloween Daily
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: true

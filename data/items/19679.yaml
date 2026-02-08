@@ -1,0 +1,29 @@
+id: 19679
+name: Bronze Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E3D6CBCEACAE61041366A4C0021B6E6B40630A0F/65908.png
+description: Refined from Copper Ore and Tin.
+vendorValue: 4
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bronze_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 5
+  requirements:
+  - itemId: 19697
+    quantity: 10
+  - itemId: 19704
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 0

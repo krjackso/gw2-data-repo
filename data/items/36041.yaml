@@ -1,0 +1,15 @@
+id: 36041
+name: Piece of Candy Corn
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7AF3232140CB5DF159E4E54C2F092F69B5BD460F/499376.png
+description: A sugary, delicious, versatile treat.
+vendorValue: 2
+flags:
+- NoSalvage
+- NoSell
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Candy_Corn
+lastUpdated: '2026-02-08'
+acquisitions: []

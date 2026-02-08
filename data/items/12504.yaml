@@ -1,0 +1,13 @@
+id: 12504
+name: Cayenne Pepper
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/0B4DFEC1F0F270F4AE01E854FFF3CC64124C25C9/219466.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cayenne_Pepper
+lastUpdated: '2026-02-08'
+acquisitions: []

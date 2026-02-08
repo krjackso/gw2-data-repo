@@ -1,0 +1,27 @@
+id: 71136
+name: Sheet of Quality Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/67DC2A9A6CABF4A6950C765C1AB83A2F6F35FBFC/1201918.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 13
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Quality_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19747
+    quantity: 1
+  - itemId: 71336
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 300

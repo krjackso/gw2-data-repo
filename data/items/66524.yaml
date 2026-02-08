@@ -1,0 +1,13 @@
+id: 66524
+name: Nopal
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/971B013D9BDF56931451EBAA3C0DBBCC03C6982C/831440.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Nopal
+lastUpdated: '2026-02-08'
+acquisitions: []

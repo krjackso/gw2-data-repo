@@ -1,0 +1,43 @@
+id: 24355
+name: Sharp Fang
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/5F9923611B4B5314D5993872EC2970CA7BE09DAB/65896.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sharp_Fang
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 24275
+    quantity: 5
+  - itemId: 24354
+    quantity: 50
+  - itemId: 24355
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands, Dredgehaunt Cliffs, Blazeridge Steppes, Bloodtide
+      Coast, Timberline Falls, Iron Marches, Sparkfly Fen
+    notes: Weekly rotating map bonus reward (27 total in Harathi Hinterlands Week
+      1, 26 in Dredgehaunt Cliffs Week 2, 24 in Blazeridge Steppes Week 3, 17 in Bloodtide
+      Coast Week 4, 23 in Timberline Falls Week 5, 22 in Iron Marches Week 6, 21 in
+      Sparkfly Fen Week 7)
+- type: pvp_reward
+  trackName: Jungle Wolf Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

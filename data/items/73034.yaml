@@ -1,0 +1,32 @@
+id: 73034
+name: Vial of Linseed Oil
+type: CraftingMaterial
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/B73F53BA2F4BFA1EB8F0FA45F05C9DF542EDE952/65660.png
+description: Ingredient
+vendorValue: 17
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Linseed_Oil
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 74090
+    quantity: 15
+  - itemId: 76839
+    quantity: 1
+  - itemId: 77256
+    quantity: 5
+  metadata:
+    recipeType: crafting
+- type: achievement
+  achievementName: Conservation of Resources
+  achievementCategory: 'Heart of Thorns: Act 1'
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

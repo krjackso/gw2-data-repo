@@ -1,0 +1,67 @@
+id: 19697
+name: Copper Ore
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/6E17C5A65955239640743E48B30A3425FACA5D02/65925.png
+description: Refine into Copper Ingots or use Tin to refine into Bronze Ingots.
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Copper_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 21678
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21679
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21690
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21691
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41733
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41736
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43552
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45039
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79079
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

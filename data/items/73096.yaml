@@ -1,0 +1,13 @@
+id: 73096
+name: Pile of Allspice Berries
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/770B2D0EFD6CE8971297B51FAF12B3A40562E973/1202987.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Allspice_Berries
+lastUpdated: '2026-02-08'
+acquisitions: []

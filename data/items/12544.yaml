@@ -1,0 +1,13 @@
+id: 12544
+name: Ghost Pepper
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/01051F0458C052BF08916A555273FF6145592FE6/219488.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ghost_Pepper
+lastUpdated: '2026-02-08'
+acquisitions: []

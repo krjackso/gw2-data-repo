@@ -1,0 +1,13 @@
+id: 12336
+name: Dill Sprig
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/94430706EA3CD40731FACAFA5AB69A74E2211CA8/219432.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Dill_Sprig
+lastUpdated: '2026-02-08'
+acquisitions: []

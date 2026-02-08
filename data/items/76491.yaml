@@ -1,0 +1,105 @@
+id: 76491
+name: Black Diamond
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/4E096C75FAB2EF90A82648A43C64FC226267FB92/1202991.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Black_Diamond
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Agent Dajan
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Dalal
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Emeka
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Halima
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Imad
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kazi
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kerrah
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Priory Explorer Hozza
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Tumelo
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Yonca
+  outputQuantity: 1
+  requirements:
+  - itemId: 72421
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Deathless Escape
+  achievementCategory: 'Heart of Thorns: Act 2'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 78783
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: false
+    choice: true

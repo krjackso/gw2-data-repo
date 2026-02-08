@@ -1,0 +1,13 @@
+id: 12512
+name: Artichoke
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/3FF00D3CF70B4AB4E117040F541D384302E7D93E/219472.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Artichoke
+lastUpdated: '2026-02-08'
+acquisitions: []

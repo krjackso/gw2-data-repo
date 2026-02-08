@@ -1,0 +1,13 @@
+id: 12162
+name: Turnip
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/753BAA18664504123A54FC9E7060A10107C9A574/63262.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Turnip
+lastUpdated: '2026-02-08'
+acquisitions: []

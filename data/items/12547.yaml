@@ -1,0 +1,13 @@
+id: 12547
+name: Saffron Thread
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/FE1C9BB06AF7E83EDCBD655B030EB8EC00CBD350/219491.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Saffron_Thread
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,29 @@
+id: 74768
+name: Journeyman's Finishing Kit
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/04E2351D10CAC945FF21E85C2637C84C7854BDB1/1201944.png
+description: Used to craft decorations.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Journeyman's_Finishing_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72462
+    quantity: 1
+  - itemId: 72925
+    quantity: 1
+  - itemId: 73034
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

@@ -1,0 +1,86 @@
+id: 24317
+name: Glacial Fragment
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/6909C7740DF404434BA1D32E4F7042D050FF7FE7/63150.png
+vendorValue: 21
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Glacial_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24316
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 4
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24316
+    quantity: 8
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 41734
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 1 - 2 total
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 2 - 6 total
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 3 - 2 total
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 6 - 5 total
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 5 - 6 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 7 - 1 total

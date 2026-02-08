@@ -1,0 +1,41 @@
+id: 19744
+name: Bolt of Linen
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7CD96276BF2094F5A17EB520DAA5123F04023102/63575.png
+description: Refined from Scraps.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Linen
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19743
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Scribe
+    - Tailor
+    minRating: 225
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19742
+    quantity: 250
+  - itemId: 19744
+    quantity: 1
+  - itemId: 20796
+    quantity: 6
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

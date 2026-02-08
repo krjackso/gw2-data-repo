@@ -1,0 +1,13 @@
+id: 73113
+name: Cassava Root
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/BCD45E192AFEC190D81745EC037F297D670E4A20/1301784.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cassava_Root
+lastUpdated: '2026-02-08'
+acquisitions: []

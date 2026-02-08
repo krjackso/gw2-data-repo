@@ -1,0 +1,82 @@
+id: 24345
+name: Heavy Bone
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/A27457964A7F0A19DFFCA57FCB7308D233FE66E1/66991.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Heavy_Bone
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 24275
+    quantity: 5
+  - itemId: 24344
+    quantity: 50
+  - itemId: 24345
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 21
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 4 bonus reward (current)
+- type: map_reward
+  outputQuantity: 21
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 21
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 16
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 13
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 22
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 16
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 6 bonus reward
+- type: pvp_reward
+  trackName: Jungle Deer Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 5th reward (30th of 40)

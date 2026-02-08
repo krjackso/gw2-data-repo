@@ -1,0 +1,13 @@
+id: 12161
+name: Beet
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/CE0105F7035E55544A75D71FD0EC1A0095E7062C/63261.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Beet
+lastUpdated: '2026-02-08'
+acquisitions: []

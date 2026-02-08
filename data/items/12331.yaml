@@ -1,0 +1,13 @@
+id: 12331
+name: Chili Pepper
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B5BDAEC6993B1B3E315B75713B2B04D092A13335/63368.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chili_Pepper
+lastUpdated: '2026-02-08'
+acquisitions: []

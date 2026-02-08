@@ -1,0 +1,41 @@
+id: 19746
+name: Bolt of Gossamer
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7FBA68B71DB805E416315067DD0DDEEB204CFC65/63577.png
+description: Refined from Scraps.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Gossamer
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19745
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Scribe
+    - Tailor
+    minRating: 400
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19746
+    quantity: 1
+  - itemId: 19747
+    quantity: 250
+  - itemId: 20796
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

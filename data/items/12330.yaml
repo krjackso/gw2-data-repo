@@ -1,0 +1,13 @@
+id: 12330
+name: Zucchini
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/DD9CAA539E02CA7A69A42D9398777F0FA7C30D73/63367.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Zucchini
+lastUpdated: '2026-02-08'
+acquisitions: []

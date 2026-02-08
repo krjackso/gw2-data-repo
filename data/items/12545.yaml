@@ -1,0 +1,13 @@
+id: 12545
+name: Orrian Truffle
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/0AF0FD06192106D5D9C73A35A3E364CE6B4A1FC0/219489.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Orrian_Truffle
+lastUpdated: '2026-02-08'
+acquisitions: []

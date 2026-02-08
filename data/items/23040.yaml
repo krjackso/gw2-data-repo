@@ -1,0 +1,304 @@
+id: 23040
+name: Basic Salvage Kit
+type: Tool
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F0B4025A23D3D1ADE0466FFEAA7023D8EFD8422C/66765.png
+description: Double-click to salvage crafting materials from an item in your inventory.
+  10% chance of rarer materials. 20% chance of salvaging upgrades.
+vendorValue: 11
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Basic_Salvage_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Any Master Craftsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 88
+  metadata: {}
+- type: vendor
+  vendorName: Any Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 88
+  metadata: {}
+- type: vendor
+  vendorName: Cin Fursarai
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Crystal Bloom Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata:
+    notes: Requires the achievement Putting Out Fires
+- type: vendor
+  vendorName: King Reza
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Milin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Mist Warden Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata:
+    notes: Requires the achievement Cutting Weeds
+- type: vendor
+  vendorName: Noran
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata:
+    notes: Requires the achievement Life in the Underworld
+- type: vendor
+  vendorName: Priest Sazeer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Akina
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Queen Mahtab
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Queen Yasamin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Researcher Thale
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Scientist Vratt
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Second-to-Last-Or-So Mate Bowz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Svanir Seer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Valiant Mathair
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 77
+  metadata: {}
+- type: vendor
+  vendorName: Zephyrite Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 40
+  - currencyId: 25
+    quantity: 4
+  metadata: {}
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - Infinity
+      Ball path - Carry a Big Stick'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - Infinity
+      Ball path - Industrial Espionage'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - Transatmospheric
+      Converter path - Bad Forecast'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - Transatmospheric
+      Converter path - Free Rein'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - VAL-A Golem
+      path - Bad Business'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Asura Chapter 2: Interested Parties - VAL-A Golem
+      path - I Smell a Rat'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Charr Chapter 2: Sins of the Father - Honorless
+      Gladium path - Misplaced Faith'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Charr Chapter 2: Sins of the Father - Loyal Soldier
+      path - No Negotiations'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Charr Chapter 2: Sins of the Father - Loyal Soldier
+      path - Salvaging Scrap'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Charr Chapter 2: Sins of the Father - Sorcerous
+      Shaman path - A Fork in the Road'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Human Chapter 2: Shadows of the Past - Dead Sister
+      path - Accusation'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Human Chapter 2: Shadows of the Past - Missed
+      Opportunity path - Into the Woods'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Human Chapter 2: Shadows of the Past - Missed
+      Opportunity path - The Artist''s Workshop'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Human Chapter 2: Shadows of the Past - Unknown
+      Parents path - Drawing Out the Cult'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Human Chapter 2: Shadows of the Past - Unknown
+      Parents path - The Sting'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Norn Chapter 2: Everyone Makes Mistakes - Blacked
+      Out path - Assault on Moledavia'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Norn Chapter 2: Everyone Makes Mistakes - Blacked
+      Out path - Roadblock'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Norn Chapter 2: Everyone Makes Mistakes - Lost
+      an Heirloom path - Darkness at Drakentelt'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Norn Chapter 2: Everyone Makes Mistakes - Revenge
+      path - The Semifinals'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Sylvari Chapter 2: The Teachings of Ventari -
+      Act With Wisdom path - Mirror, Mirror'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Sylvari Chapter 2: The Teachings of Ventari -
+      Right to Grow path - The Direct Approach'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Sylvari Chapter 2: The Teachings of Ventari -
+      Right to Grow path - Trading Trickery'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Sylvari Chapter 2: The Teachings of Ventari -
+      Where Life Goes path - A Different Dream'
+- type: story
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    storyChapter: 'Personal story - Sylvari Chapter 2: The Teachings of Ventari -
+      Where Life Goes path - Source of the Issue'
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Level reward upon reaching level 38

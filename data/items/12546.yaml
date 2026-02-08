@@ -1,0 +1,13 @@
+id: 12546
+name: Lemongrass
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/DF5612F93A11DB5F53FECA523F50D15DBF5A9AA5/219490.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lemongrass
+lastUpdated: '2026-02-08'
+acquisitions: []

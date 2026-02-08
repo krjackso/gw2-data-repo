@@ -1,0 +1,85 @@
+id: 24309
+name: Onyx Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/EDE00E4F3F3802F8064D7640A345ADA0E85D045C/66962.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Onyx_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24308
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24308
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 45042
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45043
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: Week 2 bonus reward
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    notes: Week 5 bonus reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    notes: Week 1 bonus reward

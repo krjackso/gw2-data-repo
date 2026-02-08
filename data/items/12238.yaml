@@ -1,0 +1,13 @@
+id: 12238
+name: Head of Lettuce
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F370E14DE5C1FACE91D19F19FD65CD19C5F74F75/63317.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Head_of_Lettuce
+lastUpdated: '2026-02-08'
+acquisitions: []

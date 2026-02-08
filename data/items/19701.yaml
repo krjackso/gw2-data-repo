@@ -1,0 +1,46 @@
+id: 19701
+name: Orichalcum Ore
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/A6E2C82153BA684E2D05D3FCA09F3E02431366ED/220461.png
+description: Refine into Ingots.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Orichalcum_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19700
+    quantity: 250
+  - itemId: 19701
+    quantity: 1
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 40
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+- type: map_reward
+  outputQuantity: 40
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+- type: map_reward
+  outputQuantity: 40
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap

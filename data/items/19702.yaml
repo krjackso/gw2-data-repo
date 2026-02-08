@@ -1,0 +1,110 @@
+id: 19702
+name: Platinum Ore
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/413D7EE8CE04C0BC07C31A4B381EB6344150F849/65930.png
+description: Refine into Platinum Ingots or use Primordium to refine into Darksteel
+  Ingots.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Platinum_Ore
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 20
+  outputQuantityMin: 20
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19699
+    quantity: 250
+  - itemId: 19702
+    quantity: 1
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19698
+    quantity: 250
+  - itemId: 19702
+    quantity: 1
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24275
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 21681
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21682
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21693
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21694
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41735
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41736
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43554
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 43555
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45041
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 45042
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79079
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

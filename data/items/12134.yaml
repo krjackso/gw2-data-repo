@@ -1,0 +1,13 @@
+id: 12134
+name: Carrot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F06472A03B49AA6C9256195FC43B49BEA26595D0/62859.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Carrot
+lastUpdated: '2026-02-08'
+acquisitions: []

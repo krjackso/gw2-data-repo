@@ -1,0 +1,26 @@
+id: 78062
+name: Fancy Furniture Coin
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D9DD3377179B516544117DC5F54B044320E20EC3/1418362.png
+description: An extremely fancy coin from the Furniture Proprietor in Super Adventure
+  Box. Trade these for decorations in your guild hall.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fancy_Furniture_Coin
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Super Adventure Box Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 39752
+    quantity: 25
+  metadata:
+    notes: Requires the achievement Master of Decor, World 1 and the achievement Master
+      of Decor, World 2

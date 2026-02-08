@@ -1,0 +1,24 @@
+id: 72271
+name: Pumpkin
+type: Gizmo
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D4070B5B2F2ABAD80DE2176EB541680B4D0CD41D/1226071.png
+description: Purchase to deposit this decoration into guild storage.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pumpkin
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Fion
+  outputQuantity: 1
+  requirements:
+  - itemId: 36041
+    quantity: 100
+  metadata: {}

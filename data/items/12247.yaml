@@ -1,0 +1,13 @@
+id: 12247
+name: Bay Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 15
+icon: https://render.guildwars2.com/file/4DB7FDDC35DD95F5B0B606F775ED23CE209BA127/63325.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bay_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

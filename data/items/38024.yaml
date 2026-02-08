@@ -1,0 +1,44 @@
+id: 38024
+name: Shard of Crystallized Mists Essence
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/7DB2AB514CB9ACC219457DC1AEAB340BD578644F/512007.png
+description: Earned by playing Fractals of the Mists scales 51–100.
+vendorValue: 79
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Crystallized_Mists_Essence
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19976
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 38023
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: INFUZ-5959
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 28800
+  - currencyId: 7
+    quantity: 300
+  metadata:
+    notes: Requires the mastery Follows Advice
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Possible reward upon completing Nightmare Fractal (Challenge Mode) or Shattered
+      Observatory Fractal (Challenge Mode)

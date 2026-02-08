@@ -1,0 +1,13 @@
+id: 36731
+name: Passion Fruit
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/245EB89D59905C2857587A1A2E02FC1645EBF740/511768.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Passion_Fruit
+lastUpdated: '2026-02-08'
+acquisitions: []

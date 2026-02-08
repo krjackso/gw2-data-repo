@@ -1,0 +1,46 @@
+id: 19688
+name: Steel Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/FCB6E507C84EDD01E2CE25665370FDE8423B58F9/65916.png
+description: Refined from Iron Ore and Coal.
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Steel_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19699
+    quantity: 3
+  - itemId: 19750
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Weaponsmith
+    minRating: 150
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19683
+    quantity: 250
+  - itemId: 19688
+    quantity: 1
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

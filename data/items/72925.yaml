@@ -1,0 +1,29 @@
+id: 72925
+name: Journeyman's Scribing Kit
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/BBDB4608A31249330EE2054CCA780514BFDEBFEA/1201938.png
+description: ''
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Journeyman's_Scribing_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72209
+    quantity: 1
+  - itemId: 72826
+    quantity: 1
+  - itemId: 73964
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 225

@@ -1,0 +1,13 @@
+id: 12341
+name: Grape
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/D94408B9276CD9C89521E14166DCE87719676621/63378.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Grape
+lastUpdated: '2026-02-08'
+acquisitions: []

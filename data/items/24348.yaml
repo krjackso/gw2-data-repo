@@ -1,0 +1,82 @@
+id: 24348
+name: Claw
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/325E12790C72C161E15B1CCE253C6079960CA138/66994.png
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Claw
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24274
+    quantity: 5
+  - itemId: 24347
+    quantity: 50
+  - itemId: 24348
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 5 bonus reward - 25 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 6 bonus reward - 20 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 4 bonus reward - 22 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 3 bonus reward - 24 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 8 bonus reward - 22 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 1 bonus reward - 19 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 7 bonus reward - 19 total
+- type: pvp_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 2nd reward (27th of 40 total rewards)

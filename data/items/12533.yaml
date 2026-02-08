@@ -1,0 +1,13 @@
+id: 12533
+name: Green Onion
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/DB03DC50A5BA020811221B04D1D4FB3957F81512/63389.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Green_Onion
+lastUpdated: '2026-02-08'
+acquisitions: []

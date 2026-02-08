@@ -1,0 +1,23 @@
+id: 68955
+name: Evergreen Shard
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/90510F1CE702D69FB303FD0A086BDF1DD295077F/1203092.png
+description: Double-click to combine into a higher-tier trophy.
+vendorValue: 126
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Evergreen_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 69466
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines: []

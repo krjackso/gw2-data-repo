@@ -1,0 +1,68 @@
+id: 24349
+name: Sharp Claw
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/97BCA6B90E56E6F0A06B3C031CDEA5EC0EBA17B5/66995.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sharp_Claw
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 24275
+    quantity: 5
+  - itemId: 24348
+    quantity: 50
+  - itemId: 24349
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 19
+  requirements: []
+  metadata:
+    notes: Week 5 - 19 total
+- type: map_reward
+  outputQuantity: 24
+  requirements: []
+  metadata:
+    notes: Week 6 - 24 total
+- type: map_reward
+  outputQuantity: 22
+  requirements: []
+  metadata:
+    notes: Week 4 - 22 total (current week)
+- type: map_reward
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    notes: Week 3 - 20 total
+- type: map_reward
+  outputQuantity: 12
+  requirements: []
+  metadata:
+    notes: Week 8 - 12 total
+- type: map_reward
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    notes: Week 1 - 25 total
+- type: map_reward
+  outputQuantity: 11
+  requirements: []
+  metadata:
+    notes: Week 7 - 11 total
+- type: pvp_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 5th reward (30th of 40)

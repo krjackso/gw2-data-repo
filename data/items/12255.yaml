@@ -1,0 +1,13 @@
+id: 12255
+name: Blueberry
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/E2DA4E9B994DE9E4382B096907715FF9A2327E28/63332.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Blueberry
+lastUpdated: '2026-02-08'
+acquisitions: []

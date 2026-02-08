@@ -1,0 +1,13 @@
+id: 12144
+name: Snow Truffle
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/917E9C5504FE06715DCBE04D75F826BE5DB895BA/219398.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Snow_Truffle
+lastUpdated: '2026-02-08'
+acquisitions: []

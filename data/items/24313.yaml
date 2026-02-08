@@ -1,0 +1,92 @@
+id: 24313
+name: Molten Shard
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/F7A947B33B0710FF2D34EAD478E7C9C430A4CFE4/66966.png
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24312
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24312
+    quantity: 6
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 41735
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 4 (current) - 6 total
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 3 - 3 total
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 6 - 5 total
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 1 - 4 total
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 8 - 3 total
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 2 - 5 total
+- type: pvp_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Tier 6, 5th reward, 30th of 40

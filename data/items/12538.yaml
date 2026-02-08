@@ -1,0 +1,13 @@
+id: 12538
+name: Sugar Pumpkin
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/6ED9FE4CB6DCDA7F542718507DC33305FDD9A62C/63386.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sugar_Pumpkin
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,13 @@
+id: 12243
+name: Sage Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/CFAEA7F4C824573764E23023940C0B9DAE450854/219410.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sage_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

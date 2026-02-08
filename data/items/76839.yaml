@@ -1,0 +1,408 @@
+id: 76839
+name: Milling Basin
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0E251A26CB31A19813666546C89A0C4EDDB1A6B1/1201835.png
+description: Used to grind flax seeds and cassava roots.
+vendorValue: 7
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Milling_Basin
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Apprentice
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Apprentice
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Bhia
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Bhia
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Caria
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Caria
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Cemil
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Cemil
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Chef Kaga
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Chef Kaga
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Chef Mountainsplitter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Chef Mountainsplitter
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Crusader Kruve
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Crusader Kruve
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Flavor Scholar Raima
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Flavor Scholar Raima
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Flimm
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Flimm
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Garik
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Garik
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Gurges Burnpaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Gurges Burnpaw
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Head Chef Jacqueline
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Head Chef Jacqueline
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Kathleen
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Kathleen
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Lachaidh
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Lachaidh
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Liv
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Liv
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Melinda
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Melinda
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Myrtle
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Myrtle
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Pavilion Disciple
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Pavilion Disciple
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Prazz
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Prazz
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Reimar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Reimar
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Sage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Sage
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Shar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Shar
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Siptikk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Siptikk
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Sous-Chef Seimur Oxbone
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Sous-Chef Seimur Oxbone
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Tik'sip
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Tik'sip
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Vyor Ravenhanded
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Vyor Ravenhanded
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}
+- type: vendor
+  vendorName: Zenn
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 56
+  metadata: {}
+- type: vendor
+  vendorName: Zenn
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 560
+  metadata: {}

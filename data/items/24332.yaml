@@ -1,0 +1,80 @@
+id: 24332
+name: Pile of Foul Essence
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/9B0C2B9E7178D4A2010696936066073A0461AF3A/63277.png
+vendorValue: 21
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Foul_Essence
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24331
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 4
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24331
+    quantity: 8
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 8
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 6 bonus reward
+- type: map_reward
+  outputQuantity: 9
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 1 bonus reward
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 4 bonus reward (current week)
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 5 bonus reward

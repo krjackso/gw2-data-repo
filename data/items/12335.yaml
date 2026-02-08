@@ -1,0 +1,13 @@
+id: 12335
+name: Rosemary Sprig
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/E063C45CECDC650704194C7B7B5D744E7D54E498/63372.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Rosemary_Sprig
+lastUpdated: '2026-02-08'
+acquisitions: []

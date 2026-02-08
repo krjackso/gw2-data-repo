@@ -1,0 +1,57 @@
+id: 24312
+name: Molten Fragment
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/FB6878B6DC31AFC10F3B7DB8D1F93C0CFB5C08BF/66965.png
+vendorValue: 21
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24311
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 4
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24311
+    quantity: 8
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 41734
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    notes: Available as map bonus reward in Iron Marches (6), Timberline Falls (5),
+      Bloodtide Coast (7), Blazeridge Steppes (4), Dredgehaunt Cliffs (4), Harathi
+      Hinterlands (5), and Sparkfly Fen (7). Currently Week 4.
+- type: pvp_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

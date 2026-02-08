@@ -1,0 +1,13 @@
+id: 12534
+name: Clove
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/959295E70911D30D9EE9973FA7A097BA55F40AAF/219483.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Clove
+lastUpdated: '2026-02-08'
+acquisitions: []

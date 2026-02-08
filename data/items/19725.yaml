@@ -1,0 +1,34 @@
+id: 19725
+name: Ancient Wood Log
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/5C999770AB7CC1F85D270A50C205673DF8B6E104/220467.png
+description: Refine into Planks.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ancient_Wood_Log
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 19722
+    quantity: 250
+  - itemId: 19725
+    quantity: 1
+  - itemId: 20796
+    quantity: 5
+  - itemId: 24277
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 96464
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

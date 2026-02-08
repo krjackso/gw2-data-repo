@@ -1,0 +1,68 @@
+id: 24298
+name: Totem
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/52A92F9505FD49FB655A0631525556D5B80E55C0/66953.png
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Totem
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24274
+    quantity: 5
+  - itemId: 24297
+    quantity: 50
+  - itemId: 24298
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 27
+  requirements: []
+  metadata:
+    notes: Week 7 - 27 total
+- type: map_reward
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    notes: Week 8 - 15 total
+- type: map_reward
+  outputQuantity: 22
+  requirements: []
+  metadata:
+    notes: Week 6 - 22 total
+- type: map_reward
+  outputQuantity: 17
+  requirements: []
+  metadata:
+    notes: Week 5 - 17 total
+- type: map_reward
+  outputQuantity: 22
+  requirements: []
+  metadata:
+    notes: Week 2 - 22 total
+- type: map_reward
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    notes: Week 3 - 15 total
+- type: map_reward
+  outputQuantity: 22
+  requirements: []
+  metadata:
+    notes: Week 1 - 22 total
+- type: pvp_reward
+  trackName: Jungle Bear Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 2nd reward, 27th of 40

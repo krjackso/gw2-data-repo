@@ -1,0 +1,13 @@
+id: 12248
+name: Thyme Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/EC13E2DE5F0FD6BBB00B07BA067B2291BE54C64B/219413.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Thyme_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

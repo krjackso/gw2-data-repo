@@ -1,0 +1,13 @@
+id: 12128
+name: Omnomberry
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/9C5457B024D9152906D808A53BFF67539BB94FA0/219396.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Omnomberry
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,19 @@
+id: 19723
+name: Green Wood Log
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/DAF50142ADC06FB11FBC02F8FFEF504F4E674047/65942.png
+description: Refine into Planks.
+vendorValue: 2
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Green_Wood_Log
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: salvage
+  itemId: 79423
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true

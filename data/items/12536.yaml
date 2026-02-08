@@ -1,0 +1,13 @@
+id: 12536
+name: Mint Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/2D0726C61FBA172F6B96E3BF91420ACED83FB554/219484.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mint_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,82 @@
+id: 24347
+name: Small Claw
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/4CFEC931B41FA0092E5C9B6F240FE1F64E2F5247/66993.png
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Small_Claw
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 1
+  - itemId: 24273
+    quantity: 5
+  - itemId: 24346
+    quantity: 50
+  - itemId: 24347
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 14
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Brisban Wildlands
+    notes: Week 7 map bonus reward
+- type: map_reward
+  outputQuantity: 24
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Diessa Plateau
+    notes: Week 5 map bonus reward
+- type: map_reward
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fields of Ruin
+    notes: Week 2 map bonus reward
+- type: map_reward
+  outputQuantity: 23
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Gendarran Fields
+    notes: Week 8 map bonus reward
+- type: map_reward
+  outputQuantity: 19
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Kessex Hills
+    notes: Week 6 map bonus reward
+- type: map_reward
+  outputQuantity: 23
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Lornar's Pass
+    notes: Week 1 map bonus reward
+- type: map_reward
+  outputQuantity: 21
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Snowden Drifts
+    notes: Week 4 map bonus reward (currently active)
+- type: pvp_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 4, 2nd reward (17th of 40 total rewards)

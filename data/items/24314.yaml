@@ -1,0 +1,104 @@
+id: 24314
+name: Molten Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/F23608C7DE13B2BC903D3F6EB9734B423E96A6CB/66967.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24313
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24313
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 41736
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41737
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 4 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 1 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 6 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 5 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 8 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Week 3 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 7 Map Bonus Reward
+- type: pvp_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 2
+  requirements: []
+  metadata: {}

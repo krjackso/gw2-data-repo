@@ -1,0 +1,13 @@
+id: 74090
+name: Pile of Flax Seeds
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/481BDB30B60B08E759CCEF3FF10C9441D49BBB76/1203081.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Flax_Seeds
+lastUpdated: '2026-02-08'
+acquisitions: []

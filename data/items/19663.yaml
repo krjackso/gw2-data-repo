@@ -1,0 +1,34 @@
+id: 19663
+name: Bottle of Elonian Wine
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/CC720B5A5810A84FD97AB00FA43F1679C48074DE/455843.png
+description: Elonian wine, purchased from Miyani in Lion's Arch.
+vendorValue: 313
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Elonian_Wine
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 250004
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 250004
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 250004
+  metadata: {}

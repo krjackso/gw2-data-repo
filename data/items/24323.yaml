@@ -1,0 +1,95 @@
+id: 24323
+name: Destroyer Shard
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/51F010BBE69639210416F8E436C00177670C5847/66974.png
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Destroyer_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24322
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24322
+    quantity: 6
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Sensor Scouter—Lornar's Pass
+  achievementCategory: Transfer Chaser
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Blazeridge Steppes
+    notes: Week 5 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Bloodtide Coast
+    notes: Week 4 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dredgehaunt Cliffs
+    notes: Week 6 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Harathi Hinterlands
+    notes: Week 7 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Iron Marches
+    notes: Week 2 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Sparkfly Fen
+    notes: Week 1 Map Bonus Reward
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Timberline Falls
+    notes: Week 3 Map Bonus Reward

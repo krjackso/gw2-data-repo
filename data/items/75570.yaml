@@ -1,0 +1,29 @@
+id: 75570
+name: Simple Ink Set
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/FB3BE6C2E6D84D9CCD94E037B55A780B91E15B55/1201903.png
+description: Created with crystal bottles and pigments.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Simple_Ink_Set
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 70647
+    quantity: 1
+  - itemId: 74982
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0

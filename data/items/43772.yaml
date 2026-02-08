@@ -1,0 +1,38 @@
+id: 43772
+name: Charged Quartz Crystal
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/10ABB44B459640C30CB8BFAEA9DFEAE19C6ECD67/603251.png
+description: Transform 25 Quartz into a Charged Quartz Crystal at a place of power.
+vendorValue: 50
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Quartz_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: achievement
+  achievementName: Labyrinth Runner
+  achievementCategory: Tangled Paths
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Stormcaller Armsmaster
+  achievementCategory: No Quarter
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: other
+  outputQuantity: 1
+  requirements:
+  - itemId: 43773
+    quantity: 25
+  metadata:
+    notes: Transform 25 Quartz at a place of power. Time-gated daily.

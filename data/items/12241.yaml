@@ -1,0 +1,13 @@
+id: 12241
+name: Spinach Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/0E1D68AE260A72F91CCF00239BCA3261B1C5D1A9/63319.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Spinach_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

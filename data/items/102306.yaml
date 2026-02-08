@@ -1,0 +1,1236 @@
+id: 102306
+name: Refined Homestead Fiber
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1866B143DEBFCBBAA31DAFB317544E56070AF174/3375059.png
+description: Obtained by refining basic plant materials at the Homestead Fiber Refiner.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Homestead_Fiber
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 73504
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12547
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 66524
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 66522
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 74090
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12544
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 73096
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 82866
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12510
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12128
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12545
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12507
+    quantity: 14
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12509
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12144
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12255
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12147
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12134
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12246
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12248
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12331
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12163
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12505
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12335
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12342
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12330
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12537
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12532
+    quantity: 16
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12536
+    quantity: 14
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12533
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12538
+    quantity: 16
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12535
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12512
+    quantity: 14
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12135
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 36731
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12511
+    quantity: 14
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12504
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12546
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12506
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 73113
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12508
+    quantity: 14
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12254
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12534
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12334
+    quantity: 6
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12135
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12147
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12134
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12236
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12246
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12248
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12331
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12163
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12234
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12238
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12142
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12255
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12247
+    quantity: 16
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12244
+    quantity: 20
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12243
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12241
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12253
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12161
+    quantity: 60
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12162
+    quantity: 48
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12332
+    quantity: 40
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12341
+    quantity: 32
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 74090
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12336
+    quantity: 20
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12335
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12342
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12330
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12537
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12532
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12536
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12533
+    quantity: 6
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12538
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12535
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12512
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12505
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 36731
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12511
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12504
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12546
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12506
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 73113
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12508
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12534
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12334
+    quantity: 3
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12247
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12244
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12243
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires one Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12241
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12253
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12161
+    quantity: 15
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12162
+    quantity: 12
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12332
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12341
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12333
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12329
+    quantity: 8
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12147
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12336
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12254
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: Limit 100 per week
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12534
+    quantity: 4
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12507
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12512
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 36731
+    quantity: 5
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12511
+    quantity: 7
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 73504
+    quantity: 6
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12144
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12142
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency. 2 for 1'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12545
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency. 2 for 1'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12509
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency. 2 for 1'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 1
+  requirements:
+  - itemId: 12547
+    quantity: 2
+  metadata:
+    limitType: weekly
+    limitAmount: 100
+    notes: 'Requires two Homestead Upgrade: Fiber Trade Efficiency. 2 for 1'
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 662560
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 657200
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 651920
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 646640
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 636240
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 620960
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 626440
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 631240
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: vendor
+  vendorName: Homestead Refinement—Farm
+  outputQuantity: 25
+  requirements:
+  - currencyId: 1
+    quantity: 641120
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+- type: achievement
+  achievementName: Breezy Cay Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Breezy Cay Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Foothold Bivouac Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: achievement
+  achievementName: Foothold Bivouac Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 20
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

@@ -1,0 +1,27 @@
+id: 66929
+name: Mordrem Fragment
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/73D53D91B601FF70CCAFAC910DC7B4EDDBFB9907/1203018.png
+description: Double-click to combine into a higher-tier trophy.
+vendorValue: 84
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mordrem_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 66930
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400

@@ -1,0 +1,13 @@
+id: 12254
+name: Raspberry
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/06BC637CD223F39DAF93B9D6FC6FA474B13F9E20/63331.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Raspberry
+lastUpdated: '2026-02-08'
+acquisitions: []

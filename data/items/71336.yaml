@@ -1,0 +1,25 @@
+id: 71336
+name: Elder Wood Pulp
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/36A32C0BAA1ACACB1FF96FB37E7A1E05DC9A78DD/1201898.png
+description: Refined from planks.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Elder_Wood_Pulp
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 300

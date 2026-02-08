@@ -1,0 +1,68 @@
+id: 24273
+name: Pile of Shimmering Dust
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/33653CA0C67796BE03A22B5AE3197D0564376700/434533.png
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Shimmering_Dust
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 20796
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24272
+    quantity: 250
+  - itemId: 24273
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 1 and Week 3 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 2 and Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 6 and Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 5 and Week 7 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 6 and Week 8 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 2 and Week 4 bonus reward
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: Week 5 and Week 7 bonus reward
+- type: pvp_reward
+  trackName: Jungle Phoenix Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 4, 2nd reward (17th of 40 total)

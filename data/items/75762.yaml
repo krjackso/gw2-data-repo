@@ -1,0 +1,43 @@
+id: 75762
+name: Bag of Mortar
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/D4D43D9FF51498B204D1C83F6DF32A1394303373/63246.png
+description: Used in decoration crafting. Purchased from master scribes.
+vendorValue: 13
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Mortar
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Castaway
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 112
+  metadata: {}
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 104
+  metadata: {}
+- type: vendor
+  vendorName: Cullen
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 1040
+  metadata: {}
+- type: vendor
+  vendorName: Deft Lahar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 112
+  metadata: {}

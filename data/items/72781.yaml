@@ -1,0 +1,27 @@
+id: 72781
+name: Green Wood Pen
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/ABCC39255050035EF67D95053D65AF35E4FB24D2/1201952.png
+description: Crafted from dowels and nibs.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Green_Wood_Pen
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19758
+    quantity: 1
+  - itemId: 71583
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 0

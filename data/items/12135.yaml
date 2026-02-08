@@ -1,0 +1,13 @@
+id: 12135
+name: Potato
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Potato
+lastUpdated: '2026-02-08'
+acquisitions: []

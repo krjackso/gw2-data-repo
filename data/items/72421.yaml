@@ -1,0 +1,16 @@
+id: 72421
+name: Gray Market Black Diamond
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/BF024C256C387321739FF7C8FA26219FB2C75CAF/1204479.png
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gray_Market_Black_Diamond
+lastUpdated: '2026-02-08'
+acquisitions: []

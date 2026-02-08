@@ -1,0 +1,13 @@
+id: 89140
+name: Lucent Mote
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/BEE21BEFAF42E8DF017C7F41D22F551DC4401EA7/2063470.png
+description: Can be refined into piles of lucent crystals.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lucent_Mote
+lastUpdated: '2026-02-08'
+acquisitions: []

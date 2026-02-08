@@ -1,0 +1,26 @@
+id: 69466
+name: Evergreen Fragment
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/CC41136BE677F26E10DAEBEBEFA3BD500AEC5234/1203090.png
+description: Double-click to combine into a higher-tier trophy.
+vendorValue: 84
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Evergreen_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 68952
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Handiworker
+    - Scribe
+    minRating: 1

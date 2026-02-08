@@ -1,0 +1,24 @@
+id: 19680
+name: Copper Ingot
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/32D3BC4B5722155E15DC5A1DE5E9255C50F90609/65909.png
+description: Refined from Ore.
+vendorValue: 2
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Copper_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19697
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    - Scribe
+    minRating: 0

@@ -1,0 +1,140 @@
+id: 95906
+name: Research Kit
+type: Tool
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/F86C0DBF03CCE774807AD37CFF03A993D519CDF0/2699841.png
+description: Double-click to salvage a crafted item for research notes.
+vendorValue: 25
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Research_Kit
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Archaeologist
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Protector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Castaway
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Elder
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Elite Servitor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Guest Elder
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Jade Bot
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Kelssi
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Priory Scholar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Repurposed Jade Servitor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Requisitions Specialist
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Researcher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Xunlai Jade Sales Associate
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 200
+  metadata: {}
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: One free by mail per character upon first acquiring a Jade Bot Power Core

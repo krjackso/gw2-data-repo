@@ -1,0 +1,27 @@
+id: 71148
+name: Sheet of Premium Paper
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/E72B275B450CE0E3084AE2969BD3680BB05A2308/1201919.png
+description: Crafted from wood pulp and cloth. Used to make scrolls and books.
+vendorValue: 16
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Premium_Paper
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 1
+  - itemId: 19746
+    quantity: 1
+  - itemId: 74681
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 400

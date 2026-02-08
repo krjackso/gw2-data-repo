@@ -1,0 +1,41 @@
+id: 19711
+name: Hard Wood Plank
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/4DFCF8776C05F6D304B5BAB25F5715C57CB19FD6/220463.png
+description: Refined from Logs.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Hard_Wood_Plank
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19724
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 225
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19711
+    quantity: 1
+  - itemId: 19714
+    quantity: 250
+  - itemId: 20796
+    quantity: 6
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

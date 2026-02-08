@@ -1,0 +1,13 @@
+id: 12244
+name: Oregano Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/DB0BBE38079CE5D72C427EE462C0E480E3E9F2C4/63322.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Oregano_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

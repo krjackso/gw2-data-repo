@@ -1,0 +1,14 @@
+id: 77256
+name: Milling Stone
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/657F0902F3331F960A6DB93B06419714504D3DAC/1201834.png
+description: Used to process flax seeds into linseed oil and cassava root into cassava
+  flour.
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Milling_Stone
+lastUpdated: '2026-02-08'
+acquisitions: []

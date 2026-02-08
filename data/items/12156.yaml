@@ -1,0 +1,41 @@
+id: 12156
+name: Jug of Water
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/C23FA1EA0827E97312D6064F4A08B402FE9943B9/63071.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Jug_of_Water
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Master Artificer
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Master Chef
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Master Huntsman
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Master Scribe
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 8
+  metadata: {}

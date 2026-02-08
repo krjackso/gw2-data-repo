@@ -1,0 +1,13 @@
+id: 12246
+name: Parsley Leaf
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/99FCC3355228E746D03250E915A16699B22E2847/219412.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Parsley_Leaf
+lastUpdated: '2026-02-08'
+acquisitions: []

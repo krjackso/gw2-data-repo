@@ -1,0 +1,41 @@
+id: 19740
+name: Bolt of Wool
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E9BB423BDD0D54E33B020DAFFAFBE6F75A62F003/63545.png
+description: Refined from Scraps.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Wool
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19739
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Scribe
+    - Tailor
+    minRating: 75
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19720
+    quantity: 250
+  - itemId: 19740
+    quantity: 1
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24273
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

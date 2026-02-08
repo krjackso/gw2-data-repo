@@ -1,0 +1,130 @@
+id: 19748
+name: Silk Scrap
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/021DA825F2092327B1C6BC09EC77BD5DE5B4770D/65961.png
+description: Refine into Bolts.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Silk_Scrap
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19743
+    quantity: 250
+  - itemId: 19748
+    quantity: 1
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24276
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 21665
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21666
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21674
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 21675
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 22329
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 22330
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 79138
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 83008
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 84731
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 85016
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Week 2
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Week 1 and Week 8
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Week 3
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Week 6
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Week 4
+- type: map_reward
+  outputQuantity: 10
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Week 7

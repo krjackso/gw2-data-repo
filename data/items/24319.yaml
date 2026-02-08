@@ -1,0 +1,99 @@
+id: 24319
+name: Glacial Core
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/7C5BF3B99647E2AB0E0F6C18B60CD5743D21BADC/66970.png
+vendorValue: 42
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Glacial_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24318
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 2
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24276
+    quantity: 1
+  - itemId: 24318
+    quantity: 4
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: salvage
+  itemId: 41736
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: salvage
+  itemId: 41737
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    guaranteed: true
+- type: map_reward
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Cursed Shore
+    notes: Map Bonus Reward - Week 7
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Fireheart Rise
+    notes: Map Bonus Reward - Week 4
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Frostgorge Sound
+    notes: Map Bonus Reward - Week 1
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Malchor's Leap
+    notes: Map Bonus Reward - Week 8
+- type: map_reward
+  outputQuantity: 7
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Mount Maelstrom
+    notes: Map Bonus Reward - Week 3
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Southsun Cove
+    notes: Map Bonus Reward - Week 6
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Straits of Devastation
+    notes: Map Bonus Reward - Week 2

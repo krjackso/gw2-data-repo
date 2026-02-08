@@ -1,0 +1,45 @@
+id: 24281
+name: Full Venom Sac
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/FE3D2BD0B88077ACE7E808504A3ACB0C4EDAD8D5/66937.png
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Full_Venom_Sac
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 3
+  - itemId: 24275
+    quantity: 5
+  - itemId: 24280
+    quantity: 50
+  - itemId: 24281
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 1 - Bloodtide Coast (27 total), Week 2 - Timberline Falls (20 total),
+      Week 3 - Iron Marches (17 total), Week 4 - Sparkfly Fen (20 total), Week 6 -
+      Harathi Hinterlands (22 total), Week 7 - Dredgehaunt Cliffs (24 total), Week
+      8 - Blazeridge Steppes (13 total)
+- type: pvp_reward
+  trackName: Jungle Dolyak Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Rabbit Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

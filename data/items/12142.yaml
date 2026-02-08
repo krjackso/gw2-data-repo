@@ -1,0 +1,13 @@
+id: 12142
+name: Onion
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/62FEA707A3547EA74113C29A110B40B23501B75C/63115.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Onion
+lastUpdated: '2026-02-08'
+acquisitions: []

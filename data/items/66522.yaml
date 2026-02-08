@@ -1,0 +1,13 @@
+id: 66522
+name: Prickly Pear
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/9945600A5C50FE2F41B72DCEB5EF0CF051500764/831438.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Prickly_Pear
+lastUpdated: '2026-02-08'
+acquisitions: []

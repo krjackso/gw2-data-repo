@@ -1,0 +1,41 @@
+id: 19714
+name: Seasoned Wood Plank
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png
+description: Refined from Logs.
+vendorValue: 4
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Seasoned_Wood_Plank
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19727
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 150
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 190
+  requirements:
+  - itemId: 19713
+    quantity: 250
+  - itemId: 19714
+    quantity: 1
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

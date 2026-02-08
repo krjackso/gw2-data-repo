@@ -1,0 +1,13 @@
+id: 12511
+name: Butternut Squash
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/D46839D1040447D5E417D848A10DC2B7D8A73493/219471.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Butternut_Squash
+lastUpdated: '2026-02-08'
+acquisitions: []

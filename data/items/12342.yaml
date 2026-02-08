@@ -1,0 +1,13 @@
+id: 12342
+name: Sesame Seed
+type: CraftingMaterial
+rarity: Basic
+level: 35
+icon: https://render.guildwars2.com/file/CECF11E8402B34C6C1430FEB367CE0E22301457A/219433.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sesame_Seed
+lastUpdated: '2026-02-08'
+acquisitions: []

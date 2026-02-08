@@ -1,0 +1,13 @@
+id: 12147
+name: Mushroom
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/2713C5787FCB403F25A4F7144D2B1E52291E3178/219399.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mushroom
+lastUpdated: '2026-02-08'
+acquisitions: []

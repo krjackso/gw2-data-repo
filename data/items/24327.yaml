@@ -1,0 +1,73 @@
+id: 24327
+name: Crystal Fragment
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/43D43127072CF33D58B25E2FCC940435EB3D4548/66978.png
+vendorValue: 21
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Fragment
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24326
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 4
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24326
+    quantity: 8
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 3 - 3 total
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    notes: Week 2 - 6 total
+- type: map_reward
+  outputQuantity: 6
+  requirements: []
+  metadata:
+    notes: Week 4 - 6 total (currently active)
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 5 - 3 total
+- type: map_reward
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Week 8 - 4 total
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Week 7 - 5 total
+- type: map_reward
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: Week 1 - 3 total

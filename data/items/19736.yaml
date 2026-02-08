@@ -1,0 +1,44 @@
+id: 19736
+name: Cured Rugged Leather Square
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3158B2B14EC72A93D05F07AD3FAF0EB9BC7E3E0C/65953.png
+description: Refined from Sections.
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Cured_Rugged_Leather_Square
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19731
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Weaponsmith
+    minRating: 225
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 193
+  requirements:
+  - itemId: 19734
+    quantity: 250
+  - itemId: 19736
+    quantity: 1
+  - itemId: 20796
+    quantity: 6
+  - itemId: 24274
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

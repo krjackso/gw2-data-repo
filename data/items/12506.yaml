@@ -1,0 +1,13 @@
+id: 12506
+name: Tarragon Leaves
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/471BB29A5EEA3F96ECC5C9B4282C42407D10B106/219468.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Tarragon_Leaves
+lastUpdated: '2026-02-08'
+acquisitions: []

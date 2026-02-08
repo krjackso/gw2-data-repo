@@ -1,0 +1,13 @@
+id: 12234
+name: Vanilla Bean
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0B2624A031FBF37DECBA167B5C057EDFC76FA3DD/63148.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vanilla_Bean
+lastUpdated: '2026-02-08'
+acquisitions: []

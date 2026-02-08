@@ -1,0 +1,13 @@
+id: 12334
+name: Portobello Mushroom
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/47F90A54375129EADD7FA1279BF391B99B4A6A56/63371.png
+description: Ingredient
+vendorValue: 5
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Portobello_Mushroom
+lastUpdated: '2026-02-08'
+acquisitions: []

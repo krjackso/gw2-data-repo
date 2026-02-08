@@ -1,0 +1,13 @@
+id: 12537
+name: Blackberry
+type: CraftingMaterial
+rarity: Basic
+level: 45
+icon: https://render.guildwars2.com/file/EB324BCF05D270CAFE77C132BA97E2FA2DEF4B0E/219485.png
+description: Ingredient
+vendorValue: 6
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Blackberry
+lastUpdated: '2026-02-08'
+acquisitions: []

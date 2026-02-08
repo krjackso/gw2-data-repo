@@ -1,0 +1,41 @@
+id: 19713
+name: Soft Wood Plank
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/5903B1BDD6DB016204B11ADFF1CCFE22265CF566/65937.png
+description: Refined from Logs.
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Soft_Wood_Plank
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19726
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 75
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 193
+  requirements:
+  - itemId: 19710
+    quantity: 250
+  - itemId: 19713
+    quantity: 1
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24273
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

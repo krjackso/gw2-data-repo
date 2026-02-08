@@ -1,0 +1,49 @@
+id: 46742
+name: Lump of Mithrillium
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/BAF140ED460135E04101146CC8CE9EFB5698F077/631490.png
+description: Used in the refinement of deldrimor steel.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lump_of_Mithrillium
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 450

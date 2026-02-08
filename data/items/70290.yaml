@@ -1,0 +1,20 @@
+id: 70290
+name: Mordrem Bloom
+type: Gizmo
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/F011DDB9A359CD2CBA523A00E0F3445A0ECAE83F/1058330.png
+description: 'Can be traded with Mordrem researchers across Tyria for valuable items.
+
+
+  Double-click to locate a nearby Mordrem researcher.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mordrem_Bloom
+lastUpdated: '2026-02-08'
+acquisitions: []

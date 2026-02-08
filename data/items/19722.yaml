@@ -1,0 +1,28 @@
+id: 19722
+name: Elder Wood Log
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/205871B734054D0206986FB44D6DC5425E572B0B/220465.png
+description: Refine into Planks.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elder_Wood_Log
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 40
+  outputQuantityMin: 40
+  outputQuantityMax: 200
+  requirements:
+  - itemId: 19722
+    quantity: 1
+  - itemId: 19724
+    quantity: 250
+  - itemId: 20796
+    quantity: 4
+  - itemId: 24276
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

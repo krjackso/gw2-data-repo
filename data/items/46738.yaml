@@ -1,0 +1,47 @@
+id: 46738
+name: Deldrimor Steel Ingot
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/94DCAE59215C0096449906A81F202B0201FBA85B/631486.png
+description: Refined from iron, steel, darksteel, and mithrillium.
+vendorValue: 80
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Ingot
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19681
+    quantity: 20
+  - itemId: 19683
+    quantity: 20
+  - itemId: 19688
+    quantity: 10
+  - itemId: 46742
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 450
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19681
+    quantity: 20
+  - itemId: 19683
+    quantity: 20
+  - itemId: 19688
+    quantity: 10
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46742
+    quantity: 1
+  metadata: {}

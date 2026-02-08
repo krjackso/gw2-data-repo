@@ -1,0 +1,13 @@
+id: 12507
+name: Parsnip
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/243B97AD9B5B521EA32E55113E60D9386406082A/63383.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Parsnip
+lastUpdated: '2026-02-08'
+acquisitions: []

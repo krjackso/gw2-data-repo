@@ -1,0 +1,13 @@
+id: 12163
+name: Head of Garlic
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/3FF6110C2B976FBCCD4F4DC6B19D33ED010431AA/63263.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Head_of_Garlic
+lastUpdated: '2026-02-08'
+acquisitions: []

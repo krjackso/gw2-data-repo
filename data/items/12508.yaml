@@ -1,0 +1,13 @@
+id: 12508
+name: Leek
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/3DA4DD5CC90EA1DEE3427562BF4DA344D776345C/219469.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Leek
+lastUpdated: '2026-02-08'
+acquisitions: []

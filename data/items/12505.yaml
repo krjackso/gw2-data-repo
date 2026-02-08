@@ -1,0 +1,13 @@
+id: 12505
+name: Asparagus Spear
+type: CraftingMaterial
+rarity: Basic
+level: 65
+icon: https://render.guildwars2.com/file/693F7207FB74B962DE327E355C18D680E0357965/219467.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Asparagus_Spear
+lastUpdated: '2026-02-08'
+acquisitions: []

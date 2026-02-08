@@ -1,0 +1,13 @@
+id: 12236
+name: Black Peppercorn
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/54BB5F03AFE3FA75E59F432418A6C7BE9F07EC6A/63315.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Black_Peppercorn
+lastUpdated: '2026-02-08'
+acquisitions: []

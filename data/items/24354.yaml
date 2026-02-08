@@ -1,0 +1,68 @@
+id: 24354
+name: Fang
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/112DF0DE564C9C061FE8DDB198EA953ED527E9D6/66809.png
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Fang
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 40
+  requirements:
+  - itemId: 20796
+    quantity: 2
+  - itemId: 24274
+    quantity: 5
+  - itemId: 24353
+    quantity: 50
+  - itemId: 24354
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 3 - 20 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 4 - 13 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 2 - 18 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 1 - 17 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 6 - 22 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 7 - 23 total
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Week 5 - 21 total
+- type: pvp_reward
+  trackName: Jungle Wolf Rank Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    notes: Tier 6, 2nd reward, 27th of 40

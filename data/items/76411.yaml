@@ -1,0 +1,25 @@
+id: 76411
+name: Seasoned Wood Pulp
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/F253BBF26B9D03A77753EA3E0AB4CDFAA1C81420/1201947.png
+description: Refined from planks.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Seasoned_Wood_Pulp
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19714
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Scribe
+    minRating: 150

@@ -1,0 +1,13 @@
+id: 12509
+name: Seaweed
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/35C6906CCA6A0541383D5AE31E656456DC3418E5/63385.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Seaweed
+lastUpdated: '2026-02-08'
+acquisitions: []
