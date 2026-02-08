@@ -32,8 +32,10 @@ ACQUISITION_TYPE_ORDER = [
 # Secondary sort keys per type (ordered list of dot-notation field paths)
 # Uses dot notation: "metadata.minRating" for nested fields
 # Array indices use brackets: "metadata.disciplines[0]" for first element
-# All sorting is ascending; boolean fields (guaranteed, seasonal) are negated
+# All sorting is ascending; boolean fields (guaranteed) are negated
 # in _get_sort_key() to achieve True-first sorting (since False < True in Python)
+# Numeric fields (minRating, limitAmount, estimatedHours) use infinity for missing
+# values to sort them last
 ACQUISITION_SORT_FIELDS = {
     "crafting": [
         "metadata.minRating",
@@ -66,7 +68,7 @@ ACQUISITION_SORT_FIELDS = {
         "trackName",
     ],
     "wizards_vault": [
-        "metadata.seasonal",
+        "metadata.limitAmount",
     ],
     "story": [
         "metadata.expansion",
@@ -156,9 +158,12 @@ def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int]:
         value = _extract_field_value(acq, field_path)
 
         if value is None:
-            value = ""
+            if field_path in ["metadata.minRating", "metadata.limitAmount", "metadata.estimatedHours"]:
+                value = float("inf")
+            else:
+                value = ""
 
-        if field_path in ["metadata.guaranteed", "metadata.seasonal"] and isinstance(value, bool):
+        if field_path == "metadata.guaranteed" and isinstance(value, bool):
             value = not value
 
         secondary_values.append(value)

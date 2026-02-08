@@ -127,7 +127,7 @@ class MapRewardMetadata(BaseModel):
 
 
 class WizardsVaultMetadata(BaseModel):
-    seasonal: bool = False
+    limit_amount: int | None = Field(default=None, alias="limitAmount")
 
 
 class StoryMetadata(BaseModel):

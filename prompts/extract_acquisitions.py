@@ -148,9 +148,23 @@ metadata: {
 }
 
 ### wizards_vault
-Wizard's Vault seasonal/weekly shop.
+Wizard's Vault shop. Purchased with Astral Acclaim currency.
 requirements: currency cost as {requirementName: "Astral Acclaim", quantity: <int>}
-metadata: { "seasonal": true | false }
+metadata: {
+  "limitAmount": <int> (omit if no limit)
+}
+IMPORTANT: Wiki vendor tables show limits like "Limit 20 per season". \
+Always extract the number into limitAmount. Omit if no limit is stated.
+
+Example:
+{
+  "type": "wizards_vault",
+  "outputQuantity": 1,
+  "requirements": [
+    {"requirementName": "Astral Acclaim", "quantity": 60}
+  ],
+  "metadata": {"limitAmount": 20}
+}
 
 ### story
 Story chapter completion reward.
@@ -179,7 +193,8 @@ Rate overallConfidence based on how well you understood the page:
 
 ## Rules
 
-1. Only extract acquisition methods explicitly described on the wiki page.
+1. Only extract acquisition methods explicitly described on the wiki page. Do NOT invent or \
+infer methods that aren't present.
 2. Use exact item and currency names as they appear on the wiki (in requirementName field).
 3. If an item is sold by multiple vendors, create a SEPARATE acquisition for each vendor.
 4. For recipes with random/RNG output, add "rng": true to metadata.
@@ -187,20 +202,15 @@ Rate overallConfidence based on how well you understood the page:
 6. Gold costs should use requirementName "Coin" with quantity in copper (1 gold = 10000 copper, \
 1 silver = 100 copper).
 7. If no acquisition info is found, return {"acquisitions": [], "overallConfidence": 1.0}.
-8. Do NOT invent acquisition methods that aren't on the page.
-9. Do NOT include generic loot sources where this item is one of many possible random drops. \
-Only include containers where the item is a guaranteed or specifically listed reward. Skip \
-generic containers like "Unidentified Gear", "Chest of Exotic Equipment", world drop bags, \
-or any container that yields a random item from a large pool.
-10. Do NOT include generic Mystic Forge recipes like "combine 4 rare/exotic items" — only \
-include Mystic Forge recipes with specific named ingredients.
-11. Focus on DETERMINISTIC acquisition methods — crafting recipes, specific vendors, specific \
-achievement rewards, specific named containers that guarantee this item. If a confidence \
-would be below 0.8, reconsider whether it is specific enough to include.
-12. Do NOT include acquisition methods that were available in the past but are no longer \
+8. Focus on DETERMINISTIC acquisition methods with specific named sources. Skip generic loot \
+sources where this item is one of many possible random drops, generic containers like \
+"Unidentified Gear" or "Chest of Exotic Equipment", and generic Mystic Forge recipes like \
+"combine 4 rare/exotic items". If a confidence would be below 0.8, reconsider whether it \
+is specific enough to include.
+9. Do NOT include acquisition methods that were available in the past but are no longer \
 obtainable (e.g. removed items, discontinued events, retired reward tracks, historical \
 promotions). Only extract currently active and available acquisition methods.
-13. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
+10. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
 but different rarities (e.g., Legendary vs Ascended vs Exotic). Each acquisition method on the \
 wiki will indicate which variant it applies to through:
    - Section headers: "Legendary variant", "Ascended version"
@@ -220,7 +230,7 @@ Examples:
 - Rarity is "Legendary", Mystic Forge recipe shows no rarity qualifier → INCLUDE (likely upgrades Ascended to Legendary)
 - Rarity is "Ascended", vendor table row shows <span class="rarity-ascended">Ascended</span> → INCLUDE (exact match)
 
-14. RARITY QUALIFIERS IN REQUIREMENTS: When an ingredient appears in multiple rarities on the wiki, \
+11. RARITY QUALIFIERS IN REQUIREMENTS: When an ingredient appears in multiple rarities on the wiki, \
 append the rarity as a qualifier in parentheses to disambiguate. This applies to ALL requirement types.
 
 Examples:
@@ -233,7 +243,7 @@ When to add rarity qualifiers:
 - If the recipe/vendor table explicitly shows rarity (HTML span tags, rarity column), include it
 - If only one rarity exists for that item, DO NOT add a qualifier (keep the name clean)
 
-15. VENDOR NOTES: ALWAYS extract special conditions from vendor table rows into metadata.notes. \
+12. VENDOR NOTES: ALWAYS extract special conditions from vendor table rows into metadata.notes. \
 Look for these in table cells (<td> tags) adjacent to the vendor cost information:
 - "Requires the skin <item name>" → Extract as notes: "Requires the skin <item name>"
 - "Available after completing <achievement>" → Extract as notes: "Available after completing <achievement>"
@@ -243,7 +253,7 @@ Look for these in table cells (<td> tags) adjacent to the vendor cost informatio
 If a vendor row has these conditions, the "notes" field in metadata is REQUIRED (not optional). \
 Keep the text verbatim from the wiki. If no special conditions exist, omit the notes field entirely.
 
-16. Do NOT include "Gathered from" or gathering/harvesting sources. Wiki pages often list \
+13. Do NOT include "Gathered from" or gathering/harvesting sources. Wiki pages often list \
 gathering nodes, resource nodes, or map-specific interactable objects (e.g., "Glorious Chest \
 (Super Adventure Box)") in a "Gathered from" section. These are NOT items in the GW2 API — \
 they are world objects — and cannot be tracked as requirements. Skip the entire "Gathered from" \

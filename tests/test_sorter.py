@@ -113,6 +113,34 @@ class TestSortByMetadata:
         assert result[1]["metadata"]["minRating"] == 450
         assert result[2]["metadata"]["minRating"] == 500
 
+    def test_sort_crafting_by_min_rating_with_missing(self):
+        acquisitions = [
+            {
+                "type": "crafting",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"minRating": 400},
+            },
+            {
+                "type": "crafting",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {},
+            },
+            {
+                "type": "crafting",
+                "outputQuantity": 1,
+                "requirements": [],
+                "metadata": {"minRating": 500},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["metadata"].get("minRating") == 400
+        assert result[1]["metadata"].get("minRating") == 500
+        assert result[2]["metadata"].get("minRating") is None
+
     def test_sort_crafting_by_discipline(self):
         acquisitions = [
             {
@@ -217,6 +245,34 @@ class TestSortByMetadata:
 
         assert result[0]["achievementName"] == "Alpha Achievement"
         assert result[1]["achievementName"] == "Zeta Achievement"
+
+    def test_sort_wizards_vault_by_limit_amount(self):
+        acquisitions = [
+            {
+                "type": "wizards_vault",
+                "outputQuantity": 1,
+                "requirements": [{"currencyId": 63, "quantity": 60}],
+                "metadata": {},
+            },
+            {
+                "type": "wizards_vault",
+                "outputQuantity": 1,
+                "requirements": [{"currencyId": 63, "quantity": 100}],
+                "metadata": {"limitAmount": 5},
+            },
+            {
+                "type": "wizards_vault",
+                "outputQuantity": 1,
+                "requirements": [{"currencyId": 63, "quantity": 80}],
+                "metadata": {"limitAmount": 20},
+            },
+        ]
+
+        result = sorter.sort_acquisitions(acquisitions)
+
+        assert result[0]["metadata"].get("limitAmount") == 5
+        assert result[1]["metadata"].get("limitAmount") == 20
+        assert result[2]["metadata"].get("limitAmount") is None
 
 
 class TestSortByOutputQuantity:
