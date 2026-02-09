@@ -59,6 +59,8 @@ def _classify_entry(
     quantity_max = entry.get("quantityMax")
     ingredients = entry.get("ingredients", [])
     metadata = entry.get("metadata", {})
+    guaranteed = entry.get("guaranteed")
+    choice = entry.get("choice")
 
     if wiki_section == "recipe":
         if wiki_subsection == "mystic_forge":
@@ -105,7 +107,6 @@ def _classify_entry(
 
     if wiki_section == "gathered_from":
         cleaned_name = api.clean_name(name)
-        filtered_metadata = {k: v for k, v in metadata.items() if k not in ("guaranteed", "choice")}
 
         if cleaned_name in gathering_node_index:
             acq_type = "resource_node"
@@ -114,7 +115,7 @@ def _classify_entry(
                 "nodeName": name,
                 "outputQuantity": quantity,
                 "requirements": [],
-                "metadata": filtered_metadata,
+                "metadata": metadata,
             }
         else:
             acq_type = "container"
@@ -123,7 +124,7 @@ def _classify_entry(
                 "containerName": name,
                 "outputQuantity": quantity,
                 "requirements": [],
-                "metadata": filtered_metadata,
+                "metadata": metadata,
             }
             try:
                 item_id = api.resolve_item_name_to_id(name, item_name_index)
@@ -131,10 +132,10 @@ def _classify_entry(
             except (APIError, KeyError) as e:
                 log.info(f"Container '{name}' has no item ID: {e}")
 
-        if metadata.get("guaranteed") is not None:
-            acq["guaranteed"] = metadata["guaranteed"]
-        if metadata.get("choice") is not None:
-            acq["choice"] = metadata["choice"]
+        if guaranteed is not None:
+            acq["guaranteed"] = guaranteed
+        if choice is not None:
+            acq["choice"] = choice
 
         if acq.get("guaranteed") is False and acq.get("choice") is False:
             log.info(f"Excluding chance-based {acq_type} from gathered_from: {name}")
@@ -157,16 +158,16 @@ def _classify_entry(
             "containerName": name,
             "outputQuantity": quantity,
             "requirements": [],
-            "metadata": {k: v for k, v in metadata.items() if k not in ("guaranteed", "choice")},
+            "metadata": metadata,
         }
 
         if wiki_subsection == "guaranteed":
             acq["guaranteed"] = True
         elif wiki_subsection == "inline":
-            if metadata.get("guaranteed") is not None:
-                acq["guaranteed"] = metadata["guaranteed"]
-            if metadata.get("choice") is not None:
-                acq["choice"] = metadata["choice"]
+            if guaranteed is not None:
+                acq["guaranteed"] = guaranteed
+            if choice is not None:
+                acq["choice"] = choice
 
             if acq.get("guaranteed") is False and acq.get("choice") is False:
                 log.info(f"Excluding chance-based container from contained_in: {name}")
@@ -186,7 +187,7 @@ def _classify_entry(
         return acq
 
     if wiki_section == "salvaged_from":
-        if not metadata.get("guaranteed"):
+        if not guaranteed:
             log.info(f"Excluding chance-based salvage: {name}")
             return None
 
@@ -208,11 +209,11 @@ def _classify_entry(
             "itemIds": matches,
             "outputQuantity": quantity,
             "requirements": [],
-            "metadata": {k: v for k, v in metadata.items() if k not in ("guaranteed", "choice")},
+            "metadata": metadata,
         }
 
-        if metadata.get("guaranteed") is not None:
-            acq["guaranteed"] = metadata["guaranteed"]
+        if guaranteed is not None:
+            acq["guaranteed"] = guaranteed
 
         return acq
 

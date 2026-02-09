@@ -223,7 +223,8 @@ class TestClassifyAndResolveGatheredFrom:
                 "quantityMin": 1,
                 "quantityMax": 3,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 0.9,
             }
         ]
@@ -249,7 +250,8 @@ class TestClassifyAndResolveGatheredFrom:
                 "wikiSection": "gathered_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 0.9,
             }
         ]
@@ -273,7 +275,8 @@ class TestClassifyAndResolveGatheredFrom:
                 "wikiSection": "gathered_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 0.9,
             }
         ]
@@ -296,7 +299,9 @@ class TestClassifyAndResolveGatheredFrom:
                 "wikiSection": "gathered_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": False, "choice": False},
+                "guaranteed": False,
+                "choice": False,
+                "metadata": {},
                 "confidence": 0.9,
             }
         ]
@@ -366,7 +371,8 @@ class TestClassifyAndResolveContainedIn:
                 "wikiSubsection": "inline",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"choice": True},
+                "choice": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -392,7 +398,9 @@ class TestClassifyAndResolveContainedIn:
                 "wikiSubsection": "inline",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": False, "choice": False},
+                "guaranteed": False,
+                "choice": False,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -413,7 +421,8 @@ class TestClassifyAndResolveContainedIn:
                 "wikiSubsection": "inline",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -437,7 +446,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -460,7 +470,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": False},
+                "guaranteed": False,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -500,7 +511,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -521,7 +533,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -545,7 +558,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -566,7 +580,8 @@ class TestClassifyAndResolveSalvage:
                 "wikiSection": "salvaged_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 1.0,
             }
         ]
@@ -948,7 +963,8 @@ class TestClassifyAndResolveMultipleEntries:
                 "wikiSection": "gathered_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 0.9,
             },
             {
@@ -956,7 +972,8 @@ class TestClassifyAndResolveMultipleEntries:
                 "wikiSection": "gathered_from",
                 "quantity": 1,
                 "ingredients": [],
-                "metadata": {"guaranteed": True},
+                "guaranteed": True,
+                "metadata": {},
                 "confidence": 0.9,
             },
         ]

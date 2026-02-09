@@ -248,7 +248,9 @@ Legendary Gift Starter Kit</a> <small>(<b>choice</b>)</small></li>
 For entries found in "Salvaged from" sections.
 - name: the source item name
 - No ingredients field
-- guaranteed: true|false (top-level, not in metadata) — same inline `<small>` pattern as gathered_from
+- guaranteed: true|false (top-level field, not in metadata)
+
+**How guaranteed/chance is indicated:** Look for `<small>(guaranteed)</small>` or `<small>(chance)</small>` inline after each entry name. If no tag is present, assume guaranteed=true.
 
 Only include entries where guaranteed=true.
 
