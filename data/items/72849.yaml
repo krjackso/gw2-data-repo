@@ -1,0 +1,33 @@
+id: 72849
+name: Pruning Shears
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A29C47FDD631969A245ABC07990154472946DD74/1205236.png
+description: Use to craft Leaf of Kudzu.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pruning_Shears
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19735
+    quantity: 50
+  - itemId: 46736
+    quantity: 1
+  - itemId: 46738
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

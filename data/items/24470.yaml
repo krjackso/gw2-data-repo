@@ -1,0 +1,27 @@
+id: 24470
+name: Lapis Nugget
+type: UpgradeComponent
+rarity: Fine
+level: 20
+icon: https://render.guildwars2.com/file/98345E1004EBC610B76092D27DFFC673F539BD4F/220913.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 24
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lapis_Nugget
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24272
+    quantity: 1
+  - itemId: 24465
+    quantity: 1
+  - itemId: 24466
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 50

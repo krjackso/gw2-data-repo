@@ -1,0 +1,33 @@
+id: 71890
+name: Shield of Legend
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/747593720753BCB40F1E68B8A9103F5157E97D9E/1204863.png
+description: Used to craft The Flameseeker Prophecies.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shield_of_Legend
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19685
+    quantity: 50
+  - itemId: 19735
+    quantity: 50
+  - itemId: 46738
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

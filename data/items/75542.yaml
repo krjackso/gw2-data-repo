@@ -1,0 +1,25 @@
+id: 75542
+name: Tar Elemental Core
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6CCEBF282CF97230CCEB046FEFA94405752711B7/1205575.png
+description: Looted from a fallen tar elemental.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tar_Elemental_Core
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Tar Elemental
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: 'Only if the Rodgort III: Rodgort''s Flame collection is active'

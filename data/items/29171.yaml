@@ -1,0 +1,56 @@
+id: 29171
+name: Carcharias
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/51FF0303B8A85468B60BD2D431550CDE0A59B206/1202902.png
+description: '<c=@flavor>This weapon is used to craft the legendary spear Kamohoali''i
+  Kotaki.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Kamohoali''i Kotaki
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Carcharias
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 74650
+    quantity: 1
+  - itemId: 74804
+    quantity: 1
+  - itemId: 75841
+    quantity: 1
+  - itemId: 76157
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 96764
+  containerName: 'Starter Kit: Kamohoali''i Kotaki'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

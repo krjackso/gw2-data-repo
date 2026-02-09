@@ -1,0 +1,33 @@
+id: 76120
+name: Tome of Heroes
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/5C90415C0CB71401D7C06B2C79C3622C02289597/1204886.png
+description: Used to craft The Flameseeker Prophecies.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tome_of_Heroes
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24277
+    quantity: 10
+  - itemId: 46739
+    quantity: 1
+  - itemId: 69953
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

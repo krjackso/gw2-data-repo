@@ -1,0 +1,55 @@
+id: 29182
+name: Rodgort's Flame
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/9640FF61723ECC0367B5CC041AC8C50F05C0EC64/1206986.png
+description: '<c=@flavor>This weapon is used to craft the legendary torch Rodgort.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Rodgort
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Rodgort's_Flame
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 70742
+    quantity: 1
+  - itemId: 72551
+    quantity: 1
+  - itemId: 74939
+    quantity: 1
+  - itemId: 75991
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 93366
+  containerName: 'Starter Kit: Rodgort'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

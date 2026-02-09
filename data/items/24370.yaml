@@ -1,0 +1,12 @@
+id: 24370
+name: Giant Eye
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/B8D60EA8046FB60D1EEF4058D6A8FEBCAE802964/223785.png
+vendorValue: 48
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Giant_Eye
+lastUpdated: '2026-02-09'
+acquisitions: []

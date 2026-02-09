@@ -1,0 +1,20 @@
+id: 19790
+name: Spool of Gossamer Thread
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B7CFD70F53A845E4ED1212040C18C123FC172910/65959.png
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Spool_of_Gossamer_Thread
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Master Craftsman
+  outputQuantity: 10
+  requirements:
+  - currencyId: 1
+    quantity: 640
+  metadata:
+    notes: Discipline-appropriate master craftsmen

@@ -1,0 +1,85 @@
+id: 24512
+name: Chrysocola Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/DD7DB26B7BDCED3E15CB971D0016299F38490D58/220951.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Orb
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24511
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 350
+- type: salvage
+  itemId: 36552
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36553
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36558
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36559
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36561
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36562
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36582
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36583
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36676
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 36679
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

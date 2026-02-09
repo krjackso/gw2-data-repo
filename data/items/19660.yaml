@@ -1,0 +1,47 @@
+id: 19660
+name: Gift of The Dreamer
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/5190BC2AC64FE8C2FF92C5F9606C3E0302CBB873/455840.png
+description: 'A gift used to create the legendary short bow The Dreamer.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Unicorn Statue
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Purity'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Dreamer
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19628
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24571
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97238
+  containerName: 'Starter Kit: The Dreamer'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

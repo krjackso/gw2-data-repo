@@ -1,0 +1,30 @@
+id: 24571
+name: Superior Sigil of Purity
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/C3E907DE24CF72CE490639710F46CDCD917D5B06/220745.png
+description: '<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Purity
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24512
+    quantity: 5
+  - itemId: 89098
+    quantity: 1
+  - itemId: 89271
+    quantity: 15
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 400

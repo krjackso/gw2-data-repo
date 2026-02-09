@@ -1,0 +1,73 @@
+id: 106532
+name: Skirmish Chest
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1878EFD0E96164B9E6CCB765E9C4453204139744/1701123.png
+description: Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Skirmish_Chest
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Badge of Honor
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81406
+  containerName: Canned Food Crate
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81395
+  containerName: Improvement and Tactic Pack
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Siege Blueprint Case
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Testimony of Castoran Heroics
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Transmutation Charge
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81404
+  containerName: Tricks and Traps Capsule
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 20323
+  containerName: Unidentified Dye
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81430
+  containerName: WvW Siege Decoration Case
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Skirmish reward track
+  outputQuantity: 3
+  requirements: []
+  metadata:
+    notes: 2 chests at each completion of a non-repeatable major tier; 1 chest at
+      each completion of a minor tier or of a repeatable major tier

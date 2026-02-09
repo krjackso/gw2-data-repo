@@ -1,0 +1,36 @@
+id: 19628
+name: Unicorn Statue
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C3A8D8D8E2DDD1E2C071BBC7BF322CDDD572C570/455809.png
+description: 'A unicorn statue used to create The Dreamer.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a jeweler
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Unicorn_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19667
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 24512
+    quantity: 100
+  - itemId: 24522
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400

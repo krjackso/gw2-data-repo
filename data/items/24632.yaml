@@ -1,0 +1,127 @@
+id: 24632
+name: Superior Sigil of Venom
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/080B4F940A05E60A084AA4B1D230F923A1A47CEC/220664.png
+description: '<c=@abilitytype>Element: </c>Enhancement<br>Double-click to apply to
+  a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Venom
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24515
+    quantity: 5
+  - itemId: 89141
+    quantity: 1
+  - itemId: 89271
+    quantity: 15
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 400
+- type: salvage
+  itemId: 25969
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26406
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26599
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26698
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27329
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27481
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27797
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27798
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 28029
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 28576
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30701
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30762
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30764
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31048
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 91095
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95078
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

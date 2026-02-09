@@ -1,0 +1,30 @@
+id: 24592
+name: Superior Sigil of Stamina
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/970DD319EC0E7455E941CD5DA840C10EA6EF160E/220669.png
+description: '<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Stamina
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24351
+    quantity: 10
+  - itemId: 89098
+    quantity: 3
+  - itemId: 89271
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 400

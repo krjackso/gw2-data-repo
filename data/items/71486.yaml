@@ -1,0 +1,32 @@
+id: 71486
+name: Party Stick
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/95F14E65DCDF0A5AE8CAFD04CBBCAF79986062E8/1205417.png
+description: Used to craft The Energizer.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Party_Stick
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19709
+    quantity: 250
+  - itemId: 24277
+    quantity: 10
+  - itemId: 74909
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

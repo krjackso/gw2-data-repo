@@ -1,0 +1,19 @@
+id: 24464
+name: Garnet Pebble
+type: UpgradeComponent
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/62432B92985A9F759F24C55675429696060F0B1D/220907.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Garnet_Pebble
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 39096
+  containerName: Jeweler Starter Kit
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

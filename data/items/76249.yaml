@@ -1,0 +1,23 @@
+id: 76249
+name: Spirit of the Perfected Longbow
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C65CEA0D7460CD769ADD300256B5A8F20B94D79B/1205605.png
+description: Salvaged from the Perfected Longbow. Used to craft Leaf of Kudzu.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Longbow
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 70814
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

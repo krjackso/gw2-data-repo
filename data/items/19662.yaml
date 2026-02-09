@@ -1,0 +1,46 @@
+id: 19662
+name: Gift of Howler
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7E450749DC2EA72121C4D5DD4BEDB90AD5CD47B2/455842.png
+description: 'A gift used to create the legendary warhorn Howler.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Wolf Statue
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Accuracy'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Howler
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19640
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24618
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97852
+  containerName: 'Starter Kit: Howler'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

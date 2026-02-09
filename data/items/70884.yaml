@@ -1,0 +1,33 @@
+id: 70884
+name: Globe
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2D4C7B9896CC27FEB6EFC1CEAB1D6F63C4D96822/1205301.png
+description: Used to craft Storm.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Globe
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 50
+  - itemId: 24315
+    quantity: 3
+  - itemId: 24320
+    quantity: 5
+  - itemId: 66902
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

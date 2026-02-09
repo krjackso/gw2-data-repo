@@ -1,0 +1,142 @@
+id: 66902
+name: Brick of Clay
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/3344FFF73E551B6BBE954A58EE521AD0D9FB9396/849428.png
+description: Used in the making of pottery.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Brick_of_Clay
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 12
+  metadata: {}
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 9
+  metadata: {}
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 6
+  metadata: {}
+- type: vendor
+  vendorName: Dusk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 4
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 12
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 9
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 6
+  metadata: {}
+- type: vendor
+  vendorName: Gleam
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 4
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 12
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 9
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 8
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 6
+  metadata: {}
+- type: vendor
+  vendorName: Moonglow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 25
+    quantity: 4
+  metadata: {}

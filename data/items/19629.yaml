@@ -1,0 +1,36 @@
+id: 19629
+name: Gift of History
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/62FA9F9C0204C105ED0555A2510D573A60C0A1EC/455810.png
+description: 'A gift of history used to create The Flameseeker Prophecies.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a tailor
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_History
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19664
+    quantity: 1
+  - itemId: 19737
+    quantity: 250
+  - itemId: 24277
+    quantity: 250
+  - itemId: 24310
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

@@ -1,0 +1,32 @@
+id: 73774
+name: Party Ball
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4A959A06EC69157B5D0B56C46223FCB2A52B0897/1205416.png
+description: Used to craft The Energizer.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Party_Ball
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 50
+  - itemId: 24522
+    quantity: 10
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

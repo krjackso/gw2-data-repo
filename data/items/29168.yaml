@@ -1,0 +1,55 @@
+id: 29168
+name: The Bard
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/251B42DA1EC4902BB2F50F7B671DEA921DC522A2/1202277.png
+description: '<c=@flavor>This weapon is used to craft the legendary focus The Minstrel.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Minstrel
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Bard
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71856
+    quantity: 1
+  - itemId: 72035
+    quantity: 1
+  - itemId: 75176
+    quantity: 1
+  - itemId: 75877
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 97378
+  containerName: 'Starter Kit: The Minstrel'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

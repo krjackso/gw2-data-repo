@@ -1,0 +1,25 @@
+id: 24870
+name: Chrysocola Shard
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/6B2F59D4A0C2F0C0CB3C66B2FF677D1B19AA996B/221171.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Shard
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24527
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 200

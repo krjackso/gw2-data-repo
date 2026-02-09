@@ -1,0 +1,79 @@
+id: 24511
+name: Chrysocola Crystal
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/D9B9D43327DBAC347C1933CF29DCE83619F4510B/220950.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Crystal
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24870
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 275
+- type: salvage
+  itemId: 13393
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13401
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13407
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13435
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13442
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13449
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13477
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13485
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13491
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

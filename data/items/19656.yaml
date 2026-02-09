@@ -1,0 +1,46 @@
+id: 19656
+name: Gift of Rodgort
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BD08C20160BB5E2D9375A42D56D04D067E6F3515/455836.png
+description: 'A gift used to create the legendary torch Rodgort.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Vial of Liquid Flame
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Fire'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Rodgort
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19634
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24548
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 93366
+  containerName: 'Starter Kit: Rodgort'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,33 @@
+id: 76843
+name: Colossus Statue
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FD5DC812AA4D4F7BFFBFBC7EB45AD9DFA7489141/1205078.png
+description: Used to craft The Colossus.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Colossus_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 19686
+    quantity: 250
+  - itemId: 24310
+    quantity: 5
+  - itemId: 74909
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

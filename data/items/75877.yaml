@@ -1,0 +1,33 @@
+id: 75877
+name: Rooster Statues
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/451315E5085D5CAAFFD07F99B1A2D12B80EAB536/1205367.png
+description: Used to craft The Bard.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Rooster_Statues
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 100
+  - itemId: 19712
+    quantity: 50
+  - itemId: 24515
+    quantity: 7
+  - itemId: 46738
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

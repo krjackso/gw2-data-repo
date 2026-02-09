@@ -1,0 +1,46 @@
+id: 19644
+name: Gift of Kudzu
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/DC0AC5E6785D5EF1FCBEB375B0FFDD08DEDAB562/455825.png
+description: 'A gift used to create the legendary longbow Kudzu.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Gift of Nature
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Celerity'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Kudzu
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19627
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24865
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 96007
+  containerName: 'Starter Kit: Kudzu'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

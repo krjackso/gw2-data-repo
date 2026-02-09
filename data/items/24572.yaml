@@ -1,0 +1,144 @@
+id: 24572
+name: Superior Sigil of Nullification
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/B926E1026E6E271D3B9F9A177710E3A8C801FFF3/220744.png
+description: '<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Nullification
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24300
+    quantity: 10
+  - itemId: 89098
+    quantity: 2
+  - itemId: 89271
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    - Artificer
+    - Weaponsmith
+    minRating: 400
+- type: salvage
+  itemId: 26145
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26557
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30698
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31034
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31045
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31052
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31060
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31062
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31076
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31080
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31086
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31087
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31091
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31096
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 44980
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 71383
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 88567
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95108
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95115
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,54 @@
+id: 29166
+name: Tooth of Frostfang
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/3D361A4B187B5747FED095C6D5431EB3E65B01FB/1200349.png
+description: '<c=@flavor>This weapon is used to craft the legendary axe Frostfang.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Frostfang
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tooth_of_Frostfang
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71915
+    quantity: 1
+  - itemId: 75619
+    quantity: 1
+  - itemId: 75818
+    quantity: 1
+  - itemId: 76342
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 97628
+  containerName: 'Starter Kit: Frostfang'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

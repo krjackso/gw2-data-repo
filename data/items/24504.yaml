@@ -1,0 +1,25 @@
+id: 24504
+name: Peridot Lump
+type: UpgradeComponent
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/A736B6941805F8412591DFF52F77CD9B767CCDF1/220944.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 34
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Peridot_Lump
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24273
+    quantity: 1
+  - itemId: 24468
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 125

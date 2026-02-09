@@ -1,0 +1,28 @@
+id: 37906
+name: Exquisite Passion Flower
+type: UpgradeComponent
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/665E390152EF601A08E8214A9823F0063B9F0133/511905.png
+description: Double-click to apply to an accessory, amulet, or ring with an unused
+  upgrade slot.
+vendorValue: 264
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Exquisite_Passion_Flower
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12834
+    quantity: 1
+  - itemId: 19721
+    quantity: 1
+  - itemId: 37907
+    quantity: 15
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400

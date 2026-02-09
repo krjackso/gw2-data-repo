@@ -1,0 +1,46 @@
+id: 19646
+name: Gift of The Minstrel
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BF420D11FEDEAF40629A6DB6F60F91A003F1C004/455827.png
+description: 'A gift used to create the legendary focus The Minstrel.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Energy
+
+  • 1 Gift of Music
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Energy'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Minstrel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19623
+    quantity: 1
+  - itemId: 19630
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24607
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97378
+  containerName: 'Starter Kit: The Minstrel'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

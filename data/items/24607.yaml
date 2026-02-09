@@ -1,0 +1,144 @@
+id: 24607
+name: Superior Sigil of Energy
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/3A064B97AB7D0E1F1250EFB5F06798A8FE623708/220688.png
+description: '<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Energy
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 83103
+    quantity: 100
+  - itemId: 89098
+    quantity: 3
+  - itemId: 89271
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 400
+- type: salvage
+  itemId: 25979
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26704
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 26850
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27011
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27179
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27332
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27642
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27645
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 27924
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 28267
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 28563
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 28577
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30688
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 30692
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 31042
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 47084
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 91090
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95088
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95126
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

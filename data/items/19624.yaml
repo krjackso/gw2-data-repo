@@ -1,0 +1,44 @@
+id: 19624
+name: Gift of Ice
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/00710B342569B4A818387FEF63B876476B0BB84B/455805.png
+description: 'A gift of ice used to create Frostfang.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a jeweler
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Ice
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19670
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 24320
+    quantity: 100
+  - itemId: 24340
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400
+- type: achievement
+  achievementName: Illuminated Boreal Weapons
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

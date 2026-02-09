@@ -1,0 +1,25 @@
+id: 24473
+name: Emerald Crystal
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/DB38D4CED0E4C722809C270DF2B53D7EE19397A0/220916.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Emerald_Crystal
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24871
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 275

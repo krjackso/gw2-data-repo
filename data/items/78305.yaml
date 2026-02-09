@@ -1,0 +1,37 @@
+id: 78305
+name: Superior Sharpening Stone
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/91AC9F70D30C5E3E22635DF4F30CAFA1F6F803A0/219361.png
+vendorValue: 33
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sharpening_Stone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 5
+  requirements:
+  - itemId: 19685
+    quantity: 1
+  - itemId: 24277
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 400
+- type: container
+  itemId: 80602
+  containerName: Box of Raider's Utilities
+  outputQuantity: 40
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78586
+  containerName: Level-80 Boost Package
+  outputQuantity: 25
+  requirements: []
+  metadata: {}

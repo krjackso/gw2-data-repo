@@ -1,0 +1,20 @@
+id: 24242
+name: Heart of Fire
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/45ACC107537E9D70776C9F24EDA1DCC26C4AFAB1/63345.png
+description: The smoldering heart of an elder imp of fire.
+vendorValue: 108
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Heart_of_Fire
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dropped by Veteran Fire Imp (level 65) located in Maelstrom's Bile (Mount
+      Maelstrom). Found in a small alcove next to the main tunnel inside Maelstrom's
+      Bile.

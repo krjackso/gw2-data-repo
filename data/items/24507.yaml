@@ -1,0 +1,25 @@
+id: 24507
+name: Lapis Lump
+type: UpgradeComponent
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/FF721EAEE6B8F77CE36E1EEB6A94E27395A872AE/220946.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 34
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lapis_Lump
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24273
+    quantity: 1
+  - itemId: 24470
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 125

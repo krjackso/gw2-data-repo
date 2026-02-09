@@ -1,0 +1,37 @@
+id: 19635
+name: Gift of Entertainment
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B76A2E537E10A4BE336CC6B3471CEE0F075AE290/455816.png
+description: 'A gift of entertainment used to create legendary weapons Quip and The
+  Moot.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach an armorsmith
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Entertainment
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19665
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 19746
+    quantity: 250
+  - itemId: 20000
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

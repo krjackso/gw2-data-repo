@@ -1,0 +1,32 @@
+id: 70851
+name: Charged Fossil
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/226BE0919F67A3CC0DEE43B129FB175ED5C80744/1203044.png
+vendorValue: 48
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Fossil
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 43772
+    quantity: 1
+  - itemId: 74328
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    - Weaponsmith
+    - Armorsmith
+    - Artificer
+    - Tailor
+    - Huntsman
+    - Leatherworker
+    minRating: 400

@@ -1,0 +1,33 @@
+id: 70735
+name: Energy Source
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2A4BD1B5695CCE3416FCB8C1371E7492A05A4078/1204481.png
+description: Used to craft Zap and The Mechanism.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Energy_Source
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24274
+    quantity: 100
+  - itemId: 24305
+    quantity: 1
+  - itemId: 43772
+    quantity: 10
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

@@ -1,0 +1,20 @@
+id: 24244
+name: Burning Ember
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/4AA6F8CB30973B9A6E4C310124EFB5BFF42036E5/63273.png
+description: Holding this mass feels like your hand is on fire.
+vendorValue: 108
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Burning_Ember
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dropped by Veteran Ember (level 65) in Mon Maelstrom (Mount Maelstrom).
+      This appears to be a loot drop rather than a vendor sale or other standard acquisition
+      method.

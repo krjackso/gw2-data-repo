@@ -1,0 +1,27 @@
+id: 71949
+name: Lump of Beeswax
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0009B50D5125A0D150C5B72F46A9623274C39C0C/1204913.png
+description: Purchase from Fiona Hastings in the apiary near Claypool in Queensdale
+  after successfully defending her beehives from hungry bears.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lump_of_Beeswax
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: vendor
+  vendorName: Fiona Hastings
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  metadata:
+    notes: 'Requires the event Defend the beehives from hungry bears. Only if the
+      Frostfang III: Tooth of Frostfang collection is active.'

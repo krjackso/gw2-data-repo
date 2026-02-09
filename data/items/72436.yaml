@@ -1,0 +1,13 @@
+id: 72436
+name: Agate Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/0D430696220C8004F329D37506DC254BFDC504E4/1202985.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Agate_Orb
+lastUpdated: '2026-02-09'
+acquisitions: []

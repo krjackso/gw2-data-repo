@@ -1,0 +1,33 @@
+id: 72464
+name: Horse Figure
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3557B33717A1533D7EC77F2FD72D5C90DDE37BBC/1204822.png
+description: Used to craft The Lover.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Horse_Figure
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 50
+  - itemId: 19712
+    quantity: 50
+  - itemId: 24277
+    quantity: 10
+  - itemId: 46736
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

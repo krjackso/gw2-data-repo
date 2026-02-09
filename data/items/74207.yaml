@@ -1,0 +1,33 @@
+id: 74207
+name: Ooze Reservoir
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7B65067AD907BF0295FA47A10F92337D7268EA9E/1205094.png
+description: Used to craft The Colossus.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ooze_Reservoir
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 10
+  - itemId: 24315
+    quantity: 5
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

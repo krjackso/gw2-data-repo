@@ -1,0 +1,33 @@
+id: 75176
+name: Harp
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/30D4E23A690B55611B273ED8B138A3DC387E595E/1205346.png
+description: Used to craft The Bard.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Harp
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46736
+    quantity: 1
+  - itemId: 74536
+    quantity: 6
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

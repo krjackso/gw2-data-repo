@@ -1,0 +1,46 @@
+id: 46736
+name: Spiritwood Plank
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/955A9F900BB8AB253C9C91C7F7DF4305A741917C/631485.png
+description: Refined from soft wood, seasoned wood, hard wood, and elder spirit residue.
+vendorValue: 80
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Spiritwood_Plank
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19711
+    quantity: 20
+  - itemId: 19713
+    quantity: 20
+  - itemId: 19714
+    quantity: 10
+  - itemId: 46744
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 450
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19711
+    quantity: 20
+  - itemId: 19713
+    quantity: 20
+  - itemId: 19714
+    quantity: 10
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46744
+    quantity: 1
+  metadata: {}

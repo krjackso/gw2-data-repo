@@ -1,0 +1,24 @@
+id: 74909
+name: Sculptor's Tools
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D2487B54B56D4AC2F91CD09BBEEE40B290E47CFD/1205125.png
+description: Purchased from Lord Joshua the sculptor in Beetletun.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Sculptor's_Tools
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Lord Joshua
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 4500
+  metadata: {}

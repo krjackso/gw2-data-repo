@@ -1,0 +1,23 @@
+id: 73396
+name: Spirit of the Perfected Pistol
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0B447E670B15CEF5D2BC36C1302690A555A81A3D/1205608.png
+description: Salvaged from the Perfected Pistol. Used to craft Chaos Gun.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Pistol
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 73023
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

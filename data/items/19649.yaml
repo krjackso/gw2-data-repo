@@ -1,0 +1,46 @@
+id: 19649
+name: Gift of The Juggernaut
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A19029319070C374A6669539EB5C47E3E4E8AF44/455829.png
+description: 'A gift used to create the legendary hammer The Juggernaut.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Vial of Quicksilver
+
+  • 1 100 Icy Runestones
+
+  • 1 Superior Sigil of Benevolence'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Juggernaut
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19633
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24584
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 95641
+  containerName: 'Starter Kit: The Juggernaut'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

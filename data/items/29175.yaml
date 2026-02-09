@@ -1,0 +1,56 @@
+id: 29175
+name: The Hunter
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/381F0719363580D4172E2A0BDEA978E1F0059D2A/1205943.png
+description: '<c=@flavor>This weapon is used to craft the legendary rifle The Predator.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Predator
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Hunter
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 70439
+    quantity: 1
+  - itemId: 72997
+    quantity: 1
+  - itemId: 74348
+    quantity: 1
+  - itemId: 77217
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96405
+  containerName: 'Starter Kit: The Predator'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,67 @@
+id: 19668
+name: Gift of Baelfire
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/1F251A126A7A1808DE7D0E49EC02CCCD280F4CD6/455848.png
+description: 'A gift used to create legendary weapons.
+
+
+  Purchased from dungeon vendors for 500 Tales of Dungeon Delving.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Baelfire
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.
+- type: vendor
+  vendorName: Officer Veros
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.
+- type: vendor
+  vendorName: Visiting Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of Citadel of Flame 5 times.

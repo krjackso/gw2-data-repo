@@ -1,0 +1,56 @@
+id: 29180
+name: The Legend
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/DA7AF6E3D970799A7847B3F10801FC1C1E98109E/1206503.png
+description: '<c=@flavor>This weapon is used to craft the legendary staff The Bifrost.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Bifrost
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Legend
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73809
+    quantity: 1
+  - itemId: 73875
+    quantity: 1
+  - itemId: 74378
+    quantity: 1
+  - itemId: 76891
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 99453
+  containerName: 'Starter Kit: The Bifrost'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

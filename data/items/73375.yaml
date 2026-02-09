@@ -1,0 +1,24 @@
+id: 73375
+name: Essence of the Celebration
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/E560F15920B232F2C3E81E5FFFFE722DC4E04C08/1205284.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_the_Celebration
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 77116
+  containerName: Chest of the Celebration
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

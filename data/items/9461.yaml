@@ -1,0 +1,23 @@
+id: 9461
+name: Master Maintenance Oil
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/BA57FF7A052FFE37669F97A815BD28089FCFF0AD/219367.png
+vendorValue: 33
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Master_Maintenance_Oil
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 5
+  requirements:
+  - itemId: 12156
+    quantity: 20
+  - itemId: 24277
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 400

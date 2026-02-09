@@ -1,0 +1,20 @@
+id: 37907
+name: Passion Flower
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/A3EF78BAC765FCBFBA41FE95A17839A3AA3AEDC8/511906.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Passion_Flower
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: resource_node
+  nodeName: Blooming Passiflora
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  requirements: []
+  metadata: {}

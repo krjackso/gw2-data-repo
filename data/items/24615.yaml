@@ -1,0 +1,31 @@
+id: 24615
+name: Superior Sigil of Force
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/D7420E430D002E07382035EF0D0F77370C4EE6B8/220662.png
+description: '<c=@abilitytype>Element: </c>Enhancement<br>Double-click to apply to
+  a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Force
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24370
+    quantity: 5
+  - itemId: 89141
+    quantity: 3
+  - itemId: 89271
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400

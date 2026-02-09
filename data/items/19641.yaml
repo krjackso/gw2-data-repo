@@ -1,0 +1,36 @@
+id: 19641
+name: Shark Statue
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/446D4F0ABCE4796DAC650D08080010091F26C195/455822.png
+description: 'A shark statue used to create Kamohoali''i Kotaki.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a jeweler
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shark_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19669
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 24289
+    quantity: 250
+  - itemId: 24295
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400

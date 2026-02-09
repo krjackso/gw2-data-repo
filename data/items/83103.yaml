@@ -1,0 +1,70 @@
+id: 83103
+name: Eye of Kormir
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/F327CD6E33A54C69F19F29DAA7C7D1A1FF4203D6/1767535.png
+description: <c=@Flavor>These gleaming metal scales earned their nickname because
+  they are flexible but remain true and whole under great strain.</c>
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Eye_of_Kormir
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 85534
+  containerName: Nadijeh's Royal Armor Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85621
+  containerName: Nadijeh's Royal Arms Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 82695
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 82990
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 83027
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 83088
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 84044
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 84124
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 84189
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

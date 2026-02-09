@@ -1,0 +1,30 @@
+id: 19717
+name: Sun Bead
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/582641FE0D5FD2AB0903CA0050049167A89CB97C/67028.png
+description: Used in crafting for making Hylek items.
+vendorValue: 7
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Sun_Bead
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Cuadinti
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 21
+  metadata: {}
+- type: vendor
+  vendorName: Cuadinti
+  outputQuantity: 25
+  requirements:
+  - currencyId: 2
+    quantity: 525
+  metadata: {}

@@ -1,0 +1,23 @@
+id: 75207
+name: Spirit of the Perfected Hammer
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A402F6C4D3DD40040B3E6C51B8DCB30410ED02CE/1205603.png
+description: Salvaged from the Perfected Hammer. Used to craft The Colossus.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Hammer
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 71134
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

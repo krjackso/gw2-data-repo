@@ -1,0 +1,55 @@
+id: 29176
+name: Storm
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/AF3EB0E29F4B25AC3F5BE2B7BA64ABC1A62EB30E/1206078.png
+description: '<c=@flavor>This weapon is used to craft the legendary scepter Meteorlogicus.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Meteorlogicus
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Storm
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 70884
+    quantity: 1
+  - itemId: 72454
+    quantity: 1
+  - itemId: 75336
+    quantity: 1
+  - itemId: 76229
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 93482
+  containerName: 'Starter Kit: Meteorlogicus'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

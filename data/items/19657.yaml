@@ -1,0 +1,47 @@
+id: 19657
+name: Gift of Kamohoali'i Kotaki
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/631E98DE7861920225511F250476D5341BD20CEE/455837.png
+description: 'A gift used to create the legendary spear Kamohoali''i Kotaki.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Shark Statue
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Agony'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Kamohoali'i_Kotaki
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19641
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24612
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 96764
+  containerName: 'Starter Kit: Kamohoali''i Kotaki'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

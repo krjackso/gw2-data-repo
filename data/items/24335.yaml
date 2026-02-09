@@ -1,0 +1,45 @@
+id: 24335
+name: Pile of Putrid Essence
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/CBC82EA8093AE4F60F0752B179F7CD02DDF5CB33/223781.png
+vendorValue: 63
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Putrid_Essence
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24334
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24334
+    quantity: 2
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 74244
+  containerName: Champion Zhaitan the Corrupted Dragon Loot Box
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}

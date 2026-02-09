@@ -1,0 +1,13 @@
+id: 42010
+name: Azurite Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/33A24CED131E010FB63B60C1303B5AEDC606B528/575165.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Azurite_Orb
+lastUpdated: '2026-02-08'
+acquisitions: []

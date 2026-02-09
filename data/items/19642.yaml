@@ -1,0 +1,36 @@
+id: 19642
+name: Eel Statue
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/483F21E5CAA0907D0A0FBAD6AFE8C4330D1BF125/455823.png
+description: 'An eel statue used to create Kraitkin.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a tailor
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Eel_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19666
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 19737
+    quantity: 250
+  - itemId: 24289
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

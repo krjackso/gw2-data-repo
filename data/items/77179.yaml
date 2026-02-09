@@ -1,0 +1,33 @@
+id: 77179
+name: Mithril Snake
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/54777703EDFC9146AE7EC43E251F46EE230F1C61/1205003.png
+description: Used to craft Howl.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Snake
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19790
+    quantity: 10
+  - itemId: 24288
+    quantity: 10
+  - itemId: 24515
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

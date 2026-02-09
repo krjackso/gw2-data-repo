@@ -1,0 +1,47 @@
+id: 19653
+name: Gift of The Flameseeker Prophecies
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/2CC3D8EBB4FB1B4BE0BA0AF65C082FC6C6A3DB1C/455833.png
+description: 'A gift used to create the legendary shield The Flameseeker Prophecies.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Gift of History
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Battle'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Flameseeker_Prophecies
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19629
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24601
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 99550
+  containerName: 'Starter Kit: The Flameseeker Prophecies'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

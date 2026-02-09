@@ -1,0 +1,36 @@
+id: 19636
+name: Gift of Stealth
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6154279FB19D312725F942332F9F50C771D007E3/455817.png
+description: 'A gift of stealth used to create The Predator.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a leatherworker
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Stealth
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12545
+    quantity: 250
+  - itemId: 19671
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 24310
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

@@ -1,0 +1,32 @@
+id: 73993
+name: Colored Paper
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/14A907A50938C87203B06278601FC77A4475951D/1205478.png
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Colored_Paper
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71692
+    quantity: 15
+  - itemId: 71952
+    quantity: 15
+  - itemId: 72579
+    quantity: 10
+  - itemId: 75694
+    quantity: 15
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 400

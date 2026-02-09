@@ -1,0 +1,23 @@
+id: 76269
+name: Spirit of the Perfected Sword
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/055618CBADCFAD343EFC93FC4FB03CFEA53E13BD/1205615.png
+description: Salvaged from the Perfected Sword. Used to craft Zap.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Sword
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 77118
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

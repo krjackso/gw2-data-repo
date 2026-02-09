@@ -1,0 +1,33 @@
+id: 75841
+name: Serrated Harpoon
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/426E1CEE6103DD609D083E01EBF0D7E8B6375572/1205153.png
+description: Used to craft Carcharias.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Serrated_Harpoon
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12988
+    quantity: 1
+  - itemId: 19685
+    quantity: 20
+  - itemId: 19712
+    quantity: 20
+  - itemId: 78305
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

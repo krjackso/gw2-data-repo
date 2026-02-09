@@ -1,0 +1,24 @@
+id: 74378
+name: Essence of Rainbows
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/9E7A68C15143C5F8F70E34E6B7F2EA0E78072A2E/1205286.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Rainbows
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 76817
+  containerName: Chest of Rainbows
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,25 @@
+id: 24515
+name: Emerald Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/327A0AA63E50E268EC02C4A5F0DBD246F207AEBB/220952.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Emerald_Orb
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24473
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 350

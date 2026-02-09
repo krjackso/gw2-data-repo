@@ -1,0 +1,27 @@
+id: 24468
+name: Peridot Nugget
+type: UpgradeComponent
+rarity: Fine
+level: 20
+icon: https://render.guildwars2.com/file/ACA124CE1DBE22F3F64BAFC8F7D7F4B3B4F45E17/220911.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 24
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Peridot_Nugget
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24272
+    quantity: 1
+  - itemId: 24465
+    quantity: 1
+  - itemId: 24467
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 50

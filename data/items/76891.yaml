@@ -1,0 +1,23 @@
+id: 76891
+name: Spirit of the Perfected Staff
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6B3935DDE299F0C532F3D20D4AD335373608C5BD/1205614.png
+description: Salvaged from the Perfected Staff. Used to craft The Legend.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Staff
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 76027
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

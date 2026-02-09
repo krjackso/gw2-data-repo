@@ -1,0 +1,25 @@
+id: 74536
+name: Delicate Harp String
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6261D89C0462DAAEF5596EA33E0B48306C1FC3E5/1205333.png
+description: Purchase from Marcello DiGiacomo in Lion's Arch.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Delicate_Harp_String
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Marcello DiGiacomo
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    notes: 'Requires the achievement The Minstrel III: The Bard'

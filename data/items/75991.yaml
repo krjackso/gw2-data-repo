@@ -1,0 +1,23 @@
+id: 75991
+name: Spirit of the Perfected Torch
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/AD5CB058D36CC85DE4ED9CEE5D3FDE03C0DD55D1/1205616.png
+description: Salvaged from the Perfected Torch. Used to craft Rodgort's Flame.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Torch
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 72245
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

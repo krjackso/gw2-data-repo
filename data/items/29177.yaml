@@ -1,0 +1,56 @@
+id: 29177
+name: The Chosen
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/488003DB422EC8A580EA4E16D22DF56B4E90F7CA/1206236.png
+description: '<c=@flavor>This weapon is used to craft the legendary shield The Flameseeker
+  Prophecies.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Flameseeker Prophecies
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Chosen
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71890
+    quantity: 1
+  - itemId: 71979
+    quantity: 1
+  - itemId: 74907
+    quantity: 1
+  - itemId: 76120
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 99550
+  containerName: 'Starter Kit: The Flameseeker Prophecies'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

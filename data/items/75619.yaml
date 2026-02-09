@@ -1,0 +1,33 @@
+id: 75619
+name: Dragon Mold
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0FCAF50B18386D0EBF3CDEA536CB9CC85357AE58/1204927.png
+description: Used to craft Tooth of Frostfang.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Mold
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 50
+  - itemId: 46747
+    quantity: 10
+  - itemId: 66902
+    quantity: 25
+  - itemId: 71949
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

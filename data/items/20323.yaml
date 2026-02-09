@@ -1,0 +1,184 @@
+id: 20323
+name: Unidentified Dye
+type: Container
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/109A6B04C4E577D9266EEDA21CC30E6B800DD452/66587.png
+description: Double-click to identify one random dye color, which can be unlocked
+  for all of your characters or recycled at the Mystic Forge.
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Unidentified_Dye
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Brass Nettlemoor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Guest Elder
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Jale
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Jocasta
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Kriss
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Laurel Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merit Professor Rizzak
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Mordrem Researcher
+  outputQuantity: 1
+  requirements:
+  - itemId: 70290
+    quantity: 25
+  - currencyId: 1
+    quantity: 2504
+  metadata: {}
+- type: vendor
+  vendorName: Nicola
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Skirmish Chest
+  outputQuantity: 1
+  requirements:
+  - itemId: 106532
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Varka
+  outputQuantity: 1
+  requirements:
+  - currencyId: 3
+    quantity: 5
+  metadata: {}
+- type: achievement
+  achievementName: Gauntlet Reclaimer
+  achievementCategory: Return to Bound by Blood
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Legacy of the Llama Locator
+  achievementCategory: Return to The Dragon's Reach
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquer the Chalice of Tears
+  achievementCategory: Return to Rising Flames
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquer the Crash Site Climb
+  achievementCategory: Return to The Dragon's Reach
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquer the Displaced Tower
+  achievementCategory: Return to A Star to Guide Us
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquer the Retrospective Runaround
+  achievementCategory: Return to Seeds of Truth and Point of No Return
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquer the Trap Maze
+  achievementCategory: Return to The Head of the Snake
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquering Abaddon's Ascent
+  achievementCategory: Return to One Path Ends
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Reconquering the Searing Ascent
+  achievementCategory: Return to Flashpoint
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: 'Second Dive: Bloodstone Fen'
+  achievementCategory: Return to Out of the Shadows
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: 'Second Dive: Cold Feet'
+  achievementCategory: Return to A Crack in the Ice
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: 'Second Dive: Hot Splashes'
+  achievementCategory: Return to Flashpoint
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85339
+  containerName: Black Lion Sample Pack
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78884
+  containerName: Satchel of Poster-Making Supplies
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: PvP League (Ranked)
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

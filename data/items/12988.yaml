@@ -1,0 +1,28 @@
+id: 12988
+name: Orichalcum Plated Dowel
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/4703A1CA2C61B002212E3D5A960C35BE13B5CF3B/455580.png
+description: Used to craft Inscriptions which are used in weapon crafting.
+vendorValue: 29
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Orichalcum_Plated_Dowel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 3
+  - itemId: 19712
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Scribe
+    - Weaponsmith
+    minRating: 400

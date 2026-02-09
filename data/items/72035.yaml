@@ -1,0 +1,23 @@
+id: 72035
+name: Spirit of the Perfected Focus
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/202D430E35B975016145F40F1032379B79DCE2A3/1205602.png
+description: Salvaged from the Perfected Focus. Used to craft The Bard.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Focus
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 70417
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

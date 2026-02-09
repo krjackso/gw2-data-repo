@@ -1,0 +1,36 @@
+id: 19634
+name: Vial of Liquid Flame
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F9D5E42CEA6EED2DA16E036065E0D6F90E027CF8/455815.png
+description: 'A vial of liquid flame used to create Incinerator and Rodgort.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a chef
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Liquid_Flame
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12544
+    quantity: 250
+  - itemId: 19668
+    quantity: 1
+  - itemId: 24315
+    quantity: 100
+  - itemId: 24325
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

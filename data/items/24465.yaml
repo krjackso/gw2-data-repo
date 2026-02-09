@@ -1,0 +1,19 @@
+id: 24465
+name: Turquoise Pebble
+type: UpgradeComponent
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/29156EE072F52C2EE7C9B45CC91DA0F79539D1D7/220908.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Turquoise_Pebble
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 39096
+  containerName: Jeweler Starter Kit
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

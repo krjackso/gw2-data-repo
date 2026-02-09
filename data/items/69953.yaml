@@ -1,0 +1,41 @@
+id: 69953
+name: Anthology of Heroes
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/5DDF09ED3C0A7CD4026DA5293F07A41C9178EC0C/66878.png
+description: 'Used with exotic inscriptions and insignias to change the stats on ascended
+  weapons and armor in the Mystic Forge.
+
+  Warning: All upgrades will be lost.'
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Anthology_of_Heroes
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 10
+  metadata: {}

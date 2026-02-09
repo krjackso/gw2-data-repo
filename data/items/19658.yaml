@@ -1,0 +1,46 @@
+id: 19658
+name: Gift of Kraitkin
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/E27B5358FB714E78445F04AAFC32673578433899/455838.png
+description: 'A gift used to create the legendary trident Kraitkin.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Energy
+
+  • 1 Eel Statue
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Venom'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Kraitkin
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19623
+    quantity: 1
+  - itemId: 19642
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24632
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97576
+  containerName: 'Starter Kit: Kraitkin'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

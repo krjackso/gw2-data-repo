@@ -1,0 +1,33 @@
+id: 72997
+name: Scope
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2D03B8DADF0722BB51554331DD6E14F8569B1A03/1205469.png
+description: Used to craft The Hunter.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Scope
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19680
+    quantity: 250
+  - itemId: 24277
+    quantity: 15
+  - itemId: 49782
+    quantity: 1
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: Legendary Component
+    disciplines:
+    - Huntsman
+    minRating: 500

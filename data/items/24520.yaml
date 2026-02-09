@@ -1,0 +1,25 @@
+id: 24520
+name: Beryl Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/7D130AE0AE5073703219A0BC48C3CD6C95215CFD/220955.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Beryl_Orb
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24276
+    quantity: 5
+  - itemId: 24519
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 350

@@ -1,0 +1,37 @@
+id: 19622
+name: Gift of Wood
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/91EF4868635BF9DDB2DBB0D51C2E7AC909DB1465/455803.png
+description: 'A gift of wood used to create generation one and two legendary weapons
+  and the legendary back item Ad Infinitum.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a huntsman
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Wood
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 250
+  - itemId: 19711
+    quantity: 250
+  - itemId: 19712
+    quantity: 250
+  - itemId: 19714
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 400

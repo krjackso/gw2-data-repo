@@ -1,0 +1,24 @@
+id: 72454
+name: Essence of Control
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2660CEC1289C0D09B00B0955FE07BDCA3A9698A0/1205255.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Control
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 72134
+  containerName: Chest of Control
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

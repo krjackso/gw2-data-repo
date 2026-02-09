@@ -1,0 +1,19 @@
+id: 24502
+name: Silver Doubloon
+type: UpgradeComponent
+rarity: Rare
+level: 20
+icon: https://render.guildwars2.com/file/EA581B219A5937D31F145E3CD00CE7046216DE22/220942.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 72
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Silver_Doubloon
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Treasure Chest (Claw's Roost)
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,25 @@
+id: 24871
+name: Emerald Shard
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/ABC7A420B199269CA97CD45BA595387D46362C5A/221172.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Emerald_Shard
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24504
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 200

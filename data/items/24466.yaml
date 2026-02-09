@@ -1,0 +1,19 @@
+id: 24466
+name: Malachite Pebble
+type: UpgradeComponent
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/0545ACA4031B6A343418223C9B9D601941C29BE2/220909.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Malachite_Pebble
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 39096
+  containerName: Jeweler Starter Kit
+  outputQuantity: 7
+  requirements: []
+  metadata: {}

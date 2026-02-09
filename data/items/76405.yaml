@@ -1,0 +1,23 @@
+id: 76405
+name: Essence of the Garden
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D961067804592B919CAE217807B408D5EF799501/1205280.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_the_Garden
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 75046
+  containerName: Chest of the Garden
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

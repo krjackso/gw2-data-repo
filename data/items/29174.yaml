@@ -1,0 +1,56 @@
+id: 29174
+name: Chaos Gun
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/5B770B9432601D04CFD235E4712B52927EDF734B/1204293.png
+description: '<c=@flavor>This weapon is used to craft the legendary pistol Quip.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Quip
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chaos_Gun
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71163
+    quantity: 1
+  - itemId: 73396
+    quantity: 1
+  - itemId: 75429
+    quantity: 1
+  - itemId: 76094
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96697
+  containerName: 'Starter Kit: Quip'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

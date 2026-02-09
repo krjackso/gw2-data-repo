@@ -1,0 +1,54 @@
+id: 29184
+name: Howl
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/FF282CD37AD618457F6878356739587916E5BF17/1207245.png
+description: '<c=@flavor>This weapon is used to craft the legendary warhorn Howler.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Howler
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Howl
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19640
+    quantity: 1
+  - itemId: 73569
+    quantity: 1
+  - itemId: 75899
+    quantity: 1
+  - itemId: 77179
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 97852
+  containerName: 'Starter Kit: Howler'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

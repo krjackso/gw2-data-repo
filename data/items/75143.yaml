@@ -1,0 +1,29 @@
+id: 75143
+name: Paint Brush
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D31979F82E0525070946454F4FE7ECF69EC9D00B/1204466.png
+description: ''
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Paint_Brush
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19712
+    quantity: 1
+  - itemId: 71201
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 350

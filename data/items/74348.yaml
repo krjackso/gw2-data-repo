@@ -1,0 +1,23 @@
+id: 74348
+name: Spirit of the Perfected Rifle
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/040C49C44B72D5403B35780F42F4A3FE3EC49D46/1205609.png
+description: Salvaged from the Perfected Rifle. Used to craft The Hunter.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Rifle
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 73785
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

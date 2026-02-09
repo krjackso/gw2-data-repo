@@ -1,0 +1,33 @@
+id: 75429
+name: Ornate Pistol Frame
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/ADA50041B5D807A55B7DBB4D320D17432BCE5876/1205493.png
+description: Used to craft Chaos Gun.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ornate_Pistol_Frame
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19685
+    quantity: 10
+  - itemId: 46738
+    quantity: 1
+  - itemId: 74909
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

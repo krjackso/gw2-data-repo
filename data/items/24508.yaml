@@ -1,0 +1,13 @@
+id: 24508
+name: Ruby Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/7702E49901413CC14B2F5B7BFD059522333210E6/220947.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ruby_Orb
+lastUpdated: '2026-02-09'
+acquisitions: []

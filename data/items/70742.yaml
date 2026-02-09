@@ -1,0 +1,33 @@
+id: 70742
+name: Dragon Statue
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7F9DAD07F0126649FBEE5977CBE09CBB07CFC02A/1205555.png
+description: Used to craft Rodgort's Flame.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 250
+  - itemId: 19685
+    quantity: 50
+  - itemId: 46738
+    quantity: 1
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

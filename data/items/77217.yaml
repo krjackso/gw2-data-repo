@@ -1,0 +1,33 @@
+id: 77217
+name: Living Flame
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B299051142D2944FF15A2F104FE0E8BFBDB7C7C7/1205459.png
+description: Used to craft The Hunter.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Living_Flame
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19717
+    quantity: 25
+  - itemId: 24244
+    quantity: 1
+  - itemId: 24315
+    quantity: 1
+  - itemId: 75272
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

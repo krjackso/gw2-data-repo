@@ -1,0 +1,57 @@
+id: 20000
+name: Box o' Fun
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/BE034CD0E694AE0677B5A268446C4BBC30046660/220568.png
+description: Double-click to create a box full of random goofs and gags! Lasts 15
+  minutes.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- NoUnderwater
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Box_o'_Fun
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Gem Store
+  outputQuantity: 1
+  requirements:
+  - currencyId: 4
+    quantity: 80
+  metadata: {}
+- type: vendor
+  vendorName: Gem Store
+  outputQuantity: 5
+  requirements:
+  - currencyId: 4
+    quantity: 320
+  metadata: {}
+- type: container
+  itemId: 43762
+  containerName: Heavy Achievement Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 43761
+  containerName: Large Achievement Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 43763
+  containerName: Massive Achievement Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Available during Secrets of the Obscure Twitch Drops campaign from August
+      22, 2023 to August 28, 2023

@@ -1,0 +1,23 @@
+id: 75818
+name: Essence of Freezing
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F130FEE1C930CCCE527F2A030EF460D4B5A73F59/1205251.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Freezing
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: container
+  itemId: 72332
+  containerName: Chest of Freezing
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

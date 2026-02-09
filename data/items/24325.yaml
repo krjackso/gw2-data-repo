@@ -1,0 +1,71 @@
+id: 24325
+name: Destroyer Lodestone
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/77BE2565DD345ADFEF3850A5B647FE50C144AAF8/66976.png
+vendorValue: 63
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Destroyer_Lodestone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19663
+    quantity: 1
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24324
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20799
+    quantity: 1
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24324
+    quantity: 2
+  - itemId: 39125
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: Dragon Fire Infuser
+  achievementCategory: Rare Collections
+  outputQuantity: 25
+  requirements: []
+  metadata:
+    notes: 'Tier 2: 2, Tier 4: 5, Tier 6: 8, Tier 8: 10'
+- type: achievement
+  achievementName: Forger of Draconic Fire
+  achievementCategory: Rare Collections
+  outputQuantity: 15
+  requirements: []
+  metadata:
+    notes: 'Tier 2: 5, Tier 4: 10, Tier 8: 20'
+- type: achievement
+  achievementName: Master of Draconic Fire
+  achievementCategory: Rare Collections
+  outputQuantity: 30
+  requirements: []
+  metadata:
+    notes: 'Tier 3: 10, Tier 5: 20'
+- type: achievement
+  achievementName: Sensor Scouter—Southsun Cove
+  achievementCategory: Transfer Chaser (achievements)
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75462
+  containerName: Veteran Primordus the Fire Dragon Loot Box
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

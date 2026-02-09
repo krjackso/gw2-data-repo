@@ -1,0 +1,36 @@
+id: 30701
+name: Kraitkin
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/1FAD3D4BE1FA503C49FCF532582867FB060664E4/456028.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Kraitkin
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19626
+    quantity: 1
+  - itemId: 19658
+    quantity: 1
+  - itemId: 19674
+    quantity: 1
+  - itemId: 29183
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

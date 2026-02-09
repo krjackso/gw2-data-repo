@@ -1,0 +1,26 @@
+id: 75272
+name: Black Powder
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/97A1A264110C2D4ACF5A5C960870F85C4F06D0E2/1205452.png
+description: Purchased from Thegren Topjaw at the Tela Range in Plains of Ashford
+  after helping to rid the training area of pests.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Black_Powder
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Thegren Topjaw
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1500
+  metadata:
+    notes: Can only be purchased if the corresponding recipe box was unlocked.

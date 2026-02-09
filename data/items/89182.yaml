@@ -1,0 +1,13 @@
+id: 89182
+name: Symbol of Pain
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/ED0DC52CEEB4A22263EB25EAFDCF570E177F161C/2063464.png
+description: Used to craft sigils.
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Symbol_of_Pain
+lastUpdated: '2026-02-08'
+acquisitions: []

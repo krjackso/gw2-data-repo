@@ -1,0 +1,33 @@
+id: 46739
+name: Elonian Leather Square
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/057F4DB327DB7F46490876E4D9D86E7C1D613C26/631487.png
+description: Refined from thin leather, coarse leather, rugged leather, and thick
+  elonian cord.
+vendorValue: 80
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Leather_Square
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19733
+    quantity: 20
+  - itemId: 19734
+    quantity: 10
+  - itemId: 19736
+    quantity: 20
+  - itemId: 46745
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Armorsmith
+    minRating: 450

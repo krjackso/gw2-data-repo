@@ -1,0 +1,72 @@
+id: 19669
+name: Gift of Zhaitan
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4F5B03DDC8BE16069C3D2C530C1DC84916CDBB58/455849.png
+description: 'A gift used to create legendary weapons.
+
+
+  Purchased from dungeon vendors for 500 Tales of Dungeon Delving.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Zhaitan
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times.
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times. Located
+      at Osprey Pillars, Ember Bay.
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times. Located
+      at Mistlock Sanctuary.
+- type: vendor
+  vendorName: Officer Hetja
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times. Located
+      at Fort Marriner, Memory of Old Lion's Arch.
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times. Located
+      at Armistice Bastion.
+- type: vendor
+  vendorName: Visiting Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 69
+    quantity: 500
+  metadata:
+    notes: Requires the explorable mode of The Ruined City of Arah 5 times. Located
+      at Thousand Seas Pavilion.

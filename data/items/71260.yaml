@@ -1,0 +1,24 @@
+id: 71260
+name: Essence of Dreams
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/02A006B49750920132E0F4BD0901F0FF9ABA07B9/1205258.png
+description: Use this essence to craft a completed precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Dreams
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 72593
+  containerName: Chest of Dreams
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

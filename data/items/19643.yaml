@@ -1,0 +1,36 @@
+id: 19643
+name: Gift of Water
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0378A7015EEC1B790736276870F1C807447C6D98/455824.png
+description: 'A gift of water used to craft Frenzy.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a chef
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Water
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19670
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 24315
+    quantity: 100
+  - itemId: 24320
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

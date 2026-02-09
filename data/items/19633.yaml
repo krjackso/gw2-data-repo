@@ -1,0 +1,36 @@
+id: 19633
+name: Vial of Quicksilver
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F32944C40CF6FC54B204CACDE5071BA0B69BEAFC/455814.png
+description: 'A vial of pure quicksilver used to create The Juggernaut.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a jeweler
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Quicksilver
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19666
+    quantity: 1
+  - itemId: 19688
+    quantity: 250
+  - itemId: 24315
+    quantity: 150
+  - itemId: 24502
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400

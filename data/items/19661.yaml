@@ -1,0 +1,46 @@
+id: 19661
+name: Gift of The Predator
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/27949D47E6F534574AAFE2D07BF20303729F94A5/455841.png
+description: 'A gift used to create the legendary rifle The Predator.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Gift of Stealth
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Force'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Predator
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19636
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24615
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 96405
+  containerName: 'Starter Kit: The Predator'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

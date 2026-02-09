@@ -1,0 +1,25 @@
+id: 76076
+name: Jar of Paint Base
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/23497939CCC257CC9214F16C6E711EF6F322FFFC/1204475.png
+description: <c=@flavor>Tirzie the Painter's special blend to ensure long-lasting,
+  vibrant color.<c>
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Jar_of_Paint_Base
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Tirzie the Painter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1848
+  metadata: {}

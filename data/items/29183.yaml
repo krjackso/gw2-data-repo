@@ -1,0 +1,26 @@
+id: 29183
+name: Venom
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/6D2C107DA4507DE3F247D15B54794BD31C73532A/1207112.png
+description: '<c=@flavor>This weapon is used to craft the legendary trident Kraitkin.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Kraitkin
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Venom
+lastUpdated: '2026-02-09'
+acquisitions: []

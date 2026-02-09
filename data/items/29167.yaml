@@ -1,0 +1,26 @@
+id: 29167
+name: Spark
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/C90B71ED53030EB7422A9F59F17C492BC9E2DBE7/1202122.png
+description: '<c=@flavor>This weapon is used to craft the legendary dagger Incinerator.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Incinerator
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spark
+lastUpdated: '2026-02-09'
+acquisitions: []

@@ -1,0 +1,40 @@
+id: 24865
+name: Superior Sigil of Celerity
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/731850AB48F9944BB5FE4A050A71366C0903253E/221167.png
+description: '<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Celerity
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24335
+    quantity: 1
+  - itemId: 89098
+    quantity: 3
+  - itemId: 89271
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 400
+- type: salvage
+  itemId: 30685
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 95084
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

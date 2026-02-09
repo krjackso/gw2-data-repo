@@ -1,0 +1,33 @@
+id: 74650
+name: Shark Figurine
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7244F3FF99509BAA1B68BD116550034553FC2B65/1205154.png
+description: Used to craft Carcharias.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shark_Figurine
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19736
+    quantity: 50
+  - itemId: 24289
+    quantity: 10
+  - itemId: 24357
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

@@ -1,0 +1,36 @@
+id: 19627
+name: Gift of Nature
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/547F34D0DEB3597314A57B6C06E69E4CBE584352/455808.png
+description: 'A gift of nature used to create Kudzu.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a leatherworker
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Nature
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12128
+    quantity: 250
+  - itemId: 19667
+    quantity: 1
+  - itemId: 19712
+    quantity: 250
+  - itemId: 19737
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

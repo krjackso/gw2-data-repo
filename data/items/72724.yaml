@@ -1,0 +1,33 @@
+id: 72724
+name: Engraver's Tools
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1B02E7FB523DAF2F4C56F1942379D22177A36FC1/1204482.png
+description: Used to craft Zap and The Mechanism.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Engraver's_Tools
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  - itemId: 71641
+    quantity: 10
+  - itemId: 76491
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

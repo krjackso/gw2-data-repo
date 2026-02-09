@@ -1,0 +1,22 @@
+id: 76735
+name: Spirit of the Perfected Mace
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4C2A0E7655E4ED6615D7A5F3539E27F85152ACF4/1205606.png
+description: Salvaged from the Perfected Mace. Used to craft The Energizer.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Mace
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 74020
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

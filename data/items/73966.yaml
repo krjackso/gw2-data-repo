@@ -1,0 +1,24 @@
+id: 73966
+name: Lattice
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A6B4244CEAE02D47D006BF02AD08BDC972B609CD/1205230.png
+description: Use to craft Leaf of Kudzu.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lattice
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Sigurlina Jonsdottir
+  outputQuantity: 1
+  requirements:
+  - currencyId: 16
+    quantity: 1
+  metadata: {}

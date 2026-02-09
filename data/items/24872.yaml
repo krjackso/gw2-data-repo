@@ -1,0 +1,27 @@
+id: 24872
+name: Beryl Shard
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/AE93DE9F1BDFEF18A63D9163B0EA3E5632BFF939/221173.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Beryl_Shard
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24504
+    quantity: 1
+  - itemId: 24507
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 200

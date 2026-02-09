@@ -1,0 +1,26 @@
+id: 29179
+name: Rage
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/A077090AC85279D351200F77267E060C326BF75B/1206366.png
+description: '<c=@flavor>This weapon is used to craft the legendary harpoon gun Frenzy.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Frenzy
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Rage
+lastUpdated: '2026-02-08'
+acquisitions: []

@@ -1,0 +1,35 @@
+id: 46745
+name: Spool of Thick Elonian Cord
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/643E2343E5B573664DD8010ACBD9B5BD970E305C/631493.png
+description: Used in the refinement of elonian leather.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spool_of_Thick_Elonian_Cord
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19735
+    quantity: 50
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Armorsmith
+    - Artificer
+    - Weaponsmith
+    minRating: 450

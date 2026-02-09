@@ -1,0 +1,31 @@
+id: 24612
+name: Superior Sigil of Agony
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/BAF34EB051D118F8A7C1645E0D940ED0660E6269/220658.png
+description: '<c=@abilitytype>Element: </c>Enhancement<br>Double-click to apply to
+  a weapon.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Sigil_of_Agony
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 72436
+    quantity: 5
+  - itemId: 89141
+    quantity: 2
+  - itemId: 89271
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400

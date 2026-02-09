@@ -1,0 +1,55 @@
+id: 29172
+name: Leaf of Kudzu
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/16E4FC0E74FB0174317E380021570AF92D3F1992/1200915.png
+description: '<c=@flavor>This weapon is used to craft the legendary longbow Kudzu.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Kudzu
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Leaf_of_Kudzu
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72849
+    quantity: 1
+  - itemId: 73966
+    quantity: 1
+  - itemId: 76249
+    quantity: 1
+  - itemId: 76405
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96007
+  containerName: 'Starter Kit: Kudzu'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

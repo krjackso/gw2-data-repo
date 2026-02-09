@@ -1,0 +1,36 @@
+id: 19640
+name: Wolf Statue
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C9462BEC11B14173B2E797101970B658E9BF6044/455821.png
+description: 'A wolf statue used to create Howler.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach a leatherworker
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Wolf_Statue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19667
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 19737
+    quantity: 250
+  - itemId: 24357
+    quantity: 250
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

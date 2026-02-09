@@ -1,0 +1,46 @@
+id: 19625
+name: Gift of Frostfang
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/044F250F27EF97CFC2BD4AC4E61E650EEA3E0E05/455806.png
+description: 'A gift used to create the legendary axe Frostfang.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Gift of Ice
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Ice'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Frostfang
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19624
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24555
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97628
+  containerName: 'Starter Kit: Frostfang'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

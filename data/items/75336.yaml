@@ -1,0 +1,23 @@
+id: 75336
+name: Spirit of the Perfected Scepter
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/23095D9CF237056C9C037D0ECB2076D468BAEBA7/1205610.png
+description: Salvaged from the Perfected Scepter. Used to craft Storm.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Perfected_Scepter
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 71886
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

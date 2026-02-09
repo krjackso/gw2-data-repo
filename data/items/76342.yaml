@@ -1,0 +1,33 @@
+id: 76342
+name: Freezing Core
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A37B79716C0F12F05DCF337ADF7FE426C97A5E05/1204934.png
+description: Used to craft Tooth of Frostfang.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Freezing_Core
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 10
+  - itemId: 24277
+    quantity: 10
+  - itemId: 24320
+    quantity: 10
+  - itemId: 86627
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

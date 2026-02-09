@@ -1,0 +1,33 @@
+id: 76094
+name: Confetti Bullets
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A9374603E1D0BD98BDE2600CDABACBB93242BD4F/1205480.png
+description: Used to craft Chaos Gun.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Confetti_Bullets
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 24272
+    quantity: 50
+  - itemId: 73993
+    quantity: 10
+  - itemId: 75272
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

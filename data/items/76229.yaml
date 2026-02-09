@@ -1,0 +1,33 @@
+id: 76229
+name: Spinning Mechanism
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D8EB5963033A9CC97B0F9F28496480A1945FDBF1/1205323.png
+description: Used to craft Storm.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spinning_Mechanism
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 9461
+    quantity: 10
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19709
+    quantity: 50
+  - itemId: 49782
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

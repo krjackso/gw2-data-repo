@@ -1,0 +1,38 @@
+id: 46744
+name: Glob of Elder Spirit Residue
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/131F51B9177E2AEB75326901021C42CB3169452D/631492.png
+description: Used in the refinement of spiritwood.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Elder_Spirit_Residue
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19709
+    quantity: 50
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 450
+- type: container
+  containerName: Glob of Elder Spirit Residue (container)
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

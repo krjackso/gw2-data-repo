@@ -1,0 +1,24 @@
+id: 71201
+name: Boar Bristle
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/08125BE0FD6F5204245D61E25706E665B57E39A1/1204429.png
+description: Harvested from a wild boar.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Boar_Bristle
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Dropped by any type of boar while the player has the collection ''The
+      Bifrost III: The Legend'' unlocked or ''The Dreamer III: The Lover'' completed.
+      Can be farmed west of the Hunting Lodge in Queensdale.'

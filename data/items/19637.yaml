@@ -1,0 +1,36 @@
+id: 19637
+name: Gift of Weather
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/070D78427B06100C1203BB280C056BF2FEE2E006/455818.png
+description: 'A gift of weather used to create Meteorlogicus.
+
+
+  Purchase the recipe for this item from any Mystic Forge vendor and reach an armorsmith
+  rating of 400 to craft.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Weather
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19671
+    quantity: 1
+  - itemId: 19685
+    quantity: 250
+  - itemId: 19732
+    quantity: 250
+  - itemId: 24305
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

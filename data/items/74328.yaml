@@ -1,0 +1,24 @@
+id: 74328
+name: Leaf Fossil
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/4B71A105A7315B7D1F38B82E1EBE43ADA924ED38/1203043.png
+vendorValue: 16
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Leaf_Fossil
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 104884
+  containerName: 'Tangled Depths: Commander''s Choice Chest'
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78332
+  containerName: 'Tangled Depths: Hero''s Choice Chest'
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

@@ -1,0 +1,46 @@
+id: 19654
+name: Gift of The Bifrost
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/38C9C5C8F3725C196149C01FAD009C9707080B92/455834.png
+description: 'A gift used to create the legendary staff The Bifrost.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Energy
+
+  • 1 Gift of Color
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Nullification'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_The_Bifrost
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19623
+    quantity: 1
+  - itemId: 19638
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24572
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 99453
+  containerName: 'Starter Kit: The Bifrost'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

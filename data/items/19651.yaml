@@ -1,0 +1,47 @@
+id: 19651
+name: Gift of Quip
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C4CE12E8D701F767F47113911EA80DBF78485C75/455831.png
+description: 'A gift used to create the legendary pistol Quip.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Wood
+
+  • 1 Gift of Entertainment
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Stamina'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Quip
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19635
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24592
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 96697
+  containerName: 'Starter Kit: Quip'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

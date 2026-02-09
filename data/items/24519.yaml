@@ -1,0 +1,25 @@
+id: 24519
+name: Beryl Crystal
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/5A6B60DB61C60002F7197871234DA0B9F9AB2A6D/220954.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Beryl_Crystal
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24275
+    quantity: 1
+  - itemId: 24872
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 275

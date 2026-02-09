@@ -1,0 +1,23 @@
+id: 12834
+name: Orichalcum Filigree
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/36716A5309700B989075FD4A74AB94052A0DF01E/219512.png
+description: Used to craft Perfect Jewels.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Orichalcum_Filigree
+lastUpdated: '2026-02-08'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 400

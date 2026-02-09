@@ -1,0 +1,55 @@
+id: 29173
+name: The Energizer
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4BD07B7E400564DBBF5060611400F2CA1FD874F1/1203189.png
+description: '<c=@flavor>This weapon is used to craft the legendary mace The Moot.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Moot
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 264
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Energizer
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71486
+    quantity: 1
+  - itemId: 73375
+    quantity: 1
+  - itemId: 73774
+    quantity: 1
+  - itemId: 76735
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 99507
+  containerName: 'Starter Kit: The Moot'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

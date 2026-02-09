@@ -1,0 +1,33 @@
+id: 75034
+name: Bow Wings
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1A6A2EC3495AA2C47A3D993BD11CED51DFFDB99A/1204796.png
+description: Used to craft The Lover.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bow_Wings
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19712
+    quantity: 5
+  - itemId: 46736
+    quantity: 1
+  - itemId: 73863
+    quantity: 1
+  - itemId: 75143
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

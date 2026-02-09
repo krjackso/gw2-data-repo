@@ -1,0 +1,47 @@
+id: 19645
+name: Gift of Incinerator
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/780F16CEBCEC0BF6D1F672A3F921ADCCB5A323E3/455826.png
+description: 'A gift used to create the legendary dagger Incinerator.
+
+
+  Made by combining these items in the Mystic Forge:
+
+  • 1 Gift of Metal
+
+  • 1 Vial of Liquid Flame
+
+  • 100 Icy Runestones
+
+  • 1 Superior Sigil of Fire'
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Incinerator
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19634
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 24548
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 95695
+  containerName: 'Starter Kit: Incinerator'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

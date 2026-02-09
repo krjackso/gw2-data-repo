@@ -1,0 +1,56 @@
+id: 29170
+name: The Colossus
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/15ED060C6B47716174FC6FB9A60118B5553EEB90/1202804.png
+description: '<c=@flavor>This weapon is used to craft the legendary hammer The Juggernaut.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of The Juggernaut
+
+  • 1 Gift of Mastery
+
+  • 1 Gift of Fortune</c>'
+vendorValue: 396
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Colossus
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72331
+    quantity: 1
+  - itemId: 74207
+    quantity: 1
+  - itemId: 75207
+    quantity: 1
+  - itemId: 76843
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 95641
+  containerName: 'Starter Kit: The Juggernaut'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90018
+  containerName: 'Tournament of Legends: Precursor Choice Box'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
