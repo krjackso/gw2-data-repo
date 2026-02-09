@@ -1,0 +1,30 @@
+id: 86330
+name: Gift of the Rider
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/9E0761140A5609C4161130C5BB4FC44C1E69A338/1894682.png
+description: In the Mystic Forge, combine a Gift of the Desert, a Gift of the Rider,
+  a Bloodstone Shard, and 250 Funerary Incenses to create the Gift of Desert Mastery.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Rider
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 85681
+    quantity: 1
+  - itemId: 85707
+    quantity: 1
+  - itemId: 86115
+    quantity: 1
+  - itemId: 86177
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,31 @@
+id: 45839
+name: Deldrimor Steel Horn
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B62143F6C2D19C559FAB7DCAB956CF0F7BF9B0D0/631178.png
+description: Used to craft warhorns.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Horn
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46736
+    quantity: 2
+  - itemId: 46738
+    quantity: 1
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

@@ -1,0 +1,29 @@
+id: 88500
+name: Gift of Xiuquatl
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/05622A45BE62CB2A410F061D9D4D287F99FDFF00/2038675.png
+description: Used to craft the legendary scepter Xiuquatl.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Xiuquatl
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19623
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 88738
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

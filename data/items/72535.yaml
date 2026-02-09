@@ -1,0 +1,33 @@
+id: 72535
+name: Advanced Ammunition Cylinder
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/EF35BA5AD44BCE3A22AC32B60C6544A3D80F5150/1302188.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Advanced_Ammunition_Cylinder
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19681
+    quantity: 250
+  - itemId: 19684
+    quantity: 250
+  - itemId: 19685
+    quantity: 50
+  - itemId: 46738
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

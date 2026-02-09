@@ -1,0 +1,26 @@
+id: 85707
+name: Spirit of the Raptor
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/9BCA7316F0C8A2F9BC2D18E2A195647F07AF230A/1894684.png
+description: In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the
+  Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of
+  the Rider.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Raptor
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Aksim
+  outputQuantity: 1
+  requirements:
+  - currencyId: 35
+    quantity: 75
+  metadata:
+    notes: Can only be purchased once the Raptor mastery has been maxed.

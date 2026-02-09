@@ -1,0 +1,29 @@
+id: 45834
+name: Deldrimor Steel Rifle Barrel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0851F1049328CADFA1084F47FA9365AAC8EFE8C3/631174.png
+description: Used to craft rifles.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Rifle_Barrel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 3
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

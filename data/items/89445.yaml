@@ -1,0 +1,29 @@
+id: 89445
+name: Gift of Pharus
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4C54E70C4B19CF4F10587E4840152E0F052155D9/2083164.png
+description: Used to craft the legendary longbow Pharus.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Pharus
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 89947
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,29 @@
+id: 86036
+name: Gift of Desert Mastery
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C8E86D04013AA541BE0CBACAE2080679CBF1DA71/1894676.png
+description: A gift used to create legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Desert_Mastery
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20797
+    quantity: 1
+  - itemId: 85631
+    quantity: 1
+  - itemId: 86093
+    quantity: 250
+  - itemId: 86330
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

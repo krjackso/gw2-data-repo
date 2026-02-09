@@ -1,0 +1,29 @@
+id: 81144
+name: Gift of Balthazar
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/1CED630F1B15B32FCA06FF00FE32382BB85C4F0F/1676633.png
+description: Used to craft the legendary torch Flames of War.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Balthazar
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 81051
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

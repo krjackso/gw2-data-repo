@@ -1,0 +1,49 @@
+id: 88738
+name: Shard of Tlehco
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/E26DC9081660AD0A21A47F0ECB0156E1C0273BB8/2038681.png
+description: 'Used to craft the legendary scepter precursor Tlehco.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Energy, and a Gift
+  of the Mists to create the Gift of Xiuquatl.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Tlehco
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 30
+  - itemId: 19709
+    quantity: 20
+  - itemId: 79410
+    quantity: 1
+  - itemId: 88756
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

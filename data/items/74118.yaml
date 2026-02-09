@@ -1,0 +1,17 @@
+id: 74118
+name: Raven Statue
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D40456C66EF0D35107DEAF542F75B24EB99EFE31/1302295.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Raven_Statue
+lastUpdated: '2026-02-09'
+acquisitions: []

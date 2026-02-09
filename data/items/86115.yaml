@@ -1,0 +1,27 @@
+id: 86115
+name: Spirit of the Skimmer
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7296F07134CC2A67A40EDD45B9315ECDF7732C64/1894685.png
+description: In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the
+  Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of
+  the Rider.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Skimmer
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Skimmer Trainer Ardra
+  outputQuantity: 1
+  requirements:
+  - currencyId: 35
+    quantity: 75
+  metadata:
+    notes: Can only be purchased once the Skimmer mastery Nimble Benevolence has been
+      learned.

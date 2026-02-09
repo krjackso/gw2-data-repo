@@ -1,0 +1,23 @@
+id: 78342
+name: Spirit of the Ambush
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0B04C600C2E272EE28CD0CEF444F3162F2D7B3B8/1424032.png
+description: Salvaged from the Ambush.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Ambush
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 78524
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,35 @@
+id: 78425
+name: Tigris
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/F516F0D265E291979E61DEC7C2E4433EB0580DF4/1423763.png
+description: <c=@flavor>This weapon is used to craft the legendary short bow Chuka
+  and Champawat.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tigris
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 78119
+    quantity: 1
+  - itemId: 78342
+    quantity: 1
+  - itemId: 78475
+    quantity: 1
+  - itemId: 78642
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

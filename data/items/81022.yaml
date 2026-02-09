@@ -1,0 +1,34 @@
+id: 81022
+name: Liturgy
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9D765005D5A0DDECEEE1AB4113019303A14DA3A0/1676636.png
+description: <c=@flavor>This weapon is used to craft the legendary torch Flames of
+  War.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Liturgy
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45836
+    quantity: 1
+  - itemId: 45838
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 81051
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

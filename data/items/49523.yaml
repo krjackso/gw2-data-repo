@@ -1,0 +1,63 @@
+id: 49523
+name: Lesser Vision Crystal
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/F304B2B4F078BBD2EBA347FBEC521C7047B672A9/1200199.png
+description: Used in crafting Ascended items.
+vendorValue: 40
+flags:
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lesser_Vision_Crystal
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46730
+    quantity: 2
+  - itemId: 46732
+    quantity: 2
+  - itemId: 46734
+    quantity: 2
+  - itemId: 46752
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 46730
+    quantity: 2
+  - itemId: 46732
+    quantity: 2
+  - itemId: 46752
+    quantity: 1
+  - itemId: 49523
+    quantity: 2
+  metadata: {}
+- type: achievement
+  achievementName: Rare Regalia
+  achievementCategory: Basic Collections
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false
+- type: container
+  itemId: 67222
+  containerName: Regal Bag of Goods
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

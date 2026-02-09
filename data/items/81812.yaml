@@ -1,0 +1,34 @@
+id: 81812
+name: Save the Queen
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/42A7AE057C1356A235703AB567C1F0FF54F8A2A1/1729773.png
+description: <c=@flavor>This weapon is used to craft the legendary sword the Shining
+  Blade.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Save_the_Queen
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45848
+    quantity: 1
+  - itemId: 45856
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 81961
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

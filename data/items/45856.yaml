@@ -1,0 +1,29 @@
+id: 45856
+name: Deldrimor Steel Sword Hilt
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7FDA0C27169FF5CC4B46903729465F1D4807429B/631195.png
+description: Used to craft swords.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Sword_Hilt
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 3
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

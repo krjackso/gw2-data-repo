@@ -1,0 +1,29 @@
+id: 45858
+name: Deldrimor Steel Shield Boss
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/AC43909F49B164B302127F4C9434104D99EB97D0/631197.png
+description: Used to craft shields.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Shield_Boss
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 2
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

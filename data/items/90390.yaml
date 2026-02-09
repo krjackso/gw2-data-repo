@@ -1,0 +1,49 @@
+id: 90390
+name: Shard of Exitare
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/E740F411F24FA808A7DE0305D02D4F01E647BD0E/2140503.png
+description: 'Used to craft the legendary greatsword precursor Exitare.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Metal, and a Gift
+  of the Mists to create the Gift of Exordium.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Exitare
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 40
+  - itemId: 19709
+    quantity: 30
+  - itemId: 79410
+    quantity: 1
+  - itemId: 90776
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

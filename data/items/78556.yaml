@@ -1,0 +1,37 @@
+id: 78556
+name: Chuka and Champawat
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/6AA4DCD7BFD228EF1658DE017FF114700260D316/1423757.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chuka_and_Champawat
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 73239
+    quantity: 1
+  - itemId: 78425
+    quantity: 1
+  - itemId: 78627
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

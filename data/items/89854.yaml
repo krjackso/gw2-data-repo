@@ -1,0 +1,50 @@
+id: 89854
+name: Pharus
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/D2C5CF133804E1062B08370044E774F854F107F5/2083170.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pharus
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 73239
+    quantity: 1
+  - itemId: 89445
+    quantity: 1
+  - itemId: 89886
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 86036
+    quantity: 1
+  - itemId: 89445
+    quantity: 1
+  - itemId: 89886
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

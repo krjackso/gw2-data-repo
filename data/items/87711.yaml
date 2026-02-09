@@ -1,0 +1,49 @@
+id: 87711
+name: Shard of Call of the Void
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/97274096BEE3353A0D4B1514C911BFDDD5A318B6/1999150.png
+description: 'Used to craft the legendary warhorn precursor Call of the Void.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Wood, and a Gift of
+  the Mists to create the Gift of Verdarach.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Call_of_the_Void
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 20
+  - itemId: 19709
+    quantity: 10
+  - itemId: 79410
+    quantity: 1
+  - itemId: 87627
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

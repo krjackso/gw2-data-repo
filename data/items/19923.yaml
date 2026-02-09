@@ -1,0 +1,35 @@
+id: 19923
+name: Valkyrie Orichalcum Imbued Inscription
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/CE980E0344A9F17A2F69560C79F74C7B9D2CFA11/340500.png
+description: Used in the crafting of weapons with +Power, +Ferocity, and +Vitality.
+vendorValue: 66
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Valkyrie_Orichalcum_Imbued_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12988
+    quantity: 5
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24357
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: container
+  containerName: Chest of Inscriptions
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

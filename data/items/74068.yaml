@@ -1,0 +1,34 @@
+id: 74068
+name: The Raven Staff
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/ABBCE10A62C94F9DA832377DE7D063615E44176C/1206519.png
+description: <c=@flavor>This weapon is used to craft the legendary staff Nevermore.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Raven_Staff
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72934
+    quantity: 1
+  - itemId: 73266
+    quantity: 1
+  - itemId: 74118
+    quantity: 1
+  - itemId: 76587
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

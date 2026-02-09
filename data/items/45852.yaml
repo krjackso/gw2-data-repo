@@ -1,0 +1,29 @@
+id: 45852
+name: Deldrimor Steel Mace Head
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/15E0AAD6062F943A5FC777F834FB6E1EE74D3C05/631191.png
+description: Used to craft maces.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Mace_Head
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 3
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

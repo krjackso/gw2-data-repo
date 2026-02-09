@@ -1,0 +1,29 @@
+id: 45885
+name: Spiritwood Scepter Core
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F938213B20FCBB6769A0B0DB6BB19E22CDF47F56/631200.png
+description: Used to craft scepters.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spiritwood_Scepter_Core
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46736
+    quantity: 2
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

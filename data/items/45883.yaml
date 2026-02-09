@@ -1,0 +1,29 @@
+id: 45883
+name: Spiritwood Focus Casing
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F208B1A2C272C102DCB6B262F4081F6B267113B5/631198.png
+description: Used in focus crafting.
+vendorValue: 8
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spiritwood_Focus_Casing
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46736
+    quantity: 3
+  - itemId: 46747
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

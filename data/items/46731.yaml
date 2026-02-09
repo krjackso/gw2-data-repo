@@ -1,0 +1,330 @@
+id: 46731
+name: Pile of Bloodstone Dust
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/1468C6A946BFF0A42CBD08A70E45F8F05851FED0/631480.png
+description: Refine into bloodstone bricks.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Bloodstone_Dust
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 100
+  requirements:
+  - itemId: 19976
+    quantity: 1
+  - itemId: 45175
+    quantity: 1
+  - itemId: 46730
+    quantity: 1
+  - itemId: 46731
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  containerName: Bag of Bloodstone Dust
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 4
+  outputQuantityMin: 4
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Box of Lab Equipment
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84084
+  containerName: Branded Geodermite
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82981
+  containerName: Breezeborne Pyxis
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84291
+  containerName: Chewed-Up Caravan Chest
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Deluxe Gear Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Elaborate Fur Pouch
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Elaborate Ritualist Bag
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78821
+  containerName: Executioner's Coin Purse
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85594
+  containerName: Experimental Warbeast Apparatus
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83110
+  containerName: Flamestruck Pyxis
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Gilded Coffer
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Gilded Strongbox
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Goop-Covered Satchel
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Icy Strongbox
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102283
+  containerName: Janthiri Gear Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Large Candy Bag
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85624
+  containerName: Legendary Belongings of the Great Zehtuka
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83746
+  containerName: Lost Saddlebag
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85529
+  containerName: Lost Treasure of the Great Zehtuka
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 63691
+  containerName: Master's Bag of Crafting Supplies
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85534
+  containerName: Nadijeh's Royal Armor Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85621
+  containerName: Nadijeh's Royal Arms Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84305
+  containerName: Palawan Phylactery
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Patchwork Knapsack
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84381
+  containerName: Phantasmic Belongings
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90115
+  containerName: Riftstone Satchel
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84490
+  containerName: Seaswept Pyxis
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Slime-Covered Strongbox
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 66403
+  containerName: Tootsie's Speed Pack
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Utility Backpack
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96003
+  containerName: Watertight Bag
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Zinn's Stash
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Bloodstone Crystals
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Jade Fragments
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,33 @@
+id: 75333
+name: Balanced Counterweight
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/95D3E102CC1ECA04C3BB4F8094B9B55928B3A7E3/1302117.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Balanced_Counterweight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19683
+    quantity: 250
+  - itemId: 19684
+    quantity: 150
+  - itemId: 46738
+    quantity: 5
+  - itemId: 71641
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

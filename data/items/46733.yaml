@@ -1,0 +1,1566 @@
+id: 46733
+name: Dragonite Ore
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/D53E69EFB3AFF4C85CC370AA32F1A6A61C03CCE8/631482.png
+description: Refine into dragonite ingots.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragonite_Ore
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Amnytas Gear Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Ancient Chest (Draconis Mons)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Ancient Chest (Ember Bay)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Ancient Treasure
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75062
+  containerName: Arrowhead Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65404
+  containerName: Ascalon Weapon Skins Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93574
+  containerName: Ash Legion Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74214
+  containerName: Auric Weapon Crate
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bag of Dragonite Ore
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65640
+  containerName: Balthazar Backpack Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73218
+  containerName: Bat Mother Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79911
+  containerName: Bitterfrost Frontier Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bladed Glove Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93485
+  containerName: Blood Legion Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79193
+  containerName: Bloodstone Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bloodstone Chest
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104440
+  containerName: Bloodstone Corridor Survey Result Chest
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95796
+  containerName: Bounty of Dragon's End
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97797
+  containerName: Bounty of Echovald Wilds
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95771
+  containerName: Bounty of New Kaineng City
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96345
+  containerName: Bounty of Seitung Province
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Branded Chest (meta)
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Canthan Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90096
+  containerName: Carapace Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105997
+  containerName: Castora Cache
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Castoran Gear Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71648
+  containerName: Chak Crown Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75314
+  containerName: Chak Gerent Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65262
+  containerName: Champion Air Elemental Loot Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67086
+  containerName: Champion Arid Devourer Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67082
+  containerName: Champion Arid Inquest Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72853
+  containerName: Champion Ark the White Tiger Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73183
+  containerName: Champion Ash the Black Phoenix Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75895
+  containerName: Champion Asmund the White Dolyak Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77054
+  containerName: Champion Asta the Black Dolyak Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65635
+  containerName: Champion Avatar of Balthazar Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65306
+  containerName: Champion Bandit Leader Loot Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76295
+  containerName: Champion Beam the White Phoenix Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71393
+  containerName: Champion Blade the White Shark Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Branded Devourer Queen
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65398
+  containerName: Champion Branded Minion Loot Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65307
+  containerName: Champion Centaur Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77130
+  containerName: Champion Dawn the White Tailed Deer Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65350
+  containerName: Champion Destroyer Loot Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77117
+  containerName: Champion Destroyer of Worlds Black Rabbit Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71728
+  containerName: Champion Diamond the Black Wolf Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Dredge Commissar
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65447
+  containerName: Champion Dredge Loot Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67087
+  containerName: Champion Dust Mite Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65308
+  containerName: Champion Ettin Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75601
+  containerName: Champion Ghost the White Wolf Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65449
+  containerName: Champion Grawl Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65639
+  containerName: Champion Hound of Balthazar Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Hylek Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65353
+  containerName: Champion Inquest Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65448
+  containerName: Champion Jotun Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75157
+  containerName: Champion Lamar the Black Tiger Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72164
+  containerName: Champion Mac the Black Deer Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Mordrem Guard Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Mordrem Guard Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 68024
+  containerName: Champion Mordrem Husk Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 68023
+  containerName: Champion Mordrem Teragriff Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 68032
+  containerName: Champion Mordrem Thrasher Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 68025
+  containerName: Champion Mordrem Troll Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65399
+  containerName: Champion Ogre Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77115
+  containerName: Champion Rico the Black Shark Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65265
+  containerName: Champion Risen Shark Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65264
+  containerName: Champion Risen Wizard Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71923
+  containerName: Champion Sleepy the Black Bear Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72284
+  containerName: Champion Snuffles the White Rabbit Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Champion Vined Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74689
+  containerName: Champion Waffle the White Bear Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65400
+  containerName: Champion Warg Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74244
+  containerName: Champion Zhaitan the Corrupted Dragon Loot Box
+  outputQuantity: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93494
+  containerName: Charr Legions Backpack Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Drakin Cinderspire)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Karka Queen)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Thaumanova Reactor Fallout)
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Thunderhead Peaks)
+  outputQuantity: 17
+  outputQuantityMin: 17
+  outputQuantityMax: 23
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest (Thunderhead Peaks)
+  outputQuantity: 18
+  outputQuantityMin: 18
+  outputQuantityMax: 21
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Demonic Chest
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Desert Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93870
+  containerName: Dominion Spoils Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81126
+  containerName: Draconis Mons Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragon Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragon Chest (Death-Branded Shatterer)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragon Chest (Tequatl the Sunless)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragon Chest (The Shatterer)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90468
+  containerName: Dragonfall Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragonjade-Tier Reward Package
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Dragons' Hoard
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92832
+  containerName: Drakkar's Hoard
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93560
+  containerName: Drizzlewood Coast Supply Drop
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79607
+  containerName: Ember Bay Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85594
+  containerName: Experimental Warbeast Apparatus
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93543
+  containerName: Flame Legion Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Frost Chest
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93794
+  containerName: Frost Legion Spoils Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Gerent's Chest
+  outputQuantity: 13
+  outputQuantityMin: 13
+  outputQuantityMax: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Temple of Balthazar)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Temple of Dwayna)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Temple of Grenth)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Temple of Lyssa)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Temple of Melandru)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (The Frozen Maw)
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Chest (Zho'qafa Catacombs)
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Frost Legion Chest
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92040
+  containerName: Grand Icebrood Saga Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Strike Chest
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Great Jungle Wurm Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Greater Nightmare Pod
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92080
+  containerName: Grothmar Legionnaire Banner Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 91895
+  containerName: Grothmar Legionnaire Weapons Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77160
+  containerName: Grymm Mini Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71829
+  containerName: Grymm Svaard Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78961
+  containerName: Hero Weapon Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 63270
+  containerName: Hero's Chest
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Ignaxious's Hoard
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Inquest Chest (Sandswept Isles)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 24
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Inquest Chest (Sandswept Isles)
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Inquest Resources
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 93508
+  containerName: Iron Legion Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 86132
+  containerName: Istan Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Istani Chest
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 88594
+  containerName: Jahai Bluffs Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Jahai Bluffs Chest
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102468
+  containerName: Janthir Hoard
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Janthir Wilds Gear Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92342
+  containerName: Jora's Weapons Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70778
+  containerName: Jungle Bear Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73424
+  containerName: Jungle Deer Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74904
+  containerName: Jungle Dolyak Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73076
+  containerName: Jungle Dragon Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71966
+  containerName: Jungle Phoenix Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77044
+  containerName: Jungle Rabbit Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74658
+  containerName: Jungle Shark Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77014
+  containerName: Jungle Tiger Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76057
+  containerName: Jungle Wolf Finisher Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87886
+  containerName: Kournan Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Kournan Chest
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Kournan Chest
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65312
+  containerName: Kryta Weapon Skins Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80097
+  containerName: Lake Doric Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Large Bloodstone Chest
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Large Bloodstone Chest
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79004
+  containerName: Legacy Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85624
+  containerName: Legendary Belongings of the Great Zehtuka
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Long-Lost Tahkayun's Weapon Bag
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85529
+  containerName: Lost Treasure of the Great Zehtuka
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73675
+  containerName: Luminate's Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67240
+  containerName: Magnificent Ascalonian Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Battle Cry)
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Castora)
+  outputQuantity: 11
+  outputQuantityMin: 11
+  outputQuantityMax: 13
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Claw of Jormag)
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Inner Nayos)
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Of Mists and Monsters)
+  outputQuantity: 4
+  outputQuantityMin: 4
+  outputQuantityMax: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67239
+  containerName: Magnificent Dredge Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67242
+  containerName: Magnificent Flame Legion Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67243
+  containerName: Magnificent Inquest Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67241
+  containerName: Magnificent Kodan Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67236
+  containerName: Magnificent Nightmare Court Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67238
+  containerName: Magnificent Nobleman's Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67237
+  containerName: Magnificent Orrian Chest
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Marionette Chest
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77772
+  containerName: Mini Tybalt Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75596
+  containerName: Mordrem Commander's Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74365
+  containerName: Mordremoth Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Mordremoth's Chest
+  outputQuantity: 18
+  outputQuantityMin: 18
+  outputQuantityMax: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Mushroom King Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85534
+  containerName: Nadijeh's Royal Armor Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85621
+  containerName: Nadijeh's Royal Arms Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73014
+  containerName: Nika Mini Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70067
+  containerName: Nika Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Orrian Oyster (object)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 6
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67084
+  containerName: Pristine Sand-Carved Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65397
+  containerName: PvP Player Loot Box
+  outputQuantity: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 92376
+  containerName: Raven's Gift
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Risen Priest of Balthazar
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Risen Priestess of Lyssa
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65268
+  containerName: Ruins of Orr Weapon Skins Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Sandswept Chest (object)
+  outputQuantity: 15
+  outputQuantityMin: 15
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Sandswept Chest (object)
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 25
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87247
+  containerName: Sandswept Isles Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65453
+  containerName: Shiverpeak Mountains Weapon Skins Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81614
+  containerName: Siren's Landing Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73041
+  containerName: Skelk Regurgitant Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Splendid Chest (Ulgoth the Modniir)
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Statue of Dwayna (NPC)
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Stone Summit Chest
+  outputQuantity: 16
+  outputQuantityMin: 16
+  outputQuantityMax: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Stonehead Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80875
+  containerName: Storm Wizard Loot Box
+  outputQuantity: 8
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Swamp Chest
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Taidha's Treasures
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 65367
+  containerName: Tarnished Coast Weapon Skins Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 89913
+  containerName: Thunderhead Peaks Cache
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Tri-key Chest
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78494
+  containerName: Triumphant Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 89972
+  containerName: Turai Ossa Mini Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77696
+  containerName: Tybalt Reward Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 50071
+  containerName: Ultimate Citizen's Rescue Bag
+  outputQuantity: 10
+  outputQuantityMin: 10
+  outputQuantityMax: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76850
+  containerName: V.O.X.'s Battle Box
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104431
+  containerName: Valley of Agony Survey Result Chest
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73350
+  containerName: Vinetooth Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Vinewrath Chest
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 68029
+  containerName: Warclaw Armor Box
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104461
+  containerName: Wraith's Pass Survey Result Chest
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70694
+  containerName: Wyvern Cache
+  outputQuantity: 10
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Zinn's Research Supplies
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Zinn's Stash
+  outputQuantity: 7
+  outputQuantityMin: 7
+  outputQuantityMax: 15
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Dragon Crystal Node
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Dragon Crystal Node
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Mistonium
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}

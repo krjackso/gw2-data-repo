@@ -1,0 +1,87 @@
+id: 46734
+name: Empyreal Star
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/1AF8B122915F042AF6749C0AE4583FA963DADF56/631483.png
+description: Refined from fragments.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Empyreal_Star
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 2
+  - itemId: 46735
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 425
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 2
+  - itemId: 46735
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 450
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 2
+  - itemId: 46735
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 3
+  - itemId: 19925
+    quantity: 2
+  - itemId: 46735
+    quantity: 100
+  - itemId: 46747
+    quantity: 10
+  metadata: {}
+- type: salvage
+  itemId: 46746
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 49523
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

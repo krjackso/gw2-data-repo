@@ -1,0 +1,39 @@
+id: 86018
+name: Gift of the Highlands
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/5209CCBB18A506E4544301BFBE011073D8606E32/1894677.png
+description: In the Mystic Forge, combine a Gift of the Oasis, a Gift of the Highlands,
+  a Gift of the Riverlands, and a Gift of the Desolation to create a Gift of the Desert,
+  used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Highlands
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Melilla
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 23331
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    notes: Requires map completion of Desert Highlands. Limit 1 per character.
+- type: vendor
+  vendorName: Tendaji
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 23331
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    notes: Requires map completion of Desert Highlands. Limit 1 per character.

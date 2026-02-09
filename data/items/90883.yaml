@@ -1,0 +1,33 @@
+id: 90883
+name: Exitare
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9C4A2134321B7AA3A8EE95E72A55E99DE6017268/2140502.png
+description: <c=@flavor>This weapon is used to craft the legendary greatsword Exordium.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Exitare
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45847
+    quantity: 1
+  - itemId: 45855
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 90390
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

@@ -1,0 +1,27 @@
+id: 76636
+name: Gift of the Exalted
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F8A961F21A1621082108E06CDFD858B37FDB9CC2/1205275.png
+description: In the Mystic Forge, combine a Gift of the Itzel, Gift of the Nuhoch,
+  Gift of the Exalted, and Gift of Gliding to create the Gift of Insights.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Exalted
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Exalted Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 100000
+  - currencyId: 22
+    quantity: 500
+  metadata:
+    notes: Requires the mastery Exalted Acceptance and the mastery Exalted Gathering.

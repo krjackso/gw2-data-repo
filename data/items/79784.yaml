@@ -1,0 +1,49 @@
+id: 79784
+name: Shard of Friendship
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/D0BB3ECB9D057EF7430480956315053EC990090C/1601438.png
+description: 'Used to craft the legendary-shield precursor, Friendship.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Metal, and a Gift
+  of the Mists to create the Gift of Shooshadoo.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Friendship
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 20
+  - itemId: 19709
+    quantity: 10
+  - itemId: 79410
+    quantity: 1
+  - itemId: 79845
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

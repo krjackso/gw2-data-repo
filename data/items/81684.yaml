@@ -1,0 +1,29 @@
+id: 81684
+name: Gift of Arah
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/274CDF6894AF4549DD40434CEA0B6FB15759E0FF/1729254.png
+description: Used to forge the legendary hammer Sharur.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Arah
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 82069
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

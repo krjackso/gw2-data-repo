@@ -1,0 +1,33 @@
+id: 80135
+name: Man o' War
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9ACA4C3802AE48C7509ED5076BAC259A0C9F0623/1634161.png
+description: <c=@flavor>This weapon is used to craft the legendary rifle the HMS Divinity.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Man_o'_War
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45834
+    quantity: 1
+  - itemId: 45843
+    quantity: 1
+  - itemId: 80380
+    quantity: 100
+  - itemId: 80503
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

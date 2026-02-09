@@ -1,0 +1,29 @@
+id: 87115
+name: Gift of the Four Legions
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/14510203049C75A43102BE777AF8E62B452D4FDE/1947148.png
+description: Used to craft the legendary dagger Claw of the Khan-Ur.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Four_Legions
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 87031
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

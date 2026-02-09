@@ -1,0 +1,29 @@
+id: 90893
+name: Gift of Exordium
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F9EBDC70DE7B1AFB0E03F10B3BB20063E693FC6E/2140498.png
+description: Used to craft the legendary greatsword Exordium.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Exordium
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 90390
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,31 @@
+id: 85631
+name: Gift of the Desert
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/39280A6342D79BDF657A49E7CBABF0DF26A5F628/1894678.png
+description: In the Mystic Forge, combine a Gift of the Desert, a Gift of the Rider,
+  a Bloodstone Shard, and 250 Funerary Incenses to create the Gift of Desert Mastery.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Desert
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 85961
+    quantity: 1
+  - itemId: 86010
+    quantity: 1
+  - itemId: 86018
+    quantity: 1
+  - itemId: 86241
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,24 @@
+id: 74457
+name: Essence of Time and Space
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E560F15920B232F2C3E81E5FFFFE722DC4E04C08/1205284.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Time_and_Space
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 73885
+  containerName: Chest of Time and Space
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

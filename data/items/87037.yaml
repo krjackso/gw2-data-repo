@@ -1,0 +1,34 @@
+id: 87037
+name: Claw of Resolution
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/C82F9903EEC310BA73E5563FA4CD93015FE0DBE4/1947151.png
+description: <c=@flavor>This weapon is used to craft the legendary dagger Claw of
+  the Khan-Ur.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Claw_of_Resolution
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45846
+    quantity: 1
+  - itemId: 45854
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 87031
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

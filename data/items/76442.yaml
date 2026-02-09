@@ -1,0 +1,30 @@
+id: 76442
+name: Gift of the Catalyst
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B5D70911417194E01D4BE78065505398EC7D47C6/1204971.png
+description: Used to craft the Gift of HOPE.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Catalyst
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Grandmaster Craftsman Hobbs
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 1000000
+  metadata:
+    notes: 'Requires the achievement HOPE IV: The Catalyst'
+- type: achievement
+  achievementName: 'HOPE IV: The Catalyst'
+  achievementCategory: Legendary Weapons
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,58 @@
+id: 81957
+name: The Shining Blade
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/DB4197185C097D04569265051654AA121F459A1D/1729769.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Shining_Blade
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 73239
+    quantity: 1
+  - itemId: 81812
+    quantity: 1
+  - itemId: 82003
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 81812
+    quantity: 1
+  - itemId: 82003
+    quantity: 1
+  - itemId: 86036
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata:
+    notes: 2019 variant

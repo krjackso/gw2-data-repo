@@ -1,0 +1,32 @@
+id: 46694
+name: Soros' Assassin Inscription
+type: CraftingMaterial
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/2F03245F922749A2F8CF08C19133232F5FB95F45/674814.png
+description: Used in the crafting of Ascended weapons with +Precision, +Power, and
+  +Ferocity.
+vendorValue: 83
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Soros'_Assassin_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19919
+    quantity: 1
+  - itemId: 24277
+    quantity: 10
+  - itemId: 45832
+    quantity: 1
+  - itemId: 46681
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 500

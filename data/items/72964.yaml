@@ -1,0 +1,30 @@
+id: 72964
+name: Gift of Insights
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2A69405FC152ECB3B638920FE808F23B232E7052/1205279.png
+description: In the Mystic Forge, combine a Gift of Maguuma, a Gift of Insights, a
+  Bloodstone Shard, and 250 Crystalline Ingots to create the Gift of Maguuma Mastery.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Insights
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71311
+    quantity: 1
+  - itemId: 73469
+    quantity: 1
+  - itemId: 76636
+    quantity: 1
+  - itemId: 76767
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

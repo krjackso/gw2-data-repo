@@ -1,0 +1,29 @@
+id: 82003
+name: Gift of the Blade
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/AECB050C0C4978616EC8D51248B64700132B9A38/1729770.png
+description: Used to craft the legendary sword the Shining Blade.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Blade
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 81961
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,27 @@
+id: 86241
+name: Gift of the Riverlands
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/436AEAE8FEFBD77BF0B834C654E82310530A1E06/1894680.png
+description: In the Mystic Forge, combine a Gift of the Oasis, a Gift of the Highlands,
+  a Gift of the Riverlands, and a Gift of the Desolation to create a Gift of the Desert,
+  used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Riverlands
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Follower Xunn
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 23331
+  metadata:
+    notes: Requires map completion of Elon Riverlands. Limit 1 per character.

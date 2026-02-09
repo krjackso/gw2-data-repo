@@ -1,0 +1,33 @@
+id: 81634
+name: Might of Arah
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/189678065094CA134D4D6A4B319AF7F9A8095D62/1729257.png
+description: <c=@flavor>This weapon is used to craft the legendary hammer Sharur.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Might_of_Arah
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45849
+    quantity: 1
+  - itemId: 45851
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 82069
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

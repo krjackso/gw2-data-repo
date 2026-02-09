@@ -1,0 +1,23 @@
+id: 73266
+name: Spirit of the Ravenswood Staff
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C5E1756C20DE5137EE527CFF5C9CA10735F6F480/1302299.png
+description: Salvaged from the Ravenswood Staff.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Ravenswood_Staff
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 76582
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

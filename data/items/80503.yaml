@@ -1,0 +1,365 @@
+id: 80503
+name: Visionary Inscription
+type: CraftingMaterial
+rarity: Ascended
+level: 10
+icon: https://render.guildwars2.com/file/0157605EB6E9272D03242B31E0DA2424CCB23A6D/1634116.png
+description: Used in the crafting of weapons with the potential to become Legend.
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Visionary_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500

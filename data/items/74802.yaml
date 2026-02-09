@@ -1,0 +1,33 @@
+id: 74802
+name: Finely Tuned Firing Pin
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0B0F3BE8CF365BFB793AC5D06A1AB901C8B0023C/1302225.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Finely_Tuned_Firing_Pin
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 250
+  - itemId: 19685
+    quantity: 100
+  - itemId: 46738
+    quantity: 5
+  - itemId: 46747
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

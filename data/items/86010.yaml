@@ -1,0 +1,27 @@
+id: 86010
+name: Gift of the Desolation
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/45E4479F34CD0915CA706017B67E9E3D9EDBF592/1894681.png
+description: In the Mystic Forge, combine a Gift of the Oasis, a Gift of the Highlands,
+  a Gift of the Riverlands, and a Gift of the Desolation to create a Gift of the Desert,
+  used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Desolation
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kisha Odili
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 23331
+  metadata:
+    notes: Requires map completion of The Desolation. Limit 1 per character.

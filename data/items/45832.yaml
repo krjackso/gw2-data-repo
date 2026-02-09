@@ -1,0 +1,27 @@
+id: 45832
+name: Deldrimor Steel Plated Dowel
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/F5F45490B3B24896705256CAC67768DFC3CD0EC3/631172.png
+description: Used to craft inscriptions, which are used in weapon crafting.
+vendorValue: 29
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Plated_Dowel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46736
+    quantity: 3
+  - itemId: 46738
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Artificer
+    - Huntsman
+    minRating: 500

@@ -1,0 +1,25 @@
+id: 74528
+name: Gift of the Chak
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/3BA207B20A536C940FD9551EC0EB5E3CAD316075/1204967.png
+description: In the Mystic Forge, combine a Gift of the Fleet, a Gift of Tarir, a
+  Gift of the Chak, and a Gift of the Jungle to create a Gift of Maguuma, used in
+  crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Chak
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Tangled Depths

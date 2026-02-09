@@ -1,0 +1,49 @@
+id: 87031
+name: Shard of Resolution
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/503724D7549A25CE550717F7FB2BE2F53CA6B261/1947149.png
+description: 'Used to craft the legendary dagger precursor Claw of Resolution.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Metal, and a Gift
+  of the Mists to create the Gift of the Four Legions.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Resolution
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 30
+  - itemId: 19709
+    quantity: 20
+  - itemId: 79410
+    quantity: 1
+  - itemId: 87165
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

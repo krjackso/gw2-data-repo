@@ -1,0 +1,33 @@
+id: 76587
+name: Rune Carving Tools
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0126C8653A039F0437463E2B436E925B1C7C2BC5/1204792.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Rune_Carving_Tools
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19709
+    quantity: 50
+  - itemId: 46736
+    quantity: 5
+  - itemId: 46738
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

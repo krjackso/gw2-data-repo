@@ -1,0 +1,31 @@
+id: 46696
+name: Stonecleaver's Valkyrie Inscription
+type: CraftingMaterial
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/DD4C12296AB2F2CF5EA7ECF7472F6C1BA6F96A31/674816.png
+description: Used in the crafting of weapons with +Power, +Ferocity, and +Vitality.
+vendorValue: 83
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Stonecleaver's_Valkyrie_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19923
+    quantity: 1
+  - itemId: 24277
+    quantity: 10
+  - itemId: 45832
+    quantity: 1
+  - itemId: 46681
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 500

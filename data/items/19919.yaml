@@ -1,0 +1,47 @@
+id: 19919
+name: Assassin's Orichalcum Imbued Inscription
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/A79A3A61A31898C79ADBA041442446CE7F4A03CF/631471.png
+description: Used in the crafting of weapons with +Precision, +Power, and +Ferocity.
+vendorValue: 66
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Assassin's_Orichalcum_Imbued_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12988
+    quantity: 5
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24351
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: achievement
+  achievementName: Stormcaller Armsmaster
+  achievementCategory: No Quarter
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Tengu Weapon Etchings
+  achievementCategory: No Quarter
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of Inscriptions
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,192 @@
+id: 79845
+name: Tribute to Friendship
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/EA5F4B90052BC34111E922F97362DF949AC1C13E/1601439.png
+description: Use weaponsmithing to refine Tribute to Friendship into Shards of Friendship,
+  which are used to craft the legendary shield precursor, Friendship.
+vendorValue: 264
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tribute_to_Friendship
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Alaleh
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Ethall
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Exalted Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 22
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Follower Xunn
+  outputQuantity: 1
+  requirements:
+  - currencyId: 34
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Itzel Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Karnn Fallenskull
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Kisha Odili
+  outputQuantity: 1
+  requirements:
+  - currencyId: 34
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Kynon
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Melilla
+  outputQuantity: 1
+  requirements:
+  - currencyId: 34
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Nalar
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Natto
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Nuhoch Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 20
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Nuhoch Stomper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 20
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Priestess Karima
+  outputQuantity: 1
+  requirements:
+  - currencyId: 34
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Provisioner Anlana
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Hitchens
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Rally Provisioner
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Scholar Surra
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Slooshoo
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Supplymaster Hanjo
+  outputQuantity: 1
+  requirements:
+  - currencyId: 32
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Tendaji
+  outputQuantity: 1
+  requirements:
+  - currencyId: 34
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Tenoch
+  outputQuantity: 1
+  requirements:
+  - currencyId: 20
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Trader Hyacinth
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Traveling Elonian Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 45
+    quantity: 10
+  metadata: {}
+- type: vendor
+  vendorName: Xochitl
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 10
+  metadata: {}

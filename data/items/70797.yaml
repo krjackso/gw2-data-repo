@@ -1,0 +1,26 @@
+id: 70797
+name: Gift of the Fleet
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6AA558DC0B05A34A59077438E90BAFDA9A72D0E5/1204968.png
+description: In the Mystic Forge, combine a Gift of the Fleet, a Gift of Tarir, a
+  Gift of the Chak, and a Gift of the Jungle to create a Gift of Maguuma, used in
+  crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Fleet
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Verdant Brink
+    notes: Completing the map

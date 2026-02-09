@@ -1,0 +1,23 @@
+id: 74492
+name: Spirit of The Apparatus
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/784D467BBFE501A8619DA6EB25DA96EB9A284ACA/1302142.png
+description: Salvaged from The Apparatus.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Apparatus
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: salvage
+  itemId: 75974
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

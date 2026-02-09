@@ -1,0 +1,49 @@
+id: 86120
+name: Shard of the Dark Arts
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/693B3D29F20B1FD7B94E71D7035C7A0F6F23325A/1894813.png
+description: 'Used to craft the legendary focus precursor Ars Goetia.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Energy, and a Gift
+  of the Mists to create the Gift of Ipos.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_the_Dark_Arts
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 20
+  - itemId: 19709
+    quantity: 10
+  - itemId: 79410
+    quantity: 1
+  - itemId: 86266
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,52 @@
+id: 46752
+name: Augur's Stone
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/622C35BD7B48F77C07C94CA3C73F9D9ADBCA4403/631529.png
+description: Used in crafting Ascended items.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Augur's_Stone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 20
+  metadata: {}

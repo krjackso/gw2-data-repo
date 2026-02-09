@@ -1,0 +1,32 @@
+id: 78475
+name: Visage of Chuka
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/301D94494419084A6F1C6AAC77DBAFD23D0B454A/1424036.png
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Visage_of_Chuka
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46694
+    quantity: 1
+  - itemId: 46738
+    quantity: 2
+  - itemId: 46739
+    quantity: 5
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

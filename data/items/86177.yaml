@@ -1,0 +1,26 @@
+id: 86177
+name: Spirit of the Jackal
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4465436F499C040130806BD3C37BBBC7C2A3326C/1894683.png
+description: In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the
+  Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of
+  the Rider.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Jackal
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Drojkor, Spirit Squall
+  outputQuantity: 1
+  requirements:
+  - currencyId: 35
+    quantity: 75
+  metadata:
+    notes: Requires the mastery Adroit Evasion.

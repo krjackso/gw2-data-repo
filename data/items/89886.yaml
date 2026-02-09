@@ -1,0 +1,33 @@
+id: 89886
+name: Spero
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/604FF1B55057909660B316047EBBD9C074C002AC/2083167.png
+description: <c=@flavor>This weapon is used to craft the legendary longbow Pharus.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spero
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45841
+    quantity: 1
+  - itemId: 45844
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 89947
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

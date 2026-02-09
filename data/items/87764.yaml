@@ -1,0 +1,33 @@
+id: 87764
+name: Call of the Void
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/F45DECF538174C6F582F0E5BCF484749A7B00EB0/1999149.png
+description: <c=@flavor>This weapon is used to craft the legendary warhorn Verdarach.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Call_of_the_Void
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45839
+    quantity: 1
+  - itemId: 45840
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 87711
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

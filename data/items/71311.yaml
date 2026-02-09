@@ -1,0 +1,53 @@
+id: 71311
+name: Gift of Gliding
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/242F4CF5A40D253C80B50CF9D97B6AB126E90869/1205276.png
+description: In the Mystic Forge, combine a Gift of the Itzel, Gift of the Nuhoch,
+  Gift of the Exalted, and Gift of Gliding to create the Gift of Insights.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Gliding
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 300
+  - currencyId: 20
+    quantity: 300
+  - currencyId: 22
+    quantity: 300
+  metadata:
+    notes: Requires the mastery Ley Line Gliding
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 300
+  - currencyId: 20
+    quantity: 300
+  - currencyId: 22
+    quantity: 300
+  metadata:
+    notes: Requires the mastery Ley Line Gliding
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 300
+  - currencyId: 20
+    quantity: 300
+  - currencyId: 22
+    quantity: 300
+  metadata:
+    notes: Requires the mastery Ley Line Gliding

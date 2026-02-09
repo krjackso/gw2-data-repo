@@ -1,0 +1,37 @@
+id: 73469
+name: Gift of the Itzel
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/27150FA5227AF20FC690A6D30E65483D5435419D/1205277.png
+description: In the Mystic Forge, combine a Gift of the Itzel, Gift of the Nuhoch,
+  Gift of the Exalted, and Gift of Gliding to create the Gift of Insights.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Itzel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Itzel Mastery Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 19
+    quantity: 500
+  metadata:
+    notes: Requires the mastery Adrenal Mushrooms and the mastery Itzel Language.
+- type: vendor
+  vendorName: Xochitl
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 19
+    quantity: 500
+  metadata:
+    notes: Requires the mastery Adrenal Mushrooms and the mastery Itzel Language.

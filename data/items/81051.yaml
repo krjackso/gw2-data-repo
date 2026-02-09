@@ -1,0 +1,49 @@
+id: 81051
+name: Shard of Liturgy
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/2A9F624253FC35DFBEC3CADCFF13CF65219DF503/1676634.png
+description: 'Used to craft the legendary torch precursor Liturgy.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Wood, and a Gift of
+  the Mists to create the Gift of Balthazar.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Liturgy
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 20
+  - itemId: 19709
+    quantity: 10
+  - itemId: 79410
+    quantity: 1
+  - itemId: 81163
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

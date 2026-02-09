@@ -1,0 +1,49 @@
+id: 89947
+name: Shard of Spero
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/C30D43491455391048047E1A0DC351CFF4093B37/2083169.png
+description: 'Used to craft the legendary longbow precursor Spero.
+
+  Combine in the Mystic Forge with Mystic Runestones, a Gift of Wood, and a Gift of
+  the Mists to create the Gift of Pharus.'
+vendorValue: 83
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Spero
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 40
+  - itemId: 19709
+    quantity: 30
+  - itemId: 79410
+    quantity: 1
+  - itemId: 89478
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450
+- type: container
+  itemId: 79431
+  containerName: Chest of Legendary Shards
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79789
+  containerName: Enormous Chest of Legendary Shards
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,24 @@
+id: 72934
+name: Essence of the Wild Spirit
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/27150FA5227AF20FC690A6D30E65483D5435419D/1205277.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_the_Wild_Spirit
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 76624
+  containerName: Chest of the Wild Spirit
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

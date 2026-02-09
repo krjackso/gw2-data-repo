@@ -1,0 +1,71 @@
+id: 46746
+name: Vision Crystal
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/4F19A8B4E309C3042358FB194F7190331DEF27EB/631494.png
+description: Used in crafting Ascended items.
+vendorValue: 40
+flags:
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Vision_Crystal
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46730
+    quantity: 5
+  - itemId: 46732
+    quantity: 5
+  - itemId: 46734
+    quantity: 5
+  - itemId: 46752
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 500
+- type: vendor
+  vendorName: Black Lion Commemorative Sprocket
+  outputQuantity: 1
+  requirements:
+  - itemId: 84438
+    quantity: 6
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 46730
+    quantity: 5
+  - itemId: 46732
+    quantity: 5
+  - itemId: 46734
+    quantity: 5
+  - itemId: 46752
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 67244
+  containerName: Dungeoneer's Grandmaster Chest
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wizards_vault
+  outputQuantity: 1
+  requirements:
+  - currencyId: 63
+    quantity: 150
+  metadata:
+    limitAmount: 4

@@ -1,0 +1,26 @@
+id: 85681
+name: Spirit of the Springer
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/E4F9AE26E70EE2E69F1F071366D431C978B64D3E/1894686.png
+description: In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the
+  Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of
+  the Rider.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Springer
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Stablemaster Unja
+  outputQuantity: 1
+  requirements:
+  - currencyId: 35
+    quantity: 75
+  metadata:
+    notes: Can only be purchased once the Springer mastery has been maxed.

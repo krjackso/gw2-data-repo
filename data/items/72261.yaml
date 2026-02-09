@@ -1,0 +1,295 @@
+id: 72261
+name: Legendary Inscription
+type: CraftingMaterial
+rarity: Exotic
+level: 10
+icon: https://render.guildwars2.com/file/77C8A04BDD91541BDFE85729FA1C0BB0C8BF45C7/1205434.png
+description: Used in the crafting of weapons with the potential to become Legend.
+vendorValue: 15
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Inscription
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12988
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 450
+- type: container
+  itemId: 76825
+  containerName: 'Box of Recipes: Chaos Gun (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74465
+  containerName: 'Box of Recipes: Dawn (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72230
+  containerName: 'Box of Recipes: Dusk (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72830
+  containerName: 'Box of Recipes: Howl (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71838
+  containerName: 'Box of Recipes: Leaf of Kudzu (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77162
+  containerName: 'Box of Recipes: Rodgort''s Flame (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76927
+  containerName: 'Box of Recipes: Spark (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72843
+  containerName: 'Box of Recipes: Storm (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75119
+  containerName: 'Box of Recipes: The Bard (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76766
+  containerName: 'Box of Recipes: The Chosen (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73817
+  containerName: 'Box of Recipes: The Colossus (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75922
+  containerName: 'Box of Recipes: The Device'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71493
+  containerName: 'Box of Recipes: The Energizer (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78148
+  containerName: 'Box of Recipes: The Hunt'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74636
+  containerName: 'Box of Recipes: The Hunter (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71677
+  containerName: 'Box of Recipes: The Legend (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71891
+  containerName: 'Box of Recipes: The Lover (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71405
+  containerName: 'Box of Recipes: The Ravenswood Branch'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76732
+  containerName: 'Box of Recipes: Tooth of Frostfang (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71679
+  containerName: 'Box of Recipes: Zap (First Tier)'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85754
+  containerName: 'Recipe: Ars Goetia'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87254
+  containerName: 'Recipe: Claw of Execution'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87044
+  containerName: 'Recipe: Claw of Resolution'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 87110
+  containerName: 'Recipe: Claw of Retribution'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79609
+  containerName: 'Recipe: Endeavor'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81619
+  containerName: 'Recipe: Exemplar''s Edge'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79569
+  containerName: 'Recipe: For Science'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81197
+  containerName: 'Recipe: Forgotten Brilliance'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79741
+  containerName: 'Recipe: Friendship'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80301
+  containerName: 'Recipe: Frigate'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79611
+  containerName: 'Recipe: Hypothesis'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81106
+  containerName: 'Recipe: Liturgy'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79716
+  containerName: 'Recipe: Loyalty'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80534
+  containerName: 'Recipe: Man o'' War'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 86372
+  containerName: 'Recipe: Mark of the Unnamed'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81691
+  containerName: 'Recipe: Might of Arah'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81155
+  containerName: 'Recipe: Neophyte''s Beacon'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81728
+  containerName: 'Recipe: Reclamation'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82001
+  containerName: 'Recipe: Save the Queen'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80640
+  containerName: 'Recipe: Schooner'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85959
+  containerName: 'Recipe: The True Name'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79841
+  containerName: 'Recipe: Trust'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82054
+  containerName: 'Recipe: Vengeance'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82040
+  containerName: 'Recipe: Vizier''s Folly'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,23 @@
+id: 78119
+name: Spirit of the Tiger
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/27150FA5227AF20FC690A6D30E65483D5435419D/1205277.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Tiger
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 78259
+  containerName: Chest of the Tiger
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,33 @@
+id: 79836
+name: Friendship
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/A90B05EE0B1D025EE2C241E8452278FC347C655B/1601583.png
+description: <c=@flavor>This weapon is used to craft the legendary shield Shooshadoo.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Friendship
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45857
+    quantity: 1
+  - itemId: 45858
+    quantity: 1
+  - itemId: 79784
+    quantity: 100
+  - itemId: 80503
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

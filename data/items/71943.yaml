@@ -1,0 +1,25 @@
+id: 71943
+name: Gift of Tarir
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BA9068D0761193FB369672F1696A3B09484A08A7/1204966.png
+description: In the Mystic Forge, combine a Gift of the Fleet, a Gift of Tarir, a
+  Gift of the Chak, and a Gift of the Jungle to create a Gift of Maguuma, used in
+  crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Tarir
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Auric Basin

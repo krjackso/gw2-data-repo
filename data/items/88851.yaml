@@ -1,0 +1,33 @@
+id: 88851
+name: Tlehco
+type: Weapon
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/942B656D53FCB415C42B659002A673AD0572B2C4/2038679.png
+description: <c=@flavor>This weapon is used to craft the legendary scepter Xiuquatl.</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tlehco
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45885
+    quantity: 1
+  - itemId: 45886
+    quantity: 1
+  - itemId: 80503
+    quantity: 1
+  - itemId: 88738
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

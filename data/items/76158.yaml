@@ -1,0 +1,37 @@
+id: 76158
+name: Astralaria
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/13B9B1A4A85E775E267D33B6B7FA2D436DEA0BA1/1200325.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Astralaria
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71426
+    quantity: 1
+  - itemId: 71820
+    quantity: 1
+  - itemId: 71972
+    quantity: 1
+  - itemId: 73239
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

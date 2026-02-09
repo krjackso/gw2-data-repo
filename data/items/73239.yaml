@@ -1,0 +1,29 @@
+id: 73239
+name: Gift of Maguuma Mastery
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B0051EB5FF730C9EF7C2A3781D3F9B732D4D1A55/455857.png
+description: A gift used to create legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Maguuma_Mastery
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20797
+    quantity: 1
+  - itemId: 46683
+    quantity: 250
+  - itemId: 72964
+    quantity: 1
+  - itemId: 74927
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

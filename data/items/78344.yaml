@@ -1,0 +1,30 @@
+id: 78344
+name: Gift of Family
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/BA52F5486D69D8B7E0E1374A37BCFC779E6ACEAB/1423953.png
+description: Used to craft the Gift of Chuka and Champawat.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Family
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Grandmaster Craftsman Hobbs
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 1000000
+  metadata:
+    notes: 'Requires the achievement Chuka and Champawat IV: A Nontraditional Family'
+- type: achievement
+  achievementName: 'Chuka and Champawat IV: A Nontraditional Family'
+  achievementCategory: Legendary Weapons
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

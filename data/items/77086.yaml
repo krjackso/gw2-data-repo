@@ -1,0 +1,30 @@
+id: 77086
+name: Gift of HOPE
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C4CE12E8D701F767F47113911EA80DBF78485C75/455831.png
+description: In the Mystic Forge, combine 100 Icy Runestones, a Gift of Wood, a Gift
+  of the Mists, and a Gift of the Catalyst to create the Gift of HOPE.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_HOPE
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19622
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 76427
+    quantity: 1
+  - itemId: 76442
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
