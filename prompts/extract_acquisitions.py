@@ -319,7 +319,16 @@ Rate overallConfidence based on how well you understood the page:
 
 1. Only extract entries explicitly described on the wiki page. Do NOT invent or \
 infer methods that aren't present.
-2. Use exact item and currency names as they appear on the wiki.
+2. Use exact names as they appear on the wiki, with one exception:
+   Replace ALL underscores with spaces in ALL names, including:
+   - Vendor names (e.g., "Rally_Provisioner" → "Rally Provisioner")
+   - Item names in ingredients (e.g., "Volatile_Magic" → "Volatile Magic")
+   - Currency names (e.g., "Volatile_Magic" → "Volatile Magic")
+   - Container names (e.g., "Mistborn_Coffer" → "Mistborn Coffer")
+   - Achievement names (e.g., "Lessons_in_Metallurgy" → "Lessons in Metallurgy")
+   - Any other names extracted from wiki links
+   Wiki links may use underscores as word separators, but always normalize these to \
+spaces for consistency across all name types.
 3. If an item is sold by multiple vendors, create a SEPARATE entry for each vendor.
 4. DETERMINISTIC ONLY: Exclude generic/random sources:
 - Generic containers like "Unidentified Gear" or "Chest of Exotic Equipment"
