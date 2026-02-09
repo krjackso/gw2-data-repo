@@ -69,6 +69,9 @@ uv run python -m scripts.populate --item-id 19721 --no-strict --dry-run
 uv run python -m scripts.populate_tree --item-id 30689 --limit 10
 uv run python -m scripts.populate_tree --item-name "Eternity" --limit 5
 
+# Process multiple root items in one run (comma-separated IDs)
+uv run python -m scripts.populate_tree --item-id 30689,30690,30691 --limit 10
+
 # Clear cache (all or by tag: api, wiki, llm)
 uv run python -m scripts.populate --clear-cache
 uv run python -m scripts.populate --clear-cache api wiki

@@ -122,17 +122,12 @@ def populate_tree(
         while queue and queue[0] in existing:
             item_id = queue.popleft()
             child_ids, notes_list = _analyze_item_file(item_id)
-            new_children = 0
             for cid in child_ids:
                 if cid not in seen:
                     enqueue(cid)
-                    new_children += 1
             for notes in notes_list:
                 other_types.append((item_id, notes))
             skipped += 1
-            items_left_str = f" | {queued_new} new in queue" if queued_new else ""
-            msg = f"[skip] {item_id} already exists — discovered {new_children} child(ren)"
-            terminal.debug(f"{msg}{items_left_str}")
 
     def _drain_batch() -> list[int]:
         nonlocal queued_new, skipped
@@ -267,7 +262,11 @@ def main() -> None:
         description="Recursively populate item acquisition data by traversing the crafting tree"
     )
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--item-id", type=int, help="Root item ID to start traversal from")
+    group.add_argument(
+        "--item-id",
+        type=str,
+        help="Root item ID(s) to start traversal from (comma-separated for multiple roots)",
+    )
     group.add_argument("--item-name", type=str, help="Root item name (resolved via index)")
 
     parser.add_argument(
@@ -311,6 +310,8 @@ def main() -> None:
     signal.signal(signal.SIGINT, _handle_sigint)
 
     try:
+        root_ids: list[int] = []
+
         if args.item_name:
             index = api.load_item_name_index()
             cleaned_name = api.clean_name(args.item_name)
@@ -323,20 +324,32 @@ def main() -> None:
                 for mid in matches:
                     terminal.bullet(f"--item-id {mid}", indent=2)
                 sys.exit(1)
-            root_id = matches[0]
-            terminal.info(f"Resolved '{args.item_name}' to item ID {root_id}\n")
+            root_ids = [matches[0]]
+            terminal.info(f"Resolved '{args.item_name}' to item ID {root_ids[0]}\n")
         else:
-            root_id = args.item_id
+            id_strings = [s.strip() for s in args.item_id.split(",")]
+            try:
+                root_ids = [int(s) for s in id_strings]
+            except ValueError as e:
+                terminal.error(f"Invalid item ID format: {e}")
+                sys.exit(1)
 
-        populate_tree(
-            root_id,
-            cache,
-            limit=args.limit,
-            dry_run=args.dry_run,
-            model=args.model,
-            force=args.force,
-            workers=args.workers,
-        )
+        for idx, root_id in enumerate(root_ids):
+            if len(root_ids) > 1:
+                terminal.section_header(f"Processing root {idx + 1}/{len(root_ids)}: {root_id}")
+
+            populate_tree(
+                root_id,
+                cache,
+                limit=args.limit,
+                dry_run=args.dry_run,
+                model=args.model,
+                force=args.force,
+                workers=args.workers,
+            )
+
+            if _interrupted:
+                break
 
     except KeyboardInterrupt:
         terminal.warning("\nAborted.")
