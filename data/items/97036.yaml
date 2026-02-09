@@ -1,0 +1,29 @@
+id: 97036
+name: Fortified Precursor Torch Head
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/057124C6C1D86FB6C7DBDEF1C2EC42AC4A2BDB93/2594350.png
+description: Used to craft torches.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Torch_Head
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45838
+    quantity: 1
+  - itemId: 97102
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

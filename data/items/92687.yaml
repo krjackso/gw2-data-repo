@@ -1,0 +1,173 @@
+id: 92687
+name: Amalgamated Draconic Lodestone
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/CEBF06A096D0EB0AF0410CA90370F0157F70A921/2247707.png
+description: Used in the Mystic Forge and crafting disciplines to create weapons.
+vendorValue: 200
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Amalgamated_Draconic_Lodestone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24325
+    quantity: 10
+  - itemId: 24330
+    quantity: 10
+  - itemId: 24340
+    quantity: 10
+  - itemId: 70842
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    - Jeweler
+    minRating: 400
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24325
+    quantity: 10
+  - itemId: 24330
+    quantity: 10
+  - itemId: 24335
+    quantity: 10
+  - itemId: 24340
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    - Jeweler
+    minRating: 400
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24325
+    quantity: 10
+  - itemId: 24330
+    quantity: 10
+  - itemId: 24340
+    quantity: 10
+  - itemId: 70842
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24325
+    quantity: 10
+  - itemId: 24330
+    quantity: 10
+  - itemId: 24335
+    quantity: 10
+  - itemId: 24340
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 25
+  requirements:
+  - itemId: 24325
+    quantity: 250
+  - itemId: 24330
+    quantity: 250
+  - itemId: 24340
+    quantity: 250
+  - itemId: 70842
+    quantity: 250
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 25
+  requirements:
+  - itemId: 24325
+    quantity: 250
+  - itemId: 24330
+    quantity: 250
+  - itemId: 24335
+    quantity: 250
+  - itemId: 24340
+    quantity: 250
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Super Adventure Box Weekly Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 41886
+    quantity: 15
+  metadata:
+    limitType: weekly
+    limitAmount: 3
+    notes: Requires the festival Super Adventure Festival.
+- type: achievement
+  achievementName: Azure Dragon Slayer Weapon Collector
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Crimson Dragon Slayer Weapon Collector
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Forger of Draconic Fire
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Forger of Draconic Ice
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Illuminated Boreal Weapons
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Master of Draconic Fire
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Master of Draconic Ice
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Master of the Storms
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Tengu Weapon Collector
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,31 @@
+id: 97066
+name: Gift of Aurene's Claw
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7BF8FFE4251DDD4FA73D63F331C9CC6231E6136F/2595117.png
+description: Combine at the Mystic Forge with Dragon's Claw, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary dagger Aurene's Claw.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Claw
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 96187
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

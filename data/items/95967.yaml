@@ -1,0 +1,18 @@
+id: 95967
+name: Dragon's Claw
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4B139E1101030276540A21FEBBC30AE3B9BD80B8/2594360.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Claw, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary dagger Aurene's Claw.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Claw
+lastUpdated: '2026-02-09'
+acquisitions: []

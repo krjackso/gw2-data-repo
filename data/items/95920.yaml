@@ -1,0 +1,41 @@
+id: 95920
+name: Dragon's Weight
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/7A9D0C591BD81B32B1605146AF0D28C2E14B5FE3/2595013.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Weight, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary hammer Aurene's Weight.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Weight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 96709
+    quantity: 1
+  - itemId: 97273
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

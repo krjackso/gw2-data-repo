@@ -1,0 +1,29 @@
+id: 95708
+name: Fortified Precursor Longbow Stave
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D70AAE4EB8E3A61752BC3FBB7AC651506AE02291/2594333.png
+description: Used to craft longbows.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Longbow_Stave
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45841
+    quantity: 1
+  - itemId: 96471
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

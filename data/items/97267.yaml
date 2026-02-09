@@ -1,0 +1,41 @@
+id: 97267
+name: Dragon's Persuasion
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/0B5ABB1D2804AE984D78BDA3F20401AEA718F3F9/2596716.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Persuasion, a Gift
+  of Jade Mastery, and a Draconic Tribute to create the legendary rifle Aurene's Persuasion.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Persuasion
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96040
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 97598
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

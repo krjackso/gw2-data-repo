@@ -1,0 +1,31 @@
+id: 97201
+name: Poem on Rifles
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F8419141CB9E9C9774051FA96405E316C1103802/2594193.png
+description: Combine at the Mystic Forge with 100 Mystic Runestones, a Gift of Research,
+  and a Gift of the Mists to create the Gift of Dragon's Persuasion.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Poem_on_Rifles
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45834
+    quantity: 1
+  - itemId: 71148
+    quantity: 1
+  - itemId: 96151
+    quantity: 10
+  - itemId: 97790
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge

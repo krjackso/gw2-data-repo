@@ -1,0 +1,20 @@
+id: 96151
+name: Tale of Adventure
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FD2BA936FF93F56C342EE5C517C0006EB27D0302/2594540.png
+description: Used for crafting and purchasing items. Earn daily from each story journal
+  chapter.
+vendorValue: 256
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Tale_of_Adventure
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Black Lion Delivery Box (End of Dragons)
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

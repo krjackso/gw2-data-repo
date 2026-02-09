@@ -1,0 +1,29 @@
+id: 97586
+name: Fortified Precursor Scepter Rod
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2B3DF07DF325B5BBE7EDBCE0A0E6F6B3EEC90CA2/2594340.png
+description: Used to craft scepters.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Scepter_Rod
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45886
+    quantity: 1
+  - itemId: 96471
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500

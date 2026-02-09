@@ -1,0 +1,24 @@
+id: 97829
+name: Blessing of the Jade Empress
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B618074108F64D06A6541E4F25DF07A9ED7CCD61/2594278.png
+description: Purchased from Keepers of the Jade Vault.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Blessing_of_the_Jade_Empress
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Myung-Hee
+  outputQuantity: 1
+  requirements:
+  - currencyId: 68
+    quantity: 500
+  metadata: {}

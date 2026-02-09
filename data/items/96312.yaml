@@ -1,0 +1,29 @@
+id: 96312
+name: Fortified Precursor Shield Backing
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FBC82E034CA8AB7F50086C6C7FF2D56FFFA104A3/2594341.png
+description: Used to craft shields.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Shield_Backing
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45857
+    quantity: 1
+  - itemId: 97102
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

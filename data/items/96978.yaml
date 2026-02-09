@@ -1,0 +1,130 @@
+id: 96978
+name: Antique Summoning Stone
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/04DDE41E0EF34E2962E9A44CAE609FAA05283A08/2595107.png
+description: Used in the crafting of End of Dragons legendary items.
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Antique_Summoning_Stone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: 'Dragon''s End: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata:
+    notes: Arborstone
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata:
+    notes: The Wizard's Tower
+- type: vendor
+  vendorName: Leivas
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the mastery Globalization. Limit 1 per week.
+- type: vendor
+  vendorName: Leivas
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 10
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the mastery Globalization. Limit 1 per week.
+- type: vendor
+  vendorName: Leivas
+  outputQuantity: 1
+  requirements:
+  - currencyId: 68
+    quantity: 100
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the mastery Globalization. Limit 1 per week.
+- type: vendor
+  vendorName: Leivas
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 7000
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the mastery Globalization. Limit 1 per week.
+- type: vendor
+  vendorName: Leivas
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the mastery Globalization. Limit 1 per week.
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104910
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 97896
+  containerName: 'Dragon''s End: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: End of Dragons Reward Coffer
+  outputQuantity: 5
+  choice: true
+  requirements: []
+  metadata:
+    notes: only repeatable

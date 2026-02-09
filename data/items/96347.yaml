@@ -1,0 +1,696 @@
+id: 96347
+name: Chunk of Ancient Ambergris
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C113C406281D94BB560701DF350BCA9AF592AFE9/2597025.png
+description: Used in the crafting of End of Dragons legendary items.
+vendorValue: 64
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chunk_of_Ancient_Ambergris
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Bending Reed
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Circus Castaway
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Kairi
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Lupine in the Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Mori Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Olmakhan Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Seitung Province: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Shui
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Sora
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Taro Everclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Twoloop Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 95673
+    quantity: 10
+  metadata:
+    limitType: daily
+    limitAmount: 5
+    notes: Requires the mastery Local Legend
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104973
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Aquatic Trash Collector
+  achievementCategory: Fishing
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Aquatic Treasure Collector
+  achievementCategory: Fishing
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Ascalonian Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Castora Fisher
+  achievementCategory: Fishing
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Desert Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Desert Isles Fisher
+  achievementCategory: Fishing
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Dragon's End Fisher
+  achievementCategory: Fishing
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Echovald Wilds Fisher
+  achievementCategory: Fishing
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Horn of Maguuma Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Janthir Fisher
+  achievementCategory: Fishing
+  outputQuantity: 4
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Kaineng Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Krytan Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Maguuma Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Mistburned Barrens Fisher
+  achievementCategory: Fishing
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Orrian Fisher
+  achievementCategory: Fishing
+  outputQuantity: 6
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95723
+  containerName: Alabaster Oscar
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97078
+  containerName: Arapaima
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96744
+  containerName: Ascalonian Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96225
+  containerName: Beluga
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96332
+  containerName: Benthic Behemoth
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97527
+  containerName: Black Lionfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96401
+  containerName: Bluefin Tuna
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96081
+  containerName: Branded Eel
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100180
+  containerName: Celestial Fish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95632
+  containerName: Chambered Nautilus
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96789
+  containerName: Crystal Desert Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96103
+  containerName: Crystal Desert Isles Fishing Reward
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96817
+  containerName: Cuttlefish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97489
+  containerName: Dandan
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97559
+  containerName: Dark Sleeper
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97081
+  containerName: Dragon's End Fishing Reward
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96361
+  containerName: Dunkleosteus
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96489
+  containerName: Echovald Fishing Reward
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97753
+  containerName: Fugu Fish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97466
+  containerName: Giant Paddlefish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96882
+  containerName: Glacial Snakehead
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95908
+  containerName: Goliath Grouper
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97225
+  containerName: Halibut
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101610
+  containerName: Horn of Maguuma Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105724
+  containerName: Illusive Jellycrab
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103117
+  containerName: Janthir Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97144
+  containerName: Kaineng Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97763
+  containerName: Kaluga
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97334
+  containerName: Krytan Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101446
+  containerName: Maddened Mackerel
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97749
+  containerName: Maguuma Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97716
+  containerName: Melandru's Lurker
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96543
+  containerName: Mud Skate
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95609
+  containerName: Muskellunge
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96196
+  containerName: Oarfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97607
+  containerName: Orrian Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95716
+  containerName: Ring of Fire Fishing Reward
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95926
+  containerName: Sailfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96728
+  containerName: Seitung Province Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96936
+  containerName: Shipwreck Moray
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96309
+  containerName: Shiverpeaks Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97485
+  containerName: Slaughterfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96595
+  containerName: Stone Guiyu
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97181
+  containerName: Sunfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97654
+  containerName: Swordfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100032
+  containerName: Three-Eyed Carp
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97169
+  containerName: Tyrian Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96904
+  containerName: Tyrian Saltwater Fishing Reward
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97017
+  containerName: Unholy Mackerel
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95929
+  containerName: Vundu
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: End of Dragons Reward Coffer
+  outputQuantity: 2
+  choice: true
+  requirements: []
+  metadata:
+    notes: only repeatable
+- type: container
+  itemId: 97895
+  containerName: 'Seitung Province: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

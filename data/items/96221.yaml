@@ -1,0 +1,35 @@
+id: 96221
+name: Aurene's Wisdom
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/46C3662430F1CEA74CCB062FD248FC260D129B43/2596776.png
+vendorValue: 660
+flags:
+- HideSuffix
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Aurene's_Wisdom
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 96033
+    quantity: 1
+  - itemId: 96137
+    quantity: 1
+  - itemId: 96193
+    quantity: 1
+  - itemId: 97552
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

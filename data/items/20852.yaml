@@ -1,0 +1,45 @@
+id: 20852
+name: Eldritch Scroll
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/57B5F0CE02092248CDA26C7A54EF01EE2209A5FC/434427.png
+description: A powerful scroll used in the Mystic Forge.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Eldritch_Scroll
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 50
+  metadata: {}

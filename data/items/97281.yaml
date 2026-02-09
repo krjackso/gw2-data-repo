@@ -1,0 +1,31 @@
+id: 97281
+name: Gift of Aurene's Insight
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/30AA91B31A1E4777D612E720EF7D075B4EC30F59/2595128.png
+description: Combine at the Mystic Forge with Dragon's Insight, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary staff Aurene's Insight.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Insight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 95962
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

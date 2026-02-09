@@ -1,0 +1,29 @@
+id: 97305
+name: Fortified Precursor Pistol Barrel
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C949C862636CED0C77F159271CB401C9032E77ED/2594335.png
+description: Used to craft pistols.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Pistol_Barrel
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45833
+    quantity: 1
+  - itemId: 97102
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

@@ -1,0 +1,31 @@
+id: 97412
+name: Gift of Aurene's Persuasion
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BACF719EBC4C314B4DAB141B17C552175F080409/2595124.png
+description: Combine at the Mystic Forge with Dragon's Persuasion, a Gift of Jade
+  Mastery, and a Draconic Tribute to create the legendary rifle Aurene's Persuasion.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Persuasion
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 97201
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,288 @@
+id: 96722
+name: Jade Runestone
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/23E4BBD622B407B9C64FFD3B23060817C30DEB08/2597020.png
+description: Used in the crafting of End of Dragons legendary items.
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Jade_Runestone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Chin-Hwa
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: 'Echovald Wilds: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Gyala Delve: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'New Kaineng City: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104738
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104988
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Dead Play
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Little Foxes in the Big City
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Playing with the Infants
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Spiritual Childcare
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: What Did the Shrine Guardians Say?
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of Grand Valdhertz Riches
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of Vasburg Riches
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Canthan Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Chest (The Echovald Wilds)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Grand Jade Tech Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Cantha Darkness)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (The Echovald Wilds)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Magnificent Chest (Trial of the Elders)
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Unnamed Chest (Silent Sands)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97894
+  containerName: 'Echovald Wilds: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: End of Dragons Reward Coffer
+  outputQuantity: 15
+  choice: true
+  requirements: []
+  metadata:
+    notes: choice, only repeatable
+- type: container
+  itemId: 99704
+  containerName: 'Gyala Delve: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97901
+  containerName: 'New Kaineng City: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

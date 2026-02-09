@@ -1,0 +1,31 @@
+id: 96015
+name: Gift of Aurene's Wing
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4D3EF168D8A04052A519DA5AA3B909B501097633/2595127.png
+description: Combine at the Mystic Forge with Dragon's Wing, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary short bow Aurene's Wing.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Wing
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 96849
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

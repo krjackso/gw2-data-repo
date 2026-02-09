@@ -1,0 +1,29 @@
+id: 97273
+name: Large Fortified Precursor Haft
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E35F02E73E9F9377E4B905C078D1149EF6CB0D0B/2594331.png
+description: Used to craft hammers and spears.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Large_Fortified_Precursor_Haft
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45849
+    quantity: 1
+  - itemId: 96471
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500

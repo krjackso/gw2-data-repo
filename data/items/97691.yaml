@@ -1,0 +1,41 @@
+id: 97691
+name: Dragon's Scale
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/E206FB121E7351AE15E69DC961CAE5DF4C56A6C1/2596830.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Scale, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary shield Aurene's Scale.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Scale
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 96267
+    quantity: 1
+  - itemId: 96312
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

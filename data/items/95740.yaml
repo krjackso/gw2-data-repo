@@ -1,0 +1,31 @@
+id: 95740
+name: Poem on Shields
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B45BEEF8C264F04B4901F741647B9A3724B8B922/2594195.png
+description: Combine at the Mystic Forge with 100 Mystic Runestones, a Gift of Research,
+  and a Gift of the Mists to create the Gift of Dragon's Scale.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Poem_on_Shields
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45858
+    quantity: 1
+  - itemId: 71148
+    quantity: 1
+  - itemId: 96151
+    quantity: 10
+  - itemId: 97790
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge

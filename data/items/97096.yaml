@@ -1,0 +1,32 @@
+id: 97096
+name: Gift of Cantha
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B4F93F4D902BC61AB413AD7C6D0BE9D96D49289F/2595105.png
+description: In the Mystic Forge, combine a Bloodstone Shard, a Gift of Cantha, a
+  Gift of the Dragon Empire, and 100 Antique Summoning Stones to create the Gift of
+  Jade Mastery.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Cantha
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 95621
+    quantity: 1
+  - itemId: 96083
+    quantity: 1
+  - itemId: 96993
+    quantity: 1
+  - itemId: 97232
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

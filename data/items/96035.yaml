@@ -1,0 +1,31 @@
+id: 96035
+name: Poem on Maces
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/21FFBE04A1C7C8C71CDF2D5865F2B94C19CC7A0A/2594191.png
+description: Combine at the Mystic Forge with 100 Mystic Runestones, a Gift of Research,
+  and a Gift of the Mists to create the Gift of Dragon's Tail.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Poem_on_Maces
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45852
+    quantity: 1
+  - itemId: 71148
+    quantity: 1
+  - itemId: 96151
+    quantity: 10
+  - itemId: 97790
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge

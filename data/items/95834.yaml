@@ -1,0 +1,41 @@
+id: 95834
+name: Dragon's Flight
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/265301FE5D6AAA0CEE7DC29C351B7A6C91F2E5DD/2593874.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Flight, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary longbow Aurene's Flight.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Flight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95708
+    quantity: 1
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 97757
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

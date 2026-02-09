@@ -1,0 +1,24 @@
+id: 97232
+name: Gift of the Echovald Forest
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/025EF4F60B272E80DC09099F01AA51387A72300E/2595106.png
+description: In the Mystic Forge, combine a Gift of Seitung Province, a Gift of New
+  Kaineng City, a Gift of the Echovald Forest, and a Gift of Dragon's End to create
+  a Gift of Cantha, used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Echovald_Forest
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Chest of the Jade Explorer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

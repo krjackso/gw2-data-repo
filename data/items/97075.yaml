@@ -1,0 +1,81 @@
+id: 97075
+name: Piece of Crustacean Meat
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/39290418EC39DABDCB33136E5358E609D5FCC5B1/2594831.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Crustacean_Meat
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 106669
+  containerName: Elusive Boxcrab
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104459
+  containerName: Hermit Titancrab
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105724
+  containerName: Illusive Jellycrab
+  outputQuantity: 6
+  outputQuantityMin: 6
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96513
+  containerName: King Crab
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95961
+  containerName: Krytan Crawfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96082
+  containerName: Mantis Shrimp
+  outputQuantity: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96318
+  containerName: Mega Prawn
+  outputQuantity: 5
+  outputQuantityMin: 5
+  outputQuantityMax: 7
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96276
+  containerName: Snow Crab
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104275
+  containerName: Spineback Crab
+  outputQuantity: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}

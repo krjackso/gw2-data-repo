@@ -1,0 +1,41 @@
+id: 95994
+name: Dragon's Fang
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/24F07065A51E4BE8F00F9573FF76B221BAAAA6D8/2596936.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Fang, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary sword Aurene's Fang.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Fang
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 97006
+    quantity: 1
+  - itemId: 97206
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

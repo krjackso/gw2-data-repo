@@ -1,0 +1,32 @@
+id: 97433
+name: Gift of the Dragon Empire
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BF1AB707D9D8ADF1186910714F9C9F2426BE5B21/2595113.png
+description: In the Mystic Forge, combine 200 Chunks of Pure Jade, 100 Jade Runestones,
+  5 Blessings of the Jade Empress, and 100 Chunks of Ancient Ambergris to create a
+  Gift of the Dragon Empire.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Dragon_Empire
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 96347
+    quantity: 100
+  - itemId: 96722
+    quantity: 100
+  - itemId: 97102
+    quantity: 200
+  - itemId: 97829
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

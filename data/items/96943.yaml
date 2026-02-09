@@ -1,0 +1,715 @@
+id: 96943
+name: Flavorful Fish Fillet
+type: CraftingMaterial
+rarity: Rare
+level: 65
+icon: https://render.guildwars2.com/file/D4AAF271369F309BDD1363A2C64C79725B0131F5/2594830.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Flavorful_Fish_Fillet
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Bending Reed
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Circus Castaway
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Kairi
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Lupine in the Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Mori Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Shui
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Sora
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Taro Everclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Twoloop Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 97690
+    quantity: 5
+  metadata: {}
+- type: container
+  itemId: 96053
+  containerName: Amberjack
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96635
+  containerName: Armored Scalefish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96744
+  containerName: Ascalonian Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97509
+  containerName: Black Bass
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95992
+  containerName: Bloodfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96804
+  containerName: Bonefish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96834
+  containerName: Cherry Barb
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96108
+  containerName: Clawfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100887
+  containerName: Codmander
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97787
+  containerName: Croaker
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96789
+  containerName: Crystal Desert Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96103
+  containerName: Crystal Desert Isles Fishing Reward
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96425
+  containerName: Cutlass Fish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97081
+  containerName: Dragon's End Fishing Reward
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97792
+  containerName: Dragonfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96304
+  containerName: Dustfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96489
+  containerName: Echovald Fishing Reward
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97247
+  containerName: Electric Eel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105908
+  containerName: Emerald-Scaled Grouper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95624
+  containerName: Fangfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96283
+  containerName: Fire Eel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102930
+  containerName: Flowerhead
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96551
+  containerName: Frilled Shark
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96555
+  containerName: Geyser Batfin
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97848
+  containerName: Giant Barb
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97692
+  containerName: Honeycomb Grouper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101610
+  containerName: Horn of Maguuma Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97496
+  containerName: Icy Lumpfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103117
+  containerName: Janthir Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97144
+  containerName: Kaineng Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95822
+  containerName: King Salmon
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97334
+  containerName: Krytan Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95875
+  containerName: Largemouth Bass
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104237
+  containerName: Longbeak Parrotfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97749
+  containerName: Maguuma Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102523
+  containerName: Mohawk Bream
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97109
+  containerName: Mudskipper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97001
+  containerName: Opah
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97607
+  containerName: Orrian Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96320
+  containerName: Pacu
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95608
+  containerName: Paddlefish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97841
+  containerName: Peacock Bass
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96792
+  containerName: Petrifish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97830
+  containerName: Pufferfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103511
+  containerName: Queen Parrotfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96226
+  containerName: Rainbow Trout
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96097
+  containerName: Redfin Barb
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95716
+  containerName: Ring of Fire Fishing Reward
+  outputQuantity: 20
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97241
+  containerName: Rockfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105448
+  containerName: Ruby-Scaled Goatfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105695
+  containerName: Sapphire-Scaled Moonfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96728
+  containerName: Seitung Province Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96076
+  containerName: Sheatfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96309
+  containerName: Shiverpeaks Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97005
+  containerName: Silver Moony
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95668
+  containerName: Sockeye
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102796
+  containerName: Spectacled Lumper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97183
+  containerName: Spotted Pufferfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100751
+  containerName: Strength Fish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95682
+  containerName: Totemfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97061
+  containerName: Tripletail
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97169
+  containerName: Tyrian Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96904
+  containerName: Tyrian Saltwater Fishing Reward
+  outputQuantity: 30
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96141
+  containerName: Venomfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96645
+  containerName: Wolffish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97887
+  containerName: Yellow Perch
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97756
+  containerName: Yellowtail Snapper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}

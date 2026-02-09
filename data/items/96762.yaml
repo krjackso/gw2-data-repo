@@ -1,0 +1,601 @@
+id: 96762
+name: Fine Fish Fillet
+type: CraftingMaterial
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/7B6CF5C9923AD4E8C76AED444E9C5A15BA2CB6B9/2594829.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Fine_Fish_Fillet
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Bending Reed
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Circus Castaway
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kairi
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Lupine in the Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mori Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Shui
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Sora
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Taro Everclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Twoloop Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 97075
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 97035
+  containerName: Albino Blindfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97799
+  containerName: Alewife
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97364
+  containerName: Alpine Char
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100046
+  containerName: Bastion Fish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96297
+  containerName: Bitterling
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96195
+  containerName: Black Carp
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 9
+  outputQuantityMin: 9
+  outputQuantityMax: 17
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96933
+  containerName: Blowfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105511
+  containerName: Bluefin Barratuna
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96350
+  containerName: Bluefin Trevally
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97885
+  containerName: Bluegill
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97240
+  containerName: Boxfish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96020
+  containerName: Brackish Goby
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97584
+  containerName: Bream
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96176
+  containerName: Brook Trout
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97814
+  containerName: Canthan Carp
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105980
+  containerName: Castoran Milkfish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 106654
+  containerName: Castoran Sea Bass
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96071
+  containerName: Chestnut Sea Bream
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96085
+  containerName: Cobia
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96719
+  containerName: Corvina
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96532
+  containerName: Cutthroat Trout
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96899
+  containerName: Daijun Blackfin
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101241
+  containerName: Daydream
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96055
+  containerName: Dead Alewife
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96032
+  containerName: Delavan Guppy
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96132
+  containerName: Dusky Grouper
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96367
+  containerName: Elon Tetra
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96445
+  containerName: Elonian Bass
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95797
+  containerName: Emperor Fish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96491
+  containerName: Firemouth
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96720
+  containerName: Flayfin
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97612
+  containerName: Flying Fish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100682
+  containerName: Fractured Fish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96807
+  containerName: Freshwater Eel
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95924
+  containerName: Ghostfish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95894
+  containerName: Globefish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95729
+  containerName: Gourami
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97713
+  containerName: Grayling
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 106052
+  containerName: Great Bearded Goatfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95766
+  containerName: Icefish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96597
+  containerName: Igneous Rockfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102966
+  containerName: Juvenile Frogfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95596
+  containerName: Knifefish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102451
+  containerName: Lowland Grunt
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96308
+  containerName: Lungfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96349
+  containerName: Mahseer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96666
+  containerName: Monkfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97865
+  containerName: Mullet
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95873
+  containerName: Murkwater Darter
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100845
+  containerName: Natural Fish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97568
+  containerName: Oscar
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96397
+  containerName: Parrotfish
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101127
+  containerName: Phantom Pollock
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96201
+  containerName: Piranha
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96876
+  containerName: Pollock
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96757
+  containerName: Porgy
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 99986
+  containerName: Queen's Flipper
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96913
+  containerName: Rohu
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96740
+  containerName: Round Goby
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95881
+  containerName: Sailfin Molly
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95633
+  containerName: Sea Perch
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97369
+  containerName: Sea Trout
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95890
+  containerName: Sheepshead
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96494
+  containerName: Shinota Blackfin
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95751
+  containerName: Silver Drum
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97121
+  containerName: Smallmouth Bass
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96983
+  containerName: Snook
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97462
+  containerName: Speckled Perch
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96001
+  containerName: Spotted Flounder
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96096
+  containerName: Stone Loach
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96653
+  containerName: Surubim
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96854
+  containerName: Tilapia
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96547
+  containerName: Volcanic Blackfish
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96643
+  containerName: Walleye
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96839
+  containerName: Weever
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97755
+  containerName: Zander
+  outputQuantity: 2
+  requirements: []
+  metadata: {}

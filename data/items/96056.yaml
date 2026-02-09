@@ -1,0 +1,29 @@
+id: 96056
+name: Fortified Precursor Warhorn Mouthpiece
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/77C7997FEC19540D0E54101441AEFB069F73C9FB/2594352.png
+description: Used to craft warhorns.
+vendorValue: 64
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fortified_Precursor_Warhorn_Mouthpiece
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45840
+    quantity: 1
+  - itemId: 97102
+    quantity: 20
+  - itemId: 97829
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

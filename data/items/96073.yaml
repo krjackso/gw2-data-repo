@@ -1,0 +1,31 @@
+id: 96073
+name: Gift of Aurene's Scale
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/93C21D2E6EA0E6D5D6F9E7CF04793C07C00E1395/2595126.png
+description: Combine at the Mystic Forge with Dragon's Scale, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary shield Aurene's Scale.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Scale
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 95740
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

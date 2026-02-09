@@ -1,0 +1,35 @@
+id: 97783
+name: Aurene's Voice
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/480D1EBF4A468059631D11C100406AE1C617C3D4/2597054.png
+vendorValue: 660
+flags:
+- HideSuffix
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Aurene's_Voice
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 96033
+    quantity: 1
+  - itemId: 96137
+    quantity: 1
+  - itemId: 96354
+    quantity: 1
+  - itemId: 97513
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

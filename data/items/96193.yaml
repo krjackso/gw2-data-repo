@@ -1,0 +1,41 @@
+id: 96193
+name: Dragon's Wisdom
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/B29531A293E87F083F09E21EDBC0C4F0032DF051/2596778.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Wisdom, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary scepter Aurene's Wisdom.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Wisdom
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 96448
+    quantity: 1
+  - itemId: 97586
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

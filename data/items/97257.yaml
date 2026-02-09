@@ -1,0 +1,31 @@
+id: 97257
+name: Poem on Torches
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0ED7B3C2091D106BF460C948FE0D394705DC575D/2594199.png
+description: Combine at the Mystic Forge with 100 Mystic Runestones, a Gift of Research,
+  and a Gift of the Mists to create the Gift of Dragon's Breath.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Poem_on_Torches
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45838
+    quantity: 1
+  - itemId: 71148
+    quantity: 1
+  - itemId: 96151
+    quantity: 10
+  - itemId: 97790
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,31 @@
+id: 95846
+name: Gift of Aurene's Tail
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/E8EDB03701FB9A25B5C0C836F39B077DFCE6B7A2/2595122.png
+description: Combine at the Mystic Forge with Dragon's Tail, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary mace Aurene's Tail.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Tail
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 96035
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

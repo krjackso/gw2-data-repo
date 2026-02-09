@@ -1,0 +1,41 @@
+id: 95814
+name: Dragon's Insight
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/72BC443D4FBE512332255B56214ED6DBD83A3804/2596890.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Insight, a Gift
+  of Jade Mastery, and a Draconic Tribute to create the legendary staff Aurene's Insight.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Insight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 95970
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 97408
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

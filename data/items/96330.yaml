@@ -1,0 +1,42 @@
+id: 96330
+name: Dragon's Wing
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/105CCB0A37522041CB3FCDC6F53EDF1F0C0A1254/2593875.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Wing, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary short bow Aurene's
+  Wing.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Wing
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 96721
+    quantity: 1
+  - itemId: 97757
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

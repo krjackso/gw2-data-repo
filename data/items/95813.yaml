@@ -1,0 +1,65 @@
+id: 95813
+name: Hydrocatalytic Reagent
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/FF0EDBF868E8E5D53BDD9F4CC00DAAD5B6ABAD78/2597019.png
+description: Used in the crafting of special items. Can be purchased from master craftspeople.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Hydrocatalytic_Reagent
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Archaeologist
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Elder
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Elite Servitor
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Guest Elder (Research Merchant)
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Master craftsman
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Xunlai Jade Sales Associate
+  outputQuantity: 10
+  requirements:
+  - currencyId: 61
+    quantity: 50
+  metadata: {}

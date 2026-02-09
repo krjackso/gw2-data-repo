@@ -1,0 +1,60 @@
+id: 104988
+name: 'New Kaineng City: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FDF5B9F3AE45086BE55CF4CF7C79F313D6A01E61/2594264.png
+description: Contains Pieces of Rare Unidentified Gear and a chest from which to pick
+  your choice of items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/New_Kaineng_City:_Commander's_Choice_Chest
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 68063
+  containerName: Amalgamated Gemstone
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97102
+  containerName: Chunk of Pure Jade
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96722
+  containerName: Jade Runestone
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104988
+  containerName: 'New Kaineng City: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95947
+  containerName: Suun's Weapon Recipe Book
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96533
+  containerName: Writ of New Kaineng City
+  outputQuantity: 10
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,55 @@
+id: 97655
+name: Gift of Research
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/75E96691D495B9A7B7216F3A2D96309C72A7D596/2595111.png
+description: In the Mystic Forge, combine 500 Hydrocatalytic Reagents, 250 Thermocatalytic
+  Reagents, and 250 exotic Essences of Luck to create a Gift of Research.
+vendorValue: 160
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Research
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45178
+    quantity: 250
+  - itemId: 46747
+    quantity: 250
+  - itemId: 95813
+    quantity: 500
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 45178
+    quantity: 250
+  - itemId: 46747
+    quantity: 250
+  - itemId: 95813
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 45178
+    quantity: 250
+  - itemId: 46747
+    quantity: 250
+  - itemId: 95813
+    quantity: 500
+  metadata: {}

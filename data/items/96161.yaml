@@ -1,0 +1,31 @@
+id: 96161
+name: Gift of Aurene's Weight
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D40E40AE21F2D53907D13E3B27DEE7BFE5F094DF/2595120.png
+description: Combine at the Mystic Forge with Dragon's Weight, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary hammer Aurene's Weight.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Weight
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 97082
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,41 @@
+id: 97513
+name: Dragon's Voice
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/9F0054DBA9283BAA41AA48A808AB0405D6CBD852/2597056.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Horn, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary warhorn Aurene's Voice.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Voice
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96056
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 96380
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

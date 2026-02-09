@@ -1,0 +1,22 @@
+id: 96088
+name: Memory of Aurene
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A1573F25F4E83A35509618B30DB0D4A60E94AAC5/2595115.png
+description: Stored memories of your moments with the Prismatic Elder Dragon, Aurene.
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Aurene
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: End of Dragons Reward Coffer
+  outputQuantity: 25
+  choice: true
+  requirements: []
+  metadata:
+    notes: Only repeatable

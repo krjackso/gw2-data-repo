@@ -1,0 +1,29 @@
+id: 104973
+name: 'Seitung Province: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FDF5B9F3AE45086BE55CF4CF7C79F313D6A01E61/2594264.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>Those blast gyros really do some damage. Maybe you should focus on them
+  first?</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Seitung_Province:_Commander's_Choice_Chest
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 104973
+  containerName: 'Seitung Province: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

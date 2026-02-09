@@ -1,0 +1,688 @@
+id: 95673
+name: Flawless Fish Fillet
+type: CraftingMaterial
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/4D779C211845066A3AEB18EBA64BB231A9F00F03/2594828.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Flawless_Fish_Fillet
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Bending Reed
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Bending Reed
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Daily Catch exchange: 3 per account per day. Specific Exotic or Rare fish
+      or Specific Masterwork fish'
+- type: vendor
+  vendorName: Circus Castaway
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Dock Worker
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Daily Catch exchange: 3 per account per day. Specific Exotic or Rare fish
+      or Specific Masterwork fish'
+- type: vendor
+  vendorName: Humbled Den
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Daily Catch exchange: 3 per account per day. Specific Exotic or Rare fish
+      or Specific Masterwork fish'
+- type: vendor
+  vendorName: Kairi
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Lupine in the Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Lupine in the Wind
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: 'Daily Catch exchange: 3 per account per day. Specific Exotic fish or Specific
+      Rare fish or Specific Masterwork fish'
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Mori Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Olmakhan Villager
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Shui
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Sora
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Taro Everclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Twoloop Trader
+  outputQuantity: 1
+  requirements:
+  - itemId: 95663
+    quantity: 5
+  metadata: {}
+- type: container
+  itemId: 95723
+  containerName: Alabaster Oscar
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97078
+  containerName: Arapaima
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96225
+  containerName: Beluga
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96332
+  containerName: Benthic Behemoth
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97527
+  containerName: Black Lionfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96813
+  containerName: Blobfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95849
+  containerName: Blue Marlin
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96401
+  containerName: Bluefin Tuna
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96081
+  containerName: Branded Eel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100180
+  containerName: Celestial Fish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97489
+  containerName: Dandan
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97559
+  containerName: Dark Sleeper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96361
+  containerName: Dunkleosteus
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97753
+  containerName: Fugu Fish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96105
+  containerName: Gar
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95843
+  containerName: Giant Catfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97466
+  containerName: Giant Paddlefish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97463
+  containerName: Giant Trevally
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96882
+  containerName: Glacial Snakehead
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101209
+  containerName: Glutfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96692
+  containerName: Golden Dorado
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95908
+  containerName: Goliath Grouper
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97225
+  containerName: Halibut
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97409
+  containerName: Holy Mackerel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105724
+  containerName: Illusive Jellycrab
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97465
+  containerName: Jundia
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97763
+  containerName: Kaluga
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97301
+  containerName: Lornar's Bass
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101446
+  containerName: Maddened Mackerel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96530
+  containerName: Magma Ray
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96724
+  containerName: Marbled Lungfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97716
+  containerName: Melandru's Lurker
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96543
+  containerName: Mud Skate
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95609
+  containerName: Muskellunge
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96196
+  containerName: Oarfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100904
+  containerName: Obscure Fish
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95731
+  containerName: Queenfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97543
+  containerName: Rainbow Glowfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97186
+  containerName: Risen Sea Bass
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95584
+  containerName: Royal Featherback
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96571
+  containerName: Royal Pike
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95926
+  containerName: Sailfish
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97498
+  containerName: Scorpion Fish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105730
+  containerName: Secret Squid
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96936
+  containerName: Shipwreck Moray
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96523
+  containerName: Skipjack Tuna
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97485
+  containerName: Slaughterfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96954
+  containerName: Snowflake Eel
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95603
+  containerName: Spotted Stingray
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96863
+  containerName: Starry Flounder
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96595
+  containerName: Stone Guiyu
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 96094
+  containerName: Striped Catfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97181
+  containerName: Sunfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97654
+  containerName: Swordfish
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97857
+  containerName: Tarpon
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100032
+  containerName: Three-Eyed Carp
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97145
+  containerName: Tigerfish
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97017
+  containerName: Unholy Mackerel
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 95929
+  containerName: Vundu
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}

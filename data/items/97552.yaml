@@ -1,0 +1,31 @@
+id: 97552
+name: Gift of Aurene's Wisdom
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D60C0E0D3FE89791F91172C8C90C0F97E1BD380E/2595125.png
+description: Combine at the Mystic Forge with Dragon's Wisdom, a Gift of Jade Mastery,
+  and a Draconic Tribute to create the legendary scepter Aurene's Wisdom.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Aurene's_Wisdom
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 96173
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

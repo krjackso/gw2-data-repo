@@ -1,0 +1,31 @@
+id: 96187
+name: Poem on Daggers
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BDC3A513099FA6750A30EC21B3A6250F6AAE919F/2594186.png
+description: Combine at the Mystic Forge with 100 Mystic Runestones, a Gift of Research,
+  and a Gift of the Mists to create the Gift of Dragon's Claw.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Poem_on_Daggers
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45846
+    quantity: 1
+  - itemId: 71148
+    quantity: 1
+  - itemId: 96151
+    quantity: 10
+  - itemId: 97790
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge

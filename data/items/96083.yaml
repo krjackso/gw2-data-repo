@@ -1,0 +1,25 @@
+id: 96083
+name: Gift of Dragon's End
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6728CBCB301BFD3669D849D03EC25E7FD02920A3/2595109.png
+description: In the Mystic Forge, combine a Gift of Seitung Province, a Gift of New
+  Kaineng City, a Gift of the Echovald Forest, and a Gift of Dragon's End to create
+  a Gift of Cantha, used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Dragon's_End
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Chest of the Jade Explorer
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

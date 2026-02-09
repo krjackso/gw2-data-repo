@@ -1,0 +1,96 @@
+id: 97790
+name: Lamplighter's Badge
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/461D091230BAC7A857D77FABD54C3E45685ADCFB/2595114.png
+description: Used in the crafting of End of Dragons legendary items. Acquired by completing
+  map exploration achievements.
+vendorValue: 64
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lamplighter's_Badge
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Eiko Broadcrest
+  outputQuantity: 1
+  requirements:
+  - itemId: 97232
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Elora
+  outputQuantity: 1
+  requirements:
+  - itemId: 95621
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Fisherman Benyo
+  outputQuantity: 1
+  requirements:
+  - itemId: 96993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Grand Master Kyren
+  outputQuantity: 1
+  requirements:
+  - itemId: 96993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Hall Director Soohee
+  outputQuantity: 1
+  requirements:
+  - itemId: 96993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kestrel Floi Grubbeak
+  outputQuantity: 1
+  requirements:
+  - itemId: 97232
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kestrel Michiko
+  outputQuantity: 1
+  requirements:
+  - itemId: 97232
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Lieutenant Zhao
+  outputQuantity: 1
+  requirements:
+  - itemId: 95621
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Peddler
+  outputQuantity: 1
+  requirements:
+  - itemId: 96083
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Strigidae
+  outputQuantity: 1
+  requirements:
+  - itemId: 95621
+    quantity: 1
+  metadata: {}
+- type: container
+  containerName: Chest of the Jade Explorer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: End of Dragons Reward Coffer
+  outputQuantity: 5
+  choice: true
+  requirements: []
+  metadata:
+    notes: only repeatable

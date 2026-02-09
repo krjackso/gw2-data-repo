@@ -1,0 +1,24 @@
+id: 95621
+name: Gift of New Kaineng City
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C6B72D0531FAA1AB090E79C6C8D769F931FB789C/2595110.png
+description: In the Mystic Forge, combine a Gift of Seitung Province, a Gift of New
+  Kaineng City, a Gift of the Echovald Forest, and a Gift of Dragon's End to create
+  a Gift of Cantha, used in crafting legendary weapons.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_New_Kaineng_City
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  containerName: Chest of the Jade Explorer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

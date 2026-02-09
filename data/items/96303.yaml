@@ -1,0 +1,41 @@
+id: 96303
+name: Dragon's Gaze
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/245520013BBB719B030FDF55D767CEE366779FBD/2594786.png
+description: In the Mystic Forge, combine with a Gift of Dragon's Gaze, a Gift of
+  Jade Mastery, and a Draconic Tribute to create the legendary focus Aurene's Gaze.
+vendorValue: 0
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Gaze
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 95631
+    quantity: 1
+  - itemId: 95913
+    quantity: 1
+  - itemId: 96088
+    quantity: 100
+  - itemId: 97089
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 500
+- type: container
+  itemId: 96156
+  containerName: Prismatic Precursor Selection Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

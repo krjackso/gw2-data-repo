@@ -1,0 +1,94 @@
+id: 96471
+name: Chunk of Petrified Echovald Resin
+type: UpgradeComponent
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/F006736696D976F6D3B3C71AF811907D05949393/2595188.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 256
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Chunk_of_Petrified_Echovald_Resin
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: 'Echovald Wilds: Commander''s Choice Chest'
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 3
+  requirements:
+  - itemId: 104885
+    quantity: 1
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 3
+  outputQuantityMin: 3
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97797
+  containerName: Bounty of Echovald Wilds
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97894
+  containerName: 'Echovald Wilds: Hero''s Choice Chest'
+  outputQuantity: 3
+  choice: true
+  requirements: []
+  metadata: {}
