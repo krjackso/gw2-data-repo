@@ -84,6 +84,7 @@ def populate_item(
             currency_name_index,
             gathering_node_index,
             strict=strict,
+            current_item_id=item_id,
         )
 
     item_data = {
@@ -226,7 +227,11 @@ def main() -> None:
         description="Populate item data with acquisitions for GW2 items"
     )
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--item-id", type=int, help="GW2 item ID (must be positive)")
+    group.add_argument(
+        "--item-id",
+        type=str,
+        help="GW2 item ID(s) (comma-separated for multiple, e.g. 19676,19684)",
+    )
     group.add_argument("--item-name", type=str, help="GW2 item name (resolved via index)")
     group.add_argument(
         "--clear-cache",
@@ -276,6 +281,8 @@ def main() -> None:
         return
 
     try:
+        item_ids: list[int] = []
+
         if args.item_name:
             index = api.load_item_name_index()
             cleaned_name = api.clean_name(args.item_name)
@@ -287,19 +294,25 @@ def main() -> None:
             if len(matches) > 1:
                 _handle_multiple_matches_interactive(args.item_name, matches, cache)
                 sys.exit(1)
-            item_id = matches[0]
-            terminal.info(f"Resolved '{args.item_name}' to item ID {item_id}")
+            item_ids = [matches[0]]
+            terminal.info(f"Resolved '{args.item_name}' to item ID {item_ids[0]}")
         else:
-            item_id = args.item_id
+            id_strings = [s.strip() for s in args.item_id.split(",")]
+            try:
+                item_ids = [int(s) for s in id_strings]
+            except ValueError as e:
+                terminal.error(f"Invalid item ID format: {e}")
+                sys.exit(1)
 
-        populate_item(
-            item_id,
-            cache,
-            overwrite=args.overwrite,
-            dry_run=args.dry_run,
-            model=args.model,
-            strict=args.strict,
-        )
+        for item_id in item_ids:
+            populate_item(
+                item_id,
+                cache,
+                overwrite=args.overwrite,
+                dry_run=args.dry_run,
+                model=args.model,
+                strict=args.strict,
+            )
 
     except MultipleItemMatchError as e:
         _handle_multiple_matches_interactive(e.name, e.item_ids, cache)

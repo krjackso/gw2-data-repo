@@ -341,19 +341,74 @@ spaces for consistency across all name types.
 7. Do NOT include acquisition methods that were available in the past but are no longer \
 obtainable (e.g. removed items, discontinued events, retired reward tracks). Look for \
 `<small>(historical)</small>` markers — skip these entries.
-8. VARIANT DISAMBIGUATION: Wiki pages may describe multiple item variants with the same name \
-but different rarities (e.g., Legendary vs Ascended vs Exotic).
+8. Item Variants:
 
-CRITICAL RARITY FILTERING:
-- ONLY extract entries where the rarity in the wiki HTML matches the rarity provided above
-- If a vendor table row shows a different rarity, SKIP that vendor
-- Look for rarity markers: <span class="rarity-legendary">, <span class="rarity-ascended">, etc.
-- Legendary items are typically NOT sold by vendors — they're crafted via Mystic Forge
+Some wiki pages describe multiple variants of the same item at different rarities (Exotic, \
+Ascended, Legendary). These pages have a "Variants" section with a table like:
 
-9. RARITY QUALIFIERS IN INGREDIENTS: When an ingredient appears in multiple rarities on the wiki, \
-append the rarity as a qualifier in parentheses to disambiguate:
-- "Triumphant Hero's Brigandine (Ascended)" vs "Triumphant Hero's Brigandine (Legendary)"
-- Only add qualifiers when multiple rarity variants exist for the same item name.
+```html
+<h2><span class="mw-headline" id="Variants">Variants</span></h2>
+<table class="equip craftvariants sortable table">
+<tr id="item1"><td>Triumphant Hero's Armguards</td>
+  <td><span class="rarity-exotic"><b>Exotic</b></span></td>...</tr>
+<tr id="item2"><td>Triumphant Hero's Armguards</td>
+  <td><span class="rarity-ascended"><b>Ascended</b></span></td>...</tr>
+<tr id="item3"><td>Triumphant Hero's Armguards</td>
+  <td><span class="rarity-legendary"><b>Legendary</b></span></td>...</tr>
+</table>
+```
+
+When a Variants section exists,  you MUST filter all vendor rows and \
+recipe boxes to only include those that match the rarity given by the User \
+(e.g. Legendary, Ascended, Exotic).
+
+**Vendor table filtering:**
+Each vendor row has a Rarity column with a `<span class="rarity-{rarity}">` marker. \
+ONLY include rows where the rarity marker EXACTLY matches the rarity given by the User.
+
+If NO rows match the item's rarity, emit ZERO vendor entries. Do NOT fall back to rows of a \
+different rarity.
+
+**Example:** The given item rarity is Legendary. The vendor table has these rows:
+
+```html
+<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Lionguard</td>...</tr>
+<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Mercenary</td>...</tr>
+<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Skirmish Supervisor</td>...</tr>
+<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Lionguard</td>...</tr>
+<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Mercenary</td>...</tr>
+<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Skirmish Supervisor</td>...</tr>
+```
+
+Result: ZERO vendor entries. Three rows are Ascended, and three are exotic. None of the 6 rows are marked `rarity-legendary`, so none match. 
+
+**Recipe box filtering:**
+Recipe boxes on multi-rarity pages produce a SPECIFIC variant. Check the recipe heading and \
+surrounding text to determine which rarity it produces:
+
+```html
+<li>Crafting the <span class="rarity-legendary"><b>legendary</b></span> version of this armor \
+piece requires the <span class="rarity-ascended"><b>ascended</b></span> version be used in \
+the following recipe:</li>
+<div class="recipe-box">
+  <div class="heading">Triumphant Hero's Armguards (legendary)</div>
+  ...ingredients...
+</div>
+```
+
+This recipe produces the Legendary variant. Therefore:
+- If item rarity is Legendary → INCLUDE this recipe
+- If item rarity is Ascended → SKIP this recipe (it produces Legendary, not Ascended)
+- If item rarity is Exotic → SKIP this recipe
+
+9. RARITY QUALIFIERS IN INGREDIENT NAMES:
+
+On multi-rarity pages, recipe ingredients may reference a different variant of the same item. \
+When this happens, append the rarity in parentheses to disambiguate the ingredient name.
+
+**Example:** The Legendary Mystic Forge recipe lists "Triumphant Hero's Armguards" as an \
+ingredient, but the link points to `#item2` (the Ascended variant). Name the ingredient \
+"Triumphant Hero's Armguards (Ascended)" to indicate which variant is required.
 
 10. IGNORE "Used in" SECTIONS: Wiki pages often contain a "Used in" section listing recipes \
 where this item appears as an INGREDIENT. These are NOT acquisition methods — skip them entirely.

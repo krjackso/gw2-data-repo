@@ -2,7 +2,7 @@ import logging
 from typing import Any
 
 from gw2_data import api
-from gw2_data.exceptions import APIError
+from gw2_data.exceptions import APIError, MultipleItemMatchError
 
 log = logging.getLogger(__name__)
 
@@ -12,6 +12,7 @@ def _resolve_ingredient_list(
     item_name_index: dict[str, list[int]],
     currency_name_index: dict[str, int],
     strict: bool,
+    current_item_id: int = 0,
 ) -> list[dict[str, Any]] | None:
     resolved = []
     for ingredient in ingredients:
@@ -28,8 +29,27 @@ def _resolve_ingredient_list(
             resolved.append({"currencyId": currency_id, "quantity": quantity})
         else:
             try:
-                item_id = api.resolve_item_name_to_id(name, item_name_index)
-                resolved.append({"itemId": item_id, "quantity": quantity})
+                resolved_item_id = api.resolve_item_name_to_id(name, item_name_index)
+                resolved.append({"itemId": resolved_item_id, "quantity": quantity})
+            except MultipleItemMatchError as e:
+                if current_item_id in e.item_ids:
+                    remaining = [mid for mid in e.item_ids if mid != current_item_id]
+                    if len(remaining) == 1:
+                        log.info(
+                            f"Disambiguated '{name}': excluded self-reference ({current_item_id}), "
+                            f"resolved to {remaining[0]}"
+                        )
+                        resolved.append({"itemId": remaining[0], "quantity": quantity})
+                        continue
+
+                if not strict:
+                    log.warning(f"Skipping unresolvable ingredient '{name}': {e}")
+                    return None
+                raise ValueError(
+                    f"Failed to resolve ingredient '{name}' "
+                    f"(matches multiple IDs: {e.item_ids}). "
+                    f"If this is a known variant, add to item_name_overrides.yaml: {e}"
+                ) from e
             except (APIError, KeyError) as e:
                 if not strict:
                     log.warning(f"Skipping unresolvable ingredient '{name}': {e}")
@@ -50,6 +70,7 @@ def _classify_entry(
     currency_name_index: dict[str, int],
     gathering_node_index: set[str],
     strict: bool,
+    current_item_id: int = 0,
 ) -> dict[str, Any] | None:
     wiki_section = entry["wikiSection"]
     wiki_subsection = entry.get("wikiSubsection")
@@ -71,7 +92,7 @@ def _classify_entry(
             recipe_type = "crafting"
 
         requirements = _resolve_ingredient_list(
-            ingredients, item_name_index, currency_name_index, strict
+            ingredients, item_name_index, currency_name_index, strict, current_item_id
         )
         if requirements is None:
             return None
@@ -92,7 +113,7 @@ def _classify_entry(
 
     if wiki_section == "vendor":
         requirements = _resolve_ingredient_list(
-            ingredients, item_name_index, currency_name_index, strict
+            ingredients, item_name_index, currency_name_index, strict, current_item_id
         )
         if requirements is None:
             return None
@@ -253,7 +274,7 @@ def _classify_entry(
 
     if wiki_section == "wizards_vault":
         requirements = _resolve_ingredient_list(
-            ingredients, item_name_index, currency_name_index, strict
+            ingredients, item_name_index, currency_name_index, strict, current_item_id
         )
         if requirements is None:
             return None
@@ -283,6 +304,7 @@ def classify_and_resolve(
     currency_name_index: dict[str, int],
     gathering_node_index: set[str],
     strict: bool = True,
+    current_item_id: int = 0,
 ) -> list[dict[str, Any]]:
     acquisitions = []
 
@@ -294,7 +316,12 @@ def classify_and_resolve(
             continue
 
         acq = _classify_entry(
-            entry, item_name_index, currency_name_index, gathering_node_index, strict
+            entry,
+            item_name_index,
+            currency_name_index,
+            gathering_node_index,
+            strict,
+            current_item_id,
         )
         if acq is not None:
             if acq["type"] == "salvage":

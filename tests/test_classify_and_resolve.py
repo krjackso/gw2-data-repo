@@ -569,6 +569,124 @@ class TestClassifyAndResolveSalvage:
         result[0]["metadata"]["extra"] = "test"
         assert "extra" not in result[1]["metadata"]
 
+    def test_ingredient_self_reference_exclusion(self):
+        item_index = {
+            "Mistforged Triumphant Hero's Legguards": [81527, 83862],
+            "Item B": [100],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Mistforged Triumphant Hero's Legguards",
+                "wikiSection": "recipe",
+                "wikiSubsection": "mystic_forge",
+                "quantity": 1,
+                "ingredients": [
+                    {"name": "Mistforged Triumphant Hero's Legguards", "quantity": 1},
+                    {"name": "Item B", "quantity": 250},
+                ],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(
+            entries, item_index, currency_index, node_index, strict=True, current_item_id=83862
+        )
+
+        assert len(result) == 1
+        assert result[0]["type"] == "mystic_forge"
+        assert len(result[0]["requirements"]) == 2
+        assert result[0]["requirements"][0] == {"itemId": 81527, "quantity": 1}
+        assert result[0]["requirements"][1] == {"itemId": 100, "quantity": 250}
+
+    def test_ingredient_self_exclusion_still_ambiguous_strict(self):
+        item_index = {
+            "Ambiguous Item": [100, 200, 300],
+            "Item B": [400],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Test Item",
+                "wikiSection": "recipe",
+                "wikiSubsection": "crafting",
+                "quantity": 1,
+                "ingredients": [
+                    {"name": "Ambiguous Item", "quantity": 1},
+                    {"name": "Item B", "quantity": 1},
+                ],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        with pytest.raises(ValueError, match="matches multiple IDs"):
+            resolver.classify_and_resolve(
+                entries, item_index, currency_index, node_index, strict=True, current_item_id=100
+            )
+
+    def test_ingredient_self_exclusion_still_ambiguous_lenient(self):
+        item_index = {
+            "Ambiguous Item": [100, 200, 300],
+            "Item B": [400],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Test Item",
+                "wikiSection": "recipe",
+                "wikiSubsection": "crafting",
+                "quantity": 1,
+                "ingredients": [
+                    {"name": "Ambiguous Item", "quantity": 1},
+                    {"name": "Item B", "quantity": 1},
+                ],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(
+            entries, item_index, currency_index, node_index, strict=False, current_item_id=100
+        )
+
+        assert len(result) == 0
+
+    def test_ingredient_multiple_ids_no_self_reference_strict(self):
+        item_index = {
+            "Ambiguous Item": [100, 200],
+            "Item B": [400],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Test Item",
+                "wikiSection": "recipe",
+                "wikiSubsection": "crafting",
+                "quantity": 1,
+                "ingredients": [
+                    {"name": "Ambiguous Item", "quantity": 1},
+                    {"name": "Item B", "quantity": 1},
+                ],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        with pytest.raises(ValueError, match="matches multiple IDs"):
+            resolver.classify_and_resolve(
+                entries, item_index, currency_index, node_index, strict=True, current_item_id=999
+            )
+
     def test_salvage_unresolvable_lenient_skips(self):
         item_index = {}
         currency_index = {}
