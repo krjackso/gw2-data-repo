@@ -247,6 +247,73 @@ _DISAMBIG_HTML = (
     "<p>Mirror is a mesmer skill...</p>"
 )
 
+_SERVER_REDIRECT_HTML = (
+    '<div class="redirectMsg">'
+    "<p>Redirect to:</p>"
+    '<ul class="redirectText">'
+    '<li><a href="/wiki/Valkyrie_Bearkin_War_Helm_(heavy)" '
+    'title="Valkyrie Bearkin War Helm (heavy)">Valkyrie Bearkin War Helm (heavy)</a></li>'
+    "</ul>"
+    "</div>"
+)
+
+
+# --- Server redirect detection tests ---
+
+
+def test_find_server_redirect_detects_redirect():
+    result = wiki._find_server_redirect(_SERVER_REDIRECT_HTML)
+    assert result == "Valkyrie Bearkin War Helm (heavy)"
+
+
+def test_find_server_redirect_not_present():
+    html = "<p>Normal page content</p>"
+    result = wiki._find_server_redirect(html)
+    assert result is None
+
+
+def test_find_server_redirect_malformed_no_redirecttext():
+    html = '<div class="redirectMsg"><p>Redirect to:</p></div>'
+    result = wiki._find_server_redirect(html)
+    assert result is None
+
+
+def test_find_server_redirect_malformed_no_href():
+    html = (
+        '<div class="redirectMsg">'
+        "<p>Redirect to:</p>"
+        '<ul class="redirectText">'
+        "<li><a>Target Page</a></li>"
+        "</ul>"
+        "</div>"
+    )
+    result = wiki._find_server_redirect(html)
+    assert result is None
+
+
+def test_find_server_redirect_url_encoded():
+    html = (
+        '<div class="redirectMsg">'
+        '<ul class="redirectText">'
+        '<li><a href="/wiki/Item_%28heavy%29">Item (heavy)</a></li>'
+        "</ul>"
+        "</div>"
+    )
+    result = wiki._find_server_redirect(html)
+    assert result == "Item (heavy)"
+
+
+def test_find_server_redirect_replaces_underscores():
+    html = (
+        '<div class="redirectMsg">'
+        '<ul class="redirectText">'
+        '<li><a href="/wiki/Target_Page_Name">Target Page Name</a></li>'
+        "</ul>"
+        "</div>"
+    )
+    result = wiki._find_server_redirect(html)
+    assert result == "Target Page Name"
+
 
 def test_find_item_disambiguation_detects_redirect():
     result = wiki._find_item_disambiguation(_DISAMBIG_HTML, "Mirror")
@@ -340,6 +407,126 @@ def test_get_page_html_caches_both_names_on_redirect(mocker, cache_client: Cache
     result = wiki.get_page_html("Mirror", cache=cache_client)
     assert result == item_html
     assert mock_get.call_count == 2
+
+
+def test_get_page_html_follows_server_redirect(mocker, cache_client: CacheClient):
+    final_html = "<p>Heavy armor variant content...</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": _SERVER_REDIRECT_HTML}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": final_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    result = wiki.get_page_html("Valkyrie Bearkin War Helm", cache=cache_client)
+
+    assert result == final_html
+    assert mock_get.call_count == 2
+
+
+def test_get_page_html_caches_both_names_on_server_redirect(mocker, cache_client: CacheClient):
+    final_html = "<p>Heavy armor variant content...</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": _SERVER_REDIRECT_HTML}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": final_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    wiki.get_page_html("Valkyrie Bearkin War Helm", cache=cache_client)
+
+    assert cache_client.get_wiki_page("Valkyrie Bearkin War Helm") == final_html
+    assert cache_client.get_wiki_page("Valkyrie Bearkin War Helm (heavy)") == final_html
+
+    result = wiki.get_page_html("Valkyrie Bearkin War Helm", cache=cache_client)
+    assert result == final_html
+    assert mock_get.call_count == 2
+
+
+def test_get_page_html_server_redirect_chain(mocker, cache_client: CacheClient):
+    redirect2_html = (
+        '<div class="redirectMsg">'
+        '<ul class="redirectText">'
+        '<li><a href="/wiki/Final_Target">Final Target</a></li>'
+        "</ul>"
+        "</div>"
+    )
+    final_html = "<p>Final page content</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": _SERVER_REDIRECT_HTML}}}
+        elif call_count == 2:
+            mock_resp.json.return_value = {"parse": {"text": {"*": redirect2_html}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": final_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    result = wiki.get_page_html("Start Page", cache=cache_client)
+
+    assert result == final_html
+    assert mock_get.call_count == 3
+
+
+def test_get_page_html_redirect_depth_limit(mocker, cache_client: CacheClient):
+    def mock_get_side_effect(*args, **kwargs):
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        mock_resp.json.return_value = {"parse": {"text": {"*": _SERVER_REDIRECT_HTML}}}
+        return mock_resp
+
+    mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    with pytest.raises(WikiError, match="Redirect chain exceeded max depth"):
+        wiki.get_page_html("Loop Start", cache=cache_client)
+
+
+def test_server_redirect_priority_over_disambiguation(mocker, cache_client: CacheClient):
+    mixed_html = _SERVER_REDIRECT_HTML + _DISAMBIG_HTML
+    final_html = "<p>Server redirect target</p>"
+    call_count = 0
+
+    def mock_get_side_effect(*args, **kwargs):
+        nonlocal call_count
+        call_count += 1
+        mock_resp = mocker.MagicMock()
+        mock_resp.raise_for_status = lambda: None
+        if call_count == 1:
+            mock_resp.json.return_value = {"parse": {"text": {"*": mixed_html}}}
+        else:
+            mock_resp.json.return_value = {"parse": {"text": {"*": final_html}}}
+        return mock_resp
+
+    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+
+    result = wiki.get_page_html("Test Page", cache=cache_client)
+
+    assert result == final_html
+    assert cache_client.get_wiki_page("Test Page") == final_html
+    assert cache_client.get_wiki_page("Valkyrie Bearkin War Helm (heavy)") == final_html
 
 
 def test_get_page_html_uses_cached_redirect_target(mocker, cache_client: CacheClient):

@@ -9,6 +9,7 @@ load on the wiki servers.
 import logging
 import re
 from typing import Any
+from urllib.parse import unquote
 
 import httpx
 
@@ -20,6 +21,7 @@ log = logging.getLogger(__name__)
 
 _WIKI_API_URL = "https://wiki.guildwars2.com/api.php"
 _DEFAULT_HTML_LIMIT = 300_000
+MAX_REDIRECT_DEPTH = 5
 
 MODEL_HTML_LIMITS: dict[str, int] = {
     "haiku": 300_000,
@@ -74,6 +76,17 @@ def _fetch_wiki_page(page_name: str) -> str:
 _DISAMBIG_MARKER = "Disambig_icon.png"
 
 
+def _find_server_redirect(html: str) -> str | None:
+    redirect_pattern = r'<div[^>]*class="redirectMsg"[^>]*>.*?<a[^>]*href="/wiki/([^"]+)"'
+    match = re.search(redirect_pattern, html, re.DOTALL | re.IGNORECASE)
+    if not match:
+        return None
+
+    encoded_page_name = match.group(1)
+    decoded_page_name = unquote(encoded_page_name)
+    return decoded_page_name.replace("_", " ")
+
+
 def _find_item_disambiguation(html: str, page_name: str) -> str | None:
     if _DISAMBIG_MARKER not in html:
         return None
@@ -92,7 +105,10 @@ def _find_item_disambiguation(html: str, page_name: str) -> str | None:
     return None
 
 
-def get_page_html(page_name: str, cache: CacheClient) -> str:
+def get_page_html(page_name: str, cache: CacheClient, _depth: int = 0) -> str:
+    if _depth > MAX_REDIRECT_DEPTH:
+        raise WikiError(f"Redirect chain exceeded max depth ({MAX_REDIRECT_DEPTH})")
+
     if not page_name or not page_name.strip():
         raise WikiError("Page name cannot be empty")
 
@@ -104,6 +120,17 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
     log.info("Wiki page '%s': fetching from wiki API", page_name)
     html_content = _fetch_wiki_page(page_name)
 
+    server_redirect = _find_server_redirect(html_content)
+    if server_redirect:
+        log.warning(
+            "Wiki page '%s' is a server redirect; following to '%s'",
+            page_name,
+            server_redirect,
+        )
+        final_html = get_page_html(server_redirect, cache, _depth=_depth + 1)
+        cache.set_wiki_page(page_name, final_html)
+        return final_html
+
     redirect = _find_item_disambiguation(html_content, page_name)
     if redirect:
         cached_redirect = cache.get_wiki_page(redirect)
@@ -112,8 +139,10 @@ def get_page_html(page_name: str, cache: CacheClient) -> str:
             cache.set_wiki_page(page_name, cached_redirect)
             return cached_redirect
 
-        html_content = _fetch_wiki_page(redirect)
-        cache.set_wiki_page(redirect, html_content)
+        final_html = get_page_html(redirect, cache, _depth=_depth + 1)
+        cache.set_wiki_page(redirect, final_html)
+        cache.set_wiki_page(page_name, final_html)
+        return final_html
 
     cache.set_wiki_page(page_name, html_content)
     return html_content
