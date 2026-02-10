@@ -1,0 +1,33 @@
+id: 82471
+name: Record of League Participation
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/65E362A0FB4B22104205CAD920330935A3C10B21/1766745.png
+description: Combine with Condensed Spirit Energy, Star of Glory, and Jar of Distilled
+  Glory in the Mystic Forge to create the Gift of Competitive Dedication.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Record_of_League_Participation
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 20
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 20
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'

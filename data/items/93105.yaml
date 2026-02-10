@@ -1,0 +1,53 @@
+id: 93105
+name: Conflux
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/170765A1B5C5A90C430BD04479DABC10B1AF7E01/2270744.png
+description: <c=@flavor>Combine your strength and vanquish your foes.</c>
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Conflux
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 80058
+    quantity: 1
+  - itemId: 81371
+    quantity: 1
+  - itemId: 93190
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 80793
+    quantity: 1
+  - itemId: 81371
+    quantity: 1
+  - itemId: 93190
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Grandmaster Craftsman Hobbs
+  outputQuantity: 1
+  requirements:
+  - itemId: 93128
+    quantity: 1
+  metadata: {}

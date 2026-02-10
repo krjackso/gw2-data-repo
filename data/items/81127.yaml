@@ -1,0 +1,95 @@
+id: 81127
+name: Fire Orchid Blossom
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D667F038D601D31EC35F08E96EB1C832026E3A21/1677062.png
+description: Can be consumed for unbound magic or traded with vendors.
+vendorValue: 128
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fire_Orchid_Blossom
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 50
+  requirements:
+  - currencyId: 50
+    quantity: 500
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Festival of the Four Winds. Limit 1 per week.
+- type: vendor
+  vendorName: Supplymaster Hanjo
+  outputQuantity: 1
+  requirements:
+  - itemId: 81190
+    quantity: 5
+  metadata:
+    notes: Requires the achievement A Henge Away from Home
+- type: achievement
+  achievementName: Fancy Flying
+  achievementCategory: Flashpoint
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Ancient Chest (Draconis Mons)
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: from Bloodstone-Charged Lava Wurm, Greater Wardbough, and Searing Ascent
+- type: container
+  containerName: Ancient Chest (Draconis Mons)
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: from Legendary Destroyers Aestus and Ignis
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bundle of Fire Orchid Blossoms
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81061
+  containerName: Chest of the Draconis Mons Hero
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 81036
+  containerName: Fire Orchid Strongbox
+  outputQuantity: 50
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Zinn's Stash (Golemancer's Tomb)
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Primordial Orchid
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: home instances

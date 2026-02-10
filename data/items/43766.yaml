@@ -1,0 +1,492 @@
+id: 43766
+name: Tome of Knowledge
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1932B731E2F70F2F1E3D453A4B7C26B24CF647C0/603246.png
+description: 'Grants one character level if below level 80 or one spirit shard if
+  level 80.
+
+  Only usable in PvE and WvW.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tome_of_Knowledge
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 50
+    quantity: 300
+  metadata: {}
+- type: vendor
+  vendorName: Four Winds Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 50
+    quantity: 300
+  metadata: {}
+- type: vendor
+  vendorName: Heirloom Lost and Found
+  outputQuantity: 1
+  requirements:
+  - itemId: 50030
+    quantity: 100
+  - currencyId: 1
+    quantity: 3000
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 28
+    quantity: 15
+  - currencyId: 70
+    quantity: 1
+  metadata:
+    limitType: weekly
+    limitAmount: 10
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 68109
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 68109
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 68109
+    quantity: 20
+  metadata: {}
+- type: vendor
+  vendorName: Suspicious Heirloom Lost and Found
+  outputQuantity: 1
+  requirements:
+  - itemId: 50030
+    quantity: 100
+  - currencyId: 1
+    quantity: 3000
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Vault
+  outputQuantity: 1
+  requirements:
+  - currencyId: 63
+    quantity: 8
+  metadata:
+    limitType: season
+    limitAmount: 35
+- type: achievement
+  achievementName: Wicked Rodeo
+  achievementCategory: Seeds of Truth
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of the Mists
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 64259
+  containerName: Large Rank-Up Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 67789
+  containerName: Ogden's Gratitude
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100137
+  containerName: Wizard's Vault Weekly Completion Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ascalon Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ascalonian Catacombs Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Auric Basin Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bitterfrost Frontier Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bjora Marches Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Bloodstone Fen Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Canthan Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Caudecus's Manor Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Citadel of Flame Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Crucible of Eternity Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Crystal Desert Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Domain of Istan Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Domain of Kourna Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Draconis Mons Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Dragon Bash Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Dragonfall Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Drizzlewood Coast Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ember Bay Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: End of Dragons Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Festival of the Four Winds Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Gift of Battle Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Grothmar Valley Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Halloween Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Heart of Maguuma Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Honor of the Waves Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Icebrood Saga Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Jahai Bluffs Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Janthir Wilds Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Kryta Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Lake Doric Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Legacy Armor Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Living World Season 3 Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Living World Season 4 Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Long-Lost Tahkayun Weapons Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Maguuma Jungle Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Maguuma Wastes Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Regions of Tyria Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Ruins of Orr Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Sandswept Isles Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Secrets of the Obscure Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Shiver Emote Tome Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Shiverpeak Mountains Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Silverwastes Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Siren's Landing Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Sorrow's Embrace Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Tangled Depths Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: The Ruined City of Arah Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Thunderhead Peaks Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Twilight Arbor Dungeon Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Tyrian Dungeon Explorer Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Verdant Brink Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Visions of Eternity Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Warclaw Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Wintersday Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Xunlai Customer Loyalty Perks Program
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Balthazar Back Item Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Bonus Mist Champion—Grymm Svaard Miniature Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Bonus Mist Champion—Nika Miniature Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Bonus Mist Champion—Turai Ossa Mini Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Bonus Mist Champion—Tybalt Miniature Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Glorious Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Bear Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Deer Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Dolyak Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Phoenix Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Rabbit Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Shark Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Tiger Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Jungle Wolf Rank Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Mist Champion—Grymm Svaard Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Mist Champion—Nika Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Mist Champion—Tybalt Reward Track
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

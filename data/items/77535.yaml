@@ -1,0 +1,25 @@
+id: 77535
+name: Essence of Success
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/B0E5229BE0AAB91532275758954563BA953F03E6/1313069.png
+description: Combine with 20 Vicious Claws, 50 Large Claws, and 10 Globs of Dark Matter
+  in the Mystic Forge to create a Mystic Essence of Success.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Success
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 100
+  metadata: {}

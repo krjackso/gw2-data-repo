@@ -1,0 +1,32 @@
+id: 81319
+name: Mystic Essence of Strategy
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7BF37720940A0E406326B46A6B51E7C50A9B56D7/1701112.png
+description: Combine Mystic Essence of Strategy, Mystic Essence of Animosity, Mystic
+  Essence of Carnage, and Mystic Essence of Annihilation in the Mystic Forge to create
+  the Gift of Warfare.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Essence_of_Strategy
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24294
+    quantity: 50
+  - itemId: 24295
+    quantity: 20
+  - itemId: 46731
+    quantity: 250
+  - itemId: 81326
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

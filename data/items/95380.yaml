@@ -1,0 +1,30 @@
+id: 95380
+name: Prismatic Champion's Regalia
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/046C2DACF8C064D23BD8374C7895DA2F13AD146F/2449345.png
+description: <c=@flavor>The fulfillment of a legacy spanning thousands of years flies
+  alongside you.</c>
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Prismatic_Champion's_Regalia
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: achievement
+  achievementName: Seasons of the Dragons
+  achievementCategory: Current Events
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

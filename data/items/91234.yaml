@@ -1,0 +1,35 @@
+id: 91234
+name: Coalescence
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/962F99162FDE4AF471DF9E3BCA712CD6F5050B53/2149899.png
+description: Swirls around your finger, a constant reminder of the impact an individual
+  can have.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Coalescence
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 86104
+    quantity: 1
+  - itemId: 91193
+    quantity: 1
+  - itemId: 91225
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,70 @@
+id: 79899
+name: Fresh Winterberry
+type: Consumable
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/414B0D0E3E38F73EC360C5BAE8A1DE98D324DCE6/1601463.png
+description: Used to brew a thaw elixir, traded with Slooshoo, or consumed for unbound
+  magic.
+vendorValue: 4
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fresh_Winterberry
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 50
+  requirements:
+  - currencyId: 50
+    quantity: 500
+  metadata:
+    limitType: weekly
+    limitAmount: 1
+    notes: Requires the festival Festival of the Four Winds. Limit 1 per week.
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bundle of Winterberries
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79863
+  containerName: Chest of the Bitterfrost Frontier Hero
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79857
+  containerName: Winterberry Strongbox
+  outputQuantity: 100
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Winterberry Bush
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Winterberry Bush
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: home instances

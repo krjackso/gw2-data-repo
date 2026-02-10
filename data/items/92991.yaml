@@ -1,0 +1,41 @@
+id: 92991
+name: Transcendence
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/0C0D5BBDDD412439FE5F620253EFADAEF6CB760E/2270218.png
+description: <c=@flavor>Rise above it all.</c>
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Transcendence
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 77485
+    quantity: 1
+  - itemId: 79980
+    quantity: 1
+  - itemId: 93036
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Grandmaster Craftsman Hobbs
+  outputQuantity: 1
+  requirements:
+  - itemId: 93140
+    quantity: 1
+  metadata: {}

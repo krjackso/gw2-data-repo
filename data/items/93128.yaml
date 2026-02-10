@@ -1,0 +1,20 @@
+id: 93128
+name: Slumbering Conflux
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/170765A1B5C5A90C430BD04479DABC10B1AF7E01/2270744.png
+description: <c=@flavor>Combine your strength and vanquish your foes.</c>
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Slumbering_Conflux
+lastUpdated: '2026-02-10'
+acquisitions: []

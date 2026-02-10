@@ -1,0 +1,154 @@
+id: 91225
+name: Gift of Compassion
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0368DF6B4D011939F513BA0428955E04080F9E69/1729317.png
+description: A gift used to create legendary jewelry.
+vendorValue: 3
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Compassion
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Qadim's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Bastion of the Penitent
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Hall of Chains
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Mythwright Gambit
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Salvation Pass
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Spirit Vale
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: Stronghold of the Faithful
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata:
+    notes: The Key of Ahdashim
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 6
+  - itemId: 86036
+    quantity: 1
+  - itemId: 88909
+    quantity: 1
+  - currencyId: 70
+    quantity: 150
+  metadata: {}

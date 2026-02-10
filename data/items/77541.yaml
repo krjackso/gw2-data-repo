@@ -1,0 +1,25 @@
+id: 77541
+name: Essence of Discipline
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/B9EB7CBEC2B9CA433FA016B71DD6ACB4F0EE0AEB/1313068.png
+description: Combine with 20 Armored Scales, 50 Large Scales, and 250 Dragonite Ore
+  in the Mystic Forge to create a Mystic Essence of Discipline.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Discipline
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 75
+  metadata: {}

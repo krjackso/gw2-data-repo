@@ -1,0 +1,25 @@
+id: 93284
+name: Tome of the Mists
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/06AF4818461DAB62AD720BD06564E4DB3F613D3A/1766743.png
+description: Combine with a Gift of the Mists, a Gift of Competitive Dedication, and
+  a Salt-Forged Mist Diamond in the Mystic Forge to create the Gift of the Champion.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tome_of_the_Mists
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 43766
+    quantity: 100
+  metadata: {}

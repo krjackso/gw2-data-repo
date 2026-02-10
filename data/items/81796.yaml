@@ -1,0 +1,29 @@
+id: 81796
+name: Gift of Sentience
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0368DF6B4D011939F513BA0428955E04080F9E69/1729317.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Sentience
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19623
+    quantity: 1
+  - itemId: 19676
+    quantity: 100
+  - itemId: 76427
+    quantity: 1
+  - itemId: 82008
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

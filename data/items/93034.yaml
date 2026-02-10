@@ -1,0 +1,29 @@
+id: 93034
+name: Mist Diamond
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B7246F6508396F0EC3C77880DF01466AC6045291/2270291.png
+description: In the Mystic Forge, combine a Vial of Salt, an Emblem of Victory, a
+  Mist Diamond, and a Mist-Enhanced Orichalcum to create a Salt-Forged Mist Diamond.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mist_Diamond
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - currencyId: 30
+    quantity: 25
+  - currencyId: 33
+    quantity: 250
+  metadata: {}

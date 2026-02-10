@@ -1,0 +1,53 @@
+id: 88909
+name: Gift of Complex Emotions
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F40339A348AC2240FFC81A600DCBC8BD02133871/2155853.png
+description: A gift used to create legendary jewelry.
+vendorValue: 3
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Complex_Emotions
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Qadim's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence II: The Gift'
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence II: The Gift'
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence II: The Gift'
+- type: achievement
+  achievementName: 'Coalescence II: The Gift'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

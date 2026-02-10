@@ -1,0 +1,25 @@
+id: 77552
+name: Essence of Determination
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/9502B061B73FC8E909E2226AFEB801DA9F141D6C/1313067.png
+description: Combine with 20 Vials of Powerful Blood, 50 Vials of Potent Blood, and
+  250 Piles of Bloodstone Dust in the Mystic Forge to create a Mystic Essence of Determination.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Determination
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 25
+  metadata: {}

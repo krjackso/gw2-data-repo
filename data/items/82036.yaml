@@ -1,0 +1,52 @@
+id: 82036
+name: Gift of Dragon Magic
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/039B0F41A2610DF444E600BE46E60F2A95F1999B/1729316.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Dragon_Magic
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 79469
+    quantity: 250
+  - itemId: 79899
+    quantity: 250
+  - itemId: 81127
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 79469
+    quantity: 250
+  - itemId: 79899
+    quantity: 250
+  - itemId: 81127
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 79469
+    quantity: 250
+  - itemId: 79899
+    quantity: 250
+  - itemId: 81127
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'

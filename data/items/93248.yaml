@@ -1,0 +1,36 @@
+id: 93248
+name: Mist-Enhanced Mithril
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E178FE6A2BA14F0D6B251AA5FB30B070D5AC0D9A/2270368.png
+description: In the Mystic Forge, combine a Gift of Warfare, an Emblem of the Conqueror,
+  a Mist Pearl, and a Mist-Enhanced Mithril to create a War Commendation.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mist-Enhanced_Mithril
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 750
+  metadata: {}
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 750
+  metadata: {}

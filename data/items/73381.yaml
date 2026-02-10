@@ -1,0 +1,28 @@
+id: 73381
+name: Agonized Essence
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/33A24CED131E010FB63B60C1303B5AEDC606B528/575165.png
+description: 'Use in the Mystic Forge with an Agony Infusion, an Ascended Ring, and
+  a Philosopher''s Stone to craft an Attuned Ascended Ring.
+
+  Can be bought inside the Fractals of the Mists once you have trained Agony Channeler
+  in the Fractal Attunement Mastery line.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Agonized_Essence
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: INFUZ-5959
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 2400
+  metadata:
+    notes: Requires the mastery Agony Channeler.

@@ -1,0 +1,45 @@
+id: 81908
+name: Aurora
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/2E5391DBF100D5A4413A07C3A13FC3513F29C394/1729332.png
+vendorValue: 825
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Aurora
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 81729
+    quantity: 1
+  - itemId: 81796
+    quantity: 1
+  - itemId: 81861
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: achievement
+  achievementName: 'Aurora II: Empowering'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: 'Aurora: Awakening'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

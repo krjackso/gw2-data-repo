@@ -1,0 +1,35 @@
+id: 79230
+name: Integrated Fractal Matrix
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/EFB10E0748A8E82B176BD1AFFBF5E2B4C72D06CD/1465514.png
+description: Obtained from vendors in the Mistlock Observatory. Used to purchase rare
+  items.
+vendorValue: 1000
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Integrated_Fractal_Matrix
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73248
+    quantity: 10
+  - currencyId: 7
+    quantity: 15
+  metadata: {}
+- type: vendor
+  vendorName: INFUZ-5959
+  outputQuantity: 1
+  requirements:
+  - itemId: 73248
+    quantity: 10
+  - currencyId: 7
+    quantity: 15
+  metadata: {}

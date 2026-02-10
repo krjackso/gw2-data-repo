@@ -1,0 +1,32 @@
+id: 81326
+name: Essence of Strategy
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/7DECD9AB626915A135D1C9D9B6C50C23FA97D734/1701099.png
+description: Combine with 20 Vials of Powerful Blood, 50 Vials of Potent Blood, and
+  250 Piles of Bloodstone Dust in the Mystic Forge to create a Mystic Essence of Strategy.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Strategy
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 15
+    quantity: 1000
+  metadata: {}
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 15
+    quantity: 1000
+  metadata: {}

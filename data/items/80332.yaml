@@ -1,0 +1,86 @@
+id: 80332
+name: Jade Shard
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B3D1DB6458480968B2FC0C0115476EC892CD0555/1633883.png
+description: Can be consumed for unbound magic or traded with Quartermaster Hitchens.
+vendorValue: 128
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Jade_Shard
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 50
+  requirements:
+  - currencyId: 50
+    quantity: 500
+  metadata:
+    notes: Requires the festival Festival of the Four Winds. Limit 1 per week.
+- type: achievement
+  achievementName: Not All Who Wander Are Lost
+  achievementCategory: The Head of the Snake
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80450
+  containerName: Jade Fragment Node
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: Home instance node (once per account, per day)
+- type: container
+  containerName: Noran's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Noran's Secret Chest
+  outputQuantity: 5
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box (Season 3)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bundle of Jade Shards
+  outputQuantity: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80170
+  containerName: Chest of the Lake Doric Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 80498
+  containerName: Jade Shard Strongbox
+  outputQuantity: 100
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Jade Fragments
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: map_reward
+  outputQuantity: 5
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Lake Doric

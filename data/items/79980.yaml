@@ -1,0 +1,86 @@
+id: 79980
+name: Mist Pendant
+type: Trinket
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/4944FD054FD80D805B0BFFB2DA60363A7DD31FDB/1614376.png
+description: Central Tyrian and Maguuma Pendant<br><c=@flavor>Worn by seasoned mist
+  walkers.</c>
+vendorValue: 660
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- NotUpgradeable
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mist_Pendant
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 170
+  - currencyId: 33
+    quantity: 125
+  metadata: {}
+- type: vendor
+  vendorName: BUY-2046 PFR
+  outputQuantity: 1
+  requirements:
+  - itemId: 79230
+    quantity: 2
+  - currencyId: 24
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Harald
+  outputQuantity: 1
+  requirements:
+  - currencyId: 46
+    quantity: 4
+  metadata: {}
+- type: vendor
+  vendorName: Lambdin the Latish
+  outputQuantity: 1
+  requirements:
+  - currencyId: 46
+    quantity: 4
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 170
+  - currencyId: 33
+    quantity: 125
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 260
+  metadata: {}
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 260
+  metadata: {}
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 260
+  metadata: {}

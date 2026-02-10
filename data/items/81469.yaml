@@ -1,0 +1,32 @@
+id: 81469
+name: Essence of Carnage
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/095B589F3445BD27EBCD9759AB6FF7027D2A720C/1701098.png
+description: Combine with 20 Armored Scales, 50 Large Scales, and 250 Dragonite Ore
+  in the Mystic Forge to create a Mystic Essence of Carnage.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Carnage
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  metadata: {}

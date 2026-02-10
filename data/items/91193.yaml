@@ -1,0 +1,53 @@
+id: 91193
+name: Gift of Patience
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/009503515A5EB61379F4A969BAF3E01EE4CCFE33/2155854.png
+description: A gift used to create legendary jewelry.
+vendorValue: 3
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Patience
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Qadim's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence III: Culmination'
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence III: Culmination'
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 28
+    quantity: 100
+  metadata:
+    notes: 'Requires the achievement Coalescence III: Culmination'
+- type: achievement
+  achievementName: 'Coalescence III: Culmination'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,26 @@
+id: 93022
+name: Emblem of Victory
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/68D067612DDDA73A25A83218212E130EEFF305E0/2270827.png
+description: In the Mystic Forge, combine a Vial of Salt, an Emblem of Victory, a
+  Mist Diamond, and a Mist-Enhanced Orichalcum to create a Salt-Forged Mist Diamond.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Emblem_of_Victory
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: achievement
+  achievementName: Emblem of Victory
+  achievementCategory: PvP Conqueror
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

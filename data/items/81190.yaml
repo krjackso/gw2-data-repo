@@ -1,0 +1,17 @@
+id: 81190
+name: Fire Orchid Seed
+type: Trophy
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/ABBD919CC5A0950CD549B5E8DC3711482959CF5E/103592.png
+description: Plant Fire Orchid Seeds as part of your journey to become closer to the
+  magic of the ancient druids.
+vendorValue: 1000
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fire_Orchid_Seed
+lastUpdated: '2026-02-10'
+acquisitions: []

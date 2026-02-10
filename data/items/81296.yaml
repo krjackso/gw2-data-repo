@@ -1,0 +1,23 @@
+id: 81296
+name: Legendary Spike
+type: Trophy
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/D12175CCA72539F1E8CC967AAF1D2045D3D24F01/1701107.png
+description: Combine the Legendary Spike, 4 Gifts of Battle, 250 Memories of Battle,
+  and 2 Vision Crystals in the Mystic Forge to create the Gift of Conquering.
+vendorValue: 3000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Spike
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Drops randomly from enemy players and NPCs in World versus World

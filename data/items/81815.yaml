@@ -1,0 +1,52 @@
+id: 81815
+name: Gift of Bloodstone Magic
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/05F9644D3720EA446C96F561BC807C0E9E41E4C8/1729314.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Bloodstone_Magic
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Miyani
+  outputQuantity: 1
+  requirements:
+  - itemId: 79280
+    quantity: 250
+  - itemId: 80332
+    quantity: 250
+  - itemId: 81706
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'
+- type: vendor
+  vendorName: Mystic Forge Attendant
+  outputQuantity: 1
+  requirements:
+  - itemId: 79280
+    quantity: 250
+  - itemId: 80332
+    quantity: 250
+  - itemId: 81706
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'
+- type: vendor
+  vendorName: Mystic Forge Keeper
+  outputQuantity: 1
+  requirements:
+  - itemId: 79280
+    quantity: 250
+  - itemId: 80332
+    quantity: 250
+  - itemId: 81706
+    quantity: 250
+  metadata:
+    notes: 'Only if the Aurora: Awakening collection is active.'

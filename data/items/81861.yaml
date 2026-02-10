@@ -1,0 +1,29 @@
+id: 81861
+name: Gift of Draconic Mastery
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A5EB64FB4332B890DD010CD011BA082AF202BBD3/1729315.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Draconic_Mastery
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20797
+    quantity: 1
+  - itemId: 46683
+    quantity: 1
+  - itemId: 81815
+    quantity: 1
+  - itemId: 82036
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,32 @@
+id: 80793
+name: Attuned Mist Band (Infused)
+type: Trinket
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/EAA61AAF9BEF031104FD063C0A301A520EF5F5E6/1614682.png
+description: Central Tyrian and Maguuma Band<br><c=@flavor>Crafted from the blood
+  of your enemies.</c>
+vendorValue: 495
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- NotUpgradeable
+- AccountBindOnUse
+- Attuned
+wikiUrl: https://wiki.guildwars2.com/wiki/Attuned_Mist_Band_(Infused)
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20796
+    quantity: 5
+  - itemId: 49424
+    quantity: 3
+  - itemId: 73381
+    quantity: 1
+  - itemId: 80058
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

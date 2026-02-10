@@ -1,0 +1,45 @@
+id: 77531
+name: Mist Core Fragment
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E12BD918E15AE5F6E00296C6FF68067934EBEFFE/1313073.png
+description: Double-click 4 Mist Core Fragments to create a Perfect Mist Core. Combine
+  with Mystic Clovers, Gift of Condensed Might, and Gift of Condensed Magic in the
+  Mystic Forge to create Gift of Competitive Prosperity.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mist_Core_Fragment
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 4
+  requirements:
+  - itemId: 77520
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 4
+  requirements:
+  - itemId: 77520
+    quantity: 1
+  metadata: {}
+- type: container
+  containerName: Glorious Armor Box
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Glorious Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

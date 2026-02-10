@@ -1,0 +1,167 @@
+id: 49424
+name: +1 Agony Infusion
+type: UpgradeComponent
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/C605E2EF280B5E4CF9A249E80AB3053843C5EBE3/511839.png
+description: Double-click to apply to an unused infusion slot. Used by artificers
+  to craft more powerful agony infusions.
+vendorValue: 330
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/+1_Agony_Infusion
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Fractal Reliquary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Fractal Reliquary
+  outputQuantity: 3
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Fractal Reliquary
+  outputQuantity: 10
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 3
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 10
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: container
+  containerName: Chest (Molten Boss Fractal)
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75409
+  containerName: Cracked Fractal Encryption
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78260
+  containerName: Fractal Adept's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78260
+  containerName: Fractal Adept's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77580
+  containerName: Fractal Adept's Research Chest
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: 2 without mastery bonus, 5 with mastery bonus
+- type: container
+  itemId: 78613
+  containerName: Fractal Expert's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: requires Agony Channeler mastery
+- type: container
+  itemId: 78613
+  containerName: Fractal Expert's Chest
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79800
+  containerName: Fractal Expert's Research Chest
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: 2 without mastery bonus, 5 with mastery bonus
+- type: container
+  itemId: 78200
+  containerName: Fractal Initiate's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78200
+  containerName: Fractal Initiate's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Fractal Initiate's Research Chest
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: 1 without mastery bonus, 3 with mastery bonus
+- type: container
+  itemId: 78572
+  containerName: Fractal Master's Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: with the Agony Channeler mastery
+- type: container
+  itemId: 78572
+  containerName: Fractal Master's Chest
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Incursion Containment Treasures
+  outputQuantity: 4
+  outputQuantityMin: 4
+  outputQuantityMax: 6
+  guaranteed: true
+  requirements: []
+  metadata: {}

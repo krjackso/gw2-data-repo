@@ -1,0 +1,32 @@
+id: 81522
+name: Essence of Animosity
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/70F0B7C44BBD5C330766906F15014D282CBCF575/1701096.png
+description: Combine with 20 Ancient Bones, 50 Large Bones, and 250 Empyreal Fragments
+  in the Mystic Forge to create a Mystic Essence of Animosity.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Animosity
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 65
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 65
+    quantity: 500
+  metadata: {}

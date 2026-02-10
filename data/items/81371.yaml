@@ -1,0 +1,31 @@
+id: 81371
+name: Gift of Conquering
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0303F40F4CB00219D8B8DE6ABFBA77E8F92710D2/1701102.png
+description: Combine the Gift of Fortune, Warcry, Gift of Warfare, and Gift of Conquering
+  in the Mystic Forge to create Warbringer.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Conquering
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19678
+    quantity: 4
+  - itemId: 46746
+    quantity: 2
+  - itemId: 71581
+    quantity: 250
+  - itemId: 81296
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

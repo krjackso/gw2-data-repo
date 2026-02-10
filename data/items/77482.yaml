@@ -1,0 +1,30 @@
+id: 77482
+name: Vial of Salt
+type: Trinket
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/5C6AC7BB0B70C95D4DD4D07209546B6FB56A1E0D/1313083.png
+description: <c=@flavor>It took a lot of tears to create this much salt.</c>
+vendorValue: 660
+flags:
+- HideSuffix
+- AccountBound
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Salt
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 77479
+    quantity: 1
+  - itemId: 77492
+    quantity: 1
+  - itemId: 77510
+    quantity: 1
+  - itemId: 77519
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

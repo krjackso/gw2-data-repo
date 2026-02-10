@@ -1,0 +1,30 @@
+id: 93036
+name: Gift of the Champion
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/AE45625CD95FF40F75DBD4693993B5A05174E738/2270293.png
+description: In the Mystic Forge, combine a Gift of the Champion with a Mist Pendant,
+  a Mystic Tribute, and a Gift of Skirmishing to create Transcendence.
+vendorValue: 165
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Champion
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  - itemId: 93016
+    quantity: 1
+  - itemId: 93284
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

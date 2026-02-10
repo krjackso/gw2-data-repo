@@ -1,0 +1,92 @@
+id: 79280
+name: Blood Ruby
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0DA92F9059C30EF00DBC6CB0D233F235E17F12DD/1465570.png
+description: Can be consumed for unbound magic or traded with Scholar Rakka.
+vendorValue: 128
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Blood_Ruby
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Festival Rewards Vendor
+  outputQuantity: 50
+  requirements:
+  - currencyId: 50
+    quantity: 500
+  metadata:
+    notes: Requires the festival Festival of the Four Winds. Limit 1 per week.
+- type: achievement
+  achievementName: Bloodstone Sightings
+  achievementCategory: Anomalous Occurrences
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Bloodstone Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: After escorting Alari Doubleblade on her quest for vengeance
+- type: container
+  containerName: Bloodstone Chest
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: After defeating the spirit of Justiciar Hablion
+- type: container
+  containerName: Large Bloodstone Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: At the end of Confessor's Stronghold
+- type: container
+  containerName: Large Bloodstone Chest
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: After defeating the jade constructs before they drain the bloodstone, once
+      per character per day
+- type: container
+  containerName: Large Bloodstone Chest
+  outputQuantity: 4
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: After dispersing the Unbound Guardian
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 5
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79161
+  containerName: Blood Ruby Strongbox
+  outputQuantity: 50
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79115
+  containerName: Chest of the Bloodstone Fen Hero
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: resource_node
+  nodeName: Bloodstone Crystals
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: Home instances, once per account per day

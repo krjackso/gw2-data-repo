@@ -1,0 +1,33 @@
+id: 82926
+name: Jar of Distilled Glory
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/06AF4818461DAB62AD720BD06564E4DB3F613D3A/1766743.png
+description: Combine with Record of League Participation, Star of Glory, and Condensed
+  Spirit Energy in the Mystic Forge to create the Gift of Competitive Dedication.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Jar_of_Distilled_Glory
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 1000
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 1000
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'

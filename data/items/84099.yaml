@@ -1,0 +1,33 @@
+id: 84099
+name: Certificate of Heroics
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1198A72552C0625631360D0FDD075DCB41C64B32/1766737.png
+description: Combine with 1 Certificate of Honor, 1 Condensed Spirit Energy, and 250
+  Memories of Battle in the Mystic Forge to create the Gift of War Dedication.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Certificate_of_Heroics
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 65
+    quantity: 250
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 65
+    quantity: 250
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'

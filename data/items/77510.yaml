@@ -1,0 +1,32 @@
+id: 77510
+name: Mystic Essence of Discipline
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/626FE5E4EB996568D46A9C1C57A3DB2D96E504B4/1313077.png
+description: Combine Mystic Essence of Determination, Mystic Essence of Challenge,
+  Mystic Essence of Discipline, and Mystic Essence of Success in the Mystic Forge
+  to create the Vial of Salt.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Essence_of_Discipline
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24288
+    quantity: 50
+  - itemId: 24289
+    quantity: 20
+  - itemId: 46733
+    quantity: 250
+  - itemId: 77541
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

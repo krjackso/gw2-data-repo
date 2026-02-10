@@ -1,0 +1,30 @@
+id: 93190
+name: Gift of the World
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B8475FE410023EF2993705462732A7949527C49A/2270674.png
+description: In the Mystic Forge, combine a Gift of the World with a Mist Band, a
+  Mystic Tribute, and a Gift of Conquering to create Conflux.
+vendorValue: 165
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_World
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 100
+  - itemId: 76427
+    quantity: 1
+  - itemId: 83259
+    quantity: 1
+  - itemId: 93101
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,28 @@
+id: 81729
+name: Spark of Sentience
+type: Trinket
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/4558ACF4ACB81EDCCB5909E1F92E3A8011659FF0/1729362.png
+description: <c=@flavor>This trinket is used to craft the legendary accessory Aurora.</c>
+vendorValue: 413
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spark_of_Sentience
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: achievement
+  achievementName: 'Aurora II: Empowering'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

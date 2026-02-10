@@ -1,0 +1,20 @@
+id: 93140
+name: Slumbering Transcendence
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/0C0D5BBDDD412439FE5F620253EFADAEF6CB760E/2270218.png
+description: <c=@flavor>Rise above it all.</c>
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Slumbering_Transcendence
+lastUpdated: '2026-02-10'
+acquisitions: []

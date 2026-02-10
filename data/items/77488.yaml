@@ -1,0 +1,25 @@
+id: 77488
+name: Essence of Challenge
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/47059E112079ADAB29A066B56FBA75C768A7EB09/1313066.png
+description: Combine with 20 Ancient Bones, 50 Large Bones, and 250 Empyreal Fragments
+  in the Mystic Forge to create a Mystic Essence of Challenge.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Challenge
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 50
+  metadata: {}

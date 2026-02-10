@@ -1,0 +1,24 @@
+id: 82008
+name: Gift of Valor
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/E800EB45234541A6D6D4CC3EEA0C17229E95EB21/1729318.png
+description: A gift used to create legendary jewelry.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Valor
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: achievement
+  achievementName: 'Aurora: Awakening'
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

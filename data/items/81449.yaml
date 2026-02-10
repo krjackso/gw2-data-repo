@@ -1,0 +1,32 @@
+id: 81449
+name: Mystic Essence of Carnage
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B01701670E589124703A4102FEA746D4D49AFED6/1701111.png
+description: Combine Mystic Essence of Strategy, Mystic Essence of Animosity, Mystic
+  Essence of Carnage, and Mystic Essence of Annihilation in the Mystic Forge to create
+  the Gift of Warfare.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Essence_of_Carnage
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24288
+    quantity: 50
+  - itemId: 24289
+    quantity: 20
+  - itemId: 46733
+    quantity: 250
+  - itemId: 81469
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

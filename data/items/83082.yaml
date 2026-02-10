@@ -1,0 +1,48 @@
+id: 83082
+name: Glob of Condensed Spirit Energy
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D3ECFB1AF398D30D1DD861926600413A36125870/1766739.png
+description: Used to upgrade WvW and PvP ascended armor into Legendary Armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glob_of_Condensed_Spirit_Energy
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 100
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 100
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 100
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 23
+    quantity: 100
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns'

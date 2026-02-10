@@ -1,0 +1,26 @@
+id: 93146
+name: Emblem of the Conqueror
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/D548CB0A04FA28BC76A91A6D8045E31A06DD417B/2270825.png
+description: In the Mystic Forge, combine a Gift of Warfare, an Emblem of the Conqueror,
+  a Mist Pearl, and a Mist-Enhanced Mithril to create a War Commendation.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Emblem_of_the_Conqueror
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: achievement
+  achievementName: Emblem of the Conqueror
+  achievementCategory: World vs World
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

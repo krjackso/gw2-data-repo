@@ -1,0 +1,31 @@
+id: 81478
+name: Gift of Warfare
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D3E87E605ADA9FEB1862916408E3E86C5713D17A/1701106.png
+description: Combine the Gift of Fortune, Warcry, Gift of Warfare, and Gift of Conquering
+  in the Mystic Forge to create Warbringer.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Warfare
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 81319
+    quantity: 1
+  - itemId: 81407
+    quantity: 1
+  - itemId: 81449
+    quantity: 1
+  - itemId: 81494
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

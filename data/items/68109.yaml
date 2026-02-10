@@ -1,0 +1,42 @@
+id: 68109
+name: Writ of Experience
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3A29B6E603230CDDED0141CCAFA8CF42D634BC05/924565.png
+description: Grants a small amount of experience. Trade 20 writs to Miyani in Lion's
+  Arch for a tome of knowledge.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Writ_of_Experience
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: container
+  containerName: Chest of Lumber
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of Ore
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of Plants
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of the Adventurer
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

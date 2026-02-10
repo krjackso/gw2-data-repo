@@ -1,0 +1,25 @@
+id: 77486
+name: Certificate of Support
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B0E0A40E7C1D3CB944432F76EC6E52B614B29BEB/1313079.png
+description: Combine 5 of these in the Mystic Forge with 2 Vision Crystals, 250 Shards
+  of Glory, and a Perfect Mist Core to create the Gift of Skirmishing.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Certificate_of_Support
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 5
+  metadata: {}

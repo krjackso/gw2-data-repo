@@ -1,0 +1,30 @@
+id: 77485
+name: Gift of Skirmishing
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0D48CA3E6AFE283570B830302766BA8094E2E469/1313071.png
+description: Used to create the PvP legendary backpack.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Skirmishing
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 46746
+    quantity: 2
+  - itemId: 70820
+    quantity: 250
+  - itemId: 77486
+    quantity: 5
+  - itemId: 77520
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
