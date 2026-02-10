@@ -1,0 +1,15 @@
+id: 6603
+name: Triumphant Hero's Raiment
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/BC1A902C632DEFD0AC26F998039BAD3C7B0F69CC/1424097.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Raiment
+lastUpdated: '2026-02-10'
+acquisitions: []

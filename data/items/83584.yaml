@@ -1,0 +1,34 @@
+id: 83584
+name: Legendary War Insight
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/2BAE4B4FB909730B9ECB42D90CED07DBBC4EFD79/1766744.png
+description: Combine with 1 Eldritch Scroll, 50 Obsidian Shards, and 1 Cube of Stabilized
+  Dark Energy in the Mystic Forge to create the Gift of War Prowess.
+vendorValue: 500
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_War_Insight
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 26
+    quantity: 1095
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 26
+    quantity: 1095
+  metadata:
+    notes: 'Requires Guild Wars 2: Heart of Thorns.'

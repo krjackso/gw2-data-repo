@@ -1,0 +1,15 @@
+id: 6602
+name: Triumphant Hero's Footgear
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/309FA30E0915FA590A01DAA42370800AEE7D0506/1424096.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Footgear
+lastUpdated: '2026-02-10'
+acquisitions: []

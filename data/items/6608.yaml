@@ -1,0 +1,15 @@
+id: 6608
+name: Triumphant Hero's Shinplates
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/0642ACDC7CDF58CF1D384A23E1B3B3E0590115C5/1424108.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Shinplates
+lastUpdated: '2026-02-10'
+acquisitions: []

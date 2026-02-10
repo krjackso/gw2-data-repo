@@ -1,0 +1,15 @@
+id: 6617
+name: Triumphant Hero's Warhelm
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/BCFC78934BCEDC9E92F54160E24FAB78F978664C/1424087.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Warhelm
+lastUpdated: '2026-02-10'
+acquisitions: []

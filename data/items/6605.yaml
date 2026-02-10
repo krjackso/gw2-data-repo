@@ -1,0 +1,15 @@
+id: 6605
+name: Triumphant Hero's Masque
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/0EDAC40348BC373C68FB73AD4CA7B0A91A5F0DED/1424099.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Masque
+lastUpdated: '2026-02-10'
+acquisitions: []

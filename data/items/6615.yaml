@@ -1,0 +1,15 @@
+id: 6615
+name: Triumphant Hero's Breastplate
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/694939A86C196A93D84D1602650B7849EF704C64/1424085.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Breastplate
+lastUpdated: '2026-02-10'
+acquisitions: []

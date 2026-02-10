@@ -1,17 +1,17 @@
-id: 81434
-name: Triumphant Hero's Brigandine
+id: 81315
+name: Triumphant Hero's Faceguard
 type: Armor
 rarity: Ascended
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
-description: Central Tyrian and Maguuma Ascended Brigandine
+icon: https://render.guildwars2.com/file/9AD2650E077C9258BEF3339760A72E29E531E922/1424111.png
+description: Central Tyrian and Maguuma Ascended Cap
 vendorValue: 0
 flags:
 - AccountBound
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Faceguard
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
@@ -21,13 +21,13 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - itemId: 80799
-    quantity: 4
+    quantity: 3
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 175
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Faceguard
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
@@ -35,13 +35,13 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - itemId: 80799
-    quantity: 4
+    quantity: 3
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 175
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Faceguard
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
@@ -49,10 +49,10 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - itemId: 80799
-    quantity: 4
+    quantity: 3
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 175
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Faceguard

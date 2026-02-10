@@ -1,17 +1,17 @@
-id: 81434
-name: Triumphant Hero's Brigandine
+id: 81304
+name: Triumphant Hero's Breastplate
 type: Armor
 rarity: Ascended
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
-description: Central Tyrian and Maguuma Ascended Brigandine
+icon: https://render.guildwars2.com/file/694939A86C196A93D84D1602650B7849EF704C64/1424085.png
+description: Central Tyrian and Maguuma Ascended Breastplate
 vendorValue: 0
 flags:
 - AccountBound
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Breastplate
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
@@ -20,39 +20,39 @@ acquisitions:
   requirements:
   - itemId: 71581
     quantity: 250
-  - itemId: 80799
+  - itemId: 80685
     quantity: 4
   - currencyId: 1
     quantity: 30000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Breastplate
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
   requirements:
   - itemId: 71581
     quantity: 250
-  - itemId: 80799
+  - itemId: 80685
     quantity: 4
   - currencyId: 1
     quantity: 30000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Breastplate
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
   requirements:
   - itemId: 71581
     quantity: 250
-  - itemId: 80799
+  - itemId: 80685
     quantity: 4
   - currencyId: 1
     quantity: 30000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Breastplate

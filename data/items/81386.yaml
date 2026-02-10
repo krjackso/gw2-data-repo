@@ -1,17 +1,17 @@
-id: 81434
-name: Triumphant Hero's Brigandine
+id: 81386
+name: Triumphant Hero's Legguards
 type: Armor
 rarity: Ascended
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
-description: Central Tyrian and Maguuma Ascended Brigandine
+icon: https://render.guildwars2.com/file/7DDC027AA30993F8005F1A263A926C193143E7B5/1424112.png
+description: Central Tyrian and Maguuma Ascended Legguards
 vendorValue: 0
 flags:
 - AccountBound
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Legguards
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
@@ -23,11 +23,11 @@ acquisitions:
   - itemId: 80799
     quantity: 4
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Legguards
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
@@ -37,11 +37,11 @@ acquisitions:
   - itemId: 80799
     quantity: 4
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Legguards
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
@@ -51,8 +51,8 @@ acquisitions:
   - itemId: 80799
     quantity: 4
   - currencyId: 1
-    quantity: 30000
+    quantity: 20000
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Legguards

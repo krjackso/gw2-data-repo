@@ -1,16 +1,16 @@
-id: 6609
-name: Triumphant Hero's Brigandine
+id: 6606
+name: Triumphant Hero's Leggings
 type: Armor
 rarity: Exotic
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
+icon: https://render.guildwars2.com/file/B2A2AD0A47EF806A4673925F05F5BE9BEFADBE78/1424100.png
 vendorValue: 0
 flags:
 - AccountBound
 - NoSalvage
 - NoSell
 - SoulBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Leggings
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
@@ -20,9 +20,9 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Leggings
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
@@ -30,9 +30,9 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Leggings
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
@@ -40,6 +40,6 @@ acquisitions:
   - itemId: 71581
     quantity: 250
   - currencyId: 26
-    quantity: 350
+    quantity: 260
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Leggings

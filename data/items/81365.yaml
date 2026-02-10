@@ -1,0 +1,52 @@
+id: 81365
+name: Sublime Mistforged Triumphant Hero's Raiment
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/28CD680D1095B053CFDDC06A382551FFA9E4095D/1701177.png
+description: Central Tyrian and Maguuma Ascended Raiment
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Sublime_Mistforged_Triumphant_Hero's_Raiment
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Lionguard (Skirmish Merchant)
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 700
+  metadata:
+    notes: Requires the skin Triumphant Hero's Raiment
+- type: vendor
+  vendorName: Mercenary (Skirmish Merchant)
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 700
+  metadata:
+    notes: Requires the skin Triumphant Hero's Raiment
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 700
+  metadata:
+    notes: Requires the skin Triumphant Hero's Raiment

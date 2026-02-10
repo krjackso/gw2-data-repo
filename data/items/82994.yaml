@@ -1,9 +1,9 @@
-id: 84578
-name: Triumphant Hero's Brigandine
+id: 82994
+name: Triumphant Hero's Shoulderguards
 type: Armor
 rarity: Legendary
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
+icon: https://render.guildwars2.com/file/C3F6C09509D643B6B6B1D3BD9BC6B3FE7A2ED042/1424113.png
 vendorValue: 240
 flags:
 - HideSuffix
@@ -12,13 +12,13 @@ flags:
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Shoulderguards
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: mystic_forge
   outputQuantity: 1
   requirements:
-  - itemId: 81434
+  - itemId: 81446
     quantity: 1
   - itemId: 82746
     quantity: 1

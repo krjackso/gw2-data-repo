@@ -1,0 +1,52 @@
+id: 81527
+name: Mistforged Triumphant Hero's Legguards
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/15200C952605EFF79E51E92EA26AC7E8922A3599/1701187.png
+description: Central Tyrian and Maguuma Ascended Legguards
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mistforged_Triumphant_Hero's_Legguards
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 520
+  metadata:
+    notes: Requires the skin Triumphant Hero's Legguards
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 520
+  metadata:
+    notes: Requires the skin Triumphant Hero's Legguards
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 500
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 520
+  metadata:
+    notes: Requires the skin Triumphant Hero's Legguards

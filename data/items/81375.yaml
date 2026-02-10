@@ -1,17 +1,17 @@
-id: 81434
-name: Triumphant Hero's Brigandine
+id: 81375
+name: Mistforged Triumphant Hero's Pauldrons
 type: Armor
 rarity: Ascended
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
-description: Central Tyrian and Maguuma Ascended Brigandine
+icon: https://render.guildwars2.com/file/3D1B61F6A52E073604A5C3909439B05A5CEA4F71/1701174.png
+description: Central Tyrian and Maguuma Ascended Pauldrons
 vendorValue: 0
 flags:
 - AccountBound
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Mistforged_Triumphant_Hero's_Pauldrons
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
@@ -19,40 +19,34 @@ acquisitions:
   outputQuantity: 1
   requirements:
   - itemId: 71581
-    quantity: 250
-  - itemId: 80799
-    quantity: 4
+    quantity: 500
   - currencyId: 1
-    quantity: 30000
+    quantity: 200000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Hero's Pauldrons
 - type: vendor
   vendorName: Mercenary
   outputQuantity: 1
   requirements:
   - itemId: 71581
-    quantity: 250
-  - itemId: 80799
-    quantity: 4
+    quantity: 500
   - currencyId: 1
-    quantity: 30000
+    quantity: 200000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Hero's Pauldrons
 - type: vendor
   vendorName: Skirmish Supervisor
   outputQuantity: 1
   requirements:
   - itemId: 71581
-    quantity: 250
-  - itemId: 80799
-    quantity: 4
+    quantity: 500
   - currencyId: 1
-    quantity: 30000
+    quantity: 200000
   - currencyId: 26
     quantity: 350
   metadata:
-    notes: Requires the skin Triumphant Brigandine
+    notes: Requires the skin Triumphant Hero's Pauldrons

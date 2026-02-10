@@ -1,0 +1,30 @@
+id: 84168
+name: Gift of War Prowess
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/1B5BC43409657C7F0C3DEE7C746D512AE9CB01F8/1766742.png
+description: In the Mystic Forge, combine a Gift of War Prosperity, Gift of War Prowess,
+  Gift of War Dedication, and a WvW Ascended Armor piece to upgrade the armor to Legendary.
+vendorValue: 165
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_War_Prowess
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - itemId: 83584
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

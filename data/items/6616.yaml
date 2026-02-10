@@ -1,0 +1,15 @@
+id: 6616
+name: Triumphant Hero's Gauntlets
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/9D07B60141520863CE60D2391CFAA09DB9B8A0E1/1424086.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Gauntlets
+lastUpdated: '2026-02-10'
+acquisitions: []

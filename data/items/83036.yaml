@@ -1,9 +1,9 @@
-id: 84578
-name: Triumphant Hero's Brigandine
+id: 83036
+name: Triumphant Hero's Raiment
 type: Armor
 rarity: Legendary
 level: 80
-icon: https://render.guildwars2.com/file/2F7CF5F3B3A06CD14565C132EE2C439E4B1027D5/1424109.png
+icon: https://render.guildwars2.com/file/BC1A902C632DEFD0AC26F998039BAD3C7B0F69CC/1424097.png
 vendorValue: 240
 flags:
 - HideSuffix
@@ -12,13 +12,13 @@ flags:
 - NoSell
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Brigandine
+wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Raiment
 lastUpdated: '2026-02-10'
 acquisitions:
 - type: mystic_forge
   outputQuantity: 1
   requirements:
-  - itemId: 81434
+  - itemId: 81338
     quantity: 1
   - itemId: 82746
     quantity: 1
