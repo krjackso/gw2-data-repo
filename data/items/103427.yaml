@@ -1,0 +1,13 @@
+id: 103427
+name: Mursaat Obsidian Chunk
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E75844E3E9DA02E2520D03FC55540944F93A05D2/3592776.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mursaat_Obsidian_Chunk
+lastUpdated: '2026-02-09'
+acquisitions: []

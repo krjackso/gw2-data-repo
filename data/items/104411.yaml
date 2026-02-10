@@ -1,0 +1,39 @@
+id: 104411
+name: Endless Yagon Tonic
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/29D9120AF52E9F4890BFC9D149B237653CCA77D0/3592696.png
+description: Double-click to transform into Yagon.
+vendorValue: 104
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- NoUnderwater
+- AccountBindOnUse
+- Tonic
+wikiUrl: https://wiki.guildwars2.com/wiki/Endless_Yagon_Tonic
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104331
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104371
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 102487
+    quantity: 1
+  metadata: {}

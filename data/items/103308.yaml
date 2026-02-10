@@ -1,0 +1,49 @@
+id: 103308
+name: Gift of Sharpened Tip
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6658618092E15DFD3B0B3406FBA0159F50400D90/3441844.png
+description: "Combine in the Mystic Forge a Gift of Sharpened Tip, a Gift of Metal,\
+  \ a Standing Stones Timepiece (or Remnant), and any weight of the Bearkin War Helm\
+  \ (or Remnant) to create Nyr Hrammr. \nRemnants can be bought from renown heart\
+  \ vendors if you lost the items.\n\nCreated in the Mystic Forge by combining:\n\
+  • 6 Deldrimor Steel Spear Heads\n• 6 Large Spiritwood Hafts\n• 6 Vision Crystals\n\
+  • 1 Memory of Bearkin's Adversaries"
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Sharpened_Tip
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 45849
+    quantity: 6
+  - itemId: 45853
+    quantity: 6
+  - itemId: 46746
+    quantity: 6
+  - itemId: 103793
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 45849
+    quantity: 6
+  - itemId: 45853
+    quantity: 6
+  - itemId: 46746
+    quantity: 6
+  - itemId: 103793
+    quantity: 1
+  metadata: {}

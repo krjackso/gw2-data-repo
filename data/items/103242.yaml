@@ -1,0 +1,55 @@
+id: 103242
+name: Gift of Embracing Refuge
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4BC27F92E5DAEF733C975DD93DAB809CB7DF1BBA/3441836.png
+description: 'Combine a Gift of Embracing Refuge, a Gift of Condensed Might, a Gift
+  of Condensed Magic, and 38 Mystic Clovers in the Mystic Forge to create the Gift
+  of the Homesteader.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 250 Refined Metal
+
+  • 250 Refined Fiber
+
+  • 250 Refined Wood
+
+  • 250 Shards of the Homestead'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Embracing_Refuge
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 102205
+    quantity: 250
+  - itemId: 102306
+    quantity: 250
+  - itemId: 103049
+    quantity: 250
+  - itemId: 103587
+    quantity: 250
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 102205
+    quantity: 250
+  - itemId: 102306
+    quantity: 250
+  - itemId: 103049
+    quantity: 250
+  metadata: {}

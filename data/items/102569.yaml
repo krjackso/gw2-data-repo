@@ -1,0 +1,65 @@
+id: 102569
+name: Shard of Lowland Shore
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/43F5A24CAD28C314B00DDBEDB51AA7C5A7B79013/3441851.png
+description: 'Used in the crafting of Janthir Wilds legendary items.
+
+
+  Purchased from Lowland Shore Renown Heart vendors, or purchased from the Trading
+  Post.'
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Lowland_Shore
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 103038
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 103038
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 103038
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: container
+  itemId: 103991
+  containerName: Discounted Shard of Lowland Shore
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

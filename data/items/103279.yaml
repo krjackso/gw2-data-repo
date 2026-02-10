@@ -1,0 +1,13 @@
+id: 103279
+name: Charged Titan Ore
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/04800AD00DFEB801C3DF77973D49FC1D017C9A04/3375061.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Charged_Titan_Ore
+lastUpdated: '2026-02-09'
+acquisitions: []

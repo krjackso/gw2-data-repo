@@ -1,0 +1,13 @@
+id: 102255
+name: Rotted Titan Amber
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/504227ABF7272B9DD8ECC4C494FBEBBF4296E368/3375062.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Rotted_Titan_Amber
+lastUpdated: '2026-02-09'
+acquisitions: []

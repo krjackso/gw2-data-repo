@@ -1,0 +1,64 @@
+id: 102958
+name: Gift of Janthir Syntri
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D8C2FB01050308CFB0B251286B0334AC0F46027C/3375054.png
+description: Used in the crafting of Janthir Wilds legendary items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Janthir_Syntri
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 102494
+    quantity: 100
+  - itemId: 102881
+    quantity: 15
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 102494
+    quantity: 100
+  - itemId: 102881
+    quantity: 15
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 102494
+    quantity: 100
+  - itemId: 102881
+    quantity: 15
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.

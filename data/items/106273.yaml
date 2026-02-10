@@ -1,0 +1,24 @@
+id: 106273
+name: Ancora Bellum
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/31290C7C3C6799515EC55B143EFE292ED00B5663/3710037.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ancora_Bellum
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 105497
+  containerName: Aetheric Anchor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

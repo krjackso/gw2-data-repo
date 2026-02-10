@@ -1,0 +1,172 @@
+id: 100930
+name: Amalgamated Rift Essence
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/41279A5101E4A871C0440FAA3F921DBC610C0D49/3123730.png
+description: 'An amalgamation of rift essences used for crafting.
+
+  The recipe can be purchased from Lyhr in the Wizard''s Tower.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Amalgamated_Rift_Essence
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 50
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Chef
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    - Scribe
+    minRating: 400
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 60
+  - currencyId: 78
+    quantity: 250
+  - currencyId: 79
+    quantity: 50
+  - currencyId: 80
+    quantity: 100
+  metadata: {}

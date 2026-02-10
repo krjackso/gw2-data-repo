@@ -1,0 +1,69 @@
+id: 104714
+name: 'Bava Nisos: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/00AABCE916B695E81295E92D2A42ECC37E9039D5/3374827.png
+description: 'Double-click to pick your choice of rewards.
+
+
+  <c=@flavor>"We have a titan to knock down a peg or two."</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bava_Nisos:_Commander's_Choice_Chest
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 68063
+  containerName: Amalgamated Gemstone
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103279
+  containerName: Charged Titan Ore
+  outputQuantity: 30
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104829
+  containerName: Curious Mursaat Remnants
+  outputQuantity: 10
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103427
+  containerName: Mursaat Obsidian Chunk
+  outputQuantity: 30
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102255
+  containerName: Rotted Titan Amber
+  outputQuantity: 30
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102655
+  containerName: Titan Heatstone
+  outputQuantity: 30
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 103372
+  containerName: Ursus Oblige
+  outputQuantity: 75
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,13 @@
+id: 102655
+name: Titan Heatstone
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/ADFDE2390DB1BC9109BA51CB5D55339C620357D5/3592778.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Titan_Heatstone
+lastUpdated: '2026-02-09'
+acquisitions: []

@@ -1,0 +1,53 @@
+id: 104229
+name: Vial of Titan Melted Liquid Obsidian
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A26C0D6F7BF50D443FC4C971DE0CA423F85E4C39/3592775.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Titan_Melted_Liquid_Obsidian
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19712
+    quantity: 3
+  - itemId: 19721
+    quantity: 3
+  - itemId: 102655
+    quantity: 5
+  - itemId: 103427
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    - Jeweler
+    minRating: 400
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 19712
+    quantity: 4
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102655
+    quantity: 7
+  - itemId: 103427
+    quantity: 7
+  metadata: {}
+- type: achievement
+  achievementName: Mistburned Barrens Explorer
+  achievementCategory: Explorer
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

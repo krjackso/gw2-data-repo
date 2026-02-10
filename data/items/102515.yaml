@@ -1,0 +1,55 @@
+id: 102515
+name: Gift of Gatherer of the Hunt
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/F7721C3B402F45DB5AC043260620C254806E5CD4/3441837.png
+description: 'Combine a Gift of Gatherer of the Hunt, a Gift of Uncovered Grounds,
+  a Gift of Expertise, and a Bloodstone Shard in the Mystic Forge to create the Gift
+  of Janthir Wilds.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 100 Sweet-Treated Pine Planks
+
+  • 100 Neutralized Titan Alloys
+
+  • 100 Shards of Lowland Shore
+
+  • 100 Shards of Janthir Syntri'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Gatherer_of_the_Hunt
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 102467
+    quantity: 100
+  - itemId: 102569
+    quantity: 100
+  - itemId: 103103
+    quantity: 100
+  - itemId: 103316
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 102467
+    quantity: 100
+  - itemId: 102569
+    quantity: 100
+  - itemId: 103316
+    quantity: 100
+  metadata: {}

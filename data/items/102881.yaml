@@ -1,0 +1,72 @@
+id: 102881
+name: Janthir Syntri Renown Token
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/6610A1172ED4EFD1DC1DE4A7B7098070F1B209DF/3376075.png
+description: Can be used to purchase local writs of renown at renown heart vendors
+  in Janthir Syntri.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Janthir_Syntri_Renown_Token
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 3
+  requirements:
+  - itemId: 104331
+    quantity: 5
+  metadata: {}
+- type: container
+  containerName: Rift Extraction
+  outputQuantity: 2
+  requirements: []
+  metadata:
+    notes: if Rift Extraction was earned in Janthir Syntri
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Adventure in Janthir Syntri, rewards one Janthir Syntri Renown Token per
+      account per day
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Adventure in Janthir Syntri, rewards one Janthir Syntri Renown Token per
+      account per day
+- type: other
+  outputQuantity: 4
+  requirements: []
+  metadata:
+    notes: Dynamic event in Janthir Syntri that rewards 4 Janthir Syntri Renown Tokens
+      upon completion
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dynamic event in Janthir Syntri that rewards Janthir Syntri Renown Token
+      upon completion
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dynamic event in Janthir Syntri that rewards Janthir Syntri Renown Token
+      upon completion
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dynamic event in Janthir Syntri that rewards Janthir Syntri Renown Token
+      upon completion
+- type: other
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    notes: Dynamic event in Janthir Syntri that rewards Janthir Syntri Renown Token
+      upon completion

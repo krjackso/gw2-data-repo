@@ -1,0 +1,23 @@
+id: 102848
+name: Valkyrie Bearkin War Helm
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/1BC138BC5792300CF7DDBB01D6F771359134D757/3376781.png
+description: <c=@flavor>This helmet is used for crafting Janthir Wilds legendary items.
+  Additional copies can be purchased in the near future.</c>
+vendorValue: 330
+flags:
+- AccountBound
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Valkyrie_Bearkin_War_Helm
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: container
+  itemId: 102814
+  containerName: Bearkin War Helm Choice Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

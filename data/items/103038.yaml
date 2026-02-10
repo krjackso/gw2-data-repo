@@ -1,0 +1,182 @@
+id: 103038
+name: Curious Lowland Honeycomb
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B9724C9B69CE01DC0F62937F33E5CAA1911B9EFF/3376073.png
+description: Can be spent at vendors in Lowland Shore or consumed to add 5 ursus obliges
+  to your wallet.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Curious_Lowland_Honeycomb
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 20
+  requirements:
+  - itemId: 102929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan Inhabitants of Harvest Den.
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 5
+  requirements:
+  - itemId: 102255
+    quantity: 3
+  - itemId: 102494
+    quantity: 1
+  - itemId: 103279
+    quantity: 3
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan Inhabitants of Harvest Den.
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 5
+  requirements:
+  - itemId: 102655
+    quantity: 3
+  - itemId: 103427
+    quantity: 3
+  - itemId: 104331
+    quantity: 1
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist those surveying Mistburned Barrens in
+      keeping their camp safe and running.
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 20
+  requirements:
+  - itemId: 102929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan around Autumn's Vale.
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 5
+  requirements:
+  - itemId: 102255
+    quantity: 3
+  - itemId: 102494
+    quantity: 1
+  - itemId: 103279
+    quantity: 3
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan around Autumn's Vale.
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan in Their Coursing Upland Activities.
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 5
+  requirements:
+  - itemId: 102255
+    quantity: 3
+  - itemId: 102494
+    quantity: 1
+  - itemId: 103279
+    quantity: 3
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist the Kodan in Their Coursing Upland Activities.
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 5
+  requirements:
+  - itemId: 102503
+    quantity: 3
+  - itemId: 102558
+    quantity: 3
+  - itemId: 104829
+    quantity: 1
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 20
+  requirements:
+  - itemId: 102929
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Autumn's Vale Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 8
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Harvest Den Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Journeykin Outpost Renown Mastery
+  achievementCategory: Renown Hearts
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Lowland Shore Mastery
+  achievementCategory: Lowland Shore
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102391
+  containerName: Lowland Shore Strongbox
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Janthir Wilds Reward Track
+  outputQuantity: 10
+  requirements: []
+  metadata: {}

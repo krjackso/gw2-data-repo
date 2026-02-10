@@ -1,0 +1,13 @@
+id: 102558
+name: Honey Flower
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B4E067EC20C4020F707B61B45139B3012EDFB219/3375060.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Honey_Flower
+lastUpdated: '2026-02-09'
+acquisitions: []

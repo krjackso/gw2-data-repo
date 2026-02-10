@@ -1,0 +1,39 @@
+id: 102487
+name: Mini Barbed Vale
+type: MiniPet
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/94217590333EF92EB7E8A7A8627CA07F16925796/3592779.png
+description: Double-click to summon this mini to follow you around. Only one mini
+  may be in use at a time.
+vendorValue: 50
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mini_Barbed_Vale
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104331
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104411
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104371
+    quantity: 1
+  metadata: {}

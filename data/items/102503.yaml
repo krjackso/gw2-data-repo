@@ -1,0 +1,13 @@
+id: 102503
+name: Lowland Pine Log
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3FDB469FA0B15612A43B1534EDD8F6747C032EF4/3375064.png
+description: Ingredient
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Lowland_Pine_Log
+lastUpdated: '2026-02-09'
+acquisitions: []

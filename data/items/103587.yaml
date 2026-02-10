@@ -1,0 +1,46 @@
+id: 103587
+name: Shard of the Homestead
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/459DA54BE5F1B74CE322BB9A2000C107FE78DB50/3441843.png
+description: 'Combine 250 Refined Metal, 250 Refined Wood, 250 Refined Fiber, and
+  250 Shards of the Homestead to create the Gift of Embracing Refuge.
+
+
+  This item is purchased from Deft Lahar in your homestead.'
+vendorValue: 0
+flags:
+- NoSalvage
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_the_Homestead
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Castaway
+  outputQuantity: 1
+  requirements:
+  - itemId: 102205
+    quantity: 5
+  - itemId: 102306
+    quantity: 5
+  - itemId: 103049
+    quantity: 5
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    notes: Requires the mastery Adept Handiworker Crafting
+- type: vendor
+  vendorName: Deft Lahar
+  outputQuantity: 1
+  requirements:
+  - itemId: 102205
+    quantity: 5
+  - itemId: 102306
+    quantity: 5
+  - itemId: 103049
+    quantity: 5
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    notes: Requires the mastery Adept Handiworker Crafting

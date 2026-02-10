@@ -1,0 +1,123 @@
+id: 104331
+name: Curious Mursaat Ruin Shard
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3E0F9E2B9CEA649D540160AFB22AB650301B5171/3592777.png
+description: Can be spent at vendors in Mistburned Barrens or consumed to add 5 ursus
+  obliges to your wallet.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Curious_Mursaat_Ruin_Shard
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 20
+  requirements:
+  - itemId: 104313
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 2
+    quantity: 1050
+  metadata:
+    limitType: daily
+    limitAmount: 1
+    notes: Requires the renown heart Assist those surveying Mistburned Barrens in
+      keeping their camp safe and running.
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 50
+  requirements:
+  - itemId: 104411
+    quantity: 1
+  metadata:
+    notes: Requires Endless Yagon Tonic to be added to wardrobe.
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 50
+  requirements:
+  - itemId: 104371
+    quantity: 1
+  metadata:
+    notes: Requires Mini Janthir Warg to be added to wardrobe.
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 50
+  requirements:
+  - itemId: 102487
+    quantity: 1
+  metadata:
+    notes: Requires Mini Barbed Vale to be added to wardrobe.
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 20
+  requirements:
+  - itemId: 104313
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 102655
+    quantity: 3
+  - itemId: 103427
+    quantity: 3
+  - itemId: 104829
+    quantity: 5
+  metadata:
+    limitType: daily
+    limitAmount: 1
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 20
+  requirements:
+  - itemId: 104313
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Mistburned Barrens Mastery
+  achievementCategory: Mistburned Barrens
+  outputQuantity: 20
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104440
+  containerName: Bloodstone Corridor Survey Result Chest
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104463
+  containerName: Mistburned Barrens Strongbox
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104431
+  containerName: Valley of Agony Survey Result Chest
+  outputQuantity: 2
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104461
+  containerName: Wraith's Pass Survey Result Chest
+  outputQuantity: 2
+  requirements: []
+  metadata: {}

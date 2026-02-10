@@ -1,0 +1,57 @@
+id: 102376
+name: Gift of the Homesteader
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/EE04654F7A386077996A56F6533904A9FA5CC159/3441838.png
+description: 'Combine a Gift of Janthir Wilds, a Gift of the Homesteader, a Gift of
+  Klobjarne Geirr, and Nyr Hrammr in the Mystic Forge to create the legendary spear
+  Klobjarne Geirr.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 1 Gift of Embracing Refuge
+
+  • 1 Gift of Condensed Might
+
+  • 1 Gift of Condensed Magic
+
+  • 38 Mystic Clovers'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Homesteader
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 38
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 103242
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 38
+  - itemId: 19721
+    quantity: 5
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 103242
+    quantity: 1
+  metadata: {}

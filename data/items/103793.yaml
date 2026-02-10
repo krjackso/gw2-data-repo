@@ -1,0 +1,29 @@
+id: 103793
+name: Memory of Bearkin's Adversaries
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/FEE368623CC6031EDB58D877E85FA6E82DEB6B06/3441847.png
+description: 'Combine 6 Deldrimor Steel Spear Heads, 6 Large Spiritwood Hafts, 6 Vision
+  Crystals, and a Memory of Bearkin''s Adversaries to create Nyr Hrammr.
+
+
+  This item is acquired from the achievement "Klobjarne Geirr: World Boss or Meta-Event
+  Completions."'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_Bearkin's_Adversaries
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: achievement
+  achievementName: 'Klobjarne Geirr: World Boss or Meta-Event Completions'
+  achievementCategory: 'Legendary Spear: Klobjarne Geirr'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

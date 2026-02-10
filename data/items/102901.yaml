@@ -1,0 +1,47 @@
+id: 102901
+name: Gift of Klobjarne Geirr
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BE3DC753590D3B6797D6D61B0B5CD859043CF0F5/3441839.png
+description: "Combine a Gift of Janthir Wilds, a Gift of the Homesteader, a Gift of\
+  \ Klobjarne Geirr, and Nyr Hrammr to create the legendary spear Klobjarne Geirr.\n\
+  \nCreated in the Mystic Forge by combining:\n• 1 Gift of Recollector of Memories\n\
+  • 100 Mystic Runestones \n• 1 Gift of the Mists\n• 1 Gift of Research"
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Klobjarne_Geirr
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 97655
+    quantity: 1
+  - itemId: 102342
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 76427
+    quantity: 1
+  - itemId: 79418
+    quantity: 100
+  - itemId: 97655
+    quantity: 1
+  - itemId: 102342
+    quantity: 1
+  metadata: {}

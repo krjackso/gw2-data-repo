@@ -1,0 +1,30 @@
+id: 104896
+name: Gift of Bava Nisos
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/CC2AF85864FDB592EE5638977C0A7D70AF745134/3629251.png
+description: Used in the crafting of Janthir Wilds legendary items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Bava_Nisos
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 104829
+    quantity: 125
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2500
+  metadata:
+    notes: Requires character has map completed Bava Nisos

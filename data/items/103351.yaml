@@ -1,0 +1,66 @@
+id: 103351
+name: Mursaat Runestone
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/636FCB6D19952BE2AC1A7DF20F0A78AF1DFC7E60/3376085.png
+description: Used in the crafting of Janthir Wilds legendary items.
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Mursaat_Runestone
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Davo Zes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Emlyn Digby
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Parting Kindness
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Patches
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 200
+  metadata: {}
+- type: container
+  itemId: 102592
+  containerName: Honeycomb-Covered Gear Bag
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 102536
+  containerName: Mythical Kodan Cache
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 104936
+  containerName: Slime-Encrusted Mursaat Strongbox
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

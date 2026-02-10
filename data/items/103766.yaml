@@ -1,0 +1,27 @@
+id: 103766
+name: Memory of the Bearkin's Hunts
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0CDF6D3FC535D1E134E2E90D25A6214EEAB25CD0/3441841.png
+description: "Combine 25 Tales of Adventure, a Gift of Bones, a Memory of Bearkin's\
+  \ Hunts, and a Memory of Bearkin's Victories to create a Gift of Recollector of\
+  \ Memories. \n\nThis item is acquired from the achievement \"Klobjarne Geirr: Janthir\
+  \ Spear Kills.\""
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_the_Bearkin's_Hunts
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: achievement
+  achievementName: 'Klobjarne Geirr: Janthir Spear Kills'
+  achievementCategory: 'Legendary Spear: Klobjarne Geirr'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

@@ -1,0 +1,39 @@
+id: 104371
+name: Mini Janthir Warg
+type: MiniPet
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/D5F615DF6C92BDFD133BF7B62E5B17E780B5B062/3592782.png
+description: Double-click to summon this mini to follow you around. Only one mini
+  may be in use at a time.
+vendorValue: 50
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mini_Janthir_Warg
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104331
+    quantity: 200
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 104411
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 102487
+    quantity: 1
+  metadata: {}

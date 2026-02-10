@@ -1,0 +1,56 @@
+id: 104829
+name: Curious Mursaat Remnants
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/96EF0A1708920D059FAFAAF05AFE18FD1CF39504/3630025.png
+description: Can be spent at vendors in Bava Nisos or consumed to add 5 ursus obliges
+  to your wallet.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Curious_Mursaat_Remnants
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: 'Bava Nisos: Commander''s Choice Chest'
+  outputQuantity: 10
+  requirements:
+  - itemId: 104714
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 20
+  requirements:
+  - itemId: 104896
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 20
+  requirements:
+  - itemId: 104896
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 20
+  requirements:
+  - itemId: 104896
+    quantity: 1
+  metadata: {}
+- type: achievement
+  achievementName: Sweet Relief
+  achievementCategory: Bava Nisos
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Janthir Wilds Reward Track
+  outputQuantity: 5
+  requirements: []
+  metadata: {}

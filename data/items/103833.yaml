@@ -1,0 +1,28 @@
+id: 103833
+name: Memory of the Bearkin's Victories
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/23452121230F0F2D19F80FD4669D7693ADEABAA3/3441835.png
+description: 'Combine 25 Tales of Adventure, a Gift of Bones, a Memory of Bearkin''s
+  Victories, and a Memory of Bearkin Hunts to create a Gift of Recollector of Memories.
+
+
+  This item is acquired from the Klobjarne Geirr: Raid or Convergence Victories achievement.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Memory_of_the_Bearkin's_Victories
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: achievement
+  achievementName: 'Klobjarne Geirr: Raid or Convergence Victories'
+  achievementCategory: 'Legendary Spear: Klobjarne Geirr'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

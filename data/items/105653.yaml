@@ -1,0 +1,24 @@
+id: 105653
+name: Ancora Pax
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/062138CC40DF0A2D4195C9DAA5FDD8BF0ECC27F9/3710038.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ancora_Pax
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: container
+  itemId: 105497
+  containerName: Aetheric Anchor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

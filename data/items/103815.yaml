@@ -1,0 +1,29 @@
+id: 103815
+name: Klobjarne Geirr
+type: Weapon
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/BC680270399F49A15415E402623AD4E5A09A6411/3442617.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Klobjarne_Geirr
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 102376
+    quantity: 1
+  - itemId: 102514
+    quantity: 1
+  - itemId: 102901
+    quantity: 1
+  - itemId: 103973
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

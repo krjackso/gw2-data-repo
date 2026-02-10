@@ -1,0 +1,58 @@
+id: 100852
+name: Gift of Expertise
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/13936A08DB2E6EC6A2D340E4233BC79CACC8A0E1/3122196.png
+description: Used in crafting legendary items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Expertise
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - itemId: 100930
+    quantity: 12
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - itemId: 100930
+    quantity: 12
+  metadata: {}
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - itemId: 100930
+    quantity: 12
+  metadata: {}

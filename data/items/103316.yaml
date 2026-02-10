@@ -1,0 +1,65 @@
+id: 103316
+name: Shard of Janthir Syntri
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/59E1E1DC15232E1E7CADED9E68C66B04B5FCA27C/3441850.png
+description: 'Used in the crafting of Janthir Wilds legendary items.
+
+
+  Purchased from Janthir Syntri Renown Heart vendors, or purchased from the Trading
+  Post.'
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Janthir_Syntri
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 102494
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 102494
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 102494
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 7
+- type: container
+  itemId: 103846
+  containerName: Discounted Shard of Janthir Syntri
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,90 @@
+id: 102467
+name: Neutralized Titan Alloy
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/92B1D6C8C1CF1908DBF10F24659D5D25080BA1EC/3375058.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Neutralized_Titan_Alloy
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 5
+  - itemId: 19721
+    quantity: 3
+  - itemId: 102255
+    quantity: 5
+  - itemId: 103279
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102255
+    quantity: 7
+  - itemId: 103279
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Help the kodan study and settle in the Janthir
+      Syntri region
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102255
+    quantity: 7
+  - itemId: 103279
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Support the kodan as they maintain their camp
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102255
+    quantity: 7
+  - itemId: 103279
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102255
+    quantity: 7
+  - itemId: 103279
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Assist the kodan in researching the titan blight

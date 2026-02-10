@@ -1,0 +1,57 @@
+id: 102514
+name: Gift of Janthir Wilds
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/53EDF5B49C0A9E7CEB0BFCC10E960A3977D86B09/3441840.png
+description: 'Combine a Gift of Janthir Wilds, a Gift of the Homesteader, a Gift of
+  Klobjarne Geirr, and Nyr Hrammr in the Mystic Forge to create the legendary spear
+  Klobjarne Geirr.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 1 Gift of Gatherer of the Hunt
+
+  • 1 Gift of Uncovered Grounds
+
+  • 1 Gift of Expertise
+
+  • 1 Bloodstone Shard'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Janthir_Wilds
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 20797
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 102411
+    quantity: 1
+  - itemId: 102515
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 20797
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 102411
+    quantity: 1
+  - itemId: 102515
+    quantity: 1
+  metadata: {}

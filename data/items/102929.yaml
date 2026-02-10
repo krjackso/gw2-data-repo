@@ -1,0 +1,64 @@
+id: 102929
+name: Gift of Lowland Shore
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/0F4A10790EDB51CC038006155AB510458096050D/3375055.png
+description: Used in the crafting of Janthir Wilds legendary items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Lowland_Shore
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 102818
+    quantity: 15
+  - itemId: 103038
+    quantity: 100
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 102818
+    quantity: 15
+  - itemId: 103038
+    quantity: 100
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 102818
+    quantity: 15
+  - itemId: 103038
+    quantity: 100
+  - currencyId: 2
+    quantity: 51000
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 76
+    quantity: 2000
+  metadata:
+    notes: Requires character already completed the map.

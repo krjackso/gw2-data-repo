@@ -1,0 +1,31 @@
+id: 102818
+name: Lowland Shore Renown Token
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/6610A1172ED4EFD1DC1DE4A7B7098070F1B209DF/3376075.png
+description: Can be used to purchase local writs of renown at renown heart vendors
+  in Lowland Shore.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lowland_Shore_Renown_Token
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 3
+  requirements:
+  - itemId: 104331
+    quantity: 5
+  metadata: {}
+- type: container
+  containerName: Rift Extraction
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata:
+    notes: if Rift Extraction was earned in Lowland Shore

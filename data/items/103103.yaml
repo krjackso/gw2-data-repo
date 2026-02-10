@@ -1,0 +1,131 @@
+id: 103103
+name: Sweet-Treated Pine Plank
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/770805EB02013F99C26574C05B245544A4060EED/3375065.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sweet-Treated_Pine_Plank
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 5
+  - itemId: 19721
+    quantity: 3
+  - itemId: 102503
+    quantity: 5
+  - itemId: 102558
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Help the kodan study and settle in the Janthir
+      Syntri region to be incomplete.
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Support the kodan as they maintain their camp
+      to be incomplete.
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata: {}
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 19685
+    quantity: 6
+  - itemId: 19721
+    quantity: 4
+  - itemId: 102503
+    quantity: 7
+  - itemId: 102558
+    quantity: 7
+  metadata:
+    notes: Requires the renown heart Assist the kodan in researching the titan blight
+      to be incomplete.

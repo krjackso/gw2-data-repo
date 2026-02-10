@@ -1,0 +1,52 @@
+id: 103435
+name: Standing Stones Timepiece Remnant
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0C750E0595B29F5AAA9F31A55670107D62CC0E7A/3441849.png
+description: Remnants of a Standing Stones Timepiece. Used as a replacement for the
+  Standing Stones Timepiece in the Mystic Forge.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Standing_Stones_Timepiece_Remnant
+lastUpdated: '2026-02-09'
+acquisitions:
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 25
+  - itemId: 103038
+    quantity: 25
+  - currencyId: 2
+    quantity: 10050
+  metadata:
+    notes: Requires the achievement Lowland Shore Mastery
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 25
+  - itemId: 103038
+    quantity: 25
+  - currencyId: 2
+    quantity: 10050
+  metadata:
+    notes: Requires the achievement Lowland Shore Mastery
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 25
+  - itemId: 103038
+    quantity: 25
+  - currencyId: 2
+    quantity: 10050
+  metadata:
+    notes: Requires the achievement Lowland Shore Mastery

@@ -1,0 +1,93 @@
+id: 103973
+name: Nyr Hrammr
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/C56FF6EE2461FAC025D4C993AAF9BC35230FD0DD/3442765.png
+description: '<c=@flavor>This weapon is used to craft the legendary spear Klobjarne
+  Geirr.
+
+
+  Combine this weapon in the Mystic Forge with:
+
+  • 1 Gift of Janthir Wilds
+
+  • 1 Gift of the Homesteader
+
+  • 1 Gift of Klobjarne Geirr</c>'
+vendorValue: 396
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Nyr_Hrammr
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 102848
+    quantity: 1
+  - itemId: 103308
+    quantity: 1
+  - itemId: 103578
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 103110
+    quantity: 1
+  - itemId: 103308
+    quantity: 1
+  - itemId: 103578
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 103257
+    quantity: 1
+  - itemId: 103308
+    quantity: 1
+  - itemId: 103578
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 103308
+    quantity: 1
+  - itemId: 103435
+    quantity: 1
+  - itemId: 103450
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Ward Crafter Lucirae
+  outputQuantity: 1
+  requirements:
+  - itemId: 19621
+    quantity: 1
+  - itemId: 19721
+    quantity: 5
+  - itemId: 103308
+    quantity: 1
+  - itemId: 103435
+    quantity: 1
+  - itemId: 103450
+    quantity: 1
+  metadata: {}
