@@ -90,6 +90,18 @@ def _play_completion_sound() -> None:
         pass
 
 
+def _display_error_details(item_id: int, error_msg: str, cache: CacheClient) -> None:
+    terminal.bullet(f"{item_id}: {error_msg}", indent=2, symbol="✗")
+    try:
+        item = api.get_item(item_id, cache)
+        item_name = item.get("name", "Unknown")
+        wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
+        terminal.info(f"    Wiki: {wiki_url}")
+    except Exception:
+        pass
+    terminal.info(f"    Debug with: uv run python -m scripts.populate --item-id {item_id}")
+
+
 def populate_tree(
     root_id: int,
     cache: CacheClient,
@@ -98,7 +110,8 @@ def populate_tree(
     model: str | None = None,
     force: bool = False,
     workers: int = 1,
-) -> None:
+    show_errors: bool = True,
+) -> list[tuple[int, str]]:
     global _interrupted
     _interrupted = False
 
@@ -233,18 +246,10 @@ def populate_tree(
         for oid, notes in other_types:
             terminal.bullet(f"{oid}: {notes}", indent=2)
 
-    if errors:
+    if errors and show_errors:
         terminal.subsection("Failed items")
         for eid, msg in errors:
-            terminal.bullet(f"{eid}: {msg}", indent=2, symbol="✗")
-            try:
-                item = api.get_item(eid, cache)
-                item_name = item.get("name", "Unknown")
-                wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
-                terminal.info(f"    Wiki: {wiki_url}")
-            except Exception:
-                pass
-            terminal.info(f"    Debug with: uv run python -m scripts.populate --item-id {eid}")
+            _display_error_details(eid, msg, cache)
 
     if _interrupted:
         terminal.warning("Stopped early due to interrupt.")
@@ -255,6 +260,8 @@ def populate_tree(
         terminal.info(f"\nRe-run to continue processing {queued_new} remaining new item(s).")
 
     _play_completion_sound()
+
+    return errors
 
 
 def main() -> None:
@@ -334,11 +341,14 @@ def main() -> None:
                 terminal.error(f"Invalid item ID format: {e}")
                 sys.exit(1)
 
+        all_errors: list[tuple[int, str]] = []
+        multiple_roots = len(root_ids) > 1
+
         for idx, root_id in enumerate(root_ids):
-            if len(root_ids) > 1:
+            if multiple_roots:
                 terminal.section_header(f"Processing root {idx + 1}/{len(root_ids)}: {root_id}")
 
-            populate_tree(
+            errors = populate_tree(
                 root_id,
                 cache,
                 limit=args.limit,
@@ -346,10 +356,18 @@ def main() -> None:
                 model=args.model,
                 force=args.force,
                 workers=args.workers,
+                show_errors=not multiple_roots,
             )
+            all_errors.extend(errors)
 
             if _interrupted:
                 break
+
+        if multiple_roots and all_errors:
+            terminal.section_header("Unified Failed Items Summary")
+            terminal.key_value("Total failed items", str(len(all_errors)))
+            for eid, msg in all_errors:
+                _display_error_details(eid, msg, cache)
 
     except KeyboardInterrupt:
         terminal.warning("\nAborted.")
