@@ -1,0 +1,29 @@
+id: 91536
+name: Legendary Rune
+type: UpgradeComponent
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/3CEECEBACCC4E7D25DBC79C7A4B5B2933AB01DE3/2179567.png
+vendorValue: 65
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Rune
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 77451
+    quantity: 1
+  - itemId: 89218
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

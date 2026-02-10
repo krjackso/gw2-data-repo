@@ -1,0 +1,31 @@
+id: 89133
+name: Mystic Mote
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/069CC52BA2E635EEF6D115C90F19660B34324B1F/2063472.png
+description: Used in the creation of Gift of Sigils.
+vendorValue: 130
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Mote
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 89098
+    quantity: 1
+  - itemId: 89141
+    quantity: 1
+  - itemId: 89182
+    quantity: 1
+  - itemId: 89271
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 75

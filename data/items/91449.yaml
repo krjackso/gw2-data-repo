@@ -1,0 +1,31 @@
+id: 91449
+name: Gift of Sigils
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/5E64A622FE389401952DC0016C09CA4924CA41A9/2179568.png
+description: In the Mystic Forge, combine a Gift of Sigils, a Gift of Condensed Magic,
+  a Gift of Condensed Might, and a Gift of Craftsmanship to create a legendary sigil.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Sigils
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 30
+  - itemId: 19721
+    quantity: 150
+  - itemId: 19925
+    quantity: 75
+  - itemId: 89133
+    quantity: 75
+  metadata:
+    recipeType: mystic_forge

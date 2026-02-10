@@ -1,0 +1,30 @@
+id: 101582
+name: Legendary Relic
+type: Relic
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/08DED07BF6DF37E69A08D1C49D9C45D81BD8A5CA/3255567.png
+description: Unused Relic Effect Slot
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Relic
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 77451
+    quantity: 1
+  - itemId: 101519
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

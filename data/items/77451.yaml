@@ -1,0 +1,212 @@
+id: 77451
+name: Gift of Craftsmanship
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A1D95FA449E5DF700C4DB20EBEBCB92007FE4397/3270630.png
+description: A gift used to create legendary armor.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Craftsmanship
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: vendor
+  vendorName: Ash Legion Provisioner
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Protector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Protector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Aym
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Brath
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Deldrimor Dwarf
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Gaerlar Stormrider
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Kestrel Watchkeeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Quartermaster Natomi
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Rend Scorchmaul
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Researcher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Scavenger Rakatin
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Shining Isle
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Skritt Trader
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Supply Assistant
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Synergetics Intern
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Temple Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Vignir the Storm
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Ward Member Bones
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Ward Member Viszay
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Warden Eve
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}
+- type: vendor
+  vendorName: Zaishen Warrior
+  outputQuantity: 1
+  requirements:
+  - currencyId: 29
+    quantity: 50
+  metadata: {}

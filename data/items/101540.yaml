@@ -1,0 +1,16 @@
+id: 101540
+name: Mystic Facet
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/EDA0452ED3DD2A0DB0C0340ACCC83FE2DB0599BB/3255339.png
+description: "Used in the Mystic Forge to create the Gift of Relics. Used for the\
+  \ legendary relic.\n\nA Mystic Facet is made by combining these items in the Mystic\
+  \ Forge:\n• 1 Relic\n• 250 Piles of Lucent Crystal \n• 250 Piles of Lucent Crystal\n\
+  • 250 Piles of Lucent Crystal"
+vendorValue: 130
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Facet
+lastUpdated: '2026-02-10'
+acquisitions: []

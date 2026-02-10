@@ -1,0 +1,33 @@
+id: 101519
+name: Gift of Relics
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D6E27E21C6B7125D756E4316F2D4576BD9E4D550/3255338.png
+description: "In the Mystic Forge, combine a Gift of Relics, a Gift of Condensed Magic,\
+  \ a Gift of Condensed Might, and a Gift of Craftsmanship to create a legendary relic.\n\
+  \nA Gift of Relics is made by combining these items in the Mystic Forge:\n• 25 Mystic\
+  \ Facets\n• 25 Mystic Clovers \n• 150 Globs of Ectoplasm\n• 1 Gift of Research"
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Relics
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 25
+  - itemId: 19721
+    quantity: 150
+  - itemId: 97655
+    quantity: 1
+  - itemId: 101540
+    quantity: 25
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,31 @@
+id: 89105
+name: Mystic Aspect
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/24FD0F0BF29208A1404702FF0D09BE9B0E762578/2063473.png
+description: Used in the creation of Gift of Runes.
+vendorValue: 130
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Aspect
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 75
