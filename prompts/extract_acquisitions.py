@@ -358,34 +358,29 @@ Ascended, Legendary). These pages have a "Variants" section with a table like:
 </table>
 ```
 
-When a Variants section exists,  you MUST filter all vendor rows and \
-recipe boxes to only include those that match the rarity given by the User \
-(e.g. Legendary, Ascended, Exotic).
+When a Variants section exists, you MUST only extract entries for the EXACT rarity given by \
+the User. Do NOT include entries for other rarities, even if they are "useful" or represent \
+intermediate steps. Each rarity variant is processed as a separate item — the Legendary item's \
+file should NOT contain Ascended vendor entries.
 
 **Vendor table filtering:**
-Each vendor row has a Rarity column with a `<span class="rarity-{rarity}">` marker. \
-ONLY include rows where the rarity marker EXACTLY matches the rarity given by the User.
+Determine each vendor row's rarity:
+- If the table has a Rarity column, read it from the `<span class="rarity-{rarity}">` marker.
+- If the table has NO Rarity column, assume every row is Ascended.
 
-If NO rows match the item's rarity, emit ZERO vendor entries. Do NOT fall back to rows of a \
-different rarity.
+ONLY include rows whose rarity EXACTLY matches the User-provided rarity. \
+If ZERO rows match, emit ZERO vendor entries — do NOT fall back to other rarities. \
+Do NOT include Ascended vendor rows when the requested rarity is Legendary.
 
-**Example:** The given item rarity is Legendary. The vendor table has these rows:
-
-```html
-<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Lionguard</td>...</tr>
-<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Mercenary</td>...</tr>
-<tr>...<td><span class="rarity-exotic"><b>Exotic</b></span></td>...<td>Skirmish Supervisor</td>...</tr>
-<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Lionguard</td>...</tr>
-<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Mercenary</td>...</tr>
-<tr>...<td><span class="rarity-ascended"><b>Ascended</b></span></td>...<td>Skirmish Supervisor</td>...</tr>
-```
-
-Result: ZERO vendor entries. Three rows are Ascended, and three are exotic. None of the 6 rows are marked `rarity-legendary`, so none match. 
+**Example:** The given item rarity is Legendary. The vendor table rows are all marked \
+`rarity-ascended` (or have no Rarity column, which defaults to Ascended). \
+Result: ZERO vendor entries, because Ascended ≠ Legendary.
 
 **Recipe box filtering:**
 Recipe boxes on multi-rarity pages produce a SPECIFIC variant. Check the recipe heading and \
-surrounding text to determine which rarity it produces:
+surrounding text to determine which rarity it produces. Two common patterns exist:
 
+Pattern A (WvW armor):
 ```html
 <li>Crafting the <span class="rarity-legendary"><b>legendary</b></span> version of this armor \
 piece requires the <span class="rarity-ascended"><b>ascended</b></span> version be used in \
@@ -396,7 +391,18 @@ the following recipe:</li>
 </div>
 ```
 
-This recipe produces the Legendary variant. Therefore:
+Pattern B (PvP armor — may appear under a "Used in" heading):
+```html
+<li>The <span class="rarity-ascended"><b>ascended</b></span> version of this armor piece can \
+be upgraded to <span class="rarity-legendary"><b>legendary</b></span> with the following \
+recipe:</li>
+<div class="recipe-box">
+  <div class="heading">Ardent Glorious Armguards (legendary)</div>
+  ...ingredients...
+</div>
+```
+
+Both patterns produce the Legendary variant. Therefore:
 - If item rarity is Legendary → INCLUDE this recipe
 - If item rarity is Ascended → SKIP this recipe (it produces Legendary, not Ascended)
 - If item rarity is Exotic → SKIP this recipe
@@ -410,8 +416,16 @@ When this happens, append the rarity in parentheses to disambiguate the ingredie
 ingredient, but the link points to `#item2` (the Ascended variant). Name the ingredient \
 "Triumphant Hero's Armguards (Ascended)" to indicate which variant is required.
 
-10. IGNORE "Used in" SECTIONS: Wiki pages often contain a "Used in" section listing recipes \
-where this item appears as an INGREDIENT. These are NOT acquisition methods — skip them entirely.
+10. "Used in" SECTIONS:
+
+On multi-rarity pages (pages with a "Variants" section), the "Used in" section contains the \
+recipe box that upgrades the Ascended variant to the Legendary variant. This upgrade recipe \
+IS an acquisition method — extract it as a "recipe" entry with wikiSubsection "mystic_forge". \
+Apply the same rarity filtering from Rule 8: include it only if the item's rarity matches the \
+recipe's output rarity.
+
+On all other pages (no Variants section), "Used in" sections list recipes where this item \
+appears as an INGREDIENT in other items' recipes. These are NOT acquisition methods — skip them.
 
 11. IGNORE "Map Bonus Reward" SECTIONS: These are random weighted pools, not deterministic sources. \
 Skip them entirely.

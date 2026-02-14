@@ -100,6 +100,40 @@ class TestExtractAcquisitionSections:
         assert "y" * 50_000 not in result
         assert len(result) < len(html)
 
+    def test_used_in_kept_for_multi_rarity_pages(self):
+        html = _make_large_html(
+            [
+                '<h2><span id="Variants">Variants</span></h2>',
+                '<table class="equip craftvariants">',
+                '<tr id="item1"><td>Ascended</td></tr>',
+                '<tr id="item2"><td>Legendary</td></tr>',
+                "</table>",
+                '<h2><span id="Sold_by">Sold by</span></h2>',
+                "<p>Vendor info</p>",
+                '<h2><span id="Used_in">Used in</span></h2>',
+                "<p>Upgrade recipe from Ascended to Legendary</p>",
+            ]
+        )
+        result = wiki.extract_acquisition_sections(html)
+        assert "Variants" in result
+        assert "Vendor info" in result
+        assert "Used_in" in result
+        assert "Upgrade recipe from Ascended to Legendary" in result
+
+    def test_used_in_excluded_for_single_rarity_pages(self):
+        html = _make_large_html(
+            [
+                '<h2><span id="Acquisition">Acquisition</span></h2>',
+                "<p>Crafting info</p>",
+                '<h2><span id="Used_in">Used in</span></h2>',
+                "<p>List of recipes where this item is an ingredient</p>",
+            ]
+        )
+        result = wiki.extract_acquisition_sections(html)
+        assert "Crafting info" in result
+        assert "Used_in" not in result
+        assert "List of recipes where this item is an ingredient" not in result
+
 
 class TestGetHtmlLimitForModel:
     def test_haiku_limit(self):

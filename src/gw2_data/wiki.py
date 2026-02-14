@@ -153,8 +153,8 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
     Extract only acquisition-relevant sections from wiki HTML.
 
     Reduces HTML size for LLM processing by removing irrelevant sections
-    (Dropped by, Used in, Currency for, Rewarded by, etc.) while keeping
-    core acquisition information (Acquisition, Sold by, Vendor, Recipe,
+    (Dropped by, Currency for, Rewarded by, etc.) while keeping core
+    acquisition information (Acquisition, Sold by, Vendor, Recipe,
     Contained in, etc.).
 
     For commonly used items, "Currency for" sections can be massive
@@ -164,11 +164,17 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
     "Contained in" is kept because it lists containers that guarantee
     this item as output — a direct acquisition source.
 
+    "Used in" is kept for multi-rarity pages (pages with a Variants
+    section) because it contains the upgrade recipe (Ascended → Legendary).
+    For other pages, "Used in" is excluded since it only lists recipes
+    where this item appears as an ingredient.
+
     If the result is still too large, truncates to max_length characters.
     """
+    has_variants = bool(re.search(r'<span[^>]*id="Variants"[^>]*>', html, re.IGNORECASE))
+
     excluded_sections = [
         r'<span[^>]*id="Dropped_by"[^>]*>.*?(?=<h[1-3][ >]|$)',
-        r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Currency_for"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Recipe_sheet"[^>]*>.*?(?=<h[1-3][ >]|$)',
         r'<span[^>]*id="Salvage_results"[^>]*>.*?(?=<h[1-3][ >]|$)',
@@ -180,6 +186,9 @@ def extract_acquisition_sections(html: str, max_length: int = _DEFAULT_HTML_LIMI
         r'<span[^>]*id="External_links"[^>]*>.*?(?=<h[12][ >]|$)',
         r'<span[^>]*id="Guild_upgrades"[^>]*>.*?(?=<h[12][ >]|$)',
     ]
+
+    if not has_variants:
+        excluded_sections.append(r'<span[^>]*id="Used_in"[^>]*>.*?(?=<h[12][ >]|$)')
 
     filtered_html = html
     for pattern in excluded_sections:
