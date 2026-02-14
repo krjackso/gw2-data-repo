@@ -1,0 +1,32 @@
+id: 46740
+name: Spool of Silk Weaving Thread
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/45C6FC08BE801CFC31C455A8684A963B51A73759/631488.png
+description: Used in the weaving of damask.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spool_of_Silk_Weaving_Thread
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 1
+  - itemId: 19747
+    quantity: 100
+  - itemId: 19790
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    - Leatherworker
+    - Armorsmith
+    minRating: 450

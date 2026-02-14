@@ -1,0 +1,35 @@
+id: 80764
+name: Vial of Might
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/E43EF2C20A026348A562F510625A7F3390C017B1/1653619.png
+description: Created from rare physical components.
+vendorValue: 80
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Might
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24289
+    quantity: 1
+  - itemId: 24351
+    quantity: 1
+  - itemId: 24357
+    quantity: 1
+  - itemId: 24358
+    quantity: 1
+  metadata:
+    recipeType: Refinement
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500

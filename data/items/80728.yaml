@@ -1,0 +1,35 @@
+id: 80728
+name: Vial of Magic
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/D9BA60E2CE0DC05E38CC1A11A6523D5002DF425E/1653618.png
+description: Created from powerful magical components.
+vendorValue: 80
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Vial_of_Magic
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 1
+  - itemId: 24283
+    quantity: 1
+  - itemId: 24295
+    quantity: 1
+  - itemId: 24300
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500

@@ -1,0 +1,32 @@
+id: 80775
+name: Square of Vabbian Silk
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/2B0CF51E755FE9C1F3034F4921613E6692F6C2AE/1653611.png
+description: Refined from small amounts of wool, cotton, linen, and silk weaving thread.
+vendorValue: 80
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Square_of_Vabbian_Silk
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19740
+    quantity: 10
+  - itemId: 19742
+    quantity: 5
+  - itemId: 19744
+    quantity: 10
+  - itemId: 46740
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 500

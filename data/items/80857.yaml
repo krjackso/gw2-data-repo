@@ -1,0 +1,117 @@
+id: 80857
+name: Grandmaster Tailor's Mark
+type: Trophy
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/AAFB50D43DECF5CE7BAF2809534B3C653591CD03/1653610.png
+description: Can be used to purchase light Ascended armor from special merchants.
+vendorValue: 330
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Grandmaster_Tailor's_Mark
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 80686
+    quantity: 1
+  - itemId: 80714
+    quantity: 1
+  - itemId: 80723
+    quantity: 1
+  - itemId: 80775
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 24
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 7
+    quantity: 800
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 33
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata: {}
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata: {}
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata: {}
+- type: container
+  itemId: 81346
+  containerName: Box of Grandmaster Marks
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

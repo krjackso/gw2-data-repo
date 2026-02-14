@@ -1,0 +1,32 @@
+id: 80686
+name: Bolt of Empowered Silk
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/6560E67C60D2D40D7CEA94EDD62BA32BFEBD6F17/1653616.png
+description: Bolts of silk strengthened by powerful materials.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Empowered_Silk
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19747
+    quantity: 150
+  - itemId: 46681
+    quantity: 1
+  - itemId: 80728
+    quantity: 1
+  - itemId: 80764
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500

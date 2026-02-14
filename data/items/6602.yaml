@@ -11,5 +11,35 @@ flags:
 - NoSell
 - SoulBindOnUse
 wikiUrl: https://wiki.guildwars2.com/wiki/Triumphant_Hero's_Footgear
-lastUpdated: '2026-02-10'
-acquisitions: []
+lastUpdated: '2026-02-14'
+acquisitions:
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Footgear
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Footgear
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Footgear

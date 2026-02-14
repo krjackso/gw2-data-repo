@@ -1,0 +1,44 @@
+id: 73834
+name: Fractal Research Page
+type: Gizmo
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/1C990751CCE83D1FD0C690C516C9012EFC1F5C0E/1202365.png
+description: Double-click to combine 28 Fractal Research Pages into 1 Fractal Journal.
+  Fractal Journals can be sold to vendors or used in fractal backpack collections.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fractal_Research_Page
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: container
+  itemId: 77580
+  containerName: Fractal Adept's Research Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 79800
+  containerName: Fractal Expert's Research Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 94013
+  containerName: Fractal Fighter's Cache
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Fractal Initiate's Research Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

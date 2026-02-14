@@ -1,0 +1,31 @@
+id: 84174
+name: Gift of Competitive Prosperity
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/431022DBDD2A2AAF4B03B7093DF6496ACC082DB4/1767204.png
+description: In the Mystic Forge, combine a Gift of Competitive Prosperity, Gift of
+  Competitive Prowess, Gift of Competitive Dedication, and a PvP Ascended Armor piece
+  to upgrade the armor to Legendary.
+vendorValue: 165
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Competitive_Prosperity
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 15
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 77531
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

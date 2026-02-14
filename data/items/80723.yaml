@@ -1,0 +1,36 @@
+id: 80723
+name: Blended Leather Sheet
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/C6BFD6AEF9C70A75C7129016C9B8BC2C20395DA8/1653612.png
+description: Refined from small amounts of thin leather, coarse leather, rugged leather,
+  and thick Elonian cord.
+vendorValue: 80
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Blended_Leather_Sheet
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19733
+    quantity: 10
+  - itemId: 19734
+    quantity: 5
+  - itemId: 19736
+    quantity: 10
+  - itemId: 46745
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500

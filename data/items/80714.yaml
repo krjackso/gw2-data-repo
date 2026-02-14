@@ -1,0 +1,35 @@
+id: 80714
+name: Carbonized Mithrillium Ingot
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/7EA70FE31408FB0A07B891ED0913A62C40B514F5/1653617.png
+description: Refined from small amounts of iron, steel, darksteel, and mithrillium.
+vendorValue: 80
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Carbonized_Mithrillium_Ingot
+lastUpdated: '2026-02-10'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19681
+    quantity: 10
+  - itemId: 19683
+    quantity: 10
+  - itemId: 19688
+    quantity: 5
+  - itemId: 46742
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    - Artificer
+    - Weaponsmith
+    - Huntsman
+    minRating: 500
