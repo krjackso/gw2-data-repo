@@ -554,7 +554,7 @@ def test_server_redirect_priority_over_disambiguation(mocker, cache_client: Cach
             mock_resp.json.return_value = {"parse": {"text": {"*": final_html}}}
         return mock_resp
 
-    mock_get = mocker.patch("httpx.get", side_effect=mock_get_side_effect)
+    mocker.patch("httpx.get", side_effect=mock_get_side_effect)
 
     result = wiki.get_page_html("Test Page", cache=cache_client)
 

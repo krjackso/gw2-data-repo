@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Validate YAML files
+        run: uv run python -m scripts.validate
+
+      - name: Run tests
+        run: uv run pytest
+
+      - name: Lint - Check
+        run: uv run ruff check --exclude prompts/ .
+
+      - name: Lint - Format
+        run: uv run ruff format --check --exclude prompts/ .
+
+      - name: Build distribution
+        run: uv run python -m scripts.build_dist
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/gw2-data.sqlite.gz
+            data/schema/item.schema.json
+          fail_on_unmatched_files: true

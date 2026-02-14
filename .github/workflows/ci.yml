@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Validate YAML files
+        run: uv run python -m scripts.validate
+
+      - name: Run tests
+        run: uv run pytest
+
+      - name: Lint - Check
+        run: uv run ruff check --exclude prompts/ .
+
+      - name: Lint - Format
+        run: uv run ruff format --check --exclude prompts/ .
+
+      - name: Build distribution (smoke test)
+        run: uv run python -m scripts.build_dist
