@@ -304,24 +304,55 @@ def main() -> None:
                 terminal.error(f"Invalid item ID format: {e}")
                 sys.exit(1)
 
-        for item_id in item_ids:
-            populate_item(
-                item_id,
-                cache,
-                overwrite=args.overwrite,
-                dry_run=args.dry_run,
-                model=args.model,
-                strict=args.strict,
-            )
+        failed_items = []
+        for i, item_id in enumerate(item_ids):
+            if len(item_ids) > 1:
+                terminal.section_header(f"Processing item {i + 1}/{len(item_ids)}")
 
-    except MultipleItemMatchError as e:
-        _handle_multiple_matches_interactive(e.name, e.item_ids, cache)
-        sys.exit(1)
-    except (APIError, WikiError, ExtractionError, ValueError) as e:
-        terminal.error(str(e))
-        sys.exit(1)
+            try:
+                populate_item(
+                    item_id,
+                    cache,
+                    overwrite=args.overwrite,
+                    dry_run=args.dry_run,
+                    model=args.model,
+                    strict=args.strict,
+                )
+            except MultipleItemMatchError as e:
+                _handle_multiple_matches_interactive(e.name, e.item_ids, cache)
+                failed_items.append((item_id, str(e)))
+                if len(item_ids) > 1:
+                    terminal.error(
+                        f"Failed to process item {item_id}, continuing with remaining items..."
+                    )
+                    continue
+                sys.exit(1)
+            except (APIError, WikiError, ExtractionError, ValueError) as e:
+                failed_items.append((item_id, str(e)))
+                if len(item_ids) > 1:
+                    terminal.error(f"Error processing item {item_id}: {e}")
+                    terminal.error("Continuing with remaining items...")
+                    continue
+                terminal.error(str(e))
+                sys.exit(1)
+            except Exception as e:
+                failed_items.append((item_id, str(e)))
+                if len(item_ids) > 1:
+                    terminal.error(f"Unexpected error processing item {item_id}: {e}")
+                    terminal.error("Continuing with remaining items...")
+                    continue
+                terminal.error(f"Unexpected error: {e}")
+                sys.exit(1)
+
+        if failed_items:
+            terminal.section_header("Summary")
+            terminal.error(f"Failed to process {len(failed_items)}/{len(item_ids)} item(s):")
+            for item_id, error in failed_items:
+                terminal.bullet(f"Item {item_id}: {error}", indent=2)
+            sys.exit(1)
+
     except Exception as e:
-        terminal.error(f"Unexpected error: {e}")
+        terminal.error(f"Fatal error: {e}")
         sys.exit(1)
 
 
