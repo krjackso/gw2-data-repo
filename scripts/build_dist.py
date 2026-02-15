@@ -284,9 +284,8 @@ def validate_references(db_path: Path) -> None:
 
     if missing_container_items:
         ids = [str(row[0]) for row in missing_container_items]
-        warnings.append(
-            f"Found {len(missing_container_items)} container item(s) not in database: {', '.join(ids)}"
-        )
+        msg = f"Found {len(missing_container_items)} container item(s) not in database: "
+        warnings.append(msg + ", ".join(ids))
 
     missing_salvage_items = cursor.execute(
         """
@@ -300,9 +299,8 @@ def validate_references(db_path: Path) -> None:
 
     if missing_salvage_items:
         ids = [str(row[0]) for row in missing_salvage_items]
-        warnings.append(
-            f"Found {len(missing_salvage_items)} salvage source item(s) not in database: {', '.join(ids)}"
-        )
+        msg = f"Found {len(missing_salvage_items)} salvage source item(s) not in database: "
+        warnings.append(msg + ", ".join(ids))
 
     missing_requirement_items = cursor.execute(
         """
