@@ -1,0 +1,31 @@
+id: 80277
+name: Perfected Envoy Tassets
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/EA9294557C175A43567906721E43962EC4B12D34/1634566.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Envoy_Tassets
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 78866
+    quantity: 1
+  - itemId: 78936
+    quantity: 1
+  - itemId: 78989
+    quantity: 1
+  - itemId: 80427
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

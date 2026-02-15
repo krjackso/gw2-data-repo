@@ -1,0 +1,27 @@
+id: 45894
+name: Damask Gloves Padding
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/462EC5A558D2BDE6B950B49A0D68DC059C0B0257/699272.png
+description: Used to craft Damask Gloves.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Damask_Gloves_Padding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500

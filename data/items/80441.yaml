@@ -1,0 +1,40 @@
+id: 80441
+name: Refined Envoy Cowl
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/4A6F447F0ED0501AA0631592EE7DE12719EBFFAF/1634583.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Cowl
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45896
+    quantity: 1
+  - itemId: 45897
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: container
+  itemId: 80463
+  containerName: Chest of Light Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

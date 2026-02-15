@@ -1,0 +1,27 @@
+id: 45901
+name: Damask Epaulet Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/4ECBACADAB14E4492D2DD5540CEBD4181E58E245/699279.png
+description: Used to craft Damask Shoulders.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Damask_Epaulet_Panel
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500

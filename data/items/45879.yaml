@@ -1,0 +1,27 @@
+id: 45879
+name: Deldrimor Steel Gauntlet Plates
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0BDA76BF17D9F89D55C6D0F071B5B0C5EF0B0B5E/699265.png
+description: Used to craft Deldrimor Steel Gloves.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Gauntlet_Plates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 2
+  - itemId: 46747
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

@@ -1,0 +1,27 @@
+id: 45864
+name: Elonian Boot Sole
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/1C0F4AF102404D150229CAC251D04E19085D02F8/699250.png
+description: Used to craft Elonian Leather Boots.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Boot_Sole
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

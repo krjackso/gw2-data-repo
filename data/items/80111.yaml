@@ -1,0 +1,31 @@
+id: 80111
+name: Perfected Envoy Gloves
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/9703DBC0926F6BB4072032E6B55BE593F6B750CD/1634575.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Envoy_Gloves
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 78866
+    quantity: 1
+  - itemId: 78936
+    quantity: 1
+  - itemId: 78989
+    quantity: 1
+  - itemId: 80460
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

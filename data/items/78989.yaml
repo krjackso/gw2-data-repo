@@ -1,0 +1,166 @@
+id: 78989
+name: Gift of Prowess
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/67DADE6693F805B033B43C74D9AFE5553AC6B158/1451301.png
+description: A gift used to create legendary armor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Prowess
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Qadim's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Raid Expert's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Bastion of the Penitent
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Hall of Chains
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Mythwright Gambit
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Salvation Pass
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Spirit Vale
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: Stronghold of the Faithful
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata:
+    notes: The Key of Ahdashim
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 50
+  - itemId: 20852
+    quantity: 1
+  - itemId: 73137
+    quantity: 1
+  - currencyId: 70
+    quantity: 25
+  metadata: {}

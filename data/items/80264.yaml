@@ -1,0 +1,40 @@
+id: 80264
+name: Refined Envoy Mantle
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/4F07C7D6A13539CD253B01B5D9607ADF3440F63F/1634585.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Mantle
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45893
+    quantity: 1
+  - itemId: 45901
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: container
+  itemId: 80463
+  containerName: Chest of Light Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

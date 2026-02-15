@@ -1,0 +1,27 @@
+id: 45870
+name: Elonian Trouser Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/93F7285BD7090C671EE360A76DA3DB31E49B1E65/699256.png
+description: Used to craft Elonian Leather Leggings.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Trouser_Panel
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

@@ -1,0 +1,31 @@
+id: 46741
+name: Bolt of Damask
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/7E7DA70B0EA3DB78CCB2F4FDA400A9BFEF0B0D6C/631489.png
+description: Refined from wool, cotton, linen, and silk weaving thread.
+vendorValue: 80
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bolt_of_Damask
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19740
+    quantity: 20
+  - itemId: 19742
+    quantity: 10
+  - itemId: 19744
+    quantity: 20
+  - itemId: 46740
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 450

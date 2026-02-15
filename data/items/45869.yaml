@@ -1,0 +1,27 @@
+id: 45869
+name: Elonian Shoulderguard Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/A5D6E4BC33B30F39014CD80DEBD6A2DD109B4CBE/699255.png
+description: Used to craft Elonian Leather Shoulders.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Shoulderguard_Panel
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

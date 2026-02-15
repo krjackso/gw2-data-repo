@@ -1,0 +1,27 @@
+id: 45875
+name: Deldrimor Steel Legging Lining
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/FD2B12FCBF45909F45A0F871D99614E032C73209/699261.png
+description: Used to craft Deldrimor Steel Leggings.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Legging_Lining
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

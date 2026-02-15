@@ -1,0 +1,40 @@
+id: 80583
+name: Refined Envoy Shoes
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/CFC4C80ACAD86398BFD91318BCE70E2AA3ABBC65/1634580.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Shoes
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45900
+    quantity: 1
+  - itemId: 45902
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: container
+  itemId: 80463
+  containerName: Chest of Light Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

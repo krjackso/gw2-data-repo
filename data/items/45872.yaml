@@ -1,0 +1,27 @@
+id: 45872
+name: Deldrimor Steel Chestplate Padding
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/442714D3EF4701F290D703C7AC299F355521DC0C/699258.png
+description: Used to craft Deldrimor Steel Coats.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Chestplate_Padding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

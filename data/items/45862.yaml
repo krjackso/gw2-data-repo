@@ -1,0 +1,27 @@
+id: 45862
+name: Elonian Shoulderguard Padding
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/A9E676E85F550CBEBB04920DB90C133BCC270AE9/699248.png
+description: Used to craft Elonian Leather Shoulders.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Shoulderguard_Padding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

@@ -1,0 +1,40 @@
+id: 80275
+name: Refined Envoy Pants
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/FC154D95720FC1BAC3A50A300308495C6E56EF02/1634584.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Pants
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45898
+    quantity: 1
+  - itemId: 45899
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: container
+  itemId: 80463
+  containerName: Chest of Light Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

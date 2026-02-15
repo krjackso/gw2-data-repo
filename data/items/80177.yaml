@@ -1,0 +1,40 @@
+id: 80177
+name: Refined Envoy Boots
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/60E85BC87152F87F1D6C587AC774504E57BDB54E/1634592.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Boots
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45864
+    quantity: 1
+  - itemId: 45865
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500
+- type: container
+  itemId: 80138
+  containerName: Chest of Medium Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

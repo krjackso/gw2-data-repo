@@ -1,0 +1,27 @@
+id: 45877
+name: Deldrimor Steel Boot Casing
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/7844451CF966AAF65AAAF651DF0A5C23781A0690/699263.png
+description: Used to craft Deldrimor Steel Boots.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Boot_Casing
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 2
+  - itemId: 46747
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

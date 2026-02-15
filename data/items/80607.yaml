@@ -1,0 +1,40 @@
+id: 80607
+name: Refined Envoy Jerkin
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/F7A6A2E3D04FDEE614D9F646B0759B9955B63157/1634593.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Jerkin
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45861
+    quantity: 1
+  - itemId: 45868
+    quantity: 1
+  - itemId: 46746
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500
+- type: container
+  itemId: 80138
+  containerName: Chest of Medium Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

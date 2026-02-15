@@ -1,0 +1,27 @@
+id: 45865
+name: Elonian Boot Upper
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/57C9099E7C305FF669B1E1CBE6B7296E1299C9F3/699251.png
+description: Used to craft Elonian Leather Boots.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Elonian_Boot_Upper
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

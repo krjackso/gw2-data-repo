@@ -1,0 +1,27 @@
+id: 45880
+name: Deldrimor Steel Helmet Casing
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/10760F5ADB6FAFF2C8CE0271BE1A96569BDA04BD/699266.png
+description: Used to craft Deldrimor Steel Helms.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Helmet_Casing
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 1
+  - itemId: 46747
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

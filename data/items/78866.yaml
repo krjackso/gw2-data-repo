@@ -1,0 +1,37 @@
+id: 78866
+name: Gift of Prosperity
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E8AEB623E27334EC2701BA68AC1BEBB6127797E2/1451300.png
+description: 'Created in the Mystic Forge by combining:
+
+  • 1 Gift of Condensed Might
+
+  • 1 Gift of Condensed Magic
+
+  • 1 Gift of Craftsmanship
+
+  • 15 Mystic Clovers'
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Prosperity
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 15
+  - itemId: 70867
+    quantity: 1
+  - itemId: 76530
+    quantity: 1
+  - itemId: 77451
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

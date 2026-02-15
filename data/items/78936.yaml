@@ -1,0 +1,37 @@
+id: 78936
+name: Gift of Dedication
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3C6E3495CE20F21B5474B204BAE9B4F46620807D/1451302.png
+description: 'Created in the Mystic Forge by combining:
+
+  • 5 Auric Ingots
+
+  • 5 Reclaimed Metal Plates
+
+  • 5 Chak Eggs
+
+  • 1 Gift of the Pact'
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Dedication
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 72205
+    quantity: 5
+  - itemId: 73537
+    quantity: 5
+  - itemId: 74356
+    quantity: 5
+  - itemId: 78793
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

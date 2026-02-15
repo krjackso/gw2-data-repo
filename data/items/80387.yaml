@@ -1,0 +1,39 @@
+id: 80387
+name: Refined Envoy Helmet
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/08BD6169AA1807487D2D025CA92459D3655B9B53/1634571.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Helmet
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45874
+    quantity: 1
+  - itemId: 45880
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500
+- type: container
+  itemId: 80594
+  containerName: Chest of Heavy Refined Envoy Armor
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

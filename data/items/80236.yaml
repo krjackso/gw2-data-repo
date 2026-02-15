@@ -1,0 +1,40 @@
+id: 80236
+name: Refined Envoy Pauldrons
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/B253EF22450C0323DDE0BBAEDBA045187FBC3953/1634573.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Pauldrons
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45876
+    quantity: 1
+  - itemId: 45882
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500
+- type: container
+  itemId: 80594
+  containerName: Chest of Heavy Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

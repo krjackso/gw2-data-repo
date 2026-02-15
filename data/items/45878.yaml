@@ -1,0 +1,27 @@
+id: 45878
+name: Deldrimor Steel Chestplate Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E916ED787BD1EFE1FE05AC0A0CBF014A6E067DB0/699264.png
+description: Used to craft Deldrimor Steel Coats.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Chestplate_Panel
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 5
+  - itemId: 46747
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

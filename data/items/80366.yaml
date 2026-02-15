@@ -1,0 +1,39 @@
+id: 80366
+name: Refined Envoy Shoulderpads
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/05C206056F0391E163001EE27CA1A3B1B927807A/1634597.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Shoulderpads
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45862
+    quantity: 1
+  - itemId: 45869
+    quantity: 1
+  - itemId: 49523
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500
+- type: container
+  itemId: 80138
+  containerName: Chest of Medium Refined Envoy Armor
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

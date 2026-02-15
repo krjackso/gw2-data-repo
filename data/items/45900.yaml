@@ -1,0 +1,27 @@
+id: 45900
+name: Damask Shoe Upper
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/4994464797BB0C9A37C5933BD95E2480DD1A474C/699278.png
+description: Used to craft Damask Boots.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Damask_Shoe_Upper
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500

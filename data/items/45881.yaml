@@ -1,0 +1,27 @@
+id: 45881
+name: Deldrimor Steel Legging Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/70925952DC45D72BF4DB1EA53EF42A45E4D353DE/699267.png
+description: Used to craft Deldrimor Steel Leggings.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Steel_Legging_Panel
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46738
+    quantity: 4
+  - itemId: 46747
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

@@ -1,0 +1,27 @@
+id: 45893
+name: Damask Epaulet Padding
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/9B083601AB2A2F41D3E9D8D1489B04F5FBD531EC/699271.png
+description: Used to craft Damask Shoulders.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Damask_Epaulet_Padding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19790
+    quantity: 60
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46741
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500

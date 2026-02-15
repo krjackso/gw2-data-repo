@@ -1,0 +1,28 @@
+id: 78793
+name: Gift of the Pact
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7B3879F7CA4242B10DA6F60104762DFDC4762E65/1451303.png
+description: A gift used to create legendary armor.
+vendorValue: 640
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Pact
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Whispers Keeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 19
+    quantity: 250
+  - currencyId: 20
+    quantity: 250
+  - currencyId: 22
+    quantity: 250
+  metadata: {}

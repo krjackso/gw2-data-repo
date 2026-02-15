@@ -1,0 +1,31 @@
+id: 80281
+name: Perfected Envoy Boots
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/BF4C6A48BA02BD6D6AC32F1E9C3F32A50399E336/1634590.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Envoy_Boots
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 78866
+    quantity: 1
+  - itemId: 78936
+    quantity: 1
+  - itemId: 78989
+    quantity: 1
+  - itemId: 80177
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

@@ -1,0 +1,31 @@
+id: 80435
+name: Perfected Envoy Pauldrons
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/0F0F4BE73C9316BAA4956A3AA622CB0AE84D9CEA/1634567.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Envoy_Pauldrons
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 78866
+    quantity: 1
+  - itemId: 78936
+    quantity: 1
+  - itemId: 78989
+    quantity: 1
+  - itemId: 80236
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

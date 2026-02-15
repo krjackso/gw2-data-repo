@@ -1,0 +1,40 @@
+id: 80120
+name: Refined Envoy Vestments
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/FB18190B78062C633DE42F7D66F340BC386977FF/1634581.png
+description: <c=@flavor>This armor attempts to channel the power of the envoys.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Refined_Envoy_Vestments
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 45891
+    quantity: 1
+  - itemId: 45892
+    quantity: 1
+  - itemId: 46746
+    quantity: 1
+  - itemId: 80516
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: container
+  itemId: 80463
+  containerName: Chest of Light Refined Envoy Armor
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

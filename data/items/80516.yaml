@@ -1,0 +1,51 @@
+id: 80516
+name: Envoy Insignia
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/C904D7ABDA5B972F6F34FA5B6A9A5BBBC1E61D53/1201849.png
+description: Used in the crafting of Envoy armor pieces.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Envoy_Insignia
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Raid Expert's Portable Magnetite Shard Exchange
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Scholar Glenna
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 70
+    quantity: 25
+  metadata: {}
