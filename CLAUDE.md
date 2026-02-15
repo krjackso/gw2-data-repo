@@ -306,7 +306,7 @@ These notes provide important context to users about prerequisites or restrictio
 
 ### Excluded Sources
 
-**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes and resource nodes (e.g., "Rich Iron Vein", "Herb Patch"). These gathering mechanics are **not tracked** as they are not items in the GW2 API.
+**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes and resource nodes (e.g., "Rich Iron Vein", "Herb Patch"). These gathering mechanics are **are tracked** as `resource_node` type acquisitions with `nodeName` set to the node's name.
 
 **Note on Containers from "Gathered from"**: Named chests, coffers, and containers in "Gathered from" sections (e.g., "Mistborn Coffer", "Exalted Chest") **are tracked** as `container` type acquisitions with `containerName` set to the container's name. These containers may or may not have GW2 API item IDs — when an ID is available, it's stored in the optional `itemId` field alongside `containerName`.
 
@@ -314,9 +314,9 @@ These notes provide important context to users about prerequisites or restrictio
 
 ### Legendary Crafting
 
-Legendary items are the highest-tier equipment in Guild Wars 2. Each requires a deep crafting tree (3-5 levels deep) of components obtained through various game activities.
+Legendary items are the highest-tier equipment in Guild Wars 2. Each requires a deep crafting tree (5+ levels deep) of components obtained through various game activities.
 
-- **~201 legendary items**: 57 weapons, 133 armor pieces (3 weights x multiple slots x multiple sets), 11 trinkets
+- **>200 legendary items**: Weapons, Armor pieces (3 weights x multiple slots x multiple sets), Trinkets, Rune, Sigil, and Relic
 - **~1,500 unique items** in the full dependency tree across all legendaries
 - Components are heavily shared (e.g., Gift of Fortune, Mystic Clovers appear in many legendaries)
 - Crafting trees mix multiple acquisition types (some components are crafted, some bought, some earned through gameplay)
@@ -364,18 +364,14 @@ These appear in many legendary crafting trees:
 | Gift of Fortune | Mystic Forge (mystic_forge) |
 | Mystic Clover | Mystic Forge with RNG (mystic_forge) |
 | Obsidian Shard | Multiple vendors for various currencies |
-| Gift of {Material} | Mystic Forge combining 4x250 refined materials |
+| Gift of {Material} | Mystic Forge combining refined materials |
 
 ### GW2 API Endpoints
 
 | Endpoint | Returns |
 |----------|---------|
 | `/v2/items/{id}` | Item name, type, rarity, icon, vendor value, flags |
-| `/v2/recipes/{id}` | Crafting recipe ingredients, discipline, rating |
-| `/v2/recipes/search?output={id}` | Find recipes that produce an item |
 | `/v2/currencies` | Currency names and icons |
-| `/v2/achievements/{id}` | Achievement name, description, rewards |
-| `/v2/commerce/prices/{id}` | Current Trading Post buy/sell prices |
 | `/v2/items?ids=...` | Bulk item lookup (up to 200 per request) |
 
 ### GW2 Wiki API
