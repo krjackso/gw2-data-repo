@@ -274,9 +274,8 @@ def validate_references(db_path: Path) -> None:
 
     missing_container_items = cursor.execute(
         """
-        SELECT DISTINCT a.container_item_id, i.name as item_name
+        SELECT DISTINCT a.container_item_id
         FROM acquisitions a
-        JOIN items i ON i.id = a.item_id
         WHERE a.container_item_id IS NOT NULL
           AND NOT EXISTS (SELECT 1 FROM items WHERE id = a.container_item_id)
         ORDER BY a.container_item_id
@@ -284,17 +283,15 @@ def validate_references(db_path: Path) -> None:
     ).fetchall()
 
     if missing_container_items:
-        warnings.append(f"Found {len(missing_container_items)} container item(s) not in database:")
-        for container_id, item_name in missing_container_items[:10]:
-            warnings.append(f"  - Container ID {container_id} (referenced by {item_name})")
-        if len(missing_container_items) > 10:
-            warnings.append(f"  ... and {len(missing_container_items) - 10} more")
+        ids = [str(row[0]) for row in missing_container_items]
+        warnings.append(
+            f"Found {len(missing_container_items)} container item(s) not in database: {', '.join(ids)}"
+        )
 
     missing_salvage_items = cursor.execute(
         """
-        SELECT DISTINCT a.salvage_item_id, i.name as item_name
+        SELECT DISTINCT a.salvage_item_id
         FROM acquisitions a
-        JOIN items i ON i.id = a.item_id
         WHERE a.salvage_item_id IS NOT NULL
           AND NOT EXISTS (SELECT 1 FROM items WHERE id = a.salvage_item_id)
         ORDER BY a.salvage_item_id
@@ -302,13 +299,10 @@ def validate_references(db_path: Path) -> None:
     ).fetchall()
 
     if missing_salvage_items:
+        ids = [str(row[0]) for row in missing_salvage_items]
         warnings.append(
-            f"Found {len(missing_salvage_items)} salvage source item(s) not in database:"
+            f"Found {len(missing_salvage_items)} salvage source item(s) not in database: {', '.join(ids)}"
         )
-        for salvage_id, item_name in missing_salvage_items[:10]:
-            warnings.append(f"  - Salvage ID {salvage_id} (referenced by {item_name})")
-        if len(missing_salvage_items) > 10:
-            warnings.append(f"  ... and {len(missing_salvage_items) - 10} more")
 
     missing_requirement_items = cursor.execute(
         """
