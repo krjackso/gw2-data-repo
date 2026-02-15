@@ -1,0 +1,30 @@
+id: 83127
+name: Ardent Glorious Pauldrons
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/06EA1DCD71DD4125DAF401C36D560CABFC6950B4/1614749.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Pauldrons
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67147
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

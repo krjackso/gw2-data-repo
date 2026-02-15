@@ -1,0 +1,202 @@
+id: 106975
+name: Gift of Infused Gems
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A4BC3958B8D52F1C667535DE0C0911DE40ECC892/3744703.png
+description: 'Combine a Gift of Infused Gems, a Gift of the Sun, a Gift of the Beach,
+  and 10 Purified Rift Essences in the Mystic Forge to create the Gift of Rays.
+
+
+  Created by combining the following in the Mystic Forge:
+
+  • 250 Obsidian Shards
+
+  • 250 Beryl, Chrysocola, Emerald, Opal, Ruby, or Sapphire Orbs
+
+  • 1 Bloodstone Shard
+
+  • 100 Mystic Runestones'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Infused_Gems
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24520
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24512
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24515
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24522
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24508
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24516
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24512
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24516
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24508
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24522
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24520
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 24515
+    quantity: 250
+  - itemId: 79418
+    quantity: 100
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God

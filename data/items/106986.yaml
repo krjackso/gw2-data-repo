@@ -1,0 +1,40 @@
+id: 106986
+name: Gift of the Hylek
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/BBCEE0C2745C1D33D61F9BA6487B4B4826BC947C/3744702.png
+description: 'Combine a Gift of Rays, a Gift of the Survivors, a Gift of the People,
+  and a Gift of the Hylek in the Mystic Forge to create the legendary ring Endless
+  Summer.
+
+
+  Acquired by completing the Radiance of the Sun God achievement. Additional copies
+  can be purchased from Shaman Palak in Shipwreck Strand.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Hylek
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19717
+    quantity: 250
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: achievement
+  achievementName: Radiance of the Sun God
+  achievementCategory: Legendary Trinkets
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

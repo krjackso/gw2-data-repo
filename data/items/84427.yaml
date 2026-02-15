@@ -1,0 +1,37 @@
+id: 84427
+name: Glorious Hero's Footgear
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/424016C1C923B5EC0CA44BECEECE910B6CBE11CB/867461.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Footgear
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67130
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

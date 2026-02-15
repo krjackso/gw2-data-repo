@@ -1,0 +1,22 @@
+id: 67122
+name: Glorious Hero's Brigandine
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/93B86EC1355512F733F67E66C3B9084E0B78AF0F/867468.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Brigandine
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

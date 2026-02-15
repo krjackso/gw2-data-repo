@@ -1,0 +1,42 @@
+id: 67117
+name: Ardent Glorious Wristplates
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/B7CBE0606944F6983F5A95DFAB7E53CB4245B40F/1614760.png
+description: Central Tyrian and Maguuma Ascended Wristplates
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Wristplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}

@@ -1,0 +1,30 @@
+id: 82245
+name: Ardent Glorious Wristplates
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/B7CBE0606944F6983F5A95DFAB7E53CB4245B40F/1614760.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Wristplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67117
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

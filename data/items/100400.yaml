@@ -1,0 +1,39 @@
+id: 100400
+name: Relic of the Sunless
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/CEF1E6DA2DBF143661DF26E668034A621812B61A/3122370.png
+description: Using an elite skill summons a pool on the target enemy that inflicts
+  poison and cripple. Pool duration scales with the recharge of the elite skill.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Sunless
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19717
+    quantity: 30
+  - itemId: 19721
+    quantity: 15
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

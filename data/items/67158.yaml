@@ -1,0 +1,42 @@
+id: 67158
+name: Ardent Glorious Shoulderguards
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/5553497B9B78200DE192611BBD037AD96E5439EF/1614763.png
+description: Central Tyrian and Maguuma Ascended Shoulderguards
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Shoulderguards
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}

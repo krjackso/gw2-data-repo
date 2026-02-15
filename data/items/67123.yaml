@@ -1,0 +1,22 @@
+id: 67123
+name: Glorious Hero's Shinplates
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/6A2D2490AA58EC1C3B2FDCE4310C903866662E56/867467.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Shinplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,30 @@
+id: 83113
+name: Ardent Glorious Raiment
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/A2F718496A092F651A3B389155247999A91D2DE5/1614751.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Raiment
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67118
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

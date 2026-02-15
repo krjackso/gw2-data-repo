@@ -1,0 +1,42 @@
+id: 67128
+name: Ardent Glorious Shinplates
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/14ED04F94CF35A1ACA51C4FAED01F7BEB209FC63/1614758.png
+description: Central Tyrian and Maguuma Ascended Shinplates
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Shinplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}

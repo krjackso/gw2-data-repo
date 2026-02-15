@@ -1,0 +1,22 @@
+id: 67154
+name: Glorious Hero's Legplates
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/25AB18FD689CF29E2921AF3CEFC853D81C6777B1/867459.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Legplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

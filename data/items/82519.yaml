@@ -1,0 +1,30 @@
+id: 82519
+name: Ardent Glorious Footgear
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/77B399C6021A5FF0A03E3D0CCAB6C47408F90BE2/1614750.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Footgear
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67148
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

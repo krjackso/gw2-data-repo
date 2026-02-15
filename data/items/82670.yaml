@@ -1,0 +1,30 @@
+id: 82670
+name: Ardent Glorious Brigandine
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/B0906E0C2EADA0C59390115899A6979D665C64CA/1614759.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Brigandine
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67115
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

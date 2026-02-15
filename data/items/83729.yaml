@@ -1,0 +1,37 @@
+id: 83729
+name: Glorious Hero's Raiment
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/2E5F1407AC03E3C7049364EF90A26E7F666442E9/867462.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Raiment
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67129
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

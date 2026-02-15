@@ -1,0 +1,42 @@
+id: 67156
+name: Ardent Glorious Cap
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9C38D712207518FBBF12EB20C8CC5D5D92E4B2C2/1614761.png
+description: Central Tyrian and Maguuma Ascended Cap
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Cap
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}

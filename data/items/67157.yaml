@@ -1,0 +1,42 @@
+id: 67157
+name: Ardent Glorious Legguards
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/6BD2EEC59E31C6D605F49AF4C93F1CF46D3F2B66/1614762.png
+description: Central Tyrian and Maguuma Ascended Legguards
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Legguards
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}

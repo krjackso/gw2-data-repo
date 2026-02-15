@@ -1,0 +1,30 @@
+id: 82698
+name: Glorious Hero's Plate Helm
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/76D5CDC8D84A0218BD069DEDC25E1A5EB2601600/867458.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Plate_Helm
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67153
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

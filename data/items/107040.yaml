@@ -1,0 +1,58 @@
+id: 107040
+name: Gift of Rays
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/2B6B0EB936F6AE206C7A5B1D579108B9A8019CFC/3744704.png
+description: 'Combine a Gift of Rays, a Gift of the Survivors, a Gift of the People,
+  and a Gift of the Hylek in the Mystic Forge to create the legendary ring Endless
+  Summer.
+
+
+  Created by combining the following in the Mystic Forge:
+
+  • A Gift of the Sun
+
+  • A Gift of the Beach
+
+  • A Gift of Infused Gems
+
+  • 10 Purified Rift Essences'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Rays
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 100569
+    quantity: 10
+  - itemId: 106975
+    quantity: 1
+  - itemId: 107136
+    quantity: 1
+  - itemId: 107201
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100569
+    quantity: 10
+  - itemId: 106975
+    quantity: 1
+  - itemId: 107136
+    quantity: 1
+  - itemId: 107201
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God.

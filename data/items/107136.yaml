@@ -1,0 +1,57 @@
+id: 107136
+name: Gift of the Sun
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/4E0EE392D03662746C5ECBFAFCD2D8C480D23BA6/3744705.png
+description: 'Combine a Gift of the Sun, a Gift of the Beach, a Gift of Infused Gems,
+  and 10 Purified Rift Essences in the Mystic Forge to create a Gift of Rays.
+
+
+  Created by combining the following in the Mystic Forge:
+
+  • 2 Gifts of Light
+
+  • 2 Gifts of Condensed Magic
+
+  • 2 Gifts of Condensed Might
+
+  • 250 Sun Beads'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Sun
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19632
+    quantity: 2
+  - itemId: 19717
+    quantity: 250
+  - itemId: 70867
+    quantity: 2
+  - itemId: 76530
+    quantity: 2
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19632
+    quantity: 2
+  - itemId: 19717
+    quantity: 250
+  - itemId: 19721
+    quantity: 10
+  - itemId: 70867
+    quantity: 2
+  - itemId: 76530
+    quantity: 2
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God

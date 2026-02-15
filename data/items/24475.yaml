@@ -1,0 +1,13 @@
+id: 24475
+name: Sapphire Crystal
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/7C612CD5DB06D81A720F7105CE2B3F4309C4F9BC/220918.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sapphire_Crystal
+lastUpdated: '2026-02-15'
+acquisitions: []

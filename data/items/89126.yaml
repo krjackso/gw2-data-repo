@@ -1,0 +1,37 @@
+id: 89126
+name: Mistforged Glorious Hero's Cap
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/4F4C07660377CF2C4F363DA3FE1A652E245FE0D2/2063534.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mistforged_Glorious_Hero's_Cap
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  - itemId: 89110
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 89175
+  containerName: Mistforged Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

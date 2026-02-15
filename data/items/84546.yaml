@@ -1,0 +1,30 @@
+id: 84546
+name: Ardent Glorious Leggings
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/3E79337DFCB1B17D9726C1550F04212070AF0A51/1614754.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Leggings
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67151
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

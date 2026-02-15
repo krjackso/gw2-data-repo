@@ -1,0 +1,22 @@
+id: 67132
+name: Glorious Hero's Gauntlets
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/410C3633712F6706EF62772717B639A7A7B27A0A/867456.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Gauntlets
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

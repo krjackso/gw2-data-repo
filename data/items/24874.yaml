@@ -1,0 +1,13 @@
+id: 24874
+name: Coral Chunk
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/E3EE022F17127B45FDFC266BDAD05033359BF9E2/221175.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Coral_Chunk
+lastUpdated: '2026-02-15'
+acquisitions: []

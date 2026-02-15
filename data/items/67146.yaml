@@ -1,0 +1,42 @@
+id: 67146
+name: Ardent Glorious Legplates
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/E81FA70225B09E9B55750EE5681BB1B17C17C72D/1614748.png
+description: Central Tyrian and Maguuma Ascended Legplates
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Legplates
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80685
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80685
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}

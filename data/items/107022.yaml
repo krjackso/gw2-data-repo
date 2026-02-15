@@ -1,0 +1,32 @@
+id: 107022
+name: Endless Summer
+type: Trinket
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/2869C8BF337BBA66173504119A0380C7BB13EB31/3745902.png
+vendorValue: 990
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Endless_Summer
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 105804
+    quantity: 1
+  - itemId: 106712
+    quantity: 1
+  - itemId: 106986
+    quantity: 1
+  - itemId: 107040
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

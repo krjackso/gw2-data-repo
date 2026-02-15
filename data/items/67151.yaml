@@ -1,0 +1,42 @@
+id: 67151
+name: Ardent Glorious Leggings
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/3E79337DFCB1B17D9726C1550F04212070AF0A51/1614754.png
+description: Central Tyrian and Maguuma Ascended Leggings
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Leggings
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}

@@ -1,0 +1,136 @@
+id: 100569
+name: Purified Rift Essence
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/BED8999F9DF2EEFDB3715A15E97DB17390CA0813/3123733.png
+description: An amalgamation of rift essences used for crafting that have been purified
+  by magic...and more than a little luck.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Purified_Rift_Essence
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 100930
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Chef
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    - Scribe
+    minRating: 400
+- type: vendor
+  vendorName: Arid Esker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Guiding Breath
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Shading Willow
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
+- type: vendor
+  vendorName: Vast Caldera
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Vigilant Dawn
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Whispers of Wind
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 1
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100930
+    quantity: 1
+  metadata: {}

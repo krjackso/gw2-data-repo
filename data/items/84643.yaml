@@ -1,0 +1,30 @@
+id: 84643
+name: Ardent Glorious Cap
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/9C38D712207518FBBF12EB20C8CC5D5D92E4B2C2/1614761.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Cap
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67156
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

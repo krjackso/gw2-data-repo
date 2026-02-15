@@ -1,0 +1,22 @@
+id: 67134
+name: Glorious Hero's Wargreaves
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/462598914D3B2E51611DEE9D5AA3796C106E4608/867457.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Wargreaves
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

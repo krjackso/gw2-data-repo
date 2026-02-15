@@ -1,0 +1,22 @@
+id: 67125
+name: Glorious Hero's Leggings
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9F21024AEDE845F0B4D907CA27946907EACB912E/867465.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Glorious_Hero's_Leggings
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 67323
+  containerName: Glorious Victor's Armor Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

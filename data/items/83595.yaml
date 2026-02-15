@@ -1,0 +1,30 @@
+id: 83595
+name: Ardent Glorious Epaulets
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/D07026CAB304449F95B790041B530DA4BF1FA75E/1614755.png
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Epaulets
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 67152
+    quantity: 1
+  - itemId: 82350
+    quantity: 1
+  - itemId: 84174
+    quantity: 1
+  - itemId: 84203
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

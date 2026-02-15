@@ -1,0 +1,42 @@
+id: 67118
+name: Ardent Glorious Raiment
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/A2F718496A092F651A3B389155247999A91D2DE5/1614751.png
+description: Central Tyrian and Maguuma Ascended Raiment
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Raiment
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 33
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 33
+    quantity: 250
+  metadata: {}

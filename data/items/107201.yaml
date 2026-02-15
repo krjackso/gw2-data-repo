@@ -1,0 +1,57 @@
+id: 107201
+name: Gift of the Beach
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/97E3FC0631BD177AF7EEF8BF05949D344C0BF13D/3744701.png
+description: 'Combine a Gift of the Beach, a Gift of the Sun, a Gift of Infused Gems,
+  and 10 Purified Rift Essences in the Mystic Forge to create a Gift of Rays.
+
+
+  Created by combining the following in the Mystic Forge:
+
+  • 250 Piles of Coarse Sand
+
+  • 100 Ley-Infused Sands
+
+  • 250 Coral Orbs
+
+  • 1 Relic of the Sunless'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Beach
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 24510
+    quantity: 250
+  - itemId: 71641
+    quantity: 250
+  - itemId: 83284
+    quantity: 100
+  - itemId: 100400
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Shaman Palak
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 24510
+    quantity: 250
+  - itemId: 71641
+    quantity: 250
+  - itemId: 83284
+    quantity: 100
+  - itemId: 100400
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Radiance of the Sun God
