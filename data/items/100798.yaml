@@ -1,0 +1,43 @@
+id: 100798
+name: Gift of Amnytas
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/9AB1077FA5C02961EB2537EE80BFC5A77BB63743/3122194.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Amnytas
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 99964
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Amnytas
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 99964
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Amnytas
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 99964
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Amnytas
+- type: container
+  containerName: Chest of the Obscure
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

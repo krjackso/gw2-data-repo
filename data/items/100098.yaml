@@ -1,0 +1,99 @@
+id: 100098
+name: Clot of Congealed Screams
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E24EF5010A08319050EDA370367DFC9F71F4290F/3188139.png
+description: ''
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Clot_of_Congealed_Screams
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 75
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 75
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: 'Citadel of Zakiros: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 101748
+  containerName: 'Citadel of Zakiros: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101195
+  containerName: 'Inner Nayos: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

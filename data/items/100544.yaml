@@ -1,0 +1,44 @@
+id: 100544
+name: Gift of Skywatch Archipelago
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/170FBCEA0B2F2EB2BDCC80F01577134A9A5B1A9B/3122200.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Skywatch_Archipelago
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 100267
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Skywatch Archipelago.
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 100267
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Skywatch Archipelago.
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 100267
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Skywatch Archipelago.
+- type: container
+  containerName: Chest of the Obscure
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

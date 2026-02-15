@@ -1,0 +1,18 @@
+id: 105256
+name: Wizard's Infinite Mist Omnipotion
+type: Gizmo
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/95C16C472B440EAEB46FA6CFBE1073527EB27909/1601441.png
+description: Grants the combined full effects of the Mist Offensive Potion, Mist Defensive
+  Potion, and Mist Mobility Potion.
+vendorValue: 1
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Wizard's_Infinite_Mist_Omnipotion
+lastUpdated: '2026-02-15'
+acquisitions: []

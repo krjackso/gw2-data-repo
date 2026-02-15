@@ -1,0 +1,120 @@
+id: 99964
+name: Pouch of Stardust
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E650550C0FA8A96D049B3CDFD561430259B969F1/3123704.png
+description: ''
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Pouch_of_Stardust
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: 'Amnytas: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104730
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 73
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Mage
+  outputQuantity: 1
+  requirements:
+  - currencyId: 73
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Protector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 73
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 73
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Astral Ward Skirmisher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 73
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: 'Citadel of Zakiros: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104730
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104730
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104730
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 100193
+  containerName: 'Amnytas: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 101748
+  containerName: 'Citadel of Zakiros: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

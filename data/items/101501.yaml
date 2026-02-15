@@ -1,0 +1,50 @@
+id: 101501
+name: Obsidian Light Pants
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/CE032615F504521DC30C6F780C09FBF137A5FA7A/3256198.png
+description: <c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Light_Pants
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 100198
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100198
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    notes: 'Requires the item Recipe: Legendary Obsidian Armor.'

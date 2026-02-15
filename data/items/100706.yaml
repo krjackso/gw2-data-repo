@@ -1,0 +1,25 @@
+id: 100706
+name: Arcanum of Astral Thought
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/65A9A8EB01E1D8FAB2B62016E737F2D91D54A300/3122193.png
+description: Can be combined by a skilled crafter with a Gift of Magical Prosperity,
+  Gift of Stormy Skies, and Gift of Expertise within the Wizard's Tower to create
+  legendary armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Arcanum_of_Astral_Thought
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Astral Thought

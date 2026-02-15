@@ -1,0 +1,34 @@
+id: 105196
+name: Fractalline Spark
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/580D0A52D93096E05DCD57937AD402B24430E35B/3690940.png
+description: 'Take this to the Mist Stranger after completing the Incursive Investigation:
+  Working Together achievement to craft variants of the legendary gloves.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Fractalline_Spark
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Mist Stranger
+  outputQuantity: 1
+  requirements:
+  - itemId: 105256
+    quantity: 1
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    notes: Requires the achievement Incursive Investigation. Limit 1 per account.
+- type: achievement
+  achievementName: 'Incursive Investigation: Infinite Recursion'
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

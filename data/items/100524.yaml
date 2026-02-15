@@ -1,0 +1,25 @@
+id: 100524
+name: Arcanum of Astral Bearing
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/A0F5EE25B63DDA18D6E3C29B65BF0309C57FAF3C/3122188.png
+description: Can be combined by a skilled crafter with a Gift of Magical Prosperity,
+  Gift of Stormy Skies, and Gift of Expertise within the Wizard's Tower to create
+  legendary armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Arcanum_of_Astral_Bearing
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Astral Bearing

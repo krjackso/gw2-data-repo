@@ -1,0 +1,68 @@
+id: 105171
+name: Eikasia, Mists-Grasper
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/809ECF06F7FEE271DF0E064FB46070293236F508/3691044.png
+description: <c=@flavor>Cleave your foes with the remnants of worlds that could not
+  become real.</c>
+vendorValue: 594
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Eikasia,_Mists-Grasper
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Mist Stranger
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 200
+  - itemId: 100512
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 105196
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Incursive Investigation. Limit 1 per account.
+- type: vendor
+  vendorName: Mist Stranger
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 200
+  - itemId: 100512
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 105196
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Incursive Investigation. Limit 1 per account.
+- type: vendor
+  vendorName: Mist Stranger
+  outputQuantity: 1
+  requirements:
+  - itemId: 19676
+    quantity: 200
+  - itemId: 100512
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 105196
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Incursive Investigation. Limit 1 per account.
+- type: container
+  itemId: 105311
+  containerName: Eikasia, Mists-Grasper Choice
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

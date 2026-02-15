@@ -1,0 +1,29 @@
+id: 104730
+name: 'Amnytas: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F1100DBF0DF2BE50F609EE0F92E0043BE8C35F9D/3122155.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>For those confused about Mosaic Wrath, try helping out Vanak at the Bastion
+  of Strength.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Amnytas:_Commander's_Choice_Chest
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 104730
+  containerName: 'Amnytas: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

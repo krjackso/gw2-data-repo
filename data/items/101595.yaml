@@ -1,0 +1,55 @@
+id: 101595
+name: Gift of Inner Nayos
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/39E830DF5892D30A09CDE2AAF80D75E071DA07D0/3122199.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Inner_Nayos
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 100098
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Inner Nayos
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 100098
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Inner Nayos
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 100098
+    quantity: 13
+  metadata:
+    notes: Requires the achievement Illuminating Inner Nayos
+- type: achievement
+  achievementName: Inner Nayos Mastery II
+  achievementCategory: 'Inner Nayos: Nyedra Surrounds'
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: 'Secrets of the Obscure: The Realm of Dreams Mastery'
+  achievementCategory: The Realm of Dreams
+  outputQuantity: 1
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Chest of the Obscure
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

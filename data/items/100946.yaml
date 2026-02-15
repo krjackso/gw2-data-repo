@@ -1,0 +1,25 @@
+id: 100946
+name: Arcanum of Astral Footprints
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/3D207F73B407B346E5C6E5B1587A0667BE5343A9/3122189.png
+description: Combined by a skilled crafter with a Gift of Mighty Prosperity, Gift
+  of Stormy Skies, and Gift of Expertise within the Wizard's Tower to create legendary
+  armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Arcanum_of_Astral_Footprints
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Astral Footprints.

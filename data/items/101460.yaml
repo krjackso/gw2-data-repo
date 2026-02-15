@@ -1,0 +1,50 @@
+id: 101460
+name: Obsidian Heavy Greaves
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/0EB6787B05B90E21D7982A3B2E75460166C6520D/3256181.png
+description: <c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Heavy_Greaves
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 100946
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 100946
+    quantity: 1
+  metadata:
+    notes: 'Requires the item Recipe: Legendary Obsidian Armor'

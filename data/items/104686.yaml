@@ -1,0 +1,29 @@
+id: 104686
+name: 'Skywatch Archipelago: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/DE1D62A95F57470D61E15D47D20159D8E2BB18FB/3122157.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>You might want to bring some stability for the east platform. Use your
+  skyscale to help you!</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Skywatch_Archipelago:_Commander's_Choice_Chest
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 104686
+  containerName: 'Skywatch Archipelago: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

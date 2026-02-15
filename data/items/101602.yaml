@@ -1,0 +1,50 @@
+id: 101602
+name: Obsidian Medium Boots
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/DBDB22ABE39D5BAA76C2F4FC9B294B7AF9FFF81B/3256200.png
+description: <c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Medium_Boots
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 100946
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  - itemId: 100946
+    quantity: 1
+  metadata:
+    notes: 'Requires the item Recipe: Legendary Obsidian Armor'

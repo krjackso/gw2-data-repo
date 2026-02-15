@@ -1,0 +1,120 @@
+id: 100267
+name: Case of Captured Lightning
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6EAC5C9D6C6DB841D446C5C973E312C7F85179F1/3123706.png
+description: ''
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Case_of_Captured_Lightning
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Astral Ward Protector
+  outputQuantity: 1
+  requirements:
+  - currencyId: 72
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: 'Citadel of Zakiros: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Deldrimor Dwarf
+  outputQuantity: 1
+  requirements:
+  - currencyId: 72
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 104686
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Kestrel Watchkeeper
+  outputQuantity: 1
+  requirements:
+  - currencyId: 72
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104686
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Researcher
+  outputQuantity: 1
+  requirements:
+  - currencyId: 72
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: 'Skywatch Archipelago: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104686
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104686
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104783
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Zaishen Warrior
+  outputQuantity: 1
+  requirements:
+  - currencyId: 72
+    quantity: 250
+  metadata: {}
+- type: container
+  itemId: 101748
+  containerName: 'Citadel of Zakiros: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 100547
+  containerName: 'Skywatch Archipelago: Hero''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

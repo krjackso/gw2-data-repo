@@ -1,0 +1,25 @@
+id: 104783
+name: 'Citadel of Zakiros: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png
+description: Contains Pieces of Rare Unidentified Gear and a chest from which to pick
+  your choice of items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Citadel_of_Zakiros:_Commander's_Choice_Chest
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 104783
+  containerName: 'Citadel of Zakiros: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

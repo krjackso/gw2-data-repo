@@ -1,0 +1,27 @@
+id: 99962
+name: Gift of Persistence
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/40E82323BB45EA0BCEC5680A29F826BDAD20ADAA/3255341.png
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Persistence
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 66
+    quantity: 250
+  - currencyId: 72
+    quantity: 250
+  - currencyId: 73
+    quantity: 250
+  - currencyId: 75
+    quantity: 250
+  metadata: {}

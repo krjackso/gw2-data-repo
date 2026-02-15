@@ -1,0 +1,50 @@
+id: 101609
+name: Obsidian Heavy Gauntlets
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/78A5446DC86D5FDE540B45102F973D94A2EDC3C0/3256183.png
+description: <c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Heavy_Gauntlets
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 100050
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100050
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    notes: 'Requires the item Recipe: Legendary Obsidian Armor'

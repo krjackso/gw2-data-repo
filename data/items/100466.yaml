@@ -1,0 +1,43 @@
+id: 100466
+name: Gift of the Astral Ward
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C47404C12AA33C0D69D7CBB5FEBC4412B9210C57/3122195.png
+description: Used to make a Gift of Stormy Skies.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Astral_Ward
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 99962
+    quantity: 1
+  - itemId: 100544
+    quantity: 1
+  - itemId: 100798
+    quantity: 1
+  - itemId: 101595
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 99962
+    quantity: 1
+  - itemId: 100544
+    quantity: 1
+  - itemId: 100798
+    quantity: 1
+  - itemId: 101595
+    quantity: 1
+  metadata: {}

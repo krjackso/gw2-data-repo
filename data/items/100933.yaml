@@ -1,0 +1,43 @@
+id: 100933
+name: Gift of Mighty Prosperity
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/4AECC35E2965C93004C273E722AA0AE80B943DE6/3122198.png
+description: Used to craft legendary Obsidian boots, gloves, and leggings.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Mighty_Prosperity
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 9
+  - itemId: 70867
+    quantity: 1
+  - itemId: 77451
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 9
+  - itemId: 19721
+    quantity: 10
+  - itemId: 70867
+    quantity: 1
+  - itemId: 77451
+    quantity: 1
+  - itemId: 97655
+    quantity: 1
+  metadata: {}

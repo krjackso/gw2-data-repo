@@ -1,0 +1,25 @@
+id: 100509
+name: Arcanum of Astral Heartbeat
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/AB9E50730EE8FCD9E4692555BDD6ED176A52DD4E/3122191.png
+description: Can be combined by a skilled crafter with a Gift of Magical Prosperity,
+  Gift of Stormy Skies, and Gift of Expertise within the Wizard's Tower to create
+  legendary armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Arcanum_of_Astral_Heartbeat
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Astral Heartbeat

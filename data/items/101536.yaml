@@ -1,0 +1,50 @@
+id: 101536
+name: Obsidian Light Gloves
+type: Armor
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/C2EAC99A1F38707E4533C86F1AC45F6802D4F2AC/3256196.png
+description: <c=@flavor>Imposing armor forged with the help of dwarven wizard Lyhr.</c>
+vendorValue: 240
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Obsidian_Light_Gloves
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 100050
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 500
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 10
+  - itemId: 100050
+    quantity: 1
+  - itemId: 100288
+    quantity: 1
+  - itemId: 100852
+    quantity: 1
+  - itemId: 100933
+    quantity: 1
+  metadata:
+    notes: 'Requires the item Recipe: Legendary Obsidian Armor'

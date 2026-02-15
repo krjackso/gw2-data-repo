@@ -1,0 +1,61 @@
+id: 104929
+name: 'Inner Nayos: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>Using your warclaw can help you escape Ignaxious or break Knaebelag''s
+  defiance.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Nayos:_Commander's_Choice_Chest
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata:
+    notes: Yields Clot of Congealed Screams
+- type: vendor
+  vendorName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata:
+    notes: Yields Amalgamated Gemstone
+- type: vendor
+  vendorName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata:
+    notes: Yields Saryx Weapon Box
+- type: vendor
+  vendorName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 20
+  requirements:
+  - itemId: 104929
+    quantity: 1
+  metadata:
+    notes: Yields Large Calcified Gasp (20)
+- type: container
+  itemId: 104929
+  containerName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,25 @@
+id: 100050
+name: Arcanum of Astral Grasp
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/453C91B7BEF843DDC707D90E707D501955217623/3122190.png
+description: Combined by a skilled crafter with a Gift of Mighty Prosperity, Gift
+  of Stormy Skies, and Gift of Expertise within the Wizard's Tower to create legendary
+  armor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Arcanum_of_Astral_Grasp
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Lyhr
+  outputQuantity: 1
+  requirements:
+  - itemId: 49523
+    quantity: 1
+  metadata:
+    notes: Requires the achievement Astral Grasp
