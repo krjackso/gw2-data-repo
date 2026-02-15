@@ -1,0 +1,31 @@
+id: 105933
+name: Patron of the Magical Arts Plaque
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/04BBDBF2746479F9F4DA2EE0ED5AE35CA602DEA8/3710055.png
+description: 'Used to create a Gift of the People.
+
+
+  Purchased from Huntmaster Arnorr in Untamed Crags in Starlit Weald after completing
+  the Starlit Weald Mastery achievement.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Patron_of_the_Magical_Arts_Plaque
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - itemId: 105686
+    quantity: 500
+  - currencyId: 1
+    quantity: 25000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery

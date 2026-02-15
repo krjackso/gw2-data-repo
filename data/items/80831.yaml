@@ -1,0 +1,32 @@
+id: 80831
+name: Empowered Mithril Ingot
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/11C6A728B8601B4DC73C80373E2D3C413BFDA6B2/1653615.png
+description: Mithril strengthened by powerful materials.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Empowered_Mithril_Ingot
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19684
+    quantity: 150
+  - itemId: 46681
+    quantity: 1
+  - itemId: 80728
+    quantity: 1
+  - itemId: 80764
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 500

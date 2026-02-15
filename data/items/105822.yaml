@@ -1,0 +1,40 @@
+id: 105822
+name: 'Castora: Hero''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2098DC55D139B2A209D3E50FA14BA09BC20DB6EB/3708799.png
+description: 'Double-click to open.
+
+  Contains materials from Castora.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Castora:_Hero's_Choice_Chest
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 106732
+  containerName: Chromatic Resin Box
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 106385
+  containerName: Chromatic Sap
+  outputQuantity: 25
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105686
+  containerName: Raw Enchanting Stone
+  outputQuantity: 25
+  choice: true
+  requirements: []
+  metadata: {}

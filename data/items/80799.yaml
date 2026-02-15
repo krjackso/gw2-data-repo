@@ -1,0 +1,693 @@
+id: 80799
+name: Grandmaster Leatherworker's Mark
+type: Trophy
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/DF68FBD9CB0775B897124222C8197B2D3BC30AF4/1653608.png
+description: Can be used to purchase medium Ascended armor from special merchants.
+vendorValue: 330
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Grandmaster_Leatherworker's_Mark
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 80714
+    quantity: 1
+  - itemId: 80723
+    quantity: 1
+  - itemId: 80743
+    quantity: 1
+  - itemId: 80775
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 33
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 50
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 33
+    quantity: 250
+  metadata:
+    notes: Requires the skin Ardent Glorious Brigandine
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Cap
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 30
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 33
+    quantity: 150
+  metadata:
+    notes: Requires the skin Ardent Glorious Legguards
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Shinplates
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Shoulderguards
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Wristplates
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 12
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 7
+    quantity: 400
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 24
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 7
+    quantity: 800
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 16
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 7
+    quantity: 600
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 12
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 7
+    quantity: 400
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 12
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 7
+    quantity: 400
+  metadata: {}
+- type: vendor
+  vendorName: BLING-9009
+  outputQuantity: 1
+  requirements:
+  - itemId: 73834
+    quantity: 12
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 7
+    quantity: 400
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 33
+    quantity: 250
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 150
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 50
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 33
+    quantity: 250
+  metadata:
+    notes: Requires the skin Ardent Glorious Brigandine
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Cap
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 30
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 33
+    quantity: 150
+  metadata:
+    notes: Requires the skin Ardent Glorious Legguards
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Shinplates
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Shoulderguards
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 19721
+    quantity: 20
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 33
+    quantity: 100
+  metadata:
+    notes: Requires the skin Ardent Glorious Wristplates
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Faceguard
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 260
+  metadata:
+    notes: Requires the skin Triumphant Legguards
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shinplates
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shoulderguards
+- type: vendor
+  vendorName: Lionguard
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Wristplates
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Faceguard
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 260
+  metadata:
+    notes: Requires the skin Triumphant Legguards
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shinplates
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shoulderguards
+- type: vendor
+  vendorName: Mercenary
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Wristplates
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 30000
+  - currencyId: 26
+    quantity: 350
+  metadata:
+    notes: Requires the skin Triumphant Brigandine
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Faceguard
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 4
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 260
+  metadata:
+    notes: Requires the skin Triumphant Legguards
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shinplates
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Shoulderguards
+- type: vendor
+  vendorName: Skirmish Supervisor
+  outputQuantity: 1
+  requirements:
+  - itemId: 71581
+    quantity: 250
+  - itemId: 80799
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 26
+    quantity: 175
+  metadata:
+    notes: Requires the skin Triumphant Wristplates
+- type: container
+  itemId: 81346
+  containerName: Box of Grandmaster Marks
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

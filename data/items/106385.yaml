@@ -1,0 +1,140 @@
+id: 106385
+name: Chromatic Sap
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/2714DAB2CB9C40510190E7C4E30F1BFAED732B99/3710068.png
+description: Can be spent at vendors in Shipwreck Strand or consumed to add 5 aether-rich
+  sap to your wallet.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chromatic_Sap
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: 'Castora: Hero''s Choice Chest'
+  outputQuantity: 25
+  requirements:
+  - itemId: 105822
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 83
+    quantity: 5
+  metadata: {}
+- type: achievement
+  achievementName: Breezy Cay Renown Mastery
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Glimmering Arches Renown Mastery
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Hullgarden Renown Mastery
+  outputQuantity: 5
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Shipwreck Strand Mastery
+  outputQuantity: 10
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Black Lion Delivery Box
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Large Obscured Chest
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Long-Lost Keepsake Box
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Medium Obscured Chest
+  outputQuantity: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 105512
+  containerName: Shipwreck Strand Lockbox
+  outputQuantity: 1
+  outputQuantityMin: 1
+  outputQuantityMax: 2
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Small Obscured Chest
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: wvw_reward
+  trackName: Visions of Eternity Reward Track
+  outputQuantity: 10
+  requirements: []
+  metadata: {}

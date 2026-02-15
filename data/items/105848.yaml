@@ -1,0 +1,31 @@
+id: 105848
+name: Concentrated Chromatic Sap
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/62B6A3561704ED626FE46046F041A3B1DA7ADB51/3710069.png
+description: 'Used to create a Gift of the Survivors.
+
+
+  Purchased from Tyrian Alliance Representative Sharpwhisker in Glimmering Arches
+  in Shipwreck Strand after completing the Shipwreck Strand Mastery achievement.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Concentrated_Chromatic_Sap
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - itemId: 106385
+    quantity: 500
+  - currencyId: 1
+    quantity: 25000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery.

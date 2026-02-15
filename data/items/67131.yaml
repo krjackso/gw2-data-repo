@@ -1,0 +1,42 @@
+id: 67131
+name: Ardent Glorious Armguards
+type: Armor
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/499A0D7A4158E5DB0F1D0E5811699AED01550DF0/1614752.png
+description: Central Tyrian and Maguuma Ascended Armguards
+vendorValue: 0
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ardent_Glorious_Armguards
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ascended Armor League Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}
+- type: vendor
+  vendorName: League Armor Vendor
+  outputQuantity: 1
+  requirements:
+  - itemId: 70820
+    quantity: 250
+  - itemId: 80857
+    quantity: 3
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 33
+    quantity: 100
+  metadata: {}

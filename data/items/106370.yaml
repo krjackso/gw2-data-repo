@@ -1,0 +1,96 @@
+id: 106370
+name: Survivor's Enchanted Compass
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3DF23197BD570150B071C7949BE9F5BBFE50D434/3710062.png
+description: 'Used to create a Gift of the Survivors.
+
+
+  Earned by completing the Shipwreck Strand Mastery achievement.
+
+  Additional copies can be purchased from Visions of Eternity vendors afterward.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Survivor's_Enchanted_Compass
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Shipwreck Strand Mastery
+- type: achievement
+  achievementName: Shipwreck Strand Mastery
+  achievementCategory: Shipwreck Strand
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

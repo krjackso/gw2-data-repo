@@ -1,0 +1,38 @@
+id: 105804
+name: Gift of the People
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/45B44097576D0F0A7D0C5E06985E18AB77D8F8F5/3708961.png
+description: 'In the Mystic Forge, combine a Gift of the Survivors and a Gift of the
+  People with two other legendary gifts to create a legendary item:
+
+
+  • Aetheric Anchor—Gift of Insight and Gift of the Elders
+
+  • Selachimorpha—Gift of Castoran Mastery and the Precursor Agaleus
+
+
+  Purchased from Canach at Pub Canach in Shipwreck Strand.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_People
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - itemId: 105933
+    quantity: 1
+  - itemId: 106627
+    quantity: 1
+  - itemId: 106672
+    quantity: 1
+  - currencyId: 81
+    quantity: 500
+  metadata: {}

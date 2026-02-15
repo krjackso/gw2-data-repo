@@ -1,0 +1,90 @@
+id: 106672
+name: Gift of Starlit Weald Exploration
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/7236FF7200ADFA3F973E51B40A582FF00316F2AD/3708958.png
+description: 'Used to create a Gift of the People.
+
+
+  Earned by fully exploring Starlit Weald. Additional copies can be purchased from
+  Visions of Eternity map vendors.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Starlit_Weald_Exploration
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Starlit Weald

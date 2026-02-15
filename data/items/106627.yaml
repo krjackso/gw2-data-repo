@@ -1,0 +1,93 @@
+id: 106627
+name: Seer Wreath of Service
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0D36C238C4EB0337FA32D6D507D8F3C925BE10F6/3710056.png
+description: "Used to create a Gift of the People.\n\nEarned by completing the Starlit\
+  \ Weald Mastery achievement. \nAdditional copies can be purchased from Visions of\
+  \ Eternity vendors afterward."
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Seer_Wreath_of_Service
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires the achievement Starlit Weald Mastery
+- type: achievement
+  achievementName: Starlit Weald Mastery
+  achievementCategory: Starlit Weald
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

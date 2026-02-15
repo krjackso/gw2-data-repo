@@ -1,0 +1,89 @@
+id: 106275
+name: Gift of the Tides
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0704B171045A94683C662B0EB92731C1CB8080A4/3708964.png
+description: 'Used to create a Gift of the Elders and a Gift of the Seas.
+
+
+  Acquired by completing the Visions of Eternity launch story the first time. Purchased
+  from Visions of Eternity map vendors afterward.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Tides
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires completing the story step Path of Divinity

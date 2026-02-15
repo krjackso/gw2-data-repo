@@ -1,0 +1,119 @@
+id: 105979
+name: Gift of Adventure
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/A8F9EE089C04529FE505F5A7B006D1F571789D53/3708959.png
+description: 'Combine a Gift of Adventure, a Gift of the Seas, a Bloodstone Shard,
+  and 250 Obsidian Shards in the Mystic Forge to create a Gift of Castoran Mastery.
+
+
+  Purchased from Visions of Eternity map vendors in exchange for:
+
+  • 2 Vision Crystals
+
+  • 55 Mystic Clovers
+
+  • 100 Tales of Adventure
+
+  • 500 Unusual Coins'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Adventure
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 55
+  - itemId: 46746
+    quantity: 2
+  - itemId: 96151
+    quantity: 100
+  - currencyId: 62
+    quantity: 500
+  metadata: {}

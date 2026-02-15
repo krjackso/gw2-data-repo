@@ -1,0 +1,23 @@
+id: 105438
+name: Agaleus
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/ECDAFD71183317EEC79C535C96DD579ED7F50998/3710800.png
+description: Place in the Mystic Forge with a Gift of Castoran Mastery, a Gift of
+  the Survivors, and a Gift of the People to create the legendary aquabreather Selachimorpha.
+vendorValue: 330
+flags:
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Agaleus
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 106676
+  containerName: Agaleus Container
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,42 @@
+id: 105649
+name: Gift of Castoran Mastery
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/C6C65B4E53FFADB18080A65A41EE67DB49AFDA58/3708955.png
+description: 'Combine a Gift of the Survivors, a Gift of the People, a Gift of Castoran
+  Mastery, and the precursor Agaleus in the Mystic Forge to create the legendary aquabreather
+  Selachimorpha.
+
+
+  Created by combining the following in the Mystic Forge:
+
+  • A Gift of Adventure
+
+  • A Gift of the Seas
+
+  • A Bloodstone Shard
+
+  • 250 Obsidian Shards'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Castoran_Mastery
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19925
+    quantity: 250
+  - itemId: 20797
+    quantity: 1
+  - itemId: 105979
+    quantity: 1
+  - itemId: 106747
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

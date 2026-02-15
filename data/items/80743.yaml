@@ -1,0 +1,32 @@
+id: 80743
+name: Empowered Cured Thick Leather Square
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/AA47C89AD604BEBE48D4F6B10A3E1C0E295FFAAF/1653614.png
+description: Leather strengthened by powerful materials.
+vendorValue: 80
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Empowered_Cured_Thick_Leather_Square
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 19735
+    quantity: 65
+  - itemId: 46681
+    quantity: 1
+  - itemId: 80728
+    quantity: 1
+  - itemId: 80764
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 500

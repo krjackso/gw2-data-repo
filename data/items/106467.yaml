@@ -1,0 +1,90 @@
+id: 106467
+name: Gift of Shipwreck Strand Exploration
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/69490A215111E1BA0A7C307AC590316E560D2DB4/3708957.png
+description: 'Used to create a Gift of the Survivors.
+
+
+  Earned by fully exploring Shipwreck Strand. Additional copies can be purchased from
+  Visions of Eternity map vendors.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Shipwreck_Strand_Exploration
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Alliance Field Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Canach
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Captain Emund
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Huntmaster Arnorr
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Magister Sirkk
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand
+- type: vendor
+  vendorName: Tyrian Alliance Representative Sharpwhisker
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 5000
+  - currencyId: 2
+    quantity: 300000
+  metadata:
+    notes: Requires character has map completed Shipwreck Strand

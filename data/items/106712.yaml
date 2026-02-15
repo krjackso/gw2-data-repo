@@ -1,0 +1,38 @@
+id: 106712
+name: Gift of the Survivors
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/CAE0204429420B293DBD30C864E82C1A17EF7E1D/3708963.png
+description: 'In the Mystic Forge, combine a Gift of the Survivors and a Gift of the
+  People with two other legendary gifts to create a legendary item:
+
+
+  • Aetheric Anchor—Gift of Insight and Gift of the Elders
+
+  • Selachimorpha—Gift of Castoran Mastery and the Precursor Agaleus
+
+
+  Purchased from the Castaway Agnes in Hullgarden in Shipwreck Strand.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Survivors
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Castaway Agnes
+  outputQuantity: 1
+  requirements:
+  - itemId: 105848
+    quantity: 1
+  - itemId: 106370
+    quantity: 1
+  - itemId: 106467
+    quantity: 1
+  - currencyId: 83
+    quantity: 500
+  metadata: {}
