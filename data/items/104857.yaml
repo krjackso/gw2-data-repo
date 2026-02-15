@@ -1,0 +1,33 @@
+id: 104857
+name: Orrax Manifested
+type: Back
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/9C5948587832ACA31FD01298DE081BDE626CC607/3629149.png
+vendorValue: 660
+flags:
+- HideSuffix
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Orrax_Manifested
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 104690
+    quantity: 1
+  - itemId: 104846
+    quantity: 1
+  - itemId: 104872
+    quantity: 1
+  - itemId: 104962
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

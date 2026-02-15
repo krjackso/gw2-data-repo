@@ -1,0 +1,28 @@
+id: 41563
+name: Spicy Marinated Mushroom
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/E6CAF6FE6276B003B5C4AE6F96BAF09D276B6FC7/561713.png
+vendorValue: 15
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Spicy_Marinated_Mushroom
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12279
+    quantity: 5
+  - itemId: 12283
+    quantity: 10
+  - itemId: 12504
+    quantity: 3
+  - itemId: 12544
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

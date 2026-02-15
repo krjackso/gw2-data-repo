@@ -1,0 +1,26 @@
+id: 12283
+name: Grilled Portobello Mushroom
+type: Consumable
+rarity: Fine
+level: 30
+icon: https://render.guildwars2.com/file/4EB8759EB6A23D5154F007B211BD03D2BD7C99C0/339898.png
+vendorValue: 17
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Grilled_Portobello_Mushroom
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12158
+    quantity: 1
+  - itemId: 12178
+    quantity: 1
+  - itemId: 12334
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 150

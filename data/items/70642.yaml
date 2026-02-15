@@ -1,0 +1,23 @@
+id: 70642
+name: Spirit of the Upper Bound
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/1DE649F0431C45987C2CF93F9E9C02562C50586C/1203031.png
+description: Obtained by salvaging the backpack Upper Bound.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Upper_Bound
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: salvage
+  itemId: 73251
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

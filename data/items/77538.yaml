@@ -1,0 +1,26 @@
+id: 77538
+name: Monument of Legends
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A4080E0C6FA2A8640016AD74EC21D40FC600FBFA/1313074.png
+description: Combine the Thrill of Battle, Tapestry of Sacrifice, Monument of Legends,
+  and Hymn of Glory in the Mystic Forge to create the Gift of the Competitor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Monument_of_Legends
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: achievement
+  achievementName: 'Path of the Ascension III: Monument of Legends'
+  achievementCategory: Year of the Ascension Part III
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

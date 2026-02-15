@@ -1,0 +1,13 @@
+id: 12153
+name: Packet of Salt
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/135535073FE49205B57801F3A94F35F7270274EF/63257.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Packet_of_Salt
+lastUpdated: '2026-02-15'
+acquisitions: []

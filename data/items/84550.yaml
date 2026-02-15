@@ -1,0 +1,28 @@
+id: 84550
+name: Red-Lentil Saobosa
+type: Consumable
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/2B3EC23CDF996009130F1AA762A10C500863FF9D/1766617.png
+description: ''
+vendorValue: 96
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Red-Lentil_Saobosa
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12156
+    quantity: 2
+  - itemId: 12158
+    quantity: 3
+  - itemId: 12166
+    quantity: 2
+  - itemId: 82866
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

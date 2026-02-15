@@ -1,0 +1,28 @@
+id: 104785
+name: Askur Camping Cookout Backpiece Remnant
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FF377B55F6033210C3F7A92A1C1CEAEF142204E7/3629252.png
+description: Remnants of an Askur Camping Cookout Backpiece. Used as a replacement
+  for the Askur Camping Cookout Backpiece in the Mystic Forge.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Askur_Camping_Cookout_Backpiece_Remnant
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 25
+  - itemId: 104829
+    quantity: 25
+  - currencyId: 2
+    quantity: 10050
+  metadata:
+    notes: Requires the achievement Bava Nisos Mastery

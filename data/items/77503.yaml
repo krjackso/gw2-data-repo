@@ -1,0 +1,27 @@
+id: 77503
+name: Elite's Wings of Glory
+type: Back
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/C604DA0A5C11DEA69F419E2EEC274AFF20D0C20E/1313063.png
+description: Combine all 4 Wings of Glory to obtain Wings of Ascension, precursor
+  to the Ascension.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Elite's_Wings_of_Glory
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 40
+  metadata:
+    notes: Requires the item Champion's Wings of Glory

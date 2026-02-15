@@ -1,0 +1,41 @@
+id: 104282
+name: Shard of Mistburned Barrens
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/EF3CD8AD0528426901E9E6547D475E01E841DB95/3592774.png
+description: 'Used in the crafting of Janthir Wilds legendary items.
+
+
+  Purchased from the Mistburned Barrens renown heart vendor, or purchased from the
+  Trading Post.'
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Mistburned_Barrens
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 3
+  - itemId: 104331
+    quantity: 3
+  - currencyId: 2
+    quantity: 1750
+  metadata:
+    limitType: weekly
+    limitAmount: 20
+    notes: Requires the renown heart Assist those surveying Mistburned Barrens in
+      keeping their camp safe and running to be incomplete.
+- type: container
+  itemId: 104433
+  containerName: Discounted Shard of Mistburned Barrens
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

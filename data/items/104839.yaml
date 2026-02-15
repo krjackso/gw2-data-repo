@@ -1,0 +1,42 @@
+id: 104839
+name: Gift of the Side Course
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/262BE922052F65A77345CD68F6284BB20DE6972D/3629214.png
+description: 'Combine a Gift of the Appetizer, a Gift of the Entrée, a Gift of the
+  Side Course, and a Gift of the Dessert in the Mystic Forge to create the Gift of
+  the Feast.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 200 Meaty Asparagus Skewers
+
+  • 100 Bowls of Black Pepper Cactus Salad
+
+  • 30 Mystic Clovers
+
+  • 5 Fruits of the Shadow'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Side_Course
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19675
+    quantity: 30
+  - itemId: 66529
+    quantity: 100
+  - itemId: 95942
+    quantity: 200
+  - itemId: 104844
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

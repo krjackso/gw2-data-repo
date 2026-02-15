@@ -1,0 +1,42 @@
+id: 104932
+name: Gift of the Entrée
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/3B4C651C0A72217DA35E4E11D1E1ECB5EA4B2407/3629212.png
+description: 'Combine a Gift of the Appetizer, a Gift of the Entrée, a Gift of the
+  Side Course, and a Gift of the Dessert in the Mystic Forge to create the Gift of
+  the Feast.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 200 Plates of Orrian Steak Frittes
+
+  • 100 Plates of Truffle Steak
+
+  • 50 Plates of Spicy Herbed Chicken
+
+  • 5 Fruits of the Shadow'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Entrée
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 12467
+    quantity: 100
+  - itemId: 12468
+    quantity: 200
+  - itemId: 41567
+    quantity: 50
+  - itemId: 104844
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

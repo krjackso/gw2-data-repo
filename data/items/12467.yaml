@@ -1,0 +1,35 @@
+id: 12467
+name: Plate of Truffle Steak
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/EB78371F9DADA4A130EDBD0D192D320402370F47/433656.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Plate_of_Truffle_Steak
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12138
+    quantity: 1
+  - itemId: 12144
+    quantity: 1
+  - itemId: 12545
+    quantity: 1
+  - itemId: 24359
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400
+- type: container
+  itemId: 80432
+  containerName: Box of Raider's Sustenance
+  outputQuantity: 1
+  choice: true
+  requirements: []
+  metadata: {}

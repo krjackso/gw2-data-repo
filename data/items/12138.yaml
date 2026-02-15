@@ -1,0 +1,13 @@
+id: 12138
+name: Stick of Butter
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/CA45CEE2BA3BA040E7C294965CA3756FC3F33FD1/63248.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Stick_of_Butter
+lastUpdated: '2026-02-15'
+acquisitions: []

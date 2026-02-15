@@ -1,0 +1,19 @@
+id: 24359
+name: Slab of Red Meat
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/6BEA5E4A5BDCB2C4D6B8630B65B2A91D0E13356F/66928.png
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Slab_of_Red_Meat
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 39093
+  containerName: Chef Starter Kit
+  outputQuantity: 3
+  guaranteed: true
+  requirements: []
+  metadata: {}

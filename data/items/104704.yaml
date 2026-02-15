@@ -1,0 +1,24 @@
+id: 104704
+name: Askur Camping Cookout Backpiece
+type: Back
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/EE555B3777E24EFD0AC4219803DC343866E39B23/3629028.png
+description: <c=@flavor>This back item is used for crafting Janthir Wilds legendaries.
+  Remnants can be purchased from Ward Trader Sampaguita in Bava Nisos.</c>
+vendorValue: 264
+flags:
+- AccountBound
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Askur_Camping_Cookout_Backpiece
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: achievement
+  achievementName: Bava Nisos Mastery
+  achievementCategory: Bava Nisos
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

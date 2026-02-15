@@ -1,0 +1,24 @@
+id: 77497
+name: Tapestry of Sacrifice
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0F3A564A9ABD6C67319C5D494B377D140C18F80C/1313081.png
+description: Combine the Thrill of Battle, Tapestry of Sacrifice, Monument of Legends,
+  and Hymn of Glory in the Mystic Forge to create the Gift of the Competitor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tapestry_of_Sacrifice
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: achievement
+  achievementName: 'Path of the Ascension II: Tapestry of Sacrifice'
+  achievementCategory: Year of the Ascension Part II
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

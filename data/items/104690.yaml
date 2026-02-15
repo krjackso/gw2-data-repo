@@ -1,0 +1,81 @@
+id: 104690
+name: Orrax Contained
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/C61975234AD30103EF7DAD0BD52578F00B0CDF5B/3629148.png
+description: Combine a Gift of the Mistburned Isles, a Gift of Shadows, a Gift of
+  the Feast, and Orrax Contained in the Mystic Forge to create Orrax Manifested.
+vendorValue: 330
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Orrax_Contained
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 96137
+    quantity: 1
+  - itemId: 102367
+    quantity: 1
+  - itemId: 104704
+    quantity: 1
+  - itemId: 104777
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 96137
+    quantity: 1
+  - itemId: 104777
+    quantity: 1
+  - itemId: 104785
+    quantity: 1
+  - itemId: 104817
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1
+  requirements:
+  - itemId: 12468
+    quantity: 5
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 2
+    quantity: 52500
+  metadata:
+    notes: 'Requires the achievement Unknown Nightmares: Orrax Contained'
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1
+  requirements:
+  - itemId: 12468
+    quantity: 5
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 2
+    quantity: 52500
+  metadata:
+    notes: 'Requires the achievement Unknown Nightmares: Orrax Contained'
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 12468
+    quantity: 5
+  - currencyId: 1
+    quantity: 50000
+  - currencyId: 2
+    quantity: 52500
+  metadata:
+    notes: 'Requires the achievement Unknown Nightmares: Orrax Contained'

@@ -1,0 +1,83 @@
+id: 8576
+name: Bottle of Rice Wine
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/CD065203FA490A7157DC0FDE7506F3CB93E89D0D/63089.png
+vendorValue: 2
+flags:
+- NoSalvage
+- BulkConsume
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Rice_Wine
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Andile
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Barkeep Plikter
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Barkeep Weber
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Barkeeper Tin-Eye
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Bartender
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Bartender
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Bartender
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Jen
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Kestrel Quartermaster
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}
+- type: vendor
+  vendorName: Winn Schwartzmeier
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 16
+  metadata: {}

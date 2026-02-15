@@ -1,0 +1,26 @@
+id: 12472
+name: Cup of Lotus Fries
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/4120B6390F071AF9DF0D633097C00DB12C80056D/219456.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Cup_of_Lotus_Fries
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12158
+    quantity: 1
+  - itemId: 12178
+    quantity: 1
+  - itemId: 12510
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

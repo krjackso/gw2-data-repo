@@ -1,0 +1,14 @@
+id: 12166
+name: Ball of Dough
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/653F995228B62DF626BBEFC96902961400DE21EE/63266.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Ball_of_Dough
+lastUpdated: '2026-02-15'
+acquisitions: []

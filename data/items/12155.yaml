@@ -1,0 +1,13 @@
+id: 12155
+name: Bag of Sugar
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/C9A8A4781A07393016AFF9A47E1B356255FC9F0F/63258.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Sugar
+lastUpdated: '2026-02-15'
+acquisitions: []

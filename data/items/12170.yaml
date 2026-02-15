@@ -1,0 +1,14 @@
+id: 12170
+name: Bowl of Baker's Wet Ingredients
+type: CraftingMaterial
+rarity: Basic
+level: 25
+icon: https://render.guildwars2.com/file/08EFE0B5291B2BB75766224E08CB465CFC9368E8/63270.png
+description: Ingredient
+vendorValue: 4
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Baker's_Wet_Ingredients
+lastUpdated: '2026-02-15'
+acquisitions: []

@@ -1,0 +1,14 @@
+id: 12181
+name: Pile of Tangy Seasoning
+type: CraftingMaterial
+rarity: Basic
+level: 20
+icon: https://render.guildwars2.com/file/FF98B1BF45D9CB955B0500AFE9797F9C49D7A6D5/219404.png
+description: Ingredient
+vendorValue: 3
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Tangy_Seasoning
+lastUpdated: '2026-02-15'
+acquisitions: []

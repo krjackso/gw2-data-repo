@@ -1,0 +1,14 @@
+id: 12177
+name: Pile of Cinnamon and Sugar
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F90EEC96BB0C70D5CC2F30BA2E0B45B8326965A8/219351.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Cinnamon_and_Sugar
+lastUpdated: '2026-02-15'
+acquisitions: []

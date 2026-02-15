@@ -1,0 +1,42 @@
+id: 104699
+name: Gift of Janthir Wanderlust
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6E3EF535D833F7049BC8DC75C728B6149873143B/3629247.png
+description: 'Combine a Gift of the Mursaat Ruins, a Gift of Janthir Wanderlust, 250
+  Mursaat Runestones, and 250 Mystic Runestones in the Mystic Forge to create a Gift
+  of the Mistburned Isles.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 1 Gift of Lowland Shore
+
+  • 1 Gift of Janthir Syntri
+
+  • 1 Gift of Mistburned Barrens
+
+  • 1 Gift of Bava Nisos'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Janthir_Wanderlust
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 102929
+    quantity: 1
+  - itemId: 102958
+    quantity: 1
+  - itemId: 104313
+    quantity: 1
+  - itemId: 104896
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

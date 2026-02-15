@@ -1,0 +1,24 @@
+id: 12468
+name: Plate of Orrian Steak Frittes
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/21F999BF071F37596A920AC31EBB094665345122/433657.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Plate_of_Orrian_Steak_Frittes
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12472
+    quantity: 1
+  - itemId: 24359
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

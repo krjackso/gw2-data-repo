@@ -1,0 +1,42 @@
+id: 104872
+name: Gift of the Feast
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D1A66A94620B95736698D4D9AE0ECEC94AC66791/3629213.png
+description: 'Combine a Gift of the Mistburned Isles, a Gift of Shadows, a Gift of
+  The Feast, and Orrax Contained in the Mystic Forge to create the legendary backpack
+  and glider Orrax Manifested.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 1 Gift of the Appetizer
+
+  • 1 Gift of the Entrée
+
+  • 1 Gift of the Side Course
+
+  • 1 Gift of the Dessert'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Feast
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 104717
+    quantity: 1
+  - itemId: 104839
+    quantity: 1
+  - itemId: 104932
+    quantity: 1
+  - itemId: 104965
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

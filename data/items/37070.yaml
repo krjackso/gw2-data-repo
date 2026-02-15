@@ -1,0 +1,54 @@
+id: 37070
+name: Gift of Ascension
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/EFE42371FCAF18C0BC49969CDC601AEAC0F3560E/511814.png
+description: Used by the Mystic Forge.
+vendorValue: 315
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Ascension
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: BUY-4373
+  outputQuantity: 1
+  requirements:
+  - currencyId: 1
+    quantity: 2520
+  - currencyId: 7
+    quantity: 500
+  metadata: {}
+- type: vendor
+  vendorName: Black Lion Commemorative Sprocket
+  outputQuantity: 1
+  requirements:
+  - itemId: 84438
+    quantity: 4
+  metadata: {}
+- type: vendor
+  vendorName: Fractal Reliquary
+  outputQuantity: 1
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - currencyId: 7
+    quantity: 25
+  metadata: {}
+- type: achievement
+  achievementName: Pact Reformer
+  achievementCategory: Rare Collections
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

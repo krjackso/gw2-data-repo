@@ -1,0 +1,42 @@
+id: 104717
+name: Gift of the Dessert
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/261F0E030546DD4143F8DCD305E90823C39DE1C8/3629211.png
+description: 'Combine a Gift of the Appetizer, a Gift of the Entrée, a Gift of the
+  Side Course, and a Gift of the Dessert in the Mystic Forge to create the Gift of
+  the Feast.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 200 Bowls of Prickly Pear Sorbet
+
+  • 50 Bowls of Passion Fruit Tapioca Pudding
+
+  • 2 Amalgamated Rift Essences
+
+  • 5 Fruits of the Shadow'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Dessert
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 66539
+    quantity: 200
+  - itemId: 71826
+    quantity: 50
+  - itemId: 100930
+    quantity: 2
+  - itemId: 104844
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

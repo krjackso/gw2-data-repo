@@ -1,0 +1,25 @@
+id: 74377
+name: Gift of Infinity
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/52F53A2EF1120D292AE651BF11007CE059EB309C/1203100.png
+description: Place a Gift of Infinity, a Gift of Fortune, a Gift of Ascension, and
+  the precursor in the Mystic Forge to receive the legendary backpack Ad Infinitum.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Infinity
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: achievement
+  achievementName: 'Legendary Backpack: Ad Infinitum'
+  achievementCategory: Legendary Backpacks
+  outputQuantity: 1
+  requirements: []
+  metadata:
+    repeatable: false
+    timeGated: false

@@ -1,0 +1,13 @@
+id: 38216
+name: Bowl of Ice Cream Base
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/010E650C71750F112E18D248D0E445E017E8425F/526285.png
+description: Ingredient
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Ice_Cream_Base
+lastUpdated: '2026-02-15'
+acquisitions: []

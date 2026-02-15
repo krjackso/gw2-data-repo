@@ -1,0 +1,13 @@
+id: 12271
+name: Bottle of Soy Sauce
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E745C51C0D067B030A6629C80A9B08A4B0146556/63083.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Soy_Sauce
+lastUpdated: '2026-02-15'
+acquisitions: []

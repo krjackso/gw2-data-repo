@@ -1,0 +1,26 @@
+id: 77507
+name: Recruit's Wings of Glory
+type: Back
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/164C35F01DE3FDFCB8D3EE0920A5F4B803E6996B/1313033.png
+description: Combine all 4 Wings of Glory to obtain Wings of Ascension, precursor
+  to the Ascension.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Recruit's_Wings_of_Glory
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 10
+  metadata: {}

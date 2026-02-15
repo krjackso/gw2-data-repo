@@ -1,0 +1,33 @@
+id: 77536
+name: Wings of Ascension
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/C85CAF09039309D9612314534B56623F365278FA/1313064.png
+description: Used to craft the Legendary backpack, the Ascension.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Wings_of_Ascension
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 77477
+    quantity: 1
+  - itemId: 77503
+    quantity: 1
+  - itemId: 77507
+    quantity: 1
+  - itemId: 77522
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

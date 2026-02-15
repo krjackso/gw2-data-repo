@@ -1,0 +1,35 @@
+id: 81356
+name: Soldier's Wings of War
+type: Back
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/0E7813E70E9204D90227FE6161ED66AF09DF1FEB/1701092.png
+description: Combine the Recruit's, Soldier's, General's, and Commander's Wings of
+  War to obtain Warcry, precursor to Warbringer.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Soldier's_Wings_of_War
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Commander War Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 26
+    quantity: 525
+  metadata:
+    notes: Requires the item Recruit's Wings of War
+- type: vendor
+  vendorName: Legendary Retired Commander Burn Razor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 26
+    quantity: 525
+  metadata:
+    notes: Requires the item Recruit's Wings of War

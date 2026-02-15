@@ -1,0 +1,14 @@
+id: 12178
+name: Pile of Salt and Pepper
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/DE066D3C502075B90ECE290F5B95FFA87875DFAB/63274.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Salt_and_Pepper
+lastUpdated: '2026-02-15'
+acquisitions: []

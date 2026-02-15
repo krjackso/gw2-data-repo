@@ -1,0 +1,14 @@
+id: 12542
+name: Jar of Red Curry Paste
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/A10E77B83A7BACC6D83A051D40F2F31AC42ADCCE/219486.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Jar_of_Red_Curry_Paste
+lastUpdated: '2026-02-15'
+acquisitions: []

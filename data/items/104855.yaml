@@ -1,0 +1,31 @@
+id: 104855
+name: Shard of Bava Nisos
+type: Trophy
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/38A5D5A2FF921BE476696EACFA0F015C24E629F9/3629254.png
+description: 'Used in the crafting of Janthir Wilds legendary items.
+
+
+  Purchased from a Bava Nisos vendor or from the Trading Post.'
+vendorValue: 640
+flags:
+- NoSalvage
+- NoSell
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Shard_of_Bava_Nisos
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 1
+  - itemId: 104829
+    quantity: 2
+  - currencyId: 2
+    quantity: 1400
+  metadata:
+    limitType: weekly
+    limitAmount: 20

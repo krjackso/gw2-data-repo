@@ -1,0 +1,26 @@
+id: 12279
+name: Grilled Mushroom
+type: Consumable
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/FA0FD3BC0FA16B4F2F1B079AA34C272403D50366/219422.png
+vendorValue: 5
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Grilled_Mushroom
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12147
+    quantity: 3
+  - itemId: 12153
+    quantity: 1
+  - itemId: 12158
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 0

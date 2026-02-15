@@ -1,0 +1,14 @@
+id: 41572
+name: Pile of Zesty Herbs
+type: CraftingMaterial
+rarity: Basic
+level: 80
+icon: https://render.guildwars2.com/file/0606AB99D69D0FA4EBA777AA269C09B43AD71402/561722.png
+description: Ingredient
+vendorValue: 9
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pile_of_Zesty_Herbs
+lastUpdated: '2026-02-15'
+acquisitions: []

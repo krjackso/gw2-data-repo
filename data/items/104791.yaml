@@ -1,0 +1,49 @@
+id: 104791
+name: Gift of Titan Understanding
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D4F635BDDA08E8B978B67605ED9DC406CED37F60/3629250.png
+description: 'Combine a Gift of Darkness, a Gift of Scales, a gift of Titan Understanding,
+  and a Bloodstone Shard in the Mystic Forge to create the Gift of Shadows.
+
+
+  A Gift of Titan Understanding can be purchased from the renown heart vendor in Mistburned
+  Barrens or Ward Trader Sampaguita.'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Titan_Understanding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 100930
+    quantity: 25
+  - itemId: 104331
+    quantity: 25
+  - itemId: 104829
+    quantity: 25
+  - currencyId: 76
+    quantity: 1250
+  metadata:
+    notes: Requires the renown heart Assist those surveying Mistburned Barrens in
+      keeping their camp safe and running
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 100930
+    quantity: 25
+  - itemId: 104331
+    quantity: 25
+  - itemId: 104829
+    quantity: 25
+  - currencyId: 76
+    quantity: 1250
+  metadata: {}

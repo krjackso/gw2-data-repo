@@ -1,0 +1,28 @@
+id: 41567
+name: Plate of Spicy Herbed Chicken
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/0B79E2A53AA492BCF823AACDAC9E2E415DE9040B/561717.png
+vendorValue: 15
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Plate_of_Spicy_Herbed_Chicken
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12528
+    quantity: 1
+  - itemId: 12544
+    quantity: 5
+  - itemId: 24360
+    quantity: 3
+  - itemId: 41572
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

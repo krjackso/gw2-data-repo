@@ -1,0 +1,29 @@
+id: 104817
+name: Salmon of Knowledge Backpiece Remnant
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/12DBE0767A652D19D0255B63EE253D72D70B26A8/3629253.png
+description: Remnant of a Salmon of Knowledge Backpiece. Used as a replacement for
+  Salmon of Knowledge Backpiece in the Mystic Forge.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Salmon_of_Knowledge_Backpiece_Remnant
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Kodan Landspeaker
+  outputQuantity: 1
+  requirements:
+  - itemId: 68063
+    quantity: 25
+  - itemId: 104331
+    quantity: 25
+  - currencyId: 2
+    quantity: 10050
+  metadata:
+    notes: Requires the renown heart Assist those surveying Mistburned Barrens in
+      keeping their camp safe and running

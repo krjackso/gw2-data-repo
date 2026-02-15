@@ -1,0 +1,28 @@
+id: 66529
+name: Bowl of Black Pepper Cactus Salad
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/69EE049FDCF633B4200A61B816262ADEC46D0E80/831445.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Black_Pepper_Cactus_Salad
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12196
+    quantity: 3
+  - itemId: 12236
+    quantity: 5
+  - itemId: 12340
+    quantity: 1
+  - itemId: 66524
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

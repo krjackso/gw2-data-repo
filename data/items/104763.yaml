@@ -1,0 +1,42 @@
+id: 104763
+name: Gift of the Mursaat Ruins
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/6CD1C40D04200F4AB55565C3BA02BAB0507BD42D/3629249.png
+description: 'Combine a Gift of the Mursaat Ruins, a Gift of Janthir Wanderlust, 250
+  Mursaat Runestones, and 250 Mystic Runestones in the Mystic Forge to create the
+  Gift of the Mistburned Isles.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 100 Vials of Titan Melted Liquid Obsidian
+
+  • 50 Mists Gate Residues
+
+  • 100 Shards of Mistburned Barrens
+
+  • 100 Shards of Bava Nisos'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Mursaat_Ruins
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 104229
+    quantity: 100
+  - itemId: 104282
+    quantity: 100
+  - itemId: 104855
+    quantity: 100
+  - itemId: 105004
+    quantity: 50
+  metadata:
+    recipeType: mystic_forge

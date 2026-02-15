@@ -1,0 +1,39 @@
+id: 72309
+name: Unbound
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/66A65645BE085493A9E30EA659651715CDE91D07/1202361.png
+description: <c=@flavor>Used to craft the legendary backpack Ad Infinitum</c>
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Unbound
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 71885
+    quantity: 1
+  - itemId: 72613
+    quantity: 1
+  - itemId: 75469
+    quantity: 1
+  - itemId: 75781
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    - Huntsman
+    - Artificer
+    minRating: 500

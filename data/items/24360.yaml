@@ -1,0 +1,18 @@
+id: 24360
+name: Slab of Poultry Meat
+type: CraftingMaterial
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/B53CEC437833F87E27B11A2006DD3F4B085A80A9/66874.png
+vendorValue: 3
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Slab_of_Poultry_Meat
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  itemId: 39093
+  containerName: Chef Starter Kit
+  outputQuantity: 3
+  requirements: []
+  metadata: {}

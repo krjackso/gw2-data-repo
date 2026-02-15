@@ -1,0 +1,16 @@
+id: 87289
+name: Bottle of Coconut Milk
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0F7499F9480148342CBD2E610D64AB2DF0ADE944/1947189.png
+description: Ingredient
+vendorValue: 2
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Coconut_Milk
+lastUpdated: '2026-02-15'
+acquisitions: []

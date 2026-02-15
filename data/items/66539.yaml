@@ -1,0 +1,28 @@
+id: 66539
+name: Bowl of Prickly Pear Sorbet
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/7803EC07586759FA5C0965626CC1D91FFCBE7D09/831455.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Prickly_Pear_Sorbet
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12339
+    quantity: 1
+  - itemId: 24318
+    quantity: 1
+  - itemId: 38216
+    quantity: 1
+  - itemId: 66522
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

@@ -1,0 +1,13 @@
+id: 12158
+name: Jar of Vegetable Oil
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/750AB0461B36DAC2B9970E4C6328911364DE2552/63259.png
+description: Ingredient
+vendorValue: 1
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Jar_of_Vegetable_Oil
+lastUpdated: '2026-02-15'
+acquisitions: []

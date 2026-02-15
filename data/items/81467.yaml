@@ -1,0 +1,34 @@
+id: 81467
+name: Warcry
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/73E4EF2CBF9578A528311B01D8D4302FF8CF1DF7/1701095.png
+description: Combine the Gift of Fortune, Warcry, Gift of Warfare, and Gift of Conquering
+  in the Mystic Forge to create Warbringer.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Warcry
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 81288
+    quantity: 1
+  - itemId: 81294
+    quantity: 1
+  - itemId: 81356
+    quantity: 1
+  - itemId: 81455
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

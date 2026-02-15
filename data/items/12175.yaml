@@ -1,0 +1,14 @@
+id: 12175
+name: Bottle of Ascalonian Dressing
+type: CraftingMaterial
+rarity: Basic
+level: 25
+icon: https://render.guildwars2.com/file/9995D3ED4F139D289C02C258C1F6953B2742173A/63060.png
+description: Ingredient
+vendorValue: 4
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bottle_of_Ascalonian_Dressing
+lastUpdated: '2026-02-15'
+acquisitions: []

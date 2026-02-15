@@ -1,0 +1,28 @@
+id: 95942
+name: Meaty Asparagus Skewer
+type: Consumable
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/A4D8E658C8D547E0F7602458D00BCADADC62EDFE/2594837.png
+vendorValue: 33
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Meaty_Asparagus_Skewer
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 8576
+    quantity: 1
+  - itemId: 12271
+    quantity: 1
+  - itemId: 12505
+    quantity: 2
+  - itemId: 24359
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

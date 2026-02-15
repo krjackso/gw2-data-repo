@@ -1,0 +1,32 @@
+id: 77474
+name: The Ascension
+type: Back
+rarity: Legendary
+level: 80
+icon: https://render.guildwars2.com/file/C72336A9140CC9F2B34CCFCDCE2B217B380A1ADC/1313065.png
+vendorValue: 100000
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- Unique
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Ascension
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 19626
+    quantity: 1
+  - itemId: 77485
+    quantity: 1
+  - itemId: 77509
+    quantity: 1
+  - itemId: 77536
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge

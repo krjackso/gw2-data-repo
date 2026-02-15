@@ -1,0 +1,24 @@
+id: 77493
+name: The Thrill of Battle
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/393EA56A68EF00D0B20D9458D1B445A198C2A297/1313082.png
+description: Combine the Thrill of Battle, Tapestry of Sacrifice, Monument of Legends,
+  and Hymn of Glory in the Mystic Forge to create the Gift of the Competitor.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Thrill_of_Battle
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: achievement
+  achievementName: 'Path of the Ascension I: The Thrill of Battle'
+  achievementCategory: Year of the Ascension Part I
+  outputQuantity: 1
+  requirements: []
+  metadata: {}

@@ -1,0 +1,26 @@
+id: 76840
+name: Bowl of Tapioca Pudding
+type: Consumable
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/5CDBA3273EF8F0F3E40206F729FB0463491ED360/1201844.png
+vendorValue: 15
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Tapioca_Pudding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12170
+    quantity: 1
+  - itemId: 12177
+    quantity: 5
+  - itemId: 74242
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

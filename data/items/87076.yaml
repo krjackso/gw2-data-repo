@@ -1,0 +1,28 @@
+id: 87076
+name: Bowl of Poultry Satay
+type: Consumable
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/377429B509EF9780BED9DF6EC9C4E1BFD7DF57D0/1947190.png
+vendorValue: 66
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Poultry_Satay
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12181
+    quantity: 1
+  - itemId: 12542
+    quantity: 2
+  - itemId: 24360
+    quantity: 3
+  - itemId: 87289
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

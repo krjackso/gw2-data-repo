@@ -1,0 +1,42 @@
+id: 104965
+name: Gift of the Appetizer
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/B872EFDB02520AA29080EA19A76E3D38FCC9E7BA/3629210.png
+description: 'Combine a Gift of the Appetizer, a Gift of the Entrée, a Gift of the
+  Side Course, and a Gift of  the Dessert in the Mystic Forge to create the Gift of
+  the Feast.
+
+
+  Created in the Mystic Forge by combining:
+
+  • 200 Bowls of Poultry Satay
+
+  • 100 Red-Lentil Saobosas
+
+  • 50 Spicy Marinated Mushrooms
+
+  • 5 Fruits of the Shadow'
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Appetizer
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1
+  requirements:
+  - itemId: 41563
+    quantity: 50
+  - itemId: 84550
+    quantity: 100
+  - itemId: 87076
+    quantity: 200
+  - itemId: 104844
+    quantity: 5
+  metadata:
+    recipeType: mystic_forge

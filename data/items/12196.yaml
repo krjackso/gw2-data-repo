@@ -1,0 +1,26 @@
+id: 12196
+name: Bowl of Ascalonian Salad
+type: Consumable
+rarity: Fine
+level: 25
+icon: https://render.guildwars2.com/file/740C2DC1FCAD97FCC87F0DD0BE3BB962275552A0/219407.png
+vendorValue: 16
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Ascalonian_Salad
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12161
+    quantity: 1
+  - itemId: 12175
+    quantity: 1
+  - itemId: 12238
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 125

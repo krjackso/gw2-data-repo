@@ -1,0 +1,16 @@
+id: 74242
+name: Bag of Cassava Flour
+type: CraftingMaterial
+rarity: Fine
+level: 80
+icon: https://render.guildwars2.com/file/9C4FAC980C9C68770D10C9809D68E17EF623B39C/1201830.png
+description: Ingredient
+vendorValue: 17
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Bag_of_Cassava_Flour
+lastUpdated: '2026-02-15'
+acquisitions: []

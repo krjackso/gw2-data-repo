@@ -1,0 +1,33 @@
+id: 105004
+name: Mists Gate Residue
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7D6DC32F35F729761760399247FAFD2B1150053C/3630026.png
+description: 'Acquired from Ward Trader Sampaguita in Bava Nisos.
+
+  This item is used to craft or purchase Slumbering Lightborne weapons, which she
+  sells crafting recipes or assistance for.
+
+
+  <c=@flavor>A faint glow emits from this spark.</c>'
+vendorValue: 64
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Mists_Gate_Residue
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: Ward Trader Sampaguita
+  outputQuantity: 1
+  requirements:
+  - itemId: 102467
+    quantity: 1
+  - itemId: 103103
+    quantity: 1
+  - itemId: 104229
+    quantity: 1
+  - itemId: 104829
+    quantity: 10
+  metadata: {}

@@ -1,0 +1,16 @@
+id: 12340
+name: Avocado
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/0D1310D6AC80FCABEB01D62C3D721264BD36050E/63377.png
+description: Ingredient
+vendorValue: 3
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Avocado
+lastUpdated: '2026-02-15'
+acquisitions: []

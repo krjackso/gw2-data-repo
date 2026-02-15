@@ -1,0 +1,38 @@
+id: 71885
+name: Third Order Mist Frame
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/BEF40DDFC9240727741A0704AD04FA01D2DA4E2A/866730.png
+description: Used in crafting ascended backpacks. Made of damask, elonian leather,
+  spiritwood, and Deldrimor steel.
+vendorValue: 10
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Third_Order_Mist_Frame
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 46736
+    quantity: 5
+  - itemId: 46738
+    quantity: 5
+  - itemId: 46739
+    quantity: 5
+  - itemId: 46741
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Armorsmith
+    - Huntsman
+    - Artificer
+    - Leatherworker
+    - Tailor
+    minRating: 500

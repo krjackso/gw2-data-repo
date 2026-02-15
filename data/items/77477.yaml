@@ -1,0 +1,27 @@
+id: 77477
+name: Champion's Wings of Glory
+type: Back
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/AD6A9A24F832480CC1EA97B4DA67032E4EB3F45E/1313062.png
+description: Combine all 4 Wings of Glory to obtain Wings of Ascension, precursor
+  to the Ascension.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Champion's_Wings_of_Glory
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 30
+  metadata:
+    notes: Requires the item Veteran's Wings of Glory

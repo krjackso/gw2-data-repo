@@ -1,0 +1,24 @@
+id: 71826
+name: Bowl of Passion Fruit Tapioca Pudding
+type: Consumable
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/71BB9DEFFB0E0F2D50C1B5BB0B3B5D9FA9059DDA/1201846.png
+vendorValue: 15
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Passion_Fruit_Tapioca_Pudding
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 36782
+    quantity: 1
+  - itemId: 76840
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 400

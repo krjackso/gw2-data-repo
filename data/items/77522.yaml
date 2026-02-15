@@ -1,0 +1,27 @@
+id: 77522
+name: Veteran's Wings of Glory
+type: Back
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/39593E04DED3374BBA7B439FDC201F15ECD8F42D/1313061.png
+description: Combine all 4 Wings of Glory to obtain Wings of Ascension, precursor
+  to the Ascension.
+vendorValue: 0
+flags:
+- HideSuffix
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Veteran's_Wings_of_Glory
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1
+  requirements:
+  - currencyId: 30
+    quantity: 20
+  metadata:
+    notes: Requires the item Recruit's Wings of Glory.

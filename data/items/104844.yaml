@@ -1,0 +1,33 @@
+id: 104844
+name: Fruit of the Shadow
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/3A0EBFF2690B38456F7A3D6E2046ADEFB81FB8F4/3629208.png
+description: 'Grown in the homestead. The seedlings are purchased from Deft Lahar.
+
+
+  Used in the Mystic Forge to create:
+
+  • Gift of the Appetizer
+
+  • Gift of the Entrée
+
+  • Gift of the Side Course
+
+  • Gift of the Dessert'
+vendorValue: 0
+flags:
+- NoSalvage
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Fruit_of_the_Shadow
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: container
+  containerName: Shadowfruit
+  outputQuantity: 2
+  outputQuantityMin: 2
+  outputQuantityMax: 4
+  guaranteed: true
+  requirements: []
+  metadata: {}

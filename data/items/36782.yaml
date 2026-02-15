@@ -1,0 +1,28 @@
+id: 36782
+name: Raspberry Passion Fruit Compote
+type: Consumable
+rarity: Fine
+level: 75
+icon: https://render.guildwars2.com/file/C6F55BDD44D6B5757E1EBD9FA60644ACC2A47FB3/511779.png
+vendorValue: 31
+flags:
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Raspberry_Passion_Fruit_Compote
+lastUpdated: '2026-02-15'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 12155
+    quantity: 1
+  - itemId: 12234
+    quantity: 1
+  - itemId: 12254
+    quantity: 1
+  - itemId: 36731
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Chef
+    minRating: 350

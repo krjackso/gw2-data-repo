@@ -1,0 +1,14 @@
+id: 12528
+name: Bowl of Fancy Tangy Sautee Mix
+type: CraftingMaterial
+rarity: Basic
+level: 60
+icon: https://render.guildwars2.com/file/2917EF724629BD0D401E6E520859C3D10C5E7136/219478.png
+description: Ingredient
+vendorValue: 7
+flags:
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Bowl_of_Fancy_Tangy_Sautee_Mix
+lastUpdated: '2026-02-15'
+acquisitions: []

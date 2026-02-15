@@ -1,0 +1,16 @@
+id: 12339
+name: Lime
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/CCA100FEF45DC4626893049D9B3E04763C43569D/63376.png
+description: Ingredient
+vendorValue: 3
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Lime
+lastUpdated: '2026-02-15'
+acquisitions: []

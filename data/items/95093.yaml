@@ -1,0 +1,20 @@
+id: 95093
+name: Legendary Equipment Unlocked!
+type: Trinket
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/D3ECFB1AF398D30D1DD861926600413A36125870/1766739.png
+description: This may have reached you when many legendary items were added to your
+  armory. It is of no further consequence and will disappear in time.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- NotUpgradeable
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Equipment_Unlocked!
+lastUpdated: '2026-02-15'
+acquisitions: []
