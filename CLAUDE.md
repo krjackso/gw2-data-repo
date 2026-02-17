@@ -14,6 +14,11 @@ gw2-data-repo/
 │   └── schema/
 │       └── item.schema.json   # JSON Schema for item files
 ├── src/gw2_data/
+│   ├── overrides/
+│   │   ├── item_name_overrides.yaml     # Manual name→ID mappings
+│   │   ├── currency_name_overrides.yaml # Currency name variant mappings
+│   │   ├── wiki_page_overrides.yaml     # Item ID→wiki page name overrides
+│   │   └── gathering_nodes.yaml         # Valid gathering node names
 │   ├── models.py          # Pydantic models matching the schema
 │   ├── config.py          # Configuration management
 │   ├── cache.py           # Persistent cache client
@@ -103,7 +108,7 @@ All settings are optional and have sensible defaults.
 
 ## Manual Name Overrides
 
-The file `data/index/item_name_overrides.yaml` contains manual mappings for item names that differ between the wiki and GW2 API. This is necessary when:
+The file `src/gw2_data/overrides/item_name_overrides.yaml` contains manual mappings for item names that differ between the wiki and GW2 API. This is necessary when:
 
 - **Armor weight variants**: Wiki uses semantic suffixes like "(heavy)", "(medium)", "(light)" to distinguish armor pieces, but the API returns a single name for all variants
 - **Rarity variants**: When items share a name but differ by rarity (Exotic/Ascended/Legendary), the LLM automatically appends rarity qualifiers like "(Ascended)" to disambiguate. These qualified names must be mapped to the correct item IDs.
@@ -116,7 +121,7 @@ The file `data/index/item_name_overrides.yaml` contains manual mappings for item
 2. Find the correct item ID:
    - Search `data/index/item_names.yaml` for candidate IDs
    - Check the wiki or use `uv run python -m scripts.populate --item-id <ID> --dry-run` to verify
-3. Add to `data/index/item_name_overrides.yaml`:
+3. Add to `src/gw2_data/overrides/item_name_overrides.yaml`:
    ```yaml
    Exact Wiki Name Here: 12345
    ```
@@ -134,6 +139,24 @@ This ensures that Mystic Forge recipes and vendor costs correctly reference the 
 - Override entries take precedence over API names
 - Use single integer IDs (not lists) for override values
 - The override file is never touched by `scripts/build_index.py`
+
+## Wiki Page Overrides
+
+The file `src/gw2_data/overrides/wiki_page_overrides.yaml` maps item IDs to wiki page names for cases where the wiki page cannot be derived from the item name. This is necessary when:
+
+- **Disambiguation pages**: Item name leads to a disambiguation page (e.g., "Lattice" → "Lattice (component)")
+- **Non-standard suffixes**: Wiki uses a suffix other than "(item)"
+- **Different page name**: Wiki article title differs from the API item name
+
+### Adding a Wiki Page Override
+
+1. Identify the item ID that fails wiki lookup (wrong page content or disambiguation error)
+2. Find the correct wiki page URL on wiki.guildwars2.com
+3. Add to `src/gw2_data/overrides/wiki_page_overrides.yaml`:
+   ```yaml
+   73966: 'Lattice (component)'
+   ```
+4. Re-run populate — the override takes effect immediately
 
 ## Strict vs Lenient Mode
 

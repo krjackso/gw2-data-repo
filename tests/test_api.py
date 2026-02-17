@@ -140,9 +140,13 @@ def test_load_item_name_index_with_overrides(monkeypatch, tmp_path: Path):
     index_dir = tmp_path / "data" / "index"
     index_dir.mkdir(parents=True)
     (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
-    (index_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
 
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_item_name_index()
 
     assert result["Agaleus"] == [105438, 105738, 106400]
@@ -157,7 +161,11 @@ def test_load_item_name_index_no_overrides(monkeypatch, tmp_path: Path):
     index_dir.mkdir(parents=True)
     (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
 
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_item_name_index()
 
     assert result["Sword"] == [123]
@@ -170,9 +178,13 @@ def test_load_item_name_index_override_replaces_ambiguous(monkeypatch, tmp_path:
     index_dir = tmp_path / "data" / "index"
     index_dir.mkdir(parents=True)
     (index_dir / "item_names.yaml").write_text(yaml.dump(index_data))
-    (index_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "item_name_overrides.yaml").write_text(yaml.dump(override_data))
 
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_item_name_index()
 
     assert result["Duplicate Name"] == [222]
@@ -195,9 +207,13 @@ def test_load_currency_name_index_with_overrides(monkeypatch, tmp_path: Path):
     index_dir = tmp_path / "data" / "index"
     index_dir.mkdir(parents=True)
     (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
-    (index_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
 
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_currency_name_index()
 
     assert result["Ascended Shards of Glory"] == 33
@@ -211,7 +227,11 @@ def test_load_currency_name_index_no_overrides(monkeypatch, tmp_path: Path):
     index_dir.mkdir(parents=True)
     (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
 
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_currency_name_index()
 
     assert result["Coin"] == 1
@@ -224,9 +244,13 @@ def test_load_currency_name_index_override_replaces_base(monkeypatch, tmp_path: 
     index_dir = tmp_path / "data" / "index"
     index_dir.mkdir(parents=True)
     (index_dir / "currency_names.yaml").write_text(yaml.dump(index_data))
-    (index_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
+
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "currency_name_overrides.yaml").write_text(yaml.dump(override_data))
 
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_currency_name_index()
 
     assert result["Karma"] == 999
@@ -244,11 +268,11 @@ def test_resolve_currency_name_to_id_with_override():
 
 def test_load_gathering_node_index(monkeypatch, tmp_path: Path):
     nodes = ["Rich Iron Vein", "Herb Patch", "Aspen Sapling"]
-    index_dir = tmp_path / "data" / "index"
-    index_dir.mkdir(parents=True)
-    (index_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
 
-    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_gathering_node_index()
 
     assert isinstance(result, set)
@@ -260,11 +284,11 @@ def test_load_gathering_node_index(monkeypatch, tmp_path: Path):
 
 def test_load_gathering_node_index_cleans_names(monkeypatch, tmp_path: Path):
     nodes = ["Rich  Iron  Vein", "Herb\nPatch"]
-    index_dir = tmp_path / "data" / "index"
-    index_dir.mkdir(parents=True)
-    (index_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "gathering_nodes.yaml").write_text(yaml.dump(nodes))
 
-    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
     result = api.load_gathering_node_index()
 
     assert "Rich Iron Vein" in result
@@ -272,6 +296,26 @@ def test_load_gathering_node_index_cleans_names(monkeypatch, tmp_path: Path):
 
 
 def test_load_gathering_node_index_missing_file(monkeypatch, tmp_path: Path):
-    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", tmp_path)
     with pytest.raises(APIError, match="Gathering node index not found"):
         api.load_gathering_node_index()
+
+
+def test_load_wiki_page_overrides(monkeypatch, tmp_path: Path):
+    override_data = {73966: "Lattice (component)", 12345: "Some Other Page"}
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    (config_dir / "wiki_page_overrides.yaml").write_text(yaml.dump(override_data))
+
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
+    result = api.load_wiki_page_overrides()
+
+    assert result[73966] == "Lattice (component)"
+    assert result[12345] == "Some Other Page"
+
+
+def test_load_wiki_page_overrides_missing_file(monkeypatch, tmp_path: Path):
+    monkeypatch.setattr(api, "_CONFIG_DIR", tmp_path)
+    result = api.load_wiki_page_overrides()
+
+    assert result == {}

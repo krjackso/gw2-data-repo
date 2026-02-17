@@ -45,10 +45,11 @@ def _resolve_ingredient_list(
                 if not strict:
                     log.warning(f"Skipping unresolvable ingredient '{name}': {e}")
                     return None
+                overrides = "src/gw2_data/overrides/item_name_overrides.yaml"
                 raise ValueError(
                     f"Failed to resolve ingredient '{name}' "
                     f"(matches multiple IDs: {e.item_ids}). "
-                    f"If this is a known variant, add to item_name_overrides.yaml: {e}"
+                    f"If this is a known variant, add to {overrides}: {e}"
                 ) from e
             except (APIError, KeyError) as e:
                 if not strict:
@@ -57,8 +58,7 @@ def _resolve_ingredient_list(
                 raise ValueError(
                     f"Failed to resolve ingredient '{name}' "
                     f"(not found in currency or item index). "
-                    f"If this is a known variant, add to currency_name_overrides.yaml "
-                    f"or item_name_overrides.yaml: {e}"
+                    f"Add to overrides: {e}"
                 ) from e
 
     return resolved
@@ -219,10 +219,11 @@ def _classify_entry(
             if not strict:
                 log.warning(f"Skipping unresolvable salvage source '{name}': not found in index")
                 return None
+            overrides = "src/gw2_data/overrides/item_name_overrides.yaml"
             raise ValueError(
                 f"Failed to resolve salvage source '{name}' "
                 f"(not found in item index). "
-                f"If this is a known variant, add to item_name_overrides.yaml"
+                f"If this is a known variant, add to {overrides}"
             )
 
         acq = {

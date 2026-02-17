@@ -12,13 +12,22 @@ flags:
 - NoSalvage
 - DeleteWarning
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Lattice
-lastUpdated: '2026-02-09'
+wikiUrl: https://wiki.guildwars2.com/wiki/Lattice_(component)
+lastUpdated: '2026-02-17'
 acquisitions:
-- type: vendor
-  vendorName: Sigurlina Jonsdottir
-  outputQuantity: 1
+- type: crafting
+  outputQuantity: 1.0
   requirements:
-  - currencyId: 16
-    quantity: 1
-  metadata: {}
+  - itemId: 19684
+    quantity: 50
+  - itemId: 19709
+    quantity: 100
+  - itemId: 19712
+    quantity: 50
+  - itemId: 46736
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 500

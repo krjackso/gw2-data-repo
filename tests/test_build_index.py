@@ -144,7 +144,11 @@ def test_load_item_name_index_success(monkeypatch, tmp_path: Path):
     index_file = index_dir / "item_names.yaml"
     index_file.write_text(yaml.dump(index_data))
 
+    config_dir = tmp_path / "overrides"
+    config_dir.mkdir()
+
     monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(api, "_CONFIG_DIR", config_dir)
 
     result = api.load_item_name_index()
     assert result == {"Sword": [1, 3], "Shield": [2]}

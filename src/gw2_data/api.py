@@ -21,6 +21,7 @@ from gw2_data.types import BulkResult, GW2Item, GW2Recipe
 log = logging.getLogger(__name__)
 
 _BASE_URL = "https://api.guildwars2.com/v2"
+_CONFIG_DIR = Path(__file__).parent / "overrides"
 
 
 def get_item(item_id: int, cache: CacheClient) -> GW2Item:
@@ -162,7 +163,7 @@ def clean_name(name: str) -> str:
 
 def load_item_name_index() -> dict[str, list[int]]:
     index_path = Path("data/index/item_names.yaml")
-    override_path = Path("data/index/item_name_overrides.yaml")
+    override_path = _CONFIG_DIR / "item_name_overrides.yaml"
 
     if not index_path.exists():
         raise APIError(
@@ -184,7 +185,7 @@ def load_item_name_index() -> dict[str, list[int]]:
 
 def load_currency_name_index() -> dict[str, int]:
     index_path = Path("data/index/currency_names.yaml")
-    override_path = Path("data/index/currency_name_overrides.yaml")
+    override_path = _CONFIG_DIR / "currency_name_overrides.yaml"
 
     if not index_path.exists():
         raise APIError(
@@ -204,7 +205,7 @@ def load_currency_name_index() -> dict[str, int]:
 
 
 def load_gathering_node_index() -> set[str]:
-    index_path = Path("data/index/gathering_nodes.yaml")
+    index_path = _CONFIG_DIR / "gathering_nodes.yaml"
 
     if not index_path.exists():
         raise APIError(
@@ -216,6 +217,15 @@ def load_gathering_node_index() -> set[str]:
         nodes: list[str] = yaml.safe_load(f)
 
     return {clean_name(n) for n in nodes}
+
+
+def load_wiki_page_overrides() -> dict[int, str]:
+    override_path = _CONFIG_DIR / "wiki_page_overrides.yaml"
+    if not override_path.exists():
+        return {}
+    with override_path.open() as f:
+        overrides: dict[int, str] = yaml.safe_load(f) or {}
+    return overrides
 
 
 def resolve_item_name_to_id(name: str, index: dict[str, list[int]]) -> int:

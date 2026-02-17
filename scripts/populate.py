@@ -48,6 +48,9 @@ def populate_item(
     item_name = item_data_api["name"]
     terminal.section_header(f"Item: {item_name} (ID: {item_id})")
 
+    wiki_page_overrides = api.load_wiki_page_overrides()
+    wiki_page_name = wiki_page_overrides.get(item_id, item_name)
+
     is_basic_ingredient = (
         item_data_api["type"] == "CraftingMaterial"
         and item_data_api.get("description") == "Ingredient"
@@ -60,8 +63,10 @@ def populate_item(
         entry_confidences: list[float] = []
         notes = None
     else:
-        wiki_html = wiki.get_page_html(item_name, cache=cache)
-        wiki_url = f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}"
+        if wiki_page_name != item_name:
+            terminal.info(f"Using wiki page override: '{wiki_page_name}'")
+        wiki_html = wiki.get_page_html(wiki_page_name, cache=cache)
+        wiki_url = f"https://wiki.guildwars2.com/wiki/{wiki_page_name.replace(' ', '_')}"
         terminal.debug(f"Wiki page: {len(wiki_html):,} chars")
         terminal.info(f"  {terminal.link(wiki_url, 'View on Wiki')}")
 
@@ -97,7 +102,7 @@ def populate_item(
         "description": item_data_api.get("description"),
         "vendorValue": item_data_api.get("vendor_value"),
         "flags": item_data_api.get("flags", []),
-        "wikiUrl": f"https://wiki.guildwars2.com/wiki/{item_name.replace(' ', '_')}",
+        "wikiUrl": f"https://wiki.guildwars2.com/wiki/{wiki_page_name.replace(' ', '_')}",
         "lastUpdated": datetime.now(UTC).date().isoformat(),
         "acquisitions": acquisitions,
     }
@@ -188,7 +193,8 @@ def _handle_multiple_matches_interactive(
             terminal.bullet(f"ID {item_id}: (error fetching details)", indent=2)
 
     terminal.info("\nTo resolve this, either:")
-    terminal.bullet("Add a manual override to data/index/item_name_overrides.yaml", indent=2)
+    override_path = "src/gw2_data/overrides/item_name_overrides.yaml"
+    terminal.bullet(f"Add a manual override to {override_path}", indent=2)
     terminal.bullet("Use --item-id with the specific ID you want", indent=2)
 
 
