@@ -37,7 +37,7 @@ acquisitions:
     quantity: 1
   - itemId: 19721
     quantity: 1
-  - itemId: 10796
+  - itemId: 20796
     quantity: 6
   metadata:
     recipeType: mystic_forge
