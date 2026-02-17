@@ -1,0 +1,23 @@
+id: 73524
+name: Spirit of the Dusk Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1C1F51A705CCA0542BC2CEF34401577E791298E5/1205587.png
+description: Salvaged from the Dusk Experiment. Used to craft the Perfected Nightsword.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Dusk_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 75592
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,26 @@
+id: 73804
+name: Expertise in Hammer Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/91A4377105229426E4414873070C050C41C30AC8/1204538.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Hammer_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 76983
+  containerName: Tricks and Tips for Advanced Hammer Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

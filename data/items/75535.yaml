@@ -1,0 +1,23 @@
+id: 75535
+name: Spirit of The Legend Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3ED957BEA9479E660AF3A34C7BA12E0E21E9803F/1205594.png
+description: Salvaged from the Legend Experiment. Used to craft the Perfected Staff.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Legend_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 73431
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

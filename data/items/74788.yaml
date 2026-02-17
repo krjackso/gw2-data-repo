@@ -1,0 +1,26 @@
+id: 74788
+name: Expertise in Torch Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4224EAA4F2BA6DDFFF557EB8F7C6CBABA30BEABD/1204695.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Torch_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 76239
+  containerName: Tricks and Tips for Advanced Torch Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

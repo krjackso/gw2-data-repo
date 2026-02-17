@@ -1,0 +1,24 @@
+id: 72778
+name: Spirit of The Lover Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/379B43FBDB96730A710C760B5A7D35452F3EF665/1205592.png
+description: Salvaged from the Lover Experiment. Used to craft the Perfected Short
+  Bow.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Lover_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 77097
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

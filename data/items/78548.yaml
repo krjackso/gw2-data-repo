@@ -1,0 +1,36 @@
+id: 78548
+name: Spirit of the Hunt
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C339D99CFA120055F07155F70D0558EEF8F302F2/1424031.png
+description: Salvaged from the Hunt.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Hunt
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 26865
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 47099
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 78330
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

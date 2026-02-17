@@ -1,0 +1,23 @@
+id: 72622
+name: Expertise in Advanced Axe Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/EE02D32BFE2F90F253655F172BC1B3EAC065A64D/1204492.png
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Advanced_Axe_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 73706
+  containerName: Tricks and Tips for Celestial Axe Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

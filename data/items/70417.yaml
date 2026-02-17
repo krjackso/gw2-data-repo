@@ -1,0 +1,34 @@
+id: 70417
+name: Perfected Focus
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/CB640D9D7675B8F5683E50D83BEB1FAE11F83C45/780595.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Focus
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73117
+    quantity: 1
+  - itemId: 73517
+    quantity: 1
+  - itemId: 74171
+    quantity: 1
+  - itemId: 75316
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

@@ -1,0 +1,34 @@
+id: 71886
+name: Perfected Scepter
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/92A2706B75250EFA96FE1D2BF1CE68BA9AEBB92D/780566.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Scepter
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 72995
+    quantity: 1
+  - itemId: 73517
+    quantity: 1
+  - itemId: 73891
+    quantity: 1
+  - itemId: 75316
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

@@ -1,0 +1,40 @@
+id: 73251
+name: Upper Bound
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/9306E19468E70F349A28C3E20958D11899396696/1202360.png
+description: Return to Kelvei in the Fractals of the Mists to find out how to upgrade
+  this item.
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Upper_Bound
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73201
+    quantity: 1
+  - itemId: 75781
+    quantity: 2
+  - itemId: 75847
+    quantity: 1
+  - itemId: 76502
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Armorsmith
+    - Huntsman
+    - Artificer
+    - Leatherworker
+    - Tailor
+    minRating: 500

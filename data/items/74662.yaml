@@ -1,0 +1,23 @@
+id: 74662
+name: Spirit of the Dawn Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4C7B2327731D06C20BEBBD014A4B25ACB60A3479/1205581.png
+description: Salvaged from the Dawn Experiment. Used to craft the Perfected Daysword.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Dawn_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 70853
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

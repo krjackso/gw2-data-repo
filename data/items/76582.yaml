@@ -1,0 +1,34 @@
+id: 76582
+name: Ravenswood Staff
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/E780C780219604664833F70D050AAD7C32AA542E/1206521.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Ravenswood_Staff
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73517
+    quantity: 1
+  - itemId: 73955
+    quantity: 1
+  - itemId: 75316
+    quantity: 1
+  - itemId: 76116
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

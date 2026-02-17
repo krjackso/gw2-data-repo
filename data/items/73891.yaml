@@ -1,0 +1,23 @@
+id: 73891
+name: Spirit of the Storm Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4FBBC1E9F233294A14806C14064ABE9BD8017F64/1205590.png
+description: Salvaged from the Storm Experiment. Used to craft the Perfected Scepter.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Storm_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 74655
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

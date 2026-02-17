@@ -1,0 +1,26 @@
+id: 76682
+name: Expertise in Short Bow Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/614717F904924E09FEBC7B0B581AB5554FF15AA3/1204642.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Short_Bow_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 75553
+  containerName: Tricks and Tips for Advanced Short Bow Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

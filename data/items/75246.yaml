@@ -1,0 +1,23 @@
+id: 75246
+name: Spirit of The Chosen Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4DB6AAFCBB01FF99FE98E06C3DBC5E18593BC668/1205591.png
+description: Salvaged from the Chosen Experiment. Used to craft the Perfected Shield.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Chosen_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 74275
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

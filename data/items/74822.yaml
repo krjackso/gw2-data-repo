@@ -1,0 +1,26 @@
+id: 74822
+name: Expertise in Spear Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/73B1E8B5020297D9E524A7C4CE0157DA02A574EF/1204648.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Spear_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 72970
+  containerName: Tricks and Tips for Advanced Spear Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

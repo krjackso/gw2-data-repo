@@ -1,0 +1,24 @@
+id: 73117
+name: Spirit of The Bard Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/28F3074ACB7C9499E692A6A7F62CFA0C726B2629/1205582.png
+description: Salvaged from the Bard Experiment. Used to craft the Perfected Focus.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Bard_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 72167
+  containerName: The Bard Experiment
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

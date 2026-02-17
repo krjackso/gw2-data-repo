@@ -1,0 +1,23 @@
+id: 74158
+name: Spirit of The Device
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4E784169C34B18D321AA293BEA49FBFA0F0CFDAA/1302143.png
+description: Salvaged from The Device.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Device
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 70989
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

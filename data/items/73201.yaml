@@ -1,0 +1,31 @@
+id: 73201
+name: 'Solution: Upper Bound'
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F2E1C224261C70C4D95E3A4B94B662750CA5D360/65726.png
+description: Used to craft the backpack Upper Bound. Extras can be purchased from
+  the Aetherblade Quartermaster in the Captain Mai Trin Boss fractal for Balls of
+  Dark Energy.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Solution:_Upper_Bound
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: vendor
+  vendorName: Aetherblade Quartermaster
+  outputQuantity: 1
+  requirements:
+  - itemId: 71994
+    quantity: 9
+  metadata: {}
+- type: container
+  itemId: 73527
+  containerName: 'Proof: Upper Bound'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

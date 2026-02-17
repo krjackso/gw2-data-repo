@@ -1,0 +1,24 @@
+id: 75534
+name: Spirit of the Tooth of Frostfang Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/EF0C9E7DE307C0770DCA649909DA70113DA223C3/1205579.png
+description: Salvaged from the Tooth of Frostfang Experiment. Used to craft the Perfected
+  Axe.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Tooth_of_Frostfang_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 76795
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

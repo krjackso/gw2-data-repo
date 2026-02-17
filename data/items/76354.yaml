@@ -1,0 +1,24 @@
+id: 76354
+name: Spirit of the Carcharias Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/4004C2C33F1CF7BA050A1C36BD1298C5260A342B/1205593.png
+description: Salvaged from the Carcharias Experiment. Used to craft the Perfected
+  Spear.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Carcharias_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 72748
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

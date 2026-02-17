@@ -1,0 +1,23 @@
+id: 72458
+name: Spirit of Research
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/23CCD4E76C1270FDF21DE398AD4A1D065EF7FE0C/1302278.png
+description: Salvaged from Research.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_Research
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 70960
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

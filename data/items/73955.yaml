@@ -1,0 +1,26 @@
+id: 73955
+name: Expertise in Runed Staff Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7828C7A447F359EC97E90BB36B36F53735A7069D/1302171.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Runed_Staff_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 76844
+  containerName: Tricks and Tips for Runed Staff Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

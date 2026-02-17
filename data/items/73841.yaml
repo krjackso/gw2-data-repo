@@ -1,0 +1,23 @@
+id: 73841
+name: Spirit of the Zap Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/50B50552FBE3C42EE4D3E8DD660D0D0C6B97C733/1205595.png
+description: Salvaged from the Zap Experiment. Used to craft the Perfected Sword.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Zap_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 74093
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

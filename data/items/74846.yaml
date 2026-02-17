@@ -1,0 +1,26 @@
+id: 74846
+name: Expertise in Warhorn Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/A950C22556715C40377B073DCF23D351939C3959/1204710.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Warhorn_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 75564
+  containerName: Tricks and Tips for Advanced Warhorn Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

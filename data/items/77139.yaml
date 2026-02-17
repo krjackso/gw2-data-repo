@@ -1,0 +1,26 @@
+id: 77139
+name: Expertise in Staff Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/76556B48514BDB0B2B10BEEE71C1615B147FC497/1204657.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Staff_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 74094
+  containerName: Tricks and Tips for Advanced Staff Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

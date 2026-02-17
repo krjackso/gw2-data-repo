@@ -1,0 +1,34 @@
+id: 75618
+name: Perfected Nightsword
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/9F0C4EA3227194FEF066F9E1CB1954F9F201F60C/780598.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Perfected_Nightsword
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 73517
+    quantity: 1
+  - itemId: 73524
+    quantity: 1
+  - itemId: 75316
+    quantity: 1
+  - itemId: 77089
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

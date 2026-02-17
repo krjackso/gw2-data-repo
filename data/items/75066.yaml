@@ -1,0 +1,23 @@
+id: 75066
+name: Spirit of the Finite Result
+type: Trophy
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/2DE4FABAAB4B72E23352DE72D653A63357520A20/1203024.png
+description: Obtained by salvaging the backpack Finite Result.
+vendorValue: 320
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Finite_Result
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 73624
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,202 @@
+id: 75316
+name: Jar of Luminesce Polish
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/16FCE6B85BCCC2B5AC5450AB0E58272AB4A1E954/1205433.png
+description: <c=@flavor>A powerful, magical polish to make any weapon shine.<c>
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Jar_of_Luminesce_Polish
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: crafting
+  outputQuantity: 1
+  requirements:
+  - itemId: 9461
+    quantity: 10
+  - itemId: 46731
+    quantity: 250
+  - itemId: 46747
+    quantity: 10
+  - itemId: 68063
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 400
+- type: container
+  itemId: 74355
+  containerName: 'Box of Recipes: Carcharias (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 72777
+  containerName: 'Box of Recipes: Chaos Gun (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73294
+  containerName: 'Box of Recipes: Dawn (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74375
+  containerName: 'Box of Recipes: Development'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74272
+  containerName: 'Box of Recipes: Dusk (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76887
+  containerName: 'Box of Recipes: Howl (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75832
+  containerName: 'Box of Recipes: Leaf of Kudzu (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73603
+  containerName: 'Box of Recipes: Rage (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71302
+  containerName: 'Box of Recipes: Rodgort''s Flame (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 73353
+  containerName: 'Box of Recipes: Spark (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 71170
+  containerName: 'Box of Recipes: Storm (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78228
+  containerName: 'Box of Recipes: The Ambush'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74189
+  containerName: 'Box of Recipes: The Apparatus'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75837
+  containerName: 'Box of Recipes: The Bard (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76562
+  containerName: 'Box of Recipes: The Chosen (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76584
+  containerName: 'Box of Recipes: The Colossus (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75704
+  containerName: 'Box of Recipes: The Energizer (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 77171
+  containerName: 'Box of Recipes: The Hunter (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 75752
+  containerName: 'Box of Recipes: The Legend (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74787
+  containerName: 'Box of Recipes: The Lover (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76762
+  containerName: 'Box of Recipes: The Ravenswood Staff'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 70679
+  containerName: 'Box of Recipes: Tooth of Frostfang (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 74291
+  containerName: 'Box of Recipes: Venom (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 76899
+  containerName: 'Box of Recipes: Zap (Second Tier)'
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

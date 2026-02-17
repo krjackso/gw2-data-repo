@@ -1,0 +1,23 @@
+id: 71723
+name: Spirit of The Energizer Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/066A0F94D434AC04B5452B0EC0E54C797C64DA58/1205586.png
+description: Salvaged from the Energizer Experiment. Used to craft the Perfected Mace.
+vendorValue: 66
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Energizer_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 70610
+  containerName: The Energizer Experiment
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

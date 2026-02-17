@@ -1,0 +1,23 @@
+id: 76116
+name: Spirit of the Ravenswood Branch
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/03027B0C095A100554D362D90859522E46D42F1B/1302298.png
+description: Salvaged from the Ravenswood Branch.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Ravenswood_Branch
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 75467
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,23 @@
+id: 75982
+name: Expertise in Advanced Pistol Crafting
+type: Trophy
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/EE45BC660396AC039001A6921F3D07DF5FE8E101/1204599.png
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Advanced_Pistol_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 74682
+  containerName: Tricks and Tips for Mechanical Pistol Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

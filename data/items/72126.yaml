@@ -1,0 +1,24 @@
+id: 72126
+name: Spirit of the Rodgort's Flame Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/9D28FC70520217445DE24CED91BB0D964A530597/1205596.png
+description: Salvaged from the Rodgort's Flame Experiment. Used to craft the Perfected
+  Torch.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Rodgort's_Flame_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 70566
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

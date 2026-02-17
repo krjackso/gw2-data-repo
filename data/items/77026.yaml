@@ -1,0 +1,23 @@
+id: 77026
+name: Spirit of the Howl Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/1CC6A4B8F46B097A7965D0BD679752385C9F3C3A/1205598.png
+description: Salvaged from the Howl Experiment. Used to craft the Perfected Warhorn.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Howl_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 71345
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

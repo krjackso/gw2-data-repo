@@ -1,0 +1,23 @@
+id: 74032
+name: Spirit of The Colossus Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/712C01A997EDEA62565CE19B29C00A1E0DDB01E8/1205583.png
+description: Salvaged from the Colossus Experiment. Used to craft the Perfected Hammer.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Colossus_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 74163
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

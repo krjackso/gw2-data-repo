@@ -1,0 +1,23 @@
+id: 71671
+name: Spirit of the Kudzu Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F73B2313573667EE1EDA0C7CF840C7BDE2EACC70/1205585.png
+description: Salvaged from the Kudzu Experiment. Used to craft the Perfected Longbow.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Kudzu_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 73382
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

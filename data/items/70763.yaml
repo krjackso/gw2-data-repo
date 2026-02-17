@@ -1,0 +1,23 @@
+id: 70763
+name: Spirit of the Chaos Gun Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2EB67F6BBF526C080561DD20784B3641471A6126/1205588.png
+description: Salvaged from the Chaos Gun Experiment. Used to craft the Perfected Pistol.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_the_Chaos_Gun_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 75846
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

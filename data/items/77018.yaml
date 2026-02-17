@@ -1,0 +1,26 @@
+id: 77018
+name: Expertise in Mace Crafting
+type: Trophy
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/290CB70EB0809C2F1548F7C0B54E1DB77BCE430C/1204571.png
+description: 'Use this expertise to craft a second-tier precursor.
+
+  <c=@flavor>Most informative.<c>'
+vendorValue: 264
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Expertise_in_Mace_Crafting
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: container
+  itemId: 72028
+  containerName: Tricks and Tips for Legendary Mace Crafting
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,23 @@
+id: 73615
+name: Spirit of The Hunter Experiment
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2CFF41ED09251879243C6FE20B64E4BAFBFE8073/1205589.png
+description: Salvaged from the Hunter Experiment. Used to craft the Perfected Rifle.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_of_The_Hunter_Experiment
+lastUpdated: '2026-02-17'
+acquisitions:
+- type: salvage
+  itemId: 71078
+  outputQuantity: 1
+  guaranteed: true
+  requirements: []
+  metadata: {}
