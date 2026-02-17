@@ -26,6 +26,36 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Clover
 lastUpdated: '2026-02-08'
 acquisitions:
+- type: mystic_forge
+  outputQuantity: 0.3
+  outputQuantityMin: 0
+  outputQuantityMax: 1
+  requirements:
+  - itemId: 19925
+    quantity: 1
+  - itemId: 19976
+    quantity: 1
+  - itemId: 19721
+    quantity: 1
+  - itemId: 10796
+    quantity: 6
+  metadata:
+    recipeType: mystic_forge
+- type: mystic_forge
+  outputQuantity: 3
+  outputQuantityMin: 0
+  outputQuantityMax: 10
+  requirements:
+  - itemId: 19925
+    quantity: 10
+  - itemId: 19976
+    quantity: 10
+  - itemId: 19721
+    quantity: 10
+  - itemId: 20799
+    quantity: 10
+  metadata:
+    recipeType: mystic_forge
 - type: vendor
   vendorName: BUY-4373
   outputQuantity: 1

@@ -178,9 +178,9 @@ class Acquisition(BaseModel):
     item_id: int | None = Field(default=None, alias="itemId", gt=0)
     container_name: str | None = Field(default=None, alias="containerName", min_length=1)
     node_name: str | None = Field(default=None, alias="nodeName", min_length=1)
-    output_quantity: int = Field(default=1, ge=1, alias="outputQuantity")
-    output_quantity_min: int | None = Field(default=None, ge=1, alias="outputQuantityMin")
-    output_quantity_max: int | None = Field(default=None, ge=1, alias="outputQuantityMax")
+    output_quantity: float = Field(default=1, ge=0, alias="outputQuantity")
+    output_quantity_min: float | None = Field(default=None, ge=0, alias="outputQuantityMin")
+    output_quantity_max: float | None = Field(default=None, ge=1, alias="outputQuantityMax")
     guaranteed: bool | None = None
     choice: bool | None = None
     requirements: list[AcquisitionRequirement] = Field(default_factory=list)
@@ -192,14 +192,6 @@ class Acquisition(BaseModel):
     def _validate_output_quantity_range(self) -> Acquisition:
         if self.output_quantity_max is not None and self.output_quantity_min is None:
             raise ValueError("outputQuantityMin is required when outputQuantityMax is present")
-        if (
-            self.output_quantity_min is not None
-            and self.output_quantity != self.output_quantity_min
-        ):
-            raise ValueError(
-                f"outputQuantity ({self.output_quantity}) must equal "
-                f"outputQuantityMin ({self.output_quantity_min}) when range is specified"
-            )
         if (
             self.output_quantity_min is not None
             and self.output_quantity_max is not None

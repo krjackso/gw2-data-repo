@@ -133,18 +133,18 @@
           "description": "Gathering node name (required for resource_node type)"
         },
         "outputQuantity": {
-          "type": "integer",
-          "minimum": 1,
+          "type": "number",
+          "minimum": 0,
           "default": 1,
           "description": "How many of this item you get from this acquisition. For variable outputs, this is the minimum."
         },
         "outputQuantityMin": {
-          "type": "integer",
-          "minimum": 1,
+          "type": "number",
+          "minimum": 0,
           "description": "Minimum output quantity for variable-output acquisitions (e.g., Mystic Forge promotions). Equals outputQuantity when present."
         },
         "outputQuantityMax": {
-          "type": "integer",
+          "type": "number",
           "minimum": 1,
           "description": "Maximum output quantity for variable-output acquisitions. Must be >= outputQuantityMin."
         },

@@ -287,6 +287,55 @@ acquisitions:
       recipeType: mystic_forge
 """
 
+VALID_WITH_FLOAT_OUTPUT = """
+id: 24276
+name: Test Item
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 1.5
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
+VALID_WITH_OUTPUT_RANGE_MIN_ZERO = """
+id: 24276
+name: Test Item
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 1
+    outputQuantityMin: 0
+    outputQuantityMax: 1
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
+VALID_WITH_ZERO_OUTPUT = """
+id: 19675
+name: Mystic Clover
+type: CraftingMaterial
+rarity: Legendary
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: mystic_forge
+    outputQuantity: 0
+    outputQuantityMin: 0
+    outputQuantityMax: 10
+    requirements: []
+    metadata:
+      recipeType: mystic_forge
+"""
+
 
 class TestJsonSchema:
     def test_valid_minimal(self, validator):
@@ -326,6 +375,21 @@ class TestJsonSchema:
 
     def test_valid_with_output_range(self, validator):
         data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_float_output(self, validator):
+        data = yaml.safe_load(VALID_WITH_FLOAT_OUTPUT)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_output_range_min_zero(self, validator):
+        data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE_MIN_ZERO)
+        errors = list(validator.iter_errors(data))
+        assert errors == []
+
+    def test_valid_with_zero_output(self, validator):
+        data = yaml.safe_load(VALID_WITH_ZERO_OUTPUT)
         errors = list(validator.iter_errors(data))
         assert errors == []
 
@@ -512,7 +576,23 @@ class TestPydanticModels:
         with pytest.raises(Exception, match="outputQuantityMin is required when outputQuantityMax"):
             ItemFile.model_validate(data)
 
-    def test_invalid_output_range_quantity_ne_min(self):
-        data = yaml.safe_load(INVALID_OUTPUT_RANGE_QUANTITY_NE_MIN)
-        with pytest.raises(Exception, match="outputQuantity.*must equal.*outputQuantityMin"):
-            ItemFile.model_validate(data)
+    def test_float_output_quantity(self):
+        data = yaml.safe_load(VALID_WITH_FLOAT_OUTPUT)
+        result = ItemFile.model_validate(data)
+        assert result.acquisitions[0].output_quantity == 1.5
+
+    def test_output_quantity_min_zero(self):
+        data = yaml.safe_load(VALID_WITH_OUTPUT_RANGE_MIN_ZERO)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.output_quantity == 1
+        assert acq.output_quantity_min == 0
+        assert acq.output_quantity_max == 1
+
+    def test_zero_output_quantity(self):
+        data = yaml.safe_load(VALID_WITH_ZERO_OUTPUT)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.output_quantity == 0
+        assert acq.output_quantity_min == 0
+        assert acq.output_quantity_max == 10
