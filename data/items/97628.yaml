@@ -1,0 +1,41 @@
+id: 97628
+name: 'Starter Kit: Frostfang'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/111A371AC15F0E565F3A221ABF269DC6B79145B0/3187530.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_Frostfang
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 101623
+  containerName: Legendary Weapon Starter Kit—Set 3
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata:
+    notes: discontinued
+- type: container
+  itemId: 101938
+  containerName: Legendary Weapon Starter Kit—Set 4
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata:
+    notes: discontinued

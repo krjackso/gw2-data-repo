@@ -1,0 +1,25 @@
+id: 95695
+name: 'Starter Kit: Incinerator'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/1AD9B021D9B2722FD7035C790AB6E980979BDDFF/3187532.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_Incinerator
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}

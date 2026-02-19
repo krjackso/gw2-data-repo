@@ -1,0 +1,39 @@
+id: 99717
+name: 'Starter Kit: Frenzy'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/96973E4A6717A9E3EAD40BAE017C58560722A6D9/3187529.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_Frenzy
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 104004
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103827
+    quantity: 1
+  metadata: {}

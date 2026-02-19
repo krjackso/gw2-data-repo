@@ -1,0 +1,25 @@
+id: 95641
+name: 'Starter Kit: The Juggernaut'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/9D070C471D57A905A7A85D0E4BF6ADA1ECB10119/3187533.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_The_Juggernaut
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}

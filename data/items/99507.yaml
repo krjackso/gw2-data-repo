@@ -1,0 +1,25 @@
+id: 99507
+name: 'Starter Kit: The Moot'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/93E92BBCC423C04B5322A843C9140B92D2089405/3187538.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_The_Moot
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Legendary Weapon Starter Key—Universal
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}

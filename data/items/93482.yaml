@@ -1,0 +1,32 @@
+id: 93482
+name: 'Starter Kit: Meteorlogicus'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/5DA00C92B0C72D93527605015162B04B0E910905/3146162.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_Meteorlogicus
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103847
+    quantity: 1
+  metadata: {}

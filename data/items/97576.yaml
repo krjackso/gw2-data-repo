@@ -1,0 +1,39 @@
+id: 97576
+name: 'Starter Kit: Kraitkin'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/68CE4D13AAE36D1746D7A6BDD8C57F770B32DACA/3187535.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_Kraitkin
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103821
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103847
+    quantity: 1
+  metadata: {}

@@ -1,0 +1,28 @@
+id: 103847
+name: Legendary Weapon Starter Key—Set 10
+type: Gizmo
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/477BC533CE7E067D02D5200FCFCEB2AA3F1E0D07/3441723.png
+description: 'Double-click to enter the Mists Vault and choose from starter kits for
+  four legendary weapons: The Bifrost, Meteorlogicus, Kraitkin, or The Flameseeker
+  Prophecies.'
+vendorValue: 640
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+- DeleteWarning
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Weapon_Starter_Key—Set_10
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: wizards_vault
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 63
+    quantity: 1000
+  metadata:
+    limitAmount: 1
+    notes: 'Requires Guild Wars 2: Visions of Eternity.'

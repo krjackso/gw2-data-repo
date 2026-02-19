@@ -1,0 +1,39 @@
+id: 99550
+name: 'Starter Kit: The Flameseeker Prophecies'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/CC165C202800111B303C75E0A5F294D506055D05/3187528.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_The_Flameseeker_Prophecies
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103821
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 103847
+    quantity: 1
+  metadata: {}

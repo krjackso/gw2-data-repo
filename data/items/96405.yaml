@@ -1,0 +1,25 @@
+id: 96405
+name: 'Starter Kit: The Predator'
+type: Container
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/EFBD1C3EC67B2E8052CAC80C54F02FDF7626BF61/3187539.png
+description: This kit contains an account-bound precursor weapon, your choice of a
+  Gift of Might or a Gift of Magic, and a themed legendary gift.
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Starter_Kit:_The_Predator
+lastUpdated: '2026-02-19'
+acquisitions:
+- type: vendor
+  vendorName: Mists Vault Main Repository
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 105331
+    quantity: 1
+  metadata: {}
