@@ -1,0 +1,28 @@
+id: 13449
+name: Chrysocola Mithril Earring
+type: Trinket
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/31059ECA58D4609B91EFDA61BFCDCDB5C1480D2B/433693.png
+description: ''
+vendorValue: 248
+flags:
+- HideSuffix
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Mithril_Earring
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 12808
+    quantity: 1
+  - itemId: 12814
+    quantity: 1
+  - itemId: 24920
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 375

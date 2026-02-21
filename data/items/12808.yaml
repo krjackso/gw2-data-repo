@@ -1,0 +1,23 @@
+id: 12808
+name: Mithril Hook
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/150169E128399268B770AF420607F0B65AB8A0F3/219495.png
+description: Used to craft Earrings.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Hook
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19684
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 300

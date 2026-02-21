@@ -1,0 +1,41 @@
+id: 24719
+name: Major Rune of Speed
+type: UpgradeComponent
+rarity: Rare
+level: 39
+icon: https://render.guildwars2.com/file/6946BB0F1FB8A1EA3D582CE4A043A85F93B36718/221070.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 30
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Major_Rune_of_Speed
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24303
+    quantity: 2
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 275
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24304
+    quantity: 1
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 375

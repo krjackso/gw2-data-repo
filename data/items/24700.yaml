@@ -1,0 +1,29 @@
+id: 24700
+name: Minor Rune of the Pack
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/051994CAE324079D0E0806D49358406B60074A77/221057.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 16
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Pack
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 74328
+    quantity: 10
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

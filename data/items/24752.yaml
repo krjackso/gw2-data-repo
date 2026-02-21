@@ -1,0 +1,41 @@
+id: 24752
+name: Major Rune of the Ice
+type: UpgradeComponent
+rarity: Rare
+level: 39
+icon: https://render.guildwars2.com/file/034B1CA4A91154AE59F3AA6BDD029EB43A9CA6CB/221092.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 30
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Major_Rune_of_the_Ice
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24318
+    quantity: 2
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 275
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24319
+    quantity: 1
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 375

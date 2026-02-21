@@ -1,0 +1,41 @@
+id: 24742
+name: Minor Rune of the Earth
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/105BEB076265E3AB434D05E80D6C5B3524C251B8/221085.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 5
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Earth
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24306
+    quantity: 2
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 75
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24307
+    quantity: 1
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 175

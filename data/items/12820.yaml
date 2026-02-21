@@ -1,0 +1,23 @@
+id: 12820
+name: Mithril Chain
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/4C4F5ABF7152B33578CD6C09954C340BA36D9910/219503.png
+description: Used to craft Necklaces.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Chain
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19684
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 300

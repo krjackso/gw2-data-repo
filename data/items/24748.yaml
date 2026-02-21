@@ -1,0 +1,27 @@
+id: 24748
+name: Minor Rune of the Air
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/B94E38CBC5B5BD10E79B35C40F6D59ACF358C493/221089.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 5
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Air
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24301
+    quantity: 2
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 75

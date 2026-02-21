@@ -1,0 +1,28 @@
+id: 13393
+name: Chrysocola Mithril Ring
+type: Trinket
+rarity: Masterwork
+level: 80
+icon: https://render.guildwars2.com/file/0A98291C24FEB21E96915AD12E545852C5932CE4/340181.png
+description: ''
+vendorValue: 198
+flags:
+- HideSuffix
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Mithril_Ring
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 12814
+    quantity: 1
+  - itemId: 12826
+    quantity: 1
+  - itemId: 24492
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 350

@@ -1,0 +1,28 @@
+id: 13491
+name: Chrysocola Mithril Amulet
+type: Trinket
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/09237E3DFA29A4FA97DCC940302CF791B8D79902/455593.png
+description: ''
+vendorValue: 396
+flags:
+- HideSuffix
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chrysocola_Mithril_Amulet
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 12814
+    quantity: 1
+  - itemId: 12820
+    quantity: 1
+  - itemId: 24920
+    quantity: 3
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 375

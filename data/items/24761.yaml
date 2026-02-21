@@ -1,0 +1,41 @@
+id: 24761
+name: Major Rune of the Krait
+type: UpgradeComponent
+rarity: Rare
+level: 39
+icon: https://render.guildwars2.com/file/D01507065265FA223590C22FDEFE727030301AFD/221098.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 30
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Major_Rune_of_the_Krait
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24333
+    quantity: 2
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 250
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24334
+    quantity: 1
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 350

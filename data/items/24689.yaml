@@ -1,0 +1,29 @@
+id: 24689
+name: Minor Rune of the Lich
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/37E30F90D477DAD66E687F075E9803B23206024C/221048.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 16
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Lich
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 76491
+    quantity: 1
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

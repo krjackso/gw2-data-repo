@@ -1,0 +1,13 @@
+id: 70957
+name: Maguuma Lily
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/2FFF0F2BF16F6692A845B9A7CC089EEC0B07B1B6/1203049.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Maguuma_Lily
+lastUpdated: '2026-02-20'
+acquisitions: []

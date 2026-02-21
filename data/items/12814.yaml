@@ -1,0 +1,23 @@
+id: 12814
+name: Mithril Setting
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/EAA5A0126AEFCF9702F4DD41A3DB27AAAC1C48D9/219499.png
+description: Used to craft Jewelry.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Setting
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19684
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 300

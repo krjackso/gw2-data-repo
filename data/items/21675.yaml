@@ -1,0 +1,19 @@
+id: 21675
+name: Discarded Garment
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/F9C13811EF41BE0C2BBBD01D9595CC3D10DB3CC0/223675.png
+description: Salvage Item
+vendorValue: 25
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Discarded_Garment
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: container
+  itemId: 65609
+  containerName: Champion Separatist Lieutenant Loot Box
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

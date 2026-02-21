@@ -1,0 +1,27 @@
+id: 24745
+name: Minor Rune of the Fire
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/ECD5C90BE62709F37CFBDB4B09ADAFAA5F3F94A4/221087.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 5
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Fire
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24311
+    quantity: 1
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 75

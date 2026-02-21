@@ -1,0 +1,41 @@
+id: 24751
+name: Minor Rune of the Ice
+type: UpgradeComponent
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/3B046CA10C0271EB96B42E232999542FF2372B7E/221091.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 5
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Minor_Rune_of_the_Ice
+lastUpdated: '2026-02-20'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24316
+    quantity: 2
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 75
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24317
+    quantity: 1
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 175
