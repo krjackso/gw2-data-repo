@@ -329,8 +329,10 @@ def validate_references(db_path: Path) -> None:
 
     if missing_requirement_currencies:
         ids = [str(row[0]) for row in missing_requirement_currencies]
-        msg = f"Found {len(missing_requirement_currencies)} requirement currency(ies) not in database: "
-        warnings.append(msg + ", ".join(ids))
+        count = len(missing_requirement_currencies)
+        warnings.append(
+            f"Found {count} requirement currency(ies) not in database: " + ", ".join(ids)
+        )
 
     conn.close()
 

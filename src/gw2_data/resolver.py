@@ -149,9 +149,7 @@ def _classify_entry(
             }
             container_variant = f"{name} (container)"
             resolve_name = (
-                container_variant
-                if api.clean_name(container_variant) in item_name_index
-                else name
+                container_variant if api.clean_name(container_variant) in item_name_index else name
             )
             try:
                 acq["itemId"] = api.resolve_item_name_to_id(resolve_name, item_name_index)
@@ -201,9 +199,7 @@ def _classify_entry(
 
         container_variant = f"{name} (container)"
         resolve_name = (
-            container_variant
-            if api.clean_name(container_variant) in item_name_index
-            else name
+            container_variant if api.clean_name(container_variant) in item_name_index else name
         )
         try:
             acq["itemId"] = api.resolve_item_name_to_id(resolve_name, item_name_index)

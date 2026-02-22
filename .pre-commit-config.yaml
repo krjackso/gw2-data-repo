@@ -1,6 +1,20 @@
 repos:
   - repo: local
     hooks:
+      - id: ruff-check
+        name: Ruff lint
+        entry: uv run ruff check --exclude prompts/
+        language: system
+        types: [python]
+        pass_filenames: false
+
+      - id: ruff-format
+        name: Ruff format
+        entry: uv run ruff format --check --exclude prompts/
+        language: system
+        types: [python]
+        pass_filenames: false
+
       - id: validate-item-yaml
         name: Validate item YAML files
         entry: uv run python -m scripts.validate
