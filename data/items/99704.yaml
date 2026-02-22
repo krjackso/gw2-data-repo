@@ -1,0 +1,23 @@
+id: 99704
+name: 'Gyala Delve: Hero''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FDF5B9F3AE45086BE55CF4CF7C79F313D6A01E61/2594264.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Gyala_Delve:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Awarded once per day per account for completing the meta event in Gyala
+      Delve

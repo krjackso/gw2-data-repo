@@ -1,0 +1,29 @@
+id: 76614
+name: Gossamer Patch
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/EE34585260D85E44DCCC980F6C0F1C171101B7C0/1201850.png
+description: Used to craft insignias, which are used in armor crafting.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Gossamer_Patch
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 5.0
+  requirements:
+  - itemId: 19737
+    quantity: 10
+  - itemId: 19746
+    quantity: 4
+  - itemId: 19790
+    quantity: 25
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

@@ -19,7 +19,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween.
+    festival: Halloween
 - type: vendor
   vendorName: Candy Corn Vendor
   outputQuantity: 5
@@ -29,7 +29,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween.
+    festival: Halloween
 - type: vendor
   vendorName: Candy Corn Vendor
   outputQuantity: 5
@@ -39,7 +39,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Halloween.
+    festival: Halloween
 - type: achievement
   achievementName: Alpha Crafter
   achievementCategory: Basic Collections

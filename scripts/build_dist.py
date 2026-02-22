@@ -304,10 +304,8 @@ def validate_references(db_path: Path) -> None:
 
     missing_requirement_items = cursor.execute(
         """
-        SELECT DISTINCT r.item_id, i.name as item_name
+        SELECT DISTINCT r.item_id
         FROM requirements r
-        JOIN acquisitions a ON a.id = r.acquisition_id
-        JOIN items i ON i.id = a.item_id
         WHERE r.item_id IS NOT NULL
           AND NOT EXISTS (SELECT 1 FROM items WHERE id = r.item_id)
         ORDER BY r.item_id
@@ -315,20 +313,14 @@ def validate_references(db_path: Path) -> None:
     ).fetchall()
 
     if missing_requirement_items:
-        warnings.append(
-            f"Found {len(missing_requirement_items)} requirement item(s) not in database:"
-        )
-        for req_id, item_name in missing_requirement_items[:10]:
-            warnings.append(f"  - Item ID {req_id} (required by {item_name})")
-        if len(missing_requirement_items) > 10:
-            warnings.append(f"  ... and {len(missing_requirement_items) - 10} more")
+        ids = [str(row[0]) for row in missing_requirement_items]
+        msg = f"Found {len(missing_requirement_items)} requirement item(s) not in database: "
+        warnings.append(msg + ", ".join(ids))
 
     missing_requirement_currencies = cursor.execute(
         """
-        SELECT DISTINCT r.currency_id, i.name as item_name
+        SELECT DISTINCT r.currency_id
         FROM requirements r
-        JOIN acquisitions a ON a.id = r.acquisition_id
-        JOIN items i ON i.id = a.item_id
         WHERE r.currency_id IS NOT NULL
           AND NOT EXISTS (SELECT 1 FROM currency_names WHERE currency_id = r.currency_id)
         ORDER BY r.currency_id
@@ -336,14 +328,9 @@ def validate_references(db_path: Path) -> None:
     ).fetchall()
 
     if missing_requirement_currencies:
-        warnings.append(
-            f"Found {len(missing_requirement_currencies)} requirement "
-            f"currency(ies) not in database:"
-        )
-        for curr_id, item_name in missing_requirement_currencies[:10]:
-            warnings.append(f"  - Currency ID {curr_id} (required by {item_name})")
-        if len(missing_requirement_currencies) > 10:
-            warnings.append(f"  ... and {len(missing_requirement_currencies) - 10} more")
+        ids = [str(row[0]) for row in missing_requirement_currencies]
+        msg = f"Found {len(missing_requirement_currencies)} requirement currency(ies) not in database: "
+        warnings.append(msg + ", ".join(ids))
 
     conn.close()
 

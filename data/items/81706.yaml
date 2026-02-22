@@ -21,7 +21,9 @@ acquisitions:
   - currencyId: 50
     quantity: 500
   metadata:
-    notes: Requires the festival Festival of the Four Winds. Limit 1 per week.
+    festival: Festival of the Four Winds
+    limitAmount: 1
+    limitType: weekly
 - type: container
   containerName: Black Lion Delivery Box
   outputQuantity: 2

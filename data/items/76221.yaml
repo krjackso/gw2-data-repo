@@ -1,0 +1,31 @@
+id: 76221
+name: Experimental Warhorn Mouthpiece
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C7726EBC15F512CD725F5CC8A82CBB3EA29852D2/1205772.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Warhorn_Mouthpiece
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46738
+    quantity: 1
+  - itemId: 70820
+    quantity: 50
+  - itemId: 71581
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

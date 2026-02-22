@@ -1,0 +1,25 @@
+id: 73806
+name: Oiled Hardened Shoulderguard Panel
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/609AC0B6ED2E0956E2B3C94134AB5E47EE153E51/1201802.png
+description: Used to craft Hardened Leather Shoulders.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Oiled_Hardened_Shoulderguard_Panel
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19737
+    quantity: 2
+  - itemId: 73034
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

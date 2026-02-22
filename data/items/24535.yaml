@@ -1,0 +1,27 @@
+id: 24535
+name: Topaz Nugget
+type: UpgradeComponent
+rarity: Fine
+level: 20
+icon: https://render.guildwars2.com/file/11B59BBE4A46F32A33542333B128E81545D93418/220961.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 24
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Topaz_Nugget
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24272
+    quantity: 1
+  - itemId: 24467
+    quantity: 1
+  - itemId: 24534
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 50

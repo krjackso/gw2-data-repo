@@ -1,0 +1,24 @@
+id: 104942
+name: 'Janthir Syntri: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/00AABCE916B695E81295E92D2A42ECC37E9039D5/3374827.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Janthir_Syntri:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104832
+  containerName: 'Janthir Syntri: Commander''s Choice Chest (container)'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

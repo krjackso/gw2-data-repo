@@ -1,0 +1,24 @@
+id: 104856
+name: 'Inner Nayos: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Nayos:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104929
+  containerName: 'Inner Nayos: Commander''s Choice Chest'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

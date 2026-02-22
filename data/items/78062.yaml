@@ -22,5 +22,6 @@ acquisitions:
   - itemId: 39752
     quantity: 25
   metadata:
+    festival: Super Adventure Festival
     notes: Requires the achievement Master of Decor, World 1 and the achievement Master
       of Decor, World 2

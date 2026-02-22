@@ -1,0 +1,24 @@
+id: 76806
+name: Essence of Concoctions
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2A69405FC152ECB3B638920FE808F23B232E7052/1205279.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Concoctions
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 70448
+  containerName: Chest of Concoctions
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

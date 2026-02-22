@@ -21,7 +21,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: During Super Adventure Festival
+    festival: Super Adventure Festival
 - type: achievement
   achievementName: Dragon Slayer Arms Master
   achievementCategory: Champions
@@ -72,7 +72,7 @@ acquisitions:
   requirements: []
   metadata: {}
 - type: container
-  itemId: 78783
+  itemId: 78617
   containerName: 'Dragon''s Stand: Hero''s Choice Chest'
   outputQuantity: 1
   requirements: []

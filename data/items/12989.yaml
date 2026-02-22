@@ -1,0 +1,27 @@
+id: 12989
+name: Mithril Plated Dowel
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/D3EB5FDAACAD7709D9082E281055C4905BF3CAE4/455581.png
+description: Used to craft Inscriptions which are used in weapon crafting.
+vendorValue: 25
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Mithril_Plated_Dowel
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19684
+    quantity: 3
+  - itemId: 19709
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    - Huntsman
+    - Weaponsmith
+    minRating: 350

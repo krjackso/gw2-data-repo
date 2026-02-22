@@ -1,0 +1,21 @@
+id: 104677
+name: 'Crystal Oasis: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/C8246DDA51367909C74D2F68FFE6502B587607C8/1748126.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Oasis:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}

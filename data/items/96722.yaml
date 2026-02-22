@@ -24,147 +24,147 @@ acquisitions:
   vendorName: 'Echovald Wilds: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: 'Gyala Delve: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: 'New Kaineng City: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104885
+  - itemId: 104897
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104738
+  - itemId: 104883
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: achievement

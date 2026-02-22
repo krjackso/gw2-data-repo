@@ -1,0 +1,31 @@
+id: 70435
+name: 'Solution: Finite Result'
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/DCA678B606AD70016D511892565421EC0EDB3C9C/223857.png
+description: Used to craft the backpack Finite Result. Extras can be purchased from
+  the Aetherblade Quartermaster in the Captain Mai Trin Boss fractal for Balls of
+  Dark Energy.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Solution:_Finite_Result
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Aetherblade Quartermaster
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 71994
+    quantity: 5
+  metadata: {}
+- type: container
+  itemId: 76466
+  containerName: 'Proof: Finite Result'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

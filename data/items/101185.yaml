@@ -1,0 +1,22 @@
+id: 101185
+name: 'Convergence: Hero''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/46EC231103323FB5EEBBC1AEF74AE015050F013E/3122156.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Convergence:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Awarded once per day per account upon successful completion of the activity

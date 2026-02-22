@@ -17,13 +17,34 @@ flags:
 - NoSalvage
 - NoSell
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Seitung_Province:_Commander's_Choice_Chest
-lastUpdated: '2026-02-09'
+wikiUrl: https://wiki.guildwars2.com/wiki/Seitung_Province:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
 acquisitions:
-- type: container
-  itemId: 104973
-  containerName: 'Seitung Province: Commander''s Choice Chest'
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97895
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata:
+    notes: Arborstone and The Wizard's Tower (Outer Ring)
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97895
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97895
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}

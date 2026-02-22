@@ -1,0 +1,49 @@
+id: 104832
+name: 'Janthir Syntri: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6C0CDA94EC94FA906493E2050DDECDD5965877FD/3199530.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest to pick your choice
+  of items.
+
+
+  <c=@flavor>No tectonic thumper needed to draw these titans out, just a large tasty
+  bloodstone.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Janthir_Syntri:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 102265
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 102265
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 102265
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}

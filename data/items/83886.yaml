@@ -1,0 +1,34 @@
+id: 83886
+name: Casino Coin
+type: Consumable
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/73569D47644702526E2BD1F6699059C6E45CC739/1767147.png
+description: 'Can be consumed for Crystal Desert Mastery experience or traded at Grand
+  Sahil Casino for other rewards.
+
+
+  <c=@flavor>You won! Now indulge yourself at our world-class leisure destination.
+  —Zalambur</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- BulkConsume
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Casino_Coin
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  containerName: Casino Coin (object)
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Rewarded from participating in Casino Blitz events

@@ -1,0 +1,21 @@
+id: 78748
+name: 'Auric Basin: Hero''s Choice Chest'
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/6FD4060277D5E7CF024DF43872B7D1095C10F8D8/1424066.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Basin:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Completing the map meta event (once per day per account)

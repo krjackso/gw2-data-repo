@@ -51,14 +51,18 @@ acquisitions:
   requirements:
   - itemId: 39752
     quantity: 250
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 32
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -67,7 +71,9 @@ acquisitions:
     quantity: 128
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -78,7 +84,9 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 256
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -87,7 +95,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -96,7 +106,9 @@ acquisitions:
     quantity: 20
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -105,7 +117,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -114,7 +128,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 50000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -123,21 +139,27 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 35
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 35
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -148,7 +170,9 @@ acquisitions:
     quantity: 32
   - currencyId: 1
     quantity: 640000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -159,7 +183,9 @@ acquisitions:
     quantity: 32
   - currencyId: 1
     quantity: 640000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -168,7 +194,9 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 48
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -177,7 +205,9 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 2400
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -186,14 +216,18 @@ acquisitions:
     quantity: 64
   - currencyId: 1
     quantity: 50000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 20
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -202,7 +236,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -211,7 +247,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -220,7 +258,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -229,7 +269,9 @@ acquisitions:
     quantity: 8
   - currencyId: 1
     quantity: 50000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -238,7 +280,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 50000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -247,7 +291,9 @@ acquisitions:
     quantity: 8
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -256,7 +302,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -265,7 +313,9 @@ acquisitions:
     quantity: 3
   - currencyId: 1
     quantity: 64
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -274,7 +324,9 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
@@ -283,21 +335,27 @@ acquisitions:
     quantity: 25
   - currencyId: 1
     quantity: 5000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 35
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 1
   requirements:
   - itemId: 41886
     quantity: 35
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 6
@@ -306,21 +364,27 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 288
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Trader
   outputQuantity: 250
   requirements:
   - itemId: 41886
     quantity: 1
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
   requirements:
   - itemId: 80890
     quantity: 1
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -329,7 +393,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -338,7 +404,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -347,7 +415,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -356,7 +426,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -365,7 +437,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -374,7 +448,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -383,7 +459,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -392,7 +470,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -401,7 +481,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -410,7 +492,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -419,7 +503,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -428,7 +514,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -437,7 +525,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -446,7 +536,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -455,7 +547,9 @@ acquisitions:
     quantity: 16
   - currencyId: 1
     quantity: 20000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -464,7 +558,9 @@ acquisitions:
     quantity: 257
   - currencyId: 1
     quantity: 100000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -473,7 +569,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -482,7 +580,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -491,7 +591,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -500,7 +602,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -509,7 +613,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -518,7 +624,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -527,7 +635,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -536,7 +646,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -545,7 +657,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -554,7 +668,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -563,7 +679,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -572,7 +690,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -581,7 +701,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -590,7 +712,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weaponsmith
   outputQuantity: 1
@@ -599,7 +723,9 @@ acquisitions:
     quantity: 35
   - currencyId: 1
     quantity: 10000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Super Adventure Box Weekly Trader
   outputQuantity: 1
@@ -684,7 +810,9 @@ acquisitions:
     quantity: 64
   - currencyId: 1
     quantity: 50000
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: achievement
   achievementName: (Annual) Flight of the Bumble Pugs
   achievementCategory: 'Super Adventure Box: Nostalgia'
@@ -762,25 +890,33 @@ acquisitions:
   achievementCategory: 'Super Adventure Box: Quality Testing'
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: achievement
   achievementName: Ooze Herding
   achievementCategory: 'Super Adventure Box: Nostalgia'
   outputQuantity: 8
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: achievement
   achievementName: The Glitched Adventure
   achievementCategory: Festival Collections
   outputQuantity: 50
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: achievement
   achievementName: The Super Adventure
   achievementCategory: Festival Collections
   outputQuantity: 50
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: container
   containerName: Glorious Chest
   outputQuantity: 2

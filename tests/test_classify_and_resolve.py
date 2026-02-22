@@ -711,6 +711,113 @@ class TestClassifyAndResolveSalvage:
         assert len(result) == 0
 
 
+class TestClassifyAndResolveContainerVariant:
+    def test_gathered_from_prefers_container_variant(self):
+        item_index = {
+            "Skywatch Archipelago: Commander's Choice Chest": [104831],
+            "Skywatch Archipelago: Commander's Choice Chest (container)": [104686],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Skywatch Archipelago: Commander's Choice Chest",
+                "wikiSection": "gathered_from",
+                "quantity": 1,
+                "ingredients": [],
+                "guaranteed": True,
+                "metadata": {},
+                "confidence": 0.9,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "container"
+        assert result[0]["containerName"] == "Skywatch Archipelago: Commander's Choice Chest"
+        assert result[0]["itemId"] == 104686
+
+    def test_contained_in_prefers_container_variant(self):
+        item_index = {
+            "Skywatch Archipelago: Commander's Choice Chest": [104831],
+            "Skywatch Archipelago: Commander's Choice Chest (container)": [104686],
+        }
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Skywatch Archipelago: Commander's Choice Chest",
+                "wikiSection": "contained_in",
+                "wikiSubsection": "guaranteed",
+                "quantity": 1,
+                "ingredients": [],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "container"
+        assert result[0]["containerName"] == "Skywatch Archipelago: Commander's Choice Chest"
+        assert result[0]["itemId"] == 104686
+
+    def test_container_falls_back_to_base_name(self):
+        item_index = {"Mistborn Coffer": [90783]}
+        currency_index = {}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Mistborn Coffer",
+                "wikiSection": "gathered_from",
+                "quantity": 1,
+                "ingredients": [],
+                "guaranteed": True,
+                "metadata": {},
+                "confidence": 0.9,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "container"
+        assert result[0]["itemId"] == 90783
+
+    def test_vendor_uses_base_name_not_container_variant(self):
+        item_index = {
+            "Skywatch Archipelago: Commander's Choice Chest": [104831],
+            "Skywatch Archipelago: Commander's Choice Chest (container)": [104686],
+        }
+        currency_index = {"Coin": 1}
+        node_index: set[str] = set()
+
+        entries = [
+            {
+                "name": "Some Vendor",
+                "wikiSection": "vendor",
+                "quantity": 1,
+                "ingredients": [
+                    {"name": "Skywatch Archipelago: Commander's Choice Chest", "quantity": 1},
+                    {"name": "Coin", "quantity": 100},
+                ],
+                "metadata": {},
+                "confidence": 1.0,
+            }
+        ]
+
+        result = resolver.classify_and_resolve(entries, item_index, currency_index, node_index)
+
+        assert len(result) == 1
+        assert result[0]["type"] == "vendor"
+        assert result[0]["requirements"][0] == {"itemId": 104831, "quantity": 1}
+
+
 class TestClassifyAndResolveAchievement:
     def test_achievement(self):
         item_index = {}

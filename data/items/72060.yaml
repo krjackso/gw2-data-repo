@@ -1,0 +1,27 @@
+id: 72060
+name: Oiled Orichalcum Pauldron Lining
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/D320A4BFB600EBC99AF0AA7A15D5465A9B292A79/1201815.png
+description: Used to craft Orichalcum Shoulders.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Oiled_Orichalcum_Pauldron_Lining
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19746
+    quantity: 1
+  - itemId: 19790
+    quantity: 1
+  - itemId: 73034
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

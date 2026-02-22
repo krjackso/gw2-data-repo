@@ -1,0 +1,58 @@
+id: 102334
+name: Janthiri Renown Chest
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B76F500FD492F00954A972A6FDC801DBF095D654/3374828.png
+description: Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Janthiri_Renown_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: achievement
+  achievementName: 'Janthir Syntri: Festering Basin Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: 'Janthir Syntri: Forager''s Hunt Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: 'Janthir Syntri: Stricken Plains Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: 'Lowland Shore: Autumn''s Vale Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: 'Lowland Shore: Harvest Den Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false
+- type: achievement
+  achievementName: 'Lowland Shore: Journeykin Outpost Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    repeatable: true
+    timeGated: false

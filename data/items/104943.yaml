@@ -1,0 +1,48 @@
+id: 104943
+name: 'Elon Riverlands: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0B1BA898B3242C5CA5FA7A6F214521AADE01A125/1766453.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>If something is coming for you, you should seek it out!</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Elon_Riverlands:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 91039
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 91039
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 91039
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}

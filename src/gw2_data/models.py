@@ -93,6 +93,7 @@ class VendorMetadata(BaseModel):
         default=None, alias="limitType"
     )
     limit_amount: int | None = Field(default=None, alias="limitAmount")
+    festival: str | None = None
     notes: str | None = None
 
 
@@ -102,6 +103,7 @@ class AchievementMetadata(BaseModel):
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
     repeatable: bool = False
     time_gated: bool = Field(default=False, alias="timeGated")
+    festival: str | None = None
 
 
 class ContainerMetadata(BaseModel):
@@ -118,6 +120,7 @@ class ResourceNodeMetadata(BaseModel):
 
 class RewardTrackMetadata(BaseModel):
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
+    festival: str | None = None
 
 
 class MapRewardMetadata(BaseModel):

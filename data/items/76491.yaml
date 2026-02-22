@@ -97,7 +97,7 @@ acquisitions:
     repeatable: false
     timeGated: false
 - type: container
-  itemId: 78783
+  itemId: 78617
   containerName: 'Dragon''s Stand: Hero''s Choice Chest'
   outputQuantity: 1
   requirements: []

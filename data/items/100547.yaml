@@ -1,0 +1,17 @@
+id: 100547
+name: 'Skywatch Archipelago: Hero''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/DE1D62A95F57470D61E15D47D20159D8E2BB18FB/3122157.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Skywatch_Archipelago:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions: []

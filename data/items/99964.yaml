@@ -17,7 +17,7 @@ acquisitions:
   vendorName: 'Amnytas: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104730
+  - itemId: 104945
     quantity: 1
   metadata: {}
 - type: vendor
@@ -59,49 +59,49 @@ acquisitions:
   vendorName: 'Citadel of Zakiros: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104783
+  - itemId: 104728
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104783
+  - itemId: 104728
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104730
+  - itemId: 104945
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104730
+  - itemId: 104945
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104783
+  - itemId: 104728
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104783
+  - itemId: 104728
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104730
+  - itemId: 104945
     quantity: 1
   metadata: {}
 - type: container

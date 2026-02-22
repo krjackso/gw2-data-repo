@@ -1,0 +1,24 @@
+id: 70658
+name: Essence of Natural Protection
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/0D4E0B260B9224217F211EB469F5A756D71B0F2B/1205266.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Natural_Protection
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 71338
+  containerName: Chest of Natural Protection
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

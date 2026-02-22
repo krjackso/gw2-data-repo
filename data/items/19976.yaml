@@ -33,7 +33,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival
+    festival: Super Adventure Festival
 - type: vendor
   vendorName: Wizard's Vault
   outputQuantity: 1

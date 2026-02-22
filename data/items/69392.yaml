@@ -23,7 +23,7 @@ acquisitions:
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104884
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: vendor
@@ -44,7 +44,7 @@ acquisitions:
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104884
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: vendor
@@ -58,28 +58,21 @@ acquisitions:
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104884
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: 'Tangled Depths: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104884
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104884
-    quantity: 1
-  metadata: {}
-- type: vendor
-  vendorName: Wizard's Gobbler
-  outputQuantity: 1
-  requirements:
-  - itemId: 104906
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: vendor
@@ -93,7 +86,14 @@ acquisitions:
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104884
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 105001
     quantity: 1
   metadata: {}
 - type: container

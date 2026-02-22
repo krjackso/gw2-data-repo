@@ -314,7 +314,9 @@ acquisitions:
   - itemId: 86627
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday. Limit 1 per week.
+    festival: Wintersday
+    limitAmount: 1
+    limitType: weekly
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1

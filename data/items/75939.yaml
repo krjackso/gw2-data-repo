@@ -1,0 +1,24 @@
+id: 75939
+name: Essence of Technology
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/70040AF708CBE06E03FEF9D5ED219A01A29F0E32/1205253.png
+description: Use this essence to craft a first-tier precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Technology
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 73762
+  containerName: Chest of Technology
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

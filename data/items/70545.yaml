@@ -1,0 +1,31 @@
+id: 70545
+name: Experimental Scepter Core
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/180FBA61A305CEC40AC668D39F783168C4A5AD40/1205756.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Scepter_Core
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46736
+    quantity: 10
+  - itemId: 70820
+    quantity: 50
+  - itemId: 71581
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

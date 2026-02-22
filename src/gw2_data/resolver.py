@@ -147,9 +147,14 @@ def _classify_entry(
                 "requirements": [],
                 "metadata": metadata,
             }
+            container_variant = f"{name} (container)"
+            resolve_name = (
+                container_variant
+                if api.clean_name(container_variant) in item_name_index
+                else name
+            )
             try:
-                item_id = api.resolve_item_name_to_id(name, item_name_index)
-                acq["itemId"] = item_id
+                acq["itemId"] = api.resolve_item_name_to_id(resolve_name, item_name_index)
             except (APIError, KeyError) as e:
                 log.info(f"Container '{name}' has no item ID: {e}")
 
@@ -194,9 +199,14 @@ def _classify_entry(
                 log.info(f"Excluding chance-based container from contained_in: {name}")
                 return None
 
+        container_variant = f"{name} (container)"
+        resolve_name = (
+            container_variant
+            if api.clean_name(container_variant) in item_name_index
+            else name
+        )
         try:
-            item_id = api.resolve_item_name_to_id(name, item_name_index)
-            acq["itemId"] = item_id
+            acq["itemId"] = api.resolve_item_name_to_id(resolve_name, item_name_index)
         except (APIError, KeyError) as e:
             log.info(f"Container '{name}' has no item ID: {e}")
 

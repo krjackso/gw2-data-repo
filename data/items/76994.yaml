@@ -1,0 +1,31 @@
+id: 76994
+name: Experimental Nightsword Blade
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3C1F16E80402A54C77CC6F353106755E75C2C2B9/1205750.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Nightsword_Blade
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46738
+    quantity: 15
+  - itemId: 70820
+    quantity: 100
+  - itemId: 71581
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

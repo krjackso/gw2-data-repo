@@ -1,0 +1,31 @@
+id: 73748
+name: Experimental Staff Shaft
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3D72C4FF56ED2AF9D2576272E927093BBFE201B9/1205765.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Staff_Shaft
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46736
+    quantity: 25
+  - itemId: 70820
+    quantity: 100
+  - itemId: 71581
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

@@ -1,0 +1,45 @@
+id: 104803
+name: 'Domain of Vabbi: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/7C1475BFB76AAEE22C5FBBF8C4C57EB6CFB10197/1766452.png
+description: Contains Pieces of Rare Unidentified Gear and a chest from which to pick
+  your choice of items.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Domain_of_Vabbi:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 83035
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 83035
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 83035
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}

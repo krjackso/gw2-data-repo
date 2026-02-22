@@ -1,0 +1,31 @@
+id: 71932
+name: Experimental Staff Head
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B12112F7EE23B9CB800CA836E3F3296B6B076E7A/1205764.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Staff_Head
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46736
+    quantity: 10
+  - itemId: 70820
+    quantity: 100
+  - itemId: 71581
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

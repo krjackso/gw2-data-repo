@@ -116,7 +116,9 @@ acquisitions:
   achievementName: Halloween Costume Brawl Champion
   outputQuantity: 3
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Halloween
+  }
 - type: achievement
   achievementName: Jumping Mad
   outputQuantity: 5
@@ -319,4 +321,6 @@ acquisitions:
   trackName: Halloween Reward Track
   outputQuantity: 283
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Halloween
+  }

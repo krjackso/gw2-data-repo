@@ -1,0 +1,15 @@
+id: 90994
+name: 'The Desolation: Hero''s Choice Chest'
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/80B59B2CCCF7599D11FA0FD2C32B012A5C0410D2/1766459.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Desolation:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions: []

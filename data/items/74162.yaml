@@ -1,0 +1,31 @@
+id: 74162
+name: Experimental Longbow String
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B4E1F9A4445E36632B7D9DCEF2CCFEDBF8CC0DBD/1205747.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Longbow_String
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46739
+    quantity: 15
+  - itemId: 70820
+    quantity: 100
+  - itemId: 71581
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

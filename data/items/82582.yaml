@@ -1,0 +1,87 @@
+id: 82582
+name: Sliver of Twitching Forgemetal
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/10F3A67805EE14455C3B5AC76347DD76A8D25DEE/1767538.png
+description: 'Used in crafting armor in the Crystal Desert.
+
+
+  <c=@flavor>Whatever energy animated this metal remains in some small, malevolent
+  form.</c>'
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sliver_of_Twitching_Forgemetal
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 82204
+  containerName: Chest of the Final Room
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 5.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85594
+  containerName: Experimental Warbeast Apparatus
+  outputQuantity: 10.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84034
+  containerName: Plan for Harrier's Warbeast Boots
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83940
+  containerName: Plan for Harrier's Warbeast Coat
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84693
+  containerName: Plan for Harrier's Warbeast Gloves
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83745
+  containerName: Plan for Harrier's Warbeast Helm
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 84436
+  containerName: Plan for Harrier's Warbeast Leggings
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 82889
+  containerName: Plan for Harrier's Warbeast Shoulders
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 82488
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 84044
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

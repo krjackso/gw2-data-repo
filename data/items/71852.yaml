@@ -1,0 +1,24 @@
+id: 71852
+name: Essence of the End
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/F4BD34F2AB52D2A90967979944F923F52EF418D4/1205263.png
+description: Use this essence to craft a first-tier precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_the_End
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 74838
+  containerName: Chest of the End
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

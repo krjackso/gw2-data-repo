@@ -203,7 +203,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 1
-    notes: Requires the festival Lunar New Year
+    festival: Lunar New Year
 - type: vendor
   vendorName: Portable Magnetite Shard Exchange
   outputQuantity: 1

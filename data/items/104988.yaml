@@ -13,48 +13,60 @@ flags:
 - NoSalvage
 - NoSell
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/New_Kaineng_City:_Commander's_Choice_Chest
-lastUpdated: '2026-02-09'
+wikiUrl: https://wiki.guildwars2.com/wiki/New_Kaineng_City:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
 acquisitions:
-- type: container
-  itemId: 68063
-  containerName: Amalgamated Gemstone
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}
-- type: container
-  itemId: 97102
-  containerName: Chunk of Pure Jade
-  outputQuantity: 3
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}
-- type: container
-  itemId: 96722
-  containerName: Jade Runestone
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}
-- type: container
-  itemId: 104988
-  containerName: 'New Kaineng City: Commander''s Choice Chest'
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}
-- type: container
-  itemId: 95947
-  containerName: Suun's Weapon Recipe Book
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}
-- type: container
-  itemId: 96533
-  containerName: Writ of New Kaineng City
-  outputQuantity: 10
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97901
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}

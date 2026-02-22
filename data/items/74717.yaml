@@ -1,0 +1,31 @@
+id: 74717
+name: Experimental Spear Haft
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/16F7D9AD28AB3358504BEF0B75F455E4DAB36CFB/1205762.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Spear_Haft
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46736
+    quantity: 1
+  - itemId: 70820
+    quantity: 5
+  - itemId: 71581
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

@@ -1,0 +1,33 @@
+id: 77056
+name: Experimental Horn
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E07F737626AA389D29B777DF20C77709C77EBB3E/1205745.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Horn
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46736
+    quantity: 2
+  - itemId: 46738
+    quantity: 1
+  - itemId: 70820
+    quantity: 50
+  - itemId: 71581
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

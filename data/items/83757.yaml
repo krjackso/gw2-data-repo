@@ -1,0 +1,19 @@
+id: 83757
+name: Congealed Putrescence
+type: CraftingMaterial
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/7EE737D8FFC9B1DB04D4AF2C973150C92897E2A5/1767537.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Congealed_Putrescence
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 85529
+  containerName: Lost Treasure of the Great Zehtuka
+  outputQuantity: 10.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

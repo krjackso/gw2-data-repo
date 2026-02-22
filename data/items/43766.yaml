@@ -199,7 +199,9 @@ acquisitions:
   trackName: Dragon Bash Reward Track
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Dragon Bash
+  }
 - type: wvw_reward
   trackName: Dragonfall Reward Track
   outputQuantity: 1
@@ -239,7 +241,9 @@ acquisitions:
   trackName: Halloween Reward Track
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Halloween
+  }
 - type: wvw_reward
   trackName: Heart of Maguuma Reward Track
   outputQuantity: 1
@@ -394,7 +398,9 @@ acquisitions:
   trackName: Wintersday Reward Track
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata: {
+    festival: Wintersday
+  }
 - type: wvw_reward
   trackName: Xunlai Customer Loyalty Perks Program
   outputQuantity: 1

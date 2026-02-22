@@ -1,0 +1,31 @@
+id: 48884
+name: Pristine Toxic Spore Sample
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/78B90364F0FA4806E6600DD260BE2EBC51D1431D/665773.png
+description: Use in crafting recipes.
+vendorValue: 147
+flags:
+- NoMysticForge
+- NoSalvage
+- NoSell
+wikiUrl: https://wiki.guildwars2.com/wiki/Pristine_Toxic_Spore_Sample
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  containerName: Toxic Seedling
+  outputQuantity: 3.0
+  outputQuantityMin: 3.0
+  outputQuantityMax: 5.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Tri-key Chest
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 5.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

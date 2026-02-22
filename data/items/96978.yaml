@@ -17,14 +17,14 @@ acquisitions:
   vendorName: 'Dragon''s End: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata:
     notes: Arborstone
@@ -32,7 +32,7 @@ acquisitions:
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata:
     notes: The Wizard's Tower
@@ -90,28 +90,28 @@ acquisitions:
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: container

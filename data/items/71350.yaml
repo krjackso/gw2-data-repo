@@ -1,0 +1,25 @@
+id: 71350
+name: Oiled Orichalcum Pauldron Casing
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/32E0DD6D98EBA2E409EC56AE0F72D7C007FFA929/1201814.png
+description: Used to craft Orichalcum Shoulders.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Oiled_Orichalcum_Pauldron_Casing
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19685
+    quantity: 2
+  - itemId: 73034
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

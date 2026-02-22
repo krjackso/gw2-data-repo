@@ -1,0 +1,24 @@
+id: 70493
+name: Essence of Prey
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/3356AED31CEAED9BDE06225CDAB71A3B6956F813/1205265.png
+description: Use this essence to craft a first-tier precursor.
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Essence_of_Prey
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 71355
+  containerName: Chest of Prey
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

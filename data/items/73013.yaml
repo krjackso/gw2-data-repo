@@ -1,0 +1,31 @@
+id: 73013
+name: Experimental Sword Hilt
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E1AC622D722E55F8D6C8032E92A82CB021E598E0/1205767.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Sword_Hilt
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46738
+    quantity: 15
+  - itemId: 70820
+    quantity: 50
+  - itemId: 71581
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

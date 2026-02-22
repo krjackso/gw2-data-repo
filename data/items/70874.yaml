@@ -1,0 +1,31 @@
+id: 70874
+name: Experimental Pistol Barrel
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/086C0E44C13A002137EF4F66A63FB8A354972568/1205752.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Pistol_Barrel
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46738
+    quantity: 15
+  - itemId: 70820
+    quantity: 50
+  - itemId: 71581
+    quantity: 50
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

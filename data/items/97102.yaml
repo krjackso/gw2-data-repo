@@ -15,98 +15,98 @@ acquisitions:
   vendorName: 'Dragon''s End: Commander''s Choice Chest'
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: 'New Kaineng City: Commander''s Choice Chest'
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 3
   requirements:
-  - itemId: 104910
+  - itemId: 104888
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 3
   requirements:
-  - itemId: 104988
+  - itemId: 104751
     quantity: 1
   metadata: {}
 - type: container

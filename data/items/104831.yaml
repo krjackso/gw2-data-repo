@@ -1,0 +1,24 @@
+id: 104831
+name: 'Skywatch Archipelago: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/DE1D62A95F57470D61E15D47D20159D8E2BB18FB/3122157.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Skywatch_Archipelago:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104686
+  containerName: 'Skywatch Archipelago: Commander''s Choice Chest (container)'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,48 @@
+id: 104710
+name: 'Convergence: Outer Nayos: Commander''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/46EC231103323FB5EEBBC1AEF74AE015050F013E/3122156.png
+description: 'Contains Pieces of Rare Unidentified Gear and a chest from which to
+  pick your choice of items.
+
+
+  <c=@flavor>Did Zojja ever get her tea?</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Convergence:_Outer_Nayos:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 101185
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 101185
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 101185
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}

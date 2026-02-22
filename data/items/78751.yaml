@@ -1,0 +1,23 @@
+id: 78751
+name: 'Tangled Depths: Hero''s Choice Chest'
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2127D47C74BCCC26AA2DB5DFA75DBF7B4D42D43F/1424067.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tangled_Depths:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Tangled Depths
+    notes: Once per day per account

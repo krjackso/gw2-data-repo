@@ -20,7 +20,7 @@ acquisitions:
   - itemId: 38130
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 1
@@ -28,7 +28,7 @@ acquisitions:
   - itemId: 38131
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 3
@@ -36,7 +36,7 @@ acquisitions:
   - itemId: 38132
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 5
@@ -44,7 +44,7 @@ acquisitions:
   - itemId: 38133
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 7
@@ -52,7 +52,7 @@ acquisitions:
   - itemId: 38134
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 10
@@ -60,7 +60,7 @@ acquisitions:
   - itemId: 38135
     quantity: 1
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: container
   itemId: 99293
   containerName: Jolly Wintersday Gift

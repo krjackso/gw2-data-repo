@@ -17,45 +17,33 @@ flags:
 - NoSalvage
 - NoSell
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Nayos:_Commander's_Choice_Chest
-lastUpdated: '2026-02-15'
+wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Nayos:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
 acquisitions:
 - type: vendor
-  vendorName: 'Inner Nayos: Commander''s Choice Chest'
-  outputQuantity: 1
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
   requirements:
-  - itemId: 104929
+  - itemId: 101195
     quantity: 1
-  metadata:
-    notes: Yields Clot of Congealed Screams
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
 - type: vendor
-  vendorName: 'Inner Nayos: Commander''s Choice Chest'
-  outputQuantity: 1
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
   requirements:
-  - itemId: 104929
+  - itemId: 101195
     quantity: 1
-  metadata:
-    notes: Yields Amalgamated Gemstone
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
 - type: vendor
-  vendorName: 'Inner Nayos: Commander''s Choice Chest'
-  outputQuantity: 1
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
   requirements:
-  - itemId: 104929
+  - itemId: 101195
     quantity: 1
-  metadata:
-    notes: Yields Saryx Weapon Box
-- type: vendor
-  vendorName: 'Inner Nayos: Commander''s Choice Chest'
-  outputQuantity: 20
-  requirements:
-  - itemId: 104929
-    quantity: 1
-  metadata:
-    notes: Yields Large Calcified Gasp (20)
-- type: container
-  itemId: 104929
-  containerName: 'Inner Nayos: Commander''s Choice Chest'
-  outputQuantity: 1
-  choice: true
-  requirements: []
+  - currencyId: 2
+    quantity: 777
   metadata: {}

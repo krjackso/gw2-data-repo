@@ -13,13 +13,60 @@ flags:
 - NoSalvage
 - NoSell
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Echovald_Wilds:_Commander's_Choice_Chest
-lastUpdated: '2026-02-09'
+wikiUrl: https://wiki.guildwars2.com/wiki/Echovald_Wilds:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
 acquisitions:
-- type: container
-  itemId: 104885
-  containerName: 'Echovald Wilds: Commander''s Choice Chest'
-  outputQuantity: 1
-  choice: true
-  requirements: []
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 97894
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}

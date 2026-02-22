@@ -1,0 +1,25 @@
+id: 24472
+name: Carnelian Lump
+type: UpgradeComponent
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/C8D502B4E57E116002506A0CE519F4EA52CB79B8/220915.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 34
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Carnelian_Lump
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24273
+    quantity: 1
+  - itemId: 24469
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 125

@@ -19,11 +19,13 @@ acquisitions:
   - itemId: 36060
     quantity: 1000
   metadata:
-    notes: Requires the festival Halloween
+    festival: Halloween
 - type: vendor
   vendorName: Halloween Vendor
   outputQuantity: 1
   requirements:
   - itemId: 36060
     quantity: 1000
-  metadata: {}
+  metadata: {
+    festival: Halloween
+  }

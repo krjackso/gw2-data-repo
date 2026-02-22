@@ -1,0 +1,81 @@
+id: 24469
+name: Carnelian Nugget
+type: UpgradeComponent
+rarity: Fine
+level: 20
+icon: https://render.guildwars2.com/file/5BFE9A910EAA6B4D56FA2BAD11A1D03ED91B2CD0/220912.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 24
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Carnelian_Nugget
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24272
+    quantity: 1
+  - itemId: 24464
+    quantity: 1
+  - itemId: 24467
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 50
+- type: salvage
+  itemId: 13301
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13302
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13304
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13305
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13307
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13308
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13524
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13545
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13566
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

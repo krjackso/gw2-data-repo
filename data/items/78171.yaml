@@ -1,0 +1,17 @@
+id: 78171
+name: 'Verdant Brink: Hero''s Choice Chest'
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/08DC26975002D02B68BEF2A46EF2A89E7243FD63/1424065.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Verdant_Brink:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions: []

@@ -1,0 +1,27 @@
+id: 75506
+name: Oiled Hardened Shoulderguard Padding
+type: CraftingMaterial
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/E3A0AF110804C1953F1245AE2257E54FDFBB7A49/1201801.png
+description: Used to craft Hardened Leather Shoulders.
+vendorValue: 7
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Oiled_Hardened_Shoulderguard_Padding
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19746
+    quantity: 1
+  - itemId: 19790
+    quantity: 1
+  - itemId: 73034
+    quantity: 5
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

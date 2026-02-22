@@ -1,0 +1,31 @@
+id: 72627
+name: Experimental Short Bow String
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/04A3406C3FC33502B06860BB4E9C20749E90EA1F/1205761.png
+description: ''
+vendorValue: 66
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Experimental_Short_Bow_String
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46739
+    quantity: 15
+  - itemId: 70820
+    quantity: 100
+  - itemId: 71581
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

@@ -421,7 +421,9 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 2400
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: vendor
   vendorName: Supplymaster Hanjo
   outputQuantity: 1

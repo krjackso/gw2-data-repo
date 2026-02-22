@@ -1,0 +1,36 @@
+id: 76292
+name: Finite Wings
+type: CraftingMaterial
+rarity: Ascended
+level: 0
+icon: https://render.guildwars2.com/file/254BC8EFC296C8BF71C64716A4220CB95102B4A0/223929.png
+description: Used in crafting ascended backpacks. Made from crystalline dust, condensed
+  mist essence, and a vision crystal.
+vendorValue: 10
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Finite_Wings
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24277
+    quantity: 10
+  - itemId: 38014
+    quantity: 5
+  - itemId: 46746
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Armorsmith
+    - Huntsman
+    - Artificer
+    - Leatherworker
+    - Tailor
+    minRating: 500

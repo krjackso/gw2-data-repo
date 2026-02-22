@@ -1,0 +1,224 @@
+id: 82678
+name: Pulsing Brandspark
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/0F4EF7DB1576EDEFFF226D9D33E03A566B276662/1767539.png
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Pulsing_Brandspark
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24330
+    quantity: 1
+  - itemId: 83103
+    quantity: 10
+  - itemId: 83284
+    quantity: 3
+  - itemId: 83757
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Handiworker
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Scribe
+    - Tailor
+    - Weaponsmith
+    minRating: 400
+- type: vendor
+  vendorName: 'Crystal Oasis: Commander''s Choice Chest'
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104677
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Domain of Vabbi: Commander''s Choice Chest'
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104961
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'Elon Riverlands: Commander''s Choice Chest'
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104677
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104740
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104961
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104677
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104740
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104961
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: 'The Desolation: Commander''s Choice Chest'
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104740
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104677
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104993
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104740
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104961
+    quantity: 1
+  metadata: {}
+- type: container
+  itemId: 85533
+  containerName: Book of Nadijeh's Armor Recipes
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 90958
+  containerName: 'Crystal Oasis: Hero''s Choice Chest'
+  outputQuantity: 2.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 83035
+  containerName: 'Domain of Vabbi: Hero''s Choice Chest'
+  outputQuantity: 2.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85594
+  containerName: Experimental Warbeast Apparatus
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85624
+  containerName: Legendary Belongings of the Great Zehtuka
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85589
+  containerName: Lost Tome of Nadijeh's Weapon Recipes
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85529
+  containerName: Lost Treasure of the Great Zehtuka
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85534
+  containerName: Nadijeh's Royal Armor Cache
+  outputQuantity: 4.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85585
+  containerName: Stories of the Great Zehtuka
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 85537
+  containerName: Tales of the Great Zehtuka
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: 'The Desolation: Hero''s Choice Chest'
+  outputQuantity: 2.0
+  choice: true
+  requirements: []
+  metadata: {}

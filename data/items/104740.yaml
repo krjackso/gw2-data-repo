@@ -1,0 +1,24 @@
+id: 104740
+name: 'The Desolation: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/80B59B2CCCF7599D11FA0FD2C32B012A5C0410D2/1766459.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Desolation:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104748
+  containerName: 'The Desolation: Commander''s Choice Chest'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,130 @@
+id: 24534
+name: Amber Pebble
+type: UpgradeComponent
+rarity: Fine
+level: 0
+icon: https://render.guildwars2.com/file/616CA09A677C9B41FCAE746DCD245F04084955D2/220960.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 8
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Amber_Pebble
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 39096
+  containerName: Jeweler Starter Kit
+  outputQuantity: 3.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Source of extraction (level 20 variant)

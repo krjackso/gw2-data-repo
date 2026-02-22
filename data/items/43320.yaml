@@ -20,7 +20,7 @@ acquisitions:
   - itemId: 43319
     quantity: 1000
   metadata:
-    notes: Requires the festival Dragon Bash
+    festival: Dragon Bash
 - type: vendor
   vendorName: Dragon Bash Merchant
   outputQuantity: 1
@@ -28,14 +28,16 @@ acquisitions:
   - itemId: 43319
     quantity: 1000
   metadata:
-    notes: Requires the festival Dragon Bash
+    festival: Dragon Bash
 - type: vendor
   vendorName: Dragon Bash Vendor
   outputQuantity: 1
   requirements:
   - itemId: 43319
     quantity: 1000
-  metadata: {}
+  metadata: {
+    festival: Dragon Bash
+  }
 - type: achievement
   achievementName: (Weekly) Dragon Bash Festivities
   achievementCategory: Dragon Bash Feats
@@ -44,6 +46,7 @@ acquisitions:
   metadata:
     repeatable: true
     timeGated: true
+    festival: Dragon Bash
 - type: achievement
   achievementName: (Weekly) Dragon Bash Festivities 2023
   achievementCategory: Dragon Bash Feats
@@ -52,6 +55,7 @@ acquisitions:
   metadata:
     repeatable: true
     timeGated: true
+    festival: Dragon Bash
 - type: achievement
   achievementName: (Weekly) Dragon Bash Festivities 2024
   achievementCategory: Dragon Bash Feats
@@ -60,6 +64,7 @@ acquisitions:
   metadata:
     repeatable: true
     timeGated: true
+    festival: Dragon Bash
 - type: container
   itemId: 91309
   containerName: Dragon Bash Victory Coffer

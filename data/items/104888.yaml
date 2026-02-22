@@ -1,0 +1,24 @@
+id: 104888
+name: 'Dragon''s End: Commander''s Choice Chest'
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/FDF5B9F3AE45086BE55CF4CF7C79F313D6A01E61/2594264.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_End:_Commander's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104910
+  containerName: 'Dragon''s End: Commander''s Choice Chest'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

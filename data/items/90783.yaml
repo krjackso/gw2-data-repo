@@ -42,9 +42,9 @@ acquisitions:
   - itemId: 43320
     quantity: 1
   metadata:
-    limitType: weekly
+    festival: Dragon Bash
     limitAmount: 1
-    notes: Requires the festival Dragon Bash
+    limitType: weekly
 - type: vendor
   vendorName: Humble Stone
   outputQuantity: 10

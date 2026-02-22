@@ -116,7 +116,7 @@ acquisitions:
   metadata:
     limitType: weekly
     limitAmount: 3
-    notes: Requires the festival Super Adventure Festival.
+    festival: Super Adventure Festival
 - type: achievement
   achievementName: Azure Dragon Slayer Weapon Collector
   achievementCategory: Rare Collections

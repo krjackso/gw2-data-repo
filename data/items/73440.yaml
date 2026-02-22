@@ -1,0 +1,32 @@
+id: 73440
+name: Legendary Underwater Inscription
+type: CraftingMaterial
+rarity: Exotic
+level: 10
+icon: https://render.guildwars2.com/file/77C8A04BDD91541BDFE85729FA1C0BB0C8BF45C7/1205434.png
+description: Used in the crafting of underwater weapons with the potential to become
+  Legend.
+vendorValue: 15
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Legendary_Underwater_Inscription
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 12988
+    quantity: 1
+  - itemId: 19721
+    quantity: 1
+  - itemId: 24277
+    quantity: 5
+  - itemId: 46739
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Artificer
+    - Huntsman
+    minRating: 450

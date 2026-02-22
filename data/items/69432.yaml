@@ -16,7 +16,7 @@ acquisitions:
   vendorName: 'Auric Basin: Commander''s Choice Chest'
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
@@ -37,14 +37,14 @@ acquisitions:
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
@@ -65,7 +65,7 @@ acquisitions:
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
@@ -79,21 +79,14 @@ acquisitions:
   vendorName: Portable Wizard's Tower Exchange
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104944
-    quantity: 1
-  metadata: {}
-- type: vendor
-  vendorName: Wizard's Gobbler
-  outputQuantity: 1
-  requirements:
-  - itemId: 104906
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: vendor
@@ -107,7 +100,14 @@ acquisitions:
   vendorName: Wizard's Gobbler
   outputQuantity: 1
   requirements:
-  - itemId: 104944
+  - itemId: 104906
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1
+  requirements:
+  - itemId: 104911
     quantity: 1
   metadata: {}
 - type: container

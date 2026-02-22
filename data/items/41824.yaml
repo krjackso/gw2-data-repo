@@ -35,7 +35,9 @@ acquisitions:
   requirements:
   - itemId: 39752
     quantity: 10
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }
 - type: container
   itemId: 80862
   containerName: Box of Super Adventure Box Goods

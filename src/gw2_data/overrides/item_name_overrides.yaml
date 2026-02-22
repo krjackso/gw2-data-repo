@@ -563,34 +563,66 @@ Peridot Nugget: 24468
 Lapis Nugget: 24470
 
 # ============================================================================
-# Map Reward Chests - Container type preferred over Gizmo type
-# These items have two variants in the API: Container (used for acquisition
-# tracking) and Gizmo (used for UI display). We always pick the Container type.
+# Map Reward Chests - Container/Gizmo disambiguation
+# These items exist as two variants in the GW2 API with the same name:
+# - Container (openable, drops loot)
+# - Gizmo or Consumable (exchangeable at vendors)
+#
+# Base name → Gizmo/Consumable ID (used by vendor requirement resolution)
+# "Name (container)" → Container ID (used by container acquisition resolution)
 # ============================================================================
 
-'Amnytas: Commander''s Choice Chest': 104730
-'Auric Basin: Commander''s Choice Chest': 104944
-'Auric Basin: Hero''s Choice Chest': 78650
-'Citadel of Zakiros: Commander''s Choice Chest': 104783
-'Convergence: Outer Nayos: Commander''s Choice Chest': 104710
-'Crystal Oasis: Commander''s Choice Chest': 104798
-'Domain of Vabbi: Commander''s Choice Chest': 104803
-'Dragon''s End: Commander''s Choice Chest': 104910
-'Dragon''s Stand: Commander''s Choice Chest': 104894
-'Dragon''s Stand: Hero''s Choice Chest': 78617
-'Echovald Wilds: Commander''s Choice Chest': 104885
-'Elon Riverlands: Commander''s Choice Chest': 104943
-'Gyala Delve: Commander''s Choice Chest': 104738
-'Inner Nayos: Commander''s Choice Chest': 104929
-'Janthir Syntri: Commander''s Choice Chest': 104832
-'New Kaineng City: Commander''s Choice Chest': 104988
-'Seitung Province: Commander''s Choice Chest': 104973
-'Skywatch Archipelago: Commander''s Choice Chest': 104686
-'Tangled Depths: Commander''s Choice Chest': 104884
-'Tangled Depths: Hero''s Choice Chest': 78332
-'The Desolation: Commander''s Choice Chest': 104748
-'Verdant Brink: Commander''s Choice Chest': 104687
-'Verdant Brink: Hero''s Choice Chest': 78171
+# Commander's Choice Chests
+'Amnytas: Commander''s Choice Chest': 104945
+'Amnytas: Commander''s Choice Chest (container)': 104730
+'Auric Basin: Commander''s Choice Chest': 104911
+'Auric Basin: Commander''s Choice Chest (container)': 104944
+'Citadel of Zakiros: Commander''s Choice Chest': 104728
+'Citadel of Zakiros: Commander''s Choice Chest (container)': 104783
+'Convergence: Outer Nayos: Commander''s Choice Chest': 104756
+'Convergence: Outer Nayos: Commander''s Choice Chest (container)': 104710
+'Crystal Oasis: Commander''s Choice Chest': 104677
+'Crystal Oasis: Commander''s Choice Chest (container)': 104798
+'Domain of Vabbi: Commander''s Choice Chest': 104961
+'Domain of Vabbi: Commander''s Choice Chest (container)': 104803
+'Dragon''s End: Commander''s Choice Chest': 104888
+'Dragon''s End: Commander''s Choice Chest (container)': 104910
+'Dragon''s Stand: Commander''s Choice Chest': 104906
+'Dragon''s Stand: Commander''s Choice Chest (container)': 104894
+'Echovald Wilds: Commander''s Choice Chest': 104897
+'Echovald Wilds: Commander''s Choice Chest (container)': 104885
+'Elon Riverlands: Commander''s Choice Chest': 104993
+'Elon Riverlands: Commander''s Choice Chest (container)': 104943
+'Gyala Delve: Commander''s Choice Chest': 104883
+'Gyala Delve: Commander''s Choice Chest (container)': 104738
+'Inner Nayos: Commander''s Choice Chest': 104856
+'Inner Nayos: Commander''s Choice Chest (container)': 104929
+'Janthir Syntri: Commander''s Choice Chest': 104942
+'Janthir Syntri: Commander''s Choice Chest (container)': 104832
+'New Kaineng City: Commander''s Choice Chest': 104751
+'New Kaineng City: Commander''s Choice Chest (container)': 104988
+'Seitung Province: Commander''s Choice Chest': 104879
+'Seitung Province: Commander''s Choice Chest (container)': 104973
+'Skywatch Archipelago: Commander''s Choice Chest': 104831
+'Skywatch Archipelago: Commander''s Choice Chest (container)': 104686
+'Tangled Depths: Commander''s Choice Chest': 105001
+'Tangled Depths: Commander''s Choice Chest (container)': 104884
+'The Desolation: Commander''s Choice Chest': 104740
+'The Desolation: Commander''s Choice Chest (container)': 104748
+'Verdant Brink: Commander''s Choice Chest': 104838
+'Verdant Brink: Commander''s Choice Chest (container)': 104687
+
+# Hero's Choice Chests
+'Auric Basin: Hero''s Choice Chest': 78748
+'Auric Basin: Hero''s Choice Chest (container)': 78650
+'Dragon''s Stand: Hero''s Choice Chest': 78783
+'Dragon''s Stand: Hero''s Choice Chest (container)': 78617
+'Tangled Depths: Hero''s Choice Chest': 78751
+'Tangled Depths: Hero''s Choice Chest (container)': 78332
+'The Desolation: Hero''s Choice Chest': 90994
+'The Desolation: Hero''s Choice Chest (container)': 84360
+'Verdant Brink: Hero''s Choice Chest': 78743
+'Verdant Brink: Hero''s Choice Chest (container)': 78171
 
 # Gen 1 related precursors
 Wolf Statue: 19640
@@ -616,6 +648,10 @@ Mist Band (Infused): 80058
 Attuned Mist Band (Infused): 80793
 
 Slab of Poultry Meat: 24360
+
+# Plurals
+Globs of Ectoplasm: 19721
+Eyes of Kormir: 83103
 
 Legendary Weapon Starter Key—Set 10: 103847
 Legendary Weapon Starter Key—Set 6: 103839

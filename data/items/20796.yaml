@@ -50,4 +50,6 @@ acquisitions:
     quantity: 1
   - currencyId: 1
     quantity: 288
-  metadata: {}
+  metadata: {
+    festival: Super Adventure Festival
+  }

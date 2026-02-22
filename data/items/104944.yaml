@@ -16,11 +16,33 @@ flags:
 - NoSalvage
 - NoSell
 - AccountBindOnUse
-wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Basin:_Commander's_Choice_Chest
-lastUpdated: '2026-02-08'
+wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Basin:_Commander's_Choice_Chest_(container)
+lastUpdated: '2026-02-22'
 acquisitions:
-- type: container
-  containerName: 'Auric Basin: Commander''s Choice Chest (container)'
-  outputQuantity: 1
-  requirements: []
+- type: vendor
+  vendorName: Gharr Leadclaw
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 78748
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Portable Wizard's Tower Exchange
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 78748
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
+  metadata: {}
+- type: vendor
+  vendorName: Wizard's Gobbler
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 78748
+    quantity: 1
+  - currencyId: 2
+    quantity: 777
   metadata: {}

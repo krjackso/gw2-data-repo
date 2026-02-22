@@ -1,0 +1,32 @@
+id: 83264
+name: Insignia of the Spearmarshal
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/447507A83576091059A53471BCFA94565C9E45D9/1766405.png
+description: Used in crafting the Spearmarshal armor set, using the Marshal's (+Power,
+  +Healing, +Condition Damage, +Precision) stat combination.
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Insignia_of_the_Spearmarshal
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 76614
+    quantity: 5
+  - itemId: 82678
+    quantity: 1
+  - itemId: 83103
+    quantity: 100
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

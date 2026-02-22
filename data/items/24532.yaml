@@ -1,0 +1,49 @@
+id: 24532
+name: Crest of the Rabid
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/4F40450DF59CB92FD1A102DD98D6FBEBC39BE1EB/340590.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Crest_of_the_Rabid
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: salvage
+  itemId: 19338
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 19340
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 19349
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 39467
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 39471
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 39483
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

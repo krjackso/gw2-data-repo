@@ -1,0 +1,23 @@
+id: 78783
+name: 'Dragon''s Stand: Hero''s Choice Chest'
+type: Consumable
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/E0ED00A7EF9EE56AD09EF2CE00B25CD2D26B024B/1424064.png
+description: Awards your choice of items. Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Stand:_Hero's_Choice_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: map_reward
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    rewardType: map_completion
+    regionName: Dragon's Stand
+    notes: once per day per account

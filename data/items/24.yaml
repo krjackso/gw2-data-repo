@@ -21,7 +21,7 @@ acquisitions:
   - currencyId: 2
     quantity: 700
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday
 - type: vendor
   vendorName: Charity Corps Seraph
   outputQuantity: 10.0
@@ -31,4 +31,4 @@ acquisitions:
   - currencyId: 2
     quantity: 7000
   metadata:
-    notes: Requires the festival Wintersday
+    festival: Wintersday

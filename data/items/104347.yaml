@@ -1,0 +1,23 @@
+id: 104347
+name: Mistburned Renown Chest
+type: Gizmo
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/B76F500FD492F00954A972A6FDC801DBF095D654/3374828.png
+description: Double-click to open.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mistburned_Renown_Chest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: achievement
+  achievementName: 'Mistburned Barrens: Alliance Staging Ground Renown Heart'
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: 'Requires completing the Alliance Staging Ground Renown Heart on 3 unique
+      days. Prerequisite: Mistburned Barrens Renown Mastery'
