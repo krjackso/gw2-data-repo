@@ -1,0 +1,13 @@
+id: 76179
+name: Freshwater Pearl
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/629318080FD49E701566ED98DF98FA54033AC9CB/223939.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Freshwater_Pearl
+lastUpdated: '2026-02-22'
+acquisitions: []

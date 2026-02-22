@@ -1,0 +1,31 @@
+id: 89999
+name: Superior Rune of Fireworks
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/CECC01C8220163A9646171B0BAA528B73DE3D527/2100803.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Fireworks
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 77699
+    quantity: 10
+  - itemId: 89103
+    quantity: 3
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

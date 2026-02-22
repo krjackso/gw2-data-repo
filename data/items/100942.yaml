@@ -1,0 +1,65 @@
+id: 100942
+name: Relic of Dagda
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/CA28F7BFEA1B695DD19204E455BA270D334EE307/3122340.png
+description: After using an elite skill, fire a projectile at the target or nearest
+  enemy that damages and inflicts conditions. Damage scales with the recharge of the
+  elite skill.
+vendorValue: 200
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_Dagda
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Archivist Ikur
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 73
+    quantity: 250
+  metadata:
+    notes: 'Requires the achievement Cosmic Observatory Raid Encounter and Guild Wars
+      2: Secrets of the Obscure.'
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 15
+    quantity: 100
+  - currencyId: 65
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Cosmic Observatory
+      Strike Mission or acquisition from Amnytas Gear Box.'
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 30
+    quantity: 10
+  - currencyId: 33
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Cosmic Observatory
+      Strike Mission or acquisition from Amnytas Gear Box.'
+- type: achievement
+  achievementName: Cosmic Observatory Raid Encounter
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: achievement
+  achievementName: Legendary Cosmic Observatory Raid Encounter
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Amnytas Gear Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

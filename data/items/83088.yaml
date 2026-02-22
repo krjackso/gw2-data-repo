@@ -1,0 +1,24 @@
+id: 83088
+name: Marshal's Elonian Vestments
+type: Armor
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/CD2A31279FD6D6052DFB600EE6023B0B090DB841/1768360.png
+description: 'Using this will unlock all weight classes of this skin.
+
+  An upgraded version of this can be crafted using recipes purchased throughout the
+  Crystal Desert.'
+vendorValue: 297
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Marshal's_Elonian_Vestments
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 82619
+  containerName: Elonian Coat Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,19 @@
+id: 24773
+name: Platinum Doubloon
+type: UpgradeComponent
+rarity: Rare
+level: 50
+icon: https://render.guildwars2.com/file/E5C1AB06B16DEC154546D21F63620173780AC860/434543.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 135
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Platinum_Doubloon
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: salvage
+  itemId: 80488
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

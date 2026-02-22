@@ -1,0 +1,49 @@
+id: 84044
+name: Mostly-Digested Boots
+type: Trophy
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/273A73F21615545861687CCDF514C12490AB08A4/223685.png
+description: 'Salvage Item
+
+  <c=@Flavor> Elona''s cobblers are probably deserving of more praise, considering
+  the longevity of their works.</c>'
+vendorValue: 0
+flags:
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Mostly-Digested_Boots
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}

@@ -1,0 +1,205 @@
+id: 24771
+name: Superior Rune of Melandru
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/66A56E6838D707BBBAD0B8D0091425502F7E3AF4/220714.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Melandru
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24515
+    quantity: 5
+  - itemId: 89258
+    quantity: 2
+  - itemId: 89271
+    quantity: 8
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400
+- type: salvage
+  itemId: 109
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 115
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 203
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 342
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 594
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 680
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 733
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 792
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1202
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1872
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4631
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4634
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4635
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4637
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4638
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4639
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4641
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 4642
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66773
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66774
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66775
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66776
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66777
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66778
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66779
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66780
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66781
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66782
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 69854
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

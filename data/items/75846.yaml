@@ -1,0 +1,34 @@
+id: 75846
+name: Chaos Gun Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/28D1BD7D94CC736E41017945CD94F12D730EB927/1204321.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chaos_Gun_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 70874
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  - itemId: 73332
+    quantity: 1
+  - itemId: 75330
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

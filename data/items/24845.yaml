@@ -1,0 +1,64 @@
+id: 24845
+name: Superior Rune of the Aristocracy
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/D8375410EAF95DB5D29CAB063051AD2AA8FAD740/221152.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Aristocracy
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Lava Lounge)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Mistlock Sanctuary)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Seraph Outfitter Eva
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Visiting Trader (Dungeon Merchant)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Salvaging exotic armor from Caudecus's Manor using a Black Lion Salvage
+      Kit

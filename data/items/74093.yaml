@@ -1,0 +1,34 @@
+id: 74093
+name: Zap Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/54E7B7EB140623986E3EF3117F7C9AE9635D1705/1206673.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Zap_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 72261
+    quantity: 1
+  - itemId: 73013
+    quantity: 1
+  - itemId: 75769
+    quantity: 1
+  - itemId: 76117
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

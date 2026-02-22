@@ -1,0 +1,20 @@
+id: 84731
+name: Piece of Unidentified Gear
+type: Container
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/B147379DFC5430E207FCB742804E199EDF727719/1766400.png
+description: Salvage for a reward of crafting materials, or double-click to identify
+  and receive an item.
+vendorValue: 137
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Unidentified_Gear
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Casino Blitz Reward Cashier
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 83886
+    quantity: 20
+  metadata: {}

@@ -1,0 +1,27 @@
+id: 72315
+name: Maguuma Burl
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/B15D7F31F8A477717E6055A2AFE0010BD90FECD1/1203051.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Maguuma_Burl
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 104944
+  containerName: 'Auric Basin: Commander''s Choice Chest'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 78650
+  containerName: 'Auric Basin: Hero''s Choice Chest'
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

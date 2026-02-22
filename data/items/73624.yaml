@@ -1,0 +1,40 @@
+id: 73624
+name: Finite Result
+type: Back
+rarity: Ascended
+level: 80
+icon: https://render.guildwars2.com/file/EF6661AF5FEDDA022D2DBD9F18E41DDDFF1AD202/1202359.png
+description: Return to Kelvei in the Fractals of the Mists to find out how to upgrade
+  this item.
+vendorValue: 330
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- NotUpgradeable
+- Unique
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Finite_Result
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 70435
+    quantity: 1
+  - itemId: 74890
+    quantity: 1
+  - itemId: 75781
+    quantity: 1
+  - itemId: 76292
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    - Armorsmith
+    - Huntsman
+    - Artificer
+    - Leatherworker
+    - Tailor
+    minRating: 500

@@ -1,0 +1,24 @@
+id: 83027
+name: Marshal's Elonian Shoulderpads
+type: Armor
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/D41CA50132C7A454081FEDD81CAB06FAACD6A144/1768384.png
+description: 'Using this will unlock all weight classes of this skin.
+
+  An upgraded version of this can be crafted using recipes purchased throughout the
+  Crystal Desert.'
+vendorValue: 218
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Marshal's_Elonian_Shoulderpads
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 83592
+  containerName: Elonian Shoulder Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

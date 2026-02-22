@@ -1,0 +1,35 @@
+id: 70450
+name: Superior Rune of the Druid
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/0FBCEEC6A67AE360C81EE314801948A5FA31E2D5/1201521.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Druid
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24815
+    quantity: 1
+  - itemId: 68942
+    quantity: 1
+  - itemId: 74328
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400
+- type: salvage
+  itemId: 69991
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

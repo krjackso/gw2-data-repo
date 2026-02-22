@@ -1,0 +1,12 @@
+id: 71069
+name: Piece of Mother-of-Pearl
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/70789A9BF4B370F6DF06DC3C53B0B95754F1D3CC/1203054.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Mother-of-Pearl
+lastUpdated: '2026-02-22'
+acquisitions: []

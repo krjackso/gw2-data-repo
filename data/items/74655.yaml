@@ -1,0 +1,34 @@
+id: 74655
+name: Storm Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/4F12E098EDD12E91104A58385FD458EFF2136C1D/1206124.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Storm_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 70545
+    quantity: 1
+  - itemId: 70977
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  - itemId: 75801
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Artificer
+    minRating: 450

@@ -1,0 +1,34 @@
+id: 77097
+name: The Lover Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/BFBB79F5050BC302EF09955D5E99405BA14A5F79/1200736.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Lover_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 72261
+    quantity: 1
+  - itemId: 72627
+    quantity: 1
+  - itemId: 74840
+    quantity: 1
+  - itemId: 75228
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Huntsman
+    minRating: 450

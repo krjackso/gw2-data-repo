@@ -1,0 +1,157 @@
+id: 24797
+name: Superior Rune of the Flame Legion
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/776392A017E4DA16BF3DCA69292BB31ABA998010/220703.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Flame_Legion
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 71069
+    quantity: 50
+  - itemId: 89258
+    quantity: 2
+  - itemId: 89271
+    quantity: 8
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400
+- type: salvage
+  itemId: 76
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 92
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 105
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 133
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 136
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 210
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 251
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 412
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 600
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 626
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 651
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 703
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 825
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 859
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1221
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1359
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1649
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1856
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 1870
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 2042
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 2396
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

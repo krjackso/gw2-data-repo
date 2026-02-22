@@ -1,0 +1,31 @@
+id: 49460
+name: Superior Rune of Resistance
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/585BF273BFCD9D12F462087A19FBD12DF755269A/681057.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Resistance
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 38024
+    quantity: 3
+  - itemId: 89258
+    quantity: 2
+  - itemId: 89271
+    quantity: 8
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

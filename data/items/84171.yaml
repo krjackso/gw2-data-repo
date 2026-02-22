@@ -1,0 +1,23 @@
+id: 84171
+name: Superior Rune of the Rebirth
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/DA4AF714D87F63978039E053D80F9F717A49D3BE/1766390.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Rebirth
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: 'Requires Guild Wars 2: Path of Fire.'

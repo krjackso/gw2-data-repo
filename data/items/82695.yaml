@@ -1,0 +1,24 @@
+id: 82695
+name: Marshal's Elonian Pants
+type: Armor
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/1371DCA05CC0605311EA6AE44AD7CA6EC4901CAA/1768363.png
+description: 'Using this will unlock all weight classes of this skin.
+
+  An upgraded version of this can be crafted using recipes purchased throughout the
+  Crystal Desert.'
+vendorValue: 278
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Marshal's_Elonian_Pants
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 84435
+  containerName: Elonian Leg Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

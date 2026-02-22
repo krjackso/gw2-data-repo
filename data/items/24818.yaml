@@ -1,0 +1,29 @@
+id: 24818
+name: Superior Rune of the Thief
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/997AEFF0927F640DE515B4DA516911B3B3B6B9EA/220731.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Thief
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 19737
+    quantity: 1
+  - itemId: 89216
+    quantity: 1
+  - itemId: 89271
+    quantity: 12
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

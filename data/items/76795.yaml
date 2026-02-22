@@ -1,0 +1,34 @@
+id: 76795
+name: Tooth of Frostfang Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/0F680B9CD990697C7AAD0C4BADA1FF220C07171B/1200392.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Tooth_of_Frostfang_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 70868
+    quantity: 1
+  - itemId: 70952
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  - itemId: 73671
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

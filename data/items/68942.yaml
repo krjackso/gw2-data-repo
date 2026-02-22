@@ -1,0 +1,18 @@
+id: 68942
+name: Evergreen Lodestone
+type: CraftingMaterial
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/2CF4BAB1CD7F509DF151F0472F632C0D1ECAF468/1203091.png
+vendorValue: 63
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Evergreen_Lodestone
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Created by double-clicking two Evergreen Cores (equivalent to 16 Evergreen
+      Slivers)

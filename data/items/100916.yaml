@@ -1,0 +1,40 @@
+id: 100916
+name: Relic of the Thief
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/3523AC08EB04347CF371E9A91F4B985D12FB4ED3/3122371.png
+description: Upon striking an enemy with a weapon skill that has a recharge or resource
+  cost, gain increased strike damage. <c=@reminder>When this triggers, refresh the
+  duration of all stacks.</c>
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Thief
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 19737
+    quantity: 5
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

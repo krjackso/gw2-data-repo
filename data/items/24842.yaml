@@ -1,0 +1,58 @@
+id: 24842
+name: Superior Rune of the Monk
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/E028F4BC03E9EC36A368712463D824CEC30FCCDA/220738.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Monk
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Historian Symon
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Lava Lounge)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Mistlock Sanctuary)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Visiting Trader
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}

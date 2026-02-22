@@ -1,0 +1,37 @@
+id: 95115
+name: Nevermore
+type: Container
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/5346383A9218504978A57642D9F664DB6EE9984D/1206505.png
+description: Double click to receive your returned legendary weapon.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Nevermore
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 71820
+    quantity: 1
+  - itemId: 73239
+    quantity: 1
+  - itemId: 74068
+    quantity: 1
+  - itemId: 74300
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

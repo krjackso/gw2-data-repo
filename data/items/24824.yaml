@@ -1,0 +1,29 @@
+id: 24824
+name: Superior Rune of the Guardian
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/AE08720A7849BB97DA0E299C00440EFA5C6B1F98/220733.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Guardian
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24305
+    quantity: 1
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 12
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

@@ -1,582 +1,429 @@
-id: 89216
-name: Charm of Skill
-type: CraftingMaterial
-rarity: Masterwork
-level: 0
-icon: https://render.guildwars2.com/file/F99BAAD3C841D8AC4E5C621972454E400E3CD85D/2063467.png
-description: Used to craft runes.
-vendorValue: 32
+id: 24848
+name: Superior Rune of the Nightmare
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/2420347B95791503F2E666E948E825A652095395/220739.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
 flags:
-- NoSalvage
-wikiUrl: https://wiki.guildwars2.com/wiki/Charm_of_Skill
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Nightmare
 lastUpdated: '2026-02-22'
 acquisitions:
-- type: salvage
-  itemId: 24691
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24692
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24693
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24700
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24701
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24702
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24703
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24704
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24705
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24715
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24716
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24717
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24733
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24734
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24735
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24736
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24737
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24738
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24751
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24752
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24753
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24786
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24787
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24788
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24810
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24811
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24812
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
-- type: salvage
-  itemId: 24813
-  outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 24814
+- type: vendor
+  vendorName: Merchant (Lava Lounge)
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
-- type: salvage
-  itemId: 24815
+- type: vendor
+  vendorName: Merchant (Mistlock Sanctuary)
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
-- type: salvage
-  itemId: 24816
+- type: vendor
+  vendorName: Tear Cinderskull
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
-- type: salvage
-  itemId: 24817
+- type: vendor
+  vendorName: Valiant Saeraquel
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
-- type: salvage
-  itemId: 24818
+- type: vendor
+  vendorName: Visiting Trader (Dungeon Merchant)
   outputQuantity: 1.0
-  guaranteed: true
-  requirements: []
+  requirements:
+  - currencyId: 69
+    quantity: 120
   metadata: {}
 - type: salvage
-  itemId: 24828
+  itemId: 5730
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24829
+  itemId: 5732
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24830
+  itemId: 5837
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24837
+  itemId: 5838
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24838
+  itemId: 5839
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24839
+  itemId: 5840
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24843
+  itemId: 5841
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24844
+  itemId: 5842
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24845
+  itemId: 17372
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24846
+  itemId: 17373
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24847
+  itemId: 17374
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24848
+  itemId: 17375
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24849
+  itemId: 17376
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24850
+  itemId: 17377
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24851
+  itemId: 17378
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24855
+  itemId: 17379
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24856
+  itemId: 17380
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24857
+  itemId: 17381
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24858
+  itemId: 17382
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24859
+  itemId: 17383
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 24860
+  itemId: 17384
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 36042
+  itemId: 17385
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 36043
+  itemId: 17386
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 36044
+  itemId: 17387
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 48907
+  itemId: 17388
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 49460
+  itemId: 17389
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 67339
+  itemId: 18576
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 67344
+  itemId: 18577
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 70450
+  itemId: 18578
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 72852
+  itemId: 18579
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 72912
+  itemId: 18580
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 81091
+  itemId: 18581
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 82633
+  itemId: 18582
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 82791
+  itemId: 18583
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 83008
+  itemId: 18584
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 83964
+  itemId: 18585
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 84171
+  itemId: 18586
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 84731
+  itemId: 18587
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 85016
+  itemId: 18588
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 85713
+  itemId: 18589
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 88118
+  itemId: 18590
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 99997
+  itemId: 18591
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100048
+  itemId: 18592
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100153
+  itemId: 18593
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100177
+  itemId: 18594
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100311
+  itemId: 18595
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100345
+  itemId: 18596
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100385
+  itemId: 18597
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100390
+  itemId: 18598
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100400
+  itemId: 18599
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100403
+  itemId: 18600
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100542
+  itemId: 18601
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100561
+  itemId: 18602
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100579
+  itemId: 18603
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100614
+  itemId: 18604
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100659
+  itemId: 18605
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100752
+  itemId: 18606
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100908
+  itemId: 18607
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100916
+  itemId: 18608
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100924
+  itemId: 18609
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100942
+  itemId: 18610
   outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 100947
+  itemId: 18611
   outputQuantity: 1.0
   guaranteed: true
   requirements: []

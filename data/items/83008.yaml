@@ -1,0 +1,27 @@
+id: 83008
+name: Piece of Rare Unidentified Gear
+type: Container
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/EF63A10BD2317CECCEA63A3B7E6555550B414C4E/1766399.png
+description: Salvage for a reward of crafting materials, or double-click to identify
+  and receive an item.
+vendorValue: 206
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Rare_Unidentified_Gear
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Janthiri Renown Chest
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 102334
+    quantity: 1
+  metadata: {}
+- type: vendor
+  vendorName: Mistburned Renown Chest
+  outputQuantity: 2.0
+  requirements:
+  - itemId: 104347
+    quantity: 1
+  metadata: {}

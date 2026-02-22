@@ -1,0 +1,20 @@
+id: 76166
+name: Superior Rune of the Tempest
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/D144F10ABB48042794BA0627EE04B3311A4131DB/1201529.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Tempest
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 73146
+  containerName: Tempest's Loop
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

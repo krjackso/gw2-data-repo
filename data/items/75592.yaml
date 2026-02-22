@@ -1,0 +1,34 @@
+id: 75592
+name: Dusk Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/41935AA2B7019645F4CB507EE93500FDEF1F39E7/1202438.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Dusk_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 71852
+    quantity: 1
+  - itemId: 72261
+    quantity: 1
+  - itemId: 72743
+    quantity: 1
+  - itemId: 76994
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

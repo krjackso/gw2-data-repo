@@ -1,0 +1,39 @@
+id: 100542
+name: Relic of the Cavalier
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/C3AFC50F654E2749ADD9033CE007033F6F9B0D7A/3122335.png
+description: Grant yourself aegis, quickness, swiftness, resistance, and might when
+  striking an enemy with your mount's <c=@abilitytype>engage</c> skill.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Cavalier
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 83103
+    quantity: 30
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,38 @@
+id: 100561
+name: Relic of the Adventurer
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/9A76D8C27FCAB8F66D0DC531906808B134D80EAD/3122328.png
+description: Gain endurance after using a healing skill.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Adventurer
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 24773
+    quantity: 3
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

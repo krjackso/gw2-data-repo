@@ -1,0 +1,39 @@
+id: 100579
+name: Relic of the Nightmare
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/74940C36779745CBA9DDD56CDF6CBAC1CEA8179F/3122363.png
+description: After using an elite skill, send forth a nightmare pulse that inflicts
+  fear and poison on nearby enemies.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Nightmare
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 24532
+    quantity: 15
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

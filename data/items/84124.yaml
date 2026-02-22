@@ -1,0 +1,24 @@
+id: 84124
+name: Marshal's Elonian Shoes
+type: Armor
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/46A1C8666F5D0D12595F900BCAC82006C512E907/1768359.png
+description: 'Using this will unlock all weight classes of this skin.
+
+  An upgraded version of this can be crafted using recipes purchased throughout the
+  Crystal Desert.'
+vendorValue: 198
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Marshal's_Elonian_Shoes
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 82362
+  containerName: Elonian Boot Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

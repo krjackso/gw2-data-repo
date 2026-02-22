@@ -1,0 +1,18 @@
+id: 73399
+name: Superior Rune of the Chronomancer
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/80FE6B56334AB53830DD2D0F61992DF4CC44A710/1201519.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Chronomancer
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Can be extracted from this armor piece by salvaging

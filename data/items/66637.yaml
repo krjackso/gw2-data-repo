@@ -1,0 +1,27 @@
+id: 66637
+name: Piece of Ambrite
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/D2CC0E0A9C4E391BC2D1B6EFADB0EC9D6CE0DFFC/831471.png
+description: Refine into Sheets of Ambrite.
+vendorValue: 46
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Piece_of_Ambrite
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  containerName: Black Lion Delivery Box (Season 3)
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 3.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 66670
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

@@ -1,0 +1,29 @@
+id: 24803
+name: Superior Rune of the Mesmer
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/D4099559DA2558F9B172EFB306EE0C942193B66F/220727.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Mesmer
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24330
+    quantity: 1
+  - itemId: 89103
+    quantity: 3
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

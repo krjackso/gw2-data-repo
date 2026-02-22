@@ -1,0 +1,13 @@
+id: 75654
+name: Ebony Orb
+type: UpgradeComponent
+rarity: Rare
+level: 80
+icon: https://render.guildwars2.com/file/052E2FBD2FF19BC174E19568966A174B9A0FB1E5/1203016.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 198
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ebony_Orb
+lastUpdated: '2026-02-22'
+acquisitions: []

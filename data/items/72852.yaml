@@ -1,0 +1,19 @@
+id: 72852
+name: Superior Rune of the Daredevil
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/5957E29A2B985F0FF0E50878F62A702262BC0714/1201520.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Daredevil
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: salvage
+  itemId: 75383
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

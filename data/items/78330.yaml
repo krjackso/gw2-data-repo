@@ -1,0 +1,18 @@
+id: 78330
+name: The Hunt
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/CAA2FD5EAFCBE0B403938072116B20D5376FCD67/1423766.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Hunt
+lastUpdated: '2026-02-22'
+acquisitions: []

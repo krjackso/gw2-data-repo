@@ -1,0 +1,29 @@
+id: 82791
+name: Superior Rune of the Deadeye
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/17E6C846E62E51AFF8B8AF5A33FD53B391BD7E75/1766386.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Deadeye
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: 'Requires Guild Wars 2: Path of Fire.'
+- type: salvage
+  itemId: 84484
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

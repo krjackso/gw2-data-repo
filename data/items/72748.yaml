@@ -1,0 +1,34 @@
+id: 72748
+name: Carcharias Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/7FA02AFB476C24D0A505E5E8D1905C2878B4D443/1204388.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 396
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Carcharias_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 70466
+    quantity: 1
+  - itemId: 72337
+    quantity: 1
+  - itemId: 73440
+    quantity: 1
+  - itemId: 74717
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

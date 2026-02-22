@@ -1,0 +1,65 @@
+id: 100153
+name: Relic of the Fractal
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/B2D409644147BF18935A95A52505ABCB9EECE142/3122351.png
+description: When you inflict bleeding on an enemy with 6 or more stacks of bleeding,
+  also inflict burning and torment.
+vendorValue: 200
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Fractal
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Archivist Ikur
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 73
+    quantity: 250
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure'
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 15
+    quantity: 100
+  - currencyId: 65
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure'
+- type: vendor
+  vendorName: Junior Archivist
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 72
+    quantity: 250
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure'
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 30
+    quantity: 10
+  - currencyId: 33
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure'
+- type: vendor
+  vendorName: Torcall
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 76
+    quantity: 250
+  metadata:
+    notes: 'Requires Guild Wars 2: Janthir Wilds'

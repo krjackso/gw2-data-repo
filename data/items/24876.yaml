@@ -1,0 +1,79 @@
+id: 24876
+name: Sapphire Shard
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/DACC0A0351559BA034986F4E0FB9435428A1D6F2/221177.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sapphire_Shard
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24507
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 200
+- type: salvage
+  itemId: 13384
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13387
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13426
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13429
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13468
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13471
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13535
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13556
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 13577
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

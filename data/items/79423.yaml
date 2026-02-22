@@ -1,0 +1,21 @@
+id: 79423
+name: Reclaimed Wood Chunk
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png
+description: Salvage Item
+vendorValue: 25
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Reclaimed_Wood_Chunk
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 79432
+  containerName: Salvaged Debris
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 3.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

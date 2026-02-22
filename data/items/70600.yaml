@@ -1,0 +1,36 @@
+id: 70600
+name: Superior Rune of Leadership
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/0CD614069C9917057D1BEC5B060E689E18E8EE51/1201517.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Leadership
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 10000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: Requires Heart of Thorns and Provisions Master 6th tier.
+- type: vendor
+  vendorName: Whispers Keeper
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 46682
+    quantity: 50
+  - currencyId: 1
+    quantity: 20000
+  metadata: {}

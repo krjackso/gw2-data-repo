@@ -1,0 +1,27 @@
+id: 82990
+name: Spearmarshal's Pauldrons
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/B1DC443B0D1A2869FD451DE839082C305B5EFC07/1822772.png
+vendorValue: 291
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spearmarshal's_Pauldrons
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 71350
+    quantity: 1
+  - itemId: 72060
+    quantity: 1
+  - itemId: 83264
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

@@ -1,0 +1,29 @@
+id: 24836
+name: Superior Rune of the Scholar
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/4378ABC0415950DAC6A05C76920392D72E242EC2/220736.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Scholar
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24300
+    quantity: 5
+  - itemId: 89103
+    quantity: 2
+  - itemId: 89271
+    quantity: 8
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

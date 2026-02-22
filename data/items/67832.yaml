@@ -1,0 +1,31 @@
+id: 67832
+name: Sheet of Charged Ambrite
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/0F610E4E91CDA394F96E61DD2CB0560ACF5C9823/904680.png
+description: Refined from ambrite and charged quartz.
+vendorValue: 48
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sheet_of_Charged_Ambrite
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 43772
+    quantity: 1
+  - itemId: 66637
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Artificer
+    - Huntsman
+    - Jeweler
+    - Leatherworker
+    - Tailor
+    - Weaponsmith
+    minRating: 400

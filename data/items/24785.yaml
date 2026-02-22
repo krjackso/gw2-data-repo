@@ -1,0 +1,64 @@
+id: 24785
+name: Superior Rune of the Golemancer
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/EB4F765E36EC9CF57526789A3EAB6702110D0949/220705.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Golemancer
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Peacemaker Skrimm
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Visiting Trader
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Salvaging any of the exotic armor from Crucible of Eternity using a Black
+      Lion Salvage Kit

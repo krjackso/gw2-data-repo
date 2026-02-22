@@ -1,0 +1,29 @@
+id: 44957
+name: Superior Rune of Perplexity
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/F67A922A4624470EBAD493920DC1EE2616769E9D/619716.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Perplexity
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 44941
+    quantity: 250
+  - itemId: 89103
+    quantity: 3
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

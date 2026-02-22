@@ -1,0 +1,12 @@
+id: 24366
+name: Large Skull
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/FA216B1B546314D0A4125D083F9BD34EA03B9329/67002.png
+vendorValue: 32
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Large_Skull
+lastUpdated: '2026-02-22'
+acquisitions: []

@@ -1,0 +1,13 @@
+id: 91095
+name: Sharkbait
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/FBCFDFC156A03D65A0D42BBB064FF9C1BF1BAA7A/2149938.png
+vendorValue: 396
+flags:
+- HideSuffix
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Sharkbait
+lastUpdated: '2026-02-22'
+acquisitions: []

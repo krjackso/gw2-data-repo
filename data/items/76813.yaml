@@ -1,0 +1,57 @@
+id: 76813
+name: Superior Rune of Surging
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/5C75473F560F80E6A6444147EA5C66F959C46E59/1201524.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Surging
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: Requires Heart of Thorns and Provisions Master 6th tier
+- type: vendor
+  vendorName: Nuhoch Mastery Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 20
+    quantity: 250
+  metadata:
+    notes: Requires the mastery Nuhoch Language
+- type: vendor
+  vendorName: Nuhoch Stomper
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 20
+    quantity: 250
+  metadata:
+    notes: Requires the mastery Nuhoch Language
+- type: vendor
+  vendorName: Tenoch
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 20
+    quantity: 250
+  metadata:
+    notes: Requires the mastery Nuhoch Language

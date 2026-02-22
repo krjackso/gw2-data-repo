@@ -1,0 +1,17 @@
+id: 66933
+name: Foxfire Cluster
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/16C3F5FEBCE2765E67BA183B34B723E234499429/849453.png
+vendorValue: 48
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Foxfire_Cluster
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: pvp_reward
+  trackName: Jungle Dragon Rank Reward Track
+  outputQuantity: 5.0
+  requirements: []
+  metadata: {}

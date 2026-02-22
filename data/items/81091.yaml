@@ -1,0 +1,31 @@
+id: 81091
+name: Superior Rune of Nature's Bounty
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/A891700CDC179D6CC4B2FDC82F4052AC19F41801/1676536.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Nature's_Bounty
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 81127
+    quantity: 3
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 4
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400

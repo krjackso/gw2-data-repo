@@ -1,0 +1,47 @@
+id: 72912
+name: Superior Rune of Thorns
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/32DA0B5704E8DEC0F36B6C460734C496C603541C/1201523.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Thorns
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: Requires Heart of Thorns and Provisions Master 6th tier.
+- type: vendor
+  vendorName: Itzel Mastery Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 19
+    quantity: 250
+  metadata:
+    notes: Requires the mastery Itzel Language.
+- type: vendor
+  vendorName: Xochitl
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 19
+    quantity: 250
+  metadata:
+    notes: Requires the mastery Itzel Language.

@@ -1,0 +1,29 @@
+id: 44956
+name: Superior Rune of Tormenting
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/F8BC046221EA49EB3D349B5D3C50DDF33213D8B3/619715.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Tormenting
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 44941
+    quantity: 250
+  - itemId: 89258
+    quantity: 1
+  - itemId: 89271
+    quantity: 12
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

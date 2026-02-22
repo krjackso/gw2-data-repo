@@ -1,0 +1,58 @@
+id: 24857
+name: Superior Rune of Sanctuary
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/7C142C0B6558D2DCDB01E580A04321302F4F5B40/220742.png
+description: '<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Sanctuary
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Ulof Sindersson
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Visiting Trader
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}

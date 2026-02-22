@@ -1,0 +1,39 @@
+id: 100390
+name: Relic of Antitoxin
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/61C74AAFED48CF9AD4BBCAD89F902654EA02B2AE/3122331.png
+description: Outgoing condition cleanses remove an additional condition. <c=@reminder>This
+  can only affect an ally once every interval.</c>
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_Antitoxin
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 48884
+    quantity: 50
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

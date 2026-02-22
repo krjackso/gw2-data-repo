@@ -1,0 +1,61 @@
+id: 100177
+name: Relic of Peitha
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/949A6A4179F514FCDEF3AC3D9C292B38D5E0047D/3122365.png
+description: After shadowstepping or using a deception skill, fire a blade at a nearby
+  enemy after a short delay, applying torment and increasing your strike damage against
+  that target.
+vendorValue: 200
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_Peitha
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Archivist Ikur
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 73
+    quantity: 250
+  metadata:
+    notes: 'Requires the achievement Secrets of the Obscure: Act 3 Mastery and Guild
+      Wars 2: Secrets of the Obscure.'
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 15
+    quantity: 100
+  - currencyId: 65
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Secrets of the
+      Obscure: Act 3 Mastery or acquisition from Amnytas Gear Box.'
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 30
+    quantity: 10
+  - currencyId: 33
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Secrets of the
+      Obscure: Act 3 Mastery or acquisition from Amnytas Gear Box.'
+- type: achievement
+  achievementName: 'Secrets of the Obscure: Act 3 Mastery'
+  achievementCategory: 'Secrets of the Obscure: Act 3'
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Amnytas Gear Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

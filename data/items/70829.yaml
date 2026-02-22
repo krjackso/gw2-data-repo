@@ -1,0 +1,35 @@
+id: 70829
+name: Superior Rune of the Reaper
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/4A990939E313EC37284DF1B1435435A7CE036930/1201525.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Reaper
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24806
+    quantity: 1
+  - itemId: 68942
+    quantity: 1
+  - itemId: 74202
+    quantity: 10
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    - Leatherworker
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 75672
+  containerName: Reaper's Hood
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}

@@ -1,0 +1,67 @@
+id: 42006
+name: Azurite Crystal
+type: UpgradeComponent
+rarity: Masterwork
+level: 65
+icon: https://render.guildwars2.com/file/1214625C57FE02B8A50644365AC862019CD06C6E/561994.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 110
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Azurite_Crystal
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: salvage
+  itemId: 41446
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41447
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41448
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41450
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41451
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41452
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41454
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41455
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: salvage
+  itemId: 41456
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

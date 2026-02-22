@@ -1,0 +1,29 @@
+id: 24827
+name: Superior Rune of the Trooper
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/643A3C23647EF27F520860F0EFC7FEEB29766B1A/220734.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Trooper
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24295
+    quantity: 5
+  - itemId: 89258
+    quantity: 2
+  - itemId: 89271
+    quantity: 8
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Armorsmith
+    minRating: 400

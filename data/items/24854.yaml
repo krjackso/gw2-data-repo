@@ -1,0 +1,58 @@
+id: 24854
+name: Superior Rune of the Baelfire
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/BE044D76F2F1762634B00A5E4216E7B8C104D1FB/220741.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Baelfire
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Dungeon Armor and Weapons
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Lava Lounge)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Merchant (Mistlock Sanctuary)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Officer Veros
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Tear Cinderskull
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}
+- type: vendor
+  vendorName: Visiting Trader (Dungeon Merchant)
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 69
+    quantity: 120
+  metadata: {}

@@ -1,0 +1,34 @@
+id: 24
+name: Sealed Package of Snowballs
+type: Consumable
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/1D05D1EE04E16E69710E1EAB11AC466BBF105778/219347.png
+description: Open this package to create several snowballs that can hit anyone else
+  holding a snowball.
+vendorValue: 0
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Sealed_Package_of_Snowballs
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 86601
+    quantity: 1
+  - currencyId: 2
+    quantity: 700
+  metadata:
+    notes: Requires the festival Wintersday
+- type: vendor
+  vendorName: Charity Corps Seraph
+  outputQuantity: 10.0
+  requirements:
+  - itemId: 86601
+    quantity: 10
+  - currencyId: 2
+    quantity: 7000
+  metadata:
+    notes: Requires the festival Wintersday

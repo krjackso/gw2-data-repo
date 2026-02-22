@@ -1,0 +1,25 @@
+id: 24506
+name: Topaz Lump
+type: UpgradeComponent
+rarity: Fine
+level: 35
+icon: https://render.guildwars2.com/file/20F826D4C42F7A9B9FCC122C0C80D8DA0AB9AE45/220945.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 34
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Topaz_Lump
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24273
+    quantity: 1
+  - itemId: 24535
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 125

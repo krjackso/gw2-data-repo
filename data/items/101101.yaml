@@ -1,0 +1,15 @@
+id: 101101
+name: Leather Aquabreather
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/FA1D042B0845BED8DA3CFA0FAA0837D5EB0207A6/61297.png
+vendorValue: 330
+flags:
+- AccountBound
+- NoMysticForge
+- NoSell
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Leather_Aquabreather
+lastUpdated: '2026-02-22'
+acquisitions: []

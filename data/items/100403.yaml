@@ -1,0 +1,38 @@
+id: 100403
+name: Relic of the Golemancer
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/13412697BB6AD89F2E6ED97A750873C0BB35AA9A/3592835.png
+description: Summon a golem while in combat.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Golemancer
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 49424
+    quantity: 250
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

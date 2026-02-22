@@ -9,695 +9,653 @@ vendorValue: 32
 flags:
 - NoSalvage
 wikiUrl: https://wiki.guildwars2.com/wiki/Charm_of_Brilliance
-lastUpdated: '2026-02-10'
+lastUpdated: '2026-02-22'
 acquisitions:
 - type: salvage
   itemId: 24685
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24686
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24687
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24688
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24689
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24690
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24694
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24695
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24696
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24706
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24707
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24708
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24718
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24719
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24720
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24721
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24722
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24723
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24724
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24725
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24726
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24730
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24731
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24732
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24748
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24749
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24750
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24757
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24758
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24759
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24760
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24761
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24762
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24766
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24767
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24768
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24774
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24775
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24776
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24777
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24778
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24779
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24780
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24781
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24782
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24783
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24784
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24785
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24798
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24799
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24800
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24801
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24802
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24803
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24804
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24805
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24806
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24834
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24835
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24836
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24840
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24841
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 24842
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 38204
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 38205
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 38206
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44951
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44952
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44953
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44957
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44958
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 44959
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 68437
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 68438
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 70829
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 73399
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 76166
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 76813
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 83423
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 83663
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 84127
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
   itemId: 89999
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91387
-  outputQuantity: 1
+  itemId: 99965
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91391
-  outputQuantity: 1
+  itemId: 100031
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91401
-  outputQuantity: 1
+  itemId: 100063
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91408
-  outputQuantity: 1
+  itemId: 100074
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91417
-  outputQuantity: 1
+  itemId: 100148
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91428
-  outputQuantity: 1
+  itemId: 100158
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91433
-  outputQuantity: 1
+  itemId: 100194
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91435
-  outputQuantity: 1
+  itemId: 100230
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91445
-  outputQuantity: 1
+  itemId: 100238
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91451
-  outputQuantity: 1
+  itemId: 100368
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91460
-  outputQuantity: 1
+  itemId: 100429
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91464
-  outputQuantity: 1
+  itemId: 100432
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91465
-  outputQuantity: 1
+  itemId: 100442
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91468
-  outputQuantity: 1
+  itemId: 100450
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91471
-  outputQuantity: 1
+  itemId: 100479
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91482
-  outputQuantity: 1
+  itemId: 100580
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91501
-  outputQuantity: 1
+  itemId: 100625
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91512
-  outputQuantity: 1
+  itemId: 100693
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91529
-  outputQuantity: 1
+  itemId: 100694
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91533
-  outputQuantity: 1
+  itemId: 100739
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91547
-  outputQuantity: 1
+  itemId: 100775
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91550
-  outputQuantity: 1
+  itemId: 100849
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91556
-  outputQuantity: 1
+  itemId: 100893
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91557
-  outputQuantity: 1
+  itemId: 104241
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91565
-  outputQuantity: 1
+  itemId: 104256
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: salvage
-  itemId: 91567
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91568
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91572
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91578
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91583
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91591
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91595
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-- type: salvage
-  itemId: 91638
-  outputQuantity: 1
+  itemId: 104424
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}

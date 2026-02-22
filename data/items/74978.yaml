@@ -1,0 +1,19 @@
+id: 74978
+name: Superior Rune of the Dragonhunter
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/E698E699D9A75AC90CA47A3FBA0259216C29041D/1201528.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Dragonhunter
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: salvage
+  itemId: 72045
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

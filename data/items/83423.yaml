@@ -1,0 +1,23 @@
+id: 83423
+name: Superior Rune of the Weaver
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/C0D36E7D6CAAA060F2EFB0E1CAA2587002F3F451/1766394.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Weaver
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: 'Requires Guild Wars 2: Path of Fire'

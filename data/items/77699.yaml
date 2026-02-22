@@ -1,0 +1,15 @@
+id: 77699
+name: Lucky New Year Firework
+type: Consumable
+rarity: Masterwork
+level: 0
+icon: https://render.guildwars2.com/file/6BCB7ABFB4DD68907F0B4F7817950371C91C024F/1341437.png
+description: Double-click to activate a one-time firework. Cannot be used in WvW.
+vendorValue: 0
+flags:
+- NoSalvage
+- NoSell
+- NoUnderwater
+wikiUrl: https://wiki.guildwars2.com/wiki/Lucky_New_Year_Firework
+lastUpdated: '2026-02-22'
+acquisitions: []

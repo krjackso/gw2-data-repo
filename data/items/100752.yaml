@@ -1,0 +1,39 @@
+id: 100752
+name: Relic of the Pack
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/26503D1FF7BA354058789E371992A7500B3AA89B/3122364.png
+description: Grant superspeed, might, and fury to nearby allies after using an elite
+  skill.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Pack
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 70851
+    quantity: 3
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

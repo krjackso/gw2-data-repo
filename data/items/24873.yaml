@@ -1,0 +1,25 @@
+id: 24873
+name: Ruby Shard
+type: UpgradeComponent
+rarity: Fine
+level: 50
+icon: https://render.guildwars2.com/file/94FF174423B920D7D10BD70F9A08EB34B5FA47DA/221174.png
+description: Double-click to apply to an item with an unused upgrade slot.
+vendorValue: 45
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Ruby_Shard
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 24274
+    quantity: 1
+  - itemId: 24472
+    quantity: 2
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Jeweler
+    minRating: 200

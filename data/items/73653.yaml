@@ -1,0 +1,37 @@
+id: 73653
+name: Superior Rune of Durability
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/585BF273BFCD9D12F462087A19FBD12DF755269A/681057.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 216
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_Durability
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Exalted Mastery Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 20000
+  - currencyId: 22
+    quantity: 150
+  metadata:
+    notes: Requires the mastery Exalted Acceptance
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 1200
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: Requires Heart of Thorns and Provisions Master 6th tier

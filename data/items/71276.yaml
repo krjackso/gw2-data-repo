@@ -1,0 +1,18 @@
+id: 71276
+name: Superior Rune of the Scrapper
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/07FB016965EC6423035D3FEA02CF241D453203EA/1201527.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Scrapper
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Can be extracted by salvaging Scrapper's Mask

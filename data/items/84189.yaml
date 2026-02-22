@@ -1,0 +1,27 @@
+id: 84189
+name: Spearmarshal's Shoulderpads
+type: Armor
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/EE9EF9B55851E1F7D5A106291EEFD7D84F0C151D/1768390.png
+vendorValue: 291
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Spearmarshal's_Shoulderpads
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 73806
+    quantity: 1
+  - itemId: 75506
+    quantity: 1
+  - itemId: 83264
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    minRating: 400

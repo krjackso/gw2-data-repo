@@ -1,0 +1,29 @@
+id: 24800
+name: Superior Rune of the Elementalist
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/F321ABCA3954145A4A17046D6170767740674866/220730.png
+description: '<c=@abilitytype>Element: </c>Brilliance<br>Double-click to apply to
+  a piece of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Elementalist
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 5
+  - itemId: 24325
+    quantity: 1
+  - itemId: 89103
+    quantity: 1
+  - itemId: 89271
+    quantity: 12
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Tailor
+    minRating: 400

@@ -1,0 +1,29 @@
+id: 84749
+name: Superior Rune of the Spellbreaker
+type: UpgradeComponent
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/0F04D648CC2501FDC6B5E9929F76AD7D16D4AF0F/1766393.png
+description: '<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece
+  of armor.'
+vendorValue: 65
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Spellbreaker
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 2000
+  - currencyId: 65
+    quantity: 75
+  metadata:
+    notes: 'Requires Guild Wars 2: Path of Fire'
+- type: container
+  itemId: 84093
+  containerName: Spellbreaker's Redoubt
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}

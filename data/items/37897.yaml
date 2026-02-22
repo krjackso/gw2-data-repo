@@ -1,0 +1,18 @@
+id: 37897
+name: Karka Shell
+type: CraftingMaterial
+rarity: Rare
+level: 0
+icon: https://render.guildwars2.com/file/B8C22597015FAFB42AB9EDE75528C40C0637B73D/511903.png
+vendorValue: 37
+flags:
+- NoSalvage
+wikiUrl: https://wiki.guildwars2.com/wiki/Karka_Shell
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  containerName: Chest (Karka Queen)
+  outputQuantity: 5.0
+  guaranteed: true
+  requirements: []
+  metadata: {}

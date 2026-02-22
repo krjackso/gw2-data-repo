@@ -1,0 +1,54 @@
+id: 79138
+name: Unstable Rag
+type: Trophy
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/B40D9107FC7B08DD54745DD7E3C8CD9127E2BD48/1465583.png
+description: Salvage Item
+vendorValue: 25
+flags: []
+wikiUrl: https://wiki.guildwars2.com/wiki/Unstable_Rag
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: container
+  itemId: 79142
+  containerName: Unstable Strongbox
+  outputQuantity: 1.0
+  guaranteed: true
+  requirements: []
+  metadata: {}
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)
+- type: other
+  outputQuantity: 1.0
+  requirements: []
+  metadata:
+    notes: Group Event (level 80)

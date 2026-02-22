@@ -1,0 +1,39 @@
+id: 100659
+name: Relic of the Water
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/A202CF0CF4314C049B16A89A595CCC9534B0A90E/3122376.png
+description: Cleanse conditions from yourself and nearby allies after using a healing
+  skill.
+vendorValue: 200
+flags:
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_the_Water
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19721
+    quantity: 15
+  - itemId: 24320
+    quantity: 3
+  - itemId: 89216
+    quantity: 3
+  - itemId: 89271
+    quantity: 48
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Leatherworker
+    - Armorsmith
+    - Tailor
+    minRating: 400
+- type: container
+  itemId: 106957
+  containerName: Core Relic Chest
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

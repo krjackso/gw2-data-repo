@@ -1,0 +1,61 @@
+id: 99997
+name: Relic of Isgarren
+type: Relic
+rarity: Exotic
+level: 60
+icon: https://render.guildwars2.com/file/5FB808F04E427650A84031E46B632DC292A3583F/3122354.png
+description: After evading an enemy's attack, place the Eye of Isgarren on them for
+  a duration. You deal increased strike and condition duration against enemies with
+  the Eye of Isgarren.
+vendorValue: 200
+flags:
+- AccountBound
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Relic_of_Isgarren
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: vendor
+  vendorName: Archivist Ikur
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 61
+    quantity: 200
+  - currencyId: 73
+    quantity: 250
+  metadata:
+    notes: 'Requires the achievement Chuck Out the Trash and Guild Wars 2: Secrets
+      of the Obscure.'
+- type: vendor
+  vendorName: Heroics Notary
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 15
+    quantity: 100
+  - currencyId: 65
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Chuck Out the
+      Trash or acquisition from Amnytas Gear Box.'
+- type: vendor
+  vendorName: League Vendor
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 30
+    quantity: 10
+  - currencyId: 33
+    quantity: 50
+  metadata:
+    notes: 'Requires Guild Wars 2: Secrets of the Obscure and either Chuck Out the
+      Trash or acquisition from Amnytas Gear Box.'
+- type: achievement
+  achievementName: Chuck Out the Trash
+  achievementCategory: Amnytas
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: container
+  containerName: Amnytas Gear Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}

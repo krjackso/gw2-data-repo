@@ -1,0 +1,34 @@
+id: 74275
+name: The Chosen Experiment
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/DE7DB254B0E27577A9EEFE7F2372DEA9ADBC1077/1206321.png
+description: Salvage this weapon to receive its spirit, needed to craft the next tier
+  of this legendary precursor.
+vendorValue: 264
+flags:
+- HideSuffix
+- AccountBound
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Chosen_Experiment
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: crafting
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 72261
+    quantity: 1
+  - itemId: 73111
+    quantity: 1
+  - itemId: 73397
+    quantity: 1
+  - itemId: 74293
+    quantity: 1
+  metadata:
+    recipeType: crafting
+    disciplines:
+    - Weaponsmith
+    minRating: 450

@@ -1,0 +1,45 @@
+id: 95108
+name: The Bifrost
+type: Container
+rarity: Legendary
+level: 0
+icon: https://render.guildwars2.com/file/FD221A90427ADBD29B7E2DF8BDAF98BB16391162/456025.png
+description: Double click to receive your returned legendary weapon.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/The_Bifrost
+lastUpdated: '2026-02-22'
+acquisitions:
+- type: mystic_forge
+  outputQuantity: 1.0
+  requirements:
+  - itemId: 19626
+    quantity: 1
+  - itemId: 19654
+    quantity: 1
+  - itemId: 19674
+    quantity: 1
+  - itemId: 29180
+    quantity: 1
+  metadata:
+    recipeType: mystic_forge
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata: {}
+- type: container
+  itemId: 97889
+  containerName: Legendary Choice Box
+  outputQuantity: 1.0
+  choice: true
+  requirements: []
+  metadata:
+    notes: 2019 variant

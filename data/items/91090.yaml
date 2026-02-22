@@ -1,0 +1,13 @@
+id: 91090
+name: Caw
+type: Weapon
+rarity: Exotic
+level: 80
+icon: https://render.guildwars2.com/file/EF17E23228D46F56A2D4E5B37669C035A09BD21F/2150040.png
+vendorValue: 264
+flags:
+- HideSuffix
+- SoulBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Caw
+lastUpdated: '2026-02-22'
+acquisitions: []
