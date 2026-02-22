@@ -103,7 +103,7 @@ def _display_error_details(item_id: int, error_msg: str, cache: CacheClient) -> 
 
 
 def populate_tree(
-    root_id: int,
+    root_ids: list[int],
     cache: CacheClient,
     limit: int | None = None,
     dry_run: bool = False,
@@ -181,7 +181,8 @@ def populate_tree(
         if new_children:
             terminal.debug(f"  → Discovered {new_children} new requirement(s)")
 
-    enqueue(root_id)
+    for root_id in root_ids:
+        enqueue(root_id)
 
     processed = 0
     skipped = 0
@@ -295,8 +296,8 @@ def main() -> None:
     parser.add_argument(
         "--workers",
         type=int,
-        default=1,
-        help="Number of items to process concurrently (default: 1)",
+        default=4,
+        help="Number of items to process concurrently (default: 4)",
     )
     parser.add_argument(
         "--model",
@@ -341,33 +342,19 @@ def main() -> None:
                 terminal.error(f"Invalid item ID format: {e}")
                 sys.exit(1)
 
-        all_errors: list[tuple[int, str]] = []
-        multiple_roots = len(root_ids) > 1
+        if len(root_ids) > 1:
+            ids_str = ", ".join(str(r) for r in root_ids)
+            terminal.info(f"Processing {len(root_ids)} root items: {ids_str}\n")
 
-        for idx, root_id in enumerate(root_ids):
-            if multiple_roots:
-                terminal.section_header(f"Processing root {idx + 1}/{len(root_ids)}: {root_id}")
-
-            errors = populate_tree(
-                root_id,
-                cache,
-                limit=args.limit,
-                dry_run=args.dry_run,
-                model=args.model,
-                force=args.force,
-                workers=args.workers,
-                show_errors=not multiple_roots,
-            )
-            all_errors.extend(errors)
-
-            if _interrupted:
-                break
-
-        if multiple_roots and all_errors:
-            terminal.section_header("Unified Failed Items Summary")
-            terminal.key_value("Total failed items", str(len(all_errors)))
-            for eid, msg in all_errors:
-                _display_error_details(eid, msg, cache)
+        populate_tree(
+            root_ids,
+            cache,
+            limit=args.limit,
+            dry_run=args.dry_run,
+            model=args.model,
+            force=args.force,
+            workers=args.workers,
+        )
 
     except KeyboardInterrupt:
         terminal.warning("\nAborted.")
