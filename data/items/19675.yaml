@@ -27,7 +27,7 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Clover
 lastUpdated: '2026-02-08'
 acquisitions:
 - type: mystic_forge
-  outputQuantity: 0.3
+  outputQuantity: 0.3125
   outputQuantityMin: 0
   outputQuantityMax: 1
   requirements:
@@ -42,7 +42,7 @@ acquisitions:
   metadata:
     recipeType: mystic_forge
 - type: mystic_forge
-  outputQuantity: 3
+  outputQuantity: 3.125
   outputQuantityMin: 0
   outputQuantityMax: 10
   requirements:
