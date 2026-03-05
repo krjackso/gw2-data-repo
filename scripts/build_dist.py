@@ -95,16 +95,24 @@ CREATE TABLE vendor_locations (
 );
 
 CREATE TABLE locations (
-    zone               TEXT NOT NULL,
-    area               TEXT NOT NULL,
-    wiki_url           TEXT NOT NULL,
-    waypoint_name      TEXT,
-    waypoint_chat_link TEXT,
+    zone     TEXT NOT NULL,
+    area     TEXT NOT NULL,
+    wiki_url TEXT NOT NULL,
     PRIMARY KEY (zone, area)
+);
+
+CREATE TABLE waypoints (
+    id        INTEGER PRIMARY KEY AUTOINCREMENT,
+    zone      TEXT NOT NULL,
+    area      TEXT NOT NULL,
+    name      TEXT NOT NULL,
+    chat_link TEXT NOT NULL,
+    FOREIGN KEY (zone, area) REFERENCES locations(zone, area)
 );
 
 CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
 CREATE INDEX idx_locations_zone ON locations(zone);
+CREATE INDEX idx_waypoints_location ON waypoints(zone, area);
 """
 
 
@@ -281,25 +289,24 @@ def build_database(db_path: Path) -> None:
             vendors_inserted = 0
             vendor_locations_inserted = 0
             locations_inserted = 0
+            waypoints_inserted = 0
 
             for zone_name, areas in locations_data.items():
                 for area_name, loc in areas.items():
-                    waypoint = loc.get("waypoint") or {}
                     cursor.execute(
-                        """
-                        INSERT INTO locations
-                            (zone, area, wiki_url, waypoint_name, waypoint_chat_link)
-                        VALUES (?, ?, ?, ?, ?)
-                        """,
-                        (
-                            zone_name,
-                            area_name,
-                            loc["wikiUrl"],
-                            waypoint.get("name"),
-                            waypoint.get("chatLink"),
-                        ),
+                        "INSERT INTO locations (zone, area, wiki_url) VALUES (?, ?, ?)",
+                        (zone_name, area_name, loc["wikiUrl"]),
                     )
                     locations_inserted += 1
+                    for wp in loc.get("waypoints", []):
+                        cursor.execute(
+                            """
+                            INSERT INTO waypoints (zone, area, name, chat_link)
+                            VALUES (?, ?, ?, ?)
+                            """,
+                            (zone_name, area_name, wp["name"], wp["chatLink"]),
+                        )
+                        waypoints_inserted += 1
 
             for vendor_name, vendor in vendors_data.items():
                 cursor.execute(
@@ -318,6 +325,7 @@ def build_database(db_path: Path) -> None:
                     vendor_locations_inserted += 1
 
             logger.info("Inserted %d locations", locations_inserted)
+            logger.info("Inserted %d waypoints", waypoints_inserted)
             logger.info("Inserted %d vendors", vendors_inserted)
             logger.info("Inserted %d vendor-location mappings", vendor_locations_inserted)
         else:

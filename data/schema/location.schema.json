@@ -22,8 +22,12 @@
           "format": "uri",
           "description": "GW2 Wiki URL for this area"
         },
-        "waypoint": {
-          "$ref": "#/$defs/waypoint"
+        "waypoints": {
+          "type": "array",
+          "description": "Waypoints in this area, ordered by proximity to the area's center",
+          "items": {
+            "$ref": "#/$defs/waypoint"
+          }
         }
       }
     },

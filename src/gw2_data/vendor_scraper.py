@@ -7,7 +7,7 @@ of the MediaWiki-rendered output.
 
 Two primary extraction targets:
 - Vendor NPC pages: location area name + zone name from infobox or Locations section
-- Area pages: first waypoint name + game link chat code from POI list
+- Area pages: all waypoint names + game link chat codes from POI list
 """
 
 from __future__ import annotations
@@ -195,7 +195,7 @@ def _extract_leaf_areas_from_ul(ul: Tag, zone: str, zone_page: str) -> list[Area
     return results
 
 
-def extract_area_waypoint(html: str) -> WaypointData | None:
+def extract_area_waypoints(html: str) -> list[WaypointData]:
     soup = BeautifulSoup(html, "html.parser")
 
     waypoints_dt = None
@@ -205,52 +205,56 @@ def extract_area_waypoint(html: str) -> WaypointData | None:
             break
 
     if not waypoints_dt or not isinstance(waypoints_dt, Tag):
-        return None
+        return []
 
     dd = waypoints_dt.find_next_sibling("dd")
     if not dd or not isinstance(dd, Tag):
-        return None
+        return []
 
-    return _parse_first_waypoint_from_dd(dd)
+    return _parse_waypoints_from_dd(dd)
 
 
-def _parse_first_waypoint_from_dd(dd: Tag) -> WaypointData | None:
-    gamelink = dd.find("span", class_="gamelink")
-    if not gamelink or not isinstance(gamelink, Tag):
-        return None
+def _parse_waypoints_from_dd(dd: Tag) -> list[WaypointData]:
+    results: list[WaypointData] = []
+    for gamelink in dd.find_all("span", class_="gamelink"):
+        if not isinstance(gamelink, Tag):
+            continue
 
-    data_type = str(gamelink.get("data-type", ""))
-    data_id_str = str(gamelink.get("data-id", ""))
-    if not data_type or not data_id_str:
-        return None
+        data_type = str(gamelink.get("data-type", ""))
+        data_id_str = str(gamelink.get("data-id", ""))
+        if not data_type or not data_id_str:
+            continue
 
-    try:
-        data_id = int(data_id_str)
-    except ValueError:
-        log.warning("Invalid gamelink data-id: %s", data_id_str)
-        return None
+        try:
+            data_id = int(data_id_str)
+        except ValueError:
+            log.warning("Invalid gamelink data-id: %s", data_id_str)
+            continue
 
-    chat_link = compute_chat_link(data_type, data_id)
-    if chat_link is None:
-        return None
+        chat_link = compute_chat_link(data_type, data_id)
+        if chat_link is None:
+            continue
 
-    name = _extract_waypoint_name(dd, gamelink)
-    if not name:
-        log.warning("Could not extract waypoint name")
-        return None
+        name = _extract_waypoint_name(dd, gamelink)
+        if not name:
+            log.warning("Could not extract waypoint name for data-id %s", data_id_str)
+            continue
 
-    return WaypointData(name=name, chat_link=chat_link)
+        results.append(WaypointData(name=name, chat_link=chat_link))
+    return results
 
 
 def _extract_waypoint_name(dd: Tag, gamelink: Tag) -> str | None:
-    anchor_span = dd.find("span", id=lambda x: x and x.endswith("_Waypoint"))
-    if anchor_span and isinstance(anchor_span, Tag):
-        span_id = str(anchor_span.get("id", ""))
+    anchor_spans = dd.find_all("span", id=lambda x: x and x.endswith("_Waypoint"))
+    gamelinks = dd.find_all("span", class_="gamelink")
+    if len(anchor_spans) == len(gamelinks):
+        idx = gamelinks.index(gamelink)
+        span_id = str(anchor_spans[idx].get("id", ""))
         return unescape(span_id).replace("_", " ")
 
     text_before = gamelink.previous_sibling
     if text_before:
-        text = str(text_before).strip().strip("—").strip()
+        text = str(text_before).strip().strip("\u2014").strip()
         if "Waypoint" in text:
             return text
 

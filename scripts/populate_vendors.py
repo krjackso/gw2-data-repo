@@ -26,7 +26,7 @@ from gw2_data.models import LocationEntry, VendorEntry, VendorLocationRef, Waypo
 from gw2_data.vendor_scraper import (
     AreaRef,
     WaypointData,
-    extract_area_waypoint,
+    extract_area_waypoints,
     extract_vendor_locations,
 )
 
@@ -73,14 +73,14 @@ def _fetch_vendor_locations(vendor_name: str, cache: CacheClient) -> tuple[str, 
     return wiki_url, locations
 
 
-def _fetch_area_waypoint(area: AreaRef, cache: CacheClient) -> WaypointData | None:
+def _fetch_area_waypoints(area: AreaRef, cache: CacheClient) -> list[WaypointData]:
     try:
         html = wiki.get_page_html(area.wiki_page, cache=cache)
         time.sleep(_REQUEST_DELAY)
     except WikiError as e:
         log.warning("Could not fetch wiki page for area '%s': %s", area.wiki_page, e)
-        return None
-    return extract_area_waypoint(html)
+        return []
+    return extract_area_waypoints(html)
 
 
 def _area_key(area: AreaRef) -> tuple[str, str]:
@@ -92,11 +92,9 @@ def _build_vendor_entry(wiki_url: str, areas: list[AreaRef]) -> VendorEntry:
     return VendorEntry(wiki_url=wiki_url, locations=location_refs)
 
 
-def _build_location_entry(area: AreaRef, waypoint: WaypointData | None) -> LocationEntry:
-    waypoint_model = None
-    if waypoint is not None:
-        waypoint_model = Waypoint(name=waypoint.name, chat_link=waypoint.chat_link)
-    return LocationEntry(wiki_url=_wiki_url_for(area.wiki_page), waypoint=waypoint_model)
+def _build_location_entry(area: AreaRef, waypoints: list[WaypointData]) -> LocationEntry:
+    waypoint_models = [Waypoint(name=w.name, chat_link=w.chat_link) for w in waypoints]
+    return LocationEntry(wiki_url=_wiki_url_for(area.wiki_page), waypoints=waypoint_models)
 
 
 def _serialize_vendors(
@@ -153,12 +151,13 @@ def populate_vendors(
     unique_areas = list(all_areas.values())
     for i, area in enumerate(unique_areas):
         terminal.progress(i + 1, len(unique_areas), area.name)
-        waypoint = _fetch_area_waypoint(area, cache)
-        if waypoint:
-            terminal.debug(f"  → {waypoint.name} {waypoint.chat_link}")
+        waypoints = _fetch_area_waypoints(area, cache)
+        if waypoints:
+            for wp in waypoints:
+                terminal.debug(f"  → {wp.name} {wp.chat_link}")
         else:
-            terminal.debug("  → no waypoint found")
-        locations[_area_key(area)] = _build_location_entry(area, waypoint)
+            terminal.debug("  → no waypoints found")
+        locations[_area_key(area)] = _build_location_entry(area, waypoints)
 
     vendors_data = _serialize_vendors(vendors)
     locations_data = _serialize_locations(locations)

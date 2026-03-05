@@ -2,7 +2,7 @@
 
 from gw2_data.vendor_scraper import (
     compute_chat_link,
-    extract_area_waypoint,
+    extract_area_waypoints,
     extract_vendor_locations,
 )
 
@@ -159,7 +159,7 @@ class TestExtractVendorLocations:
 
 
 # ---------------------------------------------------------------------------
-# extract_area_waypoint
+# extract_area_waypoints
 # ---------------------------------------------------------------------------
 
 _EARTHSHAKE_HTML = """
@@ -206,29 +206,31 @@ _NO_WAYPOINTS_HTML = """
 """
 
 
-class TestExtractAreaWaypoint:
-    def test_extracts_waypoint_name_and_chat_link(self):
-        result = extract_area_waypoint(_EARTHSHAKE_HTML)
-        assert result is not None
-        assert result.name == "Earthshake Waypoint"
-        assert result.chat_link == "[&BHoCAAA=]"
+class TestExtractAreaWaypoints:
+    def test_extracts_single_waypoint(self):
+        result = extract_area_waypoints(_EARTHSHAKE_HTML)
+        assert len(result) == 1
+        assert result[0].name == "Earthshake Waypoint"
+        assert result[0].chat_link == "[&BHoCAAA=]"
 
-    def test_returns_first_waypoint_when_multiple(self):
-        result = extract_area_waypoint(_MULTIPLE_WAYPOINTS_HTML)
-        assert result is not None
-        assert result.name == "First Waypoint"
-        assert result.chat_link == compute_chat_link("map", 100)
+    def test_extracts_all_waypoints(self):
+        result = extract_area_waypoints(_MULTIPLE_WAYPOINTS_HTML)
+        assert len(result) == 2
+        assert result[0].name == "First Waypoint"
+        assert result[0].chat_link == compute_chat_link("map", 100)
+        assert result[1].name == "Second Waypoint"
+        assert result[1].chat_link == compute_chat_link("map", 200)
 
-    def test_returns_none_when_no_waypoints_section(self):
-        result = extract_area_waypoint(_NO_WAYPOINTS_HTML)
-        assert result is None
+    def test_returns_empty_when_no_waypoints_section(self):
+        result = extract_area_waypoints(_NO_WAYPOINTS_HTML)
+        assert result == []
 
-    def test_returns_none_for_empty_html(self):
-        result = extract_area_waypoint("<html></html>")
-        assert result is None
+    def test_returns_empty_for_empty_html(self):
+        result = extract_area_waypoints("<html></html>")
+        assert result == []
 
     def test_chat_link_format(self):
-        result = extract_area_waypoint(_EARTHSHAKE_HTML)
-        assert result is not None
-        assert result.chat_link.startswith("[&")
-        assert result.chat_link.endswith("]")
+        result = extract_area_waypoints(_EARTHSHAKE_HTML)
+        assert len(result) == 1
+        assert result[0].chat_link.startswith("[&")
+        assert result[0].chat_link.endswith("]")

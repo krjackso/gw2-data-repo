@@ -245,7 +245,7 @@ class VendorEntry(BaseModel):
 
 class LocationEntry(BaseModel):
     wiki_url: str = Field(alias="wikiUrl")
-    waypoint: Waypoint | None = None
+    waypoints: list[Waypoint] = Field(default_factory=list)
 
     model_config = {"populate_by_name": True}
 

@@ -132,21 +132,32 @@ Unique constraint on `(vendor_name, zone, area)`.
 
 ### `locations`
 
-Area data with optional waypoint chat links for navigation. Keyed by `(zone, area)` since area names can repeat across zones (e.g. "Trader's Forum" exists in both Lion's Arch and Memory of Old Lion's Arch).
+Area data keyed by `(zone, area)` since area names can repeat across zones (e.g. "Trader's Forum" exists in both Lion's Arch and Memory of Old Lion's Arch).
 
 | Column | Type | Notes |
 |---|---|---|
 | `zone` | TEXT NOT NULL | Zone/map name (composite PK) |
 | `area` | TEXT NOT NULL | Area name within the zone (composite PK) |
 | `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
-| `waypoint_name` | TEXT | Nearest waypoint name (e.g. "Earthshake Waypoint") |
-| `waypoint_chat_link` | TEXT | In-game chat link (e.g. `[&BHoCAAA=]`) |
+
+### `waypoints`
+
+Waypoints within an area, linked by `(zone, area)` FK. An area may have zero or more waypoints.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | INTEGER PRIMARY KEY | Auto-increment |
+| `zone` | TEXT NOT NULL | FK → `locations(zone, area)` |
+| `area` | TEXT NOT NULL | FK → `locations(zone, area)` |
+| `name` | TEXT NOT NULL | Waypoint name (e.g. "Earthshake Waypoint") |
+| `chat_link` | TEXT NOT NULL | In-game chat link (e.g. `[&BHoCAAA=]`) |
 
 ### Vendor/Location Indexes
 
 ```sql
 CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
 CREATE INDEX idx_locations_zone ON locations(zone);
+CREATE INDEX idx_waypoints_location ON waypoints(zone, area);
 ```
 
 ## Build Pipeline
