@@ -119,24 +119,25 @@ Vendor NPC metadata, keyed by vendor name. Populated by `scripts/populate_vendor
 
 ### `vendor_locations`
 
-Many-to-many mapping from vendors to areas where they appear.
+Many-to-many mapping from vendors to areas where they appear. A location is identified by the composite key `(zone, area)`.
 
 | Column | Type | Notes |
 |---|---|---|
 | `id` | INTEGER PRIMARY KEY | Auto-increment |
 | `vendor_name` | TEXT NOT NULL | FK → `vendors(name)` |
-| `location_name` | TEXT NOT NULL | FK → `locations(name)` |
+| `zone` | TEXT NOT NULL | Zone name (e.g. "Frostgorge Sound") |
+| `area` | TEXT NOT NULL | Area name within the zone (e.g. "Earthshake Basin") |
 
-Unique constraint on `(vendor_name, location_name)`.
+Unique constraint on `(vendor_name, zone, area)`.
 
 ### `locations`
 
-Area/POI data with optional waypoint chat links for navigation.
+Area data with optional waypoint chat links for navigation. Keyed by `(zone, area)` since area names can repeat across zones (e.g. "Trader's Forum" exists in both Lion's Arch and Memory of Old Lion's Arch).
 
 | Column | Type | Notes |
 |---|---|---|
-| `name` | TEXT PRIMARY KEY | Area name (e.g. "Earthshake Basin") |
-| `zone` | TEXT NOT NULL | Zone/map containing this area (e.g. "Frostgorge Sound") |
+| `zone` | TEXT NOT NULL | Zone/map name (composite PK) |
+| `area` | TEXT NOT NULL | Area name within the zone (composite PK) |
 | `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
 | `waypoint_name` | TEXT | Nearest waypoint name (e.g. "Earthshake Waypoint") |
 | `waypoint_chat_link` | TEXT | In-game chat link (e.g. `[&BHoCAAA=]`) |
@@ -145,7 +146,7 @@ Area/POI data with optional waypoint chat links for navigation.
 
 ```sql
 CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
-CREATE INDEX idx_vendor_locs_location ON vendor_locations(location_name);
+CREATE INDEX idx_locations_zone ON locations(zone);
 ```
 
 ## Build Pipeline

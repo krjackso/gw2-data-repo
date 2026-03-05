@@ -2,21 +2,21 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/krjackso/gw2-data-repo/schema/location.schema.json",
   "title": "GW2 Location Data",
-  "description": "Area location data keyed by area name",
+  "description": "Area location data nested by zone then area name. Structure: zone → area → {wikiUrl, waypoint?}",
   "type": "object",
   "additionalProperties": {
-    "$ref": "#/$defs/locationEntry"
+    "type": "object",
+    "description": "Areas within this zone, keyed by area name",
+    "additionalProperties": {
+      "$ref": "#/$defs/locationEntry"
+    }
   },
   "$defs": {
     "locationEntry": {
       "type": "object",
-      "required": ["zone", "wikiUrl"],
+      "required": ["wikiUrl"],
       "additionalProperties": false,
       "properties": {
-        "zone": {
-          "type": "string",
-          "description": "Zone (map) that contains this area"
-        },
         "wikiUrl": {
           "type": "string",
           "format": "uri",

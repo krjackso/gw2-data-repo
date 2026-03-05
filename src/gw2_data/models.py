@@ -229,15 +229,21 @@ class Waypoint(BaseModel):
     model_config = {"populate_by_name": True}
 
 
+class VendorLocationRef(BaseModel):
+    zone: str
+    area: str
+
+    model_config = {"populate_by_name": True}
+
+
 class VendorEntry(BaseModel):
     wiki_url: str = Field(alias="wikiUrl")
-    locations: list[str] = Field(default_factory=list)
+    locations: list[VendorLocationRef] = Field(default_factory=list)
 
     model_config = {"populate_by_name": True}
 
 
 class LocationEntry(BaseModel):
-    zone: str
     wiki_url: str = Field(alias="wikiUrl")
     waypoint: Waypoint | None = None
 

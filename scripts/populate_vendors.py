@@ -5,8 +5,8 @@ Scans all item YAML files for unique vendor names, fetches their wiki
 pages to extract location data, then fetches area pages to get waypoint
 chat links. Writes two output files:
 
-  data/vendors/vendors.yaml  - vendor name → wikiUrl + locations list
-  data/vendors/locations.yaml - area name → zone + wikiUrl + optional waypoint
+  data/vendors/vendors.yaml   - vendor name → wikiUrl + locations [{zone, area}]
+  data/vendors/locations.yaml - zone → area → {wikiUrl, waypoint}
 """
 
 import argparse
@@ -22,7 +22,7 @@ from gw2_data import terminal, wiki
 from gw2_data.cache import CacheClient
 from gw2_data.config import get_settings
 from gw2_data.exceptions import WikiError
-from gw2_data.models import LocationEntry, VendorEntry, Waypoint
+from gw2_data.models import LocationEntry, VendorEntry, VendorLocationRef, Waypoint
 from gw2_data.vendor_scraper import (
     AreaRef,
     WaypointData,
@@ -37,6 +37,10 @@ _LOCATIONS_FILE = _OUTPUT_DIR / "locations.yaml"
 
 _REQUEST_DELAY = 0.1
 
+_WIKI_SAFE_CHARS = "/:@!$&'()*+,;="
+
+log = logging.getLogger(__name__)
+
 
 def _collect_vendor_names() -> list[str]:
     names: set[str] = set()
@@ -49,9 +53,6 @@ def _collect_vendor_names() -> list[str]:
                 if name:
                     names.add(name)
     return sorted(names)
-
-
-_WIKI_SAFE_CHARS = "/:@!$&'()*+,;="
 
 
 def _wiki_url_for(page_name: str) -> str:
@@ -82,24 +83,41 @@ def _fetch_area_waypoint(area: AreaRef, cache: CacheClient) -> WaypointData | No
     return extract_area_waypoint(html)
 
 
+def _area_key(area: AreaRef) -> tuple[str, str]:
+    return (area.zone, area.name)
+
+
 def _build_vendor_entry(wiki_url: str, areas: list[AreaRef]) -> VendorEntry:
-    location_names = [a.name for a in areas]
-    return VendorEntry.model_validate({"wikiUrl": wiki_url, "locations": location_names})
+    location_refs = [VendorLocationRef(zone=a.zone, area=a.name) for a in areas]
+    return VendorEntry(wiki_url=wiki_url, locations=location_refs)
 
 
 def _build_location_entry(area: AreaRef, waypoint: WaypointData | None) -> LocationEntry:
     waypoint_model = None
     if waypoint is not None:
-        waypoint_model = Waypoint.model_validate(
-            {"name": waypoint.name, "chatLink": waypoint.chat_link}
-        )
-    return LocationEntry.model_validate(
-        {
-            "zone": area.zone,
-            "wikiUrl": _wiki_url_for(area.wiki_page),
-            "waypoint": waypoint_model.model_dump(by_alias=True) if waypoint_model else None,
-        }
-    )
+        waypoint_model = Waypoint(name=waypoint.name, chat_link=waypoint.chat_link)
+    return LocationEntry(wiki_url=_wiki_url_for(area.wiki_page), waypoint=waypoint_model)
+
+
+def _serialize_vendors(
+    vendors: dict[str, VendorEntry],
+) -> dict[str, dict]:
+    result: dict[str, dict] = {}
+    for name, entry in sorted(vendors.items()):
+        data = entry.model_dump(by_alias=True, exclude_none=True)
+        result[name] = data
+    return result
+
+
+def _serialize_locations(
+    locations: dict[tuple[str, str], LocationEntry],
+) -> dict[str, dict[str, dict]]:
+    result: dict[str, dict[str, dict]] = {}
+    for (zone, area), entry in sorted(locations.items()):
+        if zone not in result:
+            result[zone] = {}
+        result[zone][area] = entry.model_dump(by_alias=True, exclude_none=True)
+    return result
 
 
 def populate_vendors(
@@ -118,7 +136,7 @@ def populate_vendors(
     terminal.info(f"Found {len(all_vendor_names)} unique vendor name(s)")
 
     vendors: dict[str, VendorEntry] = {}
-    all_areas: dict[str, AreaRef] = {}
+    all_areas: dict[tuple[str, str], AreaRef] = {}
 
     terminal.section_header("Fetching vendor wiki pages")
     for i, vendor_name in enumerate(all_vendor_names):
@@ -126,11 +144,12 @@ def populate_vendors(
         wiki_url, areas = _fetch_vendor_locations(vendor_name, cache)
         vendors[vendor_name] = _build_vendor_entry(wiki_url, areas)
         for area in areas:
-            if area.wiki_page not in all_areas:
-                all_areas[area.wiki_page] = area
+            key = _area_key(area)
+            if key not in all_areas:
+                all_areas[key] = area
 
     terminal.section_header("Fetching area wiki pages for waypoints")
-    locations: dict[str, LocationEntry] = {}
+    locations: dict[tuple[str, str], LocationEntry] = {}
     unique_areas = list(all_areas.values())
     for i, area in enumerate(unique_areas):
         terminal.progress(i + 1, len(unique_areas), area.name)
@@ -139,16 +158,10 @@ def populate_vendors(
             terminal.debug(f"  → {waypoint.name} {waypoint.chat_link}")
         else:
             terminal.debug("  → no waypoint found")
-        locations[area.name] = _build_location_entry(area, waypoint)
+        locations[_area_key(area)] = _build_location_entry(area, waypoint)
 
-    vendors_data = {
-        name: entry.model_dump(by_alias=True, exclude_none=True)
-        for name, entry in sorted(vendors.items())
-    }
-    locations_data = {
-        name: entry.model_dump(by_alias=True, exclude_none=True)
-        for name, entry in sorted(locations.items())
-    }
+    vendors_data = _serialize_vendors(vendors)
+    locations_data = _serialize_locations(locations)
 
     if dry_run:
         terminal.section_header("DRY RUN: vendors.yaml")
@@ -162,20 +175,25 @@ def populate_vendors(
         yaml.dump(vendors_data, f, sort_keys=False, allow_unicode=True)
     terminal.success(f"Written {len(vendors_data)} vendors to {_VENDORS_FILE}")
 
+    total_locations = sum(len(zones) for zones in locations_data.values())
     with _LOCATIONS_FILE.open("w") as f:
         yaml.dump(locations_data, f, sort_keys=False, allow_unicode=True)
-    terminal.success(f"Written {len(locations_data)} locations to {_LOCATIONS_FILE}")
-
-
-log = logging.getLogger(__name__)
+    terminal.success(f"Written {total_locations} locations to {_LOCATIONS_FILE}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Populate vendor and location data from GW2 wiki")
     parser.add_argument(
-        "--dry-run", action="store_true", help="Preview output without writing files"
+        "--dry-run",
+        action="store_true",
+        help="Preview output without writing files",
     )
-    parser.add_argument("--vendor", type=str, default=None, help="Process only this vendor name")
+    parser.add_argument(
+        "--vendor",
+        type=str,
+        default=None,
+        help="Process only this vendor name",
+    )
     parser.add_argument(
         "--clear-cache",
         nargs="*",

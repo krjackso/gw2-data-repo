@@ -20,10 +20,25 @@
         },
         "locations": {
           "type": "array",
-          "description": "Area names where this vendor can be found (keys into locations.yaml)",
+          "description": "Areas where this vendor can be found, identified by (zone, area) pair",
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/locationRef"
           }
+        }
+      }
+    },
+    "locationRef": {
+      "type": "object",
+      "required": ["zone", "area"],
+      "additionalProperties": false,
+      "properties": {
+        "zone": {
+          "type": "string",
+          "description": "Zone (map) containing the vendor"
+        },
+        "area": {
+          "type": "string",
+          "description": "Area within the zone where the vendor is located"
         }
       }
     }
