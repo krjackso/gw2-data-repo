@@ -1,0 +1,2173 @@
+? ''
+: Test Zone:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Test_Zone
+    waypoints: []
+Allied Encampment:
+  Zelbahn Garrison:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Zelbahn_Garrison
+    waypoints: []
+Amnytas:
+  Bastion of Balance:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bastion_of_Balance
+    waypoints:
+    - name: Bastion of Balance Waypoint
+      chatLink: '[&BD0OAAA=]'
+Arborstone:
+  Club Canach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Club_Canach
+    waypoints: []
+  Quartermaster's Row:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Quartermaster's_Row
+    waypoints: []
+  The Exchange:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Exchange
+    waypoints: []
+Auric Basin:
+  Chak Hollow:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Chak_Hollow
+    waypoints:
+    - name: Chak Hollow Waypoint
+      chatLink: '[&BEkIAAA=]'
+  Northwatch Descent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Northwatch_Descent
+    waypoints:
+    - name: Northwatch Waypoint
+      chatLink: '[&BN0HAAA=]'
+  Southwatch Creep:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Southwatch_Creep
+    waypoints:
+    - name: Southwatch Waypoint
+      chatLink: '[&BAIIAAA=]'
+  Tarir, the Forgotten City:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tarir,_the_Forgotten_City
+    waypoints:
+    - name: Forgotten City Waypoint
+      chatLink: '[&BMYHAAA=]'
+  Tarnished Treetop:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tarnished_Treetop
+    waypoints:
+    - name: Wanderer's Waypoint
+      chatLink: '[&BNYHAAA=]'
+Autumn's Vale:
+  Deft Lahar's Abode:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Deft_Lahar's_Abode
+    waypoints: []
+Bava Nisos:
+  Mantle's Arrival:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mantle's_Arrival
+    waypoints:
+    - name: Mantle's Arrival Waypoint
+      chatLink: '[&BGEPAAA=]'
+Bay of Elon:
+  Lily of the Elon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lily_of_the_Elon
+    waypoints: []
+Biergarten:
+  Courage Brewery:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Courage_Brewery
+    waypoints: []
+Bitterfrost Frontier:
+  Sorrow's Eclipse Sanctuary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sorrow's_Eclipse_Sanctuary
+    waypoints:
+    - name: Sorrow's Eclipse Waypoint
+      chatLink: '[&BH0JAAA=]'
+  The Svanir Hive:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Svanir_Hive
+    waypoints: []
+Bjora Marches:
+  Jora's Keep:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Jora's_Keep
+    waypoints:
+    - name: Jora's Keep Waypoint
+      chatLink: '[&BCcMAAA=]'
+  Spirits' Refuge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Spirits'_Refuge
+    waypoints:
+    - name: Still Waters Speaking Waypoint
+      chatLink: '[&BDkMAAA=]'
+Black Citadel:
+  Canton Factorium:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Canton_Factorium
+    waypoints:
+    - name: Factorium Waypoint
+      chatLink: '[&BKcDAAA=]'
+  Hero's Canton:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hero's_Canton
+    waypoints: []
+  Ligacus Aquilo:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ligacus_Aquilo
+    waypoints:
+    - name: Ligacus Aquilo Waypoint
+      chatLink: '[&BKkDAAA=]'
+  Memorial Quadrant:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Memorial_Quadrant
+    waypoints:
+    - name: Diessa Gate Waypoint
+      chatLink: '[&BKgDAAA=]'
+Blazeridge Steppes:
+  Deserter Flats:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Deserter_Flats
+    waypoints:
+    - name: Refuge Sanctum Waypoint
+      chatLink: '[&BAUCAAA=]'
+Bloodstone Fen:
+  Pride of the Pact:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Pride_of_the_Pact
+    waypoints:
+    - name: Soulkeeper's Airship Waypoint
+      chatLink: '[&BEsJAAA=]'
+Bloodtide Coast:
+  Mournful Depths:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mournful_Depths
+    waypoints:
+    - name: Mournful Waypoint
+      chatLink: '[&BK0BAAA=]'
+  Sorrowful Sound:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sorrowful_Sound
+    waypoints:
+    - name: Sorrowful Waypoint
+      chatLink: '[&BKQBAAA=]'
+Blue Alpine Borderlands:
+  Blue Alpine Garrison:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Blue_Alpine_Garrison
+    waypoints:
+    - name: Blue World Garrison Waypoint
+      chatLink: '[&BNUEAAA=]'
+  Blue World Citadel:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Blue_World_Citadel
+    waypoints:
+    - name: Blue World Citadel Waypoint
+      chatLink: '[&BNYEAAA=]'
+  Green World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Green_World_Border_(Blue_Borderlands)
+    waypoints:
+    - name: Green Border Waypoint
+      chatLink: '[&BNgEAAA=]'
+  Red World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Red_World_Border_(Blue_Borderlands)
+    waypoints:
+    - name: Red Border Waypoint
+      chatLink: '[&BNQEAAA=]'
+Brisban Wildlands:
+  Vandal's Claim:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Vandal's_Claim
+    waypoints:
+    - name: Triforge Point Waypoint
+      chatLink: '[&BGQAAAA=]'
+Caledon Forest:
+  Mabon Market:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mabon_Market
+    waypoints:
+    - name: Mabon Waypoint
+      chatLink: '[&BDoBAAA=]'
+  Quetzal Bay:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Quetzal_Bay
+    waypoints: []
+  The Verdence:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Verdence
+    waypoints:
+    - name: Wardenhurst Waypoint
+      chatLink: '[&BEIBAAA=]'
+  Trader's Green:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Trader's_Green
+    waypoints:
+    - name: Caledon Haven Waypoint
+      chatLink: '[&BDwBAAA=]'
+  Village of Astorea:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Village_of_Astorea
+    waypoints:
+    - name: Astorea Waypoint
+      chatLink: '[&BDQBAAA=]'
+  Willowalk Groves:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Willowalk_Groves
+    waypoints:
+    - name: Hamlet of Annwen Waypoint
+      chatLink: '[&BD8BAAA=]'
+Cantha:
+  Arborstone:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Arborstone
+    waypoints:
+    - name: Arborstone Waypoint
+      chatLink: '[&BGMNAAA=]'
+  Isle of Reflection:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Isle_of_Reflection
+    waypoints:
+    - name: Reflection Crystal Waypoint
+      chatLink: '[&BA4NAAA=]'
+  Thousand Seas Pavilion:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Thousand_Seas_Pavilion
+    waypoints:
+    - name: Thousand Seas Pavilion Waypoint
+      chatLink: '[&BHkNAAA=]'
+Canton Factorium:
+  Durmand Scriptorium:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Durmand_Scriptorium
+    waypoints: []
+Castora:
+  Comosus Isle:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Comosus_Isle
+    waypoints:
+    - name: Homestead Waypoint
+      chatLink: '[&BI8PAAA=]'
+Comosus Isle:
+  The Workshop:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Workshop_(Comosus_Isle)
+    waypoints: []
+Corsair Flotilla:
+  The Dark Leviathan:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Dark_Leviathan
+    waypoints: []
+Crystal Desert:
+  Crystal Oasis:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Oasis
+    waypoints: []
+  Desert Highlands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Desert_Highlands
+    waypoints: []
+  Domain of Vabbi:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Domain_of_Vabbi
+    waypoints: []
+  Elon Riverlands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Elon_Riverlands
+    waypoints: []
+  Mythwright Gambit:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mythwright_Gambit
+    waypoints: []
+  The Desolation:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Desolation
+    waypoints: []
+  The Key of Ahdashim:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Key_of_Ahdashim
+    waypoints: []
+  Windswept Haven:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Windswept_Haven
+    waypoints:
+    - name: Haven Terrace Waypoint
+      chatLink: '[&BN0KAAA=]'
+Crystal Oasis:
+  Amnoon Farms:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Amnoon_Farms
+    waypoints: []
+  Bay of Elon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bay_of_Elon
+    waypoints: []
+  Destiny's Gorge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Destiny's_Gorge
+    waypoints:
+    - name: Destiny's Gorge Waypoint
+      chatLink: '[&BJMKAAA=]'
+  Elona Reach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Elona_Reach
+    waypoints:
+    - name: Temple of Kormir Waypoint
+      chatLink: '[&BEAKAAA=]'
+  Forged Foothold:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Forged_Foothold
+    waypoints: []
+  Free City of Amnoon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Free_City_of_Amnoon
+    waypoints:
+    - name: Amnoon Waypoint
+      chatLink: '[&BLsKAAA=]'
+  Kusini Crossing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Kusini_Crossing
+    waypoints: []
+  The Sinking Ruins:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Sinking_Ruins
+    waypoints: []
+Deadend Cave:
+  Chantry of Secrets:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Chantry_of_Secrets
+    waypoints: []
+Desert Highlands:
+  Brightwater Inlet:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Brightwater_Inlet
+    waypoints:
+    - name: Brightwater Waypoint
+      chatLink: '[&BJEKAAA=]'
+  Diviner's Reach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Diviner's_Reach
+    waypoints:
+    - name: Makali Outpost Waypoint
+      chatLink: '[&BGsKAAA=]'
+  Fortune's Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fortune's_Vale
+    waypoints:
+    - name: Derelict Delve Waypoint
+      chatLink: '[&BKQKAAA=]'
+  Stampede Uplands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stampede_Uplands
+    waypoints:
+    - name: Highjump Ranch Waypoint
+      chatLink: '[&BJ0KAAA=]'
+  Tomb of the Primeval Kings:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tomb_of_the_Primeval_Kings
+    waypoints: []
+  Windshear Scarps:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Windshear_Scarps
+    waypoints: []
+Diessa Plateau:
+  Bloodcliff Quarry:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bloodcliff_Quarry
+    waypoints: []
+  Burrows of Moledavia:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Burrows_of_Moledavia
+    waypoints: []
+  Nemus Groves:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Nemus_Groves
+    waypoints:
+    - name: Nemus Grove Waypoint
+      chatLink: '[&BGMBAAA=]'
+  Noxin Dells:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Noxin_Dells
+    waypoints: []
+  Oldgate Clearing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Oldgate_Clearing
+    waypoints: []
+  Rancher's Wash:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Rancher's_Wash
+    waypoints:
+    - name: Dawnright Estate Waypoint
+      chatLink: '[&BJoDAAA=]'
+  Reaper's Corridor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Reaper's_Corridor
+    waypoints:
+    - name: Redreave Mill Waypoint
+      chatLink: '[&BMYDAAA=]'
+  Sanctum Way:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sanctum_Way
+    waypoints:
+    - name: Sanctum Waypoint
+      chatLink: '[&BMUDAAA=]'
+  The Blasted Moors:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Blasted_Moors
+    waypoints:
+    - name: Blasted Moors Waypoint
+      chatLink: '[&BNoAAAA=]'
+  Village of Butcher's Block:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Village_of_Butcher's_Block
+    waypoints:
+    - name: Butcher's Block Waypoint
+      chatLink: '[&BF8BAAA=]'
+  Wodron Glens:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Wodron_Glens
+    waypoints:
+    - name: Charradis Estate Waypoint
+      chatLink: '[&BGABAAA=]'
+Divinity's Reach:
+  District Promenade:
+    wikiUrl: https://wiki.guildwars2.com/wiki/District_Promenade
+    waypoints:
+    - name: Commons Waypoint
+      chatLink: '[&BCoDAAA=]'
+  Dwayna High Road:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dwayna_High_Road
+    waypoints:
+    - name: Ministers Waypoint
+      chatLink: '[&BP4EAAA=]'
+  Dwayna Low Road:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dwayna_Low_Road
+    waypoints: []
+  Eastern Commons:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Eastern_Commons
+    waypoints: []
+  Ossan Quarter:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ossan_Quarter
+    waypoints: []
+  Plaza of Dwayna:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Plaza_of_Dwayna
+    waypoints:
+    - name: Dwayna Waypoint
+      chatLink: '[&BCMDAAA=]'
+  Salma District:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Salma_District
+    waypoints: []
+  The Crown Pavilion:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Crown_Pavilion
+    waypoints: []
+  The Upper City:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Upper_City
+    waypoints:
+    - name: Palace Waypoint
+      chatLink: '[&BCkDAAA=]'
+Domain of Istan:
+  Chalon Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Chalon_Docks
+    waypoints:
+    - name: Chalon Docks Waypoint
+      chatLink: '[&BAkLAAA=]'
+  Champion's Dawn:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Champion's_Dawn
+    waypoints:
+    - name: Champion's Dawn Waypoint
+      chatLink: '[&BBoLAAA=]'
+  Corsair Flotilla:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Corsair_Flotilla
+    waypoints: []
+  Palawadan, Jewel of Istan:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Palawadan,_Jewel_of_Istan
+    waypoints: []
+  Plains of Jarin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Plains_of_Jarin
+    waypoints: []
+  The Astralarium:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Astralarium
+    waypoints:
+    - name: Astralarium Waypoint
+      chatLink: '[&BPoKAAA=]'
+  Zehlon Breach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Zehlon_Breach
+    waypoints: []
+Domain of Kourna:
+  Allied Encampment:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Allied_Encampment
+    waypoints:
+    - name: Allied Encampment Waypoint
+      chatLink: '[&BFcLAAA=]'
+  Arkjok Farmlands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Arkjok_Farmlands
+    waypoints: []
+  Bitterfly Bayou:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bitterfly_Bayou
+    waypoints: []
+  Corsair Landing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Corsair_Landing
+    waypoints: []
+Domain of Vabbi:
+  Garden of Seborhin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Garden_of_Seborhin
+    waypoints:
+    - name: Seborhin Waypoint
+      chatLink: '[&BNAKAAA=]'
+  The Foundry:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Foundry
+    waypoints: []
+  The Necropolis:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Necropolis
+    waypoints:
+    - name: Necropolis Waypoint
+      chatLink: '[&BEoKAAA=]'
+  Vehjin Mines:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Vehjin_Mines
+    waypoints: []
+  Vehjin Palace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Vehjin_Palace
+    waypoints:
+    - name: Vehjin Palace Waypoint
+      chatLink: '[&BO0KAAA=]'
+  Vehtendi Academy:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Vehtendi_Academy
+    waypoints:
+    - name: Vehtendi Academy Waypoint
+      chatLink: '[&BA8KAAA=]'
+Draconis Mons:
+  Mariner Landing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mariner_Landing
+    waypoints:
+    - name: Mariner Landing Waypoint
+      chatLink: '[&BL0JAAA=]'
+'Dragon Response Mission: Thunderhead Peaks':
+  The Grotto:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Grotto
+    waypoints: []
+Dragon's End:
+  Harvest Complex:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Harvest_Complex
+    waypoints:
+    - name: Harvest Complex Waypoint
+      chatLink: '[&BKAMAAA=]'
+  Outer Terrace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Outer_Terrace
+    waypoints: []
+  Southern Bluff:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Southern_Bluff
+    waypoints:
+    - name: Frozen Sea Waypoint
+      chatLink: '[&BPEMAAA=]'
+  The Jade Whirl:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Jade_Whirl
+    waypoints: []
+  Western Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Western_Vale
+    waypoints: []
+  Xunlai Jade Quarry:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Xunlai_Jade_Quarry
+    waypoints:
+    - name: Jade Quarry Waypoint
+      chatLink: '[&BKIMAAA=]'
+Dragon's Stand:
+  Dragon's Stand (Heart of Thorns):
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Stand_(Heart_of_Thorns)
+    waypoints: []
+  Mordremoth's Vantage:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mordremoth's_Vantage
+    waypoints: []
+  Pact Base Camp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Pact_Base_Camp
+    waypoints:
+    - name: Pact Base Camp Southern Waypoint
+      chatLink: '[&BHoIAAA=]'
+Dragonfall:
+  Pact Command:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Pact_Command
+    waypoints:
+    - name: Pact Command Waypoint
+      chatLink: '[&BN4LAAA=]'
+  Sayida's airship:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sayida's_airship
+    waypoints: []
+Dredgehaunt Cliffs:
+  Theign Spiritwalk:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Theign_Spiritwalk
+    waypoints:
+    - name: Kenning Testing Ground Waypoint
+      chatLink: '[&BF4CAAA=]'
+  Tribulation Rift:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tribulation_Rift
+    waypoints: []
+Droknar's Light:
+  Droknar's Forge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Droknar's_Forge
+    waypoints: []
+Dry Top:
+  Challenger Cliffs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Challenger_Cliffs
+    waypoints:
+    - name: Repair Station Waypoint
+      chatLink: '[&BJcHAAA=]'
+  Treadrock Uplands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Treadrock_Uplands
+    waypoints:
+    - name: Restoration Refuge Waypoint
+      chatLink: '[&BIgHAAA=]'
+Durmand Priory:
+  The Durmand Priory (instance):
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Durmand_Priory_(instance)
+    waypoints: []
+Eastern Ward:
+  Coriolis Plaza:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Coriolis_Plaza
+    waypoints: []
+Edge of the Mists:
+  Badlands Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Badlands_Docks
+    waypoints:
+    - name: Badlands Safe Zone Waypoint
+      chatLink: '[&BEoHAAA=]'
+  Frostreach Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Frostreach_Docks
+    waypoints:
+    - name: Frostreach Safe Zone Waypoint
+      chatLink: '[&BEkHAAA=]'
+  Overgrown Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Overgrown_Docks
+    waypoints:
+    - name: Overgrowth Safe Zone Waypoint
+      chatLink: '[&BEMHAAA=]'
+Elon Riverlands:
+  Arid Gladefields:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Arid_Gladefields
+    waypoints:
+    - name: Olishar's Oasis Camp Waypoint
+      chatLink: '[&BCgKAAA=]'
+  Skimmer Ranch:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skimmer_Ranch
+    waypoints:
+    - name: Skimmer Ranch Waypoint
+      chatLink: '[&BGcKAAA=]'
+  Skimshallow Cove:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skimshallow_Cove
+    waypoints: []
+  Skyward Reach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skyward_Reach
+    waypoints:
+    - name: Augury's Shadow Waypoint
+      chatLink: '[&BFMKAAA=]'
+Elona Reach:
+  Temple of Kormir:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Temple_of_Kormir
+    waypoints: []
+Ember Bay:
+  Bleeding Pulpit:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bleeding_Pulpit
+    waypoints: []
+  Fractured Caldera:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fractured_Caldera
+    waypoints:
+    - name: Crumbling Trail Waypoint
+      chatLink: '[&BGAJAAA=]'
+  Infernal Cape:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Infernal_Cape
+    waypoints:
+    - name: Promontory Waypoint
+      chatLink: '[&BF8JAAA=]'
+  Performance Field:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Performance_Field
+    waypoints: []
+  Shipwreck Beach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shipwreck_Beach
+    waypoints:
+    - name: Castaway Circus Waypoint
+      chatLink: '[&BHgJAAA=]'
+  Skritt Anchorage:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skritt_Anchorage
+    waypoints:
+    - name: Scratch Gate Waypoint
+      chatLink: '[&BFUJAAA=]'
+Eternal Battlegrounds:
+  Blue World Hill:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Blue_World_Hill
+    waypoints:
+    - name: Blue World Hill Waypoint
+      chatLink: '[&BPoDAAA=]'
+  Green World Hill:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Green_World_Hill
+    waypoints:
+    - name: Green World Hill Waypoint
+      chatLink: '[&BPwDAAA=]'
+  Red World Hill:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Red_World_Hill
+    waypoints:
+    - name: Red World Hill Waypoint
+      chatLink: '[&BPsDAAA=]'
+  Stonemist Castle:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stonemist_Castle
+    waypoints:
+    - name: Stonemist Waypoint
+      chatLink: '[&BL0EAAA=]'
+Eye of the North:
+  Hall of Monuments:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hall_of_Monuments
+    waypoints:
+    - name: Eye of the North Waypoint
+      chatLink: '[&BAkMAAA=]'
+Far Shiverpeaks:
+  ? ''
+  : wikiUrl: https://wiki.guildwars2.com/wiki/File:Leivas_seitung.jpg
+    waypoints: []
+Fields of Ruin:
+  Bento Canyon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bento_Canyon
+    waypoints:
+    - name: Tyler's Bivouac Waypoint
+      chatLink: '[&BNYAAAA=]'
+  Halkor Meadows:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Halkor_Meadows
+    waypoints:
+    - name: Rosko's Campsite Waypoint
+      chatLink: '[&BNgAAAA=]'
+  Sniper's Woods:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sniper's_Woods
+    waypoints: []
+  Stronghold of Ebonhawke:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stronghold_of_Ebonhawke
+    waypoints:
+    - name: Fallen Angels Garrison Waypoint
+      chatLink: '[&BFEBAAA=]'
+  The Siege Plains:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Siege_Plains
+    waypoints:
+    - name: Vulture's Waypoint
+      chatLink: '[&BE0BAAA=]'
+Forsaken Thicket:
+  Salvation Pass:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Salvation_Pass
+    waypoints: []
+  Spirit Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Spirit_Vale
+    waypoints: []
+  Stronghold of the Faithful:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stronghold_of_the_Faithful
+    waypoints: []
+Fort Trinity:
+  Caer Aval:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Caer_Aval
+    waypoints: []
+Fractals of the Mists:
+  Aetherblade Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Aetherblade_Fractal
+    waypoints: []
+  Captain Mai Trin Boss Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Captain_Mai_Trin_Boss_Fractal
+    waypoints: []
+  Cliffside Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cliffside_Fractal
+    waypoints: []
+  Deepstone Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Deepstone_Fractal
+    waypoints: []
+  Kinfall Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Kinfall_Fractal
+    waypoints: []
+  Mistlock Observatory:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mistlock_Observatory
+    waypoints: []
+  Mistlock Sanctuary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mistlock_Sanctuary
+    waypoints: []
+  Molten Boss Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Boss_Fractal
+    waypoints: []
+  Molten Furnace Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Molten_Furnace_Fractal
+    waypoints: []
+  Snowblind Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Snowblind_Fractal
+    waypoints: []
+  Thaumanova Reactor Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Thaumanova_Reactor_Fractal
+    waypoints: []
+  Twilight Oasis Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Twilight_Oasis_Fractal
+    waypoints: []
+  Uncategorized Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Uncategorized_Fractal
+    waypoints: []
+  Urban Battleground Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Urban_Battleground_Fractal
+    waypoints: []
+  Volcanic Fractal:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Volcanic_Fractal
+    waypoints: []
+Free City of Amnoon:
+  Lily of the Elon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lily_of_the_Elon
+    waypoints: []
+Frostgorge Sound:
+  Dimotiki Waters:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dimotiki_Waters
+    waypoints:
+    - name: Dimotiki Waypoint
+      chatLink: '[&BH8CAAA=]'
+  Earthshake Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Earthshake_Basin
+    waypoints:
+    - name: Earthshake Waypoint
+      chatLink: '[&BHoCAAA=]'
+  Leopard's Tail Valley:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Leopard's_Tail_Valley
+    waypoints:
+    - name: Skyheight Steading Waypoint
+      chatLink: '[&BIECAAA=]'
+Frostland Melt:
+  Firebase Molek:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Firebase_Molek
+    waypoints: []
+  Mantelet Refuge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mantelet_Refuge
+    waypoints: []
+Gendarran Fields:
+  Ascalon Settlement:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ascalon_Settlement
+    waypoints:
+    - name: Ascalon Settlement Waypoint
+      chatLink: '[&BI8BAAA=]'
+  Broadhollow Bluffs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Broadhollow_Bluffs
+    waypoints:
+    - name: Broadhollow Waypoint
+      chatLink: '[&BOEAAAA=]'
+  Cornucopian Fields:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cornucopian_Fields
+    waypoints:
+    - name: Applenook Hamlet Waypoint
+      chatLink: '[&BJEBAAA=]'
+  Lake Bounty:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lake_Bounty
+    waypoints: []
+  Lake Gendarr:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lake_Gendarr
+    waypoints:
+    - name: Oogooth Waypoint
+      chatLink: '[&BOIAAAA=]'
+  Nebo Terrace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Nebo_Terrace
+    waypoints:
+    - name: Nebo Terrace Waypoint
+      chatLink: '[&BI4BAAA=]'
+  Vigilant Hills:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Vigilant_Hills
+    waypoints: []
+Giant's Passage:
+  Overlake Haven:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Overlake_Haven
+    waypoints: []
+Graupel Kohn:
+  Bergtrolde:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bergtrolde
+    waypoints: []
+Green Alpine Borderlands:
+  Blue World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Blue_World_Border_(Green_Borderlands)
+    waypoints:
+    - name: Border Waypoint
+      chatLink: '[&BNoEAAA=]'
+  Green Alpine Garrison:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Green_Alpine_Garrison
+    waypoints:
+    - name: Green World Garrison Waypoint
+      chatLink: '[&BNsEAAA=]'
+  Green World Citadel:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Green_World_Citadel
+    waypoints:
+    - name: Green World Citadel Waypoint
+      chatLink: '[&BNwEAAA=]'
+  Red World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Red_World_Border_(Green_Borderlands)
+    waypoints:
+    - name: Border Waypoint
+      chatLink: '[&BN4EAAA=]'
+Greystone Rise:
+  Seraph's Landing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Seraph's_Landing
+    waypoints: []
+Grothmar Valley:
+  Lower Blood Keep:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lower_Blood_Keep
+    waypoints:
+    - name: Blood Keep Waypoint
+      chatLink: '[&BBsMAAA=]'
+  Rusty Meadows:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Rusty_Meadows
+    waypoints: []
+  The Ooze Pit:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Ooze_Pit
+    waypoints: []
+  Tribunes' Trench:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tribunes'_Trench
+    waypoints: []
+Gyala Delve:
+  Excavation Yard:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Excavation_Yard
+    waypoints:
+    - name: Park Mining Ops Waypoint
+      chatLink: '[&BKoNAAA=]'
+  Howling Caves:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Howling_Caves
+    waypoints:
+    - name: Behemoth's Gap Waypoint
+      chatLink: '[&BJINAAA=]'
+  Jade Pools:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Jade_Pools
+    waypoints:
+    - name: Luxon Terminus Waypoint
+      chatLink: '[&BJkNAAA=]'
+  The Hollow:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Hollow
+    waypoints:
+    - name: Jadepillar Point Waypoint
+      chatLink: '[&BKQNAAA=]'
+Hall of Memories:
+  Champion's Rest:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Champion's_Rest
+    waypoints: []
+Harathi Hinterlands:
+  Guardian Lake:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Guardian_Lake
+    waypoints: []
+  Wildspine Hills:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Wildspine_Hills
+    waypoints:
+    - name: Grey Gritta's Waypoint
+      chatLink: '[&BKkAAAA=]'
+Haunted Canyons:
+  Tomb of the Confessors:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tomb_of_the_Confessors
+    waypoints: []
+Heart of Maguuma:
+  Auric Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Auric_Basin
+    waypoints: []
+  Bastion of the Penitent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bastion_of_the_Penitent
+    waypoints: []
+  Gilded Hollow:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Gilded_Hollow
+    waypoints:
+    - name: Arena Tower Waypoint
+      chatLink: '[&BNQIAAA=]'
+  Lost Precipice:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lost_Precipice
+    waypoints:
+    - name: Canyon Dig Waypoint
+      chatLink: '[&BDsIAAA=]'
+Heart of the Mists:
+  Hall of Memories:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hall_of_Memories
+    waypoints:
+    - name: PvP Lobby Waypoint
+      chatLink: '[&BBYEAAA=]'
+Highfirn Passage:
+  Rocklair:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Rocklair
+    waypoints: []
+Hoelbrak:
+  Hunter's Hearth:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hunter's_Hearth
+    waypoints: []
+  Might and Main:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Might_and_Main
+    waypoints:
+    - name: Might and Main Waypoint
+      chatLink: '[&BIUDAAA=]'
+  Raven Lodge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Raven_Lodge
+    waypoints:
+    - name: Raven Waypoint
+      chatLink: '[&BIgDAAA=]'
+  Shelter Rock:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shelter_Rock
+    waypoints:
+    - name: Shelter Rock Waypoint
+      chatLink: '[&BIsDAAA=]'
+  The Great Lodge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Great_Lodge
+    waypoints:
+    - name: Great Lodge Waypoint
+      chatLink: '[&BNUDAAA=]'
+  Trade Commons:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Trade_Commons
+    waypoints:
+    - name: Trade Commons Waypoint
+      chatLink: '[&BIYDAAA=]'
+Howling Caves:
+  Behemoth's Gap Base:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Behemoth's_Gap_Base
+    waypoints: []
+Inner Harbor:
+  Deverol Gardens:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Deverol_Gardens
+    waypoints: []
+Jahai Bluffs:
+  Fortress of Jahai:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fortress_of_Jahai
+    waypoints: []
+  Pact Vanguard:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Pact_Vanguard
+    waypoints:
+    - name: Soul's Vendetta Waypoint
+      chatLink: '[&BIMLAAA=]'
+  Yatendi Village:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Yatendi_Village
+    waypoints:
+    - name: Yatendi Village Waypoint
+      chatLink: '[&BH4LAAA=]'
+Janthir:
+  'Convergence: Mount Balrior':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Convergence:_Mount_Balrior
+    waypoints: []
+  Hearth's Glow:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hearth's_Glow
+    waypoints:
+    - name: Homestead Waypoint
+      chatLink: '[&BMUOAAA=]'
+  Mistburned Barrens:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mistburned_Barrens
+    waypoints: []
+Janthir Syntri:
+  Echoing Hills:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Echoing_Hills
+    waypoints: []
+  Festering Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Festering_Basin
+    waypoints:
+    - name: Festering Basin Waypoint
+      chatLink: '[&BLgOAAA=]'
+  Old Hutment Site:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Old_Hutment_Site
+    waypoints:
+    - name: Forager's Hunt Waypoint
+      chatLink: '[&BLcOAAA=]'
+  Slithering Outskirts:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Slithering_Outskirts
+    waypoints: []
+  Stricken Plains:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stricken_Plains
+    waypoints:
+    - name: Stricken Plains Waypoint
+      chatLink: '[&BCoPAAA=]'
+  Sulfurous Springs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sulfurous_Springs
+    waypoints: []
+Kessex Hills:
+  Cereboth Canyon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cereboth_Canyon
+    waypoints:
+    - name: Cereboth Waypoint
+      chatLink: '[&BBIAAAA=]'
+  Delanian Foothills:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Delanian_Foothills
+    waypoints:
+    - name: Delanian Waypoint
+      chatLink: '[&BAgAAAA=]'
+  Eukaryan Caves:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Eukaryan_Caves
+    waypoints: []
+  Fort Salma:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fort_Salma
+    waypoints:
+    - name: Fort Salma Waypoint
+      chatLink: '[&BAMAAAA=]'
+  Giant's Passage:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Giant's_Passage
+    waypoints:
+    - name: Overlake Haven Waypoint
+      chatLink: '[&BBMAAAA=]'
+  Greyhoof Meadows:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Greyhoof_Meadows
+    waypoints:
+    - name: Greyhoof Camp Waypoint
+      chatLink: '[&BBYAAAA=]'
+  Halacon Cataracts:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Halacon_Cataracts
+    waypoints:
+    - name: Halacon Waypoint
+      chatLink: '[&BAYAAAA=]'
+  Lychcroft Mere:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lychcroft_Mere
+    waypoints:
+    - name: Shadowheart Site Waypoint
+      chatLink: '[&BAwAAAA=]'
+  Overlord's Greatcamp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Overlord's_Greatcamp
+    waypoints:
+    - name: Overlord's Waypoint
+      chatLink: '[&BAQAAAA=]'
+  Sojourner's Way:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sojourner's_Way
+    waypoints:
+    - name: Sojourner's Waypoint
+      chatLink: '[&BAcAAAA=]'
+  Triskellion Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Triskellion_Vale
+    waypoints:
+    - name: Kessex Haven Waypoint
+      chatLink: '[&BBQAAAA=]'
+  Viath Shore:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Viath_Shore
+    waypoints: []
+  Viathan Lake:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Viathan_Lake
+    waypoints:
+    - name: Ireko Tradecamp Waypoint
+      chatLink: '[&BAoAAAA=]'
+  Wizard's Fief:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Wizard's_Fief
+    waypoints: []
+Kryta:
+  'Dragon Response Mission: Bloodtide Coast':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Bloodtide_Coast
+    waypoints: []
+  'Dragon Response Mission: Gendarran Fields':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Gendarran_Fields
+    waypoints: []
+  'Dragon Response Mission: Lake Doric':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Lake_Doric
+    waypoints: []
+  Lion's Arch Aerodrome:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lion's_Arch_Aerodrome
+    waypoints:
+    - name: Aerodrome Waypoint
+      chatLink: '[&BCAJAAA=]'
+  The Battle For Lion's Arch:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Battle_For_Lion's_Arch
+    waypoints: []
+Labyrinthine Cliffs:
+  Bazaar Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bazaar_Docks
+    waypoints:
+    - name: Bazaar Docks Waypoint
+      chatLink: '[&BBwHAAA=]'
+Lake Doric:
+  Doric Lumberyard:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Doric_Lumberyard
+    waypoints: []
+  Doric's Landing:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Doric's_Landing
+    waypoints:
+    - name: Doric's Landing Waypoint
+      chatLink: '[&BK0JAAA=]'
+  Eastern Divinity Reservoir:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Eastern_Divinity_Reservoir
+    waypoints: []
+  Fort Evennia:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fort_Evennia
+    waypoints: []
+  Harvest Cascades:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Harvest_Cascades
+    waypoints:
+    - name: Red Leaf Retreat Waypoint
+      chatLink: '[&BK8JAAA=]'
+  Lakeside Bazaar:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lakeside_Bazaar
+    waypoints:
+    - name: Lakeside Bazaar Waypoint
+      chatLink: '[&BLQJAAA=]'
+  Melandru's Refuge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Melandru's_Refuge
+    waypoints: []
+  New Loamhurst:
+    wikiUrl: https://wiki.guildwars2.com/wiki/New_Loamhurst
+    waypoints: []
+  Saidra's Haven:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Saidra's_Haven
+    waypoints: []
+Lion's Arch:
+  Bloodcoast Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bloodcoast_Ward
+    waypoints:
+    - name: Bloodcoast Ward Waypoint
+      chatLink: '[&BA4EAAA=]'
+  Commodore's Quarter:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Commodore's_Quarter
+    waypoints: []
+  Eastern Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Eastern_Ward
+    waypoints:
+    - name: Gate Hub Plaza Waypoint
+      chatLink: '[&BBEEAAA=]'
+  Farshore Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Farshore_Ward
+    waypoints:
+    - name: Cavern Waypoint
+      chatLink: '[&BDIEAAA=]'
+  Fort Marriner:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fort_Marriner
+    waypoints:
+    - name: Claw Island Portage Waypoint
+      chatLink: '[&BA8EAAA=]'
+  Fractal Incursion Conference:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fractal_Incursion_Conference
+    waypoints: []
+  Grand Piazza:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Grand_Piazza
+    waypoints: []
+  Hooligan's Route:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hooligan's_Route
+    waypoints: []
+  Inner Harbor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Harbor
+    waypoints: []
+  Lion's Arch Aerodrome:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lion's_Arch_Aerodrome
+    waypoints:
+    - name: Aerodrome Waypoint
+      chatLink: '[&BCAJAAA=]'
+  Postern Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Postern_Ward
+    waypoints:
+    - name: Eastern Ward Waypoint
+      chatLink: '[&BDEEAAA=]'
+  Sanctum Harbor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sanctum_Harbor
+    waypoints: []
+  Trader's Forum:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Trader's_Forum
+    waypoints:
+    - name: Trader's Forum Waypoint
+      chatLink: '[&BBAEAAA=]'
+  Western Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Western_Ward
+    waypoints:
+    - name: Sanctum Harbor Waypoint
+      chatLink: '[&BC8EAAA=]'
+Lornar's Pass:
+  Demon's Maw:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Demon's_Maw
+    waypoints:
+    - name: Demon's Maw Waypoint
+      chatLink: '[&BOYAAAA=]'
+  Durmand Priory:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Durmand_Priory_(location)
+    waypoints:
+    - name: Durmand Priory Waypoint
+      chatLink: '[&BOkAAAA=]'
+  The Godspurs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Godspurs
+    waypoints:
+    - name: Pinnacle Enclave Waypoint
+      chatLink: '[&BJgBAAA=]'
+Lowland Shore:
+  Autumn's Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Autumn's_Vale
+    waypoints:
+    - name: Autumn's Vale Waypoint
+      chatLink: '[&BC4PAAA=]'
+  Bjorn Thicket:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bjorn_Thicket
+    waypoints: []
+  Coursing Upland:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Coursing_Upland
+    waypoints: []
+  Cragged Upland:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cragged_Upland
+    waypoints:
+    - name: Hot Springs Waypoint
+      chatLink: '[&BMkOAAA=]'
+  Exorheic Falls:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Exorheic_Falls
+    waypoints: []
+  Haar Mire:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Haar_Mire
+    waypoints: []
+  Harvest Den:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Harvest_Den
+    waypoints: []
+  Harvest Shore:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Harvest_Shore
+    waypoints:
+    - name: Harvest Shore Waypoint
+      chatLink: '[&BN8OAAA=]'
+  Loch Lucent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Loch_Lucent
+    waypoints: []
+  Lupine Fields:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lupine_Fields
+    waypoints: []
+  Moon Camp Covert:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Moon_Camp_Covert
+    waypoints:
+    - name: Astral Ward Moon Camp Waypoint
+      chatLink: '[&BCcPAAA=]'
+  Tideland Outlet:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tideland_Outlet
+    waypoints: []
+Maguuma Jungle:
+  'Dragon Response Mission: Caledon Forest':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Caledon_Forest
+    waypoints: []
+Malchor's Leap:
+  Cathedral of Zephyrs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cathedral_of_Zephyrs
+    waypoints:
+    - name: Tempest Waypoint
+      chatLink: '[&BLACAAA=]'
+Mangonel Cavern:
+  Mangonel Bivouac:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mangonel_Bivouac
+    waypoints: []
+Memory of Old Lion's Arch:
+  Bloodcoast Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bloodcoast_Ward_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Bloodcoast Ward Waypoint
+      chatLink: '[&BIQNAAA=]'
+  Commodore's Quarter:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Commodore's_Quarter_(Memory_of_Old_Lion's_Arch)
+    waypoints: []
+  Farshore Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Farshore_Ward_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Farshore Waypoint
+      chatLink: '[&BIUNAAA=]'
+  Fort Marriner:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fort_Marriner_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Fort Marriner Waypoint
+      chatLink: '[&BI4NAAA=]'
+  Grand Piazza:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Grand_Piazza_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Gate Hub Plaza Waypoint
+      chatLink: '[&BJANAAA=]'
+  Inner Harbor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Inner_Harbor_(Memory_of_Old_Lion's_Arch)
+    waypoints: []
+  Postern Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Postern_Ward_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Cavern Waypoint
+      chatLink: '[&BIgNAAA=]'
+  Sanctum Harbor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sanctum_Harbor_(Memory_of_Old_Lion's_Arch)
+    waypoints: []
+  Trader's Forum:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Trader's_Forum_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Commodore's Quarter Waypoint
+      chatLink: '[&BI0NAAA=]'
+  Western Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Western_Ward_(Memory_of_Old_Lion's_Arch)
+    waypoints:
+    - name: Western Ward Waypoint
+      chatLink: '[&BI8NAAA=]'
+Metrica Province:
+  Desider Atum:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Desider_Atum
+    waypoints:
+    - name: Desider Atum Waypoint
+      chatLink: '[&BEgAAAA=]'
+  Golemagical Institute:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Golemagical_Institute
+    waypoints: []
+  Jeztar Falls:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Jeztar_Falls
+    waypoints:
+    - name: Jeztar Falls Waypoint
+      chatLink: '[&BEEAAAA=]'
+  Loch Jezt:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Loch_Jezt
+    waypoints:
+    - name: Loch Waypoint
+      chatLink: '[&BK8EAAA=]'
+  Michoan Marsh:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Michoan_Marsh
+    waypoints:
+    - name: Michotl Grounds Waypoint
+      chatLink: '[&BLEEAAA=]'
+  Soren Draa:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Soren_Draa
+    waypoints:
+    - name: Soren Draa Waypoint
+      chatLink: '[&BEAAAAA=]'
+  Thaumanova Reactor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Thaumanova_Reactor
+    waypoints: []
+  The Hinterlabs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Hinterlabs
+    waypoints:
+    - name: Hydrone Unit Waypoint
+      chatLink: '[&BPcEAAA=]'
+Mistburned Barrens:
+  Alliance Staging Ground:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Alliance_Staging_Ground
+    waypoints:
+    - name: Alliance Staging Ground Waypoint
+      chatLink: '[&BFAPAAA=]'
+  The Golden Lake:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Golden_Lake
+    waypoints: []
+Mists Vault:
+  Sky Vault:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sky_Vault
+    waypoints:
+    - name: Mists Vault Waypoint
+      chatLink: '[&BD0PAAA=]'
+Mount Balrior:
+  Mount Balrior:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mount_Balrior
+    waypoints: []
+Mount Maelstrom:
+  Bard's Valley:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bard's_Valley
+    waypoints:
+    - name: Bard's Waypoint
+      chatLink: '[&BMwCAAA=]'
+  Criterion Canyon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Criterion_Canyon
+    waypoints:
+    - name: Criterion Waypoint
+      chatLink: '[&BMkCAAA=]'
+  Judgment Rock:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Judgment_Rock
+    waypoints:
+    - name: Judgment Waypoint
+      chatLink: '[&BNUCAAA=]'
+  Sootberme:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sootberme
+    waypoints:
+    - name: Firebreak Fort Waypoint
+      chatLink: '[&BMoCAAA=]'
+  Sunken Droknah:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sunken_Droknah
+    waypoints: []
+Mythwright Gambit:
+  Mystic Forge Acquisition Piles:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mystic_Forge_Acquisition_Piles
+    waypoints: []
+New Kaineng City:
+  Bori Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bori_Ward
+    waypoints: []
+  Cobble Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cobble_Ward
+    waypoints: []
+  Garden Heights:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Garden_Heights
+    waypoints:
+    - name: Garden Heights Waypoint
+      chatLink: '[&BBYNAAA=]'
+  Grub Lane:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Grub_Lane
+    waypoints: []
+  Kaineng Docks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Kaineng_Docks
+    waypoints:
+    - name: Promenade Waypoint
+      chatLink: '[&BMYMAAA=]'
+  Lutgardis Plaza:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lutgardis_Plaza
+    waypoints:
+    - name: Lutgardis Plaza Waypoint
+      chatLink: '[&BCANAAA=]'
+  Ministry Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ministry_Ward
+    waypoints:
+    - name: Ministry Ward Waypoint
+      chatLink: '[&BBkNAAA=]'
+  North Lab:
+    wikiUrl: https://wiki.guildwars2.com/wiki/North_Lab
+    waypoints: []
+  Soojung Heights:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Soojung_Heights
+    waypoints: []
+Noble Ledges:
+  Noble's Folly:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Noble's_Folly
+    waypoints: []
+Nyedra Surrounds:
+  Nyedra, Dreamer's Sanctum:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Nyedra,_Dreamer's_Sanctum
+    waypoints: []
+  Stormcarved Hollows:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stormcarved_Hollows
+    waypoints: []
+  The Commons:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Commons
+    waypoints:
+    - name: Forward Bivouac Waypoint
+      chatLink: '[&BHYOAAA=]'
+  The Old Settlement:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Old_Settlement
+    waypoints: []
+Obsidian Sanctum:
+  Zraith's Beacon:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Zraith's_Beacon
+    waypoints:
+    - name: Obsidian Sanctum Waypoint (Green)
+      chatLink: '[&BAQHAAA=]'
+Osprey Pillars:
+  Lava Lounge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lava_Lounge
+    waypoints: []
+Ossencrest Climb:
+  Scholar's Cleft:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Scholar's_Cleft
+    waypoints: []
+Outer Ring:
+  Forge of Timelessness:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Forge_of_Timelessness
+    waypoints: []
+Outer Sanctorium:
+  Rift Hunter Lounge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Rift_Hunter_Lounge
+    waypoints: []
+Pact Command:
+  Pact Outpost:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Pact_Outpost
+    waypoints: []
+Penitent Path:
+  Penitent Camp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Penitent_Camp
+    waypoints: []
+Plains of Ashford:
+  Ascalon Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ascalon_Basin
+    waypoints:
+    - name: Irondock Shipyard Waypoint
+      chatLink: '[&BIoBAAA=]'
+  Ascalon City Ruins:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ascalon_City_Ruins
+    waypoints:
+    - name: Ascalon City Waypoint
+      chatLink: '[&BIcBAAA=]'
+  Ashford Forum:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ashford_Forum
+    waypoints:
+    - name: Ashford Waypoint
+      chatLink: '[&BIQBAAA=]'
+  Cadem Forest:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cadem_Forest
+    waypoints: []
+  Loreclaw Expanse:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Loreclaw_Expanse
+    waypoints:
+    - name: Loreclaw Waypoint
+      chatLink: '[&BMcDAAA=]'
+  Phasmatis Corridor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Phasmatis_Corridor
+    waypoints:
+    - name: Phasmatis Waypoint
+      chatLink: '[&BMgDAAA=]'
+  Tela Range:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tela_Range
+    waypoints:
+    - name: Greysteel Armory Waypoint
+      chatLink: '[&BIEBAAA=]'
+  Village of Smokestead:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Village_of_Smokestead
+    waypoints:
+    - name: Smokestead Waypoint
+      chatLink: '[&BIABAAA=]'
+Plaza of Balthazar:
+  Royal Terrace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Royal_Terrace
+    waypoints: []
+Postern Ward:
+  Lion's Shadow Bed and Breakfast:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lion's_Shadow_Bed_and_Breakfast
+    waypoints: []
+Queensdale:
+  Altar Brook Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Altar_Brook_Vale
+    waypoints:
+    - name: Crossing Waypoint
+      chatLink: '[&BPIAAAA=]'
+  Beetletun Farms:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Beetletun_Farms
+    waypoints: []
+  Clayent Falls:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Clayent_Falls
+    waypoints: []
+  Demongrub Pits:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Demongrub_Pits
+    waypoints: []
+  Godslost Swamp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Godslost_Swamp
+    waypoints:
+    - name: Godslost Waypoint
+      chatLink: '[&BPwAAAA=]'
+  Krytan Freeholds:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Krytan_Freeholds
+    waypoints:
+    - name: Krytan Waypoint
+      chatLink: '[&BPgAAAA=]'
+  Orlaf Escarpments:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Orlaf_Escarpments
+    waypoints: []
+  Scaver Plateau:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Scaver_Plateau
+    waypoints:
+    - name: Scaver Waypoint
+      chatLink: '[&BEUDAAA=]'
+  Shaemoor Fields:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shaemoor_Fields
+    waypoints:
+    - name: Fields Waypoint
+      chatLink: '[&BPAAAAA=]'
+  Shire of Beetletun:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shire_of_Beetletun
+    waypoints:
+    - name: Beetletun Waypoint
+      chatLink: '[&BPoAAAA=]'
+  Taminn Foothills:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Taminn_Foothills
+    waypoints: []
+  Township of Claypool:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Township_of_Claypool
+    waypoints:
+    - name: Claypool Waypoint
+      chatLink: '[&BPYAAAA=]'
+  Village of Shaemoor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Village_of_Shaemoor
+    waypoints:
+    - name: Shaemoor Waypoint
+      chatLink: '[&BO8AAAA=]'
+Rata Sum:
+  Applied Development Lab:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Applied_Development_Lab
+    waypoints: []
+  Apprentice Carrels:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Apprentice_Carrels
+    waypoints:
+    - name: Apprentice Waypoint
+      chatLink: '[&BLcEAAA=]'
+  Creator's Commons:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Creator's_Commons
+    waypoints: []
+  Idea Incubation Lab:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Idea_Incubation_Lab
+    waypoints:
+    - name: Incubation Waypoint
+      chatLink: '[&BLUEAAA=]'
+  Interdisciplinary Accessium:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Interdisciplinary_Accessium
+    waypoints:
+    - name: Accountancy Waypoint
+      chatLink: '[&BLYEAAA=]'
+  Rata Sum Port Authority:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Rata_Sum_Port_Authority
+    waypoints:
+    - name: Port Waypoint
+      chatLink: '[&BAcFAAA=]'
+  Snaff Memorial Lab:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Snaff_Memorial_Lab
+    waypoints: []
+  Synergetics Union:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Synergetics_Union
+    waypoints: []
+Reclaimed Chantry:
+  Gaze of the Ancients:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Gaze_of_the_Ancients
+    waypoints: []
+Red Desert Borderlands:
+  Blue World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Blue_World_Border_(Red_Desert_Borderlands)
+    waypoints:
+    - name: Border Waypoint
+      chatLink: '[&BIsIAAA=]'
+  Green World Border:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Green_World_Border_(Red_Desert_Borderlands)
+    waypoints:
+    - name: Border Waypoint
+      chatLink: '[&BMcIAAA=]'
+  Red World Citadel:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Red_World_Citadel
+    waypoints:
+    - name: Red World Citadel Waypoint
+      chatLink: '[&BMwEAAA=]'
+  Stoic Rampart:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stoic_Rampart
+    waypoints:
+    - name: Stoic Rampart Waypoint
+      chatLink: '[&BP0IAAA=]'
+Royal Palace:
+  Queen's Throne Room:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Queen's_Throne_Room
+    waypoints: []
+Sandswept Isles:
+  Atholma:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Atholma
+    waypoints:
+    - name: Atholma Waypoint
+      chatLink: '[&BEMLAAA=]'
+  Invariant Enclave:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Invariant_Enclave
+    waypoints: []
+Seitung Harbor:
+  Harbor Market:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Harbor_Market
+    waypoints: []
+Seitung Province:
+  Crystal Cave:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Crystal_Cave
+    waypoints: []
+  Daigo Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Daigo_Ward
+    waypoints:
+    - name: Daigo Ward Waypoint
+      chatLink: '[&BGUNAAA=]'
+  Eastern Wilds:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Eastern_Wilds
+    waypoints: []
+  Seitung Harbor:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Seitung_Harbor
+    waypoints:
+    - name: Village Waypoint
+      chatLink: '[&BJ4MAAA=]'
+  Shing Jea Monastery:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shing_Jea_Monastery
+    waypoints:
+    - name: Monastery Waypoint
+      chatLink: '[&BL8MAAA=]'
+  Shinota Shore:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shinota_Shore
+    waypoints: []
+  Training Grounds:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Training_Grounds_(Seitung_Province)
+    waypoints: []
+Shipwreck Strand:
+  Breezy Cay:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Breezy_Cay
+    waypoints:
+    - name: Pub Canach Waypoint
+      chatLink: '[&BJEPAAA=]'
+  Glimmering Arches:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Glimmering_Arches
+    waypoints: []
+  Hullgarden:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hullgarden
+    waypoints:
+    - name: Hullgarden Pier Waypoint
+      chatLink: '[&BMwPAAA=]'
+  Soaring Sands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Soaring_Sands
+    waypoints:
+    - name: Dark Leviathan Waypoint
+      chatLink: '[&BJwPAAA=]'
+Shiverpeak Mountains:
+  'Dragon Response Mission: Snowden Drifts':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Snowden_Drifts
+    waypoints: []
+  'Dragon Response Mission: Thunderhead Peaks':
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon_Response_Mission:_Thunderhead_Peaks
+    waypoints: []
+  Hoelbrak:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hoelbrak
+    waypoints: []
+  The Twisted Marionette:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Twisted_Marionette
+    waypoints: []
+Siren's Landing:
+  Balthazar's Reliquary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Balthazar's_Reliquary
+    waypoints: []
+  Bloated Beach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bloated_Beach
+    waypoints: []
+  Grenth's Reliquary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Grenth's_Reliquary
+    waypoints: []
+  Melandru's Reliquary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Melandru's_Reliquary
+    waypoints: []
+  Merciless Shore:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Merciless_Shore
+    waypoints: []
+Sky's Reach:
+  Skyscale Eyrie:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skyscale_Eyrie
+    waypoints: []
+Skywatch Archipelago:
+  Devastated Garenhoff:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Devastated_Garenhoff
+    waypoints:
+    - name: Garenhoff Refugee Camp Waypoint
+      chatLink: '[&BBUOAAA=]'
+  Droknar's Light:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Droknar's_Light
+    waypoints:
+    - name: Droknar's Light Waypoint
+      chatLink: '[&BL4NAAA=]'
+  Skyward Marches:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Skyward_Marches
+    waypoints:
+    - name: Astral Ward Encampment Waypoint
+      chatLink: '[&BA4OAAA=]'
+  Southern Wizard's Tower:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Southern_Wizard's_Tower
+    waypoints: []
+  Wizard's Ascent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Wizard's_Ascent
+    waypoints:
+    - name: Beacon of Ages Waypoint
+      chatLink: '[&BCsOAAA=]'
+Snowblind Peaks:
+  Havoc's Heir:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Havoc's_Heir
+    waypoints: []
+Snowden Drifts:
+  Dragon's Rising:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dragon's_Rising
+    waypoints:
+    - name: Lost Child's Sorrow Waypoint
+      chatLink: '[&BLYAAAA=]'
+  Hrothgar's Pass:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hrothgar's_Pass
+    waypoints:
+    - name: Snowdrift Haven Waypoint
+      chatLink: '[&BLkAAAA=]'
+  Isenfall Gullies:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Isenfall_Gullies
+    waypoints: []
+  Jormabakke Stead:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Jormabakke_Stead
+    waypoints: []
+  Lornar's Gate:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lornar's_Gate
+    waypoints:
+    - name: Lornar's Waypoint
+      chatLink: '[&BLQAAAA=]'
+  Oros Spurs:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Oros_Spurs
+    waypoints: []
+  Ossencrest Climb:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ossencrest_Climb
+    waypoints:
+    - name: Angvar's Trove Waypoint
+      chatLink: '[&BP8GAAA=]'
+  Owl's Abattoir:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Owl's_Abattoir
+    waypoints:
+    - name: Owl Waypoint
+      chatLink: '[&BMEAAAA=]'
+  The Loneholme Range:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Loneholme_Range
+    waypoints:
+    - name: Njordstead Waypoint
+      chatLink: '[&BL0AAAA=]'
+  Tromigar Valley:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tromigar_Valley
+    waypoints:
+    - name: Snowhawk Landing Waypoint
+      chatLink: '[&BL8AAAA=]'
+  Valslake:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Valslake
+    waypoints:
+    - name: Valslake Waypoint
+      chatLink: '[&BMADAAA=]'
+Sparkfly Fen:
+  Astrozintli Forelands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Astrozintli_Forelands
+    waypoints:
+    - name: Zintl Holy Grounds Waypoint
+      chatLink: '[&BMgBAAA=]'
+  Leeshore Gauntlet:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Leeshore_Gauntlet
+    waypoints: []
+  The Shattered Keep:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Shattered_Keep
+    waypoints: []
+Squall Cusps:
+  Thunderhead Battery:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Thunderhead_Battery
+    waypoints: []
+Starlit Weald:
+  Crumbling Precipice:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Crumbling_Precipice
+    waypoints:
+    - name: Priory Expedition Waypoint
+      chatLink: '[&BJ4PAAA=]'
+  Overgrown Thicket:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Overgrown_Thicket
+    waypoints: []
+  Shimmering Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shimmering_Basin
+    waypoints:
+    - name: Foothold Bivouac Waypoint
+      chatLink: '[&BMAPAAA=]'
+  Untamed Crags:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Untamed_Crags
+    waypoints:
+    - name: Hunter's Camp Waypoint
+      chatLink: '[&BIoPAAA=]'
+Steelbrachen:
+  Leaning Grade:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Leaning_Grade
+    waypoints: []
+  Shelter Pointe:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shelter_Pointe
+    waypoints: []
+Stone of Hazaan:
+  Shrine of Usharr:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Shrine_of_Usharr
+    waypoints: []
+Straits of Devastation:
+  Cathedral of Glorious Victory:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cathedral_of_Glorious_Victory
+    waypoints:
+    - name: Glorious Victory Waypoint
+      chatLink: '[&BPoCAAA=]'
+  Fort Trinity:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fort_Trinity
+    waypoints:
+    - name: Fort Trinity Waypoint
+      chatLink: '[&BO4CAAA=]'
+  Lightfoot Passage:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lightfoot_Passage
+    waypoints: []
+Stronghold of Ebonhawke:
+  The Hawke Heart:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Hawke_Heart
+    waypoints: []
+Sun's Refuge:
+  Old Command Post:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Old_Command_Post
+    waypoints: []
+Super Adventure Box:
+  Hub:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hub
+    waypoints:
+    - name: Super Adventure Waypoint
+      chatLink: '[&BCAHAAA=]'
+Tangled Depths:
+  Ogre Camp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ogre_Camp
+    waypoints:
+    - name: Ogre Camp Waypoint
+      chatLink: '[&BMwHAAA=]'
+  Tangled Descent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tangled_Descent
+    waypoints:
+    - name: Order of Whispers Camp Waypoint
+      chatLink: '[&BA4IAAA=]'
+  Teku Nuhoch:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Teku_Nuhoch
+    waypoints:
+    - name: Teku Nuhoch Waypoint
+      chatLink: '[&BAwIAAA=]'
+  Undergrowth Connector:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Undergrowth_Connector
+    waypoints: []
+The Battle For Lion's Arch:
+  Bloodcoast Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bloodcoast_Ward_(The_Battle_For_Lion's_Arch)
+    waypoints:
+    - name: Bloodcoast Ward Waypoint
+      chatLink: '[&BIkNAAA=]'
+  Canal Ward:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Canal_Ward
+    waypoints: []
+  Priory Foothold:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Priory_Foothold
+    waypoints: []
+The Desolation:
+  Lair of the Forgotten:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Lair_of_the_Forgotten
+    waypoints:
+    - name: Lair of the Forgotten Waypoint
+      chatLink: '[&BMEKAAA=]'
+  Sand Jackal Run:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Sand_Jackal_Run
+    waypoints:
+    - name: Sand Jackal Run Waypoint
+      chatLink: '[&BHcKAAA=]'
+  Silent Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Silent_Vale
+    waypoints: []
+  The Bonestrand:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Bonestrand
+    waypoints:
+    - name: Bonestrand Waypoint
+      chatLink: '[&BNwKAAA=]'
+  The Darklands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Darklands
+    waypoints:
+    - name: The Darklands Waypoint
+      chatLink: '[&BKMKAAA=]'
+The Echovald Wilds:
+  Aspenwood Gulch:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Aspenwood_Gulch
+    waypoints: []
+  Brotherhood Woodlands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Brotherhood_Woodlands
+    waypoints:
+    - name: Junkyard Waypoint
+      chatLink: '[&BIsMAAA=]'
+  Ferndale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Ferndale
+    waypoints: []
+  Melandru's Hope:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Melandru's_Hope
+    waypoints: []
+  Mori Village:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mori_Village
+    waypoints:
+    - name: Mori Village Waypoint
+      chatLink: '[&BMcMAAA=]'
+  Qinkaishi Basin:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Qinkaishi_Basin
+    waypoints:
+    - name: Qinkai Waypoint
+      chatLink: '[&BNQMAAA=]'
+  Quarry Forelands:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Quarry_Forelands
+    waypoints:
+    - name: Jade Gate Waypoint
+      chatLink: '[&BPkMAAA=]'
+  Saint's Vale:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Saint's_Vale
+    waypoints:
+    - name: Kropa Waypoint
+      chatLink: '[&BMwMAAA=]'
+  Warden's Folly:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Warden's_Folly
+    waypoints: []
+  Xunlai Jade Junkyard:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Xunlai_Jade_Junkyard_(area)
+    waypoints: []
+  Zu Heltzer Historical Site:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Zu_Heltzer_Historical_Site
+    waypoints:
+    - name: Waypoint zu Heltzer
+      chatLink: '[&BMoMAAA=]'
+The Grey Road:
+  Fridgardr Lodge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Fridgardr_Lodge
+    waypoints: []
+The Grotto:
+  Barracks:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Barracks
+    waypoints: []
+The Grove:
+  Dreamer's Terrace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dreamer's_Terrace
+    waypoints: []
+  Garden of Dusk:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Garden_of_Dusk
+    waypoints: []
+  Maker's Terrace:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Maker's_Terrace
+    waypoints: []
+  Omphalos Chamber:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Omphalos_Chamber
+    waypoints: []
+The Loneholme Range:
+  Njordstead:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Njordstead
+    waypoints: []
+The Mists:
+  ? ''
+  : wikiUrl: https://wiki.guildwars2.com/wiki/File:Gorrik_in_Sun's_Refuge.jpg
+    waypoints: []
+  Armistice Bastion:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Armistice_Bastion
+    waypoints:
+    - name: Gladiator Pits Waypoint
+      chatLink: '[&BMYLAAA=]'
+  Hall of Chains:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hall_of_Chains
+    waypoints: []
+  Mistlock Sanctuary:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mistlock_Sanctuary
+    waypoints: []
+The Silverwastes:
+  Camp Resolve:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Camp_Resolve
+    waypoints:
+    - name: Camp Resolve Waypoint
+      chatLink: '[&BH8HAAA=]'
+  Central Silverwastes:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Central_Silverwastes
+    waypoints: []
+  Northwestern Silverwastes:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Northwestern_Silverwastes
+    waypoints: []
+  Southeastern Silverwastes:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Southeastern_Silverwastes
+    waypoints: []
+  Southwestern Silverwastes:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Southwestern_Silverwastes
+    waypoints: []
+The Tower of Nightmares:
+  Unending Nightmares:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Unending_Nightmares
+    waypoints: []
+The Wizard's Tower:
+  Outer Ring:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Outer_Ring
+    waypoints:
+    - name: Tower Courtyard Waypoint
+      chatLink: '[&BB8OAAA=]'
+  Outer Sanctorium:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Outer_Sanctorium
+    waypoints: []
+Thunderhead Peaks:
+  Deldrimor Ruins:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Deldrimor_Ruins
+    waypoints:
+    - name: History's End Waypoint
+      chatLink: '[&BLsLAAA=]'
+  Dredgeways:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dredgeways
+    waypoints:
+    - name: Revolution's Heart Waypoint
+      chatLink: '[&BKYLAAA=]'
+  Symphony's Haven:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Symphony's_Haven
+    waypoints:
+    - name: Moorage Waypoint
+      chatLink: '[&BLoLAAA=]'
+  The Forge:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Forge
+    waypoints:
+    - name: Observation Deck Waypoint
+      chatLink: '[&BLkLAAA=]'
+  The Grotto:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Grotto
+    waypoints: []
+Timberline Falls:
+  Guilty Tears:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Guilty_Tears
+    waypoints:
+    - name: Ogduk Waypoint
+      chatLink: '[&BE0CAAA=]'
+  Gyre Rapids:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Gyre_Rapids
+    waypoints:
+    - name: Concordia Waypoint
+      chatLink: '[&BFUCAAA=]'
+  Mellaggan's Grotto:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Mellaggan's_Grotto
+    waypoints:
+    - name: Okarinoo Waypoint
+      chatLink: '[&BEYCAAA=]'
+  Nonmoa Lake:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Nonmoa_Lake
+    waypoints:
+    - name: Coil Waypoint
+      chatLink: '[&BEcCAAA=]'
+  Tail of the Serpent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Tail_of_the_Serpent
+    waypoints: []
+Titan's Pass:
+  Base Camp:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Base_Camp
+    waypoints: []
+Twilight Arbor:
+  Phloem Meander:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Phloem_Meander
+    waypoints:
+    - name: (Ooze Font Waypoint)
+      chatLink: '[&BCgHAAA=]'
+Underworld:
+  Hall of Chains:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Hall_of_Chains
+    waypoints: []
+Verdant Brink:
+  Jaka Itzel:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Jaka_Itzel
+    waypoints:
+    - name: Jaka Itzel Waypoint
+      chatLink: '[&BOAHAAA=]'
+  Maguuma's Breach:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Maguuma's_Breach
+    waypoints:
+    - name: Shipwreck Peak Waypoint
+      chatLink: '[&BN4HAAA=]'
+    - name: Shipwreck Peak Waypoint2
+      chatLink: '[&BMAHAAA=]'
+  Noble Ledges:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Noble_Ledges
+    waypoints:
+    - name: Faren's Flyer Waypoint
+      chatLink: '[&BO8HAAA=]'
+  Stonetwist Paths:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Stonetwist_Paths
+    waypoints:
+    - name: Pact Encampment Waypoint
+      chatLink: '[&BAgIAAA=]'
+Wayfarer Foothills:
+  Dolyak Pass:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Dolyak_Pass
+    waypoints:
+    - name: Dolyak Pass Waypoint
+      chatLink: '[&BHsBAAA=]'
+  Frusenfell Creek:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Frusenfell_Creek
+    waypoints:
+    - name: Vendrake's Homestead Waypoint
+      chatLink: '[&BH4BAAA=]'
+  Snowlord's Gate:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Snowlord's_Gate
+    waypoints:
+    - name: Horncall Waypoint
+      chatLink: '[&BHQBAAA=]'
+  The Icesteppes:
+    wikiUrl: https://wiki.guildwars2.com/wiki/The_Icesteppes
+    waypoints:
+    - name: Twinspur Haven Waypoint
+      chatLink: '[&BH0BAAA=]'
+White Crane Terrace:
+  Durmand Priory Dig Site:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Durmand_Priory_Dig_Site
+    waypoints: []
+White Paper Hill:
+  Balddistead:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Balddistead
+    waypoints: []
+Winterknell Shore:
+  Cachistic R&D:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Cachistic_R&D
+    waypoints: []
+Woodland Cascades:
+  Bastion of the Penitent:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Bastion_of_the_Penitent
+    waypoints: []
+World versus World:
+  Armistice Bastion:
+    wikiUrl: https://wiki.guildwars2.com/wiki/Armistice_Bastion
+    waypoints:
+    - name: Gladiator Pits Waypoint
+      chatLink: '[&BMYLAAA=]'
