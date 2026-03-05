@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krjackso/gw2-data-repo/schema/location.schema.json",
+  "title": "GW2 Location Data",
+  "description": "Area location data nested by zone then area name. Structure: zone → area → {wikiUrl, waypoint?}",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "description": "Areas within this zone, keyed by area name",
+    "additionalProperties": {
+      "$ref": "#/$defs/locationEntry"
+    }
+  },
+  "$defs": {
+    "locationEntry": {
+      "type": "object",
+      "required": ["wikiUrl"],
+      "additionalProperties": false,
+      "properties": {
+        "wikiUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "GW2 Wiki URL for this area"
+        },
+        "waypoints": {
+          "type": "array",
+          "description": "Waypoints in this area, ordered by proximity to the area's center",
+          "items": {
+            "$ref": "#/$defs/waypoint"
+          }
+        }
+      }
+    },
+    "waypoint": {
+      "type": "object",
+      "required": ["name", "chatLink"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Waypoint name as it appears in game"
+        },
+        "chatLink": {
+          "type": "string",
+          "pattern": "^\\[&[A-Za-z0-9+/]+=*\\]$",
+          "description": "In-game chat link for the waypoint (e.g. [&BHoCAAA=])"
+        }
+      }
+    }
+  }
+}

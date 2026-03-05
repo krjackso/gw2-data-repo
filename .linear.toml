@@ -1,0 +1,6 @@
+# linear cli
+# https://github.com/schpet/linear-cli
+
+workspace = "gw2-leg-day"
+team_id = "GW2"
+issue_sort = "priority"

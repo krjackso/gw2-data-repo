@@ -9,10 +9,15 @@ gw2-data-repo/
 ├── data/
 │   ├── items/             # YAML files: one per item, API data + acquisitions
 │   │   └── {itemId}.yaml
+│   ├── vendors/           # Vendor location data (generated)
+│   │   ├── vendors.yaml       # Vendor → wiki URL + locations [{zone, area}]
+│   │   └── locations.yaml     # Zone → Area → {wikiUrl, waypoint}
 │   ├── index/
 │   │   └── item_names.yaml    # Name-to-ID index for lookups
 │   └── schema/
-│       └── item.schema.json   # JSON Schema for item files
+│       ├── item.schema.json       # JSON Schema for item files
+│       ├── vendor.schema.json     # JSON Schema for vendors.yaml
+│       └── location.schema.json   # JSON Schema for locations.yaml
 ├── src/gw2_data/
 │   ├── overrides/
 │   │   ├── item_name_overrides.yaml     # Manual name→ID mappings
@@ -25,12 +30,14 @@ gw2-data-repo/
 │   ├── api.py             # GW2 API client
 │   ├── wiki.py            # Wiki API client
 │   ├── llm.py             # LLM extraction logic
+│   ├── vendor_scraper.py  # HTML parsing for vendor/location data
 │   ├── types.py           # TypedDict definitions
 │   └── exceptions.py      # Custom exceptions
 ├── scripts/
 │   ├── validate.py        # Validate all YAML files
 │   ├── populate.py        # Generate acquisition YAML from wiki
 │   ├── populate_tree.py   # Recursively populate crafting trees
+│   ├── populate_vendors.py # Populate vendor/location data from wiki
 │   └── build_index.py     # Build item name-to-ID index
 ├── prompts/               # LLM prompt templates (future)
 └── tests/
@@ -76,6 +83,11 @@ uv run python -m scripts.populate_tree --item-name "Eternity" --limit 5
 
 # Process multiple root items in one run (comma-separated IDs)
 uv run python -m scripts.populate_tree --item-id 30689,30690,30691 --limit 10
+
+# Populate vendor location data from wiki
+uv run python -m scripts.populate_vendors --dry-run
+uv run python -m scripts.populate_vendors --vendor "Miyani" --dry-run
+uv run python -m scripts.populate_vendors
 
 # Clear cache (all or by tag: api, wiki, llm)
 uv run python -m scripts.populate --clear-cache

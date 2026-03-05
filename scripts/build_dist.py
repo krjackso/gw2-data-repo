@@ -16,6 +16,7 @@ DIST_DIR = REPO_ROOT / "dist"
 DATA_DIR = REPO_ROOT / "data"
 INDEX_DIR = DATA_DIR / "index"
 ITEMS_DIR = DATA_DIR / "items"
+VENDORS_DIR = DATA_DIR / "vendors"
 
 SCHEMA = """
 CREATE TABLE items (
@@ -79,6 +80,39 @@ CREATE INDEX idx_req_acq ON requirements(acquisition_id);
 CREATE INDEX idx_req_item ON requirements(item_id);
 CREATE INDEX idx_req_currency ON requirements(currency_id);
 CREATE INDEX idx_names ON item_names(name);
+
+CREATE TABLE vendors (
+    name     TEXT NOT NULL PRIMARY KEY,
+    wiki_url TEXT NOT NULL
+);
+
+CREATE TABLE vendor_locations (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    vendor_name TEXT NOT NULL REFERENCES vendors(name),
+    zone        TEXT NOT NULL,
+    area        TEXT NOT NULL,
+    UNIQUE (vendor_name, zone, area)
+);
+
+CREATE TABLE locations (
+    zone     TEXT NOT NULL,
+    area     TEXT NOT NULL,
+    wiki_url TEXT NOT NULL,
+    PRIMARY KEY (zone, area)
+);
+
+CREATE TABLE waypoints (
+    id        INTEGER PRIMARY KEY AUTOINCREMENT,
+    zone      TEXT NOT NULL,
+    area      TEXT NOT NULL,
+    name      TEXT NOT NULL,
+    chat_link TEXT NOT NULL,
+    FOREIGN KEY (zone, area) REFERENCES locations(zone, area)
+);
+
+CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
+CREATE INDEX idx_locations_zone ON locations(zone);
+CREATE INDEX idx_waypoints_location ON waypoints(zone, area);
 """
 
 
@@ -241,6 +275,61 @@ def build_database(db_path: Path) -> None:
             currency_names_inserted += 1
 
         logger.info("Inserted %d currency name mappings", currency_names_inserted)
+
+        vendors_file = VENDORS_DIR / "vendors.yaml"
+        locations_file = VENDORS_DIR / "locations.yaml"
+
+        if vendors_file.exists() and locations_file.exists():
+            logger.info("Loading vendor data...")
+            with open(vendors_file) as f:
+                vendors_data = yaml.safe_load(f) or {}
+            with open(locations_file) as f:
+                locations_data = yaml.safe_load(f) or {}
+
+            vendors_inserted = 0
+            vendor_locations_inserted = 0
+            locations_inserted = 0
+            waypoints_inserted = 0
+
+            for zone_name, areas in locations_data.items():
+                for area_name, loc in areas.items():
+                    cursor.execute(
+                        "INSERT INTO locations (zone, area, wiki_url) VALUES (?, ?, ?)",
+                        (zone_name, area_name, loc["wikiUrl"]),
+                    )
+                    locations_inserted += 1
+                    for wp in loc.get("waypoints", []):
+                        cursor.execute(
+                            """
+                            INSERT INTO waypoints (zone, area, name, chat_link)
+                            VALUES (?, ?, ?, ?)
+                            """,
+                            (zone_name, area_name, wp["name"], wp["chatLink"]),
+                        )
+                        waypoints_inserted += 1
+
+            for vendor_name, vendor in vendors_data.items():
+                cursor.execute(
+                    "INSERT INTO vendors (name, wiki_url) VALUES (?, ?)",
+                    (vendor_name, vendor["wikiUrl"]),
+                )
+                vendors_inserted += 1
+                for loc_ref in vendor.get("locations", []):
+                    cursor.execute(
+                        """
+                        INSERT INTO vendor_locations (vendor_name, zone, area)
+                        VALUES (?, ?, ?)
+                        """,
+                        (vendor_name, loc_ref["zone"], loc_ref["area"]),
+                    )
+                    vendor_locations_inserted += 1
+
+            logger.info("Inserted %d locations", locations_inserted)
+            logger.info("Inserted %d waypoints", waypoints_inserted)
+            logger.info("Inserted %d vendors", vendors_inserted)
+            logger.info("Inserted %d vendor-location mappings", vendor_locations_inserted)
+        else:
+            logger.info("No vendor data found at %s — skipping", VENDORS_DIR)
 
         logger.info("Enabling foreign keys and verifying integrity...")
         cursor.execute("PRAGMA foreign_keys = ON")

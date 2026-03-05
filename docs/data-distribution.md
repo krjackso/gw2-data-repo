@@ -14,8 +14,10 @@ Each [GitHub release](https://github.com/krjackso/gw2-data-repo/releases) (trigg
 
 | Artifact | Description |
 |---|---|
-| `gw2-data.sqlite.gz` | Gzip-compressed SQLite database with all items, acquisitions, requirements, and name indexes |
+| `gw2-data.sqlite.gz` | Gzip-compressed SQLite database with all items, acquisitions, requirements, name indexes, and vendor/location data |
 | `item.schema.json` | JSON Schema for the YAML item format — use with [quicktype](https://quicktype.io/) or similar tools to generate types in any language |
+| `vendor.schema.json` | JSON Schema for the `vendors.yaml` format |
+| `location.schema.json` | JSON Schema for the `locations.yaml` format |
 
 ## Database Schema
 
@@ -106,11 +108,65 @@ CREATE INDEX idx_req_currency ON requirements(currency_id);
 CREATE INDEX idx_names ON item_names(name);
 ```
 
+### `vendors`
+
+Vendor NPC metadata, keyed by vendor name. Populated by `scripts/populate_vendors.py`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `name` | TEXT PRIMARY KEY | Vendor name (matches `vendorName` in acquisitions) |
+| `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
+
+### `vendor_locations`
+
+Many-to-many mapping from vendors to areas where they appear. A location is identified by the composite key `(zone, area)`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | INTEGER PRIMARY KEY | Auto-increment |
+| `vendor_name` | TEXT NOT NULL | FK → `vendors(name)` |
+| `zone` | TEXT NOT NULL | Zone name (e.g. "Frostgorge Sound") |
+| `area` | TEXT NOT NULL | Area name within the zone (e.g. "Earthshake Basin") |
+
+Unique constraint on `(vendor_name, zone, area)`.
+
+### `locations`
+
+Area data keyed by `(zone, area)` since area names can repeat across zones (e.g. "Trader's Forum" exists in both Lion's Arch and Memory of Old Lion's Arch).
+
+| Column | Type | Notes |
+|---|---|---|
+| `zone` | TEXT NOT NULL | Zone/map name (composite PK) |
+| `area` | TEXT NOT NULL | Area name within the zone (composite PK) |
+| `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
+
+### `waypoints`
+
+Waypoints within an area, linked by `(zone, area)` FK. An area may have zero or more waypoints.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | INTEGER PRIMARY KEY | Auto-increment |
+| `zone` | TEXT NOT NULL | FK → `locations(zone, area)` |
+| `area` | TEXT NOT NULL | FK → `locations(zone, area)` |
+| `name` | TEXT NOT NULL | Waypoint name (e.g. "Earthshake Waypoint") |
+| `chat_link` | TEXT NOT NULL | In-game chat link (e.g. `[&BHoCAAA=]`) |
+
+### Vendor/Location Indexes
+
+```sql
+CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
+CREATE INDEX idx_locations_zone ON locations(zone);
+CREATE INDEX idx_waypoints_location ON waypoints(zone, area);
+```
+
 ## Build Pipeline
 
 ### `scripts/build_dist.py`
 
-Reads all YAML item files and name indexes, validates each item with Pydantic, and writes a normalized SQLite database to `dist/gw2-data.sqlite`. Then gzip-compresses it to `dist/gw2-data.sqlite.gz`.
+Reads all YAML item files, name indexes, and vendor/location files (if present), validates each item with Pydantic, and writes a normalized SQLite database to `dist/gw2-data.sqlite`. Then gzip-compresses it to `dist/gw2-data.sqlite.gz`.
+
+Vendor and location data (`data/vendors/vendors.yaml` and `data/vendors/locations.yaml`) is optional — the build succeeds without it and simply omits those tables' rows.
 
 Uses Python stdlib `sqlite3` — no additional dependencies.
 

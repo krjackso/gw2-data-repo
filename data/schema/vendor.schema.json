@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/krjackso/gw2-data-repo/schema/vendor.schema.json",
+  "title": "GW2 Vendor Data",
+  "description": "Vendor location data keyed by vendor name",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/$defs/vendorEntry"
+  },
+  "$defs": {
+    "vendorEntry": {
+      "type": "object",
+      "required": ["wikiUrl", "locations"],
+      "additionalProperties": false,
+      "properties": {
+        "wikiUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "GW2 Wiki URL for this vendor NPC"
+        },
+        "locations": {
+          "type": "array",
+          "description": "Areas where this vendor can be found, identified by (zone, area) pair",
+          "items": {
+            "$ref": "#/$defs/locationRef"
+          }
+        }
+      }
+    },
+    "locationRef": {
+      "type": "object",
+      "required": ["zone", "area"],
+      "additionalProperties": false,
+      "properties": {
+        "zone": {
+          "type": "string",
+          "description": "Zone (map) containing the vendor"
+        },
+        "area": {
+          "type": "string",
+          "description": "Area within the zone where the vendor is located"
+        }
+      }
+    }
+  }
+}

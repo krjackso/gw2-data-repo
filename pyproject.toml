@@ -10,6 +10,7 @@ dependencies = [
     "httpx>=0.27",
     "diskcache>=5.6.3",
     "pydantic-settings>=2.12.0",
+    "beautifulsoup4>=4.12",
 ]
 
 [dependency-groups]
@@ -25,6 +26,9 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/test_vendor_scraper.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
