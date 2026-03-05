@@ -14,8 +14,10 @@ Each [GitHub release](https://github.com/krjackso/gw2-data-repo/releases) (trigg
 
 | Artifact | Description |
 |---|---|
-| `gw2-data.sqlite.gz` | Gzip-compressed SQLite database with all items, acquisitions, requirements, and name indexes |
+| `gw2-data.sqlite.gz` | Gzip-compressed SQLite database with all items, acquisitions, requirements, name indexes, and vendor/location data |
 | `item.schema.json` | JSON Schema for the YAML item format — use with [quicktype](https://quicktype.io/) or similar tools to generate types in any language |
+| `vendor.schema.json` | JSON Schema for the `vendors.yaml` format |
+| `location.schema.json` | JSON Schema for the `locations.yaml` format |
 
 ## Database Schema
 
@@ -106,11 +108,53 @@ CREATE INDEX idx_req_currency ON requirements(currency_id);
 CREATE INDEX idx_names ON item_names(name);
 ```
 
+### `vendors`
+
+Vendor NPC metadata, keyed by vendor name. Populated by `scripts/populate_vendors.py`.
+
+| Column | Type | Notes |
+|---|---|---|
+| `name` | TEXT PRIMARY KEY | Vendor name (matches `vendorName` in acquisitions) |
+| `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
+
+### `vendor_locations`
+
+Many-to-many mapping from vendors to areas where they appear.
+
+| Column | Type | Notes |
+|---|---|---|
+| `id` | INTEGER PRIMARY KEY | Auto-increment |
+| `vendor_name` | TEXT NOT NULL | FK → `vendors(name)` |
+| `location_name` | TEXT NOT NULL | FK → `locations(name)` |
+
+Unique constraint on `(vendor_name, location_name)`.
+
+### `locations`
+
+Area/POI data with optional waypoint chat links for navigation.
+
+| Column | Type | Notes |
+|---|---|---|
+| `name` | TEXT PRIMARY KEY | Area name (e.g. "Earthshake Basin") |
+| `zone` | TEXT NOT NULL | Zone/map containing this area (e.g. "Frostgorge Sound") |
+| `wiki_url` | TEXT NOT NULL | GW2 Wiki URL |
+| `waypoint_name` | TEXT | Nearest waypoint name (e.g. "Earthshake Waypoint") |
+| `waypoint_chat_link` | TEXT | In-game chat link (e.g. `[&BHoCAAA=]`) |
+
+### Vendor/Location Indexes
+
+```sql
+CREATE INDEX idx_vendor_locs_vendor ON vendor_locations(vendor_name);
+CREATE INDEX idx_vendor_locs_location ON vendor_locations(location_name);
+```
+
 ## Build Pipeline
 
 ### `scripts/build_dist.py`
 
-Reads all YAML item files and name indexes, validates each item with Pydantic, and writes a normalized SQLite database to `dist/gw2-data.sqlite`. Then gzip-compresses it to `dist/gw2-data.sqlite.gz`.
+Reads all YAML item files, name indexes, and vendor/location files (if present), validates each item with Pydantic, and writes a normalized SQLite database to `dist/gw2-data.sqlite`. Then gzip-compresses it to `dist/gw2-data.sqlite.gz`.
+
+Vendor and location data (`data/vendors/vendors.yaml` and `data/vendors/locations.yaml`) is optional — the build succeeds without it and simply omits those tables' rows.
 
 Uses Python stdlib `sqlite3` — no additional dependencies.
 

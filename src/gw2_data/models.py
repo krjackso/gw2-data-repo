@@ -219,6 +219,31 @@ class Acquisition(BaseModel):
         return self
 
 
+# --- Vendor / Location Data ---
+
+
+class Waypoint(BaseModel):
+    name: str
+    chat_link: str = Field(alias="chatLink")
+
+    model_config = {"populate_by_name": True}
+
+
+class VendorEntry(BaseModel):
+    wiki_url: str = Field(alias="wikiUrl")
+    locations: list[str] = Field(default_factory=list)
+
+    model_config = {"populate_by_name": True}
+
+
+class LocationEntry(BaseModel):
+    zone: str
+    wiki_url: str = Field(alias="wikiUrl")
+    waypoint: Waypoint | None = None
+
+    model_config = {"populate_by_name": True}
+
+
 # --- Item File ---
 
 
