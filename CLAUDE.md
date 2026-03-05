@@ -411,6 +411,20 @@ https://wiki.guildwars2.com/api.php?action=parse&page={ItemName}&prop=text&forma
 
 Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{sold by}}`, `{{collection achievement}}`) and in free-text "Acquisition" sections.
 
+## Issue-Driven Development (Linear)
+
+**CRITICAL**: When a task references a Linear issue ID (in the prompt, plan title, or context), you MUST move the issue to In Progress immediately — even before planning begins. This is always the first step — no exceptions.
+
+**If using an issue:**
+1. **Move issue to In Progress FIRST** using `/linear-cli` — do this before exploration or planning
+2. **Create branch before writing any code**: `{GW2-42}-{description}` (e.g. `GW2-42-add-feature`)
+3. Implement the feature
+4. Self-verify acceptance criteria
+5. Include Linear issue ID in commit messages: `GW2-42: Add feature`
+6. After merge: Return to main, pull latest
+
+**Commit messages**: Only describe changes present in the final diff. If something was added then reverted in the same session, do not mention it.
+
 ## Code Style
 
 - **Always use the `/dev` skill when writing or modifying Python code** — it enforces type safety, testability, and project conventions
