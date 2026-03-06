@@ -1,0 +1,27 @@
+id: 73350
+name: Vinetooth Cache
+type: Container
+rarity: Basic
+level: 0
+icon: https://render.guildwars2.com/file/084F9BC6C19F45080E27F0674A313CD511D7B9DA/780371.png
+description: Double-click to gain Champion Bags, Dragonite Ore, Empyreal Fragments,
+  Lumps of Aurillium, an Exalted Key, and other gear.
+vendorValue: 0
+flags:
+- AccountBound
+- NoSalvage
+- NoSell
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Vinetooth_Cache
+lastUpdated: '2026-03-06'
+acquisitions:
+- type: pvp_reward
+  trackName: Auric Basin Reward Track
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
+- type: pvp_reward
+  trackName: Heart of Maguuma Reward Track
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}

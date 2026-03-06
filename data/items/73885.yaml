@@ -1,0 +1,31 @@
+id: 73885
+name: Chest of Time and Space
+type: Container
+rarity: Exotic
+level: 0
+icon: https://render.guildwars2.com/file/03DC2BE10305F1A9F96439FAA7EACF96A95432CD/1204736.png
+description: 'Contains the Essence of Time and Space and a Recipe: The Mechanism.'
+vendorValue: 264
+flags:
+- AccountBound
+- NoMysticForge
+- NoSalvage
+- DeleteWarning
+- AccountBindOnUse
+wikiUrl: https://wiki.guildwars2.com/wiki/Chest_of_Time_and_Space
+lastUpdated: '2026-03-06'
+acquisitions:
+- type: vendor
+  vendorName: Grandmaster Craftsman Hobbs
+  outputQuantity: 1.0
+  requirements:
+  - currencyId: 1
+    quantity: 11432
+  metadata:
+    notes: 'Purchasable after completing the Astralaria III: The Mechanism achievement'
+- type: achievement
+  achievementName: 'Astralaria III: The Mechanism'
+  achievementCategory: Legendary Weapons
+  outputQuantity: 1.0
+  requirements: []
+  metadata: {}
