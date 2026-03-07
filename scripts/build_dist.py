@@ -317,7 +317,7 @@ def build_database(db_path: Path) -> None:
                 for loc_ref in vendor.get("locations", []):
                     cursor.execute(
                         """
-                        INSERT INTO vendor_locations (vendor_name, zone, area)
+                        INSERT OR IGNORE INTO vendor_locations (vendor_name, zone, area)
                         VALUES (?, ?, ?)
                         """,
                         (vendor_name, loc_ref["zone"], loc_ref["area"]),
