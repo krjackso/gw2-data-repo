@@ -17,8 +17,9 @@ flags:
 wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Echovald_Forest
 lastUpdated: '2026-02-09'
 acquisitions:
-- type: container
-  containerName: Chest of the Jade Explorer
+- type: map_reward
   outputQuantity: 1
   requirements: []
-  metadata: {}
+  metadata:
+    rewardType: map_completion
+    regionName: The Echovald Wilds

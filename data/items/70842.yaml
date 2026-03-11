@@ -17,12 +17,6 @@ acquisitions:
     quantity: 2
   metadata:
     recipeType: crafting
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Verdant Brink
 - type: other
   outputQuantity: 1
   requirements: []

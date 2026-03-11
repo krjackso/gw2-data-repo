@@ -286,7 +286,7 @@ For entries found in map/world/region completion sections.
 - name: description of the reward source
 - No ingredients field
 - metadata: extract when present:
-  - "rewardType": "world_completion" | "region_completion" | "map_completion"
+  - "rewardType": "world_completion" | "region_completion" | "map_completion" | "map_meta"
   - "regionName": region or map name
   - "notes": additional context
 

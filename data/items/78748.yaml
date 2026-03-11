@@ -18,4 +18,11 @@ acquisitions:
   outputQuantity: 1.0
   requirements: []
   metadata:
-    notes: Completing the map meta event (once per day per account)
+    limitType: daily
+    limitAmount: 1
+    rewardType: map_meta
+    regionName: Auric Basin
+    metaName: Battle In Tarir
+    notes: Once per day per account
+    
+

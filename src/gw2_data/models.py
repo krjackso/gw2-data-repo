@@ -123,10 +123,11 @@ class RewardTrackMetadata(BaseModel):
     festival: str | None = None
 
 
+MapRewardType = Literal["world_completion", "region_completion", "map_completion", "map_meta"]
+
+
 class MapRewardMetadata(BaseModel):
-    reward_type: Literal["world_completion", "region_completion", "map_completion"] = Field(
-        alias="rewardType"
-    )
+    reward_type: MapRewardType = Field(alias="rewardType")
     region_name: str | None = Field(default=None, alias="regionName")
     estimated_hours: float | None = Field(default=None, alias="estimatedHours")
     notes: str | None = None

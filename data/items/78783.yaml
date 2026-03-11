@@ -18,6 +18,9 @@ acquisitions:
   outputQuantity: 1.0
   requirements: []
   metadata:
-    rewardType: map_completion
+    limitType: daily
+    limitAmount: 1
+    rewardType: map_meta
     regionName: Dragon's Stand
+    metaName: Dragon's Stand
     notes: once per day per account

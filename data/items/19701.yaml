@@ -65,9 +65,3 @@ acquisitions:
   outputQuantity: 1
   requirements: []
   metadata: {}
-- type: map_reward
-  outputQuantity: 40
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Cursed Shore, Malchor's Leap, or Frostgorge Sound

@@ -147,12 +147,6 @@ acquisitions:
   requirements: []
   metadata:
     notes: guaranteed from home instances
-- type: map_reward
-  outputQuantity: 1
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Sandswept Isles
 - type: wvw_reward
   trackName: Sandswept Isles Reward Track
   outputQuantity: 50

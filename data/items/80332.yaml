@@ -80,9 +80,3 @@ acquisitions:
   guaranteed: true
   requirements: []
   metadata: {}
-- type: map_reward
-  outputQuantity: 5
-  requirements: []
-  metadata:
-    rewardType: map_completion
-    regionName: Lake Doric
