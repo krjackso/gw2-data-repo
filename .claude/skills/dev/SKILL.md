@@ -1,8 +1,6 @@
 ---
 name: dev
-description: Expert Python developer for writing clean, type-safe, testable code
-invoke: When writing or reviewing Python code for development tasks
-model: sonnet
+description: Expert Python developer for writing clean, type-safe, testable code. Use when writing or reviewing Python code for development tasks
 ---
 
 # Python Development Skill

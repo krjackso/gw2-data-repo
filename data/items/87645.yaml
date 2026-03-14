@@ -18,7 +18,7 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Anette Eymundrdottir
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -27,17 +27,17 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Dragon Bash Merchant
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements:
   - itemId: 43320
     quantity: 1
   metadata:
-    festival: Dragon Bash
-    limitAmount: 1
     limitType: weekly
+    limitAmount: 1
+    festival: Dragon Bash
 - type: vendor
   vendorName: Humble Stone
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -46,7 +46,7 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Kjep Corrson
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -55,7 +55,7 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Traveling Elonian Trader
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 45
     quantity: 20
@@ -65,7 +65,7 @@ acquisitions:
     notes: Limit 5 per day.
 - type: vendor
   vendorName: Vigil Emissary
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 28
     quantity: 2
@@ -73,88 +73,90 @@ acquisitions:
 - type: achievement
   achievementName: Return to the Domain of Kourna
   achievementCategory: Return to Long Live the Lich
-  outputQuantity: 250
+  outputQuantity: 250.0
   requirements: []
   metadata:
     repeatable: false
     timeGated: true
 - type: container
   containerName: Awakened Chest (Gandara)
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Black Lion Delivery Box (Season 4)
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 8
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 8.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Bundle of Inscribed Shards
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 87935
   containerName: Chest of the Kournan Hero
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 87886
   containerName: Kournan Cache
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Kournan Chest
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata:
     notes: Found throughout Domain of Kourna
 - type: container
   containerName: Kournan Chest
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: From End the plague experiments
 - type: container
   itemId: 87950
   containerName: Kournan Coffer
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Kournan Supply Cache
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Kournan Supply Cache
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
     notes: In home instances
 - type: container
   itemId: 92311
   containerName: Season 4 Currency Box
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Season 4 Material Chest
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Season 4 Material Chest (Raid)
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Domain of Kourna Reward Track
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata:
+    limitType: lifetime
+    limitAmount: 1
     notes: From Kournan Cache in reward track

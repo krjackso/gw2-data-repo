@@ -18,56 +18,56 @@ lastUpdated: '2026-02-15'
 acquisitions:
 - type: vendor
   vendorName: Alliance Field Quartermaster
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: Canach
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: Captain Emund
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: Castaway Agnes
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: 'Castora: Hero''s Choice Chest'
-  outputQuantity: 25
+  outputQuantity: 25.0
   requirements:
   - itemId: 105822
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Huntmaster Arnorr
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: Magister Sirkk
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
   metadata: {}
 - type: vendor
   vendorName: Tyrian Alliance Representative Sharpwhisker
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 81
     quantity: 5
@@ -75,82 +75,85 @@ acquisitions:
 - type: achievement
   achievementName: Foothold Bivouac Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Priory Expedition Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Starlit Weald Mastery
   achievementCategory: Starlit Weald
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Untamed Crags Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Black Lion Delivery Box (Visions of Eternity)
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 3
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Large Obscured Chest
-  outputQuantity: 3
+  outputQuantity: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Large Seer Storage Chest
-  outputQuantity: 3
+  outputQuantity: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Long-Lost Keepsake Box
-  outputQuantity: 3
+  outputQuantity: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Medium Obscured Chest
-  outputQuantity: 2
+  outputQuantity: 2.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Seer Storage Chest
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Small Obscured Chest
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   itemId: 106578
   containerName: Starlit Weald Cache
-  outputQuantity: 1
-  outputQuantityMin: 1
-  outputQuantityMax: 2
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 2.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Visions of Eternity Reward Track
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
-  metadata: {}
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600

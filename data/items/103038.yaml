@@ -17,14 +17,14 @@ lastUpdated: '2026-02-09'
 acquisitions:
 - type: vendor
   vendorName: Gharr Leadclaw
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102929
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Guiding Breath
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -34,7 +34,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan Inhabitants of Harvest Den.
 - type: vendor
   vendorName: Guiding Breath
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102255
     quantity: 3
@@ -48,7 +48,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan Inhabitants of Harvest Den.
 - type: vendor
   vendorName: Kodan Landspeaker
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102655
     quantity: 3
@@ -63,14 +63,14 @@ acquisitions:
       keeping their camp safe and running.
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102929
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Shading Willow
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -80,7 +80,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan around Autumn's Vale.
 - type: vendor
   vendorName: Shading Willow
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102255
     quantity: 3
@@ -94,7 +94,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan around Autumn's Vale.
 - type: vendor
   vendorName: Vast Caldera
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -104,7 +104,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan in Their Coursing Upland Activities.
 - type: vendor
   vendorName: Vast Caldera
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102255
     quantity: 3
@@ -118,7 +118,7 @@ acquisitions:
     notes: Requires the renown heart Assist the Kodan in Their Coursing Upland Activities.
 - type: vendor
   vendorName: Ward Trader Sampaguita
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102503
     quantity: 3
@@ -131,7 +131,7 @@ acquisitions:
     limitAmount: 1
 - type: vendor
   vendorName: Wizard's Gobbler
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102929
     quantity: 1
@@ -139,44 +139,47 @@ acquisitions:
 - type: achievement
   achievementName: Autumn's Vale Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 8
+  outputQuantity: 8.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Harvest Den Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Journeykin Outpost Renown Mastery
   achievementCategory: Renown Hearts
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Lowland Shore Mastery
   achievementCategory: Lowland Shore
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Black Lion Delivery Box
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 3
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   itemId: 102391
   containerName: Lowland Shore Strongbox
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Janthir Wilds Reward Track
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
-  metadata: {}
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600

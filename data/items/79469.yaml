@@ -16,24 +16,24 @@ lastUpdated: '2026-02-10'
 acquisitions:
 - type: vendor
   vendorName: Festival Rewards Vendor
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements:
   - currencyId: 50
     quantity: 500
   metadata:
-    festival: Festival of the Four Winds
-    limitAmount: 1
     limitType: weekly
+    limitAmount: 1
+    festival: Festival of the Four Winds
 - type: container
   containerName: Ancient Chest (Ember Bay)
-  outputQuantity: 2
+  outputQuantity: 2.0
   guaranteed: true
   requirements: []
   metadata:
     notes: from preventing destroyers from absorbing ley magic
 - type: container
   containerName: Ancient Chest (Ember Bay)
-  outputQuantity: 3
+  outputQuantity: 3.0
   guaranteed: true
   requirements: []
   metadata:
@@ -41,60 +41,62 @@ acquisitions:
       and Vermignus
 - type: container
   containerName: Ancient Chest (Ember Bay)
-  outputQuantity: 5
+  outputQuantity: 5.0
   guaranteed: true
   requirements: []
   metadata:
     notes: at the end of the Skip up the Volcano jumping puzzle
 - type: container
   containerName: Black Lion Delivery Box (Season 3)
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 5
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 5.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   containerName: Bundle of Petrified Wood
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   itemId: 79615
   containerName: Chest of the Ember Bay Hero
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   itemId: 79479
   containerName: Sack of Petrified Wood
-  outputQuantity: 50
+  outputQuantity: 50.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: resource_node
   nodeName: Petrified Stump
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata:
     notes: home instances
 - type: wvw_reward
   trackName: Ember Bay Reward Track
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata:
+    limitType: lifetime
+    limitAmount: 1
     notes: in Sack of Petrified Wood from Ember Bay Cache
 - type: other
-  outputQuantity: 250
+  outputQuantity: 250.0
   requirements: []
   metadata:
     notes: Tier 3 completion of Return to Ember Bay achievement (5x Sack of Petrified
       Wood)
 - type: other
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
     notes: home instance node, once per account, per day

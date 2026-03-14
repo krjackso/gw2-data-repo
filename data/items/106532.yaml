@@ -16,58 +16,60 @@ lastUpdated: '2026-02-09'
 acquisitions:
 - type: container
   containerName: Badge of Honor
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 81406
   containerName: Canned Food Crate
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 81395
   containerName: Improvement and Tactic Pack
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Siege Blueprint Case
-  outputQuantity: 2
+  outputQuantity: 2.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Testimony of Castoran Heroics
-  outputQuantity: 6
+  outputQuantity: 6.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Transmutation Charge
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 81404
   containerName: Tricks and Traps Capsule
-  outputQuantity: 2
+  outputQuantity: 2.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 20323
   containerName: Unidentified Dye
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 81430
   containerName: WvW Siege Decoration Case
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Skirmish reward track
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
+    limitType: lifetime
+    limitAmount: 1
     notes: 2 chests at each completion of a non-repeatable major tier; 1 chest at
       each completion of a minor tier or of a repeatable major tier

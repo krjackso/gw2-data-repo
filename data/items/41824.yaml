@@ -17,46 +17,48 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Coin Machine
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - itemId: 39752
     quantity: 50
   metadata: {}
 - type: vendor
   vendorName: Moto
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - itemId: 39752
     quantity: 50
   metadata: {}
 - type: vendor
   vendorName: Super Adventure Box Trader
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - itemId: 39752
     quantity: 10
-  metadata: {
+  metadata:
     festival: Super Adventure Festival
-  }
 - type: container
   itemId: 80862
   containerName: Box of Super Adventure Box Goods
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Glitched Chest
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Glorious Chest
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata:
     notes: normal and Tribulation modes
 - type: wvw_reward
   trackName: Super Adventure Reward Track
-  outputQuantity: 9
+  outputQuantity: 9.0
   requirements: []
-  metadata: {}
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600

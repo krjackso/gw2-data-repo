@@ -14,313 +14,314 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: achievement
   achievementName: (Annual) A Royal Tradition
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Ancient Grudge
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Arguably Foodlike
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Ascent to Madness
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Courtly Service
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Lunatic Racer
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Mad King's Clock Tower
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Masters of the Labyrinth
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Pumpkin Carving
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: (Annual) Raceway Regular
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Against the King
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Ancient Grudge
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Arguably Foodlike
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Candy Craver
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Carving Across Tyria
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Champion of the Labyrinth
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Clocktower's Champion
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Courtly Service
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Festive Feud
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Grim Reaper of Grunts
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Halloween Costume Brawl Champion
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
-  metadata: {
+  metadata:
     festival: Halloween
-  }
 - type: achievement
   achievementName: Jumping Mad
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Knock Down the Doors
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Mad Drifter
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Mad King's Herald (Intern)
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Mad King's Herald-in-Training
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Mad Memories
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: New Afterlife for Quaggan
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Pumpkin Carving
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Pumpkin Hacker
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Reaper's Return
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Routing the Rebel Rabble
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Royal Racer
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Shut and Locked
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Shut the Doors
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Terror of the Labyrinth
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: The Mad Inquisition
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Time Unmoving
-  outputQuantity: 6
+  outputQuantity: 6.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Time Unwaiting
-  outputQuantity: 12
+  outputQuantity: 12.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Tour of the Labyrinth
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Trick-or-Treater
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Chest (Ascent to Madness)
-  outputQuantity: 7
-  outputQuantityMin: 7
-  outputQuantityMax: 50
+  outputQuantity: 7.0
+  outputQuantityMin: 7.0
+  outputQuantityMax: 50.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Chest (Lunatic Inquisition)
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Chest (Mad King's Clock Tower)
-  outputQuantity: 1
-  outputQuantityMin: 1
-  outputQuantityMax: 3
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 3.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Glorious Chest (Mad King's Labyrinth)
-  outputQuantity: 13
+  outputQuantity: 13.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Large Candy Bag
-  outputQuantity: 1
-  outputQuantityMin: 1
-  outputQuantityMax: 5
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 5.0
   requirements: []
   metadata:
     notes: depending on bag rarity
 - type: container
   containerName: Mad King Chest
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Mad King's Chest
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: rare chance for 10 and extremely rare chance for 50
 - type: container
   itemId: 88999
   containerName: 'Mad King''s Raceway: Bronze'
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 89062
   containerName: 'Mad King''s Raceway: Gold'
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 89033
   containerName: 'Mad King''s Raceway: Silver'
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Magnificent Chest (Mad King's Clock Tower)
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: after first opening per year
 - type: container
   containerName: Magnificent Chest (Mad King's Clock Tower)
-  outputQuantity: 25
+  outputQuantity: 25.0
   requirements: []
   metadata:
     notes: first time opened per year
 - type: container
   containerName: Magnificent Chest (Stopped Clock Tower)
-  outputQuantity: 1
-  outputQuantityMin: 1
-  outputQuantityMax: 2
+  outputQuantity: 1.0
+  outputQuantityMin: 1.0
+  outputQuantityMax: 2.0
   requirements: []
   metadata:
     notes: after being opened that day already
 - type: container
   containerName: Magnificent Chest (Stopped Clock Tower)
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: first time opened per day
 - type: container
   containerName: Magnificent Chest (Stopped Clock Tower)
-  outputQuantity: 25
+  outputQuantity: 25.0
   requirements: []
   metadata:
     notes: first time opened per year
 - type: container
   containerName: Splendid Chest (Lunatic Inquisition)
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Halloween Reward Track
-  outputQuantity: 283
+  outputQuantity: 283.0
   requirements: []
-  metadata: {
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600
     festival: Halloween
-  }

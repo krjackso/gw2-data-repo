@@ -15,7 +15,7 @@ acquisitions:
 - type: achievement
   achievementName: World vs. World Rush Champion
   achievementCategory: World vs. World Rush
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements: []
   metadata:
     notes: Meta achievement with multiple tiers rewarding 10 Memories at Tier 3 and
@@ -23,7 +23,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Camp Capturer 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -31,7 +31,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Caravan Disruptor 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -39,7 +39,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Castle Capturer
   achievementCategory: World vs. World Rush
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements: []
   metadata:
     repeatable: false
@@ -47,7 +47,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Guard Killer 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -55,7 +55,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Keep Capturer 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -63,7 +63,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Land Claimer 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -71,7 +71,7 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Player vs. Player 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
@@ -79,21 +79,23 @@ acquisitions:
 - type: achievement
   achievementName: WvW Rush Tower Capturer 2
   achievementCategory: World vs. World Rush
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     repeatable: false
     timeGated: false
 - type: wvw_reward
   trackName: WvW Reward Track
-  outputQuantity: 15
+  outputQuantity: 15.0
   requirements: []
   metadata:
+    limitType: lifetime
+    limitAmount: 1
     notes: Usually 2nd reward (5) and 22nd reward (10) per track. Gift of Battle Item
       Reward Track gives 25. Guildrider Warclaw Skin Reward Track gives 50. Dragon
       Bash, Halloween, and Festival of the Four Winds Reward Tracks give 10 each.
 - type: other
-  outputQuantity: 104
+  outputQuantity: 104.0
   requirements: []
   metadata:
     notes: 'Wood tier: 5 total (1 per minor tier + 2 final). Bronze: 6 total (1 per

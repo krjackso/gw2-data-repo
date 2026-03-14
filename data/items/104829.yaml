@@ -17,28 +17,28 @@ lastUpdated: '2026-02-09'
 acquisitions:
 - type: vendor
   vendorName: 'Bava Nisos: Commander''s Choice Chest'
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 104714
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Gharr Leadclaw
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 104896
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 104896
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Wizard's Gobbler
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 104896
     quantity: 1
@@ -46,11 +46,14 @@ acquisitions:
 - type: achievement
   achievementName: Sweet Relief
   achievementCategory: Bava Nisos
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Janthir Wilds Reward Track
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
-  metadata: {}
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600

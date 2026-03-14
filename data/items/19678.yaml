@@ -28,6 +28,7 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: wvw_reward
   trackName: Gift of Battle Item Reward Track
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
-  metadata: {}
+  metadata:
+    activeTimeSeconds: 21600

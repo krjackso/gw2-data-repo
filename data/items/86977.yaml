@@ -18,7 +18,7 @@ lastUpdated: '2026-02-08'
 acquisitions:
 - type: vendor
   vendorName: Anette Eymundrdottir
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -27,17 +27,17 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Dragon Bash Merchant
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements:
   - itemId: 43320
     quantity: 1
   metadata:
-    festival: Dragon Bash
-    limitAmount: 1
     limitType: weekly
+    limitAmount: 1
+    festival: Dragon Bash
 - type: vendor
   vendorName: Humble Stone
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -46,7 +46,7 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Kjep Corrson
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements:
   - itemId: 92272
     quantity: 75
@@ -55,7 +55,7 @@ acquisitions:
   metadata: {}
 - type: vendor
   vendorName: Traveling Elonian Trader
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 45
     quantity: 20
@@ -64,7 +64,7 @@ acquisitions:
     limitAmount: 5
 - type: vendor
   vendorName: Vigil Emissary
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 28
     quantity: 2
@@ -72,89 +72,91 @@ acquisitions:
 - type: achievement
   achievementName: Return to the Sandswept Isles
   achievementCategory: Return to A Bug in the System
-  outputQuantity: 250
+  outputQuantity: 250.0
   requirements: []
   metadata:
     repeatable: false
     timeGated: false
 - type: container
   containerName: Black Lion Delivery Box
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 8
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 8.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Bundle of Difluorite Crystals
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   itemId: 87269
   containerName: Chest of the Sandswept Hero
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Inquest Chest (Sandswept Isles)
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
     notes: from Destroy the Mark III Suppressor Golem
 - type: container
   containerName: Inquest Chest (Sandswept Isles)
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: from The Specimen Chamber meta event
 - type: container
   itemId: 86991
   containerName: Sack of Difluorite Crystals
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Sandswept Chest (object)
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
     notes: from Abiri, the Beetle Queen and Dominus Crystallum
 - type: container
   containerName: Sandswept Chest (object)
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata:
     notes: from Zohaqan
 - type: container
   itemId: 92311
   containerName: Season 4 Currency Box
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Season 4 Material Chest
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Season 4 Material Chest (Raid)
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata: {}
 - type: resource_node
   nodeName: Difluorite Crystals
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata:
     notes: guaranteed from home instances
 - type: wvw_reward
   trackName: Sandswept Isles Reward Track
-  outputQuantity: 50
+  outputQuantity: 50.0
   requirements: []
   metadata:
+    limitType: lifetime
+    limitAmount: 1
     notes: 50 in Sack of Difluorite Crystals from Sandswept Isles Cache
 - type: other
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata:
     notes: home instance node, once per account per day

@@ -17,7 +17,7 @@ lastUpdated: '2026-02-09'
 acquisitions:
 - type: vendor
   vendorName: Arid Esker
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -28,7 +28,7 @@ acquisitions:
       Syntri region.
 - type: vendor
   vendorName: Arid Esker
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102503
     quantity: 3
@@ -43,14 +43,14 @@ acquisitions:
       Syntri region.
 - type: vendor
   vendorName: Gharr Leadclaw
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102958
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Kodan Landspeaker
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102655
     quantity: 3
@@ -65,14 +65,14 @@ acquisitions:
       keeping their camp safe and running.
 - type: vendor
   vendorName: Portable Wizard's Tower Exchange
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102958
     quantity: 1
   metadata: {}
 - type: vendor
   vendorName: Vigilant Dawn
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -82,7 +82,7 @@ acquisitions:
     notes: Requires the renown heart Support the kodan as they maintain their camp.
 - type: vendor
   vendorName: Vigilant Dawn
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102503
     quantity: 3
@@ -96,7 +96,7 @@ acquisitions:
     notes: Requires the renown heart Support the kodan as they maintain their camp.
 - type: vendor
   vendorName: Ward Trader Sampaguita
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102255
     quantity: 3
@@ -109,7 +109,7 @@ acquisitions:
     limitAmount: 1
 - type: vendor
   vendorName: Whispers of Wind
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements:
   - currencyId: 2
     quantity: 1050
@@ -119,7 +119,7 @@ acquisitions:
     notes: Requires the renown heart Assist the kodan in researching the titan blight.
 - type: vendor
   vendorName: Whispers of Wind
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements:
   - itemId: 102503
     quantity: 3
@@ -133,78 +133,81 @@ acquisitions:
     notes: Requires the renown heart Assist the kodan in researching the titan blight.
 - type: vendor
   vendorName: Wizard's Gobbler
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements:
   - itemId: 102958
     quantity: 1
   metadata: {}
 - type: achievement
   achievementName: 'Event Collection: Central Janthir Syntri'
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: 'Event Collection: Northeast Janthir Syntri'
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: 'Event Collection: Southeast Janthir Syntri'
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: 'Event Collection: Southwest Janthir Syntri'
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Festering Basin Renown Mastery
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Forager's Hunt Renown Mastery
-  outputQuantity: 2
+  outputQuantity: 2.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Janthir Syntri Mastery
-  outputQuantity: 20
+  outputQuantity: 20.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Mistburned Barrens Renown Mastery
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: Stricken Plains Renown Mastery
-  outputQuantity: 3
+  outputQuantity: 3.0
   requirements: []
   metadata: {}
 - type: achievement
   achievementName: 'Sulfurous Springs: Titan Toppler'
-  outputQuantity: 5
+  outputQuantity: 5.0
   requirements: []
   metadata: {}
 - type: container
   containerName: Black Lion Delivery Box
-  outputQuantity: 2
-  outputQuantityMin: 2
-  outputQuantityMax: 3
+  outputQuantity: 2.0
+  outputQuantityMin: 2.0
+  outputQuantityMax: 3.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: container
   itemId: 102652
   containerName: Janthir Syntri Strongbox
-  outputQuantity: 1
+  outputQuantity: 1.0
   guaranteed: true
   requirements: []
   metadata: {}
 - type: wvw_reward
   trackName: Janthir Wilds Reward Track
-  outputQuantity: 10
+  outputQuantity: 10.0
   requirements: []
-  metadata: {}
+  metadata:
+    limitType: lifetime
+    limitAmount: 1
+    activeTimeSeconds: 21600
