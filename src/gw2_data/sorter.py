@@ -34,8 +34,7 @@ ACQUISITION_TYPE_ORDER = [
 # Array indices use brackets: "metadata.disciplines[0]" for first element
 # All sorting is ascending; boolean fields (guaranteed) are negated
 # in _get_sort_key() to achieve True-first sorting (since False < True in Python)
-# Numeric fields (minRating, limitAmount, estimatedHours) use infinity for missing
-# values to sort them last
+# Numeric fields (minRating, limitAmount) use infinity for missing values to sort them last
 ACQUISITION_SORT_FIELDS = {
     "crafting": [
         "metadata.minRating",
@@ -161,7 +160,6 @@ def _get_sort_key(acq: dict[str, Any]) -> tuple[int, tuple[Any, ...], int]:
             numeric_fields = [
                 "metadata.minRating",
                 "metadata.limitAmount",
-                "metadata.estimatedHours",
             ]
             boolean_fields = ["guaranteed"]
 

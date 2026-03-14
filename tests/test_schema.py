@@ -110,8 +110,43 @@ acquisitions:
     metadata:
       rewardType: world_completion
       regionName: Central Tyria
-      estimatedHours: 25.5
+      activeTimeSeconds: 90000
       notes: Once per character
+"""
+
+VALID_WITH_REWARD_TRACK = """
+id: 19651
+name: Gift of Battle
+type: Trophy
+rarity: Legendary
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: wvw_reward
+    trackName: Gift of Battle Reward Track
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      activeTimeSeconds: 28800
+"""
+
+VALID_WITH_LIMIT_ON_ACHIEVEMENT = """
+id: 43766
+name: Pristine Toxic Spore Sample
+type: CraftingMaterial
+rarity: Fine
+level: 0
+lastUpdated: "2025-06-15"
+acquisitions:
+  - type: achievement
+    achievementName: Daily Toxic Alliance
+    achievementCategory: Daily
+    outputQuantity: 1
+    requirements: []
+    metadata:
+      timeGated: true
+      limitType: daily
+      limitAmount: 1
 """
 
 VALID_WITH_CONTAINER = """
@@ -475,6 +510,22 @@ class TestPydanticModels:
         acq = result.acquisitions[0]
         assert acq.type == "map_reward"
         assert acq.output_quantity == 2
+        assert acq.metadata.active_time_seconds == 90000
+
+    def test_parse_reward_track_active_time(self):
+        data = yaml.safe_load(VALID_WITH_REWARD_TRACK)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.type == "wvw_reward"
+        assert acq.metadata.active_time_seconds == 28800
+
+    def test_parse_limit_on_achievement(self):
+        data = yaml.safe_load(VALID_WITH_LIMIT_ON_ACHIEVEMENT)
+        result = ItemFile.model_validate(data)
+        acq = result.acquisitions[0]
+        assert acq.type == "achievement"
+        assert acq.metadata.limit_type == "daily"
+        assert acq.metadata.limit_amount == 1
 
     def test_parse_container(self):
         data = yaml.safe_load(VALID_WITH_CONTAINER)

@@ -81,23 +81,26 @@ AcquisitionRequirement = Annotated[
 # --- Metadata ---
 
 
-class RecipeMetadata(BaseModel):
+class AcquisitionMetadataBase(BaseModel):
+    limit_type: Literal["daily", "weekly", "season", "lifetime"] | None = Field(
+        default=None, alias="limitType"
+    )
+    limit_amount: int | None = Field(default=None, alias="limitAmount", ge=1)
+
+
+class RecipeMetadata(AcquisitionMetadataBase):
     recipe_type: str = Field(alias="recipeType")
     disciplines: list[str] | None = None
     min_rating: int | None = Field(default=None, alias="minRating")
 
 
-class VendorMetadata(BaseModel):
+class VendorMetadata(AcquisitionMetadataBase):
     map_id: int | None = Field(default=None, alias="mapId")
-    limit_type: Literal["daily", "weekly", "season", "lifetime"] | None = Field(
-        default=None, alias="limitType"
-    )
-    limit_amount: int | None = Field(default=None, alias="limitAmount")
     festival: str | None = None
     notes: str | None = None
 
 
-class AchievementMetadata(BaseModel):
+class AchievementMetadata(AcquisitionMetadataBase):
     achievement_id: int | None = Field(default=None, alias="achievementId")
     description: str | None = None
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
@@ -106,38 +109,39 @@ class AchievementMetadata(BaseModel):
     festival: str | None = None
 
 
-class ContainerMetadata(BaseModel):
+class ContainerMetadata(AcquisitionMetadataBase):
     pass
 
 
-class SalvageMetadata(BaseModel):
+class SalvageMetadata(AcquisitionMetadataBase):
     pass
 
 
-class ResourceNodeMetadata(BaseModel):
+class ResourceNodeMetadata(AcquisitionMetadataBase):
     pass
 
 
-class RewardTrackMetadata(BaseModel):
+class RewardTrackMetadata(AcquisitionMetadataBase):
     wiki_url: str | None = Field(default=None, alias="wikiUrl")
+    active_time_seconds: int | None = Field(default=None, alias="activeTimeSeconds", gt=0)
     festival: str | None = None
 
 
 MapRewardType = Literal["world_completion", "region_completion", "map_completion", "map_meta"]
 
 
-class MapRewardMetadata(BaseModel):
+class MapRewardMetadata(AcquisitionMetadataBase):
     reward_type: MapRewardType = Field(alias="rewardType")
     region_name: str | None = Field(default=None, alias="regionName")
-    estimated_hours: float | None = Field(default=None, alias="estimatedHours")
+    active_time_seconds: int | None = Field(default=None, alias="activeTimeSeconds", gt=0)
     notes: str | None = None
 
 
-class WizardsVaultMetadata(BaseModel):
-    limit_amount: int | None = Field(default=None, alias="limitAmount")
+class WizardsVaultMetadata(AcquisitionMetadataBase):
+    pass
 
 
-class OtherMetadata(BaseModel):
+class OtherMetadata(AcquisitionMetadataBase):
     notes: str
 
 
