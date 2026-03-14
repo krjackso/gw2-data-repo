@@ -23,5 +23,6 @@ acquisitions:
   metadata:
     rewardType: world_completion
     regionName: Central Tyria
+    activeTimeSeconds: 72000
     notes: Awarded upon completing all explorable zones in Central Tyria. Each character
       can achieve world completion only once.

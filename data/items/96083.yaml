@@ -18,8 +18,9 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Dragon's_End
 lastUpdated: '2026-02-09'
 acquisitions:
 - type: map_reward
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata:
     rewardType: map_completion
     regionName: Dragon's End
+    activeTimeSeconds: 3600

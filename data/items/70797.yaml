@@ -18,9 +18,10 @@ wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_the_Fleet
 lastUpdated: '2026-02-09'
 acquisitions:
 - type: map_reward
-  outputQuantity: 1
+  outputQuantity: 1.0
   requirements: []
   metadata:
     rewardType: map_completion
     regionName: Verdant Brink
+    activeTimeSeconds: 3600
     notes: Completing the map
