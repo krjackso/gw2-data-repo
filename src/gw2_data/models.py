@@ -134,6 +134,7 @@ class MapRewardMetadata(AcquisitionMetadataBase):
     reward_type: MapRewardType = Field(alias="rewardType")
     region_name: str | None = Field(default=None, alias="regionName")
     active_time_seconds: int | None = Field(default=None, alias="activeTimeSeconds", gt=0)
+    meta_name: str | None = Field(default=None, alias="metaName")
     notes: str | None = None
 
 

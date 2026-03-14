@@ -320,7 +320,7 @@ The resolution process:
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | metadata: `recipeType` |
 | `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level); metadata: `limitType`, `limitAmount`, `notes` |
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level); metadata: `repeatable`, `timeGated` |
-| `map_reward` | World/map completion reward | None | metadata: `rewardType`, `regionName`, `estimatedHours`, `notes` |
+| `map_reward` | World/map completion reward | None | metadata: `rewardType`, `regionName`, `activeTimeSeconds`, `metaName`, `notes` |
 | `container` | Obtained by opening a container | None (source in `containerName` + optional `itemId`) | `containerName`, `itemId`, `guaranteed`, `choice` (all top-level) |
 | `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId`, `guaranteed` (both top-level) |
 | `resource_node` | Gathered from a resource node | None (source in `nodeName`) | `nodeName`, `guaranteed` (both top-level) |
