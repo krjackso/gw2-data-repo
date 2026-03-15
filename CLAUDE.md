@@ -440,7 +440,6 @@ Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{so
 ## Code Style
 
 - **Always use the `/dev` skill when writing or modifying Python code** — it enforces type safety, testability, and project conventions
-- No explanatory comments or docstrings unless explicitly instructed
 - Use ruff for linting and formatting
 - Pydantic models use `alias` for camelCase YAML keys, snake_case Python attributes
 - Tests in `tests/` directory, fixtures inline in test files
