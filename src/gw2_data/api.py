@@ -4,6 +4,15 @@ GW2 API client for fetching item and recipe data.
 Wraps the official GW2 API (api.guildwars2.com/v2) with caching and
 error handling. All responses are cached indefinitely since game data
 rarely changes.
+
+Endpoints used:
+  GET /v2/items              → list all item IDs
+  GET /v2/items/{id}         → single item (name, type, rarity, icon, flags)
+  GET /v2/items?ids=1,2,...  → bulk item lookup (up to 200 per request)
+  GET /v2/recipes/{id}       → single recipe (output item, ingredients, disciplines)
+  GET /v2/recipes/search?output={id} → recipe IDs that produce a given item
+
+See https://wiki.guildwars2.com/wiki/API:2 for full API documentation.
 """
 
 import logging

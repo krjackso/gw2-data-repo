@@ -8,40 +8,19 @@ Static dataset of all item acquisition methods for Guild Wars 2 legendary crafti
 gw2-data-repo/
 ├── data/
 │   ├── items/             # YAML files: one per item, API data + acquisitions
-│   │   └── {itemId}.yaml
 │   ├── vendors/           # Vendor location data (generated)
-│   │   ├── vendors.yaml       # Vendor → wiki URL + locations [{zone, area}]
-│   │   └── locations.yaml     # Zone → Area → {wikiUrl, waypoint}
-│   ├── index/
-│   │   └── item_names.yaml    # Name-to-ID index for lookups
-│   └── schema/
-│       ├── item.schema.json       # JSON Schema for item files
-│       ├── vendor.schema.json     # JSON Schema for vendors.yaml
-│       └── location.schema.json   # JSON Schema for locations.yaml
+│   ├── index/             # Name-to-ID indexes for items and currencies
+│   └── schema/            # JSON Schema files for validation
 ├── src/gw2_data/
-│   ├── overrides/
-│   │   ├── item_name_overrides.yaml     # Manual name→ID mappings
-│   │   ├── currency_name_overrides.yaml # Currency name variant mappings
-│   │   ├── wiki_page_overrides.yaml     # Item ID→wiki page name overrides
-│   │   └── gathering_nodes.yaml         # Valid gathering node names
+│   ├── overrides/         # Manual name/page overrides and gathering node list
 │   ├── models.py          # Pydantic models matching the schema
-│   ├── config.py          # Configuration management
-│   ├── cache.py           # Persistent cache client
 │   ├── api.py             # GW2 API client
 │   ├── wiki.py            # Wiki API client
 │   ├── llm.py             # LLM extraction logic
-│   ├── vendor_scraper.py  # HTML parsing for vendor/location data
-│   ├── types.py           # TypedDict definitions
-│   └── exceptions.py      # Custom exceptions
-├── scripts/
-│   ├── validate.py        # Validate all YAML files
-│   ├── populate.py        # Generate acquisition YAML from wiki
-│   ├── populate_tree.py   # Recursively populate crafting trees
-│   ├── populate_vendors.py # Populate vendor/location data from wiki
-│   └── build_index.py     # Build item name-to-ID index
-├── prompts/               # LLM prompt templates (future)
+│   └── ...                # config, cache, resolver, types, exceptions
+├── scripts/               # validate, populate, populate_tree, populate_vendors, build_index
+├── prompts/               # LLM prompt templates
 └── tests/
-    └── test_*.py          # Comprehensive test suite
 ```
 
 ## Commands
@@ -110,14 +89,6 @@ GW2_LOG_LEVEL=DEBUG         # Logging level (default: INFO)
 
 All settings are optional and have sensible defaults.
 
-## Data Sources
-
-| Source | Provides | Reliability |
-|--------|----------|-------------|
-| **GW2 API** (`api.guildwars2.com/v2/`) | Item definitions, recipes, currencies, achievements, TP prices | High (official) |
-| **GW2 Wiki** (`wiki.guildwars2.com`) | Acquisition methods, vendor info, achievement details, containers | Medium (community-maintained) |
-| **LLM extraction** | Structured parsing of wiki pages into YAML | Good with validation |
-
 ## Manual Name Overrides
 
 The file `src/gw2_data/overrides/item_name_overrides.yaml` contains manual mappings for item names that differ between the wiki and GW2 API. This is necessary when:
@@ -143,8 +114,6 @@ The file `src/gw2_data/overrides/item_name_overrides.yaml` contains manual mappi
 When the LLM encounters items with multiple rarity variants on a shared wiki page (e.g., Legendary and Ascended versions of the same armor piece), it will automatically append the rarity in parentheses to requirement names. For example:
 - `Triumphant Hero's Brigandine (Ascended)` → maps to ID 81434
 - `Triumphant Hero's Brigandine (Legendary)` → maps to ID 84578
-
-This ensures that Mystic Forge recipes and vendor costs correctly reference the intended variant.
 
 **Important:**
 - Overrides are merged with the auto-generated index at load time
@@ -196,45 +165,11 @@ In lenient mode:
 
 ## YAML File Format
 
-Each file in `data/items/` contains GW2 API item data plus all acquisition methods:
-
-```yaml
-id: 19676
-name: Gift of Metal
-type: Component
-rarity: Legendary
-level: 0
-icon: https://render.guildwars2.com/file/...
-flags:
-  - AccountBound
-  - NoSell
-wikiUrl: https://wiki.guildwars2.com/wiki/Gift_of_Metal
-lastUpdated: "2025-06-15"
-
-acquisitions:
-  - type: mystic_forge
-    outputQuantity: 1
-    requirements:
-      - itemId: 19684
-        quantity: 250
-      - itemId: 19683
-        quantity: 250
-    metadata:
-      recipeType: mystic_forge
-
-  - type: achievement
-    achievementName: Lessons in Metallurgy
-    achievementCategory: Collections
-    outputQuantity: 1
-    requirements: []
-    metadata:
-      repeatable: false
-      timeGated: false
-```
+Each file in `data/items/` contains GW2 API item data plus all acquisition methods. See existing files for full examples.
 
 ### Output Quantity Ranges
 
-Some acquisitions produce a variable number of items (e.g., Mystic Forge promotion recipes that upgrade material tiers). These use three fields together:
+Some acquisitions produce a variable number of items (e.g., Mystic Forge promotion recipes). These use three fields together:
 
 - `outputQuantity`: The minimum output (always present, integer ≥ 1)
 - `outputQuantityMin`: Same as outputQuantity, signals this is a range (optional)
@@ -243,49 +178,9 @@ Some acquisitions produce a variable number of items (e.g., Mystic Forge promoti
 **Fixed output:** Only `outputQuantity` is present.
 **Range output:** All three fields are present.
 
-Example with variable output:
-```yaml
-- type: mystic_forge
-  outputQuantity: 40
-  outputQuantityMin: 40
-  outputQuantityMax: 200
-  requirements:
-    - itemId: 20796
-      quantity: 4
-    - itemId: 20799
-      quantity: 4
-    - itemId: 24562
-      quantity: 250
-    - itemId: 24276
-      quantity: 1
-  metadata:
-    recipeType: mystic_forge
-```
-
 ### Container Acquisitions
 
-Container acquisitions have a **required** `containerName` field and an optional `itemId` field:
-
-```yaml
-# Container with both name and resolved item ID
-- type: container
-  containerName: Chest of Legendary Armor
-  itemId: 67219
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-
-# Name-only container (world object, no item ID in API)
-- type: container
-  containerName: Mistborn Coffer
-  outputQuantity: 1
-  guaranteed: true
-  requirements: []
-  metadata: {}
-```
-
-The `containerName` is the human-readable source name. When the container exists as an item in the GW2 API, `itemId` is also populated for efficient tree traversal.
+Container acquisitions have a **required** `containerName` field and an optional `itemId` field. The `containerName` is the human-readable source name. When the container exists as an item in the GW2 API, `itemId` is also populated for efficient tree traversal.
 
 ### Requirements
 
@@ -312,116 +207,22 @@ The resolution process:
 
 ## Acquisition Types
 
-**Important**: YAML files contain only currently obtainable acquisition paths. Discontinued or historical acquisition methods (removed items, retired reward tracks, past events) are not tracked in this dataset. The focus is on methods that are actively available in the game.
+**Important**: YAML files contain only currently obtainable acquisition paths. Discontinued or historical acquisition methods (removed items, retired reward tracks, past events) are not tracked in this dataset.
 
 | Type | Description | Requirements | Key Fields |
 |------|-------------|-------------|------------|
 | `crafting` | Standard crafting at a station | Items (ingredients) | metadata: `recipeType`, `disciplines`, `minRating` |
 | `mystic_forge` | Combine 4 items in the Mystic Forge | Items (ingredients) | metadata: `recipeType` |
-| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level); metadata: `limitType`, `limitAmount`, `notes` |
+| `vendor` | Purchase from an NPC vendor | Items + currencies (cost) | `vendorName` (top-level); metadata: `limitType`, `limitAmount`, `festival`, `notes` (notes captures special conditions, e.g. required skin, rank, or event) |
 | `achievement` | Reward from completing an achievement | None | `achievementName`, `achievementCategory` (top-level); metadata: `repeatable`, `timeGated` |
-| `map_reward` | World/map completion reward | None | metadata: `rewardType`, `regionName`, `activeTimeSeconds`, `metaName`, `notes` |
-| `container` | Obtained by opening a container | None (source in `containerName` + optional `itemId`) | `containerName`, `itemId`, `guaranteed`, `choice` (all top-level) |
+| `map_reward` | World/map completion reward | None | metadata: `rewardType` (required), `regionName`, `activeTimeSeconds`, `metaName`, `notes` |
+| `container` | Obtained by opening a container or chest (including named containers in "Gathered from" sections) | None | `containerName` (required), `itemId` (optional), `guaranteed`, `choice` (all top-level) |
 | `salvage` | Extracted by salvaging another item | None (source in `itemId`) | `itemId`, `guaranteed` (both top-level) |
-| `resource_node` | Gathered from a resource node | None (source in `nodeName`) | `nodeName`, `guaranteed` (both top-level) |
-| `wvw_reward` | WvW reward track completion | None | `trackName` (top-level); metadata: `wikiUrl` |
-| `pvp_reward` | PvP reward track completion | None | `trackName` (top-level); metadata: `wikiUrl` |
+| `resource_node` | Gathered from a resource node (e.g., Rich Iron Vein, Herb Patch) | None | `nodeName`, `guaranteed` (both top-level) |
+| `wvw_reward` | WvW reward track completion | None | `trackName` (top-level); metadata: `wikiUrl`, `activeTimeSeconds`, `festival` |
+| `pvp_reward` | PvP reward track completion | None | `trackName` (top-level); metadata: `wikiUrl`, `activeTimeSeconds`, `festival` |
 | `wizards_vault` | Wizard's Vault shop | Currency (Astral Acclaim) | metadata: `limitAmount` |
 | `other` | Catch-all for edge cases (e.g., Legendary Armory) | None | metadata: `notes` (description of method) |
-
-### Vendor Notes
-
-Vendor acquisitions may include a `notes` field in metadata to capture special conditions from the wiki, such as:
-- `"Requires the skin <item name>"` - Purchase requires unlocking a specific skin first
-- `"Available after completing <achievement>"` - Vendor becomes available after an achievement
-- `"Only available during <event>"` - Seasonal or event-limited availability
-- `"Requires <rank> in <game mode>"` - WvW/PvP rank requirements
-
-These notes provide important context to users about prerequisites or restrictions for acquiring the item.
-
-### Excluded Sources
-
-**Gathering/Harvesting**: Wiki pages often include a "Gathered from" section listing gathering nodes and resource nodes (e.g., "Rich Iron Vein", "Herb Patch"). These gathering mechanics are **are tracked** as `resource_node` type acquisitions with `nodeName` set to the node's name.
-
-**Note on Containers from "Gathered from"**: Named chests, coffers, and containers in "Gathered from" sections (e.g., "Mistborn Coffer", "Exalted Chest") **are tracked** as `container` type acquisitions with `containerName` set to the container's name. These containers may or may not have GW2 API item IDs — when an ID is available, it's stored in the optional `itemId` field alongside `containerName`.
-
-## GW2 Domain Knowledge
-
-### Legendary Crafting
-
-Legendary items are the highest-tier equipment in Guild Wars 2. Each requires a deep crafting tree (5+ levels deep) of components obtained through various game activities.
-
-- **>200 legendary items**: Weapons, Armor pieces (3 weights x multiple slots x multiple sets), Trinkets, Rune, Sigil, and Relic
-- **~1,500 unique items** in the full dependency tree across all legendaries
-- Components are heavily shared (e.g., Gift of Fortune, Mystic Clovers appear in many legendaries)
-- Crafting trees mix multiple acquisition types (some components are crafted, some bought, some earned through gameplay)
-
-### Key Crafting Systems
-
-**Mystic Forge**: A special crafting station that combines exactly 4 items. Most legendary-specific components use this. Unlike standard crafting, Mystic Forge recipes have no discipline or level requirement.
-
-**Standard Crafting**: Uses crafting stations with 8 disciplines (Weaponsmith, Armorsmith, Leatherworker, Tailor, Artificer, Jeweler, Huntsman, Chef) + Scribe. Each has levels 0-500. Recipes may require specific discipline and minimum level.
-
-**Trading Post**: Player marketplace where items are bought/sold for gold. Prices fluctuate. This dataset does NOT store prices (they're dynamic), but marks items as tradable.
-
-### Currencies
-
-GW2 has many currencies beyond gold:
-
-| Category | Currencies |
-|----------|-----------|
-| General | Gold (copper/silver/gold), Karma, Spirit Shards, Laurels |
-| Raids | Magnetite Shards, Gaeting Crystals |
-| Fractals | Fractal Relics, Pristine Fractal Relics |
-| WvW | Badges of Honor, Skirmish Tickets |
-| PvP | Shards of Glory, Ascended Shards of Glory |
-| Wizard's Vault | Astral Acclaim |
-| Map-specific | Volatile Magic, Unbound Magic, Trade Contracts, many more |
-
-Currency IDs come from the GW2 API `/v2/currencies` endpoint.
-
-### Item Binding
-
-- **Account Bound**: Cannot be traded; must be obtained directly
-- **Soulbound**: Bound to the character that acquires it
-- **Unbound/Tradable**: Can be bought/sold on Trading Post
-
-Binding affects whether an item can be bought with gold (Trading Post) or must be obtained through gameplay.
-
-### Common Legendary Components
-
-These appear in many legendary crafting trees:
-
-| Item | Obtained Via |
-|------|-------------|
-| Gift of Exploration | World completion (map_reward) |
-| Gift of Battle | WvW reward track (wvw_reward) |
-| Gift of Fortune | Mystic Forge (mystic_forge) |
-| Mystic Clover | Mystic Forge with RNG (mystic_forge) |
-| Obsidian Shard | Multiple vendors for various currencies |
-| Gift of {Material} | Mystic Forge combining refined materials |
-
-### GW2 API Endpoints
-
-| Endpoint | Returns |
-|----------|---------|
-| `/v2/items/{id}` | Item name, type, rarity, icon, vendor value, flags |
-| `/v2/currencies` | Currency names and icons |
-| `/v2/items?ids=...` | Bulk item lookup (up to 200 per request) |
-
-### GW2 Wiki API
-
-The wiki uses MediaWiki API. Key endpoints:
-
-```
-# Get raw wikitext for an item
-https://wiki.guildwars2.com/api.php?action=parse&page={ItemName}&prop=wikitext&format=json
-
-# Get rendered HTML
-https://wiki.guildwars2.com/api.php?action=parse&page={ItemName}&prop=text&format=json
-```
-
-Wiki pages contain acquisition info in structured templates (`{{recipe}}`, `{{sold by}}`, `{{collection achievement}}`) and in free-text "Acquisition" sections.
 
 ## Issue-Driven Development (Linear)
 
